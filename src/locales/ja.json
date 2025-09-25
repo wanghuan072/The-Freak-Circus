@@ -1,0 +1,920 @@
+{
+  "seo": {
+    "home": {
+      "title": "The Freak Circus - thefreakcircus.org | サイコホラー ビジュアルノベル",
+      "description": "The Freak Circus を体験しよう。ピエロとハーレクインが登場するサイコホラービジュアルノベル。オンラインでプレイするか、PC、Mac、Linux にダウンロード可能。",
+      "keywords": "The Freak Circus, ビジュアルノベル, サイコホラー, ピエロ, ハーレクイン, サーカス, ホラーゲーム, インディーゲーム, thefreakcircus.org"
+    },
+    "pierrot": {
+      "title": "ピエロ キャラクター - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus の憂鬱な道化師、ピエロを紹介。彼の執着的な愛と謎めいたストーリーをこのサイコホラービジュアルノベルで知ろう。",
+      "keywords": "ピエロ, The Freak Circus, キャラクター, 道化師, 執着愛, サイコホラー, ビジュアルノベル, thefreakcircus.org"
+    },
+    "harlequin": {
+      "title": "ハーレクイン キャラクター - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus のいたずら好きなハーレクインに会おう。彼女の複雑な性格とピエロとの関係をこのホラービジュアルノベルで探求。",
+      "keywords": "ハーレクイン, The Freak Circus, キャラクター, トリックスター, サイコホラー, ビジュアルノベル, サーカス, thefreakcircus.org"
+    },
+    "wiki": {
+      "title": "The Freak Circus Wiki - ゲームガイド & ストーリー | thefreakcircus.org",
+      "description": "The Freak Circus ビジュアルノベルの完全ガイド。キャラクター、ストーリー、ゲームプレイ、そして謎めいたサーカスの世界を学ぼう。",
+      "keywords": "The Freak Circus wiki, ゲームガイド, ビジュアルノベルガイド, ストーリー, キャラクター, サーカスの世界, thefreakcircus.org"
+    },
+    "download": {
+      "title": "The Freak Circus をダウンロード - 無料ビジュアルノベル | thefreakcircus.org",
+      "description": "The Freak Circus ビジュアルノベルを無料でダウンロード。PC、Mac、Linux に対応。ピエロとハーレクインの心理ホラーストーリーを体験しよう。",
+      "keywords": "The Freak Circus ダウンロード, 無料ビジュアルノベル, PCゲーム, Macゲーム, Linuxゲーム, サイコホラー, thefreakcircus.org"
+    },
+    "updates": {
+      "title": "The Freak Circus 更新情報 - 開発ニュース | thefreakcircus.org",
+      "description": "The Freak Circus ビジュアルノベルの最新ニュースと更新情報をチェック。開発の進行状況や新コンテンツのリリース情報をフォロー。",
+      "keywords": "The Freak Circus 更新, 開発ニュース, ビジュアルノベル更新, ゲームニュース, thefreakcircus.org"
+    },
+    "about": {
+      "title": "The Freak Circus について - ゲーム情報 | thefreakcircus.org",
+      "description": "The Freak Circus ビジュアルノベルの開発や、心理ホラー体験を提供するチームについて学ぼう。",
+      "keywords": "The Freak Circus について, ゲーム情報, 開発チーム, ビジュアルノベル, thefreakcircus.org"
+    },
+    "contact": {
+      "title": "お問い合わせ - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus チームに連絡。サポート、フィードバック、ビジュアルノベルに関する問い合わせはこちらから。",
+      "keywords": "The Freak Circus お問い合わせ, サポート, フィードバック, ビジュアルノベル, thefreakcircus.org"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus のウェブサイトとビジュアルノベルに関するプライバシーポリシー。個人情報の保護方法を確認しよう。",
+      "keywords": "プライバシーポリシー, The Freak Circus, データ保護, thefreakcircus.org"
+    },
+    "terms": {
+      "title": "利用規約 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus ウェブサイトとビジュアルノベルの利用規約。規約と条件をお読みください。",
+      "keywords": "利用規約, The Freak Circus, 法的条件, thefreakcircus.org"
+    },
+    "copyright": {
+      "title": "著作権 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus ビジュアルノベルおよびウェブサイトコンテンツの著作権情報。",
+      "keywords": "著作権, The Freak Circus, 知的財産, thefreakcircus.org"
+    }
+  },
+  "nav": {
+    "home": "ホーム",
+    "characters": "キャラクター",
+    "pierrot": "ピエロ",
+    "harlequin": "ハーレクイン",
+    "wiki": "ウィキ",
+    "updates": "ビジュアルノベル更新",
+    "download": "ダウンロード"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "The Freak Circus",
+      "subtitle": "サイコホラー ビジュアルノベル",
+      "description": "現実が歪み、悪夢が生き生きと現れる世界に足を踏み入れよう。The Freak Circus は、真実と虚構の境界を揺るがす没入型サイコホラービジュアルノベルです。",
+      "playButton": "今すぐプレイ",
+      "learnButton": "詳しく知る",
+      "warning": "コンテンツ警告：このゲームには成人向けテーマ、心理的ホラー、衝撃的な描写が含まれます。18歳以上推奨。",
+      "platforms": "PC、Mac、Linux で利用可能"
+    },
+    "about": {
+      "title": "The Freak Circus とは？",
+      "description": "The Freak Circus は、登場キャラクターたちの歪んだ心の旅へと誘うサイコホラービジュアルノベルです。現実とは異なる謎めいたサーカスで、ピエロとハーレクインという二人の不思議な人物に出会い、その物語を通じて現実に対する認識が揺さぶられます。",
+      "feature1": "心理ホラー要素",
+      "feature1Desc": "深い心理的テーマを体験し、現実を問い続ける",
+      "feature2": "豊かなキャラクター描写",
+      "feature2Desc": "複雑な背景と動機を持つキャラクターに出会える",
+      "feature3": "意味のある選択",
+      "feature3Desc": "あなたの選択が物語を形作り、結末を決定する",
+      "feature4": "没入型の雰囲気",
+      "feature4Desc": "美しいビジュアルとサウンドデザインで作り込まれた世界に没入"
+    },
+    "characters": {
+      "title": "キャラクター紹介",
+      "subtitle": "The Freak Circus に登場する謎めいた人物たちを発見",
+      "pierrotName": "ピエロ",
+      "pierrotDesc": "塗られた笑顔の裏に深い感情を隠す憂鬱な道化師。愛と喪失、秘密を抱える代償の物語。",
+      "harlequinName": "ハーレクイン",
+      "harlequinDesc": "外見はいたずら好きだが、複雑な性格を持つトリックスター。ピエロとの関係が物語の中心。",
+      "learnMore": "詳しく知る"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "question1": "The Freak Circus とは何ですか？",
+      "answer1": "The Freak Circus は、ピエロとハーレクインの物語を通じて、現実、認識、人間の心理を探求するサイコホラービジュアルノベルです。",
+      "question2": "全ての年齢に適していますか？",
+      "answer2": "いいえ。The Freak Circus には成人向けテーマ、心理ホラー、衝撃的な描写が含まれます。18歳以上推奨。",
+      "question3": "対応プラットフォームは？",
+      "answer3": "PC、Mac、Linux でプレイ可能です。",
+      "question4": "プレイ時間はどのくらいですか？",
+      "answer4": "複数のストーリーラインと結末があり、選択と探索によりプレイ時間は変動します。",
+      "question5": "「サーカスの奇人」の障害は何が原因ですか？",
+      "answer5": "ゲーム内で、サーカスの出演者の状態の暗い歴史が描かれ、彼らの独特な特性のねじれた起源が物語の謎として明らかにされます。",
+      "question6": "現代のサーカスや見世物にはまだ奇人はいますか？",
+      "answer6": "現代のサーカスは大きく変化しましたが、The Freak Circus は歴史的な見世物文化に着想を得て、ダークで雰囲気のある舞台と異質性や受容のテーマを探求しています。",
+      "question7": "ピエロの身長はどのくらいですか？",
+      "answer7": "ピエロの正確な身長はゲーム内キャラクターデザインの一部であり、プレイヤーとの心理的影響を高めるために慎重に設定されています。",
+      "question8": "全てのエンディングを見るには？",
+      "answer8": "ゲーム内での選択を慎重に行うことで全てのエンディングが解放されます。各選択はピエロとハーレクインとの関係に影響し、異なるストーリー展開と結末をもたらします。",
+      "question9": "ピエロにケーキをもらう方法は？",
+      "answer9": "ピエロとの信頼関係を築くためには特定の選択とインタラクションが必要です。彼のパフォーマンスに関心を示し、好みに沿った決定をすることで特別なシーンが解放されます。",
+      "question10": "ピエロからバラをもらうには？",
+      "answer10": "バラを受け取るには関係性の進展が必要です。彼の性格を理解し、芸術性を称賛する選択をすることで特別なインタラクションが解放されます。",
+      "question11": "第2章はいつ公開されますか？",
+      "answer11": "開発チームは第2章に向けて積極的に作業中で、拡張ストーリーやキャラクターエンディングが予定されています。公式チャネルでリリース情報をチェックしてください。"
+    },
+    "cta": {
+      "title": "サーカスの世界に足を踏み入れる準備はできましたか？",
+      "subtitle": "今すぐ The Freak Circus をダウンロードして未知の旅を始めよう",
+      "downloadButton": "今すぐダウンロード",
+      "learnButton": "詳しく知る"
+    }
+  },
+  "DownloadPage": {
+    "header": {
+      "title": "The Freak Circus ダウンロード",
+      "subtitle": "The Freak Circus ビジュアルノベルを入手して、執着と謎に満ちた歪んだ世界の旅を始めよう",
+      "backToHome": "← ホームに戻る",
+      "wiki": "ウィキ",
+      "pierrot": "ピエロ",
+      "harlequin": "ハーレクイン",
+      "updates": "更新情報"
+    },
+    "main": {
+      "title": "The Freak Circus をダウンロード",
+      "description": "世界中のプレイヤーを魅了したダークな心理ビジュアルノベルを体験しよう。<a href=\"/\" class=\"content-link\">The Freak Circus</a> のダウンロードは公式プラットフォームから無料で提供され、複数プラットフォームと言語オプションに対応。",
+      "featuresTitle": "The Freak Circus ダウンロード内容：",
+      "feature1": "オリジナルアートワークと背景",
+      "feature2": "魅力的な二人のキャラクター：<a href=\"/pierrot\" class=\"content-link\">ピエロ</a> と <a href=\"/harlequin\" class=\"content-link\">ハーレクイン</a>",
+      "feature3": "複数のエンディングとストーリーパス",
+      "feature4": "英語、ポルトガル語（BR）、中国語に対応",
+      "feature5": "クロスプラットフォーム対応",
+      "downloadButton": "🎮 The Freak Circus を今すぐダウンロード",
+      "downloadDescription": "公式ダウンロードは The Freak Circus itch.io ページから"
+    },
+    "platforms": {
+      "title": "対応プラットフォーム",
+      "windows": {
+        "title": "Windows",
+        "description": "Windows 向け完全対応"
+      },
+      "macos": {
+        "title": "macOS",
+        "description": "macOS ネイティブ版対応"
+      },
+      "linux": {
+        "title": "Linux",
+        "description": "Linux 対応"
+      },
+      "web": {
+        "title": "Web ブラウザ",
+        "description": "ブラウザ上で直接プレイ可能"
+      }
+    },
+    "sidebar": {
+      "gameInfo": {
+        "title": "ゲーム情報",
+        "genre": "ジャンル：",
+        "rating": "レーティング：",
+        "price": "価格：",
+        "platform": "プラットフォーム：",
+        "languages": "言語：",
+        "genreValue": "ビジュアルノベル",
+        "ratingValue": "18+",
+        "priceValue": "無料",
+        "platformValue": "マルチプラットフォーム",
+        "languagesValue": "英語、ポルトガル語（BR）、中国語"
+      },
+      "quickLinks": {
+        "title": "クイックリンク",
+        "home": "← ホームページ",
+        "wiki": "ウィキガイド",
+        "pierrot": "ピエロ キャラクター",
+        "harlequin": "ハーレクイン キャラクター",
+        "updates": "最新更新情報"
+      },
+      "warnings": {
+        "title": "コンテンツ警告",
+        "description": "The Freak Circus ダウンロードには以下の成人向けコンテンツが含まれます：",
+        "warning1": "ヤンデレテーマ",
+        "warning2": "暗い心理要素",
+        "warning3": "強い言語表現",
+        "warning4": "暴力・ゴア描写",
+        "warning5": "成人向け状況",
+        "ageWarning": "18歳以上推奨"
+      },
+      "official": {
+        "title": "公式ソース",
+        "description": "The Freak Circus itch.io ページが唯一の公式ダウンロードソースです。詳細は <a href=\"/wiki\" class=\"content-link\">ウィキページ</a> や <a href=\"/updates\" class=\"content-link\">開発アップデート</a> を参照。",
+        "visitButton": "公式ページを見る"
+      }
+    },
+    "additional": {
+      "about": {
+        "title": "The Freak Circus ダウンロードについて",
+        "description1": "The Freak Circus のダウンロードは、心理ホラーと魅力的なキャラクター描写を組み合わせたユニークなビジュアルノベル体験を提供します。Neko Bueno によって制作され、2,000 人以上のプレイヤーから 4.9/5 星の高評価を獲得しています。<a href=\"/\" class=\"content-link\">The Freak Circus</a> の世界をもっと知ろう。",
+        "description2": "ダウンロードすると、執着とライバル関係が予期せぬ形で交差する世界に足を踏み入れます。複数のストーリーパスを探索して、サーカスの不思議なキャラクターとの異なる関係を体験できます。<a href=\"/pierrot\" class=\"content-link\">ピエロ</a> と <a href=\"/harlequin\" class=\"content-link\">ハーレクイン</a> に出会える心理スリラーです。"
+      },
+      "development": {
+        "title": "開発状況",
+        "description": "The Freak Circus は現在も開発中で、Day 2 コンテンツが制作されています。現バージョンには 1 つのバッドエンドと 3 つのオープンエンドが含まれ、将来のアップデートでさらにコンテンツが追加予定です。最新情報は <a href=\"/updates\" class=\"content-link\">ビジュアルノベル更新ページ</a> で確認できます。"
+      },
+      "community": {
+        "title": "コミュニティとサポート",
+        "description": "すでに The Freak Circus を体験した数千人のプレイヤーに参加しよう。ファンアートやファンフィクションが生まれる情熱的なコミュニティが形成されています。ゲームをダウンロードしてフィードバックを残すことで開発をサポートできます。ゲーム世界の詳細は <a href=\"/wiki\" class=\"content-link\">包括的なウィキ</a> をチェック。"
+      }
+    }
+  },
+  "PierrotPage": {
+    "header": {
+      "name": "ピエロ",
+      "subtitle": "沈黙の執着 - 『ザ・フリーク・サーカス』のピエロ",
+      "description": "ホラーサーカスの影の中で、ピエロは独特の方法であなたの注意を引きます。その沈黙は危険な執着を隠し、視線の一つひとつが言葉にできない秘密を明かします。このアーティスト、<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a>のピエロは、ビジュアルノベルコミュニティで愛されるキャラクターとなっています。"
+    },
+    "about": {
+      "title": "『ザ・フリーク・サーカス』のピエロについて",
+      "description1": "<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a>のピエロは、ビジュアルノベルの中でも最も謎めいた複雑なキャラクターの一人です。このアーティスト、ピエロは優しく無邪気で愛情にあふれ、沈黙の中でも感情を明確に表現します。感情が爆発すると直接的な暴力に訴えることさえあります。ピエロはビジュアルノベルコミュニティで愛される存在となっています。",
+      "description2": "あの可哀想な道化師を助けたとき、こんな結末になるとは思わなかったでしょう。今では背が高く、べったりとしたピエロがあなたの家に忍び込み、寝ているあなたを見守ることさえあります。このピエロの執着は、あなたが寒い冬の日にサーカスのチラシを配っていた彼を襲撃者から守った瞬間に芽生えた、瞬時で消えない執着心に始まります。",
+      "description3": "謎めいた道化師の仮面の下でも、あなたを見ると頬をわずかに赤らめることがあります。彼は独り言で「あなたを自分のものにしたい、印をつけたい、完全に自分だけのものにしたい」と囁きます。時には、寝ているあなたにキスを降り注ぎ、その優しい愛情を数えきれなくなることもあります。詳細な情報は<a href=\"/wiki\" class=\"content-link\">ピエロ・ザ・フリーク・サーカス ウィキ</a>で、このピエロのキャラクター分析をご覧ください。ウィキでは、キャラクターの成長や物語についても詳しく解説しています。最新の<a href=\"/updates\" class=\"content-link\">ビジュアルノベルのアップデート</a>をチェックして、ピエロの新しい展開を確認しましょう。"
+    },
+    "traits": {
+      "title": "『ザ・フリーク・サーカス』のピエロの性格特性",
+      "obsessiveLove": {
+        "title": "執着的な愛",
+        "description": "ピエロは、あなたが彼を守った瞬間から全てを消費するような執着を経験します。このアーティスト、ピエロはあなたの外見に関係なく愛し、その献身はあまりにも深く、たとえ自分が怪物であっても、なぜあなたが自分を愛してくれないのかと疑問に思います。彼の心理的複雑さについては、<a href=\"/wiki\" class=\"content-link\">包括的なウィキ</a>でさらに学べます。"
+      },
+      "silentSuffering": {
+        "title": "沈黙の苦悩",
+        "description": "感情が爆発すると、沈黙が続きます。彼はあなたの顔に触れようと手を伸ばすものの、思いとどまり引き下がります。これは深く愛する美しい痛みであり、胸を貫く短剣のようです。"
+      },
+      "nocturnalVisits": {
+        "title": "夜間の訪問",
+        "description": "ピエロは夜、あなたに会いに訪れ、悲しみや苛立ちを感じ、抱きしめを求めます。あなたが望むなら優しく接し、魂を捕らえた者のためなら何でもします。"
+      },
+      "emotionalTurmoil": {
+        "title": "感情の動揺",
+        "description": "彼の目は涙でいっぱいになりますが、痕跡を残さないように抑えます。そっとベッドから滑り降り、床にひざまずき、頭を垂れて立ち去ることができませんが、それでも去らねばならないと分かっています。"
+      }
+    },
+    "abilities": {
+      "title": "『ザ・フリーク・サーカス』のピエロの特殊能力",
+      "mesmerizingPerformance": {
+        "title": "魅了するパフォーマンス",
+        "description": "ピエロはパフォーマンスを終え、影と共に流れるように踊り観客を魅了しますが、その視線はあなただけに向けられています。金色の瞳は鋭く幽玄な笑みを浮かべ、あなたの承認を求めます。彼の魅了するパフォーマンスを体験するには、<a href=\"/download\" class=\"content-link\">ザ・フリーク・サーカスをダウンロード</a>してください。"
+      },
+      "emotionalControl": {
+        "title": "強烈な感情制御",
+        "description": "あなたをより強く抱きしめたい、息を荒くさせたいという強い衝動を感じますが、自制し、忍耐の必要性を強調します。そのほとんど抑えきれない興奮が伝わってきます。"
+      },
+      "devotion": {
+        "title": "揺るぎない献身",
+        "description": "ピエロはあなたを抱き続け、完全には個人的空間を尊重しませんが、奇妙な敬意を持って接し、あなた自身だけでなく、自分の存在の核心までも抱きしめているかのようです。"
+      }
+    },
+    "relationships": {
+      "title": "『ザ・フリーク・サーカス』のピエロのキャラクター関係",
+      "protagonist": {
+        "title": "主人公との関係",
+        "description": "ピエロはあなたに出会い、恋に落ち、好奇心を持つようになります。他のサーカスメンバーとの親密さを気にしませんが、あなたは居心地の悪さを感じるでしょう。ピエロはその居心地の悪さを感じ取ったのか、あるいは単にあなたに飽きたのかもしれません。時には、ピエロがあなたを非常に怒らせることもあります。"
+      },
+      "harlequin": {
+        "title": "ハーレクインとの関係",
+        "description": "ピエロと<a href=\"/harlequin\" class=\"content-link\">ハーレクイン</a>（またはアルレッキーノ）の組み合わせを見るのは非常に興奮します。彼らの関係性は歴史的なライバル関係を模倣しており、<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a>の中で緊張とドラマを生み出します。ピエロとハーレクインの関係は物語やキャラクターの相互作用に層を加え、アルレッキーノはその相互作用にさらなる複雑さをもたらします。ピエロとハーレクインのダイナミクスは物語の中心であり、アルレッキーノはライバル関係に別の視点を提供します。"
+      }
+    },
+    "gallery": {
+      "title": "『ザ・フリーク・サーカス』のピエロ キャラクターギャラリー"
+    }
+  },
+  "HarlequinPage": {
+    "header": {
+      "name": "ハーレクイン",
+      "subtitle": "誘惑のライバル - 『ザ・フリーク・サーカス』のハーレクイン",
+      "description": "サーカスの影の中で、ハーレクインは誘惑的な魅力と狡猾な知恵であなたの注意を引きます。笑顔の裏には危険が潜み、触れるたびに抗しがたい魅力を感じます。このアーティスト、<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a>のハーレクインは、ビジュアルノベルコミュニティで大きな人気を得ています。"
+    },
+    "about": {
+      "title": "『ザ・フリーク・サーカス』のハーレクインについて",
+      "description1": "<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a>のハーレクインは、その神秘的な存在感と非常に操作的な性質で知られる中心人物です。ハーレクインは混沌を楽しみ、危険な感情ゲームを演じ、他者を巧妙な欲望と策略の網に引き込みます。彼の過去は謎に包まれ、その危険な魅力を増幅させています。",
+      "description2": "このハーレクインは最初、付き合いが難しい人物でしたが、あなたが共通点を見つけます：それは辛いもの全般が好きなことです。自然に、カフェでの「友好的な」競争を通じてお互いを知ることになり、大量のホットソースや機知に富んだ会話で、このハーレクインをより深く理解することができました。最新の<a href=\"/updates\" class=\"content-link\">アップデート</a>で彼の物語の進展を確認できます。",
+      "description3": "旅するサーカスの揺れるガス灯と影の下で、新たなドラマが展開します。道化師団の偽りの笑顔と歓声の背後には、古いライバル関係や危険な過去が潜んでいます。このハーレクインは、コントロールとエンターテイメントの中で生きるパフォーマーですが、新しいメンバーの到来により、彼の世界は一変します。詳細は<a href=\"/wiki\" class=\"content-link\">ザ・フリーク・サーカス ハーレクイン ウィキ</a>で、このキャラクターの背景や動機を深く分析しています。"
+    },
+    "traits": {
+      "title": "『ザ・フリーク・サーカス』のハーレクインの性格特性",
+      "boldManipulative": {
+        "title": "大胆で操作的",
+        "description": "ハーレクインは<a href=\"/pierrot\" class=\"content-link\">ピエロ</a>よりも遥かに大胆です。一般的にトキシックで、関係が存在しなくてもトラブルを引き起こす傾向があります。彼は境界線を持たないことがあります。"
+      },
+      "socialAnxiety": {
+        "title": "社会不安と優しさ",
+        "description": "大胆な外見とは裏腹に、ハーレクインは社会不安を抱えており、独特な趣味に関心を示す優しい変人でもあります。購入する物は面白いと思ったものが多く、予期せぬチケットや不安を伴う行動が見られます。"
+      },
+      "spicyPersonality": {
+        "title": "スパイシーな性格",
+        "description": "辛いもの好きという共通点を持ち、友好的な競争やウィットに富んだ会話を通じて他者と本当に繋がろうとします。"
+      },
+      "controlEntertainment": {
+        "title": "コントロールとエンターテイメント",
+        "description": "ハーレクインは、コントロールとエンターテイメントを生きがいとするパフォーマーで、新しいメンバーの到来によって、サーカス内に新たな動態を生み出します。"
+      }
+    },
+    "abilities": {
+      "title": "『ザ・フリーク・サーカス』のハーレクインの特殊能力",
+      "chaosCreation": {
+        "title": "混沌の創造",
+        "description": "ハーレクインは混沌を楽しみ、感情の危険なゲームを演じます。関係がなくてもトラブルを引き起こすことができ、その魅力を体験するには<a href=\"/download\" class=\"content-link\">ザ・フリーク・サーカスをダウンロード</a>してください。"
+      },
+      "giftSelection": {
+        "title": "贈り物の選択",
+        "description": "ハーレクインは興味深いと思ったものを購入し、その贈り物は彼の個性と感情の表現となります。予期せぬチケットや不安を伴う行動は、彼の複雑な性格を反映しています。"
+      },
+      "circusDynamics": {
+        "title": "サーカス内の動態",
+        "description": "ハーレクインはパフォーマーとしてコントロールとエンターテイメントを重視し、<a href=\"/pierrot\" class=\"content-link\">ピエロ</a>やジェスターを知り、他のメンバーにも関心を持っています。新しいメンバーの到来により、サーカス内で新たな動態が生まれます。"
+      }
+    },
+    "giftScenario": {
+      "title": "『ザ・フリーク・サーカス』のハーレクイン 贈り物シナリオ",
+      "mainTitle": "彼は贈り物をくれる！",
+      "description": "このシナリオでは、ハーレクインはあなたの心を得るために贈り物をします。特に緑や黒の贈り物を好み、あなたに覚えてもらおうとします。これらは単なる物質的な物ではなく、彼の内面の感情と他者との独特な繋がりを表現しています。",
+      "interestingSelections": {
+        "title": "興味深い選択",
+        "description": "ハーレクインは興味深いものを選び、辛いもの好きという共通点を通じて、彼の複雑な性格を垣間見せます。"
+      },
+      "uninvitedTickets": {
+        "title": "予期せぬチケット",
+        "description": "贈り物には予期せぬチケットや不安を伴う行動が含まれ、彼の社会不安や優しい変人としての性質を反映しています。"
+      },
+      "hauntedCarnival": {
+        "title": "幽霊サーカステーマ",
+        "description": "贈り物を通じて、ハーレクインは『ザ・フリーク・サーカス』の幽霊のような雰囲気との繋がりを表現し、自身の神秘的な世界を共有します。"
+      }
+    },
+    "relationships": {
+      "title": "『ザ・フリーク・サーカス』のハーレクインのキャラクター関係",
+      "protagonist": {
+        "title": "主人公との関係",
+        "description": "ハーレクインはあなたに少し恋心を抱き、様々な手段で好意を得ようとします。あなたは道化師や同僚、あるいはランダムな関係者として自己投影できます。彼の行動は社会不安と優しい変人としての性質によって特徴付けられ、出会いごとにユニークな体験となります。"
+      },
+      "pierrotJester": {
+        "title": "ピエロ＆ジェスターとの関係",
+        "description": "ハーレクインは<a href=\"/pierrot\" class=\"content-link\">ピエロ</a>やジェスターを知っており、他のメンバーにも漠然と関心を持っています。ピエロとハーレクイン（またはアルレッキーノ）の組み合わせは歴史的なライバル関係を模倣しており、物語に深みを与えます。アルレッキーノは相互作用に独自の視点を提供し、物語の中心的要素として機能します。"
+      }
+    },
+    "gallery": {
+      "title": "『ザ・フリーク・サーカス』のハーレクイン キャラクターギャラリー"
+    }
+  },
+  "WikiPage": {
+    "header": {
+      "title": "ザ・フリーク・サーカス ウィキ",
+      "subtitle": "ザ・フリーク・サーカス ビジュアルノベル完全ガイド",
+      "backToHome": "← ホームに戻る",
+      "pierrot": "ピエロ キャラクター",
+      "harlequin": "ハーレクイン キャラクター"
+    },
+    "gameOverview": {
+      "title": "ゲーム概要",
+      "description1": "<strong><a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a></strong>は、プレイヤーを謎と執着、危険な関係で満ちた旅するサーカスの歪んだ世界に引き込む、ダーク心理ビジュアルノベルです。魅力的なストーリーテリングと成熟したテーマを組み合わせ、人間の欲望と操作の影を巡る忘れがたい旅を提供します。",
+      "description2": "<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス</a>では、プレイヤーはカフェの従業員として、普通の生活が不気味なサーカスの謎めいたパフォーマーたちと交わることで変化していく役割を担います。本作は、複雑なキャラクター関係と分岐する物語を通して、執着、ライバル関係、人間の暗い側面を探求します。",
+      "description3": "ザ・フリーク・サーカスは、成熟した内容、心理的深み、中心キャラクター間の複雑な関係性で、ビジュアルノベルジャンルの中で際立っています。複数のエンディングやキャラクタールートにより、プレイするたびに新たな物語の層が明かされます。<a href=\"/pierrot\" class=\"character-link\">ピエロ</a>と<a href=\"/harlequin\" class=\"character-link\">ハーレクイン</a>の複雑な関係を、この心理サスペンスで探求してください。"
+    },
+    "gamePremise": {
+      "title": "ゲーム前提",
+      "description1": "ザ・フリーク・サーカスの物語は、恐怖のサーカスが町に到着するところから始まります。暗い秘密と恐ろしい謎を伴ってやってくるのです。カフェの従業員として、あなたの日常は<a href=\"/pierrot\" class=\"character-link\">ピエロ</a>という沈黙のヤンデレパフォーマーと出会うことで、危険なゲームの引き金となります。",
+      "description2": "しかし、あなたはピエロの執着だけに捕らわれているわけではありません。<a href=\"/harlequin\" class=\"character-link\">ハーレクイン</a>、彼の誘惑的なライバルもこの危険なゲームに加わり、欲望、操作、心理的緊張の複雑な三角関係を作り出します。これがザ・フリーク・サーカス体験の核心です。",
+      "description3": "魅力的な笑顔やパフォーマンスに惑わされないでください。ザ・フリーク・サーカスでは、見かけ通りではなく、あなたの選択が救済か破滅かを決定する可能性があります。本作はオリジナルアート、魅力的なキャラクター、複数の分岐ストーリーラインを備え、人間心理の深淵を探求します。"
+    },
+    "currentFeatures": {
+      "title": "現在の特徴",
+      "originalArtwork": {
+        "title": "オリジナルアート＆キャラクター",
+        "description": "ザ・フリーク・サーカスには、美しく作り込まれたオリジナルアートと背景が用意されており、<a href=\"/pierrot\" class=\"character-link\">ピエロ</a>と<a href=\"/harlequin\" class=\"character-link\">ハーレクイン</a>という魅力的な2人のキャラクターが登場します。各キャラクターはその複雑な性格や動機を反映するように緻密にデザインされています。"
+      },
+      "multipleEndings": {
+        "title": "複数のエンディング＆言語対応",
+        "description": "悪いエンディング1つと3つのオープンエンディングを用意しており、今後のアップデートでさらに追加予定です。ゲームは現在、英語、ポルトガル語（BR）、中国語に対応しており、世界中のプレイヤーにアクセス可能です。新コンテンツについては<a href=\"/updates\" class=\"content-link\">開発アップデート</a>をチェックしてください。"
+      },
+      "matureThemes": {
+        "title": "ダークで成熟したテーマ",
+        "description": "ヤンデレ要素、ダークな展開、選択による物語進行を含む18+の成熟したストーリーを体験できます。ザ・フリーク・サーカスは、複雑な心理テーマと成熟した内容について警告を惜しみません。"
+      },
+      "interactiveStorytelling": {
+        "title": "インタラクティブなストーリーテリング",
+        "description": "プレイヤーの選択が物語の進行に大きく影響します。ザ・フリーク・サーカスでは、すべての決断がキャラクターの関係や物語の結果に違いを生む可能性があります。"
+      }
+    },
+    "contentWarnings": {
+      "title": "コンテンツ警告",
+      "header": {
+        "title": "⚠️ 18+ コンテンツ警告",
+        "description": "ザ・フリーク・サーカスは18歳以上推奨で、以下の内容が含まれます："
+      },
+      "psychologicalElements": {
+        "title": "心理的要素",
+        "description": "ヤンデレ要素、執着、操作、心理的緊張が中心テーマです。"
+      },
+      "darkThemes": {
+        "title": "ダークテーマ",
+        "description": "暴力、強い言葉遣い、成熟した状況を含み、すべての観客に適しているわけではありません。"
+      },
+      "characterDynamics": {
+        "title": "キャラクター間の関係",
+        "description": "所有欲、ライバル関係、感情操作を含む複雑な人間関係が物語を通じて描かれます。"
+      }
+    },
+    "developmentStatus": {
+      "title": "開発状況",
+      "description1": "ザ・フリーク・サーカスは、キャラクターの追加エンディングや拡張ストーリーラインを計画中で、プレイヤーのこの歪んだ世界への関わりをさらに深めます。開発チームは新コンテンツと改善に積極的に取り組んでいます。最新情報は<a href=\"/updates\" class=\"content-link\">進捗アップデート</a>をご確認ください。",
+      "description2": "今後のアップデートには以下が含まれます：",
+      "extendedRoutes": "<a href=\"/pierrot\" class=\"character-link\">ピエロ</a>と<a href=\"/harlequin\" class=\"character-link\">ハーレクイン</a>のキャラクタールートの拡張",
+      "additionalEndings": "新しいエンディングと物語の分岐",
+      "enhancedArtwork": "アートワークとキャラクター描写の強化",
+      "newLanguageSupport": "新しい言語サポート",
+      "improvedMechanics": "ゲームプレイとユーザーインターフェースの改善",
+      "description3": "公式チャンネルでリリース情報や開発進捗をチェックし、完全で満足できる体験を提供するザ・フリーク・サーカスの制作にご期待ください。"
+    },
+    "howToPlay": {
+      "title": "プレイ方法",
+      "description1": "ザ・フリーク・サーカスはオンラインで無料プレイ可能で、迅速かつ簡単に楽しめます。ウェブブラウザから直接アクセスでき、ダウンロードやインストールは不要です。オフラインでプレイする場合は、<a href=\"/download\" class=\"content-link\">ゲームをダウンロード</a>してください。",
+      "description2": "始めるには：",
+      "step1": "公式ザ・フリーク・サーカスサイトまたはプラットフォームにアクセス",
+      "step2": "「Play Now」ボタンをクリックして冒険を開始",
+      "step3": "キャラクターとの関係を決定する選択を行う",
+      "step4": "異なるルートを探索して全てのエンディングを発見",
+      "description3": "<a href=\"/\" class=\"play-link\">サイトのPlay Nowボタン</a>からすぐにプレイ可能、または公式ゲームサイトから開始できます。",
+      "description4": "ザ・フリーク・サーカスは、ビジュアルノベル初心者にも、成熟した心理体験を求める経験者にも対応しています。"
+    },
+    "sidebar": {
+      "quickNavigation": {
+        "title": "クイックナビゲーション",
+        "home": "← ホームページ",
+        "pierrot": "ピエロ キャラクターページ",
+        "harlequin": "ハーレクイン キャラクターページ"
+      },
+      "gameInformation": {
+        "title": "ゲーム情報",
+        "genre": "ジャンル",
+        "genreValue": "ビジュアルノベル",
+        "rating": "レーティング",
+        "ratingValue": "18+",
+        "platform": "プラットフォーム",
+        "platformValue": "ウェブブラウザ",
+        "languages": "対応言語",
+        "languagesValue": "英語、ポルトガル語（BR）、中国語",
+        "status": "開発状況",
+        "statusValue": "開発中"
+      },
+      "mainCharacters": {
+        "title": "主要キャラクター",
+        "pierrot": {
+          "name": "ピエロ",
+          "description": "沈黙のヤンデレパフォーマーで、物語の中心的な執着対象。"
+        },
+        "harlequin": {
+          "name": "ハーレクイン",
+          "description": "ピエロの誘惑的なライバルで、物語に複雑さを加えるキャラクター。"
+        }
+      }
+    }
+  },
+  "UpdatesPage": {
+    "header": {
+      "title": "ザ・フリーク・サーカス ビジュアルノベル アップデート",
+      "subtitle": "最新の開発進捗情報をチェック",
+      "backToHome": "← ホームに戻る",
+      "wiki": "ウィキ",
+      "pierrot": "ピエロ",
+      "harlequin": "ハーレクイン"
+    },
+    "updates": {
+      "almostThere": {
+        "title": "もう少し！",
+        "description1": "<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス ビジュアルノベル</a>の今月のアップデートです。リリースにもうすぐ届きます！",
+        "description2": "ビジュアルノベルの第2章はまだ15〜20％ほどのコーディングが残っており、スプライトも含まれています。その後は、音楽や効果音を追加する段階に移行します。",
+        "description3": "今回のアップデートでベータテストを行いましたが、小さな修正がまだ残っています。第2章の残り20％が最大の課題で、トランジションやスプライトが多く複雑です。",
+        "description4": "<a href=\"/pierrot\" class=\"content-link\">ピエロ</a>と<a href=\"/harlequin\" class=\"content-link\">ハーレクイン</a>に加え、Ticket Taker、Jester、Doctorも紹介されます。以前の「Missing」バッドエンドで見覚えがあるかもしれません。",
+        "description5": "今月中にアップデートとストアをリリース予定ですが、最悪の場合は来月に延期されるかもしれません。開発中のスクリーンショットをお楽しみください！"
+      },
+      "monthlyUpdate": {
+        "title": "月次アップデート！",
+        "description1": "<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス ビジュアルノベル</a>リリースから1ヶ月経過！次回アップデートの進捗報告です。",
+        "description2": "第2章の半分はすでにコーディング済みですが、新しいスプライトはまだ全て完成していません（新CGも多数含まれます）。",
+        "description3": "このアップデートはプレイ時間が少し長くなり、サーカスの他の3キャラクターについても知ることができます。",
+        "description4": "さらに、隠しシーンも追加予定で、プレイ中にアンロック可能。詳細は<a href=\"/wiki\" class=\"content-link\">ウィキページ</a>で確認できます。",
+        "description5": "選択に注意すると小さな秘密も見つけられるでしょう！"
+      },
+      "anniversary": {
+        "title": "1ヶ月記念",
+        "celebration": "ザ・フリーク・サーカス ビジュアルノベルのリリースから1ヶ月が経ちました！ 🥳",
+        "thankYou": "サポートしてくれた皆さんに感謝しつつ、いくつかのアップデートをお届けします！",
+        "dia2Title": "第2章について",
+        "dia2Description": "第2章も着実に進行中！新しいスプライトと背景がいくつか完成し、かなりの部分がコーディング済みです。",
+        "summaryTitle": "アップデート概要：",
+        "summary1": "物語は3つのエンディングから継続：ピエロに連れて行かれる2つ、そして自宅に戻る1つ。",
+        "summary2": "第2章で新しいキャラクター3名に出会えます。",
+        "summary3": "新キャラクターと同時に、<a href=\"/pierrot\" class=\"content-link\">ピエロ</a>と<a href=\"/harlequin\" class=\"content-link\">ハーレクイン</a>のシーンも増えます。",
+        "summary4": "一部スプライトはアニメーション化予定。",
+        "summary5": "ゲームメニューも新しいデザインに！",
+        "summary6": "既存プラットフォームに加え、アップデート時に<strong>Android</strong>版もリリース予定！"
+      },
+      "futureUpdates": {
+        "title": "今後のアップデート",
+        "description1": "今後のアップデートについて共有します。",
+        "description2": "第2章のスクリプトは部分的に完成済みで、新しい背景やキャラクタースプライト制作を進める予定です。アップデートで大幅なコンテンツ拡張を予定。",
+        "description3": "月次アップデートや週次の小さな進捗をSNSで公開予定。",
+        "description4": "開発の舞台裏や最初の公開情報もサポートページや<a href=\"/wiki\" class=\"content-link\">ウィキ</a>で確認可能。",
+        "description5": "昼間は仕事をしているため、自由時間で開発しています。支援者が増えればより多くの時間を確保できますが、進捗は継続します。",
+        "description6": "<strong>改めて感謝！</strong>ゲーム購入でサポートしてくれた皆さん、最新アップデートは<a href=\"/download\" class=\"content-link\">こちら</a>から。",
+        "description7": "詳細アップデートや舞台裏、初公開情報はウィキで随時公開予定です。"
+      },
+      "chineseLanguage": {
+        "title": "中国語対応",
+        "description1": "ザ・フリーク・サーカス ビジュアルノベルに中国語翻訳が追加されました！翻訳者：copiklaGrogu。感謝！",
+        "description2": "より多くのプレイヤーにキャラクターの世界を楽しんでもらえることはとても嬉しいです。ゲーム設定から言語を選択可能。",
+        "description3": "これにより、中国語話者も<a href=\"/pierrot\" class=\"content-link\">ピエロ</a>と<a href=\"/harlequin\" class=\"content-link\">ハーレクイン</a>の世界を体験できます。"
+      },
+      "pronounOptions": {
+        "title": "代名詞オプション更新",
+        "personalizationTitle": "パーソナライズ機能追加！",
+        "description1": "プレイヤーの代名詞を選択可能になり、キャラクターが呼ぶ表現をカスタマイズ可能になりました。より包括的で個別化された体験です。",
+        "description2": "今回のアップデートでは代名詞選択機能と、物語の連続性を保つための1行の台詞が追加されました。詳細は<a href=\"/wiki\" class=\"content-link\">ウィキページ</a>を確認。",
+        "englishSupportTitle": "英語サポートについて",
+        "description3": "特定状況で中立的な表現にするために台詞を一部調整しました。物語自体は変更なし。プレイヤー体験向上のための改善です。"
+      },
+      "thankYou": {
+        "title": "感謝！",
+        "gratitudeTitle": "サポートと応援ありがとうございます！",
+        "description1": "<a href=\"/\" class=\"content-link\">ザ・フリーク・サーカス ビジュアルノベル</a>を購入して応援してくれた皆さん、本当に感動です！コミュニティから素晴らしいフィードバックをいただいています。",
+        "description2": "<strong>コメントやレビューもありがとうございます！</strong>",
+        "description3": "主人公の代名詞オプション追加など改善点を既に実施し、引き続き丁寧に第2章制作に取り組んでいます。",
+        "description4": "プロットの穴を残したくないため、スクリプトには細心の注意を払っています。第2章の基盤が整い次第、アップデートをここやSNSで公開予定です。",
+        "description5": "<strong>舞台は整いました。座ってリラックスしてください。しかし私なら…食べ物は信じません。</strong>"
+      }
+    }
+  },
+  "AboutPage": {
+    "header": {
+      "title": "私たちについて",
+      "lastUpdated": "最終更新日：2025年9月24日"
+    },
+    "whoWeAre": {
+      "title": "私たちとは",
+      "description": "The Freak Circusは、コミュニティ向けに高品質なコンテンツ、ガイド、リソースを提供することに特化したプラットフォームです。私たちは情熱的なクリエイター、研究者、愛好家のチームで、正確で魅力的、かつ価値ある情報を様々な分野で提供することを目指しています。"
+    },
+    "mission": {
+      "title": "私たちのミッション",
+      "description": "私たちの使命は、信頼できる知識、実用的な戦略、コミュニティ主導の洞察を提供することでユーザーの力を引き出すことです。ゲーム、技術、ライフスタイル、クリエイティブリソースに関わらず、信頼性が高く最新のコンテンツを提供するプラットフォームとして選ばれることを目指しています。"
+    },
+    "whatWeOffer": {
+      "title": "提供内容",
+      "guides": "ガイド & チュートリアル：ユーザーが学び、成長し、問題を解決するための包括的なリソース。",
+      "updates": "最新アップデート：関連性と正確性を保つために定期的に更新されるコンテンツ。",
+      "community": "コミュニティリソース：協力、知識共有、有意義な交流のハブ。",
+      "features": "特別機能：独占的な洞察、ツール、厳選されたコンテンツを提供。"
+    },
+    "community": {
+      "title": "コミュニティへの取り組み",
+      "description": "The Freak Circusでは、コミュニティの力を重視しています。私たちのプラットフォームは、人々をつなぎ、協力を促し、誰もが学び貢献できる前向きな環境を育むことを目的としています。"
+    },
+    "qualityAssurance": {
+      "title": "品質保証",
+      "description": "正確性は私たちの活動の中心です。全てのコンテンツは、The Freak Circusに公開される前に、チームによって慎重にレビュー・検証され、最高水準を満たしていることを保証します。"
+    },
+    "regularUpdates": {
+      "title": "定期的な更新",
+      "description": "業界の変化、コミュニティのニーズ、ユーザーのフィードバックに対応するため、リソースを頻繁に更新しています。これにより、常に最も関連性が高く価値ある情報を提供できます。"
+    },
+    "contactUs": {
+      "title": "お問い合わせ",
+      "description": "ご質問やご提案、フィードバックは大歓迎です！<a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>までご連絡ください。できるだけ早く返信いたします。"
+    },
+    "joinCommunity": {
+      "title": "コミュニティに参加",
+      "description": "The Freak Circusの更新をフォローし、コミュニティに参加してつながりを保ちましょう。共に、より強く、より知識豊かで、よりサポート力のある空間を作り上げていきましょう。"
+    },
+    "commitment": {
+      "title": "私たちの約束",
+      "description": "私たちは、公開する全ての情報において高い品質、誠実さ、透明性を維持することにコミットしています。チームは情報の検証、リソースの更新、プラットフォームの信頼性とユーザー重視を継続的に行っています。"
+    }
+  },
+  "ContactPage": {
+    "header": {
+      "title": "お問い合わせ",
+      "lastUpdated": "最終更新日：2025年9月24日"
+    },
+    "getInTouch": {
+      "title": "ご連絡ください",
+      "description": "ご質問やサービスについてのご意見、改善提案、単に挨拶したい場合でも、私たちは皆様の声をお待ちしています。"
+    },
+    "contactInformation": {
+      "title": "連絡先情報",
+      "email": "<strong>メール：</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "responseTime": "通常24時間以内にご返信いたします。"
+    },
+    "responseTime": {
+      "title": "返信時間",
+      "weekdays": "月曜日～金曜日",
+      "weekdaysTime": "24時間以内",
+      "weekends": "週末",
+      "weekendsTime": "48時間以内"
+    },
+    "whatWeCanHelpWith": {
+      "title": "対応可能な内容",
+      "accountIssues": "アカウントやアクセスの問題",
+      "accountIssuesDesc": "ログイン、会員登録、サブスクリプションの問題に対応",
+      "websiteFeedback": "ウェブサイトのフィードバック",
+      "websiteFeedbackDesc": "The Freak Circus改善の提案",
+      "contentRequests": "コンテンツのリクエスト",
+      "contentRequestsDesc": "新しい記事、ガイド、リソースのアイデア",
+      "technicalSupport": "技術サポート",
+      "technicalSupportDesc": "サイト機能に関する支援",
+      "partnershipInquiries": "提携のお問い合わせ",
+      "partnershipInquiriesDesc": "コラボレーションの機会について",
+      "generalQuestions": "一般的な質問",
+      "generalQuestionsDesc": "The Freak Circusや当サービスに関連するその他の質問"
+    },
+    "beforeYouContactUs": {
+      "title": "お問い合わせ前に",
+      "description": "最適なサポートを提供するため、メールには以下の情報を含めてください：",
+      "specificQuestion": "具体的な質問や問題",
+      "errorMessages": "エラーメッセージ（該当する場合）",
+      "stepsTried": "既に試した手順",
+      "deviceInfo": "使用デバイスやブラウザ情報（該当する場合）"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "contentUpdate": {
+        "question": "コンテンツはどのくらいの頻度で更新されますか？",
+        "answer": "コンテンツは定期的に更新され、正確性と新鮮さを保っています。"
+      },
+      "contentSafety": {
+        "question": "提供される情報は安全で信頼できますか？",
+        "answer": "はい、全ての情報は責任を持って検証・確認済みです。"
+      },
+      "suggestContent": {
+        "question": "新しいコンテンツを提案できますか？",
+        "answer": "もちろんです！アイデアや提案は大歓迎です。ぜひお送りください。"
+      }
+    },
+    "businessHours": {
+      "title": "営業時間",
+      "description": "当チームは月～金曜日、午前9時～午後6時（EST）に対応しています。営業時間外でも対応する場合がありますが、週末や祝日は返信に24～48時間かかる場合があります。"
+    },
+    "privacy": {
+      "title": "プライバシー",
+      "description": "お客様のプライバシーを尊重し、個人情報を第三者に共有することはありません。すべての通信は機密として扱い、最良のサービス提供のみに使用されます。"
+    },
+    "thankYou": {
+      "title": "感謝",
+      "description": "The Freak Circusコミュニティの一員でいてくださりありがとうございます！皆様のフィードバックとサポートが、世界中のユーザーに最高の体験を提供し続ける力となります。"
+    }
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "心理的ホラーのビジュアルノベル体験",
+    "quickLinksTitle": "クイックリンク",
+    "quickLinksHome": "ホーム",
+    "quickLinksPierrot": "ピエロ",
+    "quickLinksHarlequin": "ハーレクイン",
+    "quickLinksWiki": "ウィキ",
+    "quickLinksUpdates": "アップデート",
+    "quickLinksDownload": "ダウンロード",
+    "legalTitle": "法的情報",
+    "legalPrivacy": "プライバシーポリシー",
+    "legalTerms": "利用規約",
+    "legalCopyright": "著作権",
+    "legalAbout": "私たちについて",
+    "legalContact": "お問い合わせ",
+    "disclaimer": "このウェブサイトはゲーム愛好者による個人の非公式ファンサイトであり、オリジナルゲーム開発者とは関係ありません。コンテンツは教育および娯楽目的で提供されます。情報は各自で確認してください。本サイトはコンテンツの正確性を保証せず、法的責任を負いません。"
+  },
+  "CopyrightPage": {
+    "header": {
+      "title": "著作権",
+      "lastUpdated": "最終更新日：2025年9月24日"
+    },
+    "copyrightStatement": {
+      "title": "著作権声明",
+      "description": "<strong>The Freak Circus</strong>の全てのコンテンツ（テキスト、グラフィック、画像、動画、ソフトウェア等を含む）は、<strong>The Freak Circus</strong>の所有物であり、国際的な著作権法により保護されています。無断での使用、複製、配布は固く禁止されています。"
+    },
+    "whatWeOwn": {
+      "title": "当社の所有物",
+      "originalContent": "オリジナルコンテンツ",
+      "originalContentDesc": "当チームが作成した全ての文章コンテンツ、ガイド、チュートリアル、レビュー。",
+      "websiteDesign": "ウェブサイトデザイン",
+      "websiteDesignDesc": "レイアウト、スタイリング、ユーザーインターフェース、ウェブサイト全体のデザイン要素。",
+      "originalImages": "オリジナル画像",
+      "originalImagesDesc": "本ウェブサイト専用に作成された写真、スクリーンショット、グラフィック。",
+      "codeSoftware": "コード & ソフトウェア",
+      "codeSoftwareDesc": "ウェブサイトコード、スクリプト、プラットフォーム用に開発されたソフトウェア。"
+    },
+    "thirdPartyContent": {
+      "title": "第三者コンテンツ",
+      "description": "私たちは他者の知的財産権を尊重しています。当サイトの一部コンテンツには、<strong>The Freak Circus</strong>に関連する参照、画像、情報が含まれる場合がありますが、それらはそれぞれの所有者に帰属します。"
+    },
+    "fairUsePolicy": {
+      "title": "フェアユースポリシー",
+      "description": "教育、研究、個人的な目的でのコンテンツの公正利用を支持します。ただし、商業目的での使用には明示的な許可が必要です。",
+      "allowedUses": "許可される使用",
+      "personalStudy": "個人的な学習・研究",
+      "educational": "教育目的",
+      "nonCommercial": "非商業的な共有",
+      "criticism": "批評・コメント",
+      "restrictedUses": "制限される使用",
+      "commercialReproduction": "商業的複製",
+      "massDistribution": "大量配布",
+      "modification": "許可なしの改変",
+      "removalAttribution": "帰属表示の削除"
+    },
+    "dmcaCompliance": {
+      "title": "DMCA準拠",
+      "description": "当社はデジタルミレニアム著作権法（DMCA）に準拠しています。著作権が無断で使用されたと思われる場合は、直ちにご連絡ください。",
+      "requirements": "DMCA削除通知を提出するには、以下を含めてください：",
+      "specificDetails": "著作権保護対象の具体的な詳細",
+      "proofOwnership": "権利所有の証明",
+      "formalNotice": "当社指定代理人への正式なDMCA削除通知"
+    },
+    "attributionRequirements": {
+      "title": "帰属要件",
+      "description": "フェアユースまたは許可を受けてコンテンツを使用する場合は、適切な帰属表示が必要です。"
+    },
+    "licenseRequests": {
+      "title": "ライセンス申請",
+      "description": "商業利用、ライセンス取得、その他の許可については、具体的な申請内容とともにご連絡ください。",
+      "requirements": "申請内容には以下を含めてください：",
+      "specificContent": "使用したい具体的コンテンツ",
+      "intendedPurpose": "使用目的と対象",
+      "duration": "使用期間",
+      "contactInfo": "連絡先情報"
+    },
+    "contactInformation": {
+      "title": "連絡先情報",
+      "email": "メール：contact@thefreakcircus.com"
+    },
+    "updatesToCopyrightNotice": {
+      "title": "著作権通知の更新",
+      "description1": "この著作権通知は定期的に更新される場合があります。最新のバージョンは常にこのページでご確認いただけます。当サイトの継続利用は、変更内容の承諾を意味します。",
+      "description2": "著作権ポリシーの更新については、このページを定期的にご確認ください。"
+    }
+  },
+  "PrivacyPolicyPage": {
+    "header": {
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日：2025年9月24日"
+    },
+    "generalInformation": {
+      "title": "一般情報",
+      "description1": "<strong>The Freak Circus</strong>では、ウェブサイトおよびアプリのすべてのユーザーのプライバシー保護に努めています。本プライバシーポリシーは、<strong>The Freak Circus</strong>が提供するすべてのサービスおよび製品に適用されます。本サイトの利用により、本ポリシーに同意し、法的に同意できる年齢であることを確認したものとみなされます。ポリシー変更後も本サイトを継続して使用することで、変更に同意したものとみなされます。",
+      "description2": "本サイトは16歳以上の訪問者を対象としています。16歳未満の場合は、本サイトを使用しないでください。保護者が子供のアクセスを許可した場合は、保護者が本ポリシーに同意したものとみなされます。",
+      "description3": "本プライバシーポリシーに関する質問は、<a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>までご連絡ください。"
+    },
+    "dataCollection": {
+      "title": "収集するデータ",
+      "dataYouProvide": {
+        "title": "ユーザー提供データ",
+        "description": "ユーザーが自発的に提供する個人データのみを処理します（フォーム入力やお問い合わせ時など）。これには以下が含まれる場合があります：",
+        "name": "氏名",
+        "email": "メールアドレス",
+        "otherInfo": "その他ユーザーが提供する情報"
+      },
+      "dataCollectedAutomatically": {
+        "title": "自動収集データ",
+        "description": "訪問時に自動的に収集される場合があるデータ：",
+        "ipAddress": "IPアドレス（不正防止、分析、位置情報機能のため）",
+        "browserType": "ブラウザの種類とバージョン",
+        "referringPage": "参照元ページまたはサイト",
+        "deviceIdentifiers": "デバイス識別子（モバイルID含む）",
+        "cookieData": "クッキーおよびトラッキングデータ",
+        "userInteraction": "ユーザーの操作データ（広告閲覧・クリック情報など）"
+      },
+      "thirdPartyData": {
+        "title": "第三者データ",
+        "description": "第三者から個人データを受け取る場合、必要に応じてユーザーに通知します。"
+      }
+    },
+    "whyWeCollectData": {
+      "title": "データ収集の目的と法的根拠",
+      "description": "以下を含む目的で個人データを収集・処理します：",
+      "providingServices": "サービスやコンテンツの提供、改善、最適化",
+      "contractualObligations": "契約上の義務履行",
+      "marketingCommunications": "更新情報、ニュースレター、マーケティングコミュニケーションの送信（許可がある場合）",
+      "statisticalAnalysis": "統計分析および研究",
+      "legalCompliance": "法的義務の遵守（年齢確認等）",
+      "legalBases": "処理の法的根拠には、ユーザーの同意、契約履行、正当な利益、法的義務の遵守などが含まれます。",
+      "note": "<em>注意：</em>広告主や第三者サービスは独自のクッキーやトラッキング技術でデータを収集する場合があります。<strong>The Freak Circus</strong>は第三者のデータ収集には責任を負いません。"
+    },
+    "dataRetention": {
+      "title": "データ保持",
+      "description": "個人データは、本ポリシーで説明された目的を達成するために必要な期間のみ保持されます。非アクティブなアカウントや訪問者に関連するデータは、合理的な非アクティブ期間後に削除される場合があります。ただし、法的義務や正当な事業上の理由により保持が必要な場合は除きます。"
+    },
+    "gdprRights": {
+      "title": "GDPRとユーザーの権利（EEA居住者）",
+      "description": "欧州経済領域（EEA）居住者は、個人データに関して以下の権利があります：",
+      "accessUpdateDelete": "個人データへのアクセス、更新、削除の権利",
+      "rectification": "不正確な情報の修正権",
+      "objectToProcessing": "処理への異議申し立て権",
+      "restrictProcessing": "処理制限権",
+      "dataPortability": "データポータビリティ権",
+      "withdrawConsent": "同意に基づく処理の同意撤回権",
+      "verification": "リクエストを実行する前に本人確認を求める場合があります。詳細は地元のデータ保護機関にお問い合わせください。"
+    },
+    "yourRights": {
+      "title": "ユーザーの権利と通信設定",
+      "description1": "マーケティングコミュニケーションの受信を停止する場合は、<a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>までご連絡いただくか、通信内の配信停止手順に従ってください。個人情報の訂正、削除、処理制限のリクエストを行う場合は、理由を明確に記載してください。迅速な確認と対応に役立ちます。",
+      "description2": "リクエストには、適用法に従い合理的な期間内に対応します。"
+    },
+    "cookies": {
+      "title": "クッキー",
+      "whatAreCookies": {
+        "title": "クッキーとは？",
+        "description": "クッキーは、ユーザーの設定を記憶し、サイト利用体験を向上させるためにデバイスに保存される小さなファイルです。ウェブビーコンは、ユーザー行動を追跡するために使用される小さく透明な画像です。"
+      },
+      "typesOfCookies": {
+        "title": "クッキーの種類",
+        "firstParty": "<strong>ファーストパーティクッキー</strong>：本サイトが設置し、技術的機能（言語設定、セッション管理など）をサポートします。",
+        "thirdParty": "<strong>サードパーティクッキー</strong>：外部プロバイダーが設置し、サイト横断的な行動追跡や分析・広告サービスに使用されます。"
+      },
+      "whichCookiesWeUse": {
+        "title": "使用するクッキー",
+        "description": "<strong>The Freak Circus</strong>は、サイトの利便性向上のためにファーストパーティクッキーを使用し、Google Analyticsや広告パートナーなどのサードパーティクッキーによる分析・広告サービスを許可する場合があります。サイト機能に必要なクッキーは同意不要ですが、その他のクッキーはユーザーの許可が必要な場合があります。"
+      },
+      "howToManage": {
+        "title": "クッキーの管理方法",
+        "description": "ブラウザの設定でクッキーを管理または無効化できます。クッキーのブロックや削除の方法については、Chrome、Firefox、Safari、Edge/Internet Explorer、Operaなどのブラウザサポート情報を参照してください。"
+      }
+    },
+    "securityMeasures": {
+      "title": "セキュリティ対策",
+      "description": "個人データを保護し、許可された担当者のみがアクセスできるよう、合理的な技術的・組織的対策を実施しています。個人データを販売または貸与することはありません。外部処理者を利用する場合は、契約によりデータ保護と安全な処理が義務付けられ、作業完了後は削除されます。"
+    },
+    "contactInformation": {
+      "title": "連絡先情報",
+      "description": "本プライバシーポリシーに関する質問や懸念がある場合は、以下までご連絡ください：",
+      "email": "メール：<a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "website": "ウェブサイト：<a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
+    }
+  },
+  "TermsOfServicePage": {
+    "header": {
+      "title": "利用規約",
+      "lastUpdated": "最終更新日：2025年9月24日"
+    },
+    "generalInformation": {
+      "title": "一般情報",
+      "description1": "以下の利用規約（以下「本契約」）は重要であり、注意深くお読みいただく必要があります。本「利用規約」に同意することで、これらの条件に拘束されることに同意したものとみなされます。本契約は、あなたと <strong>The Freak Circus</strong>（以下「当サイト」、「当社」、「私たち」または「当社の」）との間で締結され、当サイトおよびその提供する資料やサービス、ならびに後継サイト（以下「本サイト」）の利用に適用されます。",
+      "description2": "<strong>本サイトを利用することで、あなたは本利用規約に同意し、16歳以上であることを確認したものとみなされます。</strong>本契約における「あなた」または「あなたの」との記述は、本サイトを利用する個人を指します。",
+      "description3": "本契約には、第11節で説明される強制仲裁条項が含まれています。この条項により、紛争解決は陪審員裁判、法廷手続き、集団訴訟ではなく、個別の仲裁によって行われます。必ずこの条項を注意深く確認してください。"
+    },
+    "changes": {
+      "title": "変更",
+      "description": "本契約は定期的に改定される場合があり、改定内容は本サイト上での掲示など合理的な手段で通知されます。改定前に発生した紛争には変更は適用されません。改定後に本サイトを利用することで、改定された規約に同意したものとみなされます。継続利用は変更の承諾を意味します。当社は、サイト全体または一部の変更・中止、料金の調整・免除、特定のユーザーへの特別提供をいつでも行う権利を有し、責任を負いません。"
+    },
+    "informationSubmitted": {
+      "title": "サイトを通じて提供される情報",
+      "description1": "サイトを通じて提供される情報は、<a href='/privacy-policy' target='_blank' rel='noopener'>プライバシーポリシー</a>に従います。本サイトを利用することで、プライバシーポリシーを確認・同意したものとみなされます。",
+      "description2": "提供するすべての情報が正確かつ完全であることを確認し、維持・更新することに同意します。本契約とプライバシーポリシーの間で個人データに関する矛盾が生じた場合、プライバシーポリシーが優先されます。"
+    },
+    "jurisdictionalIssues": {
+      "title": "管轄問題",
+      "description": "本サイトは欧州経済領域内で管理・運営されており、当社をこの領域外の管轄に服させる意図はありません。本サイトはすべての場所で適切またはアクセス可能であるとは限りません。本サイトを利用することで、すべてのリスクを負い、適用法を遵守する責任を負うものとします。当社は、任意の人物、地域、管轄に対して、本サイトへのアクセスを全部または一部制限する権利を有します。"
+    },
+    "rulesOfConduct": {
+      "title": "行動規範",
+      "threateningMaterial": "脅迫的、嫌がらせ、中傷的、わいせつ、違法、または他者の権利を侵害する内容を投稿・送信してはなりません。",
+      "unauthorizedUse": "無許可の商業的、詐欺的、違法目的で本サイトを使用してはなりません。",
+      "collectInformation": "プライバシーポリシーで許可された場合を除き、ユーザー情報を収集してはなりません。",
+      "interfereDisrupt": "サイトやサーバー、ネットワークの運営を妨害してはなりません。",
+      "restrictInhibit": "他者のサイト利用を制限・妨げてはなりません。",
+      "reproduceModify": "当社の書面による事前許可なく、サイトの一部を複製、改変、販売、配布、または利用してはなりません。",
+      "reverseEngineer": "法律で禁止されていない場合を除き、リバースエンジニアリングや逆コンパイルを行ってはなりません。",
+      "removeNotices": "著作権または商標表示を削除してはなりません。",
+      "frameMirror": "許可なくフレーム、ミラーリング、体系的なダウンロードを行ってはなりません。",
+      "botsSpiders": "許可なくボット、スパイダー、スクレイパーなどを使用してはなりません。",
+      "responsibleCosts": "本サイト利用に必要なハードウェア、インターネット、サービス費用は自己負担です。"
+    },
+    "monitoring": {
+      "title": "監視",
+      "description": "当社は、サイトに投稿されたコンテンツを監視、評価、削除する場合がありますが、義務ではありません。使用状況の分析や情報開示は、法律およびプライバシーポリシーに従って行います。"
+    },
+    "thirdPartyMaterials": {
+      "title": "第三者コンテンツおよびリンク",
+      "description1": "本サイトは、第三者のコンテンツ、製品、サービス、広告、プロモーションへのアクセスを提供する場合があります。当社は第三者コンテンツを管理・保証せず、その正確性、合法性、安全性について責任を負いません。",
+      "description2": "<strong>第三者コンテンツの使用は自己責任</strong>であり、各第三者の利用規約および方針に従うものとします。"
+    },
+    "disclaimerOfWarranties": {
+      "title": "保証の否認",
+      "description1": "法律で許容される最大範囲で、(A) 本サイトおよびすべての製品や第三者コンテンツは「現状のまま」「現存する範囲で」「利用可能な範囲で」提供され、いかなる保証もありません。(B) <strong>The Freak Circus</strong>は、商品性、特定目的への適合性、権利非侵害、権利所有に関する保証を含むすべての保証を否認します。",
+      "description2": "正確性や安全性に努めていますが、本サイトが常に正確で安全かつ中断されないことを保証するものではありません。不正な改変を発見した場合は、<a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>までご連絡ください。"
+    },
+    "filtering": {
+      "title": "フィルタリング",
+      "description": "有害なコンテンツへのアクセスを制限するためのペアレンタルコントロールがあります。詳細は<a href='https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers' target='_blank' rel='noopener'>こちら</a>をご参照ください。当社は記載された製品やサービスを推奨するものではありません。"
+    },
+    "copyrightInfringementClaims": {
+      "title": "著作権侵害の申し立て",
+      "description": "サイト上の素材が著作権を侵害していると思われる場合、削除を求める通知を送信できます。誤って申し立てられた場合は、反通知を送信できます。通知提出前に法律の助言を受けることを推奨します。連絡先：<a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>。"
+    },
+    "miscellaneous": {
+      "title": "その他",
+      "description1": "本契約は、あなたと <strong>The Freak Circus</strong>との間にパートナーシップ、合弁事業、雇用、代理関係を生じさせるものではありません。いずれかの条項が執行不能な場合、その条項は削除され、残りの条項に影響はありません。",
+      "description2": "あなたは当社の同意なしに権利や義務を譲渡できませんが、当社は制限なく譲渡することができます。いかなる条項を強制しなかった場合でも、後日強制する権利は放棄されません。本契約は、組み込まれた条件と合わせ、あなたと <strong>The Freak Circus</strong>との間の完全な合意を構成し、以前のすべての合意に優先します。通知は、メール、郵送、またはサイト掲示で行うことができます。不可抗力による履行不能について、当社は責任を負いません。"
+    }
+  }
+}

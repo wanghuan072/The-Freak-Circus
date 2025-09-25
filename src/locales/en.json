@@ -1,0 +1,920 @@
+{
+  "seo": {
+    "home": {
+      "title": "The Freak Circus - thefreakcircus.org | Psychological Horror Visual Novel",
+      "description": "Experience The Freak Circus, a psychological horror visual novel featuring Pierrot and Harlequin. Play online or download for PC, Mac, and Linux.",
+      "keywords": "The Freak Circus, visual novel, psychological horror, Pierrot, Harlequin, circus, horror game, indie game, thefreakcircus.org"
+    },
+    "pierrot": {
+      "title": "Pierrot Character - The Freak Circus | thefreakcircus.org",
+      "description": "Discover Pierrot, the melancholic clown from The Freak Circus. Learn about his obsessive love and mysterious story in this psychological horror visual novel.",
+      "keywords": "Pierrot, The Freak Circus, character, clown, obsessive love, psychological horror, visual novel, thefreakcircus.org"
+    },
+    "harlequin": {
+      "title": "Harlequin Character - The Freak Circus | thefreakcircus.org",
+      "description": "Meet Harlequin, the mischievous trickster from The Freak Circus. Explore her complex personality and relationship with Pierrot in this horror visual novel.",
+      "keywords": "Harlequin, The Freak Circus, character, trickster, psychological horror, visual novel, circus, thefreakcircus.org"
+    },
+    "wiki": {
+      "title": "The Freak Circus Wiki - Game Guide & Story | thefreakcircus.org",
+      "description": "Complete guide to The Freak Circus visual novel. Learn about characters, story, gameplay, and the mysterious circus world.",
+      "keywords": "The Freak Circus wiki, game guide, visual novel guide, story, characters, circus world, thefreakcircus.org"
+    },
+    "download": {
+      "title": "Download The Freak Circus - Free Visual Novel | thefreakcircus.org",
+      "description": "Download The Freak Circus visual novel for free. Available for PC, Mac, and Linux. Experience the psychological horror story of Pierrot and Harlequin.",
+      "keywords": "download The Freak Circus, free visual novel, PC game, Mac game, Linux game, psychological horror, thefreakcircus.org"
+    },
+    "updates": {
+      "title": "The Freak Circus Updates - Development News | thefreakcircus.org",
+      "description": "Stay updated with the latest news and updates for The Freak Circus visual novel. Follow development progress and new content releases.",
+      "keywords": "The Freak Circus updates, development news, visual novel updates, game news, thefreakcircus.org"
+    },
+    "about": {
+      "title": "About The Freak Circus - Game Information | thefreakcircus.org",
+      "description": "Learn about The Freak Circus visual novel, its development, and the team behind this psychological horror experience.",
+      "keywords": "about The Freak Circus, game information, development team, visual novel, thefreakcircus.org"
+    },
+    "contact": {
+      "title": "Contact Us - The Freak Circus | thefreakcircus.org",
+      "description": "Get in touch with The Freak Circus team. Contact us for support, feedback, or inquiries about the visual novel.",
+      "keywords": "contact The Freak Circus, support, feedback, visual novel, thefreakcircus.org"
+    },
+    "privacy": {
+      "title": "Privacy Policy - The Freak Circus | thefreakcircus.org",
+      "description": "Privacy policy for The Freak Circus website and visual novel. Learn how we protect your personal information.",
+      "keywords": "privacy policy, The Freak Circus, data protection, thefreakcircus.org"
+    },
+    "terms": {
+      "title": "Terms of Service - The Freak Circus | thefreakcircus.org",
+      "description": "Terms of service for The Freak Circus website and visual novel. Read our terms and conditions.",
+      "keywords": "terms of service, The Freak Circus, legal terms, thefreakcircus.org"
+    },
+    "copyright": {
+      "title": "Copyright - The Freak Circus | thefreakcircus.org",
+      "description": "Copyright information for The Freak Circus visual novel and website content.",
+      "keywords": "copyright, The Freak Circus, intellectual property, thefreakcircus.org"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "characters": "Characters",
+    "pierrot": "Pierrot",
+    "harlequin": "Harlequin",
+    "wiki": "Wiki",
+    "updates": "Visual Novel Updates",
+    "download": "Download"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "The Freak Circus",
+      "subtitle": "A Psychological Horror Visual Novel",
+      "description": "Step into a world where reality bends and nightmares come alive. The Freak Circus is an immersive psychological horror visual novel that will challenge your perception of truth and fiction.",
+      "playButton": "Play Now",
+      "learnButton": "Learn More",
+      "warning": "Content Warning: This game contains mature themes, psychological horror, and disturbing imagery. Recommended for ages 18+.",
+      "platforms": "Available on PC, Mac, and Linux"
+    },
+    "about": {
+      "title": "What is The Freak Circus?",
+      "description": "The Freak Circus is a psychological horror visual novel that takes you on a journey through the twisted minds of its characters. Set in a mysterious circus where nothing is as it seems, you'll encounter Pierrot and Harlequin - two enigmatic figures whose stories will challenge everything you think you know about reality.",
+      "feature1": "Psychological Horror Elements",
+      "feature1Desc": "Experience deep psychological themes that will keep you questioning reality",
+      "feature2": "Rich Character Development",
+      "feature2Desc": "Meet complex characters with intricate backstories and motivations",
+      "feature3": "Meaningful Choices",
+      "feature3Desc": "Your decisions will shape the narrative and determine the outcome",
+      "feature4": "Immersive Atmosphere",
+      "feature4Desc": "Dive into a carefully crafted world with stunning visuals and sound design"
+    },
+    "characters": {
+      "title": "Meet the Characters",
+      "subtitle": "Discover the enigmatic figures that inhabit The Freak Circus",
+      "pierrotName": "Pierrot",
+      "pierrotDesc": "The melancholic clown who hides deep emotions behind a painted smile. His story is one of love, loss, and the price of keeping secrets.",
+      "harlequinName": "Harlequin",
+      "harlequinDesc": "The mischievous trickster whose playful exterior masks a complex personality. Her relationship with Pierrot forms the heart of the story.",
+      "learnMore": "Learn More"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "question1": "What is The Freak Circus?",
+      "answer1": "The Freak Circus is a psychological horror visual novel that explores themes of reality, perception, and the human psyche through the stories of Pierrot and Harlequin.",
+      "question2": "Is the game suitable for all ages?",
+      "answer2": "No, The Freak Circus contains mature themes, psychological horror, and disturbing imagery. It is recommended for ages 18 and above.",
+      "question3": "What platforms is the game available on?",
+      "answer3": "The game is currently available on PC, Mac, and Linux platforms.",
+      "question4": "How long is the game?",
+      "answer4": "The game offers multiple storylines and endings, with playtime varying based on your choices and exploration.",
+      "question5": "What caused the \"circus freaks\" disabilities?",
+      "answer5": "The Freak Circus game explores the dark history behind the circus performers' conditions through its narrative, revealing the twisted origins of their unique characteristics as part of the story's mystery elements.",
+      "question6": "Do fairs, circus and sideshows still have freaks in them?",
+      "answer6": "While modern circuses have evolved significantly, The Freak Circus draws inspiration from historical sideshow traditions to create its dark, atmospheric setting and explore themes of otherness and acceptance.",
+      "question7": "How tall is Pierrot in The Freak Circus?",
+      "answer7": "Pierrot's exact height is part of The Freak Circus game's character design, with his physical presence being carefully crafted to enhance the psychological impact of his character and interactions with the player.",
+      "question8": "How to get all the endings in The Freak Circus?",
+      "answer8": "To unlock all endings in The Freak Circus, carefully consider your choices throughout the game. Each decision affects your relationship with Pierrot and Harlequin, leading to different story paths and outcomes.",
+      "question9": "How to get Pierrot in The Freak Circus to give you cake?",
+      "answer9": "Building trust with Pierrot in The Freak Circus requires specific choices and interactions. Show genuine interest in his performances and make decisions that align with his preferences to unlock special scenes and interactions.",
+      "question10": "How to getting a roses off Pierrot of the freaks circus?",
+      "answer10": "Receiving roses from Pierrot is tied to your relationship progression. Make choices that demonstrate your understanding of his character and show appreciation for his artistic nature to unlock this special interaction.",
+      "question11": "When will chapter 2 of The Freak Circus come out?",
+      "answer11": "The development team is actively working on Chapter 2, with new content including extended storylines and character endings planned. Stay updated through official channels for release announcements and development progress."
+    },
+    "cta": {
+      "title": "Ready to Enter the Circus?",
+      "subtitle": "Download The Freak Circus now and begin your journey into the unknown",
+      "downloadButton": "Download Now",
+      "learnButton": "Learn More"
+    }
+  },
+  "DownloadPage": {
+    "header": {
+      "title": "The Freak Circus Download",
+      "subtitle": "Get The Freak Circus visual novel and start your journey into the twisted world of obsession and mystery",
+      "backToHome": "← Back to Home",
+      "wiki": "Wiki",
+      "pierrot": "Pierrot",
+      "harlequin": "Harlequin",
+      "updates": "Updates"
+    },
+    "main": {
+      "title": "Download The Freak Circus",
+      "description": "Experience the dark psychological visual novel that has captivated players worldwide. <a href=\"/\" class=\"content-link\">The Freak Circus</a> download is available for free on the official platform, offering multiple platform support and language options.",
+      "featuresTitle": "What's Included in The Freak Circus Download:",
+      "feature1": "Original artwork and backgrounds",
+      "feature2": "Two compelling characters: <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>",
+      "feature3": "Multiple endings and story paths",
+      "feature4": "Available in English, Portuguese (BR), and Chinese",
+      "feature5": "Cross-platform compatibility",
+      "downloadButton": "🎮 Download The Freak Circus Now",
+      "downloadDescription": "Visit The Freak Circus itch.io page for the official download"
+    },
+    "platforms": {
+      "title": "Platform Support",
+      "windows": {
+        "title": "Windows",
+        "description": "Full Windows support for The Freak Circus download"
+      },
+      "macos": {
+        "title": "macOS",
+        "description": "Native macOS version available"
+      },
+      "linux": {
+        "title": "Linux",
+        "description": "Linux compatibility included"
+      },
+      "web": {
+        "title": "Web Browser",
+        "description": "Play directly in your browser"
+      }
+    },
+    "sidebar": {
+      "gameInfo": {
+        "title": "Game Information",
+        "genre": "Genre:",
+        "rating": "Rating:",
+        "price": "Price:",
+        "platform": "Platform:",
+        "languages": "Languages:",
+        "genreValue": "Visual Novel",
+        "ratingValue": "18+",
+        "priceValue": "Free",
+        "platformValue": "Multi-platform",
+        "languagesValue": "English, Portuguese (BR), Chinese"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "home": "← Home Page",
+        "wiki": "Wiki Guide",
+        "pierrot": "Pierrot Character",
+        "harlequin": "Harlequin Character",
+        "updates": "Latest Updates"
+      },
+      "warnings": {
+        "title": "Content Warnings",
+        "description": "The Freak Circus download contains mature content including:",
+        "warning1": "Yandere themes",
+        "warning2": "Dark psychological elements",
+        "warning3": "Strong language",
+        "warning4": "Violence and gore",
+        "warning5": "Adult situations",
+        "ageWarning": "Recommended for ages 18+"
+      },
+      "official": {
+        "title": "Official Sources",
+        "description": "The Freak Circus itch.io page is the only official download source. For more information about the game, check our <a href=\"/wiki\" class=\"content-link\">Wiki page</a> or read the latest <a href=\"/updates\" class=\"content-link\">development updates</a>.",
+        "visitButton": "Visit Official Page"
+      }
+    },
+    "additional": {
+      "about": {
+        "title": "About The Freak Circus Download",
+        "description1": "The Freak Circus download offers players a unique visual novel experience that combines psychological horror with compelling character development. Created by Neko Bueno, this game has received overwhelmingly positive reviews with a 4.9/5 star rating from over 2,000 players. Discover more about <a href=\"/\" class=\"content-link\">The Freak Circus</a> world.",
+        "description2": "When you download The Freak Circus, you'll enter a world where obsession and rivalry collide in the most unexpected ways. The game features multiple story paths, allowing you to explore different relationships with the enigmatic characters of the circus. Meet <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> in this psychological thriller."
+      },
+      "development": {
+        "title": "Development Status",
+        "description": "The Freak Circus is currently in active development, with Day 2 content being worked on. The current version includes one bad ending and three open endings, with more content planned for future updates. Stay updated with the latest progress through our <a href=\"/updates\" class=\"content-link\">Visual Novel Updates</a> page."
+      },
+      "community": {
+        "title": "Community & Support",
+        "description": "Join thousands of players who have already experienced The Freak Circus. The game has built a passionate community of fans who create fanart, fanfics, and share their experiences. You can support the development by downloading the game and leaving feedback on The Freak Circus itch.io page. Learn more about the game world in our <a href=\"/wiki\" class=\"content-link\">comprehensive wiki</a>."
+      }
+    }
+  },
+  "PierrotPage": {
+    "header": {
+      "name": "Pierrot",
+      "subtitle": "The Silent Obsession - Pierrot from The Freak Circus",
+      "description": "In the shadows of the horror circus, Pierrot captivates your attention in his unique way. His silence hides dangerous obsession, and every glance reveals unspeakable secrets. This artist Pierrot from <a href=\"/\" class=\"content-link\">The Freak Circus</a> has become a beloved character in the visual novel community."
+    },
+    "about": {
+      "title": "About Pierrot from The Freak Circus",
+      "description1": "Pierrot from <a href=\"/\" class=\"content-link\">The Freak Circus</a> is one of the most enigmatic and complex characters in the visual novel. This artist Pierrot The Freak Circus is sweet, innocent, and full of love, clearly expressing his emotions even in silence, even when resorting to direct violence when overwhelming emotions burst forth from his lips. The artist Pierrot The Freak Circus has become a beloved figure in the visual novel community.",
+      "description2": "When you helped that poor jester, you never would have thought things would end up like this. Now, you have a tall, clingy Pierrot from <a href=\"/\" class=\"content-link\">The Freak Circus</a> that just so happens to break into your house and watch you sleep at night. His obsession began on a cold winter day when you defended him from an attacker while he was handing out circus flyers, sparking an instant, consuming obsession in this Pierrot from The Freak Circus character.",
+      "description3": "Despite his mysterious clown persona, his pale skin would betray him with a faint blush whenever he saw you. He would whisper to himself about wanting to make you his, to mark you, and keep you entirely for himself. Sometimes, this Pierrot from The Freak Circus would cover you in kisses while you slept, losing count of his gentle affections. For more detailed information, check the <a href=\"/wiki\" class=\"content-link\">Pierrot The Freak Circus wiki</a> for comprehensive character analysis of this Pierrot from The Freak Circus. The Pierrot The Freak Circus wiki provides extensive details about this character's development and story. Stay updated with the latest <a href=\"/updates\" class=\"content-link\">visual novel updates</a> to discover new developments in Pierrot's story."
+    },
+    "traits": {
+      "title": "Pierrot from The Freak Circus Personality Traits",
+      "obsessiveLove": {
+        "title": "Obsessive Love",
+        "description": "Pierrot from The Freak Circus experiences an all-consuming obsession that began when you defended him. This artist Pierrot The Freak Circus loves you regardless of how you look, and his devotion runs so deep that he questions why you can't understand that you love him, even if he's a monster. The artist Pierrot The Freak Circus shows unwavering dedication. Learn more about his psychological complexity in our <a href=\"/wiki\" class=\"content-link\">comprehensive wiki</a>."
+      },
+      "silentSuffering": {
+        "title": "Silent Suffering",
+        "description": "When overwhelming emotions burst forth from his lips, silence follows. He reaches out as if to touch your face, then remembers himself and withdraws. This is the beautiful pain of loving so deeply, like a dagger piercing your chest."
+      },
+      "nocturnalVisits": {
+        "title": "Nocturnal Visits",
+        "description": "Pierrot visits you at night, realizing something that makes him sad and frustrated, needing a hug. He would be gentle if you wanted him to be, and he would do anything for the one who captured his soul."
+      },
+      "emotionalTurmoil": {
+        "title": "Emotional Turmoil",
+        "description": "His eyes fill with tears, but he holds them back because he cannot leave any traces. He carefully slides off your bed, kneels on the ground, head bowed, unable to leave, yet knowing he must."
+      }
+    },
+    "abilities": {
+      "title": "Pierrot from The Freak Circus Special Abilities",
+      "mesmerizingPerformance": {
+        "title": "Mesmerizing Performance",
+        "description": "Pierrot from The Freak Circus finishes his performance, dancing fluidly with his own shadow to mesmerize the audience, but his focus is solely on you. His golden eyes gleam as he seeks your approval with a sharp and haunting smile. Experience his mesmerizing performance firsthand by <a href=\"/download\" class=\"content-link\">downloading The Freak Circus</a>."
+      },
+      "emotionalControl": {
+        "title": "Intense Emotional Control",
+        "description": "He experiences a strong desire to hold you tighter and see you breathless and sweaty, causing him to flush, but he restrains himself, emphasizing his need for patience. His barely contained excitement is palpable."
+      },
+      "devotion": {
+        "title": "Unwavering Devotion",
+        "description": "Pierrot continues to hold you, not fully respecting your personal space, yet doing so with a strange kind of reverence, as if he were embracing not just you, but the very core of his existence."
+      }
+    },
+    "relationships": {
+      "title": "Pierrot from The Freak Circus Character Relationships",
+      "protagonist": {
+        "title": "Relationship with Protagonist",
+        "description": "Pierrot from The Freak Circus met you, fell in love with you, and became curious about you. He doesn't care much about your growing closeness with other circus members, but you can't help feeling uneasy. Perhaps Pierrot sensed your unease, or perhaps he's just grown tired of you. Sometimes, Pierrot can make you very angry."
+      },
+      "harlequin": {
+        "title": "Dynamic with Harlequin",
+        "description": "Seeing a Pierrot and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> (or his other name, Arlecchino) is very exciting. Their dynamic mimics their historical rivalry, creating tension and drama within <a href=\"/\" class=\"content-link\">The Freak Circus</a>. The relationship between Pierrot and The Freak Circus <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> adds layers to the narrative and character interactions. Arlecchino The Freak Circus brings additional complexity to their interactions. The dynamic between Pierrot and The Freak Circus <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> is central to the story, while Arlecchino The Freak Circus provides an alternative perspective on their rivalry."
+      }
+    },
+    "gallery": {
+      "title": "Pierrot from The Freak Circus Character Gallery"
+    }
+  },
+  "HarlequinPage": {
+    "header": {
+      "name": "Harlequin",
+      "subtitle": "The Seductive Rival - Harlequin from The Freak Circus",
+      "description": "In the shadows of the circus, Harlequin captivates your attention with his seductive charm and cunning wit. Every smile hides danger, and every touch makes you feel irresistible temptation. This artist Harlequin from <a href=\"/\" class=\"content-link\">The Freak Circus</a> has gained significant popularity in the visual novel community."
+    },
+    "about": {
+      "title": "About Harlequin from The Freak Circus",
+      "description1": "Harlequin from <a href=\"/\" class=\"content-link\">The Freak Circus</a> is a central figure known for his enigmatic presence and deeply manipulative nature. The Freak Circus Harlequin thrives on chaos and plays a dangerous game of emotions, often drawing others into his intricate web of deceit and desire. His past is shrouded in mystery, adding to his dangerous allure. The Freak Circus Harlequin has become a fascinating character.",
+      "description2": "This Harlequin from The Freak Circus was originally a difficult person to get along with, until you discovered you both had something in common: a love for all things spicy. Naturally, you both took advantage of this opportunity to have a \"friendly\" competition in the café, using copious amounts of hot sauce and witty conversation to truly get to know this Harlequin from The Freak Circus better. Discover more about his evolving story through our <a href=\"/updates\" class=\"content-link\">latest updates</a>.",
+      "description3": "Under the flickering gaslights and shadows of the traveling circus, an entirely new drama is unfolding. Behind the clown troupe's fake smiles and the cheering audience, there lingers old rivalries and dangerous histories. This Harlequin from The Freak Circus is a performer who lives by control and entertainment, but finds that the arrival of a new member has turned his world upside down. For comprehensive details, explore <a href=\"/wiki\" class=\"content-link\">The Freak Circus Harlequin wiki</a> for in-depth character analysis of this Harlequin from The Freak Circus. The Freak Circus Harlequin wiki offers detailed insights into this complex character's background and motivations."
+    },
+    "traits": {
+      "title": "Harlequin from The Freak Circus Personality Traits",
+      "boldManipulative": {
+        "title": "Bold & Manipulative",
+        "description": "Harlequin from The Freak Circus is much bolder than <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, if you know what that means. The Freak Circus Harlequin is generally toxic and kind of homewreck-y, with a knack for stirring up trouble even when there's no existing relationship to disrupt. The Freak Circus Harlequin shows no boundaries."
+      },
+      "socialAnxiety": {
+        "title": "Social Anxiety & Gentleness",
+        "description": "Despite his bold exterior, Harlequin has social anxiety and can be a gentle weirdo. He buys things he finds interesting, and his interactions are often marked by uninvited tickets and anxiety-coded behavior."
+      },
+      "spicyPersonality": {
+        "title": "Spicy Personality",
+        "description": "Harlequin shares a love for all things spicy, which becomes a bonding point. He enjoys friendly competitions involving copious amounts of hot sauce and witty conversation, using these moments to truly connect with others."
+      },
+      "controlEntertainment": {
+        "title": "Control & Entertainment",
+        "description": "Harlequin is a performer who lives by control and entertainment. He finds that the arrival of new members turns his world upside down, creating new dynamics within the haunted carnival atmosphere of The Freak Circus."
+      }
+    },
+    "abilities": {
+      "title": "Harlequin from The Freak Circus Special Abilities",
+      "chaosCreation": {
+        "title": "Chaos Creation",
+        "description": "Harlequin from The Freak Circus thrives on chaos and plays a dangerous game of emotions. The Freak Circus Harlequin has a knack for stirring up trouble and can be quite homewreck-y in his interactions, even when there's no existing relationship to disrupt. The Freak Circus Harlequin creates chaos effortlessly. Experience his chaotic charm by <a href=\"/download\" class=\"content-link\">downloading The Freak Circus</a>."
+      },
+      "giftSelection": {
+        "title": "Gift Selection",
+        "description": "Harlequin buys things he finds interesting, often selecting items that reflect his unique personality. His gift-giving is marked by uninvited tickets and anxiety-coded behavior, making each present a reflection of his complex nature."
+      },
+      "circusDynamics": {
+        "title": "Circus Dynamics",
+        "description": "As a performer who lives by control and entertainment, Harlequin knows <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and Jester, and is vaguely aware of other people in the circus. His arrival creates new dynamics within the haunted carnival atmosphere."
+      }
+    },
+    "giftScenario": {
+      "title": "Harlequin from The Freak Circus Gift Scenario",
+      "mainTitle": "He Gives You Gifts!",
+      "description": "In this scenario, Harlequin from The Freak Circus tries to win your heart by giving you gifts. He particularly favors green or black gifts so you'll remember him. These gifts are not just material objects, but expressions of his inner emotions and his unique way of connecting with others.",
+      "interestingSelections": {
+        "title": "Interesting Selections",
+        "description": "Harlequin buys things he finds interesting, often selecting items that reflect his unique personality and his love for all things spicy. Each gift is a window into his complex nature."
+      },
+      "uninvitedTickets": {
+        "title": "Uninvited Tickets",
+        "description": "His gift-giving is marked by uninvited tickets and anxiety-coded behavior, making each present a reflection of his social anxiety and gentle weirdo tendencies."
+      },
+      "hauntedCarnival": {
+        "title": "Haunted Carnival Theme",
+        "description": "Through gifts, he tries to express his connection to the haunted carnival atmosphere of The Freak Circus, sharing pieces of his mysterious world with you."
+      }
+    },
+    "relationships": {
+      "title": "Harlequin from The Freak Circus Character Relationships",
+      "protagonist": {
+        "title": "Relationship with Protagonist",
+        "description": "Harlequin from The Freak Circus has a \"wittle bit of a crush on you\" and will try to win your favor through various means. You can self-insert yourself as a clown, coworker, or just be a random person in relation to Harlequin. His interactions are marked by his social anxiety and gentle weirdo tendencies, making each encounter unique."
+      },
+      "pierrotJester": {
+        "title": "Dynamic with Pierrot & Jester",
+        "description": "Harlequin knows <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and Jester, and is vaguely aware of other people in the circus. Seeing a <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and Harlequin (or his other name, Arlecchino) is very exciting, as their dynamic mimics their historical rivalry. The relationship between The Freak Circus Harlequin and <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> adds layers to the narrative within <a href=\"/\" class=\"content-link\">The Freak Circus</a>. Arlecchino The Freak Circus brings additional depth to their complex interactions. The dynamic between The Freak Circus Harlequin and <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> is central to the story, while Arlecchino The Freak Circus offers a unique perspective on their relationship."
+      }
+    },
+    "gallery": {
+      "title": "Harlequin from The Freak Circus Character Gallery"
+    }
+  },
+  "WikiPage": {
+    "header": {
+      "title": "The Freak Circus Wiki",
+      "subtitle": "Comprehensive Guide to The Freak Circus Visual Novel",
+      "backToHome": "← Back to Home",
+      "pierrot": "Pierrot Character",
+      "harlequin": "Harlequin Character"
+    },
+    "gameOverview": {
+      "title": "Game Overview",
+      "description1": "<strong><a href=\"/\" class=\"content-link\">The Freak Circus</a></strong> is a dark psychological visual novel that takes players into the twisted world of a traveling circus filled with mystery, obsession, and dangerous relationships. This immersive experience from The Freak Circus combines compelling storytelling with mature themes, creating an unforgettable journey through the shadows of human desire and manipulation.",
+      "description2": "In <a href=\"/\" class=\"content-link\">The Freak Circus</a>, players assume the role of a café worker whose ordinary life becomes entangled with the enigmatic performers of a sinister circus. The game explores themes of obsession, rivalry, and the darker aspects of human nature through its complex character relationships and branching narrative paths.",
+      "description3": "The Freak Circus stands out in the visual novel genre for its mature content, psychological depth, and the intricate dynamics between its central characters. This dark tale from The Freak Circus offers multiple endings and character routes, ensuring that each playthrough reveals new layers of the story. Explore the complex relationships between <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a> in this psychological thriller."
+    },
+    "gamePremise": {
+      "title": "Game Premise",
+      "description1": "The story of The Freak Circus begins when the Circus of Horrors arrives in town, bringing with it dark secrets and terrifying mysteries. As a café worker, your ordinary life takes an extraordinary turn when you cross paths with <a href=\"/pierrot\" class=\"character-link\">Pierrot</a>, the silent yandere performer whose obsession with you becomes the catalyst for a dangerous game.",
+      "description2": "However, you're not just caught in Pierrot's web of obsession. <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>, his seductive rival, enters the deadly game, creating a complex triangle of desire, manipulation, and psychological tension that forms the core of The Freak Circus experience.",
+      "description3": "Don't be fooled by their enchanting smiles and captivating performances - in The Freak Circus, nothing is what it seems, and every choice you make could lead to salvation or damnation. This mature visual novel from The Freak Circus features original artwork, compelling characters, and multiple branching storylines that explore the depths of human psychology."
+    },
+    "currentFeatures": {
+      "title": "Current Features",
+      "originalArtwork": {
+        "title": "Original Artwork & Characters",
+        "description": "The Freak Circus features beautifully crafted original artwork and backgrounds, showcasing two compelling characters: <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>. Each character in The Freak Circus is meticulously designed to reflect their complex personalities and motivations."
+      },
+      "multipleEndings": {
+        "title": "Multiple Endings & Languages",
+        "description": "Discover 1 bad ending and 3 open endings with more planned in future updates of The Freak Circus. The game is currently available in English, Portuguese (BR), and Chinese languages, making The Freak Circus accessible to a global audience. Stay informed about new content through our <a href=\"/updates\" class=\"content-link\">development updates</a>."
+      },
+      "matureThemes": {
+        "title": "Dark Mature Themes",
+        "description": "Experience a mature 18+ story with yandere themes, dark elements, and choice-driven narrative that explores obsession and rivalry. The Freak Circus doesn't shy away from complex psychological themes and mature content warnings."
+      },
+      "interactiveStorytelling": {
+        "title": "Interactive Storytelling",
+        "description": "The Freak Circus offers an interactive experience where player choices significantly impact the story's direction. Every decision in The Freak Circus can lead to different character interactions and story outcomes."
+      }
+    },
+    "contentWarnings": {
+      "title": "Content Warnings",
+      "header": {
+        "title": "⚠️ Mature Content Warning",
+        "description": "The Freak Circus is recommended for ages 18+ and contains the following content:"
+      },
+      "psychologicalElements": {
+        "title": "Psychological Elements",
+        "description": "Yandere themes, obsession, manipulation, and psychological tension are central to The Freak Circus experience."
+      },
+      "darkThemes": {
+        "title": "Dark Themes",
+        "description": "The Freak Circus includes themes of violence, strong language, and mature situations that may not be suitable for all audiences."
+      },
+      "characterDynamics": {
+        "title": "Character Dynamics",
+        "description": "Complex relationships involving possessiveness, rivalry, and emotional manipulation are explored throughout The Freak Circus narrative."
+      }
+    },
+    "developmentStatus": {
+      "title": "Development Status",
+      "description1": "The Freak Circus continues to evolve with planned character endings and extended storylines that will deepen your connection to this twisted world. The development team behind The Freak Circus is actively working on new content and improvements. Follow our <a href=\"/updates\" class=\"content-link\">progress updates</a> for the latest news.",
+      "description2": "Future updates for The Freak Circus will include:",
+      "extendedRoutes": "Extended character routes for both <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>",
+      "additionalEndings": "Additional endings and story branches in The Freak Circus",
+      "enhancedArtwork": "Enhanced artwork and character development",
+      "newLanguageSupport": "New language support for The Freak Circus",
+      "improvedMechanics": "Improved gameplay mechanics and user interface",
+      "description3": "Stay updated through official channels for The Freak Circus release announcements and development progress. The team behind The Freak Circus is committed to delivering a complete and satisfying experience."
+    },
+    "howToPlay": {
+      "title": "How to Play",
+      "description1": "The Freak Circus is available to play online for free, offering a fast and easy gaming experience. You can access The Freak Circus directly through your web browser without the need for downloads or installations. For offline play, you can also <a href=\"/download\" class=\"content-link\">download the game</a> to your device.",
+      "description2": "To get started with The Freak Circus:",
+      "step1": "Visit the official The Freak Circus website or gaming platform",
+      "step2": "Click the \"Play Now\" button to begin your journey in The Freak Circus",
+      "step3": "Make choices that will determine your relationship with the characters",
+      "step4": "Explore different paths to discover all the endings in The Freak Circus",
+      "description3": "You can start playing immediately through <a href=\"/\" class=\"play-link\">our website's Play Now button</a> or visit the official game website to begin your journey in The Freak Circus.",
+      "description4": "The Freak Circus is designed to be accessible to both newcomers to visual novels and experienced players looking for a mature, psychological experience."
+    },
+    "sidebar": {
+      "quickNavigation": {
+        "title": "Quick Navigation",
+        "home": "← Home Page",
+        "pierrot": "Pierrot Character Page",
+        "harlequin": "Harlequin Character Page"
+      },
+      "gameInformation": {
+        "title": "Game Information",
+        "genre": "Genre",
+        "genreValue": "Visual Novel",
+        "rating": "Rating",
+        "ratingValue": "18+",
+        "platform": "Platform",
+        "platformValue": "Web Browser",
+        "languages": "Languages",
+        "languagesValue": "English, Portuguese (BR), Chinese",
+        "status": "Status",
+        "statusValue": "In Development"
+      },
+      "mainCharacters": {
+        "title": "Main Characters",
+        "pierrot": {
+          "name": "Pierrot",
+          "description": "The silent yandere performer whose obsession drives the story of The Freak Circus."
+        },
+        "harlequin": {
+          "name": "Harlequin",
+          "description": "Pierrot's seductive rival who adds complexity to The Freak Circus narrative."
+        }
+      }
+    }
+  },
+  "UpdatesPage": {
+    "header": {
+      "title": "The Freak Circus Visual Novel Updates",
+      "subtitle": "Stay updated with the latest development progress of The Freak Circus visual novel",
+      "backToHome": "← Back to Home",
+      "wiki": "Wiki",
+      "pierrot": "Pierrot",
+      "harlequin": "Harlequin"
+    },
+    "updates": {
+      "almostThere": {
+        "title": "Almost There!",
+        "description1": "Another monthly update for <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, and we're getting really close to releasing this one!",
+        "description2": "There's about 15-20% of The Freak Circus visual novel dia 2 left to be coded, and that includes finished sprites. After that, the next stage should be a bit \"faster\" mostly the music and sound effects for The Freak Circus visual novel actualizacion.",
+        "description3": "I've done some beta testing with this update and there are still small parts to fix. The biggest challenge right now is that missing 20% of The Freak Circus visual novel dia 2, since it's packed with transitions and sprites, which makes it pretty complex and time-consuming.",
+        "description4": "Alongside <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, this update will properly introduce you to Ticket Taker, Jester, and the Doctor in The Freak Circus visual novel - you probably remember them from the \"Missing\" bad end, right?",
+        "description5": "I'm hoping to release The Freak Circus visual novel actualizacion this month along with the store, but in the worst case it'll be pushed to next month. For now, enjoy a few more screenshots from The Freak Circus visual novel development!"
+      },
+      "monthlyUpdate": {
+        "title": "Monthly Update!",
+        "description1": "Another month since <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a> release! So here's more news about the progress on the next update!",
+        "description2": "Right now, half of The Freak Circus visual novel dia 2 is already coded, though not all of the new sprites are finished yet (and trust me, there are a lot of new sprites and CGs for The Freak Circus visual novel actualizacion).",
+        "description3": "This update will be a bit longer in terms of gameplay, since now you'll get to know a bit more about the other three characters from The Freak Circus visual novel circus.",
+        "description4": "On top of that, I'll be adding \"hidden scenes\" to The Freak Circus visual novel - little story segments you can unlock while playing, and you can access it in the menu. For more details about the game mechanics, check our <a href=\"/wiki\" class=\"content-link\">Wiki page</a>.",
+        "description5": "I'll also leave a few small secrets for you to spot in The Freak Circus visual novel if you pay attention to your choices!"
+      },
+      "anniversary": {
+        "title": "1 Month Anniversary",
+        "celebration": "It's been one month since The Freak Circus visual novel was released! 🥳",
+        "thankYou": "So I'd like to celebrate with a few updates and a big thank you for supporting The Freak Circus visual novel!",
+        "dia2Title": "About The Freak Circus Visual Novel Dia 2",
+        "dia2Description": "I've been working on The Freak Circus visual novel dia 2 steadily! Some new sprites and backgrounds are already done, and a good portion of The Freak Circus visual novel dia 2 has already been coded.",
+        "summaryTitle": "Here's a quick summary of The Freak Circus Visual Novel Actualizacion:",
+        "summary1": "The story will continue from all three endings: the two where you're taken by <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, and the one where you return home.",
+        "summary2": "You'll get to meet three new characters in The Freak Circus visual novel dia 2, each in their own tent!",
+        "summary3": "There will be more scenes with <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> while you get to know the new characters.",
+        "summary4": "Some sprites will be animated in The Freak Circus visual novel actualizacion!",
+        "summary5": "The game menu will also get a brand-new look for The Freak Circus visual novel!",
+        "summary6": "And along with the current platforms, an <strong>Android</strong> version of The Freak Circus visual novel will be released when the update is ready!"
+      },
+      "futureUpdates": {
+        "title": "Future Updates",
+        "description1": "Heyo! I'd like to share a few things about future updates for The Freak Circus visual novel!",
+        "description2": "The <strong>script</strong> for The Freak Circus visual novel dia 2 is already partially complete, and I plan to revise it and start making the new backgrounds and character sprites. The Freak Circus visual novel actualizacion will include significant content expansions.",
+        "description3": "I'll be posting monthly updates about The Freak Circus visual novel progress. I'll also be doing weekly small updates on social media, showing some extra content from The Freak Circus visual novel development.",
+        "description4": "I'll be posting more detailed updates, behind-the-scenes content, and first reveals about The Freak Circus visual novel on the support pages. For comprehensive information, visit our <a href=\"/wiki\" class=\"content-link\">Wiki</a>.",
+        "description5": "I work during the day, so I use my free time to develop The Freak Circus visual novel. If I get more supporters, I'll be able to reduce my workload and dedicate more time to this. <strong>But don't worry, progress will keep moving forward either way!</strong>",
+        "description6": "<strong>Once again, thank you so much</strong> to everyone who bought The Freak Circus visual novel to show your support! You can <a href=\"/download\" class=\"content-link\">download the game</a> to experience the latest updates.",
+        "description7": "I'll be posting more detailed updates, behind-the-scenes content, and first reveals about The Freak Circus visual novel on the support pages. For comprehensive information, visit our <a href=\"/wiki\" class=\"content-link\">Wiki</a>."
+      },
+      "chineseLanguage": {
+        "title": "Chinese Language Now Available",
+        "description1": "The Freak Circus visual novel now includes a Chinese translation! Kindly made by: copiklaGrogu Thank you so much for the support and for putting in the care to bring The Freak Circus visual novel to even more people!",
+        "description2": "It truly means a lot to see so many players enjoying The Freak Circus visual novel story and wanting to feel a little closer to the characters like this! You can access the game preferences and select your preferred language there!",
+        "description3": "This expansion of The Freak Circus visual novel actualizacion brings the game to a wider international audience, making the story accessible to Chinese-speaking players who want to experience the unique world of <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>."
+      },
+      "pronounOptions": {
+        "title": "Pronoun Options Update",
+        "personalizationTitle": "Personalization Features Now Available!",
+        "description1": "I made a small update that allows you to choose your pronouns in The Freak Circus visual novel, so the way characters refer to you can now be customized! This enhancement makes The Freak Circus visual novel more inclusive and personalized for all players.",
+        "description2": "This version of The Freak Circus visual novel only adds the pronoun selection feature, along with a line of dialogue to keep the story continuity intact. For more details about character interactions, check out our <a href=\"/wiki\" class=\"content-link\">Wiki page</a>.",
+        "englishSupportTitle": "About English Language Support",
+        "description3": "I had to make some modifications to the dialogues in The Freak Circus visual novel to keep everything neutral in certain situations. Nothing that changes the story, of course, they were just adaptations. The Freak Circus visual novel actualizacion includes these improvements to ensure better player experience."
+      },
+      "thankYou": {
+        "title": "Thank you!",
+        "gratitudeTitle": "Thank you so much for all the support and kindness!",
+        "description1": "Huge thanks to everyone who bought <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a> to support my idea, it truly moves me to see that you liked it enough to support me like this! The Freak Circus visual novel has received incredible feedback from the community.",
+        "description2": "<strong>Thank you as well for all the comments and reviews!</strong>",
+        "description3": "I've already made a few decisions to improve certain aspects of The Freak Circus visual novel, like adding pronoun options for the protagonist and a few other things, and I'll be working on the continuation with lots of care and love!",
+        "description4": "I don't like leaving plot holes, so I treat the script with great care. Once I have a more solid foundation for <strong>The Freak Circus visual novel dia 2</strong>, I'll post an update here and on social media, and start getting the support pages active again so the project can move forward faster!",
+        "description5": "<strong>The stage is being set, make yourselves comfortable. But if I were you... I wouldn't trust the food.</strong>"
+      }
+    }
+  },
+  "AboutPage": {
+    "header": {
+      "title": "About Us",
+      "lastUpdated": "Last updated: September 24, 2025"
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "description": "The Freak Circus is a leading platform dedicated to providing high-quality content, guides, and resources for our community. We are a passionate team of creators, researchers, and enthusiasts who aim to deliver accurate, engaging, and valuable information across various fields."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to empower users by offering reliable knowledge, practical strategies, and community-driven insights. Whether it's games, technology, lifestyle, or creative resources, we strive to become the go-to source for trustworthy and up-to-date content."
+    },
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "guides": "Guides & Tutorials: Comprehensive resources to help users learn, grow, and solve problems.",
+      "updates": "Latest Updates: Regularly refreshed content to ensure relevance and accuracy.",
+      "community": "Community Resources: A hub for collaboration, knowledge sharing, and meaningful interaction.",
+      "features": "Special Features: Exclusive insights, tools, and curated content for our audience."
+    },
+    "community": {
+      "title": "Community Focus",
+      "description": "At The Freak Circus, we believe in the power of community. Our platform is designed to connect people, encourage collaboration, and foster a positive environment where everyone can learn and contribute."
+    },
+    "qualityAssurance": {
+      "title": "Quality Assurance",
+      "description": "Accuracy is at the core of what we do. Every piece of content is carefully reviewed and verified by our team to ensure it meets the highest standards before being published on The Freak Circus."
+    },
+    "regularUpdates": {
+      "title": "Regular Updates",
+      "description": "We update our resources frequently to keep pace with industry changes, community needs, and user feedback. This ensures that our audience always has access to the most relevant and valuable information."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "description": "Have questions, suggestions, or feedback? We'd love to hear from you! You can reach us at <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> and we'll get back to you as soon as possible."
+    },
+    "joinCommunity": {
+      "title": "Join Our Community",
+      "description": "Stay connected with The Freak Circus by following our updates and engaging with the community. Together, we can build a stronger, more informed, and more supportive space for everyone."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "description": "We are committed to maintaining a high standard of quality, integrity, and transparency in everything we publish. Our team works continuously to verify information, update resources, and ensure our platform remains reliable and user-focused."
+    }
+  },
+  "ContactPage": {
+    "header": {
+      "title": "Contact Us",
+      "lastUpdated": "Last updated: September 24, 2025"
+    },
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you! Whether you have questions about our services, suggestions for improvement, or just want to say hello, we're here to help."
+    },
+    "contactInformation": {
+      "title": "Contact Information",
+      "email": "<strong>Email:</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "responseTime": "We typically respond within 24 hours."
+    },
+    "responseTime": {
+      "title": "Response Time",
+      "weekdays": "Monday - Friday",
+      "weekdaysTime": "Within 24 hours",
+      "weekends": "Weekends",
+      "weekendsTime": "Within 48 hours"
+    },
+    "whatWeCanHelpWith": {
+      "title": "What We Can Help With",
+      "accountIssues": "Account or Access Issues",
+      "accountIssuesDesc": "Help with login, membership, or subscription problems",
+      "websiteFeedback": "Website Feedback",
+      "websiteFeedbackDesc": "Suggestions for improving The Freak Circus",
+      "contentRequests": "Content Requests",
+      "contentRequestsDesc": "Ideas for new articles, guides, or resources",
+      "technicalSupport": "Technical Support",
+      "technicalSupportDesc": "Assistance with site functionality",
+      "partnershipInquiries": "Partnership Inquiries",
+      "partnershipInquiriesDesc": "Collaboration opportunities",
+      "generalQuestions": "General Questions",
+      "generalQuestionsDesc": "Anything else related to The Freak Circus and our services"
+    },
+    "beforeYouContactUs": {
+      "title": "Before You Contact Us",
+      "description": "To help us provide the best assistance, please include the following details in your email:",
+      "specificQuestion": "Your specific question or issue",
+      "errorMessages": "Any error messages (if applicable)",
+      "stepsTried": "Steps you've already tried",
+      "deviceInfo": "Your device and browser information (if relevant)"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "contentUpdate": {
+        "question": "How often is your content updated?",
+        "answer": "We update our resources regularly to ensure accuracy and freshness."
+      },
+      "contentSafety": {
+        "question": "Is your content safe and reliable?",
+        "answer": "Yes, all information we provide is verified and sourced responsibly."
+      },
+      "suggestContent": {
+        "question": "Can I suggest new content?",
+        "answer": "Absolutely! We welcome your ideas and contributions—just send them our way."
+      }
+    },
+    "businessHours": {
+      "title": "Business Hours",
+      "description": "Our team is available Monday through Friday, 9:00 AM to 6:00 PM (EST). While we may respond outside these hours, please allow up to 24–48 hours for replies during weekends and holidays."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "We respect your privacy and will never share your personal information with third parties. All communications are kept confidential and used only to provide you with the best possible service."
+    },
+    "thankYou": {
+      "title": "Thank You",
+      "description": "Thank you for being part of the The Freak Circus community! Your feedback and support help us continue to provide the best experience for our users worldwide."
+    }
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "A psychological horror visual novel experience",
+    "quickLinksTitle": "Quick Links",
+    "quickLinksHome": "Home",
+    "quickLinksPierrot": "Pierrot",
+    "quickLinksHarlequin": "Harlequin",
+    "quickLinksWiki": "Wiki",
+    "quickLinksUpdates": "Updates",
+    "quickLinksDownload": "Download",
+    "legalTitle": "Legal",
+    "legalPrivacy": "Privacy Policy",
+    "legalTerms": "Terms of Service",
+    "legalCopyright": "Copyright",
+    "legalAbout": "About Us",
+    "legalContact": "Contact Us",
+    "disclaimer": "This website is created by game enthusiasts as a personal, unofficial fan site and is not affiliated with the original game developers. Content is provided for educational and entertainment purposes only. Users should verify information independently. This site makes no guarantees about content accuracy and assumes no legal responsibility."
+  },
+  "CopyrightPage": {
+    "header": {
+      "title": "Copyright",
+      "lastUpdated": "Last updated: September 24, 2025"
+    },
+    "copyrightStatement": {
+      "title": "Copyright Statement",
+      "description": "All content on <strong>The Freak Circus</strong>, including but not limited to text, graphics, images, videos, and software, is the property of <strong>The Freak Circus</strong> and is protected by international copyright laws. Unauthorized use, reproduction, or distribution of this content is strictly prohibited."
+    },
+    "whatWeOwn": {
+      "title": "What We Own",
+      "originalContent": "Original Content",
+      "originalContentDesc": "All written content, guides, tutorials, and reviews created by our team.",
+      "websiteDesign": "Website Design",
+      "websiteDesignDesc": "Layout, styling, user interface, and overall website design elements.",
+      "originalImages": "Original Images",
+      "originalImagesDesc": "Photographs, screenshots, and graphics created specifically for this website.",
+      "codeSoftware": "Code & Software",
+      "codeSoftwareDesc": "Website code, scripts, and software developed for this platform."
+    },
+    "thirdPartyContent": {
+      "title": "Third-Party Content",
+      "description": "We respect the intellectual property rights of others. Some content on our website may include references, images, or information related to <strong>The Freak Circus</strong>, which belongs to their respective owners."
+    },
+    "fairUsePolicy": {
+      "title": "Fair Use Policy",
+      "description": "We support fair use of our content for educational, research, and personal purposes. However, commercial use requires explicit permission.",
+      "allowedUses": "Allowed Uses",
+      "personalStudy": "Personal study and research",
+      "educational": "Educational purposes",
+      "nonCommercial": "Non-commercial sharing",
+      "criticism": "Criticism and commentary",
+      "restrictedUses": "Restricted Uses",
+      "commercialReproduction": "Commercial reproduction",
+      "massDistribution": "Mass distribution",
+      "modification": "Modification without permission",
+      "removalAttribution": "Removal of attribution"
+    },
+    "dmcaCompliance": {
+      "title": "DMCA Compliance",
+      "description": "We comply with the Digital Millennium Copyright Act (DMCA). If you believe your copyrighted work has been used without permission, please contact us immediately.",
+      "requirements": "To file a DMCA takedown notice, please include",
+      "specificDetails": "Specific details about the copyrighted material",
+      "proofOwnership": "Proof that you own the rights to the content",
+      "formalNotice": "A formal DMCA takedown notice sent to our designated agent"
+    },
+    "attributionRequirements": {
+      "title": "Attribution Requirements",
+      "description": "When using our content under fair use or with permission, proper attribution is required."
+    },
+    "licenseRequests": {
+      "title": "License Requests",
+      "description": "For commercial use, licensing, or other permissions, please contact us with your specific request.",
+      "requirements": "Your request should include",
+      "specificContent": "Specific content you want to use",
+      "intendedPurpose": "Intended purpose and audience",
+      "duration": "Duration of use",
+      "contactInfo": "Contact information"
+    },
+    "contactInformation": {
+      "title": "Contact Information",
+      "email": "Email: contact@thefreakcircus.com"
+    },
+    "updatesToCopyrightNotice": {
+      "title": "Updates to Copyright Notice",
+      "description1": "This copyright notice may be updated periodically. The most recent version will always be available on this page. Continued use of our website constitutes acceptance of any changes.",
+      "description2": "Check this page regularly for updates to our copyright policy."
+    }
+  },
+  "PrivacyPolicyPage": {
+    "header": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: September 24, 2025"
+    },
+    "generalInformation": {
+      "title": "General Information",
+      "description1": "At <strong>The Freak Circus</strong>, we are committed to protecting the privacy of all users of our websites and applications. This Privacy Policy applies to all services and products offered by <strong>The Freak Circus</strong>. By using this Site you agree to this Privacy Policy and confirm you are of legal age to consent to its terms. Continued use of the Site following any changes to this policy will constitute acceptance of those changes.",
+      "description2": "The Site is intended for visitors aged 16 and above. If you are under 16, please do not use the Site. If you are a parent or guardian and allow a child to access the Site, you consent to this Privacy Policy on their behalf.",
+      "description3": "If you have questions about this Privacy Policy, contact us at <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>."
+    },
+    "dataCollection": {
+      "title": "Which Data Do We Collect?",
+      "dataYouProvide": {
+        "title": "Data you provide",
+        "description": "We only process personal data you voluntarily provide, for example when filling forms or contacting us. This may include:",
+        "name": "Name",
+        "email": "Email address",
+        "otherInfo": "Any other information you choose to provide"
+      },
+      "dataCollectedAutomatically": {
+        "title": "Data collected automatically",
+        "description": "We may collect certain data automatically during your visit, such as:",
+        "ipAddress": "IP address (for fraud prevention, analytics, or location-based features)",
+        "browserType": "Browser type and version",
+        "referringPage": "Referring page or site",
+        "deviceIdentifiers": "Device identifiers (including mobile device IDs)",
+        "cookieData": "Cookie and tracking data",
+        "userInteraction": "User interaction data (e.g., whether you viewed or clicked an advertisement)"
+      },
+      "thirdPartyData": {
+        "title": "Third-party data",
+        "description": "If we receive personal data from third parties, we will inform you when required."
+      }
+    },
+    "whyWeCollectData": {
+      "title": "Why We Collect Data & Legal Basis",
+      "description": "We collect and process personal data for purposes including, but not limited to:",
+      "providingServices": "Providing, improving, and optimizing our services and content",
+      "contractualObligations": "Performing contractual obligations",
+      "marketingCommunications": "Sending updates, newsletters, and marketing communications (where permitted)",
+      "statisticalAnalysis": "Statistical analysis and research",
+      "legalCompliance": "Compliance with legal obligations (e.g., age verification)",
+      "legalBases": "Legal bases for processing may include your consent, performance of a contract, legitimate interests, or compliance with legal obligations.",
+      "note": "<em>Note:</em> Advertisers or third-party services may collect data via their own cookies or tracking technologies. <strong>The Freak Circus</strong> is not responsible for third-party data collection practices."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "description": "We retain personal data only as long as necessary to fulfil the purposes described in this policy. Data associated with inactive accounts or visitors may be deleted after a reasonable period of inactivity unless retention is required by law or for legitimate business reasons."
+    },
+    "gdprRights": {
+      "title": "GDPR & Your Rights (EEA Residents)",
+      "description": "If you are a resident of the European Economic Area (EEA), you have certain rights regarding your personal data, including:",
+      "accessUpdateDelete": "The right to access, update, or delete your personal data",
+      "rectification": "The right to rectification of inaccurate information",
+      "objectToProcessing": "The right to object to processing",
+      "restrictProcessing": "The right to restrict processing",
+      "dataPortability": "The right to data portability",
+      "withdrawConsent": "The right to withdraw consent where processing is based on consent",
+      "verification": "We may request identity verification before fulfilling requests. For more information, you can also contact your local data protection authority."
+    },
+    "yourRights": {
+      "title": "Your Rights & Communication Preferences",
+      "description1": "You may opt out of marketing communications at any time by contacting <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> or by following unsubscribe instructions included in such communications. To request correction, deletion, or restriction of processing, please provide a clear reason for the request to help us verify and fulfil it promptly.",
+      "description2": "We will respond to your requests within a reasonable timeframe and in accordance with applicable law."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "whatAreCookies": {
+        "title": "What are cookies?",
+        "description": "Cookies are small files stored on your device that help websites remember preferences and improve user experience. Web beacons are small, typically transparent images used to monitor user behavior."
+      },
+      "typesOfCookies": {
+        "title": "Types of cookies",
+        "firstParty": "<strong>First-party cookies</strong>: Placed by this Site to support technical features (e.g., language settings, session handling).",
+        "thirdParty": "<strong>Third-party cookies</strong>: Placed by external providers (e.g., analytics, advertising networks) and used to track browsing behavior across sites."
+      },
+      "whichCookiesWeUse": {
+        "title": "Which cookies we use",
+        "description": "<strong>The Freak Circus</strong> uses first-party cookies to enhance usability and may allow third-party cookies (for example, Google Analytics or advertising partners) to provide analytics and advertising services. Cookies essential for site function do not require consent; other cookies may require your permission."
+      },
+      "howToManage": {
+        "title": "How to manage cookies",
+        "description": "You may manage or disable cookies via your browser settings. Refer to your browser's support documentation (Chrome, Firefox, Safari, Edge/Internet Explorer, Opera) for instructions on blocking or removing cookies."
+      }
+    },
+    "securityMeasures": {
+      "title": "Security Measures",
+      "description": "We implement reasonable technical and organizational measures to protect personal data and restrict access to authorized personnel only. We do not sell or rent your personal data. When external processors are used, they are contractually required to protect and securely process data and to delete it after completing assigned tasks."
+    },
+    "contactInformation": {
+      "title": "Contact Information",
+      "description": "If you have questions or concerns about this Privacy Policy, please contact:",
+      "email": "Email: <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "website": "Website: <a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
+    }
+  },
+  "TermsOfServicePage": {
+    "header": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: September 24, 2025"
+    },
+    "generalInformation": {
+      "title": "General Information",
+      "description1": "The following Terms of Service (the \"Agreement\") are important and require careful reading. Your acceptance of these \"Terms of Service\" signifies your agreement to be bound by them. This Agreement is between you and <strong>The Freak Circus</strong> (hereinafter: \"Site\", \"us\", \"we\", or \"our\") and pertains to your use of our website, including any materials and services available therein, and any successor site(s) thereto (the \"Site\").",
+      "description2": "<strong>BY USING THE SITE, YOU AGREE TO THESE TERMS OF SERVICE AND CONFIRM THAT YOU ARE OLDER THAN 16 YEARS.</strong> Any reference to \"you\" or \"your\" in this Agreement applies to the individual who uses the Site.",
+      "description3": "This Agreement includes a mandatory arbitration provision, explained in Section 11 below. This provision requires arbitration on an individual basis to resolve disputes, rather than jury trials, court proceedings, or class actions. Please review this section carefully."
+    },
+    "changes": {
+      "title": "Changes",
+      "description": "This Agreement may be amended periodically, and we will notify you of such changes through reasonable means, which may include posting a revised Agreement on the Site. Any changes made will not apply to disputes that arose prior to the date of such changes. By using the Site after changes are posted, you agree to be bound by the revised terms. Continued use will be deemed acceptance of the changes. We reserve the right to modify or discontinue all or part of the Site, adjust or waive fees, or offer special opportunities to some or all Site users at any time, without liability."
+    },
+    "informationSubmitted": {
+      "title": "Information Submitted Through the Site",
+      "description1": "The submission of information through the Site is subject to the <a href='/privacy-policy' target='_blank' rel='noopener'>Privacy Policy</a>. By using the Site, you acknowledge and agree to the Privacy Policy.",
+      "description2": "You affirm that all information you provide is accurate and complete, and you agree to maintain and update it. If discrepancies arise between this Agreement and the Privacy Policy regarding personal data, the Privacy Policy will prevail."
+    },
+    "jurisdictionalIssues": {
+      "title": "Jurisdictional Issues",
+      "description": "The Site is controlled and operated from within the European Economic Area, and is not intended to subject us to any jurisdiction outside this area. The Site may not be suitable or accessible everywhere. By using the Site, you assume all risks and are responsible for complying with applicable laws. We may restrict or limit access to the Site, in whole or in part, to any person, location, or jurisdiction at any time."
+    },
+    "rulesOfConduct": {
+      "title": "Rules of Conduct",
+      "threateningMaterial": "You must not post or transmit material that is threatening, harassing, defamatory, obscene, unlawful, or infringes on others' rights.",
+      "unauthorizedUse": "You must not use the Site for unauthorized commercial, fraudulent, or unlawful purposes.",
+      "collectInformation": "You may not collect information about users except as permitted by the Privacy Policy.",
+      "interfereDisrupt": "You must not interfere with or disrupt the operation of the Site or its servers and networks.",
+      "restrictInhibit": "You must not restrict or inhibit others from using the Site.",
+      "reproduceModify": "You may not reproduce, modify, sell, distribute, or exploit any portion of the Site without our prior written consent.",
+      "reverseEngineer": "You may not reverse engineer or decompile the Site except where prohibited by law.",
+      "removeNotices": "You must not remove copyright or trademark notices from the Site.",
+      "frameMirror": "You may not frame, mirror, or systematically download content without consent.",
+      "botsSpiders": "You may not use bots, spiders, scrapers, or similar tools without consent.",
+      "responsibleCosts": "You are responsible for all hardware, internet, and service costs needed to use the Site."
+    },
+    "monitoring": {
+      "title": "Monitoring",
+      "description": "We may, but are not obligated to, monitor, evaluate, or remove content submitted to the Site. We may analyze your usage and disclose related information as permitted by law and our Privacy Policy."
+    },
+    "thirdPartyMaterials": {
+      "title": "Third-Party Materials & Links",
+      "description1": "The Site may provide access to third-party materials (including content, products, services, advertisements, and promotions). We do not control or endorse third-party materials and are not responsible for their accuracy, legality, or safety.",
+      "description2": "<strong>Use of third-party materials is at your own risk</strong> and subject to the terms and policies of those third parties."
+    },
+    "disclaimerOfWarranties": {
+      "title": "Disclaimer of Warranties",
+      "description1": "TO THE FULLEST EXTENT PERMITTED BY LAW: (A) THE SITE AND ALL PRODUCTS AND THIRD-PARTY MATERIALS ARE PROVIDED \"AS IS,\" \"WHERE IS,\" AND \"WHERE AVAILABLE,\" WITHOUT WARRANTIES OF ANY KIND; AND (B) <strong>The Freak Circus</strong> DISCLAIMS ALL WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE.",
+      "description2": "Although we strive for accuracy and security, we cannot guarantee that the Site will always be correct, secure, or uninterrupted. If you notice unauthorized alterations, please contact us at <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+    },
+    "filtering": {
+      "title": "Filtering",
+      "description": "Parental control protections are available to help restrict access to harmful material. More information can be found <a href='https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers' target='_blank' rel='noopener'>here</a>. We do not endorse any listed products or services."
+    },
+    "copyrightInfringementClaims": {
+      "title": "Copyright Infringement Claims",
+      "description": "If you believe materials on the Site violate your copyright, you may send us a notice requesting removal. If you believe a claim was wrongly filed against you, you may send a counter-notice. We recommend seeking legal advice before filing notices. Contact: <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+    },
+    "miscellaneous": {
+      "title": "Miscellaneous",
+      "description1": "This Agreement does not create any partnership, joint venture, employment, or agency relationship between you and <strong>The Freak Circus</strong>. If any provision is unenforceable, it will be removed without affecting the remaining terms.",
+      "description2": "You may not transfer your rights or obligations without our consent, but we may assign ours without restriction. Failure to enforce any provision does not waive our right to enforce it later. This Agreement, together with incorporated terms, is the entire agreement between you and <strong>The Freak Circus</strong> and supersedes all prior agreements. Notices may be delivered by email, mail, or posting on the Site. <strong>The Freak Circus</strong> shall not be liable for failure to perform due to causes beyond its control."
+    }
+  }
+}

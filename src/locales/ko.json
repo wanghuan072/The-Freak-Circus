@@ -1,0 +1,920 @@
+{
+  "seo": {
+    "home": {
+      "title": "The Freak Circus - thefreakcircus.org | 심리 호러 비주얼 노벨",
+      "description": "피에로와 할리퀸이 등장하는 심리 호러 비주얼 노벨, The Freak Circus를 경험해 보세요. 온라인으로 플레이하거나 PC, Mac, Linux에서 다운로드할 수 있습니다.",
+      "keywords": "The Freak Circus, 비주얼 노벨, 심리 호러, 피에로, 할리퀸, 서커스, 호러 게임, 인디 게임, thefreakcircus.org"
+    },
+    "pierrot": {
+      "title": "피에로 캐릭터 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus의 우울한 광대 피에로를 만나보세요. 그의 집착적인 사랑과 신비로운 이야기를 심리 호러 비주얼 노벨에서 확인할 수 있습니다.",
+      "keywords": "피에로, The Freak Circus, 캐릭터, 광대, 집착적인 사랑, 심리 호러, 비주얼 노벨, thefreakcircus.org"
+    },
+    "harlequin": {
+      "title": "할리퀸 캐릭터 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus의 장난꾸러기 할리퀸을 만나보세요. 피에로와의 관계와 그녀의 복잡한 성격을 이 호러 비주얼 노벨에서 탐험할 수 있습니다.",
+      "keywords": "할리퀸, The Freak Circus, 캐릭터, 장난꾸러기, 심리 호러, 비주얼 노벨, 서커스, thefreakcircus.org"
+    },
+    "wiki": {
+      "title": "The Freak Circus 위키 - 게임 가이드 & 스토리 | thefreakcircus.org",
+      "description": "The Freak Circus 비주얼 노벨 완전 가이드. 캐릭터, 스토리, 게임 플레이 및 신비로운 서커스 세계를 알아보세요.",
+      "keywords": "The Freak Circus 위키, 게임 가이드, 비주얼 노벨 가이드, 스토리, 캐릭터, 서커스 세계, thefreakcircus.org"
+    },
+    "download": {
+      "title": "The Freak Circus 다운로드 - 무료 비주얼 노벨 | thefreakcircus.org",
+      "description": "PC, Mac, Linux에서 무료로 The Freak Circus 비주얼 노벨을 다운로드하세요. 피에로와 할리퀸의 심리 호러 스토리를 경험할 수 있습니다.",
+      "keywords": "The Freak Circus 다운로드, 무료 비주얼 노벨, PC 게임, Mac 게임, Linux 게임, 심리 호러, thefreakcircus.org"
+    },
+    "updates": {
+      "title": "The Freak Circus 업데이트 - 개발 뉴스 | thefreakcircus.org",
+      "description": "The Freak Circus 비주얼 노벨의 최신 뉴스와 업데이트를 확인하세요. 개발 진행 상황과 새로운 콘텐츠 출시 소식을 따라가세요.",
+      "keywords": "The Freak Circus 업데이트, 개발 뉴스, 비주얼 노벨 업데이트, 게임 뉴스, thefreakcircus.org"
+    },
+    "about": {
+      "title": "The Freak Circus 소개 - 게임 정보 | thefreakcircus.org",
+      "description": "The Freak Circus 비주얼 노벨과 그 개발 과정, 심리 호러 경험 뒤의 팀에 대해 알아보세요.",
+      "keywords": "The Freak Circus 소개, 게임 정보, 개발 팀, 비주얼 노벨, thefreakcircus.org"
+    },
+    "contact": {
+      "title": "문의하기 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus 팀과 연락하세요. 비주얼 노벨에 대한 지원, 피드백, 문의 사항을 보내실 수 있습니다.",
+      "keywords": "The Freak Circus 문의, 지원, 피드백, 비주얼 노벨, thefreakcircus.org"
+    },
+    "privacy": {
+      "title": "개인정보 처리방침 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus 웹사이트 및 비주얼 노벨의 개인정보 처리방침. 사용자의 개인정보를 어떻게 보호하는지 알아보세요.",
+      "keywords": "개인정보 처리방침, The Freak Circus, 데이터 보호, thefreakcircus.org"
+    },
+    "terms": {
+      "title": "이용 약관 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus 웹사이트 및 비주얼 노벨의 이용 약관을 읽어보세요.",
+      "keywords": "이용 약관, The Freak Circus, 법적 조건, thefreakcircus.org"
+    },
+    "copyright": {
+      "title": "저작권 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus 비주얼 노벨 및 웹사이트 콘텐츠의 저작권 정보.",
+      "keywords": "저작권, The Freak Circus, 지적 재산권, thefreakcircus.org"
+    }
+  },
+  "nav": {
+    "home": "홈",
+    "characters": "캐릭터",
+    "pierrot": "피에로",
+    "harlequin": "할리퀸",
+    "wiki": "위키",
+    "updates": "비주얼 노벨 업데이트",
+    "download": "다운로드"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "The Freak Circus",
+      "subtitle": "심리 호러 비주얼 노벨",
+      "description": "현실이 뒤틀리고 악몽이 살아나는 세계로 들어가 보세요. The Freak Circus는 당신의 현실과 허구에 대한 인식을 시험하는 몰입형 심리 호러 비주얼 노벨입니다.",
+      "playButton": "지금 플레이",
+      "learnButton": "자세히 알아보기",
+      "warning": "콘텐츠 경고: 이 게임에는 성인 테마, 심리 호러, 충격적인 이미지가 포함되어 있습니다. 18세 이상 권장.",
+      "platforms": "PC, Mac, Linux에서 이용 가능"
+    },
+    "about": {
+      "title": "The Freak Circus란?",
+      "description": "The Freak Circus는 등장인물들의 뒤틀린 마음을 탐험하는 심리 호러 비주얼 노벨입니다. 아무것도 예상대로 보이지 않는 신비로운 서커스를 배경으로 피에로와 할리퀸이라는 두 인물의 이야기를 따라가며 현실에 대한 모든 고정관념을 시험하게 됩니다.",
+      "feature1": "심리 호러 요소",
+      "feature1Desc": "현실을 의심하게 만드는 깊은 심리적 테마 경험",
+      "feature2": "풍부한 캐릭터 개발",
+      "feature2Desc": "복잡한 배경과 동기를 가진 캐릭터 만나기",
+      "feature3": "의미 있는 선택",
+      "feature3Desc": "당신의 선택이 이야기 전개와 결말에 영향을 미침",
+      "feature4": "몰입감 있는 분위기",
+      "feature4Desc": "정교하게 제작된 세계와 멋진 비주얼, 사운드 디자인 체험"
+    },
+    "characters": {
+      "title": "캐릭터 소개",
+      "subtitle": "The Freak Circus에 등장하는 신비로운 인물들을 만나보세요",
+      "pierrotName": "피에로",
+      "pierrotDesc": "그의 웃는 얼굴 뒤에 깊은 감정을 숨긴 우울한 광대. 사랑, 상실, 비밀 유지의 대가를 담은 이야기.",
+      "harlequinName": "할리퀸",
+      "harlequinDesc": "장난스러운 외모 뒤에 복잡한 성격을 가진 장난꾸러기. 피에로와의 관계가 이야기의 핵심을 이룸.",
+      "learnMore": "자세히 알아보기"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "question1": "The Freak Circus란 무엇인가요?",
+      "answer1": "The Freak Circus는 현실, 인식, 인간 심리를 탐구하는 심리 호러 비주얼 노벨로, 피에로와 할리퀸의 이야기를 중심으로 전개됩니다.",
+      "question2": "모든 연령대에게 적합한가요?",
+      "answer2": "아니요, 성인 테마, 심리 호러, 충격적인 이미지가 포함되어 있습니다. 18세 이상 권장.",
+      "question3": "게임은 어떤 플랫폼에서 이용 가능한가요?",
+      "answer3": "현재 PC, Mac, Linux에서 이용 가능합니다.",
+      "question4": "게임 길이는 얼마나 되나요?",
+      "answer4": "다양한 스토리라인과 엔딩이 있으며, 플레이어의 선택과 탐험에 따라 플레이 시간이 달라집니다.",
+      "question5": "서커스 '괴짜'들의 장애는 무엇 때문인가요?",
+      "answer5": "게임 내 내러티브를 통해 서커스 배우들의 조건에 숨겨진 어두운 역사를 탐구하며, 그들의 독특한 특징의 기원을 밝힙니다.",
+      "question6": "현대의 서커스나 박람회에도 여전히 괴짜들이 있나요?",
+      "answer6": "현대 서커스는 많이 발전했지만, The Freak Circus는 역사적 사이드쇼 전통에서 영감을 받아 어둡고 몰입감 있는 설정과 타자성, 수용 테마를 탐구합니다.",
+      "question7": "피에로의 키는 얼마인가요?",
+      "answer7": "피에로의 정확한 키는 캐릭터 디자인의 일부로, 그의 존재감이 플레이어에게 심리적 영향을 주도록 설계되었습니다.",
+      "question8": "모든 엔딩을 얻으려면 어떻게 해야 하나요?",
+      "answer8": "게임 내 선택을 신중히 고려하세요. 각 선택이 피에로와 할리퀸과의 관계에 영향을 주어 다양한 스토리 경로와 엔딩으로 이어집니다.",
+      "question9": "피에로에게 케이크를 받으려면?",
+      "answer9": "피에로와 신뢰를 쌓아야 하며, 그의 공연에 진심으로 관심을 보이고 취향에 맞는 결정을 해야 특별 장면이 열립니다.",
+      "question10": "피에로에게 장미를 받으려면?",
+      "answer10": "피에로와의 관계 진행에 따라 장미를 받을 수 있습니다. 그의 성격을 이해하고 예술적 감각을 존중하는 선택을 하세요.",
+      "question11": "The Freak Circus 2장은 언제 나오나요?",
+      "answer11": "개발 팀이 2장을 적극적으로 작업 중이며, 확장된 스토리라인과 캐릭터 엔딩이 포함될 예정입니다. 공식 채널을 통해 업데이트를 확인하세요."
+    },
+    "cta": {
+      "title": "서커스에 입장할 준비가 되셨나요?",
+      "subtitle": "지금 The Freak Circus를 다운로드하고 미지의 세계로 여행을 시작하세요",
+      "downloadButton": "지금 다운로드",
+      "learnButton": "자세히 알아보기"
+    }
+  },
+  "DownloadPage": {
+    "header": {
+      "title": "The Freak Circus 다운로드",
+      "subtitle": "The Freak Circus 비주얼 노벨을 얻고 집착과 미스터리의 뒤틀린 세계를 탐험하세요",
+      "backToHome": "← 홈으로 돌아가기",
+      "wiki": "위키",
+      "pierrot": "피에로",
+      "harlequin": "할리퀸",
+      "updates": "업데이트"
+    },
+    "main": {
+      "title": "The Freak Circus 다운로드",
+      "description": "전 세계 플레이어들을 사로잡은 어두운 심리 비주얼 노벨을 경험하세요. <a href=\"/\" class=\"content-link\">The Freak Circus</a>는 공식 플랫폼에서 무료로 다운로드 가능하며, 다양한 플랫폼과 언어를 지원합니다.",
+      "featuresTitle": "The Freak Circus 다운로드 포함 내용:",
+      "feature1": "원작 아트워크와 배경",
+      "feature2": "두 명의 매력적인 캐릭터: <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>",
+      "feature3": "다양한 엔딩과 스토리 경로",
+      "feature4": "영어, 포르투갈어(BR), 중국어 지원",
+      "feature5": "크로스 플랫폼 호환",
+      "downloadButton": "🎮 지금 The Freak Circus 다운로드",
+      "downloadDescription": "공식 다운로드는 The Freak Circus itch.io 페이지에서 확인하세요"
+    },
+    "platforms": {
+      "title": "지원 플랫폼",
+      "windows": {
+        "title": "Windows",
+        "description": "The Freak Circus 다운로드를 위한 Windows 지원"
+      },
+      "macos": {
+        "title": "macOS",
+        "description": "네이티브 macOS 버전 지원"
+      },
+      "linux": {
+        "title": "Linux",
+        "description": "Linux 호환 포함"
+      },
+      "web": {
+        "title": "웹 브라우저",
+        "description": "브라우저에서 직접 플레이 가능"
+      }
+    },
+    "sidebar": {
+      "gameInfo": {
+        "title": "게임 정보",
+        "genre": "장르:",
+        "rating": "연령 등급:",
+        "price": "가격:",
+        "platform": "플랫폼:",
+        "languages": "언어:",
+        "genreValue": "비주얼 노벨",
+        "ratingValue": "18+",
+        "priceValue": "무료",
+        "platformValue": "다중 플랫폼",
+        "languagesValue": "영어, 포르투갈어(BR), 중국어"
+      },
+      "quickLinks": {
+        "title": "빠른 링크",
+        "home": "← 홈",
+        "wiki": "위키 가이드",
+        "pierrot": "피에로 캐릭터",
+        "harlequin": "할리퀸 캐릭터",
+        "updates": "최신 업데이트"
+      },
+      "warnings": {
+        "title": "콘텐츠 경고",
+        "description": "The Freak Circus 다운로드에는 다음과 같은 성인 콘텐츠가 포함됩니다:",
+        "warning1": "얀데레 테마",
+        "warning2": "어두운 심리 요소",
+        "warning3": "강한 언어 표현",
+        "warning4": "폭력과 고어",
+        "warning5": "성인 상황",
+        "ageWarning": "18세 이상 권장"
+      },
+      "official": {
+        "title": "공식 소스",
+        "description": "The Freak Circus itch.io 페이지가 유일한 공식 다운로드 소스입니다. 게임에 대한 자세한 내용은 <a href=\"/wiki\" class=\"content-link\">위키 페이지</a>나 최신 <a href=\"/updates\" class=\"content-link\">개발 업데이트</a>를 확인하세요.",
+        "visitButton": "공식 페이지 방문"
+      }
+    },
+    "additional": {
+      "about": {
+        "title": "The Freak Circus 다운로드 소개",
+        "description1": "The Freak Circus 다운로드는 심리 호러와 매력적인 캐릭터 개발을 결합한 독특한 비주얼 노벨 경험을 제공합니다. Neko Bueno가 제작했으며, 2,000명 이상의 플레이어에게서 4.9/5 평점을 받았습니다. <a href=\"/\" class=\"content-link\">The Freak Circus</a> 세계를 더 알아보세요.",
+        "description2": "The Freak Circus를 다운로드하면 집착과 경쟁이 예상치 못한 방식으로 충돌하는 세계로 들어가게 됩니다. 다양한 스토리 경로를 탐험하며 서커스의 신비로운 캐릭터들과의 관계를 경험할 수 있습니다. <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>을 만나보세요."
+      },
+      "development": {
+        "title": "개발 상태",
+        "description": "The Freak Circus는 현재 활발히 개발 중이며, Day 2 콘텐츠 작업이 진행되고 있습니다. 현재 버전에는 1개의 배드 엔딩과 3개의 열린 엔딩이 포함되어 있으며, 향후 업데이트에 더 많은 콘텐츠가 추가될 예정입니다. 최신 개발 진행 상황은 <a href=\"/updates\" class=\"content-link\">비주얼 노벨 업데이트</a> 페이지에서 확인하세요."
+      },
+      "community": {
+        "title": "커뮤니티 & 지원",
+        "description": "이미 The Freak Circus를 경험한 수천 명의 플레이어 커뮤니티에 참여하세요. 팬아트, 팬픽을 만들고 경험을 공유하는 열정적인 팬층이 형성되어 있습니다. 게임을 다운로드하고 itch.io 페이지에서 피드백을 남기면 개발 지원이 가능합니다. 게임 세계에 대해 더 알아보려면 <a href=\"/wiki\" class=\"content-link\">포괄적인 위키</a>를 확인하세요."
+      }
+    }
+  },
+  "PierrotPage": {
+    "header": {
+      "name": "피에로",
+      "subtitle": "조용한 집착 - The Freak Circus의 피에로",
+      "description": "호러 서커스의 그림자 속에서, 피에로는 독특한 방식으로 당신의 시선을 사로잡습니다. 그의 침묵은 위험한 집착을 숨기고, 매번 바라보는 눈빛마다 말할 수 없는 비밀을 드러냅니다. <a href=\"/\" class=\"content-link\">The Freak Circus</a>의 예술가 피에로는 비주얼 노벨 커뮤니티에서 사랑받는 캐릭터가 되었습니다."
+    },
+    "about": {
+      "title": "The Freak Circus의 피에로 소개",
+      "description1": "<a href=\"/\" class=\"content-link\">The Freak Circus</a>의 피에로는 비주얼 노벨에서 가장 신비롭고 복잡한 캐릭터 중 하나입니다. 이 예술가 피에로는 순수하고 사랑이 넘치며, 침묵 속에서도 감정을 분명히 드러냅니다. 감정이 폭발할 때는 직접적인 폭력까지 불사하기도 합니다. The Freak Circus의 피에로는 비주얼 노벨 커뮤니티에서 사랑받는 인물이 되었습니다.",
+      "description2": "그 가엾은 광대를 도왔을 때, 일이 이렇게까지 될 줄은 몰랐습니다. 이제 당신은 높고 집착적인 피에로를 맞이하게 됩니다. 그는 당신의 집에 몰래 들어와 밤마다 당신의 잠을 지켜보기도 합니다. 그의 집착은 한겨울 날, 서커스 전단을 나누던 그를 공격자로부터 당신이 막아주면서 시작되었고, 즉시 불타는 집착으로 이어졌습니다.",
+      "description3": "그의 신비로운 광대 인격에도 불구하고, 당신을 볼 때면 창백한 피부에 붉은기가 돌곤 합니다. 그는 혼잣말로 당신을 자신의 것으로 만들고, 표식을 남기고, 온전히 소유하고 싶다고 속삭입니다. 때때로 피에로는 당신이 잠든 사이 부드러운 키스로 당신을 감싸며 사랑을 표현합니다. 더 자세한 정보는 <a href=\"/wiki\" class=\"content-link\">Pierrot The Freak Circus 위키</a>에서 확인할 수 있으며, 캐릭터 분석과 스토리, 개발 과정까지 상세히 제공됩니다. 최신 <a href=\"/updates\" class=\"content-link\">비주얼 노벨 업데이트</a>를 통해 피에로의 새로운 전개를 확인하세요."
+    },
+    "traits": {
+      "title": "The Freak Circus 피에로 성격 특성",
+      "obsessiveLove": {
+        "title": "집착적인 사랑",
+        "description": "The Freak Circus의 피에로는 당신이 그를 보호해준 순간부터 강렬한 집착을 경험합니다. 이 예술가 피에로는 당신의 외모와 상관없이 사랑하며, 당신이 그를 사랑함을 이해하지 못할 때조차 깊은 헌신을 보입니다. 그의 심리적 복잡성에 대해 더 알고 싶다면 <a href=\"/wiki\" class=\"content-link\">포괄적인 위키</a>를 참고하세요."
+      },
+      "silentSuffering": {
+        "title": "조용한 고통",
+        "description": "감정이 폭발할 때, 침묵이 뒤따릅니다. 그는 당신의 얼굴을 만지고 싶어 손을 뻗지만, 스스로를 제지하고 물러납니다. 깊이 사랑하는 아름다운 고통은 마치 가슴을 찌르는 단검과 같습니다."
+      },
+      "nocturnalVisits": {
+        "title": "야간 방문",
+        "description": "피에로는 밤에 당신을 찾아와 슬픔과 좌절을 느끼고, 포옹을 필요로 합니다. 당신이 원하면 부드럽게 행동하며, 그의 영혼을 사로잡은 이를 위해 무엇이든 합니다."
+      },
+      "emotionalTurmoil": {
+        "title": "감정적 혼란",
+        "description": "그의 눈은 눈물로 가득 차지만 흔적을 남길 수 없어 참습니다. 조심스레 침대에서 내려와 무릎을 꿇고 머리를 숙이지만, 떠나야 함을 알면서도 떠나지 못합니다."
+      }
+    },
+    "abilities": {
+      "title": "The Freak Circus 피에로 특별 능력",
+      "mesmerizingPerformance": {
+        "title": "최면적인 공연",
+        "description": "The Freak Circus의 피에로는 공연을 마치며 그림자와 함께 유연하게 춤추어 관객을 매혹하지만, 그의 시선은 오직 당신에게만 향합니다. 황금빛 눈동자가 빛나며 날카롭고 매혹적인 미소로 당신의 승인을 구합니다. 그의 공연을 직접 경험하려면 <a href=\"/download\" class=\"content-link\">The Freak Circus 다운로드</a>를 이용하세요."
+      },
+      "emotionalControl": {
+        "title": "강렬한 감정 통제",
+        "description": "그는 당신을 더 꽉 안고 싶고, 숨가쁘고 땀에 젖은 모습을 보고 싶은 강한 욕망을 느끼지만 스스로를 제지하며 인내심을 강조합니다. 거의 억제되지 않은 흥분이 느껴집니다."
+      },
+      "devotion": {
+        "title": "변함없는 헌신",
+        "description": "피에로는 당신을 계속 안으며, 개인 공간을 완전히 존중하지는 않지만, 기묘한 경외심을 담아 당신뿐만 아니라 자신의 존재의 핵심까지 감싸듯 행동합니다."
+      }
+    },
+    "relationships": {
+      "title": "The Freak Circus 피에로 관계",
+      "protagonist": {
+        "title": "주인공과의 관계",
+        "description": "The Freak Circus의 피에로는 당신을 만나 사랑하게 되었으며, 당신에게 호기심을 가집니다. 다른 서커스 멤버와 친해지는 것에는 크게 신경 쓰지 않지만, 당신은 불안감을 느낄 수밖에 없습니다. 때때로 피에로는 당신을 매우 화나게 할 수도 있습니다."
+      },
+      "harlequin": {
+        "title": "할리퀸과의 관계",
+        "description": "피에로와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>(또는 아를레키노)의 만남은 매우 흥미진진합니다. 그들의 관계는 역사적 경쟁을 모방하며 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 내 긴장과 드라마를 만들어냅니다. 피에로와 할리퀸의 관계는 이야기와 캐릭터 상호작용에 깊이를 더하며, 아를레키노 The Freak Circus는 그들의 상호작용에 추가적인 복잡성을 제공합니다."
+      }
+    },
+    "gallery": {
+      "title": "The Freak Circus 피에로 캐릭터 갤러리"
+    }
+  },
+  "HarlequinPage": {
+    "header": {
+      "name": "할리퀸",
+      "subtitle": "유혹적인 라이벌 - The Freak Circus의 할리퀸",
+      "description": "서커스의 그림자 속에서 할리퀸은 유혹적인 매력과 교활한 지혜로 당신의 시선을 사로잡습니다. 미소마다 위험을 감추고, 손길마다 매혹적인 유혹을 느끼게 합니다. <a href=\"/\" class=\"content-link\">The Freak Circus</a>의 이 예술가 할리퀸은 비주얼 노벨 커뮤니티에서 큰 인기를 얻었습니다."
+    },
+    "about": {
+      "title": "The Freak Circus의 할리퀸 소개",
+      "description1": "<a href=\"/\" class=\"content-link\">The Freak Circus</a>의 할리퀸은 신비로운 존재감과 깊이 있는 조작적 성격으로 유명합니다. 그는 혼란 속에서 살아가며 감정의 위험한 게임을 하고, 다른 사람들을 자신의 복잡한 욕망과 기만의 그물로 끌어들입니다. 그의 과거는 미스터리로 둘러싸여 위험한 매력을 더합니다. The Freak Circus의 할리퀸은 매혹적인 캐릭터가 되었습니다.",
+      "description2": "처음에는 다루기 힘든 사람이었지만, 당신과 할리퀸은 매운 음식에 대한 사랑이라는 공통점을 발견하게 됩니다. 자연스럽게 두 사람은 카페에서 '친근한' 경쟁을 벌이며 많은 양의 매운 소스와 재치 있는 대화를 통해 서로를 더 잘 알게 됩니다. 그의 진화하는 스토리에 대한 최신 정보는 <a href=\"/updates\" class=\"content-link\">업데이트</a>에서 확인하세요.",
+      "description3": "여행 서커스의 깜박이는 가스등과 그림자 속에서 완전히 새로운 드라마가 펼쳐집니다. 광대단의 가짜 미소와 환호하는 관객 뒤에는 오래된 경쟁과 위험한 과거가 남아 있습니다. 이 The Freak Circus의 할리퀸은 통제와 엔터테인먼트로 살아가는 공연자지만, 새로운 멤버의 등장으로 세상이 뒤바뀌게 됩니다. 자세한 내용은 <a href=\"/wiki\" class=\"content-link\">The Freak Circus 할리퀸 위키</a>를 참조해 깊이 있는 캐릭터 분석을 확인하세요."
+    },
+    "traits": {
+      "title": "The Freak Circus 할리퀸 성격 특성",
+      "boldManipulative": {
+        "title": "대담하고 조종적",
+        "description": "The Freak Circus의 할리퀸은 <a href=\"/pierrot\" class=\"content-link\">피에로</a>보다 훨씬 대담합니다. 그는 일반적으로 독성이 있으며 관계를 파괴하지 않아도 문제를 일으키는 재능이 있습니다. 경계가 거의 없습니다."
+      },
+      "socialAnxiety": {
+        "title": "사회적 불안 & 부드러움",
+        "description": "대담한 외형과 달리, 할리퀸은 사회적 불안이 있으며 다소 기이하게 부드럽습니다. 흥미로운 것을 구입하며, 그의 상호작용은 종종 초대받지 않은 티켓과 불안 코드 행동으로 특징지어집니다."
+      },
+      "spicyPersonality": {
+        "title": "매운 성격",
+        "description": "할리퀸은 매운 음식을 사랑하며, 이는 유대의 기회가 됩니다. 대량의 매운 소스와 재치 있는 대화를 활용해 친밀감을 형성합니다."
+      },
+      "controlEntertainment": {
+        "title": "통제 & 엔터테인먼트",
+        "description": "그는 통제와 엔터테인먼트로 살아가는 공연자로, 새로운 멤버의 등장으로 서커스 내 새로운 역학이 형성됩니다."
+      }
+    },
+    "abilities": {
+      "title": "The Freak Circus 할리퀸 특별 능력",
+      "chaosCreation": {
+        "title": "혼란 창조",
+        "description": "할리퀸은 혼란 속에서 살아가며 감정의 위험한 게임을 합니다. 관계가 없어도 문제를 일으킬 수 있으며, 그의 혼란스러운 매력을 경험하려면 <a href=\"/download\" class=\"content-link\">The Freak Circus 다운로드</a>를 이용하세요."
+      },
+      "giftSelection": {
+        "title": "선물 선택",
+        "description": "할리퀸은 흥미로운 것을 구입하며, 그만의 개성을 반영한 아이템을 선택합니다. 초대받지 않은 티켓과 불안 행동이 각 선물에 담겨 있습니다."
+      },
+      "circusDynamics": {
+        "title": "서커스 내 역학",
+        "description": "통제와 엔터테인먼트로 살아가는 공연자로서, 그는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 광대를 알고 있으며 다른 서커스 사람들을 대략적으로 인지합니다. 그의 등장은 서커스 내 새로운 역학을 만듭니다."
+      }
+    },
+    "giftScenario": {
+      "title": "The Freak Circus 할리퀸 선물 시나리오",
+      "mainTitle": "그가 당신에게 선물을 줍니다!",
+      "description": "이 시나리오에서 할리퀸은 당신의 마음을 얻기 위해 선물을 줍니다. 그는 특히 초록색이나 검은색 선물을 좋아하며, 이를 통해 당신에게 자신을 기억시키려 합니다. 이 선물은 단순한 물건이 아니라 그의 내면 감정과 독특한 소통 방식의 표현입니다.",
+      "interestingSelections": {
+        "title": "흥미로운 선택",
+        "description": "흥미로운 물건을 구매하며, 개성과 매운 음식 사랑이 반영됩니다. 각 선물은 그의 복잡한 성격을 보여주는 창입니다."
+      },
+      "uninvitedTickets": {
+        "title": "초대받지 않은 티켓",
+        "description": "선물에는 초대받지 않은 티켓과 불안 행동이 반영되어 있어, 그의 사회적 불안과 부드러운 기이함을 보여줍니다."
+      },
+      "hauntedCarnival": {
+        "title": "유령 서커스 테마",
+        "description": "선물을 통해 The Freak Circus의 유령 서커스 분위기와 연결된 그의 세계 일부를 공유합니다."
+      }
+    },
+    "relationships": {
+      "title": "The Freak Circus 할리퀸 관계",
+      "protagonist": {
+        "title": "주인공과의 관계",
+        "description": "할리퀸은 당신에게 약간의 호감을 가지고 있으며, 여러 방법으로 당신의 마음을 얻으려 합니다. 당신은 광대, 동료, 혹은 일반인으로서 그의 관계에 참여할 수 있습니다. 그의 상호작용은 사회적 불안과 부드러운 기이함으로 독특합니다."
+      },
+      "pierrotJester": {
+        "title": "피에로 & 광대와의 관계",
+        "description": "그는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 광대를 알고 있으며, 다른 서커스 멤버를 대략적으로 인지합니다. 피에로와 할리퀸(또는 아를레키노)의 관계는 역사적 경쟁을 모방하며 흥미롭습니다. The Freak Circus의 할리퀸과 피에로의 관계는 이야기의 층을 더하며, 아를레키노는 독특한 시각을 제공합니다."
+      }
+    },
+    "gallery": {
+      "title": "The Freak Circus 할리퀸 캐릭터 갤러리"
+    }
+  },
+  "WikiPage": {
+    "header": {
+      "title": "더 프릭 서커스 위키",
+      "subtitle": "더 프릭 서커스 비주얼 노블 종합 가이드",
+      "backToHome": "← 홈으로 돌아가기",
+      "pierrot": "피에로 캐릭터",
+      "harlequin": "할리퀸 캐릭터"
+    },
+    "gameOverview": {
+      "title": "게임 개요",
+      "description1": "<strong><a href=\"/\" class=\"content-link\">더 프릭 서커스</a></strong>는 미스터리, 집착, 위험한 관계로 가득한 여행 서커스의 뒤틀린 세계로 플레이어를 안내하는 다크 심리 비주얼 노블입니다. <strong>더 프릭 서커스</strong>의 몰입형 경험은 매혹적인 스토리텔링과 성인 테마를 결합하여 인간 욕망과 조작의 그림자를 탐험하는 잊지 못할 여정을 제공합니다.",
+      "description2": "<a href=\"/\" class=\"content-link\">더 프릭 서커스</a>에서 플레이어는 평범한 카페 직원 역할을 맡게 되며, 그 평온한 삶은 수수께끼 같은 서커스 공연자들과 얽히면서 변화합니다. 이 게임은 복잡한 캐릭터 관계와 분기형 내러티브를 통해 집착, 경쟁, 인간 본성의 어두운 측면을 탐구합니다.",
+      "description3": "더 프릭 서커스는 성인 콘텐츠, 심리적 깊이, 중심 캐릭터 간 복잡한 역학 관계로 비주얼 노블 장르에서 돋보입니다. 이 다크한 이야기에서 여러 엔딩과 캐릭터 루트를 경험하며, 매 플레이마다 새로운 이야기의 층을 발견할 수 있습니다. <a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a> 사이의 복잡한 관계를 탐험하세요."
+    },
+    "gamePremise": {
+      "title": "게임 배경",
+      "description1": "더 프릭 서커스의 이야기는 공포의 서커스가 마을에 도착하면서 시작되며, 어두운 비밀과 무서운 미스터리를 가져옵니다. 카페 직원으로서 평범한 삶이 <a href=\"/pierrot\" class=\"character-link\">피에로</a>라는 조용한 얀데레 공연자를 만나면서 위험한 게임의 촉발점이 됩니다.",
+      "description2": "하지만 당신은 피에로의 집착에만 갇혀 있는 것이 아닙니다. 그의 유혹적인 라이벌 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a>이 치명적인 게임에 참여하며, 욕망, 조작, 심리적 긴장의 복잡한 삼각관계를 형성합니다.",
+      "description3": "그들의 매혹적인 미소와 공연에 속지 마세요—<strong>더 프릭 서커스</strong>에서는 모든 것이 보이는 그대로가 아니며, 당신의 선택 하나가 구원이나 파멸로 이어질 수 있습니다. 성인용 비주얼 노블인 더 프릭 서커스는 오리지널 아트워크와 매력적인 캐릭터, 인간 심리의 깊이를 탐구하는 분기형 스토리라인을 제공합니다."
+    },
+    "currentFeatures": {
+      "title": "주요 기능",
+      "originalArtwork": {
+        "title": "오리지널 아트워크 & 캐릭터",
+        "description": "더 프릭 서커스는 아름답게 제작된 오리지널 아트워크와 배경을 제공하며, 두 명의 매력적인 캐릭터인 <a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a>을 선보입니다. 각 캐릭터는 그들의 복잡한 성격과 동기를 반영하도록 세심하게 디자인되었습니다."
+      },
+      "multipleEndings": {
+        "title": "다중 엔딩 & 언어 지원",
+        "description": "더 프릭 서커스에서는 1개의 배드 엔딩과 3개의 오픈 엔딩을 즐길 수 있으며, 향후 업데이트로 더 많은 엔딩이 추가될 예정입니다. 현재 영어, 포르투갈어(BR), 중국어로 제공되어 글로벌 플레이어가 즐길 수 있습니다. 새로운 콘텐츠 소식은 <a href=\"/updates\" class=\"content-link\">개발 업데이트</a>를 통해 확인하세요."
+      },
+      "matureThemes": {
+        "title": "어두운 성인 테마",
+        "description": "18+ 성인 스토리로, 얀데레 테마, 어두운 요소, 선택 기반 내러티브를 경험할 수 있습니다. 더 프릭 서커스는 복잡한 심리 테마와 성인 콘텐츠 경고를 피하지 않습니다."
+      },
+      "interactiveStorytelling": {
+        "title": "인터랙티브 스토리텔링",
+        "description": "더 프릭 서커스는 플레이어의 선택이 스토리 진행에 중요한 영향을 미치는 인터랙티브 경험을 제공합니다. 각 결정은 캐릭터 상호작용과 스토리 결과에 차이를 만듭니다."
+      }
+    },
+    "contentWarnings": {
+      "title": "콘텐츠 경고",
+      "header": {
+        "title": "⚠️ 성인 콘텐츠 경고",
+        "description": "더 프릭 서커스는 18세 이상에게 권장되며 다음과 같은 내용을 포함합니다:"
+      },
+      "psychologicalElements": {
+        "title": "심리적 요소",
+        "description": "얀데레 테마, 집착, 조작, 심리적 긴장이 더 프릭 서커스의 핵심 요소입니다."
+      },
+      "darkThemes": {
+        "title": "어두운 테마",
+        "description": "더 프릭 서커스는 폭력, 강한 언어, 성인 상황 등을 포함하며, 모든 관객에게 적합하지 않을 수 있습니다."
+      },
+      "characterDynamics": {
+        "title": "캐릭터 역학",
+        "description": "소유욕, 경쟁, 감정적 조작을 포함한 복잡한 관계가 더 프릭 서커스의 스토리 전반에서 탐구됩니다."
+      }
+    },
+    "developmentStatus": {
+      "title": "개발 현황",
+      "description1": "더 프릭 서커스는 계획된 캐릭터 엔딩과 확장 스토리라인을 통해 플레이어와의 연결을 심화하고 있습니다. 개발팀은 새로운 콘텐츠와 개선 작업을 적극적으로 진행 중이며, 최신 소식은 <a href=\"/updates\" class=\"content-link\">업데이트</a>를 통해 확인하세요.",
+      "description2": "향후 업데이트에는 다음이 포함됩니다:",
+      "extendedRoutes": "<a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a>의 확장 캐릭터 루트",
+      "additionalEndings": "추가 엔딩 및 스토리 분기",
+      "enhancedArtwork": "향상된 아트워크 및 캐릭터 개발",
+      "newLanguageSupport": "새로운 언어 지원",
+      "improvedMechanics": "향상된 게임플레이 메커니즘 및 UI",
+      "description3": "더 프릭 서커스의 출시 공지와 개발 진행 상황은 공식 채널을 통해 확인하세요. 개발팀은 완전하고 만족스러운 경험을 제공하기 위해 최선을 다하고 있습니다."
+    },
+    "howToPlay": {
+      "title": "게임 플레이 방법",
+      "description1": "더 프릭 서커스는 온라인에서 무료로 플레이 가능하며, 빠르고 간편한 게임 경험을 제공합니다. 웹 브라우저에서 직접 접속하여 다운로드나 설치 없이 게임을 즐길 수 있습니다. 오프라인 플레이도 가능하며, <a href=\"/download\" class=\"content-link\">게임 다운로드</a>를 통해 기기에 설치할 수 있습니다.",
+      "description2": "더 프릭 서커스를 시작하려면:",
+      "step1": "공식 더 프릭 서커스 웹사이트 또는 게임 플랫폼 방문",
+      "step2": "\"Play Now\" 버튼 클릭하여 게임 시작",
+      "step3": "캐릭터와의 관계를 결정하는 선택 수행",
+      "step4": "모든 엔딩을 발견하기 위해 다양한 경로 탐험",
+      "description3": "<a href=\"/\" class=\"play-link\">웹사이트 Play Now 버튼</a>를 통해 바로 플레이하거나 공식 게임 웹사이트에서 시작할 수 있습니다.",
+      "description4": "더 프릭 서커스는 비주얼 노블 초보자와 성인 심리 경험을 원하는 숙련 플레이어 모두에게 접근 가능하도록 설계되었습니다."
+    },
+    "sidebar": {
+      "quickNavigation": {
+        "title": "빠른 이동",
+        "home": "← 홈 페이지",
+        "pierrot": "피에로 캐릭터 페이지",
+        "harlequin": "할리퀸 캐릭터 페이지"
+      },
+      "gameInformation": {
+        "title": "게임 정보",
+        "genre": "장르",
+        "genreValue": "비주얼 노블",
+        "rating": "등급",
+        "ratingValue": "18+",
+        "platform": "플랫폼",
+        "platformValue": "웹 브라우저",
+        "languages": "언어",
+        "languagesValue": "영어, 포르투갈어(BR), 중국어",
+        "status": "상태",
+        "statusValue": "개발 중"
+      },
+      "mainCharacters": {
+        "title": "주요 캐릭터",
+        "pierrot": {
+          "name": "피에로",
+          "description": "이야기를 주도하는 조용한 얀데레 공연자."
+        },
+        "harlequin": {
+          "name": "할리퀸",
+          "description": "피에로의 유혹적 라이벌로, 스토리를 복잡하게 만듭니다."
+        }
+      }
+    }
+  },
+  "UpdatesPage": {
+    "header": {
+      "title": "더 프릭 서커스 비주얼 노블 업데이트",
+      "subtitle": "더 프릭 서커스 비주얼 노블 개발 최신 정보 확인",
+      "backToHome": "← 홈으로 돌아가기",
+      "wiki": "위키",
+      "pierrot": "피에로",
+      "harlequin": "할리퀸"
+    },
+    "updates": {
+      "almostThere": {
+        "title": "거의 완성!",
+        "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스 비주얼 노블</a>의 월간 업데이트입니다. 이제 정말 출시가 가까워졌습니다!",
+        "description2": "비주얼 노블 2일차의 약 15-20%가 아직 코딩되지 않았으며, 여기에는 완성된 스프라이트도 포함됩니다. 이후 단계는 주로 음악과 효과음 작업으로 조금 더 빠르게 진행될 예정입니다.",
+        "description3": "이번 업데이트로 베타 테스트를 진행했으며 아직 수정해야 할 작은 부분들이 남아 있습니다. 가장 큰 도전은 전환과 스프라이트가 많은 2일차의 20% 미완성 부분입니다.",
+        "description4": "<a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 외에도 티켓 테이커, 광대, 의사 캐릭터가 제대로 소개될 예정입니다.",
+        "description5": "이번 달 안에 비주얼 노블 업데이트와 스토어를 출시할 계획이지만, 최악의 경우 다음 달로 연기될 수 있습니다. 현재는 개발 스크린샷 몇 장을 즐겨주세요!"
+      },
+      "monthlyUpdate": {
+        "title": "월간 업데이트!",
+        "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스 비주얼 노블</a> 출시 이후 한 달이 지났습니다! 다음 업데이트 진행 상황 소식입니다.",
+        "description2": "현재 비주얼 노블 2일차의 절반이 코딩 완료되었으며, 새 스프라이트는 아직 모두 완성되지 않았습니다.",
+        "description3": "이번 업데이트는 게임플레이 측면에서 조금 더 길어지며, 새로운 캐릭터 3명을 더 자세히 알게 됩니다.",
+        "description4": "또한 \"숨겨진 장면\" 기능이 추가되어 플레이 중 잠금 해제할 수 있는 작은 스토리 세그먼트를 메뉴에서 볼 수 있습니다. 게임 메커니즘에 대한 자세한 내용은 <a href=\"/wiki\" class=\"content-link\">위키 페이지</a>를 참조하세요.",
+        "description5": "선택을 주의 깊게 하면 작은 비밀도 발견할 수 있습니다!"
+      },
+      "anniversary": {
+        "title": "1개월 기념일",
+        "celebration": "더 프릭 서커스 비주얼 노블 출시 1개월을 맞이했습니다! 🥳",
+        "thankYou": "이 자리를 빌어 지원해 주신 모든 분께 감사드립니다!",
+        "dia2Title": "비주얼 노블 2일차 소개",
+        "dia2Description": "2일차 작업을 꾸준히 진행 중입니다! 일부 새 스프라이트와 배경은 완성되었으며, 많은 부분이 이미 코딩되었습니다.",
+        "summaryTitle": "비주얼 노블 업데이트 요약:",
+        "summary1": "이야기는 피에로에게 잡힌 두 가지 엔딩과 집으로 돌아가는 엔딩 세 가지에서 계속됩니다.",
+        "summary2": "2일차에서 세 명의 새로운 캐릭터를 각자의 텐트에서 만나게 됩니다.",
+        "summary3": "새로운 캐릭터를 알아가는 동안 피에로와 할리퀸과의 장면이 더 많이 추가됩니다.",
+        "summary4": "일부 스프라이트는 애니메이션 처리됩니다.",
+        "summary5": "게임 메뉴 또한 새로운 디자인으로 바뀝니다.",
+        "summary6": "현재 플랫폼과 함께, 업데이트 완료 시 <strong>Android</strong> 버전도 출시됩니다!"
+      },
+      "futureUpdates": {
+        "title": "향후 업데이트",
+        "description1": "안녕하세요! 향후 업데이트 계획에 대해 몇 가지 공유드립니다.",
+        "description2": "2일차 스크립트가 일부 완료되었으며, 새로운 배경과 캐릭터 스프라이트 작업을 시작할 예정입니다. 이번 업데이트는 상당한 콘텐츠 확장을 포함합니다.",
+        "description3": "월간 업데이트와 함께 소셜 미디어에서 주간 소규모 업데이트도 진행하여 개발 내용을 공개할 예정입니다.",
+        "description4": "자세한 업데이트, 비하인드 씬, 첫 공개 자료는 지원 페이지에서 확인할 수 있습니다. 자세한 정보는 <a href=\"/wiki\" class=\"content-link\">위키</a>를 참조하세요.",
+        "description5": "낮에는 개발 작업을 하고 있으며, 후원자가 많아지면 작업 부담을 줄이고 더 많은 시간을 투자할 수 있습니다. <strong>하지만 걱정하지 마세요, 진행은 계속됩니다!</strong>",
+        "description6": "<strong>다시 한번, 모든 지원에 감사드립니다!</strong> 최신 업데이트를 경험하려면 <a href=\"/download\" class=\"content-link\">게임을 다운로드</a>하세요.",
+        "description7": "자세한 업데이트, 비하인드 씬, 첫 공개 자료는 지원 페이지에서 확인할 수 있습니다. 자세한 정보는 <a href=\"/wiki\" class=\"content-link\">위키</a>를 참조하세요."
+      },
+      "chineseLanguage": {
+        "title": "중국어 지원 추가",
+        "description1": "비주얼 노블에 중국어 번역이 추가되었습니다! 번역자: copiklaGrogu, 감사합니다!",
+        "description2": "많은 플레이어가 스토리를 즐기고 캐릭터에 더 가까이 다가갈 수 있게 되어 정말 기쁩니다! 게임 설정에서 선호하는 언어를 선택할 수 있습니다.",
+        "description3": "이번 중국어 지원 확장으로 더 많은 국제 플레이어가 피에로와 할리퀸의 독특한 세계를 즐길 수 있습니다."
+      },
+      "pronounOptions": {
+        "title": "대명사 선택 기능 업데이트",
+        "personalizationTitle": "개인화 기능 추가!",
+        "description1": "이 업데이트로 비주얼 노블에서 플레이어의 대명사를 선택할 수 있어 캐릭터가 당신을 부르는 방식이 맞춤화되었습니다.",
+        "description2": "이번 버전은 대명사 선택 기능과 대사 일부만 추가되었습니다. 자세한 캐릭터 상호작용 내용은 <a href=\"/wiki\" class=\"content-link\">위키 페이지</a>를 참조하세요.",
+        "englishSupportTitle": "영어 지원 관련",
+        "description3": "영어 버전에서 일부 대사를 중립적으로 변경했습니다. 스토리를 바꾸지는 않고 단지 플레이 경험을 개선하기 위한 조치입니다."
+      },
+      "thankYou": {
+        "title": "감사 인사",
+        "gratitudeTitle": "모든 지원과 친절에 감사드립니다!",
+        "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스 비주얼 노블</a>를 구매해 아이디어를 지지해 주신 모든 분께 감사드립니다!",
+        "description2": "<strong>댓글과 리뷰에도 감사드립니다!</strong>",
+        "description3": "주인공 대명사 선택 추가 등 게임 개선 작업을 진행 중이며, 계속해서 세심하게 작업할 예정입니다.",
+        "description4": "플롯의 빈틈을 남기지 않기 위해 스크립트를 정성껏 다룹니다. 2일차 스크립트가 더 탄탄해지면 업데이트와 소셜 미디어 공지를 통해 공유할 예정입니다.",
+        "description5": "<strong>무대가 준비되었습니다. 편히 앉으세요. 하지만 제안하건대… 음식은 믿지 마세요.</strong>"
+      }
+    }
+  },
+  "AboutPage": {
+    "header": {
+      "title": "회사 소개",
+      "lastUpdated": "마지막 업데이트: 2025년 9월 24일"
+    },
+    "whoWeAre": {
+      "title": "우리는 누구인가",
+      "description": "더 프릭 서커스는 커뮤니티를 위해 고품질 콘텐츠, 가이드, 자료를 제공하는 선도적인 플랫폼입니다. 저희는 정확하고 흥미로우며 가치 있는 정보를 다양한 분야에 걸쳐 제공하기 위해 노력하는 열정적인 크리에이터, 연구원, 그리고 애호가 팀입니다."
+    },
+    "mission": {
+      "title": "우리의 사명",
+      "description": "저희의 사명은 신뢰할 수 있는 지식, 실용적인 전략, 그리고 커뮤니티 기반의 통찰을 제공하여 사용자에게 힘을 실어주는 것입니다. 게임, 기술, 라이프스타일, 창작 자료 등 다양한 분야에서 최신의 신뢰할 수 있는 콘텐츠를 제공하는 최고의 출처가 되는 것을 목표로 합니다."
+    },
+    "whatWeOffer": {
+      "title": "우리가 제공하는 것",
+      "guides": "가이드 및 튜토리얼: 사용자가 학습하고 성장하며 문제를 해결할 수 있도록 돕는 종합 자료입니다.",
+      "updates": "최신 업데이트: 관련성과 정확성을 보장하기 위해 정기적으로 갱신되는 콘텐츠입니다.",
+      "community": "커뮤니티 자료: 협업, 지식 공유, 의미 있는 상호작용을 위한 허브입니다.",
+      "features": "특별 기능: 독점 통찰, 도구 및 엄선된 콘텐츠를 제공합니다."
+    },
+    "community": {
+      "title": "커뮤니티 중심",
+      "description": "더 프릭 서커스에서는 커뮤니티의 힘을 믿습니다. 저희 플랫폼은 사람들을 연결하고 협업을 장려하며 모두가 배우고 기여할 수 있는 긍정적인 환경을 조성하도록 설계되었습니다."
+    },
+    "qualityAssurance": {
+      "title": "품질 보증",
+      "description": "정확성은 저희 활동의 핵심입니다. 모든 콘텐츠는 발행 전에 팀의 꼼꼼한 검토와 확인을 거쳐 최고 기준을 충족하도록 보장됩니다."
+    },
+    "regularUpdates": {
+      "title": "정기 업데이트",
+      "description": "업계 변화, 커뮤니티 요구, 사용자 피드백에 발맞춰 자원을 자주 업데이트합니다. 이를 통해 항상 가장 관련성 있고 가치 있는 정보에 접근할 수 있습니다."
+    },
+    "contactUs": {
+      "title": "문의하기",
+      "description": "질문, 제안 또는 의견이 있으신가요? 저희는 여러분의 소식을 듣고 싶습니다! <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>으로 연락 주시면 가능한 한 빨리 회신드리겠습니다."
+    },
+    "joinCommunity": {
+      "title": "커뮤니티 참여",
+      "description": "더 프릭 서커스의 업데이트를 팔로우하고 커뮤니티와 소통하여 연결 상태를 유지하세요. 함께라면 모두를 위한 더 강력하고 정보에 밝으며 지원적인 공간을 만들 수 있습니다."
+    },
+    "commitment": {
+      "title": "우리의 약속",
+      "description": "저희는 게시하는 모든 콘텐츠에서 높은 품질, 정직성, 투명성을 유지하기 위해 최선을 다합니다. 팀은 정보를 검증하고 자료를 업데이트하며 플랫폼이 신뢰할 수 있고 사용자 중심으로 유지되도록 지속적으로 노력합니다."
+    }
+  },
+  "ContactPage": {
+    "header": {
+      "title": "문의하기",
+      "lastUpdated": "마지막 업데이트: 2025년 9월 24일"
+    },
+    "getInTouch": {
+      "title": "연락하기",
+      "description": "저희는 여러분의 소식을 듣고 싶습니다! 서비스 관련 질문, 개선 제안, 혹은 단순히 인사하고 싶으신 경우 언제든지 도움을 드립니다."
+    },
+    "contactInformation": {
+      "title": "연락처 정보",
+      "email": "<strong>이메일:</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "responseTime": "보통 24시간 이내에 회신드립니다."
+    },
+    "responseTime": {
+      "title": "응답 시간",
+      "weekdays": "월요일 - 금요일",
+      "weekdaysTime": "24시간 이내",
+      "weekends": "주말",
+      "weekendsTime": "48시간 이내"
+    },
+    "whatWeCanHelpWith": {
+      "title": "도움이 필요한 사항",
+      "accountIssues": "계정 또는 접근 문제",
+      "accountIssuesDesc": "로그인, 멤버십, 구독 문제 지원",
+      "websiteFeedback": "웹사이트 피드백",
+      "websiteFeedbackDesc": "더 프릭 서커스 개선을 위한 제안",
+      "contentRequests": "콘텐츠 요청",
+      "contentRequestsDesc": "새 기사, 가이드, 자료에 대한 아이디어",
+      "technicalSupport": "기술 지원",
+      "technicalSupportDesc": "사이트 기능 관련 지원",
+      "partnershipInquiries": "제휴 문의",
+      "partnershipInquiriesDesc": "협업 기회 문의",
+      "generalQuestions": "일반 질문",
+      "generalQuestionsDesc": "더 프릭 서커스와 서비스 관련 기타 사항"
+    },
+    "beforeYouContactUs": {
+      "title": "문의 전 확인 사항",
+      "description": "최적의 지원을 위해 이메일에 다음 정보를 포함해 주세요:",
+      "specificQuestion": "구체적인 질문이나 문제 사항",
+      "errorMessages": "에러 메시지(있는 경우)",
+      "stepsTried": "이미 시도한 단계",
+      "deviceInfo": "사용 중인 기기 및 브라우저 정보(관련 있는 경우)"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "contentUpdate": {
+        "question": "콘텐츠는 얼마나 자주 업데이트되나요?",
+        "answer": "정확성과 최신성을 유지하기 위해 자원을 정기적으로 업데이트합니다."
+      },
+      "contentSafety": {
+        "question": "콘텐츠는 안전하고 신뢰할 수 있나요?",
+        "answer": "네, 제공하는 모든 정보는 확인 및 출처 검증을 거쳐 신뢰할 수 있습니다."
+      },
+      "suggestContent": {
+        "question": "새로운 콘텐츠를 제안할 수 있나요?",
+        "answer": "물론입니다! 아이디어와 기여를 환영합니다—저희에게 보내주세요."
+      }
+    },
+    "businessHours": {
+      "title": "업무 시간",
+      "description": "저희 팀은 월요일~금요일, 오전 9시~오후 6시(EST)에 운영됩니다. 해당 시간 외에도 회신할 수 있으나, 주말과 공휴일에는 회신까지 최대 24~48시간이 소요될 수 있습니다."
+    },
+    "privacy": {
+      "title": "개인정보 보호",
+      "description": "저희는 개인정보를 존중하며, 제3자와 공유하지 않습니다. 모든 커뮤니케이션은 비밀로 유지되며 최상의 서비스를 제공하는 데만 사용됩니다."
+    },
+    "thankYou": {
+      "title": "감사합니다",
+      "description": "더 프릭 서커스 커뮤니티의 일원이 되어 주셔서 감사합니다! 여러분의 피드백과 지원은 전 세계 사용자에게 최고의 경험을 제공하는 데 큰 도움이 됩니다."
+    }
+  },
+  "footer": {
+    "brandTitle": "더 프릭 서커스",
+    "brandDesc": "심리 호러 비주얼 노블 경험",
+    "quickLinksTitle": "빠른 링크",
+    "quickLinksHome": "홈",
+    "quickLinksPierrot": "피에로",
+    "quickLinksHarlequin": "할리퀸",
+    "quickLinksWiki": "위키",
+    "quickLinksUpdates": "업데이트",
+    "quickLinksDownload": "다운로드",
+    "legalTitle": "법적 정보",
+    "legalPrivacy": "개인정보 처리방침",
+    "legalTerms": "이용 약관",
+    "legalCopyright": "저작권",
+    "legalAbout": "회사 소개",
+    "legalContact": "문의하기",
+    "disclaimer": "이 웹사이트는 게임 애호가들이 개인적으로 만든 비공식 팬사이트이며, 원작 게임 개발자와 관련이 없습니다. 콘텐츠는 교육 및 오락 목적으로만 제공되며, 사용자는 정보를 독립적으로 확인해야 합니다. 본 사이트는 콘텐츠 정확성에 대한 보장을 하지 않으며 법적 책임을 지지 않습니다."
+  },
+  "CopyrightPage": {
+    "header": {
+      "title": "저작권",
+      "lastUpdated": "마지막 업데이트: 2025년 9월 24일"
+    },
+    "copyrightStatement": {
+      "title": "저작권 안내",
+      "description": "<strong>The Freak Circus</strong>의 모든 콘텐츠(텍스트, 그래픽, 이미지, 비디오, 소프트웨어 포함)는 <strong>The Freak Circus</strong>의 소유이며 국제 저작권법에 의해 보호됩니다. 무단 사용, 복제 또는 배포는 엄격히 금지됩니다."
+    },
+    "whatWeOwn": {
+      "title": "저희 소유 콘텐츠",
+      "originalContent": "원본 콘텐츠",
+      "originalContentDesc": "팀이 직접 작성한 글, 가이드, 튜토리얼, 리뷰 등 모든 자료",
+      "websiteDesign": "웹사이트 디자인",
+      "websiteDesignDesc": "레이아웃, 스타일, 사용자 인터페이스 및 전반적인 웹사이트 디자인 요소",
+      "originalImages": "원본 이미지",
+      "originalImagesDesc": "이 사이트를 위해 특별히 제작된 사진, 스크린샷, 그래픽",
+      "codeSoftware": "코드 및 소프트웨어",
+      "codeSoftwareDesc": "이 플랫폼을 위해 개발된 웹사이트 코드, 스크립트 및 소프트웨어"
+    },
+    "thirdPartyContent": {
+      "title": "제3자 콘텐츠",
+      "description": "저희는 타인의 지적 재산권을 존중합니다. 웹사이트의 일부 콘텐츠에는 <strong>The Freak Circus</strong>와 관련된 자료나 이미지가 포함될 수 있으며, 이는 각 소유자의 권리에 속합니다."
+    },
+    "fairUsePolicy": {
+      "title": "공정 이용 정책",
+      "description": "저희는 교육, 연구, 개인적인 목적을 위한 콘텐츠 공정 이용을 지원합니다. 다만 상업적 사용은 명시적 허가가 필요합니다.",
+      "allowedUses": "허용되는 사용",
+      "personalStudy": "개인 학습 및 연구",
+      "educational": "교육 목적으로 사용",
+      "nonCommercial": "비상업적 공유",
+      "criticism": "비평 및 논평",
+      "restrictedUses": "제한되는 사용",
+      "commercialReproduction": "상업적 복제",
+      "massDistribution": "대량 배포",
+      "modification": "허가 없는 수정",
+      "removalAttribution": "출처 표시 제거"
+    },
+    "dmcaCompliance": {
+      "title": "DMCA 준수",
+      "description": "저희는 디지털 밀레니엄 저작권법(DMCA)을 준수합니다. 저작권이 있는 자료가 무단 사용된 것으로 생각되면 즉시 연락해 주세요.",
+      "requirements": "DMCA 삭제 요청을 제출할 때 포함해야 할 내용:",
+      "specificDetails": "저작권 자료에 대한 구체적 세부 정보",
+      "proofOwnership": "자료 소유권 증명",
+      "formalNotice": "지정 담당자에게 보내는 공식 DMCA 삭제 요청"
+    },
+    "attributionRequirements": {
+      "title": "출처 표기 요구사항",
+      "description": "공정 이용 또는 허가를 받아 콘텐츠를 사용할 경우, 적절한 출처 표기가 필요합니다."
+    },
+    "licenseRequests": {
+      "title": "라이선스 요청",
+      "description": "상업적 사용, 라이선스 또는 기타 허가 요청은 구체적인 요청 사항과 함께 연락해 주세요.",
+      "requirements": "요청 시 포함해야 할 사항:",
+      "specificContent": "사용하려는 구체적인 콘텐츠",
+      "intendedPurpose": "사용 목적과 대상",
+      "duration": "사용 기간",
+      "contactInfo": "연락처 정보"
+    },
+    "contactInformation": {
+      "title": "연락처 정보",
+      "email": "이메일: contact@thefreakcircus.com"
+    },
+    "updatesToCopyrightNotice": {
+      "title": "저작권 안내 업데이트",
+      "description1": "이 저작권 안내는 주기적으로 업데이트될 수 있습니다. 최신 버전은 항상 이 페이지에서 확인할 수 있습니다. 웹사이트를 계속 사용하는 것은 변경 사항에 대한 동의로 간주됩니다.",
+      "description2": "저작권 정책 업데이트를 위해 이 페이지를 정기적으로 확인해 주세요."
+    }
+  },
+  "PrivacyPolicyPage": {
+    "header": {
+      "title": "개인정보 처리방침",
+      "lastUpdated": "마지막 업데이트: 2025년 9월 24일"
+    },
+    "generalInformation": {
+      "title": "일반 정보",
+      "description1": "<strong>The Freak Circus</strong>는 모든 웹사이트 및 애플리케이션 사용자의 개인정보 보호를 위해 최선을 다하고 있습니다. 본 개인정보 처리방침은 <strong>The Freak Circus</strong>가 제공하는 모든 서비스와 제품에 적용됩니다. 본 사이트를 사용함으로써 본 방침에 동의하며, 이에 법적 동의가 가능한 연령임을 확인하는 것으로 간주됩니다. 정책 변경 후 사이트를 계속 사용하는 경우 변경 사항에 동의한 것으로 간주됩니다.",
+      "description2": "본 사이트는 16세 이상 방문자를 대상으로 합니다. 16세 미만인 경우 사이트를 사용하지 마세요. 부모 또는 보호자가 자녀가 사이트에 접근하도록 허용하는 경우, 해당 자녀를 대신하여 본 개인정보 처리방침에 동의하는 것으로 간주됩니다.",
+      "description3": "본 개인정보 처리방침에 대한 질문이 있으면 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>으로 문의해 주세요."
+    },
+    "dataCollection": {
+      "title": "수집하는 데이터",
+      "dataYouProvide": {
+        "title": "사용자가 제공하는 데이터",
+        "description": "사용자가 자발적으로 제공하는 개인 정보만 처리합니다. 예: 양식 작성 또는 문의 시 포함될 수 있는 정보:",
+        "name": "이름",
+        "email": "이메일 주소",
+        "otherInfo": "사용자가 제공하기로 선택한 기타 정보"
+      },
+      "dataCollectedAutomatically": {
+        "title": "자동 수집 데이터",
+        "description": "방문 중 자동으로 수집될 수 있는 데이터 예시:",
+        "ipAddress": "IP 주소(사기 방지, 분석 또는 위치 기반 기능용)",
+        "browserType": "브라우저 종류 및 버전",
+        "referringPage": "참조 페이지 또는 사이트",
+        "deviceIdentifiers": "기기 식별자(모바일 기기 ID 포함)",
+        "cookieData": "쿠키 및 추적 데이터",
+        "userInteraction": "사용자 상호작용 데이터(예: 광고 조회 또는 클릭 여부)"
+      },
+      "thirdPartyData": {
+        "title": "제3자 데이터",
+        "description": "제3자로부터 개인정보를 받는 경우, 필요 시 이를 알려드립니다."
+      }
+    },
+    "whyWeCollectData": {
+      "title": "데이터 수집 목적 및 법적 근거",
+      "description": "개인 정보는 다음을 포함하되 이에 국한되지 않는 목적을 위해 수집 및 처리됩니다:",
+      "providingServices": "서비스 및 콘텐츠 제공, 개선 및 최적화",
+      "contractualObligations": "계약상의 의무 이행",
+      "marketingCommunications": "업데이트, 뉴스레터 및 마케팅 커뮤니케이션 발송(허용되는 경우)",
+      "statisticalAnalysis": "통계 분석 및 연구",
+      "legalCompliance": "법적 의무 준수(예: 연령 확인)",
+      "legalBases": "처리의 법적 근거: 사용자 동의, 계약 이행, 정당한 이익, 법적 의무 준수 등",
+      "note": "<em>참고:</em> 광고주 또는 제3자 서비스는 자체 쿠키 또는 추적 기술을 통해 데이터를 수집할 수 있습니다. <strong>The Freak Circus</strong>는 제3자 데이터 수집 관행에 대해 책임지지 않습니다."
+    },
+    "dataRetention": {
+      "title": "데이터 보유 기간",
+      "description": "개인 정보는 본 정책에 명시된 목적을 달성하는 데 필요한 기간 동안만 보유합니다. 비활성 계정 또는 방문자 관련 데이터는 합리적인 비활성 기간 후 삭제될 수 있으며, 법적 요구나 합법적 비즈니스 목적이 있는 경우 예외가 적용됩니다."
+    },
+    "gdprRights": {
+      "title": "GDPR 및 귀하의 권리(EEA 거주자)",
+      "description": "유럽경제지역(EEA) 거주자인 경우, 개인 정보와 관련하여 다음과 같은 권리가 있습니다:",
+      "accessUpdateDelete": "개인 정보 접근, 수정 또는 삭제 권리",
+      "rectification": "부정확한 정보 수정 권리",
+      "objectToProcessing": "처리 반대 권리",
+      "restrictProcessing": "처리 제한 권리",
+      "dataPortability": "데이터 이동 권리",
+      "withdrawConsent": "동의 기반 처리의 경우 동의 철회 권리",
+      "verification": "요청 이행 전 신원 확인을 요청할 수 있으며, 추가 정보는 현지 데이터 보호 기관에 문의 가능"
+    },
+    "yourRights": {
+      "title": "귀하의 권리 및 커뮤니케이션 선호",
+      "description1": "마케팅 커뮤니케이션 수신 거부는 언제든지 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>으로 연락하거나 해당 커뮤니케이션에 포함된 수신 거부 지침을 따르면 됩니다. 수정, 삭제 또는 처리 제한 요청 시, 요청을 신속하게 확인하고 이행할 수 있도록 명확한 이유를 제공해 주세요.",
+      "description2": "저희는 합리적인 기간 내에 관련 법률에 따라 요청에 응답합니다."
+    },
+    "cookies": {
+      "title": "쿠키",
+      "whatAreCookies": {
+        "title": "쿠키란?",
+        "description": "쿠키는 사용자의 기기에 저장되는 작은 파일로, 웹사이트가 환경설정을 기억하고 사용자 경험을 개선하는 데 도움을 줍니다. 웹 비콘은 일반적으로 투명한 작은 이미지로, 사용자 행동을 모니터링하는 데 사용됩니다."
+      },
+      "typesOfCookies": {
+        "title": "쿠키 유형",
+        "firstParty": "<strong>일차 쿠키:</strong> 기술적 기능 지원(예: 언어 설정, 세션 관리)을 위해 사이트에서 설정",
+        "thirdParty": "<strong>제3자 쿠키:</strong> 외부 제공자(예: 분석, 광고 네트워크)가 사이트 간 브라우징 행동을 추적하기 위해 설정"
+      },
+      "whichCookiesWeUse": {
+        "title": "사용 쿠키",
+        "description": "<strong>The Freak Circus</strong>는 사용성을 높이기 위해 일차 쿠키를 사용하며, 제3자 쿠키(Google Analytics 또는 광고 파트너)도 허용하여 분석 및 광고 서비스를 제공합니다. 사이트 기능에 필수적인 쿠키는 동의가 필요하지 않으며, 기타 쿠키는 사용자의 허가가 필요할 수 있습니다."
+      },
+      "howToManage": {
+        "title": "쿠키 관리 방법",
+        "description": "브라우저 설정을 통해 쿠키를 관리하거나 비활성화할 수 있습니다. 쿠키 차단 또는 삭제 방법은 Chrome, Firefox, Safari, Edge/Internet Explorer, Opera 브라우저 지원 문서를 참조하세요."
+      }
+    },
+    "securityMeasures": {
+      "title": "보안 조치",
+      "description": "개인 정보를 보호하고 승인된 인원만 접근할 수 있도록 합리적인 기술적, 조직적 조치를 시행합니다. 개인 정보를 판매하거나 대여하지 않습니다. 외부 처리자를 사용하는 경우, 계약상 데이터를 보호하고 안전하게 처리하며 할당된 작업 완료 후 삭제하도록 의무화합니다."
+    },
+    "contactInformation": {
+      "title": "연락처 정보",
+      "description": "본 개인정보 처리방침 관련 질문이나 우려사항이 있으면 아래로 연락해 주세요:",
+      "email": "이메일: <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "website": "웹사이트: <a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
+    }
+  },
+  "TermsOfServicePage": {
+    "header": {
+      "title": "서비스 이용약관",
+      "lastUpdated": "마지막 업데이트: 2025년 9월 24일"
+    },
+    "generalInformation": {
+      "title": "일반 정보",
+      "description1": "다음 서비스 이용약관(이하 '약관')은 중요하며 주의 깊게 읽어야 합니다. 본 '서비스 이용약관'에 동의함으로써 귀하는 이에 구속됨에 동의하는 것입니다. 본 약관은 귀하와 <strong>The Freak Circus</strong>(이하 '사이트', '당사', '저희' 또는 '우리') 사이의 합의이며, 웹사이트 사용, 제공되는 자료 및 서비스, 후속 사이트 등을 포함한 모든 사용에 적용됩니다.",
+      "description2": "<strong>사이트를 사용함으로써 귀하는 본 서비스 이용약관에 동의하며, 16세 이상임을 확인하는 것으로 간주됩니다.</strong> 본 약관에서 '귀하' 또는 '귀하의'라는 용어는 사이트를 이용하는 개인을 의미합니다.",
+      "description3": "본 약관에는 필수 중재 조항이 포함되어 있으며, 11절에서 설명됩니다. 이 조항은 분쟁 해결 시 배심원 재판, 법원 절차 또는 집단 소송 대신 개인 단위 중재를 요구합니다. 해당 섹션을 주의 깊게 검토하시기 바랍니다."
+    },
+    "changes": {
+      "title": "약관 변경",
+      "description": "본 약관은 주기적으로 수정될 수 있으며, 당사는 합리적인 방법으로 변경 사항을 통지합니다. 여기에는 사이트에 개정 약관을 게시하는 것이 포함될 수 있습니다. 변경 이전에 발생한 분쟁에는 변경 사항이 적용되지 않습니다. 변경 사항이 게시된 후 사이트를 사용하면 수정된 약관에 동의하는 것으로 간주됩니다. 사이트의 전체 또는 일부를 수정하거나 중단, 수수료 조정 또는 일부/전체 사용자에게 특별 혜택 제공 등은 언제든지 당사의 재량으로 이루어지며, 이에 대한 책임은 없습니다."
+    },
+    "informationSubmitted": {
+      "title": "사이트를 통해 제출된 정보",
+      "description1": "사이트를 통해 제출된 정보는 <a href='/privacy-policy' target='_blank' rel='noopener'>개인정보 처리방침</a>의 적용을 받습니다. 사이트 사용 시 귀하는 개인정보 처리방침에 동의하는 것으로 간주됩니다.",
+      "description2": "제출하는 모든 정보가 정확하고 완전함을 확인하며, 이를 유지·갱신할 것에 동의합니다. 본 약관과 개인정보 처리방침 사이에 개인 정보 관련 불일치가 발생하면, 개인정보 처리방침이 우선합니다."
+    },
+    "jurisdictionalIssues": {
+      "title": "관할권 관련 문제",
+      "description": "사이트는 유럽경제지역(EEA) 내에서 관리 및 운영되며, 당사를 EEA 외 관할권에 종속시키는 의도가 없습니다. 사이트는 모든 지역에서 적합하거나 접근 가능하지 않을 수 있습니다. 사이트를 사용함으로써 귀하는 모든 위험을 감수하며, 관련 법규 준수에 책임이 있습니다. 당사는 언제든지 사이트 접근을 전체 또는 일부 사용자, 위치, 관할권에 대해 제한할 수 있습니다."
+    },
+    "rulesOfConduct": {
+      "title": "이용자 준수 사항",
+      "threateningMaterial": "위협적, 괴롭힘, 명예 훼손, 음란, 불법 또는 타인의 권리를 침해하는 자료를 게시하거나 전송해서는 안 됩니다.",
+      "unauthorizedUse": "사이트를 무단 상업적, 사기성, 불법 목적으로 사용해서는 안 됩니다.",
+      "collectInformation": "개인정보 처리방침에서 허용된 경우를 제외하고 다른 사용자의 정보를 수집할 수 없습니다.",
+      "interfereDisrupt": "사이트 운영이나 서버 및 네트워크를 방해하거나 중단시켜서는 안 됩니다.",
+      "restrictInhibit": "타인의 사이트 사용을 제한하거나 방해해서는 안 됩니다.",
+      "reproduceModify": "사전 서면 동의 없이 사이트의 일부 또는 전체를 복제, 수정, 판매, 배포, 상업적 이용할 수 없습니다.",
+      "reverseEngineer": "법률로 금지되지 않은 경우를 제외하고 사이트를 리버스 엔지니어링하거나 디컴파일할 수 없습니다.",
+      "removeNotices": "사이트의 저작권 또는 상표 고지를 제거할 수 없습니다.",
+      "frameMirror": "동의 없이 사이트를 프레임, 미러링, 체계적으로 다운로드할 수 없습니다.",
+      "botsSpiders": "동의 없이 봇, 스파이더, 스크레이퍼 또는 유사 도구를 사용할 수 없습니다.",
+      "responsibleCosts": "사이트 사용에 필요한 모든 하드웨어, 인터넷 및 서비스 비용은 사용자가 부담합니다."
+    },
+    "monitoring": {
+      "title": "모니터링",
+      "description": "당사는 사이트에 제출된 콘텐츠를 모니터링, 평가 또는 제거할 수 있지만, 의무는 없습니다. 사용 패턴을 분석하고 관련 정보를 법률과 개인정보 처리방침에 따라 공개할 수 있습니다."
+    },
+    "thirdPartyMaterials": {
+      "title": "제3자 자료 및 링크",
+      "description1": "사이트는 제3자 자료(콘텐츠, 제품, 서비스, 광고, 프로모션 포함)에 대한 접근을 제공할 수 있습니다. 당사는 제3자 자료를 통제하거나 승인하지 않으며, 정확성, 적법성, 안전성에 대해 책임을 지지 않습니다.",
+      "description2": "<strong>제3자 자료 사용은 전적으로 귀하의 책임</strong>이며, 해당 제3자의 약관과 정책에 따릅니다."
+    },
+    "disclaimerOfWarranties": {
+      "title": "보증의 면책",
+      "description1": "법이 허용하는 최대 범위 내에서: (A) 사이트 및 모든 제품, 제3자 자료는 \"있는 그대로\" 제공되며 어떠한 종류의 보증도 없으며; (B) <strong>The Freak Circus</strong>는 상품성, 특정 목적 적합성, 비침해 및 소유권을 포함한 모든 보증을 부인합니다.",
+      "description2": "정확성과 보안을 위해 노력하지만, 사이트가 항상 정확하고 안전하며 중단 없이 제공될 것을 보장할 수 없습니다. 무단 변경 사항을 발견하면 <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>으로 연락해 주세요."
+    },
+    "filtering": {
+      "title": "필터링",
+      "description": "유해 자료 접근 제한을 위한 부모 통제 보호 기능을 제공합니다. 자세한 내용은 <a href='https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers' target='_blank' rel='noopener'>여기</a>에서 확인할 수 있습니다. 당사는 나열된 제품이나 서비스를 승인하지 않습니다."
+    },
+    "copyrightInfringementClaims": {
+      "title": "저작권 침해 신고",
+      "description": "사이트 자료가 귀하의 저작권을 침해한다고 생각되면, 삭제 요청을 보내실 수 있습니다. 잘못된 신고가 귀하에게 접수된 경우, 반론 통지를 보낼 수 있습니다. 통지 제출 전에 법적 자문을 권장합니다. 연락처: <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+    },
+    "miscellaneous": {
+      "title": "기타 사항",
+      "description1": "본 약관은 귀하와 <strong>The Freak Circus</strong> 간에 파트너십, 합작, 고용, 대리 관계를 생성하지 않습니다. 어떤 조항이 집행 불가능한 경우, 나머지 조항에 영향을 주지 않고 제거됩니다.",
+      "description2": "귀하의 권리나 의무를 당사의 동의 없이 양도할 수 없으며, 당사는 제한 없이 권리를 양도할 수 있습니다. 조항 집행 실패는 향후 권리 포기로 간주되지 않습니다. 본 약관 및 통합 조항은 귀하와 <strong>The Freak Circus</strong> 간의 전체 합의이며 이전 모든 합의를 대체합니다. 통지는 이메일, 우편 또는 사이트 게시를 통해 전달될 수 있습니다. <strong>The Freak Circus</strong>는 통제 불가능한 사유로 인한 불이행에 대해 책임지지 않습니다."
+    }
+  }
+}

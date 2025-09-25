@@ -1,0 +1,920 @@
+{
+  "seo": {
+    "home": {
+      "title": "The Freak Circus - thefreakcircus.org | Roman visuel d'horreur psychologique",
+      "description": "Découvrez The Freak Circus, un roman visuel d'horreur psychologique mettant en scène Pierrot et Arlequin. Jouez en ligne ou téléchargez sur PC, Mac et Linux.",
+      "keywords": "The Freak Circus, roman visuel, horreur psychologique, Pierrot, Arlequin, cirque, jeu d'horreur, jeu indépendant, thefreakcircus.org"
+    },
+    "pierrot": {
+      "title": "Personnage Pierrot - The Freak Circus | thefreakcircus.org",
+      "description": "Découvrez Pierrot, le clown mélancolique de The Freak Circus. Apprenez-en plus sur son amour obsessionnel et son histoire mystérieuse dans ce roman visuel d'horreur psychologique.",
+      "keywords": "Pierrot, The Freak Circus, personnage, clown, amour obsessionnel, horreur psychologique, roman visuel, thefreakcircus.org"
+    },
+    "harlequin": {
+      "title": "Personnage Arlequin - The Freak Circus | thefreakcircus.org",
+      "description": "Rencontrez Arlequin, la farceuse espiègle de The Freak Circus. Explorez sa personnalité complexe et sa relation avec Pierrot dans ce roman visuel d'horreur.",
+      "keywords": "Arlequin, The Freak Circus, personnage, farceuse, horreur psychologique, roman visuel, cirque, thefreakcircus.org"
+    },
+    "wiki": {
+      "title": "Wiki The Freak Circus - Guide & Histoire | thefreakcircus.org",
+      "description": "Guide complet du roman visuel The Freak Circus. Découvrez les personnages, l'histoire, le gameplay et le monde mystérieux du cirque.",
+      "keywords": "Wiki The Freak Circus, guide de jeu, guide de roman visuel, histoire, personnages, monde du cirque, thefreakcircus.org"
+    },
+    "download": {
+      "title": "Télécharger The Freak Circus - Roman visuel gratuit | thefreakcircus.org",
+      "description": "Téléchargez gratuitement le roman visuel The Freak Circus. Disponible sur PC, Mac et Linux. Vivez l'histoire d'horreur psychologique de Pierrot et Arlequin.",
+      "keywords": "télécharger The Freak Circus, roman visuel gratuit, jeu PC, jeu Mac, jeu Linux, horreur psychologique, thefreakcircus.org"
+    },
+    "updates": {
+      "title": "Mises à jour The Freak Circus - Actualités du développement | thefreakcircus.org",
+      "description": "Restez informé des dernières nouvelles et mises à jour du roman visuel The Freak Circus. Suivez l'avancement du développement et les nouveaux contenus.",
+      "keywords": "mises à jour The Freak Circus, actualités développement, mises à jour roman visuel, nouvelles du jeu, thefreakcircus.org"
+    },
+    "about": {
+      "title": "À propos de The Freak Circus - Informations sur le jeu | thefreakcircus.org",
+      "description": "Découvrez The Freak Circus, son développement et l'équipe derrière cette expérience d'horreur psychologique.",
+      "keywords": "à propos de The Freak Circus, informations sur le jeu, équipe de développement, roman visuel, thefreakcircus.org"
+    },
+    "contact": {
+      "title": "Contactez-nous - The Freak Circus | thefreakcircus.org",
+      "description": "Contactez l'équipe de The Freak Circus pour assistance, retours ou questions sur le roman visuel.",
+      "keywords": "contact The Freak Circus, support, retours, roman visuel, thefreakcircus.org"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité - The Freak Circus | thefreakcircus.org",
+      "description": "Politique de confidentialité du site et du roman visuel The Freak Circus. Découvrez comment nous protégeons vos informations personnelles.",
+      "keywords": "politique de confidentialité, The Freak Circus, protection des données, thefreakcircus.org"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation - The Freak Circus | thefreakcircus.org",
+      "description": "Conditions d'utilisation du site et du roman visuel The Freak Circus. Lisez nos termes et conditions.",
+      "keywords": "conditions d'utilisation, The Freak Circus, termes légaux, thefreakcircus.org"
+    },
+    "copyright": {
+      "title": "Droits d'auteur - The Freak Circus | thefreakcircus.org",
+      "description": "Informations sur les droits d'auteur du roman visuel et du contenu du site The Freak Circus.",
+      "keywords": "droits d'auteur, The Freak Circus, propriété intellectuelle, thefreakcircus.org"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "characters": "Personnages",
+    "pierrot": "Pierrot",
+    "harlequin": "Arlequin",
+    "wiki": "Wiki",
+    "updates": "Mises à jour du roman visuel",
+    "download": "Télécharger"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "The Freak Circus",
+      "subtitle": "Un roman visuel d'horreur psychologique",
+      "description": "Entrez dans un monde où la réalité se déforme et les cauchemars prennent vie. The Freak Circus est un roman visuel immersif qui mettra à l'épreuve votre perception de la réalité et de la fiction.",
+      "playButton": "Jouer maintenant",
+      "learnButton": "En savoir plus",
+      "warning": "Avertissement : Ce jeu contient des thèmes matures, de l'horreur psychologique et des images dérangeantes. Recommandé pour les 18 ans et plus.",
+      "platforms": "Disponible sur PC, Mac et Linux"
+    },
+    "about": {
+      "title": "Qu'est-ce que The Freak Circus ?",
+      "description": "The Freak Circus est un roman visuel d'horreur psychologique qui vous plonge dans l'esprit torturé de ses personnages. Dans un cirque mystérieux où rien n'est ce qu'il semble, vous rencontrerez Pierrot et Arlequin - deux figures énigmatiques dont les histoires remettront en question tout ce que vous croyez savoir de la réalité.",
+      "feature1": "Éléments d'horreur psychologique",
+      "feature1Desc": "Découvrez des thèmes psychologiques profonds qui vous feront douter de la réalité",
+      "feature2": "Développement riche des personnages",
+      "feature2Desc": "Rencontrez des personnages complexes avec des histoires et motivations détaillées",
+      "feature3": "Choix significatifs",
+      "feature3Desc": "Vos décisions façonneront le récit et détermineront l'issue",
+      "feature4": "Atmosphère immersive",
+      "feature4Desc": "Plongez dans un monde soigneusement conçu avec des visuels et un design sonore époustouflants"
+    },
+    "characters": {
+      "title": "Rencontrez les personnages",
+      "subtitle": "Découvrez les figures énigmatiques qui peuplent The Freak Circus",
+      "pierrotName": "Pierrot",
+      "pierrotDesc": "Le clown mélancolique qui cache de profondes émotions derrière un sourire peint. Son histoire est celle de l'amour, de la perte et du prix du secret.",
+      "harlequinName": "Arlequin",
+      "harlequinDesc": "La farceuse espiègle dont l'extérieur ludique masque une personnalité complexe. Sa relation avec Pierrot constitue le cœur de l'histoire.",
+      "learnMore": "En savoir plus"
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "question1": "Qu'est-ce que The Freak Circus ?",
+      "answer1": "The Freak Circus est un roman visuel d'horreur psychologique qui explore les thèmes de la réalité, de la perception et de la psyché humaine à travers les histoires de Pierrot et Arlequin.",
+      "question2": "Le jeu convient-il à tous les âges ?",
+      "answer2": "Non, The Freak Circus contient des thèmes matures, de l'horreur psychologique et des images dérangeantes. Il est recommandé pour les 18 ans et plus.",
+      "question3": "Sur quelles plateformes le jeu est-il disponible ?",
+      "answer3": "Le jeu est actuellement disponible sur PC, Mac et Linux.",
+      "question4": "Quelle est la durée du jeu ?",
+      "answer4": "Le jeu propose plusieurs histoires et fins, la durée dépendant de vos choix et de votre exploration.",
+      "question5": "Qu'est-ce qui a causé les 'handicaps' des artistes du cirque ?",
+      "answer5": "The Freak Circus explore l'histoire sombre derrière les conditions des artistes de cirque à travers sa narration, révélant l'origine tordue de leurs caractéristiques uniques.",
+      "question6": "Les fêtes foraines et cirques ont-ils encore des 'freaks' ?",
+      "answer6": "Les cirques modernes ont beaucoup évolué, mais The Freak Circus s'inspire des traditions historiques des sideshows pour créer son ambiance sombre et explorer les thèmes de l'altérité et de l'acceptation.",
+      "question7": "Quelle est la taille de Pierrot ?",
+      "answer7": "La taille exacte de Pierrot fait partie de son design de personnage, soigneusement conçue pour renforcer l'impact psychologique de son personnage.",
+      "question8": "Comment obtenir toutes les fins du jeu ?",
+      "answer8": "Pour débloquer toutes les fins, réfléchissez à vos choix tout au long du jeu. Chaque décision influence votre relation avec Pierrot et Arlequin.",
+      "question9": "Comment obtenir un gâteau de Pierrot ?",
+      "answer9": "Gagner la confiance de Pierrot nécessite des choix spécifiques. Montrez de l'intérêt pour ses performances pour débloquer des interactions spéciales.",
+      "question10": "Comment obtenir des roses de Pierrot ?",
+      "answer10": "Recevoir des roses dépend de votre progression dans la relation. Faites des choix qui reflètent votre compréhension de son caractère.",
+      "question11": "Quand sortira le chapitre 2 ?",
+      "answer11": "L'équipe travaille activement sur le chapitre 2, avec de nouveaux contenus et fins prévues. Restez informé via les canaux officiels."
+    },
+    "cta": {
+      "title": "Prêt à entrer dans le cirque ?",
+      "subtitle": "Téléchargez The Freak Circus maintenant et commencez votre voyage dans l'inconnu",
+      "downloadButton": "Télécharger maintenant",
+      "learnButton": "En savoir plus"
+    }
+  },
+  "DownloadPage": {
+    "header": {
+      "title": "Téléchargement de The Freak Circus",
+      "subtitle": "Obtenez le roman visuel The Freak Circus et plongez dans le monde tordu de l'obsession et du mystère",
+      "backToHome": "← Retour à l'accueil",
+      "wiki": "Wiki",
+      "pierrot": "Pierrot",
+      "harlequin": "Arlequin",
+      "updates": "Mises à jour"
+    },
+    "main": {
+      "title": "Téléchargez The Freak Circus",
+      "description": "Vivez le roman visuel psychologique qui a captivé des joueurs du monde entier. <a href=\"/\" class=\"content-link\">Le téléchargement de The Freak Circus</a> est gratuit sur la plateforme officielle, avec prise en charge multi-plateforme et options linguistiques.",
+      "featuresTitle": "Contenu inclus dans le téléchargement :",
+      "feature1": "Œuvres et décors originaux",
+      "feature2": "Deux personnages captivants : <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a>",
+      "feature3": "Multiples fins et parcours narratifs",
+      "feature4": "Disponible en anglais, portugais (BR) et chinois",
+      "feature5": "Compatibilité multi-plateforme",
+      "downloadButton": "🎮 Télécharger The Freak Circus maintenant",
+      "downloadDescription": "Visitez la page itch.io officielle pour le téléchargement"
+    },
+    "platforms": {
+      "title": "Compatibilité des plateformes",
+      "windows": {
+        "title": "Windows",
+        "description": "Support complet pour Windows"
+      },
+      "macos": {
+        "title": "macOS",
+        "description": "Version native macOS disponible"
+      },
+      "linux": {
+        "title": "Linux",
+        "description": "Compatibilité Linux incluse"
+      },
+      "web": {
+        "title": "Navigateur Web",
+        "description": "Jouez directement depuis votre navigateur"
+      }
+    },
+    "sidebar": {
+      "gameInfo": {
+        "title": "Informations sur le jeu",
+        "genre": "Genre :",
+        "rating": "Classification :",
+        "price": "Prix :",
+        "platform": "Plateforme :",
+        "languages": "Langues :",
+        "genreValue": "Roman visuel",
+        "ratingValue": "18+",
+        "priceValue": "Gratuit",
+        "platformValue": "Multi-plateforme",
+        "languagesValue": "Anglais, Portugais (BR), Chinois"
+      },
+      "quickLinks": {
+        "title": "Liens rapides",
+        "home": "← Page d'accueil",
+        "wiki": "Guide Wiki",
+        "pierrot": "Personnage Pierrot",
+        "harlequin": "Personnage Arlequin",
+        "updates": "Dernières mises à jour"
+      },
+      "warnings": {
+        "title": "Avertissements de contenu",
+        "description": "Le téléchargement contient du contenu mature incluant :",
+        "warning1": "Thèmes yandere",
+        "warning2": "Éléments psychologiques sombres",
+        "warning3": "Langage fort",
+        "warning4": "Violence et gore",
+        "warning5": "Situations adultes",
+        "ageWarning": "Recommandé pour les 18 ans et plus"
+      },
+      "official": {
+        "title": "Sources officielles",
+        "description": "La page itch.io est la seule source officielle pour le téléchargement. Pour plus d'informations, consultez notre <a href=\"/wiki\" class=\"content-link\">Wiki</a> ou les <a href=\"/updates\" class=\"content-link\">dernières mises à jour</a>.",
+        "visitButton": "Visiter la page officielle"
+      }
+    },
+    "additional": {
+      "about": {
+        "title": "À propos du téléchargement",
+        "description1": "Le téléchargement de The Freak Circus offre une expérience unique combinant horreur psychologique et développement approfondi des personnages. Créé par Neko Bueno, le jeu a reçu d'excellentes critiques, avec une note de 4,9/5 par plus de 2 000 joueurs. Découvrez plus sur le monde de <a href=\"/\" class=\"content-link\">The Freak Circus</a>.",
+        "description2": "En téléchargeant The Freak Circus, vous entrerez dans un monde où obsession et rivalité se rencontrent de manière inattendue. Le jeu propose plusieurs parcours narratifs, permettant d'explorer différentes relations avec les personnages énigmatiques du cirque. Rencontrez <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a> dans ce thriller psychologique."
+      },
+      "development": {
+        "title": "État du développement",
+        "description": "The Freak Circus est en développement actif, avec le contenu du Jour 2 en préparation. La version actuelle inclut une mauvaise fin et trois fins ouvertes, avec plus de contenu prévu pour les futures mises à jour. Restez informé via notre page <a href=\"/updates\" class=\"content-link\">Mises à jour du roman visuel</a>."
+      },
+      "community": {
+        "title": "Communauté & Support",
+        "description": "Rejoignez des milliers de joueurs qui ont déjà expérimenté The Freak Circus. Le jeu a créé une communauté passionnée qui partage fanarts, fanfics et expériences. Soutenez le développement en téléchargeant le jeu et en laissant vos retours sur la page itch.io officielle. Découvrez le monde du jeu dans notre <a href=\"/wiki\" class=\"content-link\">Wiki complet</a>."
+      }
+    }
+  },
+  "PierrotPage": {
+    "header": {
+      "name": "Pierrot",
+      "subtitle": "L'Obsession Silencieuse - Pierrot de The Freak Circus",
+      "description": "Dans l'ombre du cirque de l'horreur, Pierrot capte votre attention à sa manière unique. Son silence cache une obsession dangereuse, et chaque regard révèle des secrets indicibles. Cet artiste Pierrot de <a href=\"/\" class=\"content-link\">The Freak Circus</a> est devenu un personnage très apprécié de la communauté des romans visuels."
+    },
+    "about": {
+      "title": "À propos de Pierrot de The Freak Circus",
+      "description1": "Pierrot de <a href=\"/\" class=\"content-link\">The Freak Circus</a> est l'un des personnages les plus énigmatiques et complexes du roman visuel. Cet artiste Pierrot de The Freak Circus est doux, innocent et plein d'amour, exprimant clairement ses émotions même dans le silence, et recourant parfois à la violence directe lorsque ses émotions débordent. L'artiste Pierrot de The Freak Circus est devenu une figure adorée dans la communauté des romans visuels.",
+      "description2": "Lorsque vous avez aidé ce pauvre bouffon, vous n'auriez jamais imaginé que les choses se termineraient ainsi. Maintenant, vous avez un grand Pierrot collant de <a href=\"/\" class=\"content-link\">The Freak Circus</a> qui se permet de pénétrer dans votre maison et de vous observer pendant votre sommeil. Son obsession a commencé un froid jour d'hiver, lorsque vous l'avez défendu d'un agresseur alors qu'il distribuait des flyers du cirque, déclenchant une obsession instantanée et dévorante dans ce personnage Pierrot de The Freak Circus.",
+      "description3": "Malgré son personnage de clown mystérieux, sa peau pâle trahit un léger rougissement chaque fois qu'il vous voit. Il se murmure à lui-même son désir de vous posséder, de vous marquer et de vous garder entièrement pour lui. Parfois, ce Pierrot de The Freak Circus vous couvre de baisers pendant votre sommeil, perdant le compte de ses tendres affections. Pour plus de détails, consultez le <a href=\"/wiki\" class=\"content-link\">wiki Pierrot The Freak Circus</a> pour une analyse complète de ce personnage. Le wiki fournit des informations approfondies sur le développement et l'histoire de ce personnage. Restez informé des dernières <a href=\"/updates\" class=\"content-link\">mises à jour du roman visuel</a> pour découvrir de nouveaux développements dans l'histoire de Pierrot."
+    },
+    "traits": {
+      "title": "Traits de personnalité de Pierrot de The Freak Circus",
+      "obsessiveLove": {
+        "title": "Amour Obsédant",
+        "description": "Pierrot de The Freak Circus éprouve une obsession dévorante qui a commencé lorsque vous l'avez défendu. Cet artiste Pierrot de The Freak Circus vous aime peu importe votre apparence, et sa dévotion est si profonde qu'il se demande pourquoi vous ne pouvez pas comprendre qu'il vous aime, même s'il est un monstre. L'artiste Pierrot de The Freak Circus montre un dévouement sans faille. Découvrez plus sur sa complexité psychologique dans notre <a href=\"/wiki\" class=\"content-link\">wiki complet</a>."
+      },
+      "silentSuffering": {
+        "title": "Souffrance Silencieuse",
+        "description": "Lorsque des émotions accablantes débordent de ses lèvres, le silence suit. Il tend la main comme pour toucher votre visage, puis se reprend et se retire. C'est la belle douleur d'aimer si profondément, comme un poignard qui transperce votre poitrine."
+      },
+      "nocturnalVisits": {
+        "title": "Visites Nocturnes",
+        "description": "Pierrot vous rend visite la nuit, ressentant quelque chose qui le rend triste et frustré, nécessitant un câlin. Il serait doux si vous le souhaitez, et ferait tout pour celui ou celle qui a capturé son âme."
+      },
+      "emotionalTurmoil": {
+        "title": "Tourmente Émotionnelle",
+        "description": "Ses yeux se remplissent de larmes, mais il les retient pour ne laisser aucune trace. Il glisse soigneusement hors de votre lit, s'agenouille par terre, la tête baissée, incapable de partir, tout en sachant qu'il doit le faire."
+      }
+    },
+    "abilities": {
+      "title": "Capacités Spéciales de Pierrot de The Freak Circus",
+      "mesmerizingPerformance": {
+        "title": "Performance Hypnotique",
+        "description": "Pierrot de The Freak Circus termine sa performance, dansant fluidement avec sa propre ombre pour hypnotiser le public, mais son attention se concentre uniquement sur vous. Ses yeux dorés brillent alors qu'il cherche votre approbation avec un sourire perçant et troublant. Vivez sa performance hypnotique en <a href=\"/download\" class=\"content-link\">téléchargeant The Freak Circus</a>."
+      },
+      "emotionalControl": {
+        "title": "Contrôle Émotionnel Intense",
+        "description": "Il éprouve un fort désir de vous serrer plus fort et de vous voir essoufflé et en sueur, ce qui le fait rougir, mais il se retient, soulignant son besoin de patience. Son excitation à peine contenue est palpable."
+      },
+      "devotion": {
+        "title": "Dévotion Inébranlable",
+        "description": "Pierrot continue de vous tenir, sans respecter totalement votre espace personnel, mais le fait avec une étrange forme de révérence, comme s'il embrassait non seulement vous, mais le cœur même de son existence."
+      }
+    },
+    "relationships": {
+      "title": "Relations de Pierrot de The Freak Circus",
+      "protagonist": {
+        "title": "Relation avec le protagoniste",
+        "description": "Pierrot de The Freak Circus vous a rencontré, est tombé amoureux de vous et est devenu curieux à votre égard. Il ne se soucie pas beaucoup de votre rapprochement avec d'autres membres du cirque, mais vous ne pouvez pas vous empêcher de vous sentir mal à l'aise. Peut-être que Pierrot a ressenti votre malaise, ou peut-être en a-t-il simplement assez de vous. Parfois, Pierrot peut vous mettre très en colère."
+      },
+      "harlequin": {
+        "title": "Dynamique avec Arlequin",
+        "description": "Voir Pierrot et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a> (ou son autre nom, Arlecchino) est très excitant. Leur dynamique imite leur rivalité historique, créant tension et drame au sein de <a href=\"/\" class=\"content-link\">The Freak Circus</a>. La relation entre Pierrot et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a> ajoute des couches à la narration et aux interactions des personnages. Arlecchino The Freak Circus apporte une complexité supplémentaire à leurs interactions. La dynamique entre Pierrot et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a> est centrale pour l'histoire, tandis qu'Arlecchino The Freak Circus offre une perspective alternative sur leur rivalité."
+      }
+    },
+    "gallery": {
+      "title": "Galerie de personnages de Pierrot de The Freak Circus"
+    }
+  },
+  "HarlequinPage": {
+    "header": {
+      "name": "Arlequin",
+      "subtitle": "Le Rival Séducteur - Arlequin de The Freak Circus",
+      "description": "Dans l'ombre du cirque, Arlequin capte votre attention avec son charme séduisant et son esprit rusé. Chaque sourire cache un danger, et chaque contact vous fait ressentir une tentation irrésistible. Cet artiste Arlequin de <a href=\"/\" class=\"content-link\">The Freak Circus</a> a acquis une grande popularité dans la communauté des romans visuels."
+    },
+    "about": {
+      "title": "À propos d'Arlequin de The Freak Circus",
+      "description1": "Arlequin de <a href=\"/\" class=\"content-link\">The Freak Circus</a> est une figure centrale connue pour sa présence énigmatique et sa nature profondément manipulatrice. Arlequin de The Freak Circus prospère dans le chaos et joue un jeu dangereux d'émotions, attirant souvent les autres dans sa toile complexe de tromperie et de désir. Son passé est enveloppé de mystère, ajoutant à son attrait dangereux. Arlequin de The Freak Circus est devenu un personnage fascinant.",
+      "description2": "Ce Arlequin de The Freak Circus était à l'origine difficile à côtoyer, jusqu'à ce que vous découvriez un point commun : un amour pour tout ce qui est épicé. Naturellement, vous avez profité de cette occasion pour avoir une compétition \"amicale\" au café, utilisant de grandes quantités de sauce piquante et des conversations pleines d'esprit pour mieux connaître ce Arlequin de The Freak Circus. Découvrez l'évolution de son histoire à travers nos <a href=\"/updates\" class=\"content-link\">dernières mises à jour</a>.",
+      "description3": "Sous les lumières vacillantes et les ombres du cirque itinérant, un tout nouveau drame se déroule. Derrière les faux sourires de la troupe de clowns et le public acclamant, persistent d'anciennes rivalités et des histoires dangereuses. Ce Arlequin de The Freak Circus est un artiste qui vit du contrôle et du divertissement, mais découvre que l'arrivée d'un nouveau membre a bouleversé son monde. Pour des détails complets, explorez le <a href=\"/wiki\" class=\"content-link\">wiki Arlequin The Freak Circus</a> pour une analyse approfondie de ce personnage complexe."
+    },
+    "traits": {
+      "title": "Traits de personnalité d'Arlequin de The Freak Circus",
+      "boldManipulative": {
+        "title": "Audacieux & Manipulateur",
+        "description": "Arlequin de The Freak Circus est beaucoup plus audacieux que <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, si vous voyez ce que cela signifie. Arlequin de The Freak Circus est généralement toxique et un peu destructeur, avec un talent pour semer le trouble même lorsqu'il n'y a pas de relation existante à perturber. Arlequin de The Freak Circus ne connaît pas de limites."
+      },
+      "socialAnxiety": {
+        "title": "Anxiété Sociale & Douceur",
+        "description": "Malgré son extérieur audacieux, Arlequin souffre d'anxiété sociale et peut être un doux excentrique. Il achète des choses qui l'intéressent, et ses interactions sont souvent marquées par des billets non sollicités et des comportements codés par l'anxiété."
+      },
+      "spicyPersonality": {
+        "title": "Personnalité Épicée",
+        "description": "Arlequin partage un amour pour tout ce qui est épicé, ce qui devient un point de connexion. Il aime les compétitions amicales impliquant beaucoup de sauce piquante et des conversations pleines d'esprit, utilisant ces moments pour se connecter véritablement avec les autres."
+      },
+      "controlEntertainment": {
+        "title": "Contrôle & Divertissement",
+        "description": "Arlequin est un artiste qui vit du contrôle et du divertissement. Il découvre que l'arrivée de nouveaux membres bouleverse son monde, créant de nouvelles dynamiques au sein de l'atmosphère hantée de The Freak Circus."
+      }
+    },
+    "abilities": {
+      "title": "Capacités Spéciales d'Arlequin de The Freak Circus",
+      "chaosCreation": {
+        "title": "Création de Chaos",
+        "description": "Arlequin de The Freak Circus prospère dans le chaos et joue un jeu dangereux d'émotions. Il a un talent pour semer le trouble et peut être destructeur dans ses interactions, même lorsqu'il n'y a pas de relation existante à perturber. Découvrez son charme chaotique en <a href=\"/download\" class=\"content-link\">téléchargeant The Freak Circus</a>."
+      },
+      "giftSelection": {
+        "title": "Sélection de Cadeaux",
+        "description": "Arlequin achète des choses qui l'intéressent, souvent des objets reflétant sa personnalité unique. Ses cadeaux sont marqués par des billets non sollicités et des comportements codés par l'anxiété, chaque présent reflétant sa nature complexe."
+      },
+      "circusDynamics": {
+        "title": "Dynamique du Cirque",
+        "description": "En tant qu'artiste vivant du contrôle et du divertissement, Arlequin connaît <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et le bouffon, et est vaguement conscient des autres personnes du cirque. Son arrivée crée de nouvelles dynamiques dans l'atmosphère hantée du carnaval."
+      }
+    },
+    "giftScenario": {
+      "title": "Scénario de Cadeaux d'Arlequin de The Freak Circus",
+      "mainTitle": "Il Vous Offre des Cadeaux !",
+      "description": "Dans ce scénario, Arlequin de The Freak Circus tente de conquérir votre cœur en vous offrant des cadeaux. Il privilégie particulièrement les cadeaux verts ou noirs afin que vous vous souveniez de lui. Ces cadeaux ne sont pas de simples objets matériels, mais des expressions de ses émotions intérieures et de sa manière unique de se connecter aux autres.",
+      "interestingSelections": {
+        "title": "Sélections Intéressantes",
+        "description": "Arlequin achète des objets qui l'intéressent, souvent reflétant sa personnalité unique et son amour pour tout ce qui est épicé. Chaque cadeau est une fenêtre sur sa nature complexe."
+      },
+      "uninvitedTickets": {
+        "title": "Billets Non Sollicités",
+        "description": "Ses cadeaux sont marqués par des billets non sollicités et des comportements codés par l'anxiété, chaque présent reflétant son anxiété sociale et sa douceur excentrique."
+      },
+      "hauntedCarnival": {
+        "title": "Thème du Carnaval Hanté",
+        "description": "À travers ses cadeaux, il tente d'exprimer sa connexion à l'atmosphère du carnaval hanté de The Freak Circus, partageant des fragments de son monde mystérieux avec vous."
+      }
+    },
+    "relationships": {
+      "title": "Relations d'Arlequin de The Freak Circus",
+      "protagonist": {
+        "title": "Relation avec le protagoniste",
+        "description": "Arlequin de The Freak Circus a un \"petit faible pour vous\" et essaiera de gagner votre faveur par divers moyens. Vous pouvez vous insérer comme clown, collègue ou simplement personne aléatoire. Ses interactions sont marquées par son anxiété sociale et ses tendances excentriques, rendant chaque rencontre unique."
+      },
+      "pierrotJester": {
+        "title": "Dynamique avec Pierrot & le Bouffon",
+        "description": "Arlequin connaît <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et le Bouffon, et est vaguement conscient des autres membres du cirque. Voir Pierrot et Arlequin (ou Arlecchino) est très excitant, leur dynamique imitant leur rivalité historique. La relation entre Arlequin de The Freak Circus et <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> ajoute des couches à la narration au sein de <a href=\"/\" class=\"content-link\">The Freak Circus</a>. Arlecchino The Freak Circus apporte une profondeur supplémentaire à leurs interactions complexes. La dynamique entre Arlequin de The Freak Circus et <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> est centrale dans l'histoire, tandis qu'Arlecchino The Freak Circus offre une perspective unique sur leur relation."
+      }
+    },
+    "gallery": {
+      "title": "Galerie de personnages d'Arlequin de The Freak Circus"
+    }
+  },
+  "WikiPage": {
+    "header": {
+      "title": "Wiki The Freak Circus",
+      "subtitle": "Guide complet du roman visuel The Freak Circus",
+      "backToHome": "← Retour à l'accueil",
+      "pierrot": "Personnage Pierrot",
+      "harlequin": "Personnage Arlequin"
+    },
+    "gameOverview": {
+      "title": "Présentation du jeu",
+      "description1": "<strong><a href=\"/\" class=\"content-link\">The Freak Circus</a></strong> est un roman visuel psychologique sombre qui plonge les joueurs dans le monde tordu d’un cirque itinérant rempli de mystère, d’obsession et de relations dangereuses. Cette expérience immersive combine une narration captivante avec des thèmes matures, créant un voyage inoubliable à travers les ombres du désir et de la manipulation humaine.",
+      "description2": "Dans <a href=\"/\" class=\"content-link\">The Freak Circus</a>, les joueurs incarnent un employé de café dont la vie ordinaire se retrouve mêlée aux artistes énigmatiques d’un cirque sinistre. Le jeu explore les thèmes de l’obsession, de la rivalité et des aspects sombres de la nature humaine à travers des relations complexes entre les personnages et des parcours narratifs à embranchements multiples.",
+      "description3": "The Freak Circus se distingue dans le genre du roman visuel par son contenu mature, sa profondeur psychologique et la dynamique complexe entre ses personnages principaux. Ce récit sombre propose plusieurs fins et parcours de personnages, garantissant que chaque partie révèle de nouvelles couches de l’histoire. Explorez les relations complexes entre <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"character-link\">Arlequin</a> dans ce thriller psychologique."
+    },
+    "gamePremise": {
+      "title": "Prémisse du jeu",
+      "description1": "L’histoire de The Freak Circus commence avec l’arrivée du Cirque de l’Horreur en ville, apportant avec lui des secrets sombres et des mystères terrifiants. En tant qu’employé de café, votre vie ordinaire prend un tournant extraordinaire lorsque vous croisez le chemin de <a href=\"/pierrot\" class=\"character-link\">Pierrot</a>, le performeur yandere silencieux dont l’obsession pour vous devient le catalyseur d’un jeu dangereux.",
+      "description2": "Cependant, vous n’êtes pas seulement pris dans la toile de l’obsession de Pierrot. <a href=\"/harlequin\" class=\"character-link\">Arlequin</a>, son rival séducteur, entre dans ce jeu mortel, créant un triangle complexe de désir, de manipulation et de tension psychologique qui forme le cœur de l’expérience The Freak Circus.",
+      "description3": "Ne vous laissez pas tromper par leurs sourires enchanteurs et leurs performances captivantes – dans The Freak Circus, rien n’est ce qu’il paraît, et chaque choix que vous faites peut mener au salut ou à la damnation. Ce roman visuel mature comprend des illustrations originales, des personnages captivants et de multiples chemins narratifs explorant les profondeurs de la psychologie humaine."
+    },
+    "currentFeatures": {
+      "title": "Fonctionnalités actuelles",
+      "originalArtwork": {
+        "title": "Illustrations et personnages originaux",
+        "description": "The Freak Circus propose de magnifiques illustrations et arrière-plans originaux, mettant en avant deux personnages captivants : <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"character-link\">Arlequin</a>. Chaque personnage est soigneusement conçu pour refléter sa personnalité et ses motivations complexes."
+      },
+      "multipleEndings": {
+        "title": "Fins multiples et langues",
+        "description": "Découvrez 1 mauvaise fin et 3 fins ouvertes avec d’autres prévues dans de futures mises à jour de The Freak Circus. Le jeu est actuellement disponible en anglais, portugais (BR) et chinois, rendant The Freak Circus accessible à un public mondial. Restez informé des nouveaux contenus via nos <a href=\"/updates\" class=\"content-link\">mises à jour de développement</a>."
+      },
+      "matureThemes": {
+        "title": "Thèmes sombres et matures",
+        "description": "Vivez une histoire mature 18+ avec des thèmes yandere, des éléments sombres et une narration basée sur les choix explorant l’obsession et la rivalité. The Freak Circus n’hésite pas à aborder des thèmes psychologiques complexes et du contenu mature."
+      },
+      "interactiveStorytelling": {
+        "title": "Narration interactive",
+        "description": "The Freak Circus offre une expérience interactive où les choix du joueur influencent fortement le déroulement de l’histoire. Chaque décision peut entraîner différentes interactions et fins de l’histoire."
+      }
+    },
+    "contentWarnings": {
+      "title": "Avertissements de contenu",
+      "header": {
+        "title": "⚠️ Avertissement Contenu Mature",
+        "description": "The Freak Circus est recommandé aux 18 ans et plus et contient le contenu suivant :"
+      },
+      "psychologicalElements": {
+        "title": "Éléments psychologiques",
+        "description": "Les thèmes yandere, l’obsession, la manipulation et la tension psychologique sont au cœur de l’expérience The Freak Circus."
+      },
+      "darkThemes": {
+        "title": "Thèmes sombres",
+        "description": "The Freak Circus inclut des thèmes de violence, langage fort et situations matures pouvant ne pas convenir à tous les publics."
+      },
+      "characterDynamics": {
+        "title": "Dynamique des personnages",
+        "description": "Les relations complexes impliquant possessivité, rivalité et manipulation émotionnelle sont explorées tout au long de la narration."
+      }
+    },
+    "developmentStatus": {
+      "title": "État du développement",
+      "description1": "The Freak Circus continue d’évoluer avec des fins de personnages et des arcs narratifs étendus qui approfondiront votre connexion à ce monde tordu. L’équipe de développement travaille activement sur de nouveaux contenus et améliorations. Suivez nos <a href=\"/updates\" class=\"content-link\">mises à jour</a> pour les dernières nouvelles.",
+      "description2": "Les futures mises à jour de The Freak Circus incluront :",
+      "extendedRoutes": "Parcours étendus pour <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"character-link\">Arlequin</a>",
+      "additionalEndings": "Fins et branches narratives supplémentaires",
+      "enhancedArtwork": "Illustrations et développement des personnages améliorés",
+      "newLanguageSupport": "Nouvelles langues disponibles",
+      "improvedMechanics": "Mécaniques de jeu et interface utilisateur améliorées",
+      "description3": "Restez à jour via les canaux officiels pour les annonces de sortie et le progrès du développement. L’équipe s’engage à offrir une expérience complète et satisfaisante."
+    },
+    "howToPlay": {
+      "title": "Comment jouer",
+      "description1": "The Freak Circus est jouable en ligne gratuitement, offrant une expérience rapide et facile. Accédez directement au jeu via votre navigateur sans téléchargement ni installation. Pour jouer hors ligne, vous pouvez également <a href=\"/download\" class=\"content-link\">télécharger le jeu</a> sur votre appareil.",
+      "description2": "Pour commencer avec The Freak Circus :",
+      "step1": "Visitez le site officiel de The Freak Circus ou la plateforme de jeu",
+      "step2": "Cliquez sur le bouton \"Jouer Maintenant\" pour commencer votre aventure",
+      "step3": "Faites des choix qui détermineront vos relations avec les personnages",
+      "step4": "Explorez différents chemins pour découvrir toutes les fins",
+      "description3": "Vous pouvez commencer immédiatement via <a href=\"/\" class=\"play-link\">notre bouton Jouer Maintenant</a> ou visiter le site officiel pour débuter votre aventure.",
+      "description4": "The Freak Circus est conçu pour être accessible aux nouveaux venus comme aux joueurs expérimentés cherchant une expérience psychologique mature."
+    },
+    "sidebar": {
+      "quickNavigation": {
+        "title": "Navigation rapide",
+        "home": "← Page d’accueil",
+        "pierrot": "Page du personnage Pierrot",
+        "harlequin": "Page du personnage Arlequin"
+      },
+      "gameInformation": {
+        "title": "Informations sur le jeu",
+        "genre": "Genre",
+        "genreValue": "Roman visuel",
+        "rating": "Classement",
+        "ratingValue": "18+",
+        "platform": "Plateforme",
+        "platformValue": "Navigateur Web",
+        "languages": "Langues",
+        "languagesValue": "Anglais, Portugais (BR), Chinois",
+        "status": "Statut",
+        "statusValue": "En développement"
+      },
+      "mainCharacters": {
+        "title": "Personnages principaux",
+        "pierrot": {
+          "name": "Pierrot",
+          "description": "Le performeur yandere silencieux dont l’obsession entraîne l’histoire de The Freak Circus."
+        },
+        "harlequin": {
+          "name": "Arlequin",
+          "description": "Le rival séducteur de Pierrot qui ajoute de la complexité à la narration de The Freak Circus."
+        }
+      }
+    }
+  },
+  "UpdatesPage": {
+    "header": {
+      "title": "Mises à jour du roman visuel The Freak Circus",
+      "subtitle": "Restez informé du développement du roman visuel The Freak Circus",
+      "backToHome": "← Retour à l'accueil",
+      "wiki": "Wiki",
+      "pierrot": "Pierrot",
+      "harlequin": "Arlequin"
+    },
+    "updates": {
+      "almostThere": {
+        "title": "Presque prêt !",
+        "description1": "Une autre mise à jour mensuelle pour <a href=\"/\" class=\"content-link\">le roman visuel The Freak Circus</a>, et nous approchons vraiment de sa sortie !",
+        "description2": "Il reste environ 15-20 % du dia 2 du roman visuel à coder, incluant les sprites terminés. Ensuite, l’étape suivante sera un peu plus rapide, principalement la musique et les effets sonores.",
+        "description3": "J’ai fait un peu de beta testing et il reste quelques détails à corriger. Le plus grand défi actuellement est que les 20 % manquants du dia 2 sont remplis de transitions et sprites, ce qui est complexe et chronophage.",
+        "description4": "Avec <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a>, cette mise à jour présentera également Ticket Taker, Jester et le Doctor – vous vous souvenez probablement d’eux de la mauvaise fin \"Missing\" !",
+        "description5": "J’espère publier cette mise à jour ce mois-ci avec la boutique, sinon elle sera repoussée au mois prochain. En attendant, profitez de quelques captures d’écran supplémentaires du développement !"
+      },
+      "monthlyUpdate": {
+        "title": "Mise à jour mensuelle !",
+        "description1": "Un mois de plus depuis la sortie du <a href=\"/\" class=\"content-link\">roman visuel The Freak Circus</a> ! Voici donc les dernières nouvelles sur la progression de la prochaine mise à jour !",
+        "description2": "Actuellement, la moitié du dia 2 est déjà codée, même si tous les nouveaux sprites ne sont pas encore terminés (et croyez-moi, il y a beaucoup de nouveaux sprites et CG).",
+        "description3": "Cette mise à jour sera un peu plus longue en termes de gameplay, car vous en apprendrez davantage sur les trois autres personnages du cirque.",
+        "description4": "De plus, j’ajouterai des \"scènes cachées\" à débloquer en jouant, accessibles via le menu. Pour plus de détails, consultez notre <a href=\"/wiki\" class=\"content-link\">page Wiki</a>.",
+        "description5": "Je laisserai aussi quelques petits secrets à repérer si vous prêtez attention à vos choix !"
+      },
+      "anniversary": {
+        "title": "1 mois d'anniversaire",
+        "celebration": "Cela fait un mois depuis la sortie du roman visuel The Freak Circus ! 🥳",
+        "thankYou": "Je voudrais célébrer avec quelques mises à jour et un grand merci pour votre soutien !",
+        "dia2Title": "À propos du dia 2",
+        "dia2Description": "Je travaille régulièrement sur le dia 2 ! Certains nouveaux sprites et arrière-plans sont déjà terminés, et une bonne partie du dia 2 est codée.",
+        "summaryTitle": "Résumé rapide de la mise à jour :",
+        "summary1": "L’histoire continuera depuis les trois fins : les deux où vous êtes pris par <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, et celle où vous rentrez chez vous.",
+        "summary2": "Vous rencontrerez trois nouveaux personnages dans leur propre tente !",
+        "summary3": "Plus de scènes avec <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a> seront disponibles.",
+        "summary4": "Certains sprites seront animés !",
+        "summary5": "Le menu du jeu aura également un tout nouveau design !",
+        "summary6": "Une version <strong>Android</strong> sera disponible lors de la prochaine mise à jour."
+      },
+      "futureUpdates": {
+        "title": "Futures mises à jour",
+        "description1": "Hey ! Je souhaite partager quelques informations sur les futures mises à jour !",
+        "description2": "Le <strong>script</strong> du dia 2 est partiellement terminé et je prévois de le réviser pour créer les nouveaux arrière-plans et sprites. La mise à jour inclura des expansions significatives.",
+        "description3": "Je publierai des mises à jour mensuelles sur l’avancement, ainsi que de petites mises à jour hebdomadaires sur les réseaux sociaux avec du contenu supplémentaire.",
+        "description4": "Des mises à jour détaillées, du contenu en coulisses et des premières révélations seront disponibles sur les pages de soutien. Pour plus d’informations, visitez notre <a href=\"/wiki\" class=\"content-link\">Wiki</a>.",
+        "description5": "Je travaille de jour, donc j’utilise mon temps libre pour développer le jeu. Avec plus de soutien, je pourrais consacrer plus de temps au projet. <strong>Mais ne vous inquiétez pas, le progrès continue dans tous les cas !</strong>",
+        "description6": "<strong>Merci encore</strong> à tous ceux qui ont acheté le jeu pour montrer leur soutien ! Vous pouvez <a href=\"/download\" class=\"content-link\">télécharger le jeu</a> pour découvrir les dernières mises à jour.",
+        "description7": "Des mises à jour détaillées, contenu en coulisses et premières révélations seront disponibles sur les pages de soutien. Pour plus d’informations, visitez notre <a href=\"/wiki\" class=\"content-link\">Wiki</a>."
+      },
+      "chineseLanguage": {
+        "title": "Langue chinoise disponible",
+        "description1": "Le roman visuel inclut désormais une traduction chinoise ! Réalisée avec soin par : copiklaGrogu. Merci pour le soutien et pour avoir permis à davantage de joueurs de profiter du monde de <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> et <a href=\"/harlequin\" class=\"content-link\">Arlequin</a>.",
+        "description2": "C’est un vrai plaisir de voir tant de joueurs apprécier l’histoire et vouloir se rapprocher des personnages ! Vous pouvez sélectionner votre langue préférée dans les paramètres du jeu.",
+        "description3": "Cette extension rend l’histoire accessible aux joueurs sinophones souhaitant découvrir l’univers unique du jeu."
+      },
+      "pronounOptions": {
+        "title": "Options de pronom",
+        "personalizationTitle": "Personnalisation disponible !",
+        "description1": "Une petite mise à jour permet de choisir vos pronoms, afin que les personnages vous adressent correctement ! Cela rend le jeu plus inclusif et personnalisé.",
+        "description2": "Cette version ajoute uniquement la sélection de pronoms, avec une ligne de dialogue pour conserver la continuité. Pour plus de détails sur les interactions, consultez notre <a href=\"/wiki\" class=\"content-link\">Wiki</a>.",
+        "englishSupportTitle": "À propos de l’anglais",
+        "description3": "J’ai dû modifier certains dialogues pour les rendre neutres dans certaines situations. Rien ne change l’histoire, ce sont juste des adaptations pour améliorer l’expérience."
+      },
+      "thankYou": {
+        "title": "Merci !",
+        "gratitudeTitle": "Merci infiniment pour tout le soutien et la gentillesse !",
+        "description1": "Merci à tous ceux qui ont acheté <a href=\"/\" class=\"content-link\">The Freak Circus</a> pour soutenir mon idée ! Voir que vous appréciez le jeu me touche profondément.",
+        "description2": "<strong>Merci également pour tous les commentaires et avis !</strong>",
+        "description3": "J’ai déjà pris des décisions pour améliorer certains aspects, comme l’ajout des options de pronoms et d’autres éléments, et je continuerai le développement avec soin et attention.",
+        "description4": "Je ne laisse pas de trous dans l’histoire et traite le script avec soin. Dès que j’ai une base solide pour <strong>le dia 2</strong>, je publierai une mise à jour ici et sur les réseaux sociaux pour accélérer le projet !",
+        "description5": "<strong>Le spectacle commence, installez-vous confortablement. Mais si j’étais vous... je ne ferais pas confiance à la nourriture.</strong>"
+      }
+    }
+  },
+  "AboutPage": {
+    "header": {
+      "title": "À propos de nous",
+      "lastUpdated": "Dernière mise à jour : 24 septembre 2025"
+    },
+    "whoWeAre": {
+      "title": "Qui nous sommes",
+      "description": "The Freak Circus est une plateforme dédiée à fournir du contenu, des guides et des ressources de haute qualité pour notre communauté. Nous sommes une équipe passionnée de créateurs, chercheurs et passionnés, visant à offrir des informations précises, engageantes et utiles dans divers domaines."
+    },
+    "mission": {
+      "title": "Notre mission",
+      "description": "Notre mission est de donner aux utilisateurs les moyens d'agir en proposant des connaissances fiables, des stratégies pratiques et des informations basées sur la communauté. Que ce soit pour les jeux, la technologie, le style de vie ou les ressources créatives, nous nous efforçons de devenir la source de référence pour un contenu fiable et à jour."
+    },
+    "whatWeOffer": {
+      "title": "Ce que nous proposons",
+      "guides": "Guides & Tutoriels : Ressources complètes pour aider les utilisateurs à apprendre, progresser et résoudre des problèmes.",
+      "updates": "Dernières mises à jour : Contenu régulièrement actualisé pour garantir pertinence et précision.",
+      "community": "Ressources communautaires : Un hub pour la collaboration, le partage de connaissances et les interactions significatives.",
+      "features": "Fonctionnalités spéciales : Aperçus exclusifs, outils et contenu sélectionné pour notre audience."
+    },
+    "community": {
+      "title": "Focus sur la communauté",
+      "description": "Chez The Freak Circus, nous croyons au pouvoir de la communauté. Notre plateforme est conçue pour connecter les personnes, encourager la collaboration et favoriser un environnement positif où chacun peut apprendre et contribuer."
+    },
+    "qualityAssurance": {
+      "title": "Assurance qualité",
+      "description": "La précision est au cœur de notre travail. Chaque contenu est soigneusement examiné et vérifié par notre équipe pour s'assurer qu'il respecte les normes les plus élevées avant sa publication sur The Freak Circus."
+    },
+    "regularUpdates": {
+      "title": "Mises à jour régulières",
+      "description": "Nous mettons fréquemment à jour nos ressources pour suivre les évolutions du secteur, les besoins de la communauté et les retours des utilisateurs. Cela garantit que notre audience dispose toujours des informations les plus pertinentes et utiles."
+    },
+    "contactUs": {
+      "title": "Contactez-nous",
+      "description": "Vous avez des questions, suggestions ou retours ? Nous serions ravis de vous entendre ! Vous pouvez nous joindre à <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> et nous vous répondrons dès que possible."
+    },
+    "joinCommunity": {
+      "title": "Rejoignez notre communauté",
+      "description": "Restez connecté avec The Freak Circus en suivant nos mises à jour et en participant à la communauté. Ensemble, nous pouvons construire un espace plus fort, plus informé et plus solidaire pour tous."
+    },
+    "commitment": {
+      "title": "Notre engagement",
+      "description": "Nous nous engageons à maintenir un niveau élevé de qualité, d'intégrité et de transparence dans tout ce que nous publions. Notre équipe travaille en continu pour vérifier les informations, mettre à jour les ressources et garantir que notre plateforme reste fiable et centrée sur l'utilisateur."
+    }
+  },
+  "ContactPage": {
+    "header": {
+      "title": "Contactez-nous",
+      "lastUpdated": "Dernière mise à jour : 24 septembre 2025"
+    },
+    "getInTouch": {
+      "title": "Prendre contact",
+      "description": "Nous serions ravis de vous entendre ! Que vous ayez des questions sur nos services, des suggestions d'amélioration ou que vous souhaitiez simplement dire bonjour, nous sommes là pour vous aider."
+    },
+    "contactInformation": {
+      "title": "Informations de contact",
+      "email": "<strong>Email :</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "responseTime": "Nous répondons généralement dans les 24 heures."
+    },
+    "responseTime": {
+      "title": "Délai de réponse",
+      "weekdays": "Lundi - Vendredi",
+      "weekdaysTime": "Dans les 24 heures",
+      "weekends": "Week-ends",
+      "weekendsTime": "Dans les 48 heures"
+    },
+    "whatWeCanHelpWith": {
+      "title": "En quoi pouvons-nous vous aider",
+      "accountIssues": "Problèmes de compte ou d'accès",
+      "accountIssuesDesc": "Assistance pour la connexion, l'abonnement ou les problèmes d'adhésion",
+      "websiteFeedback": "Retour sur le site",
+      "websiteFeedbackDesc": "Suggestions pour améliorer The Freak Circus",
+      "contentRequests": "Demandes de contenu",
+      "contentRequestsDesc": "Idées pour de nouveaux articles, guides ou ressources",
+      "technicalSupport": "Support technique",
+      "technicalSupportDesc": "Assistance sur le fonctionnement du site",
+      "partnershipInquiries": "Demandes de partenariat",
+      "partnershipInquiriesDesc": "Opportunités de collaboration",
+      "generalQuestions": "Questions générales",
+      "generalQuestionsDesc": "Tout autre sujet lié à The Freak Circus et à nos services"
+    },
+    "beforeYouContactUs": {
+      "title": "Avant de nous contacter",
+      "description": "Pour nous aider à fournir la meilleure assistance, veuillez inclure les informations suivantes dans votre email :",
+      "specificQuestion": "Votre question ou problème spécifique",
+      "errorMessages": "Tout message d'erreur (le cas échéant)",
+      "stepsTried": "Les étapes que vous avez déjà essayées",
+      "deviceInfo": "Informations sur votre appareil et navigateur (si pertinent)"
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "contentUpdate": {
+        "question": "À quelle fréquence votre contenu est-il mis à jour ?",
+        "answer": "Nous mettons régulièrement à jour nos ressources pour garantir précision et actualité."
+      },
+      "contentSafety": {
+        "question": "Votre contenu est-il sûr et fiable ?",
+        "answer": "Oui, toutes les informations que nous fournissons sont vérifiées et sourcées de manière responsable."
+      },
+      "suggestContent": {
+        "question": "Puis-je suggérer de nouveaux contenus ?",
+        "answer": "Absolument ! Nous accueillons vos idées et contributions – il suffit de nous les envoyer."
+      }
+    },
+    "businessHours": {
+      "title": "Horaires d'ouverture",
+      "description": "Notre équipe est disponible du lundi au vendredi, de 9h00 à 18h00 (EST). Bien que nous puissions répondre en dehors de ces heures, veuillez prévoir un délai de 24 à 48 heures pour les réponses pendant les week-ends et jours fériés."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "description": "Nous respectons votre vie privée et ne partagerons jamais vos informations personnelles avec des tiers. Toutes les communications restent confidentielles et sont utilisées uniquement pour vous fournir le meilleur service possible."
+    },
+    "thankYou": {
+      "title": "Merci",
+      "description": "Merci de faire partie de la communauté The Freak Circus ! Vos retours et votre soutien nous aident à continuer à offrir la meilleure expérience possible à nos utilisateurs dans le monde entier."
+    }
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "Une expérience de roman visuel d'horreur psychologique",
+    "quickLinksTitle": "Liens rapides",
+    "quickLinksHome": "Accueil",
+    "quickLinksPierrot": "Pierrot",
+    "quickLinksHarlequin": "Arlequin",
+    "quickLinksWiki": "Wiki",
+    "quickLinksUpdates": "Mises à jour",
+    "quickLinksDownload": "Télécharger",
+    "legalTitle": "Légal",
+    "legalPrivacy": "Politique de confidentialité",
+    "legalTerms": "Conditions d'utilisation",
+    "legalCopyright": "Droits d'auteur",
+    "legalAbout": "À propos de nous",
+    "legalContact": "Contactez-nous",
+    "disclaimer": "Ce site web est créé par des passionnés de jeux en tant que site fan personnel et non officiel et n'est pas affilié aux développeurs originaux. Le contenu est fourni à des fins éducatives et de divertissement uniquement. Les utilisateurs doivent vérifier eux-mêmes les informations. Ce site ne garantit pas l'exactitude du contenu et n'assume aucune responsabilité légale."
+  },
+  "CopyrightPage": {
+    "header": {
+      "title": "Droits d'auteur",
+      "lastUpdated": "Dernière mise à jour : 24 septembre 2025"
+    },
+    "copyrightStatement": {
+      "title": "Déclaration de droits d'auteur",
+      "description": "Tout le contenu sur <strong>The Freak Circus</strong>, y compris mais sans s'y limiter les textes, graphiques, images, vidéos et logiciels, est la propriété de <strong>The Freak Circus</strong> et est protégé par les lois internationales sur le droit d'auteur. L'utilisation, la reproduction ou la distribution non autorisée de ce contenu est strictement interdite."
+    },
+    "whatWeOwn": {
+      "title": "Ce que nous possédons",
+      "originalContent": "Contenu original",
+      "originalContentDesc": "Tous les contenus écrits, guides, tutoriels et critiques créés par notre équipe.",
+      "websiteDesign": "Conception du site web",
+      "websiteDesignDesc": "Mise en page, style, interface utilisateur et éléments de conception du site web.",
+      "originalImages": "Images originales",
+      "originalImagesDesc": "Photographies, captures d'écran et graphiques créés spécifiquement pour ce site web.",
+      "codeSoftware": "Code & logiciels",
+      "codeSoftwareDesc": "Code du site web, scripts et logiciels développés pour cette plateforme."
+    },
+    "thirdPartyContent": {
+      "title": "Contenu tiers",
+      "description": "Nous respectons les droits de propriété intellectuelle des autres. Certains contenus sur notre site peuvent inclure des références, images ou informations relatives à <strong>The Freak Circus</strong>, appartenant à leurs propriétaires respectifs."
+    },
+    "fairUsePolicy": {
+      "title": "Politique d'utilisation équitable",
+      "description": "Nous soutenons l'utilisation équitable de notre contenu à des fins éducatives, de recherche et personnelles. Cependant, toute utilisation commerciale nécessite une autorisation explicite.",
+      "allowedUses": "Utilisations autorisées",
+      "personalStudy": "Études et recherches personnelles",
+      "educational": "Fins éducatives",
+      "nonCommercial": "Partage non commercial",
+      "criticism": "Critique et commentaire",
+      "restrictedUses": "Utilisations restreintes",
+      "commercialReproduction": "Reproduction commerciale",
+      "massDistribution": "Distribution massive",
+      "modification": "Modification sans permission",
+      "removalAttribution": "Suppression de l'attribution"
+    },
+    "dmcaCompliance": {
+      "title": "Conformité DMCA",
+      "description": "Nous respectons le Digital Millennium Copyright Act (DMCA). Si vous pensez que votre œuvre protégée par le droit d'auteur a été utilisée sans autorisation, veuillez nous contacter immédiatement.",
+      "requirements": "Pour déposer une demande de retrait DMCA, veuillez inclure",
+      "specificDetails": "Détails précis sur le matériel protégé",
+      "proofOwnership": "Preuve que vous possédez les droits sur le contenu",
+      "formalNotice": "Un avis officiel de retrait DMCA envoyé à notre agent désigné"
+    },
+    "attributionRequirements": {
+      "title": "Exigences d'attribution",
+      "description": "Lors de l'utilisation de notre contenu dans le cadre d'une utilisation équitable ou avec autorisation, une attribution appropriée est requise."
+    },
+    "licenseRequests": {
+      "title": "Demandes de licence",
+      "description": "Pour toute utilisation commerciale, licence ou autre permission, veuillez nous contacter avec votre demande spécifique.",
+      "requirements": "Votre demande doit inclure",
+      "specificContent": "Le contenu spécifique que vous souhaitez utiliser",
+      "intendedPurpose": "Objectif et public visé",
+      "duration": "Durée d'utilisation",
+      "contactInfo": "Informations de contact"
+    },
+    "contactInformation": {
+      "title": "Informations de contact",
+      "email": "Email : contact@thefreakcircus.com"
+    },
+    "updatesToCopyrightNotice": {
+      "title": "Mises à jour de l'avis de droits d'auteur",
+      "description1": "Cet avis de droits d'auteur peut être mis à jour périodiquement. La version la plus récente sera toujours disponible sur cette page. L'utilisation continue de notre site constitue l'acceptation de toute modification.",
+      "description2": "Consultez régulièrement cette page pour les mises à jour de notre politique de droits d'auteur."
+    }
+  },
+  "PrivacyPolicyPage": {
+    "header": {
+      "title": "Politique de confidentialité",
+      "lastUpdated": "Dernière mise à jour : 24 septembre 2025"
+    },
+    "generalInformation": {
+      "title": "Informations générales",
+      "description1": "Chez <strong>The Freak Circus</strong>, nous nous engageons à protéger la vie privée de tous les utilisateurs de nos sites et applications. Cette politique de confidentialité s'applique à tous les services et produits proposés par <strong>The Freak Circus</strong>. En utilisant ce site, vous acceptez cette politique de confidentialité et confirmez que vous êtes en âge légal de consentir à ses conditions. L'utilisation continue du site après toute modification de cette politique constitue une acceptation de ces changements.",
+      "description2": "Le site est destiné aux visiteurs âgés de 16 ans et plus. Si vous avez moins de 16 ans, veuillez ne pas utiliser le site. Si vous êtes parent ou tuteur et autorisez un enfant à accéder au site, vous consentez à cette politique de confidentialité en leur nom.",
+      "description3": "Si vous avez des questions concernant cette politique de confidentialité, contactez-nous à <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>."
+    },
+    "dataCollection": {
+      "title": "Quelles données collectons-nous ?",
+      "dataYouProvide": {
+        "title": "Données que vous fournissez",
+        "description": "Nous ne traitons que les données personnelles que vous fournissez volontairement, par exemple en remplissant des formulaires ou en nous contactant. Cela peut inclure :",
+        "name": "Nom",
+        "email": "Adresse e-mail",
+        "otherInfo": "Toute autre information que vous choisissez de fournir"
+      },
+      "dataCollectedAutomatically": {
+        "title": "Données collectées automatiquement",
+        "description": "Nous pouvons collecter certaines données automatiquement lors de votre visite, telles que :",
+        "ipAddress": "Adresse IP (pour la prévention de la fraude, l'analyse ou les fonctionnalités basées sur la localisation)",
+        "browserType": "Type et version du navigateur",
+        "referringPage": "Page ou site référent",
+        "deviceIdentifiers": "Identifiants de l'appareil (y compris les identifiants mobiles)",
+        "cookieData": "Données de cookies et de suivi",
+        "userInteraction": "Données d'interaction utilisateur (par ex., si vous avez consulté ou cliqué sur une publicité)"
+      },
+      "thirdPartyData": {
+        "title": "Données de tiers",
+        "description": "Si nous recevons des données personnelles de tiers, nous vous informerons lorsque cela est requis."
+      }
+    },
+    "whyWeCollectData": {
+      "title": "Pourquoi nous collectons des données & Base légale",
+      "description": "Nous collectons et traitons des données personnelles à des fins incluant, mais sans s'y limiter :",
+      "providingServices": "Fournir, améliorer et optimiser nos services et contenus",
+      "contractualObligations": "Exécution des obligations contractuelles",
+      "marketingCommunications": "Envoi de mises à jour, newsletters et communications marketing (lorsque cela est autorisé)",
+      "statisticalAnalysis": "Analyse statistique et recherche",
+      "legalCompliance": "Conformité aux obligations légales (ex. vérification de l'âge)",
+      "legalBases": "Les bases légales du traitement peuvent inclure votre consentement, l'exécution d'un contrat, les intérêts légitimes ou le respect des obligations légales.",
+      "note": "<em>Remarque :</em> Les annonceurs ou services tiers peuvent collecter des données via leurs propres cookies ou technologies de suivi. <strong>The Freak Circus</strong> n'est pas responsable des pratiques de collecte de données de tiers."
+    },
+    "dataRetention": {
+      "title": "Conservation des données",
+      "description": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire pour atteindre les finalités décrites dans cette politique. Les données associées aux comptes ou visiteurs inactifs peuvent être supprimées après une période raisonnable d'inactivité, sauf si la conservation est requise par la loi ou pour des raisons commerciales légitimes."
+    },
+    "gdprRights": {
+      "title": "RGPD & Vos droits (résidents de l'EEE)",
+      "description": "Si vous êtes résident de l'Espace économique européen (EEE), vous disposez de certains droits concernant vos données personnelles, notamment :",
+      "accessUpdateDelete": "Le droit d'accéder, de mettre à jour ou de supprimer vos données personnelles",
+      "rectification": "Le droit de rectification des informations inexactes",
+      "objectToProcessing": "Le droit de s'opposer au traitement",
+      "restrictProcessing": "Le droit de limiter le traitement",
+      "dataPortability": "Le droit à la portabilité des données",
+      "withdrawConsent": "Le droit de retirer votre consentement lorsque le traitement est basé sur celui-ci",
+      "verification": "Nous pouvons demander une vérification d'identité avant de satisfaire aux demandes. Pour plus d'informations, vous pouvez également contacter l'autorité locale de protection des données."
+    },
+    "yourRights": {
+      "title": "Vos droits & préférences de communication",
+      "description1": "Vous pouvez vous désinscrire des communications marketing à tout moment en contactant <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> ou en suivant les instructions de désabonnement incluses dans ces communications. Pour demander la correction, la suppression ou la limitation du traitement, veuillez fournir une raison claire afin de nous aider à vérifier et satisfaire rapidement la demande.",
+      "description2": "Nous répondrons à vos demandes dans un délai raisonnable et conformément à la législation applicable."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "whatAreCookies": {
+        "title": "Que sont les cookies ?",
+        "description": "Les cookies sont de petits fichiers stockés sur votre appareil qui aident les sites web à se souvenir des préférences et à améliorer l'expérience utilisateur. Les balises web sont de petites images, généralement transparentes, utilisées pour suivre le comportement des utilisateurs."
+      },
+      "typesOfCookies": {
+        "title": "Types de cookies",
+        "firstParty": "<strong>Cookies propriétaires :</strong> Placés par ce site pour prendre en charge les fonctionnalités techniques (ex. paramètres de langue, gestion de session).",
+        "thirdParty": "<strong>Cookies tiers :</strong> Placés par des fournisseurs externes (ex. analytics, réseaux publicitaires) et utilisés pour suivre le comportement de navigation sur différents sites."
+      },
+      "whichCookiesWeUse": {
+        "title": "Quels cookies utilisons-nous",
+        "description": "<strong>The Freak Circus</strong> utilise des cookies propriétaires pour améliorer l'utilisabilité et peut permettre des cookies tiers (par exemple Google Analytics ou partenaires publicitaires) pour fournir des services d'analyse et de publicité. Les cookies essentiels au fonctionnement du site ne nécessitent pas de consentement ; d'autres cookies peuvent nécessiter votre autorisation."
+      },
+      "howToManage": {
+        "title": "Comment gérer les cookies",
+        "description": "Vous pouvez gérer ou désactiver les cookies via les paramètres de votre navigateur. Consultez la documentation de votre navigateur (Chrome, Firefox, Safari, Edge/Internet Explorer, Opera) pour les instructions sur le blocage ou la suppression des cookies."
+      }
+    },
+    "securityMeasures": {
+      "title": "Mesures de sécurité",
+      "description": "Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger les données personnelles et restreindre l'accès au personnel autorisé uniquement. Nous ne vendons ni ne louons vos données personnelles. Lorsque des prestataires externes sont utilisés, ils sont contractuellement tenus de protéger et de traiter les données de manière sécurisée et de les supprimer après avoir accompli les tâches assignées."
+    },
+    "contactInformation": {
+      "title": "Informations de contact",
+      "description": "Si vous avez des questions ou préoccupations concernant cette politique de confidentialité, veuillez contacter :",
+      "email": "Email : <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "website": "Site web : <a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
+    }
+  },
+  "TermsOfServicePage": {
+    "header": {
+      "title": "Conditions d'utilisation",
+      "lastUpdated": "Dernière mise à jour : 24 septembre 2025"
+    },
+    "generalInformation": {
+      "title": "Informations générales",
+      "description1": "Les présentes Conditions d'utilisation (l'« Accord ») sont importantes et nécessitent une lecture attentive. Votre acceptation de ces « Conditions d'utilisation » signifie votre accord à y être lié. Cet Accord est conclu entre vous et <strong>The Freak Circus</strong> (ci-après : « Site », « nous », « notre ») et concerne votre utilisation de notre site web, y compris tout matériel et service disponible sur celui-ci, ainsi que tout site successeur (le « Site »).",
+      "description2": "<strong>EN UTILISANT LE SITE, VOUS ACCEPTEZ CES CONDITIONS D'UTILISATION ET CONFIRMEZ QUE VOUS AVEZ PLUS DE 16 ANS.</strong> Toute référence à « vous » dans cet Accord s'applique à l'individu qui utilise le Site.",
+      "description3": "Cet Accord comprend une clause d'arbitrage obligatoire, expliquée à la Section 11 ci-dessous. Cette clause exige un arbitrage individuel pour résoudre les différends, plutôt que des procès avec jury, procédures judiciaires ou actions collectives. Veuillez lire attentivement cette section."
+    },
+    "changes": {
+      "title": "Modifications",
+      "description": "Cet Accord peut être amendé périodiquement et nous vous informerons de ces changements par des moyens raisonnables, notamment en publiant un Accord révisé sur le Site. Les modifications n'affecteront pas les différends survenus avant la date de ces changements. En utilisant le Site après la publication des modifications, vous acceptez d'être lié par les termes révisés. L'utilisation continue sera considérée comme une acceptation des modifications. Nous nous réservons le droit de modifier ou d'interrompre tout ou partie du Site, d'ajuster ou de renoncer aux frais, ou d'offrir des opportunités spéciales à certains ou à tous les utilisateurs du Site à tout moment, sans responsabilité."
+    },
+    "informationSubmitted": {
+      "title": "Informations soumises via le Site",
+      "description1": "La soumission d'informations via le Site est soumise à la <a href='/privacy-policy' target='_blank' rel='noopener'>Politique de confidentialité</a>. En utilisant le Site, vous reconnaissez et acceptez la Politique de confidentialité.",
+      "description2": "Vous affirmez que toutes les informations fournies sont exactes et complètes, et vous acceptez de les maintenir et de les mettre à jour. En cas de divergence entre cet Accord et la Politique de confidentialité concernant les données personnelles, la Politique de confidentialité prévaut."
+    },
+    "jurisdictionalIssues": {
+      "title": "Questions de juridiction",
+      "description": "Le Site est contrôlé et exploité depuis l'Espace économique européen et n'est pas destiné à nous soumettre à une juridiction en dehors de cette zone. Le Site peut ne pas être approprié ou accessible partout. En utilisant le Site, vous assumez tous les risques et êtes responsable du respect des lois applicables. Nous pouvons restreindre ou limiter l'accès au Site, en tout ou en partie, à toute personne, emplacement ou juridiction à tout moment."
+    },
+    "rulesOfConduct": {
+      "title": "Règles de conduite",
+      "threateningMaterial": "Vous ne devez pas publier ou transmettre de matériel menaçant, harcelant, diffamatoire, obscène, illégal ou portant atteinte aux droits d'autrui.",
+      "unauthorizedUse": "Vous ne devez pas utiliser le Site à des fins commerciales, frauduleuses ou illégales non autorisées.",
+      "collectInformation": "Vous ne pouvez pas collecter d'informations sur les utilisateurs sauf si la Politique de confidentialité le permet.",
+      "interfereDisrupt": "Vous ne devez pas interférer avec le fonctionnement du Site ni perturber ses serveurs et réseaux.",
+      "restrictInhibit": "Vous ne devez pas restreindre ou empêcher les autres d'utiliser le Site.",
+      "reproduceModify": "Vous ne pouvez pas reproduire, modifier, vendre, distribuer ou exploiter une partie du Site sans notre consentement écrit préalable.",
+      "reverseEngineer": "Vous ne pouvez pas effectuer de rétro-ingénierie ou décompiler le Site sauf si la loi l'interdit.",
+      "removeNotices": "Vous ne devez pas supprimer les avis de droits d'auteur ou de marque du Site.",
+      "frameMirror": "Vous ne pouvez pas encadrer, refléter ou télécharger systématiquement du contenu sans consentement.",
+      "botsSpiders": "Vous ne pouvez pas utiliser de bots, spiders, scrapers ou outils similaires sans consentement.",
+      "responsibleCosts": "Vous êtes responsable de tous les coûts liés au matériel, à Internet et aux services nécessaires pour utiliser le Site."
+    },
+    "monitoring": {
+      "title": "Surveillance",
+      "description": "Nous pouvons, mais ne sommes pas obligés, surveiller, évaluer ou supprimer le contenu soumis sur le Site. Nous pouvons analyser votre utilisation et divulguer les informations correspondantes conformément à la loi et à notre Politique de confidentialité."
+    },
+    "thirdPartyMaterials": {
+      "title": "Matériaux tiers et liens",
+      "description1": "Le Site peut fournir un accès à des matériaux tiers (y compris contenu, produits, services, publicités et promotions). Nous ne contrôlons pas et n'approuvons pas les matériaux tiers et ne sommes pas responsables de leur exactitude, légalité ou sécurité.",
+      "description2": "<strong>L'utilisation de matériaux tiers est à vos risques et périls</strong> et soumise aux conditions et politiques de ces tiers."
+    },
+    "disclaimerOfWarranties": {
+      "title": "Exclusion de garanties",
+      "description1": "DANS LA MESURE MAXIMALE AUTORISÉE PAR LA LOI : (A) LE SITE ET TOUS LES PRODUITS ET MATÉRIAUX TIERS SONT FOURNIS « EN L'ÉTAT », « TEL QUE DISPONIBLE », SANS AUCUNE GARANTIE ; ET (B) <strong>The Freak Circus</strong> DÉCLINE TOUTES GARANTIES, Y COMPRIS LA QUALITÉ MARCHANDE, L'ADAPTATION À UN USAGE PARTICULIER, L'ABSENCE DE CONTREFAÇON ET LE TITRE.",
+      "description2": "Bien que nous nous efforcions de garantir l'exactitude et la sécurité, nous ne pouvons pas garantir que le Site sera toujours correct, sécurisé ou ininterrompu. Si vous constatez des modifications non autorisées, veuillez nous contacter à <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+    },
+    "filtering": {
+      "title": "Filtrage",
+      "description": "Des protections de contrôle parental sont disponibles pour aider à restreindre l'accès à des contenus préjudiciables. Plus d'informations sont disponibles <a href='https://fr.wikipedia.org/wiki/Comparaison_des_logiciels_et_fournisseurs_de_filtrage_de_contenu' target='_blank' rel='noopener'>ici</a>. Nous n'approuvons aucun des produits ou services listés."
+    },
+    "copyrightInfringementClaims": {
+      "title": "Réclamations pour violation de droits d'auteur",
+      "description": "Si vous pensez que des matériaux sur le Site violent vos droits d'auteur, vous pouvez nous envoyer un avis demandant leur suppression. Si vous pensez qu'une réclamation a été déposée à tort contre vous, vous pouvez envoyer une contre-notification. Nous recommandons de consulter un conseiller juridique avant de déposer des avis. Contact : <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+    },
+    "miscellaneous": {
+      "title": "Divers",
+      "description1": "Cet Accord ne crée aucun partenariat, coentreprise, relation d'emploi ou d'agence entre vous et <strong>The Freak Circus</strong>. Si une disposition est inexécutable, elle sera supprimée sans affecter les autres termes.",
+      "description2": "Vous ne pouvez pas transférer vos droits ou obligations sans notre consentement, mais nous pouvons céder les nôtres sans restriction. Le fait de ne pas appliquer une disposition ne renonce pas à notre droit de l'appliquer ultérieurement. Cet Accord, avec les termes incorporés, constitue l'intégralité de l'accord entre vous et <strong>The Freak Circus</strong> et remplace tous les accords antérieurs. Les avis peuvent être délivrés par e-mail, courrier ou publication sur le Site. <strong>The Freak Circus</strong> ne pourra être tenu responsable d'un manquement dû à des causes indépendantes de sa volonté."
+    }
+  }
+}

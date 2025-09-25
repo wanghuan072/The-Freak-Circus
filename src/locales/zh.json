@@ -1,0 +1,920 @@
+{
+  "seo": {
+    "home": {
+      "title": "The Freak Circus - thefreakcircus.org | 心理恐怖视觉小说",
+      "description": "体验《The Freak Circus》，一款包含 Pierrot 和 Harlequin 的心理恐怖视觉小说。可在线游玩或下载至 PC、Mac 和 Linux。",
+      "keywords": "The Freak Circus, 视觉小说, 心理恐怖, Pierrot, Harlequin, 马戏团, 恐怖游戏, 独立游戏, thefreakcircus.org"
+    },
+    "pierrot": {
+      "title": "Pierrot 角色 - The Freak Circus | thefreakcircus.org",
+      "description": "了解《The Freak Circus》中忧郁的小丑 Pierrot。他的痴情与神秘故事将在这款心理恐怖视觉小说中呈现。",
+      "keywords": "Pierrot, The Freak Circus, 角色, 小丑, 痴情, 心理恐怖, 视觉小说, thefreakcircus.org"
+    },
+    "harlequin": {
+      "title": "Harlequin 角色 - The Freak Circus | thefreakcircus.org",
+      "description": "认识《The Freak Circus》中调皮捣蛋的 Harlequin。探索她复杂的性格以及与 Pierrot 的关系，这款恐怖视觉小说将带来全新体验。",
+      "keywords": "Harlequin, The Freak Circus, 角色, 捣蛋鬼, 心理恐怖, 视觉小说, 马戏团, thefreakcircus.org"
+    },
+    "wiki": {
+      "title": "The Freak Circus Wiki - 游戏指南与故事 | thefreakcircus.org",
+      "description": "《The Freak Circus》完整指南。了解角色、剧情、玩法及神秘马戏团世界。",
+      "keywords": "The Freak Circus wiki, 游戏指南, 视觉小说指南, 故事, 角色, 马戏团世界, thefreakcircus.org"
+    },
+    "download": {
+      "title": "下载 The Freak Circus - 免费视觉小说 | thefreakcircus.org",
+      "description": "免费下载《The Freak Circus》视觉小说。支持 PC、Mac 和 Linux 平台。体验 Pierrot 与 Harlequin 的心理恐怖故事。",
+      "keywords": "下载 The Freak Circus, 免费视觉小说, PC 游戏, Mac 游戏, Linux 游戏, 心理恐怖, thefreakcircus.org"
+    },
+    "updates": {
+      "title": "The Freak Circus 更新 - 开发新闻 | thefreakcircus.org",
+      "description": "获取《The Freak Circus》视觉小说的最新新闻与更新。关注开发进度及新内容发布。",
+      "keywords": "The Freak Circus 更新, 开发新闻, 视觉小说更新, 游戏新闻, thefreakcircus.org"
+    },
+    "about": {
+      "title": "关于 The Freak Circus - 游戏信息 | thefreakcircus.org",
+      "description": "了解《The Freak Circus》视觉小说及其开发团队背后的故事，体验心理恐怖冒险。",
+      "keywords": "关于 The Freak Circus, 游戏信息, 开发团队, 视觉小说, thefreakcircus.org"
+    },
+    "contact": {
+      "title": "联系我们 - The Freak Circus | thefreakcircus.org",
+      "description": "联系《The Freak Circus》团队。如需支持、反馈或咨询视觉小说相关信息，请联系我们。",
+      "keywords": "联系 The Freak Circus, 支持, 反馈, 视觉小说, thefreakcircus.org"
+    },
+    "privacy": {
+      "title": "隐私政策 - The Freak Circus | thefreakcircus.org",
+      "description": "《The Freak Circus》网站及视觉小说的隐私政策。了解我们如何保护您的个人信息。",
+      "keywords": "隐私政策, The Freak Circus, 数据保护, thefreakcircus.org"
+    },
+    "terms": {
+      "title": "服务条款 - The Freak Circus | thefreakcircus.org",
+      "description": "《The Freak Circus》网站及视觉小说的服务条款。请阅读我们的条款与条件。",
+      "keywords": "服务条款, The Freak Circus, 法律条款, thefreakcircus.org"
+    },
+    "copyright": {
+      "title": "版权 - The Freak Circus | thefreakcircus.org",
+      "description": "《The Freak Circus》视觉小说及网站内容的版权信息。",
+      "keywords": "版权, The Freak Circus, 知识产权, thefreakcircus.org"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "characters": "角色",
+    "pierrot": "Pierrot",
+    "harlequin": "Harlequin",
+    "wiki": "Wiki",
+    "updates": "视觉小说更新",
+    "download": "下载"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "The Freak Circus",
+      "subtitle": "心理恐怖视觉小说",
+      "description": "踏入一个现实扭曲、噩梦成真的世界。《The Freak Circus》是一款沉浸式心理恐怖视觉小说，将挑战你对现实与虚构的认知。",
+      "playButton": "立即游玩",
+      "learnButton": "了解更多",
+      "warning": "内容警告：本游戏包含成人主题、心理恐怖及惊悚画面，建议18岁以上玩家游玩。",
+      "platforms": "支持平台：PC、Mac 和 Linux"
+    },
+    "about": {
+      "title": "什么是 The Freak Circus？",
+      "description": "《The Freak Circus》是一款心理恐怖视觉小说，带你进入角色扭曲的内心世界。在神秘的马戏团里，一切都不如表面，玩家将遇见 Pierrot 与 Harlequin —— 两位谜一样的人物，他们的故事将挑战你对现实的认知。",
+      "feature1": "心理恐怖元素",
+      "feature1Desc": "体验深度心理主题，让你不断质疑现实",
+      "feature2": "丰富的角色塑造",
+      "feature2Desc": "结识背景复杂、动机深刻的角色",
+      "feature3": "有意义的选择",
+      "feature3Desc": "你的决策将影响剧情走向及结局",
+      "feature4": "沉浸式氛围",
+      "feature4Desc": "沉浸在精心打造的视觉与音效世界中"
+    },
+    "characters": {
+      "title": "认识角色",
+      "subtitle": "探索《The Freak Circus》中神秘的人物",
+      "pierrotName": "Pierrot",
+      "pierrotDesc": "忧郁的小丑，用彩绘笑脸掩饰内心的深情。他的故事充满爱、失落与隐藏的秘密。",
+      "harlequinName": "Harlequin",
+      "harlequinDesc": "调皮捣蛋的角色，表面轻松却内心复杂。她与 Pierrot 的关系构成了故事的核心。",
+      "learnMore": "了解更多"
+    },
+    "faq": {
+      "title": "常见问题",
+      "question1": "什么是 The Freak Circus？",
+      "answer1": "《The Freak Circus》是一款心理恐怖视觉小说，通过 Pierrot 与 Harlequin 的故事探讨现实、认知与人类心理主题。",
+      "question2": "游戏适合所有年龄吗？",
+      "answer2": "不适合，本作包含成人主题、心理恐怖及惊悚画面，建议18岁及以上玩家游玩。",
+      "question3": "游戏支持哪些平台？",
+      "answer3": "目前支持 PC、Mac 和 Linux。",
+      "question4": "游戏时长多长？",
+      "answer4": "游戏包含多条剧情线及结局，游玩时长因选择和探索而异。",
+      "question5": "‘马戏团怪人’的残疾原因是什么？",
+      "answer5": "游戏通过剧情揭示马戏团表演者特殊状况的黑暗历史，是故事谜题的重要组成部分。",
+      "question6": "现代马戏团和展览还会有怪人吗？",
+      "answer6": "现代马戏团已大幅演变，但《The Freak Circus》灵感来自历史上的展览传统，用于探索异类与接受的主题。",
+      "question7": "Pierrot 的身高是多少？",
+      "answer7": "Pierrot 的具体身高是游戏角色设计的一部分，旨在强化角色心理表现及玩家互动体验。",
+      "question8": "如何解锁所有结局？",
+      "answer8": "在游戏中谨慎选择，每个决定都会影响与 Pierrot 与 Harlequin 的关系，从而触发不同剧情和结局。",
+      "question9": "如何让 Pierrot 给我蛋糕？",
+      "answer9": "需通过特定选择与互动建立信任，展示对其表演的兴趣以解锁特殊场景。",
+      "question10": "如何从 Pierrot 手中获得玫瑰？",
+      "answer10": "与 Pierrot 的关系进展相关，通过理解其性格并欣赏其艺术性可解锁该互动。",
+      "question11": "第二章何时发布？",
+      "answer11": "开发团队正在积极制作第二章，包括扩展剧情与角色结局。请通过官方渠道关注发布与开发进度。"
+    },
+    "cta": {
+      "title": "准备好进入马戏团了吗？",
+      "subtitle": "立即下载《The Freak Circus》，开始未知的心理冒险",
+      "downloadButton": "立即下载",
+      "learnButton": "了解更多"
+    }
+  },
+  "DownloadPage": {
+    "header": {
+      "title": "The Freak Circus 下载",
+      "subtitle": "获取《The Freak Circus》视觉小说，踏入痴迷与谜团交织的扭曲世界",
+      "backToHome": "← 返回首页",
+      "wiki": "Wiki",
+      "pierrot": "Pierrot",
+      "harlequin": "Harlequin",
+      "updates": "更新内容"
+    },
+    "main": {
+      "title": "下载 The Freak Circus",
+      "description": "体验吸引全球玩家的心理恐怖视觉小说。<a href=\"/\" class=\"content-link\">The Freak Circus</a> 可在官方平台免费下载，支持多平台与多语言。",
+      "featuresTitle": "下载内容包含：",
+      "feature1": "原画和背景",
+      "feature2": "两位引人入胜的角色：<a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>",
+      "feature3": "多结局与剧情线路",
+      "feature4": "提供英文、葡萄牙语（BR）和中文版本",
+      "feature5": "跨平台兼容",
+      "downloadButton": "🎮 立即下载 The Freak Circus",
+      "downloadDescription": "访问 The Freak Circus itch.io 页面获取官方下载"
+    },
+    "platforms": {
+      "title": "平台支持",
+      "windows": {
+        "title": "Windows",
+        "description": "完整 Windows 支持"
+      },
+      "macos": {
+        "title": "macOS",
+        "description": "提供原生 macOS 版本"
+      },
+      "linux": {
+        "title": "Linux",
+        "description": "包含 Linux 兼容性"
+      },
+      "web": {
+        "title": "网页浏览器",
+        "description": "可直接在浏览器中游玩"
+      }
+    },
+    "sidebar": {
+      "gameInfo": {
+        "title": "游戏信息",
+        "genre": "类型：",
+        "rating": "分级：",
+        "price": "价格：",
+        "platform": "平台：",
+        "languages": "语言：",
+        "genreValue": "视觉小说",
+        "ratingValue": "18+",
+        "priceValue": "免费",
+        "platformValue": "多平台",
+        "languagesValue": "英文、葡萄牙语（BR）、中文"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "home": "← 首页",
+        "wiki": "Wiki 指南",
+        "pierrot": "Pierrot 角色",
+        "harlequin": "Harlequin 角色",
+        "updates": "最新更新"
+      },
+      "warnings": {
+        "title": "内容警告",
+        "description": "下载内容包含成人主题，包括：",
+        "warning1": "病态痴情主题",
+        "warning2": "黑暗心理元素",
+        "warning3": "粗俗语言",
+        "warning4": "暴力与血腥",
+        "warning5": "成人场景",
+        "ageWarning": "建议18岁以上游玩"
+      },
+      "official": {
+        "title": "官方来源",
+        "description": "The Freak Circus itch.io 页面为唯一官方下载来源。更多信息请查看我们的 <a href=\"/wiki\" class=\"content-link\">Wiki 页面</a> 或阅读最新的 <a href=\"/updates\" class=\"content-link\">开发更新</a>。",
+        "visitButton": "访问官方页面"
+      }
+    },
+    "additional": {
+      "about": {
+        "title": "关于 The Freak Circus 下载",
+        "description1": "下载《The Freak Circus》可体验心理恐怖与丰富角色塑造相结合的独特视觉小说体验。由 Neko Bueno 制作，该作获得超过 2,000 名玩家的 4.9/5 星高分评价。了解更多关于 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的世界。",
+        "description2": "下载游戏后，你将进入一个痴迷与竞争交织的世界。游戏拥有多条剧情线路，可探索不同的角色关系。与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 一起体验这部心理惊悚故事。"
+      },
+      "development": {
+        "title": "开发状态",
+        "description": "《The Freak Circus》正在积极开发中，第二天内容正在制作。当前版本包含一个坏结局和三个开放结局，未来将有更多更新内容。通过我们的 <a href=\"/updates\" class=\"content-link\">视觉小说更新</a> 页面了解最新进展。"
+      },
+      "community": {
+        "title": "社区与支持",
+        "description": "加入已经体验过《The Freak Circus》的成千上万玩家社区。游戏拥有热情粉丝，他们创作同人画、同人文并分享体验。通过下载游戏并在 itch.io 页面留下反馈，你也能支持开发。了解更多游戏世界信息，请访问我们的 <a href=\"/wiki\" class=\"content-link\">完整 Wiki</a>。"
+      }
+    }
+  },
+  "PierrotPage": {
+    "header": {
+      "name": "Pierrot",
+      "subtitle": "沉默的执念 - 《The Freak Circus》中的Pierrot",
+      "description": "在恐怖马戏团的阴影中，Pierrot以他独特的方式吸引你的注意。他的沉默隐藏着危险的执念，每一次凝视都透露出不可言说的秘密。这位来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的艺术家Pierrot已成为视觉小说社区中备受喜爱的角色。"
+    },
+    "about": {
+      "title": "关于《The Freak Circus》中的Pierrot",
+      "description1": "来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的Pierrot是视觉小说中最神秘且复杂的角色之一。这位艺术家Pierrot甜美、纯真且充满爱意，即使在沉默中也能清楚地表达情感，即使在情绪爆发时也会直接表现出暴力倾向。艺术家Pierrot已成为视觉小说社区中备受喜爱的角色。",
+      "description2": "当你帮助那位可怜的小丑时，绝不会想到事情会发展成这样。现在，你有一个高大、依赖性强的Pierrot，他竟然会闯进你的家，在你睡觉时默默注视你。这位《The Freak Circus》的Pierrot的执念始于一个寒冷的冬日，当时你在他派发马戏团传单时保护了他，从而激发了他瞬间且难以抑制的执念。",
+      "description3": "尽管他拥有神秘的小丑形象，他苍白的皮肤在看到你时仍会微微泛红。他会自言自语地说想要把你据为己有，标记你，并完全占有你。有时，这位《The Freak Circus》的Pierrot会在你熟睡时亲吻你，数不清自己温柔的表现。更多详细信息，请查阅 <a href=\"/wiki\" class=\"content-link\">Pierrot The Freak Circus 维基</a>，获取该角色的全面分析。Pierrot The Freak Circus 维基提供了该角色发展与故事的详尽细节。请关注最新的 <a href=\"/updates\" class=\"content-link\">视觉小说更新</a>，以发现Pierrot故事的新发展。"
+    },
+    "traits": {
+      "title": "《The Freak Circus》中Pierrot的性格特征",
+      "obsessiveLove": {
+        "title": "痴迷的爱",
+        "description": "来自《The Freak Circus》的Pierrot经历了自你保护他后便无法抑制的全身心执念。这位艺术家Pierrot无论你外貌如何都爱你，他的奉献如此深厚，以至于他质疑你为何无法理解他对你的爱，即使他是怪物。艺术家Pierrot展现出坚定不移的忠诚。了解更多他的心理复杂性，请访问我们的 <a href=\"/wiki\" class=\"content-link\">综合维基</a>。"
+      },
+      "silentSuffering": {
+        "title": "沉默的痛苦",
+        "description": "当压抑的情绪从他嘴里爆发后，随之而来的是沉默。他伸手似乎想触碰你的脸，却又自我克制地收回。这是深情所带来的美丽痛苦，如同利刃刺入胸膛。"
+      },
+      "nocturnalVisits": {
+        "title": "夜间拜访",
+        "description": "Pierrot会在夜里拜访你，意识到某些让他难过和沮丧的事情，需要拥抱。如果你希望，他会温柔相待，并愿意为俘获他灵魂的人付出一切。"
+      },
+      "emotionalTurmoil": {
+        "title": "情绪动荡",
+        "description": "他的眼中盈满泪水，但他忍住不流，因为不想留下痕迹。他小心翼翼地从你的床上滑下，跪在地上，低下头，明知必须离开，却无法真正离去。"
+      }
+    },
+    "abilities": {
+      "title": "《The Freak Circus》中Pierrot的特殊能力",
+      "mesmerizingPerformance": {
+        "title": "迷人的表演",
+        "description": "来自《The Freak Circus》的Pierrot完成表演时，会与自己的影子流畅共舞，以迷惑观众，但他的注意力完全在你身上。他那双金色的眼睛闪烁着光芒，渴望你的认可，面带锐利而阴森的微笑。亲身体验他的迷人表演，请 <a href=\"/download\" class=\"content-link\">下载《The Freak Circus》</a>。"
+      },
+      "emotionalControl": {
+        "title": "强烈的情绪控制力",
+        "description": "他强烈地渴望更紧地抱你，看到你气喘吁吁、满头大汗，但他克制自己，强调耐心的重要性。他那几乎无法抑制的兴奋感扑面而来。"
+      },
+      "devotion": {
+        "title": "坚定的忠诚",
+        "description": "Pierrot会继续抱着你，虽然不完全尊重你的个人空间，但他的举动中带着一种奇怪的敬意，仿佛拥抱的不是你，而是他存在的核心。"
+      }
+    },
+    "relationships": {
+      "title": "《The Freak Circus》中Pierrot的角色关系",
+      "protagonist": {
+        "title": "与主角的关系",
+        "description": "来自《The Freak Circus》的Pierrot遇见你后，爱上了你，并对你充满好奇。他不太在意你与其他马戏团成员的亲近，但你仍会感到不安。也许Pierrot察觉到了你的不安，也许他只是对你感到厌倦。有时，Pierrot会让你非常生气。"
+      },
+      "harlequin": {
+        "title": "与Harlequin的互动",
+        "description": "看到Pierrot和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>（或其另一名字Arlecchino）在一起，令人兴奋。他们的互动模仿历史上的竞争，增加了《The Freak Circus》中情节与人物关系的紧张感。Pierrot与《The Freak Circus》的 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的关系为叙事增添层次。Arlecchino The Freak Circus为互动提供了额外的复杂性。Pierrot与《The Freak Circus》的 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的动态是故事的核心，而Arlecchino The Freak Circus则提供了对他们竞争关系的另一种视角。"
+      }
+    },
+    "gallery": {
+      "title": "《The Freak Circus》中Pierrot的角色图库"
+    }
+  },
+  "HarlequinPage": {
+    "header": {
+      "name": "Harlequin",
+      "subtitle": "诱人的竞争者 - 《The Freak Circus》中的Harlequin",
+      "description": "在马戏团的阴影中，Harlequin以诱人的魅力和机智吸引你的注意。每一个微笑都隐藏着危险，每一次触碰都让你感到无法抗拒的诱惑。这位来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的艺术家Harlequin在视觉小说社区中获得了极高的人气。"
+    },
+    "about": {
+      "title": "关于《The Freak Circus》中的Harlequin",
+      "description1": "来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的Harlequin以其神秘的存在感和极具操控性的性格著称。The Freak Circus Harlequin喜欢混乱，玩弄情绪的危险游戏，经常将他人卷入其复杂的欺骗与欲望之网。他的过去充满谜团，增加了危险的魅力。The Freak Circus Harlequin已成为一个迷人的角色。",
+      "description2": "这位《The Freak Circus》的Harlequin原本难以相处，直到你发现你们有共同点：对辛辣事物的热爱。自然，你们利用这个机会在咖啡馆进行“友好”比赛，用大量辣酱和机智的对话更深入地了解这位Harlequin。通过我们的 <a href=\"/updates\" class=\"content-link\">最新更新</a>，了解他不断发展的故事。",
+      "description3": "在旅行马戏团的闪烁煤气灯与阴影下，一出全新的戏剧正在上演。在小丑团的假笑和观众的欢呼背后，隐藏着旧日的竞争与危险历史。这位《The Freak Circus》的Harlequin是一个靠控制与娱乐生存的表演者，但新成员的到来颠覆了他的世界。详细信息请查阅 <a href=\"/wiki\" class=\"content-link\">The Freak Circus Harlequin 维基</a>，获取Harlequin的深入角色分析。The Freak Circus Harlequin 维基提供该角色背景与动机的详细见解。"
+    },
+    "traits": {
+      "title": "《The Freak Circus》中Harlequin的性格特征",
+      "boldManipulative": {
+        "title": "大胆与操控",
+        "description": "《The Freak Circus》的Harlequin比 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 大胆得多。The Freak Circus Harlequin通常有毒且有破坏关系倾向，即使没有现有关系，他也能搅动麻烦。The Freak Circus Harlequin没有界限。"
+      },
+      "socialAnxiety": {
+        "title": "社交焦虑与温柔",
+        "description": "尽管外表大胆，Harlequin有社交焦虑，也可能是个温柔的怪人。他购买自己感兴趣的物品，互动中常带有未邀请的票据和焦虑行为。"
+      },
+      "spicyPersonality": {
+        "title": "辛辣性格",
+        "description": "Harlequin热爱辛辣事物，这成为联系的纽带。他喜欢通过友好比赛使用大量辣酱和机智对话，从而真正与他人建立联系。"
+      },
+      "controlEntertainment": {
+        "title": "控制与娱乐",
+        "description": "Harlequin是靠控制与娱乐生存的表演者。他发现新成员的到来颠覆了他的世界，在《The Freak Circus》幽灵般的马戏氛围中创造新的互动动态。"
+      }
+    },
+    "abilities": {
+      "title": "《The Freak Circus》中Harlequin的特殊能力",
+      "chaosCreation": {
+        "title": "混乱创造",
+        "description": "来自《The Freak Circus》的Harlequin擅长混乱，并玩弄情绪的危险游戏。The Freak Circus Harlequin有能力搅动麻烦，即使没有现有关系，他也能轻松制造混乱。亲身体验他的混乱魅力，请 <a href=\"/download\" class=\"content-link\">下载《The Freak Circus》</a>。"
+      },
+      "giftSelection": {
+        "title": "礼物挑选",
+        "description": "Harlequin购买自己感兴趣的物品，常选反映其独特个性和对辛辣事物热爱的礼物。他的礼物通常伴随未邀请的票据和焦虑行为，每份礼物都体现他复杂的内心。"
+      },
+      "circusDynamics": {
+        "title": "马戏团互动",
+        "description": "作为靠控制和娱乐生存的表演者，Harlequin了解 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和小丑，并大致了解马戏团中的其他人。他的到来在幽灵般的马戏氛围中创造了新的互动动态。"
+      }
+    },
+    "giftScenario": {
+      "title": "《The Freak Circus》中Harlequin的送礼场景",
+      "mainTitle": "他会送你礼物！",
+      "description": "在这个场景中，来自《The Freak Circus》的Harlequin试图通过送礼赢得你的心。他尤其偏爱绿色或黑色礼物，以便你记住他。这些礼物不仅是物质物品，更是他内心情感与独特连接方式的表达。",
+      "interestingSelections": {
+        "title": "有趣的挑选",
+        "description": "Harlequin购买自己感兴趣的物品，挑选的礼物反映他独特个性和对辛辣事物的热爱。每份礼物都是他复杂性格的一扇窗。"
+      },
+      "uninvitedTickets": {
+        "title": "未邀请的票据",
+        "description": "他的送礼行为常伴随未邀请的票据和焦虑编码行为，使每份礼物都反映他的社交焦虑与温柔怪癖。"
+      },
+      "hauntedCarnival": {
+        "title": "幽灵马戏主题",
+        "description": "通过礼物，他试图表达自己与《The Freak Circus》幽灵般马戏氛围的联系，与你分享他神秘世界的片段。"
+      }
+    },
+    "relationships": {
+      "title": "《The Freak Circus》中Harlequin的角色关系",
+      "protagonist": {
+        "title": "与主角的关系",
+        "description": "来自《The Freak Circus》的Harlequin对你有“稍微喜欢”的情感，会通过各种方式赢得你的青睐。你可以自我代入为小丑、同事或普通人，他的互动常带有社交焦虑和温柔怪癖，使每次交互独特。"
+      },
+      "pierrotJester": {
+        "title": "与Pierrot & Jester的互动",
+        "description": "Harlequin了解 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和小丑，并大致了解马戏团其他人。看到Pierrot与Harlequin（或Arlecchino）在一起非常令人兴奋，他们的互动模仿历史上的竞争。《The Freak Circus》的Harlequin与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 的关系为剧情增添层次。Arlecchino The Freak Circus为复杂互动提供额外深度。《The Freak Circus》的Harlequin与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 的动态是故事核心，而Arlecchino The Freak Circus则提供对其关系的独特视角。"
+      }
+    },
+    "gallery": {
+      "title": "《The Freak Circus》中Harlequin的角色图库"
+    }
+  },
+  "WikiPage": {
+    "header": {
+      "title": "The Freak Circus 维基",
+      "subtitle": "《The Freak Circus》视觉小说全面指南",
+      "backToHome": "← 返回首页",
+      "pierrot": "Pierrot 角色",
+      "harlequin": "Harlequin 角色"
+    },
+    "gameOverview": {
+      "title": "游戏概览",
+      "description1": "<strong><a href=\"/\" class=\"content-link\">The Freak Circus</a></strong> 是一款黑暗心理视觉小说，带玩家进入充满神秘、痴迷和危险关系的巡回马戏团世界。这款沉浸式体验结合了引人入胜的叙事和成熟主题，让玩家在欲望与操控的阴影中经历难忘旅程。",
+      "description2": "在 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 中，玩家扮演一名咖啡馆工作人员，原本平凡的生活因与神秘表演者纠缠而发生改变。游戏通过复杂的人物关系和分支剧情路径，探索痴迷、竞争和人性阴暗面的主题。",
+      "description3": "《The Freak Circus》在视觉小说类型中脱颖而出，其成熟内容、心理深度以及核心角色之间错综复杂的动态关系令人印象深刻。这部黑暗故事提供多个结局和角色路线，让每次游玩都能发现新层次。探索 <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a> 之间复杂的心理惊悚关系。"
+    },
+    "gamePremise": {
+      "title": "游戏前提",
+      "description1": "《The Freak Circus》的故事从恐怖马戏团抵达小镇开始，带来黑暗秘密和惊悚谜团。作为一名咖啡馆工作人员，你的平凡生活因遇到沉默的偏执表演者 <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 而彻底改变，他对你的痴迷成为危险游戏的导火索。",
+      "description2": "然而，你不仅陷入 Pierrot 的痴迷之网。<a href=\"/harlequin\" class=\"character-link\">Harlequin</a>，他那诱人的对手，也加入这场致命游戏，形成欲望、操控和心理紧张的复杂三角关系，这是《The Freak Circus》的核心体验。",
+      "description3": "不要被他们迷人的微笑和吸引人的表演所迷惑——在《The Freak Circus》中，没有什么是真正表面上的，每一个选择都可能导致救赎或堕落。这款成熟视觉小说拥有原创插画、引人入胜的角色和多条分支剧情，深度探索人类心理。"
+    },
+    "currentFeatures": {
+      "title": "当前特色",
+      "originalArtwork": {
+        "title": "原创插画与角色",
+        "description": "《The Freak Circus》拥有精美原创插画和背景，展现两位引人入胜的角色：<a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>。每个角色都经过精心设计，体现其复杂的个性和动机。"
+      },
+      "multipleEndings": {
+        "title": "多结局与多语言",
+        "description": "游戏目前有 1 个坏结局和 3 个开放结局，未来将增加更多结局。《The Freak Circus》现已支持英语、葡萄牙语（巴西）和中文，让全球玩家都能体验。通过 <a href=\"/updates\" class=\"content-link\">开发更新</a> 获取最新内容。"
+      },
+      "matureThemes": {
+        "title": "黑暗成熟主题",
+        "description": "体验 18+ 成熟剧情，包括痴迷主题、黑暗元素及选择驱动的叙事。《The Freak Circus》大胆探索复杂心理主题和成人内容。"
+      },
+      "interactiveStorytelling": {
+        "title": "互动叙事",
+        "description": "《The Freak Circus》提供互动体验，玩家的选择将显著影响剧情走向。每一个决策都会改变角色互动和故事结局。"
+      }
+    },
+    "contentWarnings": {
+      "title": "内容警告",
+      "header": {
+        "title": "⚠️ 成人内容警告",
+        "description": "《The Freak Circus》建议 18 岁及以上玩家游玩，包含以下内容："
+      },
+      "psychologicalElements": {
+        "title": "心理元素",
+        "description": "痴迷主题、操控、心理紧张和偏执行为是《The Freak Circus》体验的核心。"
+      },
+      "darkThemes": {
+        "title": "黑暗主题",
+        "description": "游戏包含暴力、粗俗语言和成熟情节，可能不适合所有玩家。"
+      },
+      "characterDynamics": {
+        "title": "角色互动",
+        "description": "叙事中探索复杂关系，包括占有欲、竞争和情感操控。"
+      }
+    },
+    "developmentStatus": {
+      "title": "开发状态",
+      "description1": "《The Freak Circus》正在不断发展，将推出更多角色结局和扩展剧情，让你更深入体验这个扭曲世界。开发团队持续制作新内容和改进。请关注 <a href=\"/updates\" class=\"content-link\">进度更新</a> 获取最新消息。",
+      "description2": "未来更新将包括：",
+      "extendedRoutes": "为 <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a> 扩展角色路线",
+      "additionalEndings": "增加更多结局和剧情分支",
+      "enhancedArtwork": "提升插画和角色塑造",
+      "newLanguageSupport": "增加新的语言支持",
+      "improvedMechanics": "优化游戏机制和用户界面",
+      "description3": "通过官方渠道关注《The Freak Circus》的发布与开发进度。团队致力于提供完整且令人满意的游戏体验。"
+    },
+    "howToPlay": {
+      "title": "如何游玩",
+      "description1": "《The Freak Circus》可在线免费游玩，提供快速便捷的体验。你可以直接在浏览器中访问，无需下载或安装。如需离线游玩，也可以 <a href=\"/download\" class=\"content-link\">下载游戏</a> 到设备。",
+      "description2": "开始游玩步骤：",
+      "step1": "访问官方《The Freak Circus》网站或游戏平台",
+      "step2": "点击“立即游玩”按钮开始冒险",
+      "step3": "做出决定，影响与角色的关系",
+      "step4": "探索不同路径，解锁所有结局",
+      "description3": "可通过 <a href=\"/\" class=\"play-link\">网站的立即游玩按钮</a> 开始游戏，或访问游戏官网体验《The Freak Circus》。",
+      "description4": "《The Freak Circus》适合视觉小说新手和追求成熟心理体验的玩家。"
+    },
+    "sidebar": {
+      "quickNavigation": {
+        "title": "快速导航",
+        "home": "← 首页",
+        "pierrot": "Pierrot 角色页面",
+        "harlequin": "Harlequin 角色页面"
+      },
+      "gameInformation": {
+        "title": "游戏信息",
+        "genre": "类型",
+        "genreValue": "视觉小说",
+        "rating": "分级",
+        "ratingValue": "18+",
+        "platform": "平台",
+        "platformValue": "网页浏览器",
+        "languages": "语言",
+        "languagesValue": "英语、葡萄牙语（巴西）、中文",
+        "status": "状态",
+        "statusValue": "开发中"
+      },
+      "mainCharacters": {
+        "title": "主要角色",
+        "pierrot": {
+          "name": "Pierrot",
+          "description": "沉默的偏执表演者，其痴迷推动《The Freak Circus》的故事发展。"
+        },
+        "harlequin": {
+          "name": "Harlequin",
+          "description": "Pierrot 的诱人对手，为《The Freak Circus》的剧情增添复杂性。"
+        }
+      }
+    }
+  },
+  "UpdatesPage": {
+    "header": {
+      "title": "《The Freak Circus》视觉小说更新",
+      "subtitle": "了解《The Freak Circus》视觉小说的最新开发进展",
+      "backToHome": "← 返回首页",
+      "wiki": "维基",
+      "pierrot": "Pierrot",
+      "harlequin": "Harlequin"
+    },
+    "updates": {
+      "almostThere": {
+        "title": "即将完成！",
+        "description1": "又一个月度更新，为 <a href=\"/\" class=\"content-link\">《The Freak Circus》视觉小说</a> 做准备，我们距离发布已经非常接近！",
+        "description2": "《The Freak Circus》视觉小说第 2 天剧情还有约 15-20% 需要编码，包括完成的立绘。之后，下一阶段主要是音乐和音效部分，会稍微“快一些”。",
+        "description3": "我已经对本次更新进行了部分测试，仍有小问题待修复。目前最大的挑战是缺少第 2 天剧情的 20%，因为剧情包含大量过渡动画和立绘，非常复杂耗时。",
+        "description4": "在 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之外，本次更新将正式介绍 Ticket Taker、Jester 和 Doctor，你应该还记得他们在“失踪”坏结局中的出现吧？",
+        "description5": "我希望本月发布这次更新及商店内容，但最坏情况可能推迟到下个月。先欣赏一些开发中的截图吧！"
+      },
+      "monthlyUpdate": {
+        "title": "月度更新！",
+        "description1": "距离上次 <a href=\"/\" class=\"content-link\">《The Freak Circus》视觉小说</a> 发布又过去一个月！来看看下一次更新的进展吧！",
+        "description2": "目前第 2 天剧情一半已经编码完成，但新的立绘还没全部完成（而且相信我，有很多新立绘和 CG）。",
+        "description3": "本次更新的游戏内容会更长，你将更深入了解其他三位马戏团角色。",
+        "description4": "此外，我还会为视觉小说添加“隐藏场景”，玩家可在游玩时解锁，并在菜单中访问。更多游戏机制信息请查看我们的 <a href=\"/wiki\" class=\"content-link\">维基页面</a>。",
+        "description5": "如果仔细观察选择，你还会发现一些小秘密哦！"
+      },
+      "anniversary": {
+        "title": "1 个月周年庆",
+        "celebration": "《The Freak Circus》视觉小说发布已满一个月！ 🥳",
+        "thankYou": "感谢大家支持，我们用一些更新来庆祝！",
+        "dia2Title": "关于《The Freak Circus》视觉小说第 2 天剧情",
+        "dia2Description": "我一直在稳步制作第 2 天剧情！部分新立绘和背景已完成，剧情编码也有相当进度。",
+        "summaryTitle": "更新快速总结：",
+        "summary1": "故事将从三个结局延续：两个被 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 带走的结局，以及一个回家的结局。",
+        "summary2": "你将在第 2 天剧情中遇到三位新角色，每位角色都有自己的帐篷！",
+        "summary3": "与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的场景会增多，同时了解新角色。",
+        "summary4": "部分立绘将在本次更新中动画化！",
+        "summary5": "游戏菜单将焕然一新！",
+        "summary6": "除了现有平台，更新准备就绪后将发布 <strong>安卓</strong> 版本！"
+      },
+      "futureUpdates": {
+        "title": "未来更新",
+        "description1": "嘿！想分享一些《The Freak Circus》视觉小说未来更新的内容！",
+        "description2": "第 2 天剧情脚本已部分完成，我计划进行修订并制作新的背景和角色立绘。本次更新将有大量内容扩展。",
+        "description3": "我会每月发布视觉小说进度更新，并在社交媒体上每周发布小更新，展示开发过程中的额外内容。",
+        "description4": "我会在支持页面发布更详细的更新、幕后内容和首发消息。更多信息请访问我们的 <a href=\"/wiki\" class=\"content-link\">维基</a>。",
+        "description5": "我白天工作，所以只能利用空闲时间开发视觉小说。若有更多支持者，我可以减轻负担并投入更多时间，但 <strong>不管怎样，进度都会继续推进！</strong>",
+        "description6": "<strong>再次感谢大家的支持！</strong> 可通过 <a href=\"/download\" class=\"content-link\">下载游戏</a> 获取最新更新。",
+        "description7": "在支持页面会发布更多详细更新、幕后内容和首发消息。更多信息请访问我们的 <a href=\"/wiki\" class=\"content-link\">维基</a>。"
+      },
+      "chineseLanguage": {
+        "title": "中文现已可用",
+        "description1": "《The Freak Circus》视觉小说现已提供中文翻译，由 copiklaGrogu 精心制作。非常感谢他们的支持，让更多玩家体验这款游戏！",
+        "description2": "看到这么多玩家喜欢游戏剧情并希望更贴近角色，真是意义非凡！可在游戏设置中选择语言。",
+        "description3": "此次中文扩展让更多中文玩家能够体验 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的独特世界。"
+      },
+      "pronounOptions": {
+        "title": "代词选项更新",
+        "personalizationTitle": "个性化功能现已上线！",
+        "description1": "小更新加入了代词选择功能，角色称呼玩家的方式现在可以自定义，让游戏更具包容性。",
+        "description2": "本次更新仅添加了代词选择功能，并增加了一行对话以保持剧情连贯性。更多角色互动信息请查看 <a href=\"/wiki\" class=\"content-link\">维基页面</a>。",
+        "englishSupportTitle": "关于英文支持",
+        "description3": "我对部分对话进行了调整，以确保英文中性化，不影响故事。此次更新包括这些改进，提升玩家体验。"
+      },
+      "thankYou": {
+        "title": "感谢！",
+        "gratitudeTitle": "衷心感谢大家的支持与关心！",
+        "description1": "非常感谢所有购买 <a href=\"/\" class=\"content-link\">《The Freak Circus》视觉小说</a> 的玩家，你们的支持让我备受感动！游戏已获得社区的热烈反馈。",
+        "description2": "<strong>感谢所有评论和评价！</strong>",
+        "description3": "我已做出一些决策改善游戏，如为主角添加代词选项等，并会继续用心制作后续剧情。",
+        "description4": "我不喜欢留下剧情漏洞，因此对脚本非常用心。一旦第 2 天剧情基础更加稳固，我会在此及社交媒体发布更新，同时重新激活支持页面，让项目更快推进！",
+        "description5": "<strong>舞台已经搭好，请坐好。但如果我是你……我不会轻易相信食物。</strong>"
+      }
+    }
+  },
+  "AboutPage": {
+    "header": {
+      "title": "关于我们",
+      "lastUpdated": "最后更新：2025年9月24日"
+    },
+    "whoWeAre": {
+      "title": "我们是谁",
+      "description": "《The Freak Circus》是一个领先的平台，致力于为社区提供高质量的内容、指南和资源。我们是一支充满热情的创作者、研究人员和爱好者团队，旨在提供准确、引人入胜且有价值的信息，涵盖各个领域。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "我们的使命是通过提供可靠的知识、实用策略和社区驱动的洞见来赋能用户。无论是游戏、技术、生活方式还是创意资源，我们都致力于成为可信赖、最新内容的首选来源。"
+    },
+    "whatWeOffer": {
+      "title": "我们提供的内容",
+      "guides": "指南与教程：全面的资源，帮助用户学习、成长并解决问题。",
+      "updates": "最新更新：定期刷新内容，确保信息的相关性和准确性。",
+      "community": "社区资源：协作、知识共享和有意义互动的中心。",
+      "features": "特色内容：为观众提供独家见解、工具和精选内容。"
+    },
+    "community": {
+      "title": "社区关注",
+      "description": "在《The Freak Circus》，我们相信社区的力量。我们的平台旨在连接人们，鼓励协作，并营造一个积极的环境，让每个人都能学习和贡献。"
+    },
+    "qualityAssurance": {
+      "title": "质量保证",
+      "description": "准确性是我们工作的核心。每一条内容都会经过团队仔细审核和验证，以确保在发布到《The Freak Circus》之前达到最高标准。"
+    },
+    "regularUpdates": {
+      "title": "定期更新",
+      "description": "我们会频繁更新资源，以跟上行业变化、社区需求和用户反馈。这确保了我们的观众始终能够获取最相关且有价值的信息。"
+    },
+    "contactUs": {
+      "title": "联系我们",
+      "description": "有问题、建议或反馈？我们很乐意听到您的声音！您可以通过 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> 与我们联系，我们会尽快回复您。"
+    },
+    "joinCommunity": {
+      "title": "加入我们的社区",
+      "description": "通过关注《The Freak Circus》的更新并参与社区互动，保持联系。我们可以共同打造一个更强大、更有信息量和支持性的空间。"
+    },
+    "commitment": {
+      "title": "我们的承诺",
+      "description": "我们承诺在所有发布的内容中保持高标准的质量、诚信和透明度。团队持续验证信息、更新资源，并确保平台始终可靠且以用户为中心。"
+    }
+  },
+  "ContactPage": {
+    "header": {
+      "title": "联系我们",
+      "lastUpdated": "最后更新：2025年9月24日"
+    },
+    "getInTouch": {
+      "title": "保持联系",
+      "description": "我们很乐意听到您的声音！无论您对我们的服务有问题、改进建议，还是只是想打个招呼，我们都在这里提供帮助。"
+    },
+    "contactInformation": {
+      "title": "联系方式",
+      "email": "<strong>邮箱：</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "responseTime": "我们通常会在24小时内回复。"
+    },
+    "responseTime": {
+      "title": "响应时间",
+      "weekdays": "周一至周五",
+      "weekdaysTime": "24小时内回复",
+      "weekends": "周末",
+      "weekendsTime": "48小时内回复"
+    },
+    "whatWeCanHelpWith": {
+      "title": "我们能提供的帮助",
+      "accountIssues": "账户或访问问题",
+      "accountIssuesDesc": "帮助解决登录、会员或订阅相关问题",
+      "websiteFeedback": "网站反馈",
+      "websiteFeedbackDesc": "提供改进《The Freak Circus》的建议",
+      "contentRequests": "内容请求",
+      "contentRequestsDesc": "提出新的文章、指南或资源的创意",
+      "technicalSupport": "技术支持",
+      "technicalSupportDesc": "协助处理网站功能问题",
+      "partnershipInquiries": "合作咨询",
+      "partnershipInquiriesDesc": "合作机会洽谈",
+      "generalQuestions": "一般问题",
+      "generalQuestionsDesc": "任何与《The Freak Circus》及其服务相关的问题"
+    },
+    "beforeYouContactUs": {
+      "title": "联系前提示",
+      "description": "为了帮助我们提供最佳支持，请在邮件中包含以下信息：",
+      "specificQuestion": "您的具体问题或困扰",
+      "errorMessages": "任何错误信息（如适用）",
+      "stepsTried": "您已尝试的解决步骤",
+      "deviceInfo": "您的设备和浏览器信息（如相关）"
+    },
+    "faq": {
+      "title": "常见问题",
+      "contentUpdate": {
+        "question": "内容更新频率如何？",
+        "answer": "我们会定期更新资源，确保信息的准确性和时效性。"
+      },
+      "contentSafety": {
+        "question": "内容是否安全可靠？",
+        "answer": "是的，我们提供的所有信息都经过验证并负责任地来源。"
+      },
+      "suggestContent": {
+        "question": "我可以建议新的内容吗？",
+        "answer": "当然可以！我们欢迎您的创意和贡献——只需将建议发送给我们即可。"
+      }
+    },
+    "businessHours": {
+      "title": "工作时间",
+      "description": "我们的团队在周一至周五上午9:00至下午6:00（东部时间）提供服务。虽然我们可能在此时间之外回复邮件，但周末和节假日回复可能需要24–48小时。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "description": "我们尊重您的隐私，绝不会与第三方共享您的个人信息。所有通信都保持机密，仅用于为您提供最佳服务。"
+    },
+    "thankYou": {
+      "title": "感谢您",
+      "description": "感谢您成为《The Freak Circus》社区的一员！您的反馈和支持帮助我们持续为全球用户提供最佳体验。"
+    }
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "心理恐怖视觉小说体验",
+    "quickLinksTitle": "快速链接",
+    "quickLinksHome": "首页",
+    "quickLinksPierrot": "Pierrot",
+    "quickLinksHarlequin": "Harlequin",
+    "quickLinksWiki": "Wiki",
+    "quickLinksUpdates": "更新",
+    "quickLinksDownload": "下载",
+    "legalTitle": "法律",
+    "legalPrivacy": "隐私政策",
+    "legalTerms": "服务条款",
+    "legalCopyright": "版权",
+    "legalAbout": "关于我们",
+    "legalContact": "联系我们",
+    "disclaimer": "本网站由游戏爱好者创建，作为个人非官方粉丝站点，与原游戏开发者无关。内容仅供教育和娱乐用途。用户应自行验证信息。本网站不对内容的准确性提供保证，也不承担任何法律责任。"
+  },
+  "CopyrightPage": {
+    "header": {
+      "title": "版权",
+      "lastUpdated": "最后更新：2025年9月24日"
+    },
+    "copyrightStatement": {
+      "title": "版权声明",
+      "description": "<strong>The Freak Circus</strong> 上的所有内容，包括但不限于文本、图形、图片、视频和软件，均为 <strong>The Freak Circus</strong> 所有，受国际版权法保护。未经授权，严禁使用、复制或分发这些内容。"
+    },
+    "whatWeOwn": {
+      "title": "我们拥有的内容",
+      "originalContent": "原创内容",
+      "originalContentDesc": "由团队创作的所有文字内容、指南、教程和评论。",
+      "websiteDesign": "网站设计",
+      "websiteDesignDesc": "布局、样式、用户界面及整体网站设计元素。",
+      "originalImages": "原创图片",
+      "originalImagesDesc": "为本网站专门创建的照片、截图和图形。",
+      "codeSoftware": "代码与软件",
+      "codeSoftwareDesc": "为本平台开发的网站代码、脚本和软件。"
+    },
+    "thirdPartyContent": {
+      "title": "第三方内容",
+      "description": "我们尊重他人的知识产权。网站上部分内容可能包含与 <strong>The Freak Circus</strong> 相关的引用、图片或信息，其所有权属于各自的权利人。"
+    },
+    "fairUsePolicy": {
+      "title": "合理使用政策",
+      "description": "我们支持将内容用于教育、研究和个人用途的合理使用。然而，商业用途需要明确许可。",
+      "allowedUses": "允许使用",
+      "personalStudy": "个人学习和研究",
+      "educational": "教育用途",
+      "nonCommercial": "非商业性分享",
+      "criticism": "评论与批评",
+      "restrictedUses": "限制使用",
+      "commercialReproduction": "商业复制",
+      "massDistribution": "大规模分发",
+      "modification": "未经许可的修改",
+      "removalAttribution": "去除署名"
+    },
+    "dmcaCompliance": {
+      "title": "DMCA 合规",
+      "description": "我们遵守《数字千年版权法》(DMCA)。如果您认为您的版权作品未经许可被使用，请立即联系我们。",
+      "requirements": "提交 DMCA 删除通知时，请包含以下内容",
+      "specificDetails": "受版权保护材料的具体信息",
+      "proofOwnership": "证明您拥有内容权利的证据",
+      "formalNotice": "发送给我们指定代理的正式 DMCA 删除通知"
+    },
+    "attributionRequirements": {
+      "title": "署名要求",
+      "description": "在合理使用或获得许可的情况下使用我们的内容时，必须进行适当署名。"
+    },
+    "licenseRequests": {
+      "title": "许可请求",
+      "description": "如需用于商业用途、授权或其他许可，请联系我们并提供具体请求。",
+      "requirements": "您的请求应包含以下信息",
+      "specificContent": "您想使用的具体内容",
+      "intendedPurpose": "预期用途和受众",
+      "duration": "使用时长",
+      "contactInfo": "联系方式"
+    },
+    "contactInformation": {
+      "title": "联系方式",
+      "email": "邮箱：contact@thefreakcircus.com"
+    },
+    "updatesToCopyrightNotice": {
+      "title": "版权声明更新",
+      "description1": "本版权声明可能会定期更新。最新版本将始终在此页面提供。继续使用本网站即表示您接受任何更改。",
+      "description2": "请定期查看此页面以获取版权政策更新。"
+    }
+  },
+  "PrivacyPolicyPage": {
+    "header": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新：2025年9月24日"
+    },
+    "generalInformation": {
+      "title": "一般信息",
+      "description1": "在 <strong>The Freak Circus</strong>，我们致力于保护所有网站和应用程序用户的隐私。本隐私政策适用于 <strong>The Freak Circus</strong> 提供的所有服务和产品。使用本网站即表示您同意本隐私政策，并确认您已达到合法年龄，可以同意其条款。网站在本政策发生任何变更后继续使用，将视为接受这些更改。",
+      "description2": "本网站面向16岁及以上的访问者。如果您未满16岁，请勿使用本网站。如果您是父母或监护人并允许孩子访问本网站，即表示您代表孩子同意本隐私政策。",
+      "description3": "如对本隐私政策有疑问，请通过 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> 与我们联系。"
+    },
+    "dataCollection": {
+      "title": "我们收集哪些数据？",
+      "dataYouProvide": {
+        "title": "您提供的数据",
+        "description": "我们仅处理您自愿提供的个人数据，例如填写表单或联系我们时。可能包括：",
+        "name": "姓名",
+        "email": "电子邮箱地址",
+        "otherInfo": "您选择提供的其他信息"
+      },
+      "dataCollectedAutomatically": {
+        "title": "自动收集的数据",
+        "description": "在您访问网站期间，我们可能会自动收集某些数据，例如：",
+        "ipAddress": "IP 地址（用于防欺诈、分析或基于位置的功能）",
+        "browserType": "浏览器类型和版本",
+        "referringPage": "来源页面或网站",
+        "deviceIdentifiers": "设备标识符（包括移动设备ID）",
+        "cookieData": "Cookie及追踪数据",
+        "userInteraction": "用户互动数据（例如是否查看或点击广告）"
+      },
+      "thirdPartyData": {
+        "title": "第三方数据",
+        "description": "如果我们从第三方收到个人数据，我们将在必要时通知您。"
+      }
+    },
+    "whyWeCollectData": {
+      "title": "我们为何收集数据及法律依据",
+      "description": "我们收集和处理个人数据的目的包括但不限于：",
+      "providingServices": "提供、改进和优化我们的服务和内容",
+      "contractualObligations": "履行合同义务",
+      "marketingCommunications": "发送更新、通讯及营销信息（在允许范围内）",
+      "statisticalAnalysis": "统计分析和研究",
+      "legalCompliance": "遵守法律义务（如年龄验证）",
+      "legalBases": "处理的法律依据可能包括您的同意、合同履行、合法权益或法律义务的遵守。",
+      "note": "<em>注意：</em> 广告商或第三方服务可能通过其自身的 Cookie 或追踪技术收集数据。<strong>The Freak Circus</strong> 对第三方数据收集行为不承担责任。"
+    },
+    "dataRetention": {
+      "title": "数据保留",
+      "description": "我们仅在完成本政策中描述的目的所必需的期间内保留个人数据。与不活跃账户或访问者相关的数据，在合理的不活跃期后可能会被删除，除非法律或合法业务原因要求保留。"
+    },
+    "gdprRights": {
+      "title": "GDPR 与您的权利（欧洲经济区居民）",
+      "description": "如果您是欧洲经济区（EEA）居民，您对个人数据享有以下权利：",
+      "accessUpdateDelete": "访问、更新或删除个人数据的权利",
+      "rectification": "更正不准确数据的权利",
+      "objectToProcessing": "反对处理的权利",
+      "restrictProcessing": "限制处理的权利",
+      "dataPortability": "数据可携带的权利",
+      "withdrawConsent": "基于同意处理时撤回同意的权利",
+      "verification": "在处理请求之前，我们可能要求进行身份验证。如需更多信息，也可联系当地数据保护机构。"
+    },
+    "yourRights": {
+      "title": "您的权利与沟通偏好",
+      "description1": "您可随时通过 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> 联系我们或按照营销信息中的退订说明选择退出营销信息。如需请求更正、删除或限制处理，请提供明确理由，以便我们及时核实并处理。",
+      "description2": "我们将在合理时间内，根据适用法律响应您的请求。"
+    },
+    "cookies": {
+      "title": "Cookies",
+      "whatAreCookies": {
+        "title": "什么是 Cookies？",
+        "description": "Cookies 是存储在您设备上的小文件，帮助网站记住偏好设置并提升用户体验。网络信标（Web beacon）是用于监测用户行为的小型透明图像。"
+      },
+      "typesOfCookies": {
+        "title": "Cookies 类型",
+        "firstParty": "<strong>第一方 Cookies</strong>：由本网站设置，用于支持技术功能（如语言设置、会话管理）。",
+        "thirdParty": "<strong>第三方 Cookies</strong>：由外部提供商设置（如分析、广告网络），用于跨网站追踪浏览行为。"
+      },
+      "whichCookiesWeUse": {
+        "title": "我们使用哪些 Cookies",
+        "description": "<strong>The Freak Circus</strong> 使用第一方 Cookies 提升可用性，并可能允许第三方 Cookies（例如 Google Analytics 或广告合作伙伴）提供分析和广告服务。网站功能所需的 Cookies 不需要同意，其他 Cookies 可能需要您的许可。"
+      },
+      "howToManage": {
+        "title": "如何管理 Cookies",
+        "description": "您可通过浏览器设置管理或禁用 Cookies。请参考浏览器支持文档（Chrome、Firefox、Safari、Edge/Internet Explorer、Opera）了解阻止或删除 Cookies 的说明。"
+      }
+    },
+    "securityMeasures": {
+      "title": "安全措施",
+      "description": "我们采取合理的技术和组织措施保护个人数据，仅限授权人员访问。我们不会出售或出租您的个人数据。当使用外部处理方时，他们需合同规定保护和安全处理数据，并在完成任务后删除数据。"
+    },
+    "contactInformation": {
+      "title": "联系方式",
+      "description": "如对本隐私政策有疑问或关注，请联系：",
+      "email": "邮箱：<a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "website": "网站：<a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
+    }
+  },
+  "TermsOfServicePage": {
+    "header": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新：2025年9月24日"
+    },
+    "generalInformation": {
+      "title": "一般信息",
+      "description1": "以下服务条款（“协议”）非常重要，请仔细阅读。您接受这些“服务条款”即表示同意受其约束。本协议适用于您与 <strong>The Freak Circus</strong>（以下简称“网站”、“我们”或“我们的”）之间，涉及您对本网站及其任何材料、服务及继任网站（“网站”）的使用。",
+      "description2": "<strong>使用本网站即表示您同意这些服务条款，并确认您已年满16岁以上。</strong> 本协议中“您”或“您的”指使用本网站的个人。",
+      "description3": "本协议包含强制仲裁条款，详见第11节。该条款要求以个人仲裁方式解决争议，而非陪审团审判、法院诉讼或集体诉讼，请仔细阅读。"
+    },
+    "changes": {
+      "title": "条款变更",
+      "description": "本协议可能会不定期修改，我们会通过合理方式通知您，包括在网站发布修订后的协议。修改不适用于修改生效前产生的争议。您在修改发布后继续使用网站，即表示接受修订条款。我们保留随时修改或中止网站全部或部分内容、调整或免除费用，或向部分或全部用户提供特殊机会的权利，且不承担责任。"
+    },
+    "informationSubmitted": {
+      "title": "通过网站提交的信息",
+      "description1": "通过网站提交的信息受 <a href='/privacy-policy' target='_blank' rel='noopener'>隐私政策</a> 约束。使用本网站即表示您知悉并同意隐私政策。",
+      "description2": "您确认所提供的信息准确完整，并同意保持更新。如果本协议与隐私政策在个人数据方面存在冲突，以隐私政策为准。"
+    },
+    "jurisdictionalIssues": {
+      "title": "管辖问题",
+      "description": "本网站在欧洲经济区内受控和运营，并不打算使我们受该地区以外的司法管辖。网站可能并非在所有地区都适用或可访问。使用网站即表示您自行承担风险并负责遵守适用法律。我们可能随时限制或部分限制任何个人、地点或司法管辖区访问网站。"
+    },
+    "rulesOfConduct": {
+      "title": "行为准则",
+      "threateningMaterial": "不得发布或传播威胁、骚扰、诽谤、淫秽、违法或侵犯他人权利的内容。",
+      "unauthorizedUse": "不得将网站用于未经授权的商业、欺诈或违法用途。",
+      "collectInformation": "不得收集用户信息，除非隐私政策允许。",
+      "interfereDisrupt": "不得干扰或破坏网站及其服务器和网络的运行。",
+      "restrictInhibit": "不得限制或妨碍他人使用网站。",
+      "reproduceModify": "未经我们书面许可，不得复制、修改、出售、分发或利用网站的任何部分。",
+      "reverseEngineer": "除法律禁止外，不得反向工程或反编译网站。",
+      "removeNotices": "不得删除网站上的版权或商标声明。",
+      "frameMirror": "未经许可不得框架化、镜像或系统性下载内容。",
+      "botsSpiders": "未经许可不得使用机器人、爬虫、抓取工具或类似工具。",
+      "responsibleCosts": "您需自行承担使用网站所需的硬件、互联网及服务费用。"
+    },
+    "monitoring": {
+      "title": "监控",
+      "description": "我们可能会（但没有义务）监控、评估或删除提交到网站的内容。我们可能分析您的使用情况，并在法律及隐私政策允许范围内披露相关信息。"
+    },
+    "thirdPartyMaterials": {
+      "title": "第三方材料与链接",
+      "description1": "网站可能提供访问第三方材料（包括内容、产品、服务、广告和推广）的途径。我们不控制或认可第三方材料，对其准确性、合法性或安全性不承担责任。",
+      "description2": "<strong>使用第三方材料风险自负</strong>，并遵守这些第三方的条款和政策。"
+    },
+    "disclaimerOfWarranties": {
+      "title": "免责声明",
+      "description1": "在法律允许的最大范围内：（A）本网站及所有产品和第三方材料按“现状”、“所在位置”及“可用性”提供，不作任何形式的保证；（B）<strong>The Freak Circus</strong> 对所有保证，包括适销性、特定用途适用性、非侵权及所有权概不承担责任。",
+      "description2": "尽管我们力求准确和安全，但无法保证网站始终正确、安全或不中断。如发现未经授权的更改，请联系 <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>。"
+    },
+    "filtering": {
+      "title": "过滤",
+      "description": "可使用家长控制功能帮助限制访问有害内容。更多信息请见 <a href='https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers' target='_blank' rel='noopener'>此处</a>。我们不认可任何列出的产品或服务。"
+    },
+    "copyrightInfringementClaims": {
+      "title": "版权侵权申诉",
+      "description": "如果您认为网站上的材料侵犯了您的版权，可以发送通知要求删除。如果您认为申诉错误，可发送反通知。建议在提交前咨询法律意见。联系邮箱：<a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>。"
+    },
+    "miscellaneous": {
+      "title": "其他条款",
+      "description1": "本协议不构成您与 <strong>The Freak Circus</strong> 之间的合作、合资、雇佣或代理关系。如任何条款不可执行，将被删除，但不影响其他条款效力。",
+      "description2": "未经我们同意，您不得转让权利或义务，但我们可无限制地转让。未执行条款不代表放弃后续执行权。本协议及其包含的条款构成您与 <strong>The Freak Circus</strong> 之间的完整协议，取代之前所有协议。通知可通过电子邮件、邮寄或网站发布。<strong>The Freak Circus</strong> 对不可抗力导致的未履行不承担责任。"
+    }
+  }
+}
