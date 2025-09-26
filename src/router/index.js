@@ -33,7 +33,7 @@ function generateRoutes() {
       routes.push({
         path,
         name,
-        component: () => import(`@/views/${page.component}.vue`)
+        component: () => import(/* webpackChunkName: "views" */ `@/views/${page.component}.vue`)
       })
     })
   })
@@ -68,11 +68,10 @@ router.beforeEach(async (to, from, next) => {
 
   try {
     // 导入i18n实例并设置语言
-    const { default: i18n } = await import('@/i18n')
+    const { default: i18n, switchLocale } = await import('@/i18n')
 
-    // 强制设置语言
-    i18n.global.locale.value = detectedLanguage
-    localStorage.setItem('language', detectedLanguage)
+    // 使用新的动态语言切换
+    await switchLocale(detectedLanguage)
 
     // 设置HTML的lang属性
     document.documentElement.lang = detectedLanguage
@@ -93,7 +92,7 @@ function setPageSEO(route, language) {
   const seoKey = getSEOKey(route.path, language)
 
   // 动态导入语言文件获取SEO数据
-  import(`@/locales/${language}.json`).then((localeData) => {
+  import(/* webpackChunkName: "locales" */ `@/locales/${language}.json`).then((localeData) => {
     const seoData = localeData.default?.seo?.[seoKey]
 
     if (seoData && typeof document !== 'undefined') {
