@@ -111,18 +111,18 @@
                                 <h3 class="sidebar-title">{{ $t('DownloadPage.sidebar.quickLinks.title') }}</h3>
                                 <nav class="sidebar-nav">
                                     <a href="/" class="sidebar-link">{{ $t('DownloadPage.sidebar.quickLinks.home')
-                                        }}</a>
+                                    }}</a>
                                     <a href="/wiki" class="sidebar-link">{{ $t('DownloadPage.sidebar.quickLinks.wiki')
-                                        }}</a>
+                                    }}</a>
                                     <a href="/pierrot" class="sidebar-link">{{
                                         $t('DownloadPage.sidebar.quickLinks.pierrot')
-                                        }}</a>
+                                    }}</a>
                                     <a href="/harlequin" class="sidebar-link">{{
                                         $t('DownloadPage.sidebar.quickLinks.harlequin')
-                                        }}</a>
+                                    }}</a>
                                     <a href="/updates" class="sidebar-link">{{
                                         $t('DownloadPage.sidebar.quickLinks.updates')
-                                        }}</a>
+                                    }}</a>
                                 </nav>
                             </div>
 
@@ -358,6 +358,10 @@ import '@/assets/css/public.css'
     background: rgba(139, 92, 246, 0.1);
     border-radius: 15px;
     border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.download-cta a {
+    color: #fff;
 }
 
 .download-button {
@@ -680,6 +684,38 @@ import '@/assets/css/public.css'
         gap: 10px;
     }
 
+    .download-card {
+        padding: 10px;
+    }
+
+    .download-description {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .features-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .features-list li {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .download-cta {
+        padding: 10px;
+    }
+
+    .download-main {
+        gap: 10px;
+    }
+
+    .platform-info {
+        padding: 10px;
+    }
+
     .nav-link {
         font-size: 12px;
         padding: 5px 10px;
@@ -692,6 +728,7 @@ import '@/assets/css/public.css'
     .download-grid {
         grid-template-columns: 1fr;
         gap: 10px;
+        margin-bottom: 20px;
     }
 
     .download-section {
@@ -699,8 +736,13 @@ import '@/assets/css/public.css'
     }
 
     .section-title {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .additional-info {
+        gap: 10px;
     }
 
     .download-button {
@@ -721,10 +763,21 @@ import '@/assets/css/public.css'
     .platforms-grid {
         grid-template-columns: 1fr;
         gap: 10px;
+        margin-top: 0;
     }
 
     .platform-item {
         padding: 10px;
+    }
+
+    .platform-item h4 {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+    }
+
+    .platform-item p {
+        font-size: 12px;
     }
 
     .platform-icon {
@@ -733,6 +786,33 @@ import '@/assets/css/public.css'
     }
 
     .platform-name {
+        font-size: 12px;
+    }
+
+    .sidebar-section {
+        padding: 10px;
+    }
+
+    .sidebar-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .info-box {
+        gap: 5px;
+    }
+
+    .download-sidebar {
+        gap: 10px;
+    }
+
+    .sidebar-nav {
+        gap: 5px;
+    }
+
+    .sidebar-link {
+        padding: 5px 10px;
         font-size: 12px;
     }
 

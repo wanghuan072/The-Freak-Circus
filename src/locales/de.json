@@ -587,7 +587,7 @@
     },
     "contactUs": {
       "title": "Kontakt",
-      "description": "Hast du Fragen, Anregungen oder Feedback? Wir hören gerne von dir! Du erreichst uns unter <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> und wir melden uns so schnell wie möglich."
+      "description": "Hast du Fragen, Anregungen oder Feedback? Wir hören gerne von dir! Du erreichst uns unter <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> und wir melden uns so schnell wie möglich."
     },
     "joinCommunity": {
       "title": "Werde Teil unserer Community",
@@ -609,7 +609,7 @@
     },
     "contactInformation": {
       "title": "Kontaktinformationen",
-      "email": "<strong>E-Mail:</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "email": "<strong>E-Mail:</strong> <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
       "responseTime": "Wir antworten in der Regel innerhalb von 24 Stunden."
     },
     "responseTime": {
@@ -749,7 +749,7 @@
     },
     "contactInformation": {
       "title": "Kontaktinformationen",
-      "email": "E-Mail: contact@thefreakcircus.com"
+      "email": "E-Mail: wyong@thefreakcircus.org"
     },
     "updatesToCopyrightNotice": {
       "title": "Aktualisierungen des Urheberrechtshinweises",
@@ -766,7 +766,7 @@
       "title": "Allgemeine Informationen",
       "description1": "Bei <strong>The Freak Circus</strong> verpflichten wir uns, die Privatsphäre aller Nutzer unserer Websites und Anwendungen zu schützen. Diese Datenschutzrichtlinie gilt für alle von <strong>The Freak Circus</strong> angebotenen Dienstleistungen und Produkte. Durch die Nutzung dieser Website stimmen Sie dieser Datenschutzrichtlinie zu und bestätigen, dass Sie das gesetzliche Alter für die Zustimmung zu ihren Bedingungen erreicht haben. Die fortgesetzte Nutzung der Website nach Änderungen dieser Richtlinie gilt als Zustimmung zu den Änderungen.",
       "description2": "Die Website ist für Besucher ab 16 Jahren vorgesehen. Wenn Sie unter 16 Jahre alt sind, nutzen Sie die Website bitte nicht. Wenn Sie Elternteil oder gesetzlicher Vertreter sind und einem Kind den Zugriff auf die Website erlauben, stimmen Sie in dessen Namen dieser Datenschutzrichtlinie zu.",
-      "description3": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns unter <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>."
+      "description3": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns unter <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>."
     },
     "dataCollection": {
       "title": "Welche Daten erfassen wir?",
@@ -820,7 +820,7 @@
     },
     "yourRights": {
       "title": "Ihre Rechte & Kommunikationspräferenzen",
-      "description1": "Sie können sich jederzeit von Marketingmitteilungen abmelden, indem Sie <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> kontaktieren oder den Abmeldelink in solchen Mitteilungen nutzen. Für die Korrektur, Löschung oder Einschränkung der Verarbeitung geben Sie bitte einen klaren Grund an, um uns die Überprüfung und Bearbeitung zu erleichtern.",
+      "description1": "Sie können sich jederzeit von Marketingmitteilungen abmelden, indem Sie <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> kontaktieren oder den Abmeldelink in solchen Mitteilungen nutzen. Für die Korrektur, Löschung oder Einschränkung der Verarbeitung geben Sie bitte einen klaren Grund an, um uns die Überprüfung und Bearbeitung zu erleichtern.",
       "description2": "Wir werden Ihre Anfragen innerhalb eines angemessenen Zeitrahmens und gemäß den geltenden gesetzlichen Vorschriften beantworten."
     },
     "cookies": {
@@ -850,7 +850,7 @@
     "contactInformation": {
       "title": "Kontaktinformationen",
       "description": "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzrichtlinie haben, kontaktieren Sie bitte:",
-      "email": "E-Mail: <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "email": "E-Mail: <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
       "website": "Website: <a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
     }
   },
@@ -904,7 +904,7 @@
     "disclaimerOfWarranties": {
       "title": "Haftungsausschluss",
       "description1": "SOWEIT GESETZLICH ZULÄSSIG: (A) DIE WEBSITE UND ALLE PRODUKTE UND MATERIALIEN DITTER WERDEN \"WIE BESEHEN\" UND OHNE JEGLICHE GEWÄHRLEISTUNG BEREITGESTELLT; UND (B) <strong>The Freak Circus</strong> SCHLIESST ALLE GEWÄHRLEISTUNGEN, EINSCHLIESSLICH MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, NICHTVERLETZUNG UND RECHTSANSPRÜCHE AUS.",
-      "description2": "Wir bemühen uns um Genauigkeit und Sicherheit, können jedoch nicht garantieren, dass die Website stets korrekt, sicher oder ununterbrochen ist. Bei unautorisierten Änderungen kontaktieren Sie uns bitte unter <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+      "description2": "Wir bemühen uns um Genauigkeit und Sicherheit, können jedoch nicht garantieren, dass die Website stets korrekt, sicher oder ununterbrochen ist. Bei unautorisierten Änderungen kontaktieren Sie uns bitte unter <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>."
     },
     "filtering": {
       "title": "Filterung",
@@ -912,7 +912,7 @@
     },
     "copyrightInfringementClaims": {
       "title": "Urheberrechtsverletzungen",
-      "description": "Wenn Sie der Meinung sind, dass Materialien auf der Website Ihr Urheberrecht verletzen, können Sie uns eine Mitteilung zur Entfernung senden. Bei falscher Beanstandung können Sie eine Gegenmitteilung senden. Es wird empfohlen, rechtliche Beratung einzuholen. Kontakt: <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+      "description": "Wenn Sie der Meinung sind, dass Materialien auf der Website Ihr Urheberrecht verletzen, können Sie uns eine Mitteilung zur Entfernung senden. Bei falscher Beanstandung können Sie eine Gegenmitteilung senden. Es wird empfohlen, rechtliche Beratung einzuholen. Kontakt: <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>."
     },
     "miscellaneous": {
       "title": "Sonstiges",

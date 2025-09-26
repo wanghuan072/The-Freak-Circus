@@ -185,20 +185,48 @@ import '@/assets/css/public.css'
 }
 
 @media (max-width: 768px) {
+    .app-footer {
+        padding: 20px 0;
+    }
+
     .footer-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .footer-content .brand-section {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    .footer-content .footer-section:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .footer-content .footer-section:nth-child(3) {
+        grid-column: 2;
+        grid-row: 2;
     }
 
     .brand-logo {
-        flex-direction: column;
-        text-align: center;
-        gap: 0.5rem;
+        margin-bottom: 10px;
     }
 
-    .social-links {
-        justify-content: center;
+    .brand-section p {
+        margin-bottom: 10px;
     }
+
+    .footer-section h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .footer-section li {
+        margin-bottom: 0;
+    }
+
 }
 
 /* Screen reader only text */

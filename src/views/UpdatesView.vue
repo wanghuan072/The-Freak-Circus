@@ -27,11 +27,11 @@
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.almostThere.title') }}</h2>
                             <div class="update-content">
-                                <p>{{ $t('UpdatesPage.updates.almostThere.description1') }}</p>
-                                <p>{{ $t('UpdatesPage.updates.almostThere.description2') }}</p>
-                                <p>{{ $t('UpdatesPage.updates.almostThere.description3') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.almostThere.description1', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.almostThere.description2', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.almostThere.description3', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.almostThere.description4', {}, { raw: true })"></p>
-                                <p>{{ $t('UpdatesPage.updates.almostThere.description5') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.almostThere.description5', {}, { raw: true })"></p>
                             </div>
                         </article>
 
@@ -39,11 +39,11 @@
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.monthlyUpdate.title') }}</h2>
                             <div class="update-content">
-                                <p>{{ $t('UpdatesPage.updates.monthlyUpdate.description1') }}</p>
-                                <p>{{ $t('UpdatesPage.updates.monthlyUpdate.description2') }}</p>
-                                <p>{{ $t('UpdatesPage.updates.monthlyUpdate.description3') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.monthlyUpdate.description1', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.monthlyUpdate.description2', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.monthlyUpdate.description3', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.monthlyUpdate.description4', {}, { raw: true })"></p>
-                                <p>{{ $t('UpdatesPage.updates.monthlyUpdate.description5') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.monthlyUpdate.description5', {}, { raw: true })"></p>
                             </div>
                         </article>
 
@@ -52,19 +52,20 @@
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.anniversary.title') }}</h2>
                             <div class="update-content">
                                 <p v-html="$t('UpdatesPage.updates.anniversary.celebration', {}, { raw: true })"></p>
-                                <p>{{ $t('UpdatesPage.updates.anniversary.thankYou') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.anniversary.thankYou', {}, { raw: true })"></p>
 
                                 <h3 class="content-heading">{{ $t('UpdatesPage.updates.anniversary.dia2Title') }}</h3>
-                                <p>{{ $t('UpdatesPage.updates.anniversary.dia2Description') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.anniversary.dia2Description', {}, { raw: true })">
+                                </p>
 
                                 <h3 class="content-heading">{{ $t('UpdatesPage.updates.anniversary.summaryTitle') }}
                                 </h3>
                                 <ul class="update-list">
                                     <li v-html="$t('UpdatesPage.updates.anniversary.summary1', {}, { raw: true })"></li>
-                                    <li>{{ $t('UpdatesPage.updates.anniversary.summary2') }}</li>
+                                    <li v-html="$t('UpdatesPage.updates.anniversary.summary2', {}, { raw: true })"></li>
                                     <li v-html="$t('UpdatesPage.updates.anniversary.summary3', {}, { raw: true })"></li>
-                                    <li>{{ $t('UpdatesPage.updates.anniversary.summary4') }}</li>
-                                    <li>{{ $t('UpdatesPage.updates.anniversary.summary5') }}</li>
+                                    <li v-html="$t('UpdatesPage.updates.anniversary.summary4', {}, { raw: true })"></li>
+                                    <li v-html="$t('UpdatesPage.updates.anniversary.summary5', {}, { raw: true })"></li>
                                     <li v-html="$t('UpdatesPage.updates.anniversary.summary6', {}, { raw: true })"></li>
                                 </ul>
                             </div>
@@ -74,9 +75,9 @@
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.futureUpdates.title') }}</h2>
                             <div class="update-content">
-                                <p>{{ $t('UpdatesPage.updates.futureUpdates.description1') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.futureUpdates.description1', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.futureUpdates.description2', {}, { raw: true })"></p>
-                                <p>{{ $t('UpdatesPage.updates.futureUpdates.description3') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.futureUpdates.description3', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.futureUpdates.description4', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.futureUpdates.description5', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.futureUpdates.description6', {}, { raw: true })"></p>
@@ -88,8 +89,10 @@
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.chineseLanguage.title') }}</h2>
                             <div class="update-content">
-                                <p>{{ $t('UpdatesPage.updates.chineseLanguage.description1') }}</p>
-                                <p>{{ $t('UpdatesPage.updates.chineseLanguage.description2') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.chineseLanguage.description1', {}, { raw: true })">
+                                </p>
+                                <p v-html="$t('UpdatesPage.updates.chineseLanguage.description2', {}, { raw: true })">
+                                </p>
                                 <p v-html="$t('UpdatesPage.updates.chineseLanguage.description3', {}, { raw: true })">
                                 </p>
                             </div>
@@ -101,13 +104,14 @@
                             <div class="update-content">
                                 <h3 class="content-heading">{{
                                     $t('UpdatesPage.updates.pronounOptions.personalizationTitle') }}</h3>
-                                <p>{{ $t('UpdatesPage.updates.pronounOptions.description1') }}</p>
+                                <p v-html="$t('UpdatesPage.pronounOptions.description1', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.pronounOptions.description2', {}, { raw: true })">
                                 </p>
 
                                 <h3 class="content-heading">{{
                                     $t('UpdatesPage.updates.pronounOptions.englishSupportTitle') }}</h3>
-                                <p>{{ $t('UpdatesPage.updates.pronounOptions.description3') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.pronounOptions.description3', {}, { raw: true })">
+                                </p>
                             </div>
                         </article>
 
@@ -118,7 +122,7 @@
                                 <h3 class="content-heading">{{ $t('UpdatesPage.updates.thankYou.gratitudeTitle') }}</h3>
                                 <p v-html="$t('UpdatesPage.updates.thankYou.description1', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.thankYou.description2', {}, { raw: true })"></p>
-                                <p>{{ $t('UpdatesPage.updates.thankYou.description3') }}</p>
+                                <p v-html="$t('UpdatesPage.updates.thankYou.description3', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.thankYou.description4', {}, { raw: true })"></p>
                                 <p v-html="$t('UpdatesPage.updates.thankYou.description5', {}, { raw: true })"></p>
                             </div>
@@ -248,7 +252,8 @@ import '@/assets/css/public.css'
     color: #f5c542;
     font-size: 20px;
     font-weight: 700;
-    margin: 24px 0 16px 0;
+    margin-bottom: 20px;
+    line-height: 1.5;
     text-transform: uppercase;
 }
 
@@ -367,6 +372,10 @@ import '@/assets/css/public.css'
         gap: 10px;
     }
 
+    .update-block {
+        padding: 10px;
+    }
+
     .nav-link {
         font-size: 12px;
         padding: 5px 10px;
@@ -386,8 +395,12 @@ import '@/assets/css/public.css'
         margin-bottom: 10px;
     }
 
+    .updates-list {
+        gap: 10px;
+    }
+
     .update-content {
-        padding: 10px;
+        padding: 0;
     }
 
     .update-content p {
@@ -398,6 +411,11 @@ import '@/assets/css/public.css'
 
     .update-list {
         margin: 10px 0;
+    }
+
+    .content-heading {
+        font-size: 18px;
+        margin-bottom: 10px;
     }
 
     .update-list li {

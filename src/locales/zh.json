@@ -587,7 +587,7 @@
     },
     "contactUs": {
       "title": "联系我们",
-      "description": "有问题、建议或反馈？我们很乐意听到您的声音！您可以通过 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> 与我们联系，我们会尽快回复您。"
+      "description": "有问题、建议或反馈？我们很乐意听到您的声音！您可以通过 <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> 与我们联系，我们会尽快回复您。"
     },
     "joinCommunity": {
       "title": "加入我们的社区",
@@ -609,7 +609,7 @@
     },
     "contactInformation": {
       "title": "联系方式",
-      "email": "<strong>邮箱：</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "email": "<strong>邮箱：</strong> <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
       "responseTime": "我们通常会在24小时内回复。"
     },
     "responseTime": {
@@ -749,7 +749,7 @@
     },
     "contactInformation": {
       "title": "联系方式",
-      "email": "邮箱：contact@thefreakcircus.com"
+      "email": "邮箱：wyong@thefreakcircus.org"
     },
     "updatesToCopyrightNotice": {
       "title": "版权声明更新",
@@ -766,7 +766,7 @@
       "title": "一般信息",
       "description1": "在 <strong>The Freak Circus</strong>，我们致力于保护所有网站和应用程序用户的隐私。本隐私政策适用于 <strong>The Freak Circus</strong> 提供的所有服务和产品。使用本网站即表示您同意本隐私政策，并确认您已达到合法年龄，可以同意其条款。网站在本政策发生任何变更后继续使用，将视为接受这些更改。",
       "description2": "本网站面向16岁及以上的访问者。如果您未满16岁，请勿使用本网站。如果您是父母或监护人并允许孩子访问本网站，即表示您代表孩子同意本隐私政策。",
-      "description3": "如对本隐私政策有疑问，请通过 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> 与我们联系。"
+      "description3": "如对本隐私政策有疑问，请通过 <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> 与我们联系。"
     },
     "dataCollection": {
       "title": "我们收集哪些数据？",
@@ -820,7 +820,7 @@
     },
     "yourRights": {
       "title": "您的权利与沟通偏好",
-      "description1": "您可随时通过 <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> 联系我们或按照营销信息中的退订说明选择退出营销信息。如需请求更正、删除或限制处理，请提供明确理由，以便我们及时核实并处理。",
+      "description1": "您可随时通过 <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> 联系我们或按照营销信息中的退订说明选择退出营销信息。如需请求更正、删除或限制处理，请提供明确理由，以便我们及时核实并处理。",
       "description2": "我们将在合理时间内，根据适用法律响应您的请求。"
     },
     "cookies": {
@@ -850,7 +850,7 @@
     "contactInformation": {
       "title": "联系方式",
       "description": "如对本隐私政策有疑问或关注，请联系：",
-      "email": "邮箱：<a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "email": "邮箱：<a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
       "website": "网站：<a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
     }
   },
@@ -904,7 +904,7 @@
     "disclaimerOfWarranties": {
       "title": "免责声明",
       "description1": "在法律允许的最大范围内：（A）本网站及所有产品和第三方材料按“现状”、“所在位置”及“可用性”提供，不作任何形式的保证；（B）<strong>The Freak Circus</strong> 对所有保证，包括适销性、特定用途适用性、非侵权及所有权概不承担责任。",
-      "description2": "尽管我们力求准确和安全，但无法保证网站始终正确、安全或不中断。如发现未经授权的更改，请联系 <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>。"
+      "description2": "尽管我们力求准确和安全，但无法保证网站始终正确、安全或不中断。如发现未经授权的更改，请联系 <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>。"
     },
     "filtering": {
       "title": "过滤",
@@ -912,7 +912,7 @@
     },
     "copyrightInfringementClaims": {
       "title": "版权侵权申诉",
-      "description": "如果您认为网站上的材料侵犯了您的版权，可以发送通知要求删除。如果您认为申诉错误，可发送反通知。建议在提交前咨询法律意见。联系邮箱：<a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>。"
+      "description": "如果您认为网站上的材料侵犯了您的版权，可以发送通知要求删除。如果您认为申诉错误，可发送反通知。建议在提交前咨询法律意见。联系邮箱：<a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>。"
     },
     "miscellaneous": {
       "title": "其他条款",

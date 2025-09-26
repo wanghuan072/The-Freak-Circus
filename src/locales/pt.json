@@ -586,7 +586,7 @@
     },
     "contactUs": {
       "title": "Contato",
-      "description": "Tem perguntas, sugestões ou feedback? Adoraríamos ouvir você! Você pode nos contatar pelo <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> e responderemos o mais rápido possível."
+      "description": "Tem perguntas, sugestões ou feedback? Adoraríamos ouvir você! Você pode nos contatar pelo <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> e responderemos o mais rápido possível."
     },
     "joinCommunity": {
       "title": "Junte-se à Nossa Comunidade",
@@ -608,7 +608,7 @@
     },
     "contactInformation": {
       "title": "Informações de Contato",
-      "email": "<strong>Email:</strong> <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "email": "<strong>Email:</strong> <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
       "responseTime": "Normalmente respondemos em até 24 horas."
     },
     "responseTime": {
@@ -748,7 +748,7 @@
     },
     "contactInformation": {
       "title": "Informações de Contato",
-      "email": "Email: contact@thefreakcircus.com"
+      "email": "Email: wyong@thefreakcircus.org"
     },
     "updatesToCopyrightNotice": {
       "title": "Atualizações do Aviso de Direitos Autorais",
@@ -765,7 +765,7 @@
       "title": "Informações Gerais",
       "description1": "No <strong>The Freak Circus</strong>, estamos comprometidos em proteger a privacidade de todos os usuários de nossos sites e aplicativos. Esta Política de Privacidade se aplica a todos os serviços e produtos oferecidos pelo <strong>The Freak Circus</strong>. Ao usar este site, você concorda com esta Política de Privacidade e confirma que tem idade legal para consentir com seus termos. O uso contínuo do site após quaisquer alterações nesta política constitui aceitação dessas alterações.",
       "description2": "O site é destinado a visitantes com 16 anos ou mais. Se você tiver menos de 16 anos, por favor, não use o site. Se você é pai ou responsável e permite que uma criança acesse o site, você consente com esta Política de Privacidade em nome dela.",
-      "description3": "Se tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco pelo <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>."
+      "description3": "Se tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco pelo <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>."
     },
     "dataCollection": {
       "title": "Quais Dados Coletamos?",
@@ -819,7 +819,7 @@
     },
     "yourRights": {
       "title": "Seus Direitos & Preferências de Comunicação",
-      "description1": "Você pode optar por não receber comunicações de marketing a qualquer momento, entrando em contato com <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a> ou seguindo as instruções de cancelamento incluídas nessas comunicações. Para solicitar correção, exclusão ou restrição de processamento, forneça uma justificativa clara para nos ajudar a verificar e atender prontamente à solicitação.",
+      "description1": "Você pode optar por não receber comunicações de marketing a qualquer momento, entrando em contato com <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> ou seguindo as instruções de cancelamento incluídas nessas comunicações. Para solicitar correção, exclusão ou restrição de processamento, forneça uma justificativa clara para nos ajudar a verificar e atender prontamente à solicitação.",
       "description2": "Responderemos às suas solicitações dentro de um prazo razoável e de acordo com a legislação aplicável."
     },
     "cookies": {
@@ -849,7 +849,7 @@
     "contactInformation": {
       "title": "Informações de Contato",
       "description": "Se tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato:",
-      "email": "Email: <a href=\"mailto:contact@thefreakcircus.com\">contact@thefreakcircus.com</a>",
+      "email": "Email: <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
       "website": "Site: <a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
     }
   },
@@ -903,7 +903,7 @@
     "disclaimerOfWarranties": {
       "title": "Isenção de Garantias",
       "description1": "NA MÁXIMA EXTENSÃO PERMITIDA POR LEI: (A) O SITE E TODOS OS PRODUTOS E MATERIAIS DE TERCEIROS SÃO FORNECIDOS \"NO ESTADO EM QUE SE ENCONTRAM\", SEM GARANTIAS DE QUALQUER TIPO; E (B) <strong>The Freak Circus</strong> RENUNCIA TODAS AS GARANTIAS, INCLUINDO COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM ESPECÍFICO, NÃO-INFRAÇÃO E TITULARIDADE.",
-      "description2": "Embora nos esforcemos por precisão e segurança, não podemos garantir que o Site esteja sempre correto, seguro ou ininterrupto. Se você notar alterações não autorizadas, entre em contato conosco em <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+      "description2": "Embora nos esforcemos por precisão e segurança, não podemos garantir que o Site esteja sempre correto, seguro ou ininterrupto. Se você notar alterações não autorizadas, entre em contato conosco em <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>."
     },
     "filtering": {
       "title": "Filtragem",
@@ -911,7 +911,7 @@
     },
     "copyrightInfringementClaims": {
       "title": "Reivindicações de Violação de Direitos Autorais",
-      "description": "Se você acredita que materiais no Site violam seus direitos autorais, pode nos enviar uma notificação solicitando a remoção. Se acreditar que uma reivindicação foi apresentada indevidamente contra você, pode enviar uma contraproposta. Recomendamos buscar orientação jurídica antes de enviar notificações. Contato: <a href='mailto:contact@thefreakcircus.com'>contact@thefreakcircus.com</a>."
+      "description": "Se você acredita que materiais no Site violam seus direitos autorais, pode nos enviar uma notificação solicitando a remoção. Se acreditar que uma reivindicação foi apresentada indevidamente contra você, pode enviar uma contraproposta. Recomendamos buscar orientação jurídica antes de enviar notificações. Contato: <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>."
     },
     "miscellaneous": {
       "title": "Disposições Diversas",

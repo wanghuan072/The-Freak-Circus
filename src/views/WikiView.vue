@@ -790,13 +790,27 @@ import '@/assets/css/public.css'
         font-size: 12px;
     }
 
+    .wiki-sidebar {
+        gap: 10px;
+    }
+
     .sidebar-section {
-        margin-bottom: 10px;
+        margin-bottom: 0;
+        padding: 10px;
     }
 
     .sidebar-title {
         font-size: 18px;
         margin-bottom: 10px;
+    }
+
+    .sidebar-link {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .main-article {
+        padding: 10px;
     }
 
     .info-box {
@@ -823,6 +837,14 @@ import '@/assets/css/public.css'
 
     .character-preview-link p {
         font-size: 12px;
+    }
+
+    .features-list {
+        gap: 10px;
+    }
+
+    .play-instructions li::before {
+        display: none;
     }
 }
 </style>
