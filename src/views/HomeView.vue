@@ -23,7 +23,7 @@
                     </div>
                     <div class="hero-buttons">
                         <button class="btn btn-primary" @click="scrollToGame">{{ $t('HomePage.hero.playButton')
-                        }}</button>
+                            }}</button>
                         <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                                 <h3>{{ $t('HomePage.characters.pierrotName') }}</h3>
                                 <p>{{ $t('HomePage.characters.pierrotDesc') }}</p>
                                 <a href="/pierrot" class="character-link">{{ $t('HomePage.characters.pierrotLearnMore')
-                                    }}
+                                }}
                                     →</a>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                                 <p>{{ $t('HomePage.characters.harlequinDesc') }}</p>
                                 <a href="/harlequin" class="character-link">{{
                                     $t('HomePage.characters.harlequinLearnMore')
-                                    }} →</a>
+                                }} →</a>
                             </div>
                         </div>
                     </div>
