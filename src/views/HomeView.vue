@@ -257,37 +257,30 @@ const getReviewAvatar = (index) => {
     return avatars[index] || avatars[0]
 }
 
-// 滑动到游戏板块 - 优化重排性能
+// 滑动到游戏板块
 const scrollToGame = () => {
     const playGameSection = document.querySelector('.play-game')
     if (playGameSection) {
-        // 使用 requestAnimationFrame 避免强制重排
-        requestAnimationFrame(() => {
-            playGameSection.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            })
+        playGameSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
         })
     }
 }
 
-// 加载游戏 - 优化重排性能
+// 加载游戏
 const loadGame = () => {
     gameLoaded.value = true
-    // 滑动到游戏板块 - 使用 requestAnimationFrame 优化
-    requestAnimationFrame(() => {
-        setTimeout(() => {
-            const playGameSection = document.querySelector('.play-game')
-            if (playGameSection) {
-                requestAnimationFrame(() => {
-                    playGameSection.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    })
-                })
-            }
-        }, 100)
-    })
+    // 滑动到游戏板块
+    setTimeout(() => {
+        const playGameSection = document.querySelector('.play-game')
+        if (playGameSection) {
+            playGameSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+        }
+    }, 100)
 }
 </script>
 
@@ -586,7 +579,7 @@ const loadGame = () => {
     background: rgba(0, 0, 0, 0.3);
 }
 
-/* 游戏图标 - 优化重排性能 */
+/* 游戏图标 */
 .game-icon {
     width: 120px;
     height: 120px;
@@ -594,8 +587,7 @@ const loadGame = () => {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     border: 3px solid rgba(255, 255, 255, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    will-change: transform;
+    transition: all 0.3s ease;
 }
 
 .game-icon img {
@@ -609,7 +601,7 @@ const loadGame = () => {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
 }
 
-/* Play按钮 - 优化重排性能 */
+/* Play按钮 */
 .play-button {
     display: flex;
     align-items: center;
@@ -623,9 +615,8 @@ const loadGame = () => {
     text-transform: uppercase;
     letter-spacing: 1px;
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    transition: all 0.3s ease;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    will-change: transform;
 }
 
 .play-button:hover {
@@ -694,7 +685,6 @@ const loadGame = () => {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease;
-    will-change: transform;
 }
 
 .feature-card:hover {
@@ -833,10 +823,9 @@ const loadGame = () => {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
-    will-change: transform;
 }
 
 .btn-primary {
@@ -886,9 +875,6 @@ const loadGame = () => {
     background-repeat: no-repeat;
     /* LCP优化 - 不影响视差效果 */
     contain: paint;
-    /* 优化重排性能 */
-    transform: translateZ(0);
-    backface-visibility: hidden;
 }
 
 .section.play-game {

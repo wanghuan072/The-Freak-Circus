@@ -1,5 +1,13 @@
 import { createI18n } from 'vue-i18n'
 import en from '../locales/en.json'
+import zh from '../locales/zh.json'
+import ja from '../locales/ja.json'
+import ru from '../locales/ru.json'
+import ko from '../locales/ko.json'
+import de from '../locales/de.json'
+import fr from '../locales/fr.json'
+import es from '../locales/es.json'
+import pt from '../locales/pt.json'
 
 // 获取初始语言
 const getInitialLocale = () => {
@@ -36,7 +44,15 @@ const i18n = createI18n({
     locale: getInitialLocale(),
     fallbackLocale: 'en',
     messages: {
-        en
+        en,
+        zh,
+        ja,
+        ru,
+        ko,
+        de,
+        fr,
+        es,
+        pt
     },
     // 禁用 HTML 警告
     warnHtmlMessage: false
@@ -45,35 +61,11 @@ const i18n = createI18n({
 // 导出i18n实例
 export default i18n
 
-// 动态加载语言文件
-const loadLocale = async (locale) => {
-    if (locale === 'en') {
-        return en
-    }
-
-    try {
-        const messages = await import(/* webpackChunkName: "locales" */ `../locales/${locale}.json`)
-        return messages.default
-    } catch (error) {
-        console.warn(`Failed to load locale ${locale}:`, error)
-        return en
-    }
-}
-
 // 导出语言切换函数
-export const switchLocale = async (locale) => {
+export const switchLocale = (locale) => {
     if (['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt'].includes(locale)) {
-        // 如果语言已加载，直接切换
-        if (i18n.global.availableLocales.includes(locale)) {
-            i18n.global.locale.value = locale
-            localStorage.setItem('language', locale)
-        } else {
-            // 动态加载语言文件
-            const messages = await loadLocale(locale)
-            i18n.global.setLocaleMessage(locale, messages)
-            i18n.global.locale.value = locale
-            localStorage.setItem('language', locale)
-        }
+        i18n.global.locale.value = locale
+        localStorage.setItem('language', locale)
     }
 }
 
