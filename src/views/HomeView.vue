@@ -23,7 +23,7 @@
                     </div>
                     <div class="hero-buttons">
                         <button class="btn btn-primary" @click="scrollToGame">{{ $t('HomePage.hero.playButton')
-                            }}</button>
+                        }}</button>
                         <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                                 <h3>{{ $t('HomePage.characters.harlequinName') }}</h3>
                                 <p>{{ $t('HomePage.characters.harlequinDesc') }}</p>
                                 <a href="/harlequin" class="character-link">{{ $t('HomePage.characters.learnMore')
-                                    }} →</a>
+                                }} →</a>
                             </div>
                         </div>
                     </div>
@@ -230,6 +230,7 @@ import { ref, computed } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
+import '@/assets/css/public.css'
 
 // 游戏加载状态
 const gameLoaded = ref(false)
@@ -419,6 +420,8 @@ const loadGame = () => {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 /* Play Game Section 内容样式 */
@@ -863,6 +866,13 @@ const loadGame = () => {
 
 .section.hero {
     background-image: url('/images/home_img_01.webp');
+    /* 保持视差效果，同时优化LCP */
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* LCP优化 - 不影响视差效果 */
+    contain: paint;
 }
 
 .section.play-game {

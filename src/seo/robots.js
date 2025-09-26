@@ -5,7 +5,7 @@ export function generateRobots() {
     return `User-agent: *
 Allow: /
 
-# 允许所有搜索引擎爬取
+# Allow all search engines to crawl
 User-agent: Googlebot
 Allow: /
 
@@ -15,18 +15,18 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-# 站点地图位置
+# Sitemap location
 Sitemap: ${seoConfig.fullDomain}/sitemap.xml
 
-# 爬取延迟（可选）
+# Optional crawl delay (some bots may ignore this)
 Crawl-delay: 1
 
-# 禁止爬取的文件类型（如果有的话）
+# Disallow specific file types if needed
 # Disallow: *.pdf$
 # Disallow: *.doc$
 # Disallow: *.docx$
 
-# 禁止爬取的目录（如果有的话）
+# Disallow specific directories if needed
 # Disallow: /admin/
 # Disallow: /private/
 `

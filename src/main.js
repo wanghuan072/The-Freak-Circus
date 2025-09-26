@@ -5,7 +5,6 @@ import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
 import { localizeAllLinks, watchLanguageChange } from './utils/localizeLinks.js'
-import './assets/css/public.css'
 
 const app = createApp(App)
 

@@ -4,17 +4,12 @@
             <div class="header-content">
                 <div class="logo">
                     <a href="/">
-                        <img src="/images/logo.png" alt="The Freak Circus" class="logo-image" />
+                        <img src="/images/logo.png" alt="The Freak Circus Logo" class="logo-image" />
                         <span class="logo-text">The Freak Circus</span>
                     </a>
                 </div>
 
-                <!-- 汉堡菜单按钮 -->
-                <button class="mobile-menu-btn" @click="toggleMobileMenu" :class="{ active: isMobileMenuOpen }">
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                </button>
+
 
                 <!-- 桌面端导航 -->
                 <nav class="nav desktop-nav">
@@ -60,6 +55,16 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- 汉堡菜单按钮 -->
+                <button class="mobile-menu-btn" @click="toggleMobileMenu" :class="{ active: isMobileMenuOpen }"
+                    :aria-label="isMobileMenuOpen ? $t('nav.closeMenu') : $t('nav.openMenu')"
+                    :aria-expanded="isMobileMenuOpen">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="sr-only">{{ isMobileMenuOpen ? $t('nav.closeMenu') : $t('nav.openMenu') }}</span>
+                </button>
 
                 <!-- 移动端滑出导航 -->
                 <nav class="nav mobile-nav" :class="{ open: isMobileMenuOpen }">
@@ -123,6 +128,7 @@ import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter, useRoute } from 'vue-router'
 import { switchLocale } from '@/i18n'
+import '@/assets/css/public.css'
 
 const { locale } = useI18n()
 const router = useRouter()
@@ -675,6 +681,19 @@ const switchLanguage = (lang) => {
     color: #8b5cf6;
 }
 
+/* Screen reader only text */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
 
@@ -691,6 +710,18 @@ const switchLanguage = (lang) => {
     /* 隐藏桌面端下拉菜单 */
     .dropdown-menu {
         display: none;
+    }
+
+    .header-content {
+        padding: 10px 0;
+    }
+
+    .logo-text {
+        font-size: 16px;
+    }
+
+    .language-dropdown {
+        padding: 4px 8px;
     }
 }
 
@@ -710,5 +741,7 @@ const switchLanguage = (lang) => {
     .mobile-overlay {
         display: none;
     }
+
+
 }
 </style>

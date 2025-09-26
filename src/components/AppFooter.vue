@@ -6,28 +6,33 @@
                 <div class="footer-section brand-section">
                     <div class="brand-logo">
                         <div class="logo-icon">
-                            <img src="/images/logo.png" alt="The Freak Circus" class="logo-image" />
+                            <img src="/images/logo.png" alt="" class="logo-image" />
                         </div>
                         <h3>{{ $t('footer.brandTitle') }}</h3>
                     </div>
                     <p>{{ $t('footer.brandDesc') }}</p>
                     <div class="social-links">
-                        <a href="#" class="social-link">
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="Follow us on Twitter">
                             <svg t="1758708044348" class="icon" viewBox="0 0 1024 1024" version="1.1"
                                 xmlns="http://www.w3.org/2000/svg" p-id="3778" id="mx_n_1758708044349" width="200"
-                                height="200">
+                                height="200" aria-hidden="true">
                                 <path
                                     d="M761.759375 122h132.320625L605 452.4003125 945.08 902H678.8L470.24 629.3196875 231.599375 902H99.2l309.1996875-353.4L82.16 122h273.0403125l188.52 249.24z m-46.4390625 700.8h73.32L315.359375 197.0403125h-78.680625z"
                                     fill="#ffffff" p-id="3779"></path>
                             </svg>
+                            <span class="sr-only">Follow us on Twitter</span>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="Follow us on Facebook">
                             <svg t="1758708072403" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg" p-id="4807" width="200" height="200">
+                                xmlns="http://www.w3.org/2000/svg" p-id="4807" width="200" height="200"
+                                aria-hidden="true">
                                 <path
                                     d="M353.869094 229.97761l0 114.076484-99.834448 0 0 165.385471 99.834448 0 0 476.225546 196.743124 0L550.612218 509.438542l131.297507 0.020467 16.991791-165.405938L550.613242 344.053071 550.613242 249.923828c0-31.458965 18.255635-51.304894 48.49169-51.304894l99.797608 0L698.902539 33.192529 564.875744 33.192529C430.603344 33.192529 353.869094 96.438955 353.869094 229.97761z"
                                     fill="#ffffff" p-id="4808"></path>
                             </svg>
+                            <span class="sr-only">Follow us on Facebook</span>
                         </a>
                     </div>
                 </div>
@@ -71,6 +76,7 @@
 
 <script setup>
 // Footer component logic
+import '@/assets/css/public.css'
 </script>
 
 <style scoped>
@@ -193,6 +199,19 @@
     .social-links {
         justify-content: center;
     }
+}
+
+/* Screen reader only text */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* Footer Bottom */

@@ -63,7 +63,9 @@
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "updates": "Visual Novel Updates",
-    "download": "Download"
+    "download": "Download",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "HomePage": {
     "hero": {
