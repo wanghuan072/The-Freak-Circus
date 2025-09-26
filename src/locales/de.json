@@ -63,7 +63,9 @@
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "updates": "Visual Novel Updates",
-    "download": "Herunterladen"
+    "download": "Herunterladen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "HomePage": {
     "hero": {
@@ -71,7 +73,7 @@
       "subtitle": "Ein psychologisches Horror-Visual-Novel",
       "description": "Betreten Sie eine Welt, in der sich Realität verbiegt und Albträume lebendig werden. The Freak Circus ist ein immersives psychologisches Horror-Visual-Novel, das Ihre Wahrnehmung von Wahrheit und Fiktion herausfordert.",
       "playButton": "Jetzt spielen",
-      "learnButton": "Mehr erfahren",
+      "learnButton": "Mehr über The Freak Circus erfahren",
       "warning": "Inhaltswarnung: Dieses Spiel enthält erwachsene Themen, psychologischen Horror und verstörende Bilder. Empfohlen ab 18 Jahren.",
       "platforms": "Verfügbar für PC, Mac und Linux"
     },
@@ -92,9 +94,10 @@
       "subtitle": "Entdecken Sie die rätselhaften Figuren im The Freak Circus",
       "pierrotName": "Pierrot",
       "pierrotDesc": "Der melancholische Clown, der tiefe Emotionen hinter einem gemalten Lächeln verbirgt. Seine Geschichte handelt von Liebe, Verlust und dem Preis, Geheimnisse zu bewahren.",
+      "pierrotLearnMore": "Mehr über Pierrot erfahren",
       "harlequinName": "Harlequin",
       "harlequinDesc": "Die schelmische Tricksterin, deren verspielte Fassade eine komplexe Persönlichkeit verbirgt. Ihre Beziehung zu Pierrot bildet das Herz der Geschichte.",
-      "learnMore": "Mehr erfahren"
+      "harlequinLearnMore": "Mehr über Harlequin erfahren"
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
@@ -125,7 +128,7 @@
       "title": "Bereit, den Zirkus zu betreten?",
       "subtitle": "Laden Sie The Freak Circus jetzt herunter und beginnen Sie Ihre Reise ins Unbekannte",
       "downloadButton": "Jetzt herunterladen",
-      "learnButton": "Mehr erfahren"
+      "learnButton": "Mehr über den Spiel-Download erfahren"
     }
   },
   "DownloadPage": {

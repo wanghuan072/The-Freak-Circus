@@ -112,7 +112,8 @@
                             <div class="character-info">
                                 <h3>{{ $t('HomePage.characters.pierrotName') }}</h3>
                                 <p>{{ $t('HomePage.characters.pierrotDesc') }}</p>
-                                <a href="/pierrot" class="character-link">{{ $t('HomePage.characters.learnMore') }}
+                                <a href="/pierrot" class="character-link">{{ $t('HomePage.characters.pierrotLearnMore')
+                                    }}
                                     →</a>
                             </div>
                         </div>
@@ -123,8 +124,9 @@
                             <div class="character-info">
                                 <h3>{{ $t('HomePage.characters.harlequinName') }}</h3>
                                 <p>{{ $t('HomePage.characters.harlequinDesc') }}</p>
-                                <a href="/harlequin" class="character-link">{{ $t('HomePage.characters.learnMore')
-                                }} →</a>
+                                <a href="/harlequin" class="character-link">{{
+                                    $t('HomePage.characters.harlequinLearnMore')
+                                    }} →</a>
                             </div>
                         </div>
                     </div>

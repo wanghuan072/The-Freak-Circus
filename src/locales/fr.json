@@ -63,7 +63,9 @@
     "harlequin": "Arlequin",
     "wiki": "Wiki",
     "updates": "Mises à jour du roman visuel",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "HomePage": {
     "hero": {

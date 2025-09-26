@@ -63,7 +63,9 @@
     "harlequin": "Арлекин",
     "wiki": "Вики",
     "updates": "Обновления визуальной новеллы",
-    "download": "Скачать"
+    "download": "Скачать",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню"
   },
   "HomePage": {
     "hero": {

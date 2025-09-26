@@ -73,7 +73,7 @@
       "subtitle": "A Psychological Horror Visual Novel",
       "description": "Step into a world where reality bends and nightmares come alive. The Freak Circus is an immersive psychological horror visual novel that will challenge your perception of truth and fiction.",
       "playButton": "Play Now",
-      "learnButton": "Learn More",
+      "learnButton": "Learn more about The Freak Circus",
       "warning": "Content Warning: This game contains mature themes, psychological horror, and disturbing imagery. Recommended for ages 18+.",
       "platforms": "Available on PC, Mac, and Linux"
     },
@@ -94,9 +94,10 @@
       "subtitle": "Discover the enigmatic figures that inhabit The Freak Circus",
       "pierrotName": "Pierrot",
       "pierrotDesc": "The melancholic clown who hides deep emotions behind a painted smile. His story is one of love, loss, and the price of keeping secrets.",
+      "pierrotLearnMore": "Learn more about Pierrot",
       "harlequinName": "Harlequin",
       "harlequinDesc": "The mischievous trickster whose playful exterior masks a complex personality. Her relationship with Pierrot forms the heart of the story.",
-      "learnMore": "Learn More"
+      "harlequinLearnMore": "Learn more about Harlequin"
     },
     "faq": {
       "title": "Frequently Asked Questions",
@@ -127,7 +128,7 @@
       "title": "Ready to Enter the Circus?",
       "subtitle": "Download The Freak Circus now and begin your journey into the unknown",
       "downloadButton": "Download Now",
-      "learnButton": "Learn More"
+      "learnButton": "Learn more about downloading the game"
     }
   },
   "DownloadPage": {

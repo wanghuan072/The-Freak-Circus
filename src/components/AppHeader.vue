@@ -8,9 +8,6 @@
                         <span class="logo-text">The Freak Circus</span>
                     </a>
                 </div>
-
-
-
                 <!-- 桌面端导航 -->
                 <nav class="nav desktop-nav">
                     <ul class="nav-list">

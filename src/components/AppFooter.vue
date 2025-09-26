@@ -6,7 +6,7 @@
                 <div class="footer-section brand-section">
                     <div class="brand-logo">
                         <div class="logo-icon">
-                            <img src="/images/logo.png" alt="" class="logo-image" />
+                            <img src="/images/logo.png" alt="The Freak Circus Logo" class="logo-image" />
                         </div>
                         <h3>{{ $t('footer.brandTitle') }}</h3>
                     </div>

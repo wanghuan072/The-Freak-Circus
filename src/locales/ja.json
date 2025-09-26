@@ -63,7 +63,9 @@
     "harlequin": "ハーレクイン",
     "wiki": "ウィキ",
     "updates": "ビジュアルノベル更新",
-    "download": "ダウンロード"
+    "download": "ダウンロード",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
   },
   "HomePage": {
     "hero": {
@@ -71,7 +73,7 @@
       "subtitle": "サイコホラー ビジュアルノベル",
       "description": "現実が歪み、悪夢が生き生きと現れる世界に足を踏み入れよう。The Freak Circus は、真実と虚構の境界を揺るがす没入型サイコホラービジュアルノベルです。",
       "playButton": "今すぐプレイ",
-      "learnButton": "詳しく知る",
+      "learnButton": "The Freak Circus について詳しく知る",
       "warning": "コンテンツ警告：このゲームには成人向けテーマ、心理的ホラー、衝撃的な描写が含まれます。18歳以上推奨。",
       "platforms": "PC、Mac、Linux で利用可能"
     },
@@ -92,9 +94,10 @@
       "subtitle": "The Freak Circus に登場する謎めいた人物たちを発見",
       "pierrotName": "ピエロ",
       "pierrotDesc": "塗られた笑顔の裏に深い感情を隠す憂鬱な道化師。愛と喪失、秘密を抱える代償の物語。",
+      "pierrotLearnMore": "ピエロについて詳しく知る",
       "harlequinName": "ハーレクイン",
       "harlequinDesc": "外見はいたずら好きだが、複雑な性格を持つトリックスター。ピエロとの関係が物語の中心。",
-      "learnMore": "詳しく知る"
+      "harlequinLearnMore": "ハーレクインについて詳しく知る"
     },
     "faq": {
       "title": "よくある質問",
@@ -125,7 +128,7 @@
       "title": "サーカスの世界に足を踏み入れる準備はできましたか？",
       "subtitle": "今すぐ The Freak Circus をダウンロードして未知の旅を始めよう",
       "downloadButton": "今すぐダウンロード",
-      "learnButton": "詳しく知る"
+      "learnButton": "ゲームダウンロードについて詳しく知る"
     }
   },
   "DownloadPage": {

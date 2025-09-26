@@ -63,7 +63,9 @@
     "harlequin": "할리퀸",
     "wiki": "위키",
     "updates": "비주얼 노벨 업데이트",
-    "download": "다운로드"
+    "download": "다운로드",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기"
   },
   "HomePage": {
     "hero": {

@@ -63,7 +63,9 @@
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "updates": "视觉小说更新",
-    "download": "下载"
+    "download": "下载",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
   },
   "HomePage": {
     "hero": {
@@ -71,7 +73,7 @@
       "subtitle": "心理恐怖视觉小说",
       "description": "踏入一个现实扭曲、噩梦成真的世界。《The Freak Circus》是一款沉浸式心理恐怖视觉小说，将挑战你对现实与虚构的认知。",
       "playButton": "立即游玩",
-      "learnButton": "了解更多",
+      "learnButton": "了解更多关于《The Freak Circus》",
       "warning": "内容警告：本游戏包含成人主题、心理恐怖及惊悚画面，建议18岁以上玩家游玩。",
       "platforms": "支持平台：PC、Mac 和 Linux"
     },
@@ -92,9 +94,10 @@
       "subtitle": "探索《The Freak Circus》中神秘的人物",
       "pierrotName": "Pierrot",
       "pierrotDesc": "忧郁的小丑，用彩绘笑脸掩饰内心的深情。他的故事充满爱、失落与隐藏的秘密。",
+      "pierrotLearnMore": "了解更多关于 Pierrot",
       "harlequinName": "Harlequin",
       "harlequinDesc": "调皮捣蛋的角色，表面轻松却内心复杂。她与 Pierrot 的关系构成了故事的核心。",
-      "learnMore": "了解更多"
+      "harlequinLearnMore": "了解更多关于 Harlequin"
     },
     "faq": {
       "title": "常见问题",
@@ -125,7 +128,7 @@
       "title": "准备好进入马戏团了吗？",
       "subtitle": "立即下载《The Freak Circus》，开始未知的心理冒险",
       "downloadButton": "立即下载",
-      "learnButton": "了解更多"
+      "learnButton": "了解更多关于游戏下载"
     }
   },
   "DownloadPage": {

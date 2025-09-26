@@ -63,7 +63,9 @@
     "harlequin": "Arlequín",
     "wiki": "Wiki",
     "updates": "Actualizaciones",
-    "download": "Descargar"
+    "download": "Descargar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "HomePage": {
     "hero": {
@@ -71,7 +73,7 @@
       "subtitle": "Una Novela Visual de Horror Psicológico",
       "description": "Adéntrate en un mundo donde la realidad se distorsiona y los sueños se convierten en pesadillas. The Freak Circus es una novela visual inmersiva que desafiará tu percepción de la realidad y la ficción.",
       "playButton": "Jugar Ahora",
-      "learnButton": "Saber Más",
+      "learnButton": "Saber más sobre The Freak Circus",
       "warning": "Advertencia de Contenido: Este juego contiene temas maduros, horror psicológico e imágenes perturbadoras. Recomendado para mayores de 18 años.",
       "platforms": "Disponible para PC, Mac y Linux"
     },
@@ -94,7 +96,8 @@
       "pierrotDesc": "El melancólico payaso que oculta profundas emociones detrás de una sonrisa pintada. Su historia es de amor, pérdida y el precio de mantener secretos.",
       "harlequinName": "Arlequín",
       "harlequinDesc": "La traviesa jugadora cuyo exterior juguetón esconde una personalidad compleja. Su relación con Pierrot forma el corazón de la historia.",
-      "learnMore": "Saber Más"
+      "pierrotLearnMore": "Saber más sobre Pierrot",
+      "harlequinLearnMore": "Saber más sobre Harlequin"
     },
     "faq": {
       "title": "Preguntas Frecuentes",
@@ -125,7 +128,7 @@
       "title": "¿Listo para entrar al circo?",
       "subtitle": "Descarga The Freak Circus ahora y comienza tu viaje hacia lo desconocido",
       "downloadButton": "Descargar Ahora",
-      "learnButton": "Saber Más"
+      "learnButton": "Saber más sobre la descarga del juego"
     }
   },
   "DownloadPage": {
