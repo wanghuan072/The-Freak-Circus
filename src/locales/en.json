@@ -54,18 +54,43 @@
       "title": "Copyright - The Freak Circus | thefreakcircus.org",
       "description": "Copyright information for The Freak Circus visual novel and website content.",
       "keywords": "copyright, The Freak Circus, intellectual property, thefreakcircus.org"
+    },
+    "pierrotColoring": {
+      "title": "The Freak Circus Pierrot Para Coloriar Kawaii - Free Coloring Pages | thefreakcircus.org",
+      "description": "Download free The Freak Circus Pierrot coloring pages! Cute kawaii Pierrot para coloriar designs perfect for fans of the psychological horror visual novel.",
+      "keywords": "The Freak Circus Pierrot para coloriar, kawaii Pierrot, coloring pages, free download, visual novel, thefreakcircus.org"
     }
   },
   "nav": {
     "home": "Home",
     "characters": "Characters",
     "pierrot": "Pierrot",
+    "pierrotColoring": "Pierrot Coloring",
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "updates": "Visual Novel Updates",
     "download": "Download",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "A psychological horror visual novel experience",
+    "quickLinksTitle": "Quick Links",
+    "quickLinksHome": "Home",
+    "quickLinksPierrot": "Pierrot",
+    "quickLinksHarlequin": "Harlequin",
+    "quickLinksWiki": "Wiki",
+    "quickLinksUpdates": "Updates",
+    "quickLinksDownload": "Download",
+    "quickLinksPierrotColoring": "Pierrot Coloring",
+    "legalTitle": "Legal",
+    "legalPrivacy": "Privacy Policy",
+    "legalTerms": "Terms of Service",
+    "legalCopyright": "Copyright",
+    "legalAbout": "About Us",
+    "legalContact": "Contact Us",
+    "disclaimer": "This website is created by game enthusiasts as a personal, unofficial fan site and is not affiliated with the original game developers. Content is provided for educational and entertainment purposes only. Users should verify information independently. This site makes no guarantees about content accuracy and assumes no legal responsibility."
   },
   "HomePage": {
     "hero": {
@@ -550,7 +575,86 @@
         "description3": "I've already made a few decisions to improve certain aspects of The Freak Circus visual novel, like adding pronoun options for the protagonist and a few other things, and I'll be working on the continuation with lots of care and love!",
         "description4": "I don't like leaving plot holes, so I treat the script with great care. Once I have a more solid foundation for <strong>The Freak Circus visual novel dia 2</strong>, I'll post an update here and on social media, and start getting the support pages active again so the project can move forward faster!",
         "description5": "<strong>The stage is being set, make yourselves comfortable. But if I were you... I wouldn't trust the food.</strong>"
+      },
+      "WeeklyUpdate1": {
+        "title": "Weekly Update",
+        "date": "September 13, 2025",
+        "description1": "I got a bunch of feedback on the beta version and I still haven't managed to fix all the little details. Honestly, I hadn't even noticed so many mistakes myself, haha.",
+        "description2": "Meanwhile, I also spotted a small issue in the script with a very specific route, so I had to pause and rewrite some scenes so they would fit both paths. Luckily, I caught it before moving forward.",
+        "description3": "Once that particular scene is ready, I'll finally start working on the tent scene for one of the characters, and man… that's going to be a lot of work…",
+        "description4": "Also, the theme for the next comic strip will be <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>'s old outfits! Voted by the patrons! I'll work on it in my free time, so it might take a little while to come out."
+      },
+      "WeeklyUpdate2": {
+        "title": "Weekly Update",
+        "date": "September 20, 2025",
+        "description1": "I'm working on one of the three characters! And I'm really excited (maybe hyperfocused on it). Once I finish presenting all three, <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a> will move into its final stage! It's still going to take some time, especially with Jester's part. His tent will be challenging to program I keep coming up with a lot of visual ideas to create the right atmosphere for the scene. What does that mean? That even for a scene that lasts only a few seconds, I'll insist on showing several sprites if necessary to capture the right feeling. Well, I did manage to pull some reactions out of you with that!",
+        "description2": "Some of the previous errors were fixed, and a few sprites also needed adjustments to fit better into certain scenes. The game's menu font has some issues with translations, so that's still a problem I need to solve. Worst case scenario, I'll have to replace it but I still have a few alternatives to try before resorting to that.",
+        "description3": "One more thing! Don't worry guys, I'm not in the game! The name \"Neko\" in the screenshots is just to test the MC's lines!",
+        "description4": "It's easier for me to pay attention if the code calling the player's name works when I test it with my own name haha!"
+      },
+      "WeeklyUpdate3": {
+        "title": "Weekly Update",
+        "date": "September 27, 2025",
+        "description1": "Sorry for being a bit absent on social media, folks I've been really focused on finishing the part I started coding. When things don't work out, I get obsessed with fixing them until they finally run haha! I'm still at it…  I can already say it won't be ready this month. My new expectation is around the middle of next month BUT that's not a guarantee. (Please be patient with me ;u;)",
+        "description2": "Now for the progress update! Almost half of one of the tents is already coded, though I don't have many sprites ready for this scene yet. Creating new sprites always takes a bit longer, and it's the part I test the most it's been a lot of work, and honestly I find drawing more tiring.",
+        "description3": "Doctor has already had his look adjusted twice during testing, Jester only once, and possibly each of them (Jester, Doctor, and Ticket Taker) will get a little animation. For more details about these new characters, check our <a href=\"/wiki\" class=\"content-link\">Wiki page</a>.",
+        "description4": "I think I can already say there's only about 13% left to go before finishing both the coding and the art."
+      },
+      "WeeklyUpdate4": {
+        "title": "Weekly Update",
+        "date": "October 27, 2025",
+        "description1": "I managed to finish coding the cyan tent, only 2 sprites left to complete that scene.(And once again I had to fix the Doctor's sprite… I really hope that doesn't happen with Jester.) And there are also code details and transitions that have not yet been fixed.",
+        "description2": "Now there are only the blue and purple tents left for the update's coding to be done. ",
+        "description3": "The cyan tent made my code break so many times, it was exhausting. And since the other two tents are even more complex, I know it'll happen again. So just to reinforce: once I finish coding all the dialogues for <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, then I'll be able to start talking about dates!"
       }
+    }
+  },
+  "PierrotColoringPage": {
+    "header": {
+      "title": "The Freak Circus Pierrot Para Coloriar Kawaii",
+      "subtitle": "Free coloring pages featuring cute kawaii Pierrot designs from The Freak Circus visual novel",
+      "backToHome": "← Back to Home",
+      "pierrot": "Pierrot Character",
+      "wiki": "Wiki Guide",
+      "download": "Download Game"
+    },
+    "gallery": {
+      "title": "Pierrot Coloring Pages Collection"
+    },
+    "about": {
+      "title": "About Pierrot Coloring Pages",
+      "description1": "Welcome to our collection of <strong>The Freak Circus Pierrot para coloriar</strong> designs! These adorable kawaii coloring pages feature everyone's favorite melancholic clown from <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>.",
+      "description2": "Each coloring page is carefully designed to capture Pierrot's unique personality - from his signature jester outfit to his expressive emotions. Whether you're a fan of the <a href=\"/pierrot\" class=\"content-link\">Pierrot character</a> or simply love kawaii art, these pages are perfect for relaxation and creativity.",
+      "description3": "All coloring pages are free to download and print. They're perfect for fans of <a href=\"/\" class=\"content-link\">The Freak Circus</a> who want to bring their favorite character to life with colors. For more information about the game, check our <a href=\"/wiki\" class=\"content-link\">Wiki page</a> or <a href=\"/download\" class=\"content-link\">download the visual novel</a>."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How do I download the coloring pages?",
+          "answer": "Simply click on any image or the download button to save the high-resolution coloring page to your device. All files are in WebP format for optimal quality."
+        },
+        {
+          "question": "What file format are the coloring pages?",
+          "answer": "All coloring pages are provided in high-quality WebP format for optimal file size and image quality. You can easily convert them to PDF or print them directly."
+        },
+        {
+          "question": "Can I use these coloring pages for commercial purposes?",
+          "answer": "These coloring pages are for personal use only. For commercial use, please contact us for licensing information. We appreciate your respect for our intellectual property."
+        },
+        {
+          "question": "Are there more Pierrot coloring pages coming?",
+          "answer": "Yes! We regularly add new <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> coloring designs based on fan feedback and new content from <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>. Check back often for updates!"
+        },
+        {
+          "question": "What makes these Pierrot designs kawaii?",
+          "answer": "Our kawaii Pierrot designs feature cute, simplified versions of the character with big eyes, soft expressions, and adorable poses that make him more approachable while maintaining his unique jester aesthetic from <a href=\"/pierrot\" class=\"content-link\">The Freak Circus</a>."
+        },
+        {
+          "question": "Do I need to know about The Freak Circus to enjoy these coloring pages?",
+          "answer": "Not at all! While these designs are inspired by <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, they're designed to be enjoyed by anyone who loves kawaii art and coloring. However, if you're curious about the character, check out our <a href=\"/pierrot\" class=\"content-link\">Pierrot character page</a>!"
+        }
+      ]
     }
   },
   "AboutPage": {
@@ -669,24 +773,6 @@
       "title": "Thank You",
       "description": "Thank you for being part of the The Freak Circus community! Your feedback and support help us continue to provide the best experience for our users worldwide."
     }
-  },
-  "footer": {
-    "brandTitle": "The Freak Circus",
-    "brandDesc": "A psychological horror visual novel experience",
-    "quickLinksTitle": "Quick Links",
-    "quickLinksHome": "Home",
-    "quickLinksPierrot": "Pierrot",
-    "quickLinksHarlequin": "Harlequin",
-    "quickLinksWiki": "Wiki",
-    "quickLinksUpdates": "Updates",
-    "quickLinksDownload": "Download",
-    "legalTitle": "Legal",
-    "legalPrivacy": "Privacy Policy",
-    "legalTerms": "Terms of Service",
-    "legalCopyright": "Copyright",
-    "legalAbout": "About Us",
-    "legalContact": "Contact Us",
-    "disclaimer": "This website is created by game enthusiasts as a personal, unofficial fan site and is not affiliated with the original game developers. Content is provided for educational and entertainment purposes only. Users should verify information independently. This site makes no guarantees about content accuracy and assumes no legal responsibility."
   },
   "CopyrightPage": {
     "header": {

@@ -5,6 +5,7 @@ import { useSEO } from '@/seo'
 const pageConfigs = [
   { path: '/', component: 'HomeView', name: 'Home' },
   { path: '/pierrot', component: 'PierrotView', name: 'Pierrot' },
+  { path: '/pierrot-coloring', component: 'PierrotColoringView', name: 'PierrotColoring' },
   { path: '/harlequin', component: 'HarlequinView', name: 'Harlequin' },
   { path: '/wiki', component: 'WikiView', name: 'Wiki' },
   { path: '/updates', component: 'UpdatesView', name: 'Updates' },
@@ -130,6 +131,7 @@ function getSEOKey(path, language) {
   const pathMap = {
     '/': 'home',
     '/pierrot': 'pierrot',
+    '/pierrot-coloring': 'pierrotColoring',
     '/harlequin': 'harlequin',
     '/wiki': 'wiki',
     '/updates': 'updates',

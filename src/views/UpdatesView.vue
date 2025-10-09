@@ -23,7 +23,65 @@
             <div class="updates-content">
                 <div class="container">
                     <div class="updates-list">
-                        <!-- Update 1: Almost There (Latest) -->
+                        <article class="update-block">
+                            <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate4.date') }}</p>
+                            <h2 class="update-title">{{ $t('UpdatesPage.updates.WeeklyUpdate4.title') }}</h2>
+                            <div class="update-content">
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate4.description1', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate4.description2', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate4.description3', {}, { raw: true })"></p>
+                                <img src="/images/updates/updata04-01.webp" alt="Weekly Update 4" />
+                                <img src="/images/updates/updata04-02.webp" alt="Weekly Update 4" />
+                                <img src="/images/updates/updata04-03.webp" alt="Weekly Update 4" />
+                            </div>
+                        </article>
+
+                        <article class="update-block">
+                            <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate3.date') }}</p>
+                            <h2 class="update-title">{{ $t('UpdatesPage.updates.WeeklyUpdate3.title') }}</h2>
+                            <div class="update-content">
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate3.description1', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate3.description2', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate3.description3', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate3.description4', {}, { raw: true })"></p>
+                                <img src="/images/updates/updata03-01.webp" alt="Weekly Update 3" />
+                                <img src="/images/updates/updata03-02.webp" alt="Weekly Update 3" />
+                                <img src="/images/updates/updata03-03.webp" alt="Weekly Update 3" />
+                            </div>
+                        </article>
+
+                        <article class="update-block">
+                            <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate2.date') }}</p>
+                            <h2 class="update-title">{{ $t('UpdatesPage.updates.WeeklyUpdate2.title') }}</h2>
+                            <div class="update-content">
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate2.description1', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate2.description2', {}, { raw: true })"></p>
+                                <img src="/images/updates/updata02-01.webp" alt="Weekly Update 2" />
+                                <img src="/images/updates/updata02-02.webp" alt="Weekly Update 2" />
+                                <img src="/images/updates/updata02-03.webp" alt="Weekly Update 2" />
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate2.description3', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate2.description4', {}, { raw: true })"></p>
+                            </div>
+                        </article>
+
+
+                        <article class="update-block">
+                            <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate1.date') }}</p>
+                            <h2 class="update-title">{{ $t('UpdatesPage.updates.WeeklyUpdate1.title') }}</h2>
+                            <div class="update-content">
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate1.description1', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate1.description2', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate1.description3', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate1.description4', {}, { raw: true })"></p>
+                                <p v-html="$t('UpdatesPage.updates.WeeklyUpdate1.description5', {}, { raw: true })"></p>
+                                <img src="/images/updates/updata01-01.webp" alt="Weekly Update 1" />
+                                <img src="/images/updates/updata01-02.webp" alt="Weekly Update 1" />
+                                <img src="/images/updates/updata01-03.webp" alt="Weekly Update 1" />
+                                <img src="/images/updates/updata01-04.webp" alt="Weekly Update 1" />
+                            </div>
+                        </article>
+
+
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.almostThere.title') }}</h2>
                             <div class="update-content">
@@ -35,7 +93,6 @@
                             </div>
                         </article>
 
-                        <!-- Update 2: Monthly Update -->
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.monthlyUpdate.title') }}</h2>
                             <div class="update-content">
@@ -47,7 +104,6 @@
                             </div>
                         </article>
 
-                        <!-- Update 3: 1 Month Anniversary -->
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.anniversary.title') }}</h2>
                             <div class="update-content">
@@ -71,7 +127,6 @@
                             </div>
                         </article>
 
-                        <!-- Update 4: Future Updates -->
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.futureUpdates.title') }}</h2>
                             <div class="update-content">
@@ -85,7 +140,6 @@
                             </div>
                         </article>
 
-                        <!-- Update 5: Chinese Language -->
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.chineseLanguage.title') }}</h2>
                             <div class="update-content">
@@ -98,7 +152,6 @@
                             </div>
                         </article>
 
-                        <!-- Update 6: Pronoun Options -->
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.pronounOptions.title') }}</h2>
                             <div class="update-content">
@@ -115,7 +168,6 @@
                             </div>
                         </article>
 
-                        <!-- Update 7: Thank You (Oldest) -->
                         <article class="update-block">
                             <h2 class="update-title">{{ $t('UpdatesPage.updates.thankYou.title') }}</h2>
                             <div class="update-content">
@@ -229,6 +281,13 @@ import '@/assets/css/public.css'
     backdrop-filter: blur(10px);
 }
 
+.update-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 .update-block:deep(a) {
     color: #4287f5;
     text-decoration: none;
@@ -246,6 +305,7 @@ import '@/assets/css/public.css'
 /* Update Content */
 .update-content {
     line-height: 1.8;
+    font-size: 0;
 }
 
 .content-heading {

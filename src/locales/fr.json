@@ -54,18 +54,43 @@
       "title": "Droits d'auteur - The Freak Circus | thefreakcircus.org",
       "description": "Informations sur les droits d'auteur du roman visuel et du contenu du site The Freak Circus.",
       "keywords": "droits d'auteur, The Freak Circus, propriété intellectuelle, thefreakcircus.org"
+    },
+    "pierrotColoring": {
+      "title": "The Freak Circus Pierrot à Colorier Kawaii - Pages à Colorier Gratuites | thefreakcircus.org",
+      "description": "Téléchargez gratuitement les pages à colorier The Freak Circus Pierrot ! Des designs kawaii mignons de Pierrot à colorier, parfaits pour les fans du roman visuel d'horreur psychologique.",
+      "keywords": "The Freak Circus Pierrot à colorier, Pierrot kawaii, pages à colorier, téléchargement gratuit, roman visuel, thefreakcircus.org"
     }
   },
   "nav": {
     "home": "Accueil",
     "characters": "Personnages",
     "pierrot": "Pierrot",
+    "pierrotColoring": "Pierrot à Colorier",
     "harlequin": "Arlequin",
     "wiki": "Wiki",
     "updates": "Mises à jour du roman visuel",
     "download": "Télécharger",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu"
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "Une expérience de roman visuel d'horreur psychologique",
+    "quickLinksTitle": "Liens rapides",
+    "quickLinksHome": "Accueil",
+    "quickLinksPierrot": "Pierrot",
+    "quickLinksHarlequin": "Arlequin",
+    "quickLinksWiki": "Wiki",
+    "quickLinksUpdates": "Mises à jour",
+    "quickLinksDownload": "Télécharger",
+    "quickLinksPierrotColoring": "Pierrot à Colorier",
+    "legalTitle": "Légal",
+    "legalPrivacy": "Politique de confidentialité",
+    "legalTerms": "Conditions d'utilisation",
+    "legalCopyright": "Droits d'auteur",
+    "legalAbout": "À propos de nous",
+    "legalContact": "Contactez-nous",
+    "disclaimer": "Ce site web est créé par des passionnés de jeux en tant que site fan personnel et non officiel et n'est pas affilié aux développeurs originaux. Le contenu est fourni à des fins éducatives et de divertissement uniquement. Les utilisateurs doivent vérifier eux-mêmes les informations. Ce site ne garantit pas l'exactitude du contenu et n'assume aucune responsabilité légale."
   },
   "HomePage": {
     "hero": {
@@ -549,7 +574,86 @@
         "description3": "J’ai déjà pris des décisions pour améliorer certains aspects, comme l’ajout des options de pronoms et d’autres éléments, et je continuerai le développement avec soin et attention.",
         "description4": "Je ne laisse pas de trous dans l’histoire et traite le script avec soin. Dès que j’ai une base solide pour <strong>le dia 2</strong>, je publierai une mise à jour ici et sur les réseaux sociaux pour accélérer le projet !",
         "description5": "<strong>Le spectacle commence, installez-vous confortablement. Mais si j’étais vous... je ne ferais pas confiance à la nourriture.</strong>"
+      },
+      "WeeklyUpdate1": {
+        "title": "Mise à jour hebdomadaire",
+        "date": "13 septembre 2025",
+        "description1": "J’ai reçu beaucoup de retours sur la version bêta, et je n’ai toujours pas réussi à corriger tous les petits détails. Honnêtement, je n’avais même pas remarqué autant d’erreurs moi-même, haha.",
+        "description2": "En même temps, j’ai aussi repéré un petit problème dans le script sur une route très spécifique, donc j’ai dû faire une pause et réécrire certaines scènes pour qu’elles s’adaptent aux deux chemins. Heureusement, je m’en suis aperçu avant de continuer.",
+        "description3": "Une fois cette scène particulière terminée, je commencerai enfin à travailler sur la scène de la tente d’un des personnages, et mon dieu… ça va demander beaucoup de travail…",
+        "description4": "Aussi, le thème de la prochaine bande dessinée sera les anciens costumes de <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> ! Choisi par les mécènes ! Je travaillerai dessus pendant mon temps libre, donc cela pourrait prendre un peu de temps avant de sortir."
+      },
+      "WeeklyUpdate2": {
+        "title": "Mise à jour hebdomadaire",
+        "date": "20 septembre 2025",
+        "description1": "Je travaille sur l’un des trois personnages ! Et je suis vraiment enthousiaste (peut-être même un peu trop concentré dessus). Une fois que j’aurai terminé de présenter les trois, <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a> entrera dans sa phase finale ! Cela prendra encore un certain temps, surtout avec la partie de Jester. Sa tente sera difficile à programmer, car j’ai plein d’idées visuelles pour créer la bonne atmosphère pour la scène. Qu’est-ce que cela signifie ? Que même pour une scène qui ne dure que quelques secondes, j’insisterai pour afficher plusieurs sprites si nécessaire afin de capter la bonne émotion. Eh bien, j’ai réussi à provoquer quelques réactions avec ça !",
+        "description2": "Certaines des erreurs précédentes ont été corrigées, et quelques sprites ont également dû être ajustés pour mieux s’intégrer à certaines scènes. La police du menu du jeu pose encore quelques problèmes avec les traductions, donc c’est un point que je dois encore résoudre. Dans le pire des cas, je devrai la remplacer, mais j’ai encore quelques alternatives à tester avant d’en arriver là.",
+        "description3": "Encore une chose ! Ne vous inquiétez pas, les amis, je ne suis pas dans le jeu ! Le nom « Neko » sur les captures d’écran sert simplement à tester les lignes du protagoniste !",
+        "description4": "C’est plus facile pour moi de rester attentif si le code qui appelle le nom du joueur fonctionne pendant que je le teste avec mon propre nom, haha !"
+      },
+      "WeeklyUpdate3": {
+        "title": "Mise à jour hebdomadaire",
+        "date": "27 septembre 2025",
+        "description1": "Désolé d’avoir été un peu absent des réseaux sociaux, les amis. J’étais très concentré sur la partie que j’ai commencée à coder. Quand quelque chose ne fonctionne pas, je deviens obsédé jusqu’à ce que ça marche enfin, haha ! Je suis toujours dessus… Je peux déjà dire que ce ne sera pas prêt ce mois-ci. Ma nouvelle estimation est pour la mi-mois prochaine, MAIS ce n’est pas garanti. (S’il vous plaît, soyez patients avec moi ;u;)",
+        "description2": "Passons à la mise à jour des progrès ! Presque la moitié d’une des tentes est déjà codée, même si je n’ai pas encore beaucoup de sprites prêts pour cette scène. Créer de nouveaux sprites prend toujours un peu plus de temps, et c’est la partie que je teste le plus – c’est beaucoup de travail, et honnêtement, je trouve le dessin plus fatigant.",
+        "description3": "Le Docteur a déjà vu son apparence ajustée deux fois pendant les tests, Jester une seule fois, et il est possible que chacun d’eux (Jester, Docteur et Ticket Taker) ait une petite animation. Pour plus de détails sur ces nouveaux personnages, consultez notre <a href=\"/wiki\" class=\"content-link\">page Wiki</a>.",
+        "description4": "Je crois pouvoir dire qu’il ne reste qu’environ 13 % avant de terminer à la fois le codage et l’art."
+      },
+      "WeeklyUpdate4": {
+        "title": "Mise à jour hebdomadaire",
+        "date": "27 octobre 2025",
+        "description1": "J’ai réussi à terminer le codage de la tente cyan, il ne me reste que deux sprites à compléter pour finir cette scène. (Et encore une fois, j’ai dû réparer le sprite du Docteur… j’espère vraiment que cela n’arrivera pas avec Jester.) Il reste aussi des détails de code et des transitions qui ne sont pas encore corrigés.",
+        "description2": "Il ne reste maintenant plus que les tentes bleue et violette avant que le codage de la mise à jour soit terminé.",
+        "description3": "La tente cyan a fait planter mon code tellement de fois, c’était épuisant. Et puisque les deux autres tentes sont encore plus complexes, je sais que cela se reproduira. Donc, pour être clair : une fois que j’aurai terminé de coder tous les dialogues de <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, je pourrai enfin commencer à parler de dates !"
       }
+    }
+  },
+  "PierrotColoringPage": {
+    "header": {
+      "title": "The Freak Circus Pierrot à Colorier Kawaii",
+      "subtitle": "Pages à colorier gratuites avec des designs kawaii mignons de Pierrot du roman visuel The Freak Circus",
+      "backToHome": "← Retour à l'accueil",
+      "pierrot": "Personnage Pierrot",
+      "wiki": "Guide Wiki",
+      "download": "Télécharger le jeu"
+    },
+    "gallery": {
+      "title": "Collection de Pages à Colorier de Pierrot"
+    },
+    "about": {
+      "title": "À propos des pages à colorier de Pierrot",
+      "description1": "Bienvenue dans notre collection de designs <strong>The Freak Circus Pierrot à colorier</strong> ! Ces adorables pages kawaii présentent le clown mélancolique préféré de tous issu du <a href=\"/\" class=\"content-link\">roman visuel The Freak Circus</a>.",
+      "description2": "Chaque page à colorier est soigneusement conçue pour capturer la personnalité unique de Pierrot – de son costume emblématique de bouffon à ses émotions expressives. Que vous soyez fan du <a href=\"/pierrot\" class=\"content-link\">personnage Pierrot</a> ou simplement amateur d'art kawaii, ces pages sont parfaites pour la détente et la créativité.",
+      "description3": "Toutes les pages à colorier sont gratuites à télécharger et à imprimer. Elles sont idéales pour les fans de <a href=\"/\" class=\"content-link\">The Freak Circus</a> qui souhaitent donner vie à leur personnage préféré avec des couleurs. Pour plus d'informations sur le jeu, consultez notre <a href=\"/wiki\" class=\"content-link\">page Wiki</a> ou <a href=\"/download\" class=\"content-link\">téléchargez le roman visuel</a>."
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "items": [
+        {
+          "question": "Comment télécharger les pages à colorier ?",
+          "answer": "Cliquez simplement sur n'importe quelle image ou sur le bouton de téléchargement pour enregistrer la page à colorier en haute résolution sur votre appareil. Tous les fichiers sont au format WebP pour une qualité optimale."
+        },
+        {
+          "question": "Quel format de fichier pour les pages à colorier ?",
+          "answer": "Toutes les pages à colorier sont fournies en format WebP de haute qualité, offrant un bon équilibre entre taille de fichier et qualité d'image. Vous pouvez facilement les convertir en PDF ou les imprimer directement."
+        },
+        {
+          "question": "Puis-je utiliser ces pages à colorier à des fins commerciales ?",
+          "answer": "Ces pages à colorier sont uniquement destinées à un usage personnel. Pour un usage commercial, veuillez nous contacter pour obtenir des informations sur la licence. Nous apprécions votre respect pour notre propriété intellectuelle."
+        },
+        {
+          "question": "Y aura-t-il d'autres pages à colorier de Pierrot ?",
+          "answer": "Oui ! Nous ajoutons régulièrement de nouveaux designs <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> en fonction des retours des fans et des nouveaux contenus du <a href=\"/\" class=\"content-link\">roman visuel The Freak Circus</a>. Revenez souvent pour découvrir les mises à jour !"
+        },
+        {
+          "question": "Qu'est-ce qui rend ces designs de Pierrot kawaii ?",
+          "answer": "Nos designs kawaii de Pierrot présentent des versions adorables et simplifiées du personnage, avec de grands yeux, des expressions douces et des poses mignonnes qui le rendent plus accessible tout en conservant son esthétique unique de bouffon du <a href=\"/pierrot\" class=\"content-link\">The Freak Circus</a>."
+        },
+        {
+          "question": "Dois-je connaître The Freak Circus pour profiter de ces pages à colorier ?",
+          "answer": "Pas du tout ! Bien que ces designs soient inspirés du <a href=\"/\" class=\"content-link\">roman visuel The Freak Circus</a>, ils sont conçus pour être appréciés par tous les amateurs d'art kawaii et de coloriage. Cependant, si vous êtes curieux du personnage, consultez notre <a href=\"/pierrot\" class=\"content-link\">page du personnage Pierrot</a> !"
+        }
+      ]
     }
   },
   "AboutPage": {
@@ -668,24 +772,6 @@
       "title": "Merci",
       "description": "Merci de faire partie de la communauté The Freak Circus ! Vos retours et votre soutien nous aident à continuer à offrir la meilleure expérience possible à nos utilisateurs dans le monde entier."
     }
-  },
-  "footer": {
-    "brandTitle": "The Freak Circus",
-    "brandDesc": "Une expérience de roman visuel d'horreur psychologique",
-    "quickLinksTitle": "Liens rapides",
-    "quickLinksHome": "Accueil",
-    "quickLinksPierrot": "Pierrot",
-    "quickLinksHarlequin": "Arlequin",
-    "quickLinksWiki": "Wiki",
-    "quickLinksUpdates": "Mises à jour",
-    "quickLinksDownload": "Télécharger",
-    "legalTitle": "Légal",
-    "legalPrivacy": "Politique de confidentialité",
-    "legalTerms": "Conditions d'utilisation",
-    "legalCopyright": "Droits d'auteur",
-    "legalAbout": "À propos de nous",
-    "legalContact": "Contactez-nous",
-    "disclaimer": "Ce site web est créé par des passionnés de jeux en tant que site fan personnel et non officiel et n'est pas affilié aux développeurs originaux. Le contenu est fourni à des fins éducatives et de divertissement uniquement. Les utilisateurs doivent vérifier eux-mêmes les informations. Ce site ne garantit pas l'exactitude du contenu et n'assume aucune responsabilité légale."
   },
   "CopyrightPage": {
     "header": {

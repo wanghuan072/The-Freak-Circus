@@ -27,6 +27,9 @@
                             <a href="/wiki" class="nav-link">{{ $t('nav.wiki') }}</a>
                         </li>
                         <li class="nav-item">
+                            <a href="/pierrot-coloring" class="nav-link">{{ $t('nav.pierrotColoring') }}</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/updates" class="nav-link">{{ $t('nav.updates') }}</a>
                         </li>
                         <li class="nav-item">

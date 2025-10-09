@@ -54,18 +54,43 @@
       "title": "版权 - The Freak Circus | thefreakcircus.org",
       "description": "《The Freak Circus》视觉小说及网站内容的版权信息。",
       "keywords": "版权, The Freak Circus, 知识产权, thefreakcircus.org"
+    },
+    "pierrotColoring": {
+      "title": "The Freak Circus Pierrot 可爱填色页 - 免费填色页 | thefreakcircus.org",
+      "description": "免费下载 The Freak Circus Pierrot 填色页！可爱的 Kawaii 风格 Pierrot 填色设计，非常适合心理恐怖视觉小说的粉丝。",
+      "keywords": "The Freak Circus Pierrot 填色页, 可爱 Pierrot, 填色页, 免费下载, 视觉小说, thefreakcircus.org"
     }
   },
   "nav": {
     "home": "首页",
     "characters": "角色",
     "pierrot": "Pierrot",
+    "pierrotColoring": "Pierrot 填色页",
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "updates": "视觉小说更新",
     "download": "下载",
     "openMenu": "打开菜单",
     "closeMenu": "关闭菜单"
+  },
+  "footer": {
+    "brandTitle": "The Freak Circus",
+    "brandDesc": "心理恐怖视觉小说体验",
+    "quickLinksTitle": "快速链接",
+    "quickLinksHome": "首页",
+    "quickLinksPierrot": "Pierrot",
+    "quickLinksPierrotColoring": "Pierrot 填色页",
+    "quickLinksHarlequin": "Harlequin",
+    "quickLinksWiki": "Wiki",
+    "quickLinksUpdates": "更新",
+    "quickLinksDownload": "下载",
+    "legalTitle": "法律",
+    "legalPrivacy": "隐私政策",
+    "legalTerms": "服务条款",
+    "legalCopyright": "版权",
+    "legalAbout": "关于我们",
+    "legalContact": "联系我们",
+    "disclaimer": "本网站由游戏爱好者创建，作为个人非官方粉丝站点，与原游戏开发者无关。内容仅供教育和娱乐用途。用户应自行验证信息。本网站不对内容的准确性提供保证，也不承担任何法律责任。"
   },
   "HomePage": {
     "hero": {
@@ -550,7 +575,86 @@
         "description3": "我已做出一些决策改善游戏，如为主角添加代词选项等，并会继续用心制作后续剧情。",
         "description4": "我不喜欢留下剧情漏洞，因此对脚本非常用心。一旦第 2 天剧情基础更加稳固，我会在此及社交媒体发布更新，同时重新激活支持页面，让项目更快推进！",
         "description5": "<strong>舞台已经搭好，请坐好。但如果我是你……我不会轻易相信食物。</strong>"
+      },
+      "WeeklyUpdate1": {
+        "title": "每周更新",
+        "date": "2025年9月13日",
+        "description1": "我收到了很多关于测试版的反馈，但还没能修好所有的小细节。老实说，我自己都没注意到有这么多错误，哈哈。",
+        "description2": "与此同时，我在脚本里发现了一个只会出现在特定路线中的小问题，所以不得不暂停一下，重写了一些场景，让它们在两条路线中都能合理衔接。幸运的是，我在继续推进之前就发现了这个问题。",
+        "description3": "等这段特定场景完成后，我就会开始制作某个角色的帐篷场景，那可是个大工程……",
+        "description4": "另外，下一个漫画条的主题是<a href=\"/pierrot\" class=\"content-link\">皮耶罗（Pierrot）</a>的旧服装！是由赞助者投票选出来的！我会在空闲时间制作，所以可能需要一点时间才能发布。"
+      },
+      "WeeklyUpdate2": {
+        "title": "每周更新",
+        "date": "2025年9月20日",
+        "description1": "我正在制作三个角色中的其中一个！我真的很兴奋（也许有点太专注了）。当三位角色都介绍完之后，<a href=\"/\" class=\"content-link\">The Freak Circus 视觉小说</a>就会正式进入最终阶段！不过还需要一些时间，尤其是弄小丑（Jester）的部分。他的帐篷部分编程非常复杂，我一直在琢磨如何用视觉细节营造合适的氛围。这意味着——即使是一场只有几秒的戏，我也会坚持多做几张不同的立绘，只为了捕捉到正确的情感。嗯，至少我成功让你们有反应了！",
+        "description2": "之前的一些错误已经修复了，同时我也调整了一些立绘，让它们在特定场景中更贴合。游戏菜单的字体在翻译时还有一些问题，这个我还需要继续解决。最糟的情况是可能要更换字体，但在那之前我还会尝试几个替代方案。",
+        "description3": "还有一件事！别担心，大家——我本人并没有出现在游戏里！截图中出现的“ Neko ”这个名字只是为了测试主角的台词！",
+        "description4": "我用自己的名字来测试代码调用玩家名字的功能时，更容易集中注意力，哈哈！"
+      },
+      "WeeklyUpdate3": {
+        "title": "每周更新",
+        "date": "2025年9月27日",
+        "description1": "最近在社交媒体上有点消失，抱歉各位。我一直专注在完成手头那部分代码。当程序不工作时，我会执着到必须修好它为止，哈哈！我还在努力中……现在已经可以确定，这个月肯定赶不完。新的预计时间是下个月中旬——但不保证哦（请再多点耐心 ;u;）。",
+        "description2": "说回进度！目前已经完成了一个帐篷大约一半的代码，不过这场景的立绘还没多少。绘制新立绘总是比较花时间，也是我测试最多的部分。这确实是很辛苦的工作，说实话，画画比写代码还更让我累。",
+        "description3": "医生（Doctor）的造型在测试中已经调整了两次，小丑（Jester）调整了一次，可能每个人（小丑、医生、售票员）都会有一点动画表现。关于这些新角色的更多信息，请前往<a href=\"/wiki\" class=\"content-link\">Wiki 页面</a>查看。",
+        "description4": "我想我可以说，目前大概还剩下 13% 的内容要完成，包括代码和美术部分。"
+      },
+      "WeeklyUpdate4": {
+        "title": "每周更新",
+        "date": "2025年10月27日",
+        "description1": "我终于完成了青色帐篷（Cyan Tent）的代码，还差两个立绘就能把那场戏搞定。（而且我又一次不得不修医生的立绘……真希望小丑不会也出这种问题。）还有一些代码细节和场景转场还没修完。",
+        "description2": "现在只剩下蓝色和紫色两个帐篷的代码没做完。等这两个完成后，这次更新的代码部分就全部结束了。",
+        "description3": "青色帐篷让我代码崩了好几次，真是折腾。因为接下来的两个帐篷更复杂，我知道这种情况肯定还会再发生。所以再次强调：当我把<a href=\"/\" class=\"content-link\">The Freak Circus 视觉小说</a>的所有对话代码都完成后，到时候我才能开始谈发布日期！"
       }
+    }
+  },
+  "PierrotColoringPage": {
+    "header": {
+      "title": "The Freak Circus Pierrot 可爱填色页",
+      "subtitle": "来自 The Freak Circus 视觉小说的可爱 Kawaii 风格 Pierrot 免费填色页",
+      "backToHome": "← 返回首页",
+      "pierrot": "Pierrot 角色",
+      "wiki": "Wiki 指南",
+      "download": "下载游戏"
+    },
+    "gallery": {
+      "title": "Pierrot 填色页收藏"
+    },
+    "about": {
+      "title": "关于 Pierrot 填色页",
+      "description1": "欢迎来到我们的 <strong>The Freak Circus Pierrot 填色页</strong> 收藏！这些可爱的 Kawaii 填色页展示了大家喜爱的忧郁小丑，来自 <a href=\"/\" class=\"content-link\">The Freak Circus 视觉小说</a>。",
+      "description2": "每张填色页都经过精心设计，以捕捉 Pierrot 独特的个性——从标志性的弄臣服装到丰富的情绪表现。无论你是 <a href=\"/pierrot\" class=\"content-link\">Pierrot 角色</a> 的粉丝，还是单纯喜爱 Kawaii 艺术，这些页面都是放松和创作的完美选择。",
+      "description3": "所有填色页均可免费下载和打印。它们非常适合想用颜色为自己喜欢的角色增添生动感的 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 粉丝。想了解更多游戏信息，请查看我们的 <a href=\"/wiki\" class=\"content-link\">Wiki 页面</a> 或 <a href=\"/download\" class=\"content-link\">下载视觉小说</a>。"
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "如何下载填色页？",
+          "answer": "只需点击任意图片或下载按钮，即可将高分辨率填色页保存到你的设备上。所有文件均为 WebP 格式，以确保最佳画质。"
+        },
+        {
+          "question": "填色页的文件格式是什么？",
+          "answer": "所有填色页均提供高质量 WebP 格式，兼顾文件大小和图像质量。你可以轻松转换为 PDF 或直接打印。"
+        },
+        {
+          "question": "可以将这些填色页用于商业用途吗？",
+          "answer": "这些填色页仅供个人使用。如需商业用途，请联系我们获取许可信息。感谢您对我们知识产权的尊重。"
+        },
+        {
+          "question": "会有更多 Pierrot 填色页吗？",
+          "answer": "会的！我们会根据粉丝反馈以及 <a href=\"/\" class=\"content-link\">The Freak Circus 视觉小说</a> 的新内容，定期添加新的 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 填色设计。请经常回来查看更新！"
+        },
+        {
+          "question": "这些 Pierrot 设计为什么可爱（Kawaii）？",
+          "answer": "我们的 Kawaii Pierrot 设计展示了角色的可爱简化版本，大眼睛、柔和的表情和萌萌的姿势，使角色更亲近，同时保持了 <a href=\"/pierrot\" class=\"content-link\">The Freak Circus</a> 独特的弄臣美学。"
+        },
+        {
+          "question": "不熟悉 The Freak Circus 也能享受这些填色页吗？",
+          "answer": "完全可以！虽然这些设计灵感来源于 <a href=\"/\" class=\"content-link\">The Freak Circus 视觉小说</a>，但它们适合任何喜爱 Kawaii 艺术和填色的人。如果你对角色感兴趣，请查看我们的 <a href=\"/pierrot\" class=\"content-link\">Pierrot 角色页面</a>！"
+        }
+      ]
     }
   },
   "AboutPage": {
@@ -669,24 +773,6 @@
       "title": "感谢您",
       "description": "感谢您成为《The Freak Circus》社区的一员！您的反馈和支持帮助我们持续为全球用户提供最佳体验。"
     }
-  },
-  "footer": {
-    "brandTitle": "The Freak Circus",
-    "brandDesc": "心理恐怖视觉小说体验",
-    "quickLinksTitle": "快速链接",
-    "quickLinksHome": "首页",
-    "quickLinksPierrot": "Pierrot",
-    "quickLinksHarlequin": "Harlequin",
-    "quickLinksWiki": "Wiki",
-    "quickLinksUpdates": "更新",
-    "quickLinksDownload": "下载",
-    "legalTitle": "法律",
-    "legalPrivacy": "隐私政策",
-    "legalTerms": "服务条款",
-    "legalCopyright": "版权",
-    "legalAbout": "关于我们",
-    "legalContact": "联系我们",
-    "disclaimer": "本网站由游戏爱好者创建，作为个人非官方粉丝站点，与原游戏开发者无关。内容仅供教育和娱乐用途。用户应自行验证信息。本网站不对内容的准确性提供保证，也不承担任何法律责任。"
   },
   "CopyrightPage": {
     "header": {

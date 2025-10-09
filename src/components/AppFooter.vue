@@ -45,6 +45,7 @@
                         <li><a href="/pierrot">{{ $t('footer.quickLinksPierrot') }}</a></li>
                         <li><a href="/harlequin">{{ $t('footer.quickLinksHarlequin') }}</a></li>
                         <li><a href="/wiki">{{ $t('footer.quickLinksWiki') }}</a></li>
+                        <li><a href="/pierrot-coloring">{{ $t('footer.quickLinksPierrotColoring') }}</a></li>
                         <li><a href="/updates">{{ $t('footer.quickLinksUpdates') }}</a></li>
                         <li><a href="/download">{{ $t('footer.quickLinksDownload') }}</a></li>
                     </ul>

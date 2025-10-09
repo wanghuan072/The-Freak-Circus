@@ -44,15 +44,15 @@ const i18n = createI18n({
     locale: getInitialLocale(),
     fallbackLocale: 'en',
     messages: {
-        en,
-        zh,
-        ja,
-        ru,
-        ko,
-        de,
-        fr,
-        es,
-        pt
+        en, // 英文
+        zh, // 中文
+        ja, // 日语
+        ru, // 俄语
+        ko, // 韩语
+        de, // 德语
+        fr, // 法语
+        es, // 西班牙语
+        pt // 葡萄牙语
     },
     // 禁用 HTML 警告
     warnHtmlMessage: false

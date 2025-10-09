@@ -30,6 +30,11 @@
             </div>
         </section>
 
+        <!-- 移动端横幅广告1 -->
+        <aside class="ad-section" v-if="isMobile">
+            <ins class="eas6a97888e10" data-zoneid="5746162"></ins>
+        </aside>
+
         <!-- Play Game Section -->
         <section class="section play-game">
             <div class="container">
@@ -60,6 +65,24 @@
                 </div>
             </div>
         </section>
+
+        <!-- PC端底部粘性横幅广告 -->
+        <ins class="eas6a97888e17" data-zoneid="5746154" v-if="!isMobile"></ins>
+
+        <!-- PC粘性左侧横幅广告1 -->
+        <aside class="ad-section" v-if="!isMobile">
+            <ins class="eas6a97888e17" data-zoneid="5746158"></ins>
+        </aside>
+
+        <!-- PC端粘性右侧横幅广告2 -->
+        <aside class="ad-section" v-if="!isMobile">
+            <ins class="eas6a97888e17" data-zoneid="5746160"></ins>
+        </aside>
+
+        <!-- 原生广告1 -->
+        <aside class="ad-section">
+            <ins class="eas6a97888e20" data-zoneid="5746168"></ins>
+        </aside>
 
         <!-- About Section -->
         <section class="section about">
@@ -134,6 +157,11 @@
             </div>
         </section>
 
+        <!-- 移动端横幅广告2 -->
+        <aside class="ad-section" v-if="isMobile">
+            <ins class="eas6a97888e10" data-zoneid="5746164"></ins>
+        </aside>
+
         <!-- FAQ Section -->
         <section class="section faq">
             <div class="container">
@@ -189,6 +217,8 @@
             </div>
         </section>
 
+
+
         <!-- CTA Section -->
         <section class="section cta">
             <div class="container">
@@ -228,11 +258,29 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
 import '@/assets/css/public.css'
+
+import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+const { isMobile } = useDeviceDetection()
+
+// 加载广告脚本
+onMounted(() => {
+    const script = document.createElement('script')
+    script.src = 'https://a.magsrv.com/ad-provider.js'
+    script.async = true
+    script.type = 'application/javascript'
+    document.head.appendChild(script)
+
+    script.onload = () => {
+        if (window.AdProvider) {
+            window.AdProvider.push({ "serve": {} })
+        }
+    }
+})
 
 // 游戏加载状态
 const gameLoaded = ref(false)
@@ -891,6 +939,17 @@ const loadGame = () => {
 
 .section.faq {
     background-image: url('/images/home_img_02.webp');
+}
+
+/* Ad Section */
+.ad-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ad-section ins {
+    display: block;
+    margin: 0 auto;
 }
 
 .section.cta {
