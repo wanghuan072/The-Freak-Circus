@@ -7,6 +7,7 @@ const routes = [
     { path: '/harlequin', name: 'harlequin' },
     { path: '/wiki', name: 'wiki' },
     { path: '/updates', name: 'updates' },
+    { path: '/updates', name: 'updates' },
     { path: '/download', name: 'download' },
     { path: '/about-us', name: 'about' },
     { path: '/contact-us', name: 'contact' },
