@@ -80,9 +80,9 @@
         </aside>
 
         <!-- 原生广告1 -->
-        <aside class="ad-section">
+        <div class="container">
             <ins class="eas6a97888e20" data-zoneid="5746168"></ins>
-        </aside>
+        </div>
 
         <!-- About Section -->
         <section class="section about">
