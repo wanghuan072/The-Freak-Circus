@@ -4,9 +4,9 @@ import { seoConfig } from './config.js'
 const routes = [
     { path: '/', name: 'home' },
     { path: '/pierrot', name: 'pierrot' },
+    { path: '/pierrot-coloring', name: 'pierrotColoring' },
     { path: '/harlequin', name: 'harlequin' },
     { path: '/wiki', name: 'wiki' },
-    { path: '/updates', name: 'updates' },
     { path: '/updates', name: 'updates' },
     { path: '/download', name: 'download' },
     { path: '/about-us', name: 'about' },
