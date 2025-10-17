@@ -64,7 +64,8 @@
                     <section>
                         <h2>{{ $t('TermsOfServicePage.disclaimerOfWarranties.title') }}</h2>
                         <p v-html="$t('TermsOfServicePage.disclaimerOfWarranties.description1', {}, { raw: true })"></p>
-                        <p v-html="$t('TermsOfServicePage.disclaimerOfWarranties.description2', {}, { raw: true })"></p>
+                        <p>{{ $t('TermsOfServicePage.disclaimerOfWarranties.description2') }} <a
+                                href="mailto:wyong@thefreakcircus.org">wyong@thefreakcircus.org</a>.</p>
                     </section>
 
                     <section>
@@ -74,8 +75,8 @@
 
                     <section>
                         <h2>{{ $t('TermsOfServicePage.copyrightInfringementClaims.title') }}</h2>
-                        <p v-html="$t('TermsOfServicePage.copyrightInfringementClaims.description', {}, { raw: true })">
-                        </p>
+                        <p>{{ $t('TermsOfServicePage.copyrightInfringementClaims.description') }} <a
+                                href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>.</p>
                     </section>
 
                     <section>

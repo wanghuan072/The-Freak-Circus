@@ -52,7 +52,10 @@
 
                     <section>
                         <h2>{{ $t('AboutPage.contactUs.title') }}</h2>
-                        <p v-html="$t('AboutPage.contactUs.description', {}, { raw: true })"></p>
+                        <p>{{ $t('AboutPage.contactUs.description1') }} <a
+                                href="mailto:wyong@thefreakcircus.org">wyong@thefreakcircus.org</a> {{
+                                    $t('AboutPage.contactUs.description2') }}</p>
+
                     </section>
 
                     <section>

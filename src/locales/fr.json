@@ -690,7 +690,8 @@
     },
     "contactUs": {
       "title": "Contactez-nous",
-      "description": "Vous avez des questions, suggestions ou retours ? Nous serions ravis de vous entendre ! Vous pouvez nous joindre à <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> et nous vous répondrons dès que possible."
+      "description1": "Vous avez des questions, suggestions ou retours ? Nous serions ravis de vous entendre ! Vous pouvez nous joindre à",
+      "description2": "et nous vous répondrons dès que possible."
     },
     "joinCommunity": {
       "title": "Rejoignez notre communauté",
@@ -712,7 +713,7 @@
     },
     "contactInformation": {
       "title": "Informations de contact",
-      "email": "<strong>Email :</strong> <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
+      "email": "Email :",
       "responseTime": "Nous répondons généralement dans les 24 heures."
     },
     "responseTime": {
@@ -834,7 +835,7 @@
     },
     "contactInformation": {
       "title": "Informations de contact",
-      "email": "Email : wyong@thefreakcircus.org"
+      "email": "Email :"
     },
     "updatesToCopyrightNotice": {
       "title": "Mises à jour de l'avis de droits d'auteur",
@@ -851,7 +852,7 @@
       "title": "Informations générales",
       "description1": "Chez <strong>The Freak Circus</strong>, nous nous engageons à protéger la vie privée de tous les utilisateurs de nos sites et applications. Cette politique de confidentialité s'applique à tous les services et produits proposés par <strong>The Freak Circus</strong>. En utilisant ce site, vous acceptez cette politique de confidentialité et confirmez que vous êtes en âge légal de consentir à ses conditions. L'utilisation continue du site après toute modification de cette politique constitue une acceptation de ces changements.",
       "description2": "Le site est destiné aux visiteurs âgés de 16 ans et plus. Si vous avez moins de 16 ans, veuillez ne pas utiliser le site. Si vous êtes parent ou tuteur et autorisez un enfant à accéder au site, vous consentez à cette politique de confidentialité en leur nom.",
-      "description3": "Si vous avez des questions concernant cette politique de confidentialité, contactez-nous à <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>."
+      "description3": "Si vous avez des questions concernant cette politique de confidentialité, contactez-nous à"
     },
     "dataCollection": {
       "title": "Quelles données collectons-nous ?",
@@ -905,7 +906,8 @@
     },
     "yourRights": {
       "title": "Vos droits & préférences de communication",
-      "description1": "Vous pouvez vous désinscrire des communications marketing à tout moment en contactant <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a> ou en suivant les instructions de désabonnement incluses dans ces communications. Pour demander la correction, la suppression ou la limitation du traitement, veuillez fournir une raison claire afin de nous aider à vérifier et satisfaire rapidement la demande.",
+      "description1-1": "Vous pouvez vous désinscrire des communications marketing à tout moment en contactant",
+      "description1-2": "ou en suivant les instructions de désabonnement incluses dans ces communications. Pour demander la correction, la suppression ou la limitation du traitement, veuillez fournir une raison claire afin de nous aider à vérifier et satisfaire rapidement la demande.",
       "description2": "Nous répondrons à vos demandes dans un délai raisonnable et conformément à la législation applicable."
     },
     "cookies": {
@@ -935,7 +937,7 @@
     "contactInformation": {
       "title": "Informations de contact",
       "description": "Si vous avez des questions ou préoccupations concernant cette politique de confidentialité, veuillez contacter :",
-      "email": "Email : <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
+      "email": "Email :",
       "website": "Site web : <a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
     }
   },
@@ -989,7 +991,7 @@
     "disclaimerOfWarranties": {
       "title": "Exclusion de garanties",
       "description1": "DANS LA MESURE MAXIMALE AUTORISÉE PAR LA LOI : (A) LE SITE ET TOUS LES PRODUITS ET MATÉRIAUX TIERS SONT FOURNIS « EN L'ÉTAT », « TEL QUE DISPONIBLE », SANS AUCUNE GARANTIE ; ET (B) <strong>The Freak Circus</strong> DÉCLINE TOUTES GARANTIES, Y COMPRIS LA QUALITÉ MARCHANDE, L'ADAPTATION À UN USAGE PARTICULIER, L'ABSENCE DE CONTREFAÇON ET LE TITRE.",
-      "description2": "Bien que nous nous efforcions de garantir l'exactitude et la sécurité, nous ne pouvons pas garantir que le Site sera toujours correct, sécurisé ou ininterrompu. Si vous constatez des modifications non autorisées, veuillez nous contacter à <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>."
+      "description2": "Bien que nous nous efforcions de garantir l'exactitude et la sécurité, nous ne pouvons pas garantir que le Site sera toujours correct, sécurisé ou ininterrompu. Si vous constatez des modifications non autorisées, veuillez nous contacter à"
     },
     "filtering": {
       "title": "Filtrage",
@@ -997,7 +999,7 @@
     },
     "copyrightInfringementClaims": {
       "title": "Réclamations pour violation de droits d'auteur",
-      "description": "Si vous pensez que des matériaux sur le Site violent vos droits d'auteur, vous pouvez nous envoyer un avis demandant leur suppression. Si vous pensez qu'une réclamation a été déposée à tort contre vous, vous pouvez envoyer une contre-notification. Nous recommandons de consulter un conseiller juridique avant de déposer des avis. Contact : <a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>."
+      "description": "Si vous pensez que des matériaux sur le Site violent vos droits d'auteur, vous pouvez nous envoyer un avis demandant leur suppression. Si vous pensez qu'une réclamation a été déposée à tort contre vous, vous pouvez envoyer une contre-notification. Nous recommandons de consulter un conseiller juridique avant de déposer des avis. Contact :"
     },
     "miscellaneous": {
       "title": "Divers",

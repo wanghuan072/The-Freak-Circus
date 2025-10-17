@@ -83,7 +83,7 @@
 
                     <section>
                         <h2>{{ $t('CopyrightPage.contactInformation.title') }}</h2>
-                        <p>{{ $t('CopyrightPage.contactInformation.email') }}</p>
+                        <p>{{ $t('CopyrightPage.contactInformation.email') }}wyong@thefreakcircus.org</p>
                     </section>
 
                     <section>

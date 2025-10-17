@@ -14,7 +14,8 @@
                         <h2>{{ $t('PrivacyPolicyPage.generalInformation.title') }}</h2>
                         <p v-html="$t('PrivacyPolicyPage.generalInformation.description1', {}, { raw: true })"></p>
                         <p>{{ $t('PrivacyPolicyPage.generalInformation.description2') }}</p>
-                        <p v-html="$t('PrivacyPolicyPage.generalInformation.description3', {}, { raw: true })"></p>
+                        <p>{{ $t('PrivacyPolicyPage.generalInformation.description3') }} <a
+                                href="mailto:wyong@thefreakcircus.org">wyong@thefreakcircus.org</a>.</p>
                     </section>
 
                     <section>
@@ -81,7 +82,9 @@
 
                     <section>
                         <h2>{{ $t('PrivacyPolicyPage.yourRights.title') }}</h2>
-                        <p v-html="$t('PrivacyPolicyPage.yourRights.description1', {}, { raw: true })"></p>
+                        <p>{{ $t('PrivacyPolicyPage.yourRights.description1-1') }} <a
+                                href="mailto:wyong@thefreakcircus.org">wyong@thefreakcircus.org</a>
+                            {{ $t('PrivacyPolicyPage.yourRights.description1-2') }}</p>
                         <p>{{ $t('PrivacyPolicyPage.yourRights.description2') }}</p>
                     </section>
 
@@ -116,8 +119,10 @@
                         <h2>{{ $t('PrivacyPolicyPage.contactInformation.title') }}</h2>
                         <p>{{ $t('PrivacyPolicyPage.contactInformation.description') }}</p>
                         <ul>
-                            <li v-html="$t('PrivacyPolicyPage.contactInformation.email', {}, { raw: true })"></li>
-                            <li v-html="$t('PrivacyPolicyPage.contactInformation.website', {}, { raw: true })"></li>
+                            <li>{{ $t('PrivacyPolicyPage.contactInformation.email') }} <a
+                                    href="mailto:wyong@thefreakcircus.org">wyong@thefreakcircus.org</a></li>
+                            <li>$t('PrivacyPolicyPage.contactInformation.website') <a
+                                    href="https://thefreakcircus.com">thefreakcircus.com</a></li>
                         </ul>
                     </section>
                 </div>

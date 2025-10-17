@@ -17,7 +17,8 @@
 
                     <section>
                         <h2>{{ $t('ContactPage.contactInformation.title') }}</h2>
-                        <p v-html="$t('ContactPage.contactInformation.email', {}, { raw: true })"></p>
+                        <p><strong>{{ $t('ContactPage.contactInformation.email') }}</strong> <a
+                                href="mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a></p>
                         <p>{{ $t('ContactPage.contactInformation.responseTime') }}</p>
                     </section>
 

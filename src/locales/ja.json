@@ -691,7 +691,8 @@
     },
     "contactUs": {
       "title": "お問い合わせ",
-      "description": "ご質問やご提案、フィードバックは大歓迎です！<a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>までご連絡ください。できるだけ早く返信いたします。"
+      "description1": "ご質問やご提案、フィードバックは大歓迎です！",
+      "description2": "までご連絡ください。できるだけ早く返信いたします。"
     },
     "joinCommunity": {
       "title": "コミュニティに参加",
@@ -713,7 +714,7 @@
     },
     "contactInformation": {
       "title": "連絡先情報",
-      "email": "<strong>メール：</strong> <a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
+      "email": "メール：",
       "responseTime": "通常24時間以内にご返信いたします。"
     },
     "responseTime": {
@@ -835,7 +836,7 @@
     },
     "contactInformation": {
       "title": "連絡先情報",
-      "email": "メール：wyong@thefreakcircus.org"
+      "email": "メール："
     },
     "updatesToCopyrightNotice": {
       "title": "著作権通知の更新",
@@ -852,7 +853,7 @@
       "title": "一般情報",
       "description1": "<strong>The Freak Circus</strong>では、ウェブサイトおよびアプリのすべてのユーザーのプライバシー保護に努めています。本プライバシーポリシーは、<strong>The Freak Circus</strong>が提供するすべてのサービスおよび製品に適用されます。本サイトの利用により、本ポリシーに同意し、法的に同意できる年齢であることを確認したものとみなされます。ポリシー変更後も本サイトを継続して使用することで、変更に同意したものとみなされます。",
       "description2": "本サイトは16歳以上の訪問者を対象としています。16歳未満の場合は、本サイトを使用しないでください。保護者が子供のアクセスを許可した場合は、保護者が本ポリシーに同意したものとみなされます。",
-      "description3": "本プライバシーポリシーに関する質問は、<a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>までご連絡ください。"
+      "description3": "本プライバシーポリシーに関する質問は、"
     },
     "dataCollection": {
       "title": "収集するデータ",
@@ -906,7 +907,8 @@
     },
     "yourRights": {
       "title": "ユーザーの権利と通信設定",
-      "description1": "マーケティングコミュニケーションの受信を停止する場合は、<a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>までご連絡いただくか、通信内の配信停止手順に従ってください。個人情報の訂正、削除、処理制限のリクエストを行う場合は、理由を明確に記載してください。迅速な確認と対応に役立ちます。",
+      "description1-1": "マーケティングコミュニケーションの受信を停止する場合は、",
+      "description1-2": "までご連絡いただくか、通信内の配信停止手順に従ってください。個人情報の訂正、削除、処理制限のリクエストを行う場合は、理由を明確に記載してください。迅速な確認と対応に役立ちます。",
       "description2": "リクエストには、適用法に従い合理的な期間内に対応します。"
     },
     "cookies": {
@@ -936,7 +938,7 @@
     "contactInformation": {
       "title": "連絡先情報",
       "description": "本プライバシーポリシーに関する質問や懸念がある場合は、以下までご連絡ください：",
-      "email": "メール：<a href=\"mailto:wyong@thefreakcircus.org\">wyong@thefreakcircus.org</a>",
+      "email": "メール：",
       "website": "ウェブサイト：<a href=\"https://thefreakcircus.com\">thefreakcircus.com</a>"
     }
   },
@@ -990,7 +992,7 @@
     "disclaimerOfWarranties": {
       "title": "保証の否認",
       "description1": "法律で許容される最大範囲で、(A) 本サイトおよびすべての製品や第三者コンテンツは「現状のまま」「現存する範囲で」「利用可能な範囲で」提供され、いかなる保証もありません。(B) <strong>The Freak Circus</strong>は、商品性、特定目的への適合性、権利非侵害、権利所有に関する保証を含むすべての保証を否認します。",
-      "description2": "正確性や安全性に努めていますが、本サイトが常に正確で安全かつ中断されないことを保証するものではありません。不正な改変を発見した場合は、<a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>までご連絡ください。"
+      "description2": "正確性や安全性に努めていますが、本サイトが常に正確で安全かつ中断されないことを保証するものではありません。不正な改変を発見した場合は、"
     },
     "filtering": {
       "title": "フィルタリング",
@@ -998,7 +1000,7 @@
     },
     "copyrightInfringementClaims": {
       "title": "著作権侵害の申し立て",
-      "description": "サイト上の素材が著作権を侵害していると思われる場合、削除を求める通知を送信できます。誤って申し立てられた場合は、反通知を送信できます。通知提出前に法律の助言を受けることを推奨します。連絡先：<a href='mailto:wyong@thefreakcircus.org'>wyong@thefreakcircus.org</a>。"
+      "description": "サイト上の素材が著作権を侵害していると思われる場合、削除を求める通知を送信できます。誤って申し立てられた場合は、反通知を送信できます。通知提出前に法律の助言を受けることを推奨します。連絡先："
     },
     "miscellaneous": {
       "title": "その他",
