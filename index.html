@@ -44,55 +44,18 @@
 
   <!-- 关键资源预加载 - 优化LCP -->
   <link rel="preload" as="image" href="/images/home_img_01.webp" fetchpriority="high">
-  <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="high">
   
-  <!-- 延迟预加载第二张图片 -->
+  <!-- 预加载关键字体 -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
+  
+  <!-- 延迟预加载其他图片 -->
+  <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="low">
   <link rel="preload" as="image" href="/images/home_img_02.webp" fetchpriority="low">
   
-  <!-- 关键CSS内联 - 优化FCP -->
+  <!-- 关键CSS内联 - 只保留最关键的样式 -->
   <style>
-    /* 关键样式内联 */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    html {
-      scroll-behavior: smooth;
-    }
-    
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-      line-height: 1.6;
-      color: #fff;
-      background: #000;
-      overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 10px;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-      font-weight: bold;
-    }
-    
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-    
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    
+    /* 防止布局偏移的关键样式 */
     #app {
       min-height: 100vh;
       background: #000;
@@ -117,41 +80,6 @@
       z-index: -1;
     }
     
-    /* 关键文本样式 */
-    .hero-title {
-      font-size: 3rem;
-      font-weight: bold;
-      color: #fff;
-      margin-bottom: 1rem;
-    }
-    
-    .hero-subtitle {
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 1rem;
-    }
-    
-    /* 按钮样式 */
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
-    
-    .btn-primary {
-      background: #ff6b6b;
-      color: #fff;
-    }
-    
-    .btn-secondary {
-      background: transparent;
-      color: #fff;
-      border: 2px solid #fff;
-    }
-    
     /* 骨架屏样式 */
     .hero-skeleton {
       position: absolute;
@@ -165,50 +93,9 @@
       z-index: 1;
     }
     
-    .skeleton-content {
-      position: relative;
-      z-index: 2;
-      padding: 2rem;
-    }
-    
-    .skeleton-title {
-      width: 60%;
-      height: 3rem;
-      background: rgba(255,255,255,0.1);
-      border-radius: 4px;
-      margin-bottom: 1rem;
-    }
-    
-    .skeleton-subtitle {
-      width: 80%;
-      height: 1.5rem;
-      background: rgba(255,255,255,0.1);
-      border-radius: 4px;
-      margin-bottom: 2rem;
-    }
-    
-    .skeleton-buttons {
-      display: flex;
-      gap: 1rem;
-    }
-    
-    .skeleton-btn {
-      width: 120px;
-      height: 2.5rem;
-      background: rgba(255,255,255,0.1);
-      border-radius: 6px;
-    }
-    
     @keyframes skeleton-loading {
       0% { background-position: 200% 0; }
       100% { background-position: -200% 0; }
-    }
-    
-    @media (max-width: 768px) {
-      .container {
-        padding: 0 10px;
-        width: 100%;
-      }
     }
   </style>
   

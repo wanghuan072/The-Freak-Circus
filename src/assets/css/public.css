@@ -48,13 +48,93 @@ code, pre {
   font-family: 'Monaco', 'Consolas', monospace;
 }
 
-/* 基础样式保留在public.css中 */
+/* 关键文本样式 */
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+/* 按钮样式 */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* 骨架屏内容样式 */
+.skeleton-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+}
+
+.skeleton-title {
+  width: 60%;
+  height: 3rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.skeleton-subtitle {
+  width: 80%;
+  height: 1.5rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.skeleton-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.skeleton-btn {
+  width: 120px;
+  height: 2.5rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
 
 /* 响应式断点 */
 @media (max-width: 768px) {
   .container {
     padding: 0 10px;
     width: 100%;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .skeleton-content {
+    padding: 1rem;
   }
 }
 
