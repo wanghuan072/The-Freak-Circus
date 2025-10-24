@@ -10,8 +10,6 @@
                  class="hero-bg-image"
                  fetchpriority="high"
                  loading="eager"
-                 width="1920" 
-                 height="1080"
                  decoding="sync">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -46,8 +44,6 @@
                  class="play-game-bg-image"
                  fetchpriority="high"
                  loading="eager"
-                 width="1920" 
-                 height="1080"
                  decoding="sync">
             <div class="container">
                 <h2 class="section-title">Play The Freak Circus Online</h2>

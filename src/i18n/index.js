@@ -1,13 +1,7 @@
 import { createI18n } from 'vue-i18n'
+
+// 只同步加载英文，其他语言懒加载
 import en from '../locales/en.json'
-import zh from '../locales/zh.json'
-import ja from '../locales/ja.json'
-import ru from '../locales/ru.json'
-import ko from '../locales/ko.json'
-import de from '../locales/de.json'
-import fr from '../locales/fr.json'
-import es from '../locales/es.json'
-import pt from '../locales/pt.json'
 
 // 获取初始语言
 const getInitialLocale = () => {
@@ -38,32 +32,42 @@ const getInitialLocale = () => {
     return 'en'
 }
 
-// 创建i18n实例
+// 创建i18n实例 - 只包含英文，其他语言按需加载
 const i18n = createI18n({
     legacy: false,
     locale: getInitialLocale(),
     fallbackLocale: 'en',
     messages: {
-        en, // 英文
-        zh, // 中文
-        ja, // 日语
-        ru, // 俄语
-        ko, // 韩语
-        de, // 德语
-        fr, // 法语
-        es, // 西班牙语
-        pt // 葡萄牙语
+        en // 只包含英文，其他语言动态加载
     },
-    // 禁用 HTML 警告
-    warnHtmlMessage: false
+    warnHtmlMessage: false,
+    allowComposition: true,
+    missingWarn: false,
+    fallbackWarn: false
 })
+
+// 动态加载语言文件
+const loadLocale = async (locale) => {
+    if (locale === 'en') return en
+    
+    try {
+        const messages = await import(`../locales/${locale}.json`)
+        i18n.global.setLocaleMessage(locale, messages.default)
+        return messages.default
+    } catch (error) {
+        console.warn(`Failed to load locale ${locale}:`, error)
+        return en
+    }
+}
 
 // 导出i18n实例
 export default i18n
 
-// 导出语言切换函数
-export const switchLocale = (locale) => {
+// 导出语言切换函数 - 支持动态加载
+export const switchLocale = async (locale) => {
     if (['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt'].includes(locale)) {
+        // 动态加载语言文件
+        await loadLocale(locale)
         i18n.global.locale.value = locale
         localStorage.setItem('language', locale)
     }
@@ -73,3 +77,9 @@ export const switchLocale = (locale) => {
 export const getCurrentLocale = () => {
     return i18n.global.locale.value
 }
+
+// 导出支持的语言列表
+export const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+
+// 导出loadLocale函数
+export { loadLocale }

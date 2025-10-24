@@ -1,5 +1,27 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useSEO } from '@/seo'
+import i18n from '@/i18n'
+
+// 按需加载语言文件 - 减少主包大小
+const localeDataMap = {}
+
+// 动态加载语言文件
+async function loadLocale(lang) {
+  if (!localeDataMap[lang]) {
+    try {
+      const locale = await import(`@/locales/${lang}.json`)
+      localeDataMap[lang] = locale.default
+    } catch (error) {
+      console.warn(`Failed to load locale ${lang}:`, error)
+      // 回退到英文
+      if (lang !== 'en') {
+        const enLocale = await import('@/locales/en.json')
+        localeDataMap[lang] = enLocale.default
+      }
+    }
+  }
+  return localeDataMap[lang]
+}
 
 // 页面配置
 const pageConfigs = [
@@ -68,17 +90,19 @@ router.beforeEach(async (to, from, next) => {
   const detectedLanguage = detectLanguageFromPath(to.path)
 
   try {
-    // 导入i18n实例并设置语言
-    const { default: i18n } = await import('@/i18n')
+    // 如果语言不是英文，先加载语言文件
+    if (detectedLanguage !== 'en') {
+      await loadLocale(detectedLanguage)
+    }
 
-    // 强制设置语言
+    // 设置语言
     i18n.global.locale.value = detectedLanguage
     localStorage.setItem('language', detectedLanguage)
 
     // 设置HTML的lang属性
     document.documentElement.lang = detectedLanguage
 
-    // 设置SEO
+    // 设置页面SEO
     setPageSEO(to, detectedLanguage)
 
     next()
@@ -88,36 +112,35 @@ router.beforeEach(async (to, from, next) => {
   }
 })
 
-// 设置页面SEO的函数
-function setPageSEO(route, language) {
+// 设置页面SEO的函数 - 简化版本，只使用英文SEO数据
+async function setPageSEO(route, language) {
   // 获取页面SEO配置
   const seoKey = getSEOKey(route.path, language)
+  
+  // 只使用英文SEO数据，避免加载所有语言文件
+  const localeData = localeDataMap['en']
+  const seoData = localeData?.seo?.[seoKey]
 
-  // 动态导入语言文件获取SEO数据
-  import(`@/locales/${language}.json`).then((localeData) => {
-    const seoData = localeData.default?.seo?.[seoKey]
+  if (seoData && typeof document !== 'undefined') {
+    // 更新页面标题
+    document.title = seoData.title
 
-    if (seoData && typeof document !== 'undefined') {
-      // 更新页面标题
-      document.title = seoData.title
+    // 更新meta标签
+    updateMetaTag('description', seoData.description)
+    updateMetaTag('keywords', seoData.keywords)
 
-      // 更新meta标签
-      updateMetaTag('description', seoData.description)
-      updateMetaTag('keywords', seoData.keywords)
+    // 更新Open Graph标签
+    updateMetaTag('og:title', seoData.title, 'property')
+    updateMetaTag('og:description', seoData.description, 'property')
+    updateMetaTag('og:url', `https://thefreakcircus.org${route.path}`, 'property')
 
-      // 更新Open Graph标签
-      updateMetaTag('og:title', seoData.title, 'property')
-      updateMetaTag('og:description', seoData.description, 'property')
-      updateMetaTag('og:url', `https://thefreakcircus.org${route.path}`, 'property')
+    // 更新Twitter Card标签
+    updateMetaTag('twitter:title', seoData.title, 'name')
+    updateMetaTag('twitter:description', seoData.description, 'name')
 
-      // 更新Twitter Card标签
-      updateMetaTag('twitter:title', seoData.title, 'name')
-      updateMetaTag('twitter:description', seoData.description, 'name')
-
-      // 更新Canonical URL
-      updateCanonicalLink(`https://thefreakcircus.org${route.path}`)
-    }
-  })
+    // 更新Canonical URL
+    updateCanonicalLink(`https://thefreakcircus.org${route.path}`)
+  }
 }
 
 // 根据路径获取SEO配置键
