@@ -42,22 +42,10 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://thefreakcircus.org">
 
-  <!-- 关键资源预加载 - 优化LCP -->
+  <!-- 关键资源预加载 - 简化配置 -->
   <link rel="preload" as="image" href="/images/home_img_01.webp" fetchpriority="high">
   
-  <!-- 预连接关键域名 -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <!-- 预加载关键字体 - 减少FOIT -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
-  
-  <!-- 延迟预加载其他图片 -->
-  <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="low">
-  <link rel="preload" as="image" href="/images/home_img_02.webp" fetchpriority="low">
-  
-  <!-- 关键CSS内联 - 恢复性能优化 -->
+  <!-- 关键CSS内联 - 最小化配置 -->
   <style>
     /* 防止布局偏移的关键样式 */
     #app {
@@ -82,75 +70,6 @@
       height: 100%;
       object-fit: cover;
       z-index: -1;
-    }
-    
-    /* 关键文本样式 - 恢复SI优化 */
-    .hero-title {
-      font-size: 3rem;
-      font-weight: bold;
-      color: #fff;
-      margin-bottom: 1rem;
-      line-height: 1.2;
-    }
-    
-    .hero-subtitle {
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 1rem;
-    }
-    
-    /* 关键按钮样式 */
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
-    
-    .btn-primary {
-      background: #ff6b6b;
-      color: #fff;
-    }
-    
-    /* 关键容器样式 */
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    
-    /* 关键section样式 */
-    .section {
-      padding: 60px 0;
-    }
-    
-    .section-title {
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #fff;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    
-    /* 骨架屏样式 */
-    .hero-skeleton {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, #333 25%, #444 50%, #333 75%);
-      background-size: 200% 100%;
-      animation: skeleton-loading 1.5s infinite;
-      z-index: 1;
-    }
-    
-    @keyframes skeleton-loading {
-      0% { background-position: 200% 0; }
-      100% { background-position: -200% 0; }
     }
   </style>
   

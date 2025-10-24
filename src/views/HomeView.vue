@@ -19,20 +19,13 @@
                 </div>
             </div>
             
-            <!-- 背景图片 - LCP优化 -->
+            <!-- 背景图片 - 简化配置 -->
             <img src="/images/home_img_01.webp" 
                  alt="The Freak Circus Game Background" 
                  class="hero-bg-image"
                  fetchpriority="high"
                  loading="eager"
-                 decoding="sync"
-                 @load="heroImageLoaded = true"
-                 :style="{ 
-                   opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.1s ease-in-out',
-                   willChange: 'opacity',
-                   transform: 'translateZ(0)'
-                 }">
+                 decoding="sync">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">
@@ -303,28 +296,10 @@ const { isMobile } = useDeviceDetection()
 // 骨架屏状态
 const heroImageLoaded = ref(false)
 
-// 延迟加载非关键资源 - 优化TBT
+// 简化资源加载
 onMounted(() => {
-    // 使用requestIdleCallback减少主线程阻塞
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-            setTimeout(() => {
-                // const script = document.createElement('script')
-                // script.src = 'https://a.magsrv.com/ad-provider.js'
-                // script.async = true
-                // script.type = 'application/javascript'
-                // document.head.appendChild(script)
-            }, 3000) // 3秒后加载广告
-        })
-    } else {
-        setTimeout(() => {
-            // const script = document.createElement('script')
-            // script.src = 'https://a.magsrv.com/ad-provider.js'
-            // script.async = true
-            // script.type = 'application/javascript'
-            // document.head.appendChild(script)
-        }, 3000)
-    }
+    // 基础初始化逻辑
+    console.log('HomeView mounted')
 
     // script.onload = () => {
     //     if (window.AdProvider) {

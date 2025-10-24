@@ -18,10 +18,10 @@ export default defineConfig({
     },
   },
   build: {
-    // 优化的构建配置 - 针对LCP优化
+    // 基础构建配置 - 避免过度优化
     rollupOptions: {
       output: {
-        // 基础代码分割 - 只分离第三方库
+        // 基础代码分割
         manualChunks: (id) => {
           if (id.includes('node_modules')) {
             return 'vendor'
@@ -29,20 +29,12 @@ export default defineConfig({
         }
       }
     },
-    // 使用esbuild压缩 - 更快的构建
+    // 使用默认压缩
     minify: 'esbuild',
     // 设置合理的chunk大小警告限制
     chunkSizeWarningLimit: 1000,
     // 启用CSS代码分割
     cssCodeSplit: true,
-    // 优化资源内联 - 恢复性能
-    assetsInlineLimit: 1024,
-    // 启用源码映射用于调试
-    sourcemap: false,
-    // 优化CSS
-    cssMinify: true,
-    // 优化构建输出 - 减少TBT
-    target: 'es2020',
   },
   // 开发服务器配置
   server: {
