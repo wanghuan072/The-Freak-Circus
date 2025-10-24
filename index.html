@@ -53,7 +53,7 @@
   <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="low">
   <link rel="preload" as="image" href="/images/home_img_02.webp" fetchpriority="low">
   
-  <!-- 关键CSS内联 - 只保留防止布局偏移的样式 -->
+  <!-- 关键CSS内联 - 只保留最关键的样式 -->
   <style>
     /* 防止布局偏移的关键样式 */
     #app {
@@ -78,6 +78,54 @@
       height: 100%;
       object-fit: cover;
       z-index: -1;
+    }
+    
+    /* 关键文本样式 - 内联优化SI */
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+    
+    /* 关键按钮样式 */
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-primary {
+      background: #ff6b6b;
+      color: #fff;
+    }
+    
+    /* 骨架屏样式 */
+    .hero-skeleton {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #333 25%, #444 50%, #333 75%);
+      background-size: 200% 100%;
+      animation: skeleton-loading 1.5s infinite;
+      z-index: 1;
+    }
+    
+    @keyframes skeleton-loading {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
     }
   </style>
   
