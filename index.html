@@ -48,6 +48,12 @@
   
   <!-- 预连接关键域名 -->
   <link rel="preconnect" href="https://html-classic.itch.zone" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- 预加载关键字体 - 优化LCP -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
   
   <!-- 关键CSS内联 - 优化SI和LCP -->
   <style>
@@ -110,6 +116,37 @@
     .container {
       width: 100%;
       max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* 关键section样式 - 优化SI */
+    .section {
+      padding: 60px 0;
+    }
+    
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    /* 关键游戏容器样式 */
+    .game-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* 关键关于页面样式 */
+    .about-wrapper {
+      max-width: 800px;
       margin: 0 auto;
       padding: 0 20px;
     }
