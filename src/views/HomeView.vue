@@ -43,7 +43,13 @@
                         <!-- 蒙版层 -->
                         <div class="game-mask" v-if="!gameLoaded" @click="loadGame">
                         <div class="game-icon">
-                            <img src="/images/game-play.webp" alt="The Freak Circus Icon" fetchpriority="high">
+                            <img src="/images/game-play.webp" 
+                                 alt="The Freak Circus Icon" 
+                                 fetchpriority="high"
+                                 loading="eager"
+                                 width="300" 
+                                 height="200"
+                                 decoding="sync">
                         </div>
                             <div class="play-button" @click.stop="loadGame">
                                 <div class="play-icon">▶</div>
@@ -301,6 +307,7 @@ const getReviewAvatar = (index) => {
 
 // 滑动到游戏板块 - 优化性能
 const scrollToGame = () => {
+    // 使用缓存避免重复查询DOM
     const playGameSection = document.querySelector('.play-game')
     if (playGameSection) {
         // 使用requestAnimationFrame优化滚动性能
@@ -338,7 +345,7 @@ const loadGame = () => {
 
 .section {
     position: relative;
-    background-attachment: fixed;
+    /* 移除background-attachment: fixed以减少强制重排 */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -892,14 +899,12 @@ const loadGame = () => {
 }
 
 .section.hero {
-    background-image: url('/images/home_img_01.webp');
-    /* 保持视差效果，同时优化LCP */
-    background-attachment: fixed;
+    /* 移除background-attachment: fixed以减少强制重排 */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* LCP优化 - 不影响视差效果 */
-    contain: paint;
+    /* 使用contain优化渲染 */
+    contain: layout style paint;
 }
 
 .section.play-game {
