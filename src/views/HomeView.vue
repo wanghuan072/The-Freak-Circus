@@ -50,9 +50,6 @@
         <aside class="ad-section" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5746162"></ins>
         </aside>
-
-        <iframe src="https://mapgenie.io/escape-from-duckov/maps/ground-zero?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
-
         <!-- Play Game Section -->
         <section class="section play-game">
             <!-- LCP优化：背景图片改为img标签 -->
