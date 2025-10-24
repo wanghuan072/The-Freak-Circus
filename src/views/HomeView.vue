@@ -26,7 +26,7 @@
                  @load="heroImageLoaded = true"
                  :style="{ 
                    opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.1s ease-in-out',
+                   transition: 'opacity 0.2s ease-in-out',
                    willChange: 'opacity'
                  }">
             <div class="container">
@@ -617,8 +617,8 @@ const gameLoaded = ref(false)
     -webkit-backdrop-filter: blur(20px);
 }
 
-/* 蒙版层 - 只在游戏容器内生效 */
-.game-container .game-mask {
+/* 蒙版层 */
+.game-mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -635,7 +635,7 @@ const gameLoaded = ref(false)
     gap: 30px;
 }
 
-.game-container .game-mask:hover {
+.game-mask:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -656,7 +656,7 @@ const gameLoaded = ref(false)
     object-fit: cover;
 }
 
-.game-container .game-mask:hover .game-icon {
+.game-mask:hover .game-icon {
     transform: scale(1.05);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
 }
@@ -1160,7 +1160,7 @@ const gameLoaded = ref(false)
     }
 
 
-    .game-container .game-mask {
+    .game-mask {
         gap: 10px;
     }
 

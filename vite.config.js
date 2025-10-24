@@ -36,13 +36,11 @@ export default defineConfig({
     // 启用CSS代码分割
     cssCodeSplit: true,
     // 优化资源内联 - 更小的内联限制
-    assetsInlineLimit: 1024,
+    assetsInlineLimit: 512,
     // 启用源码映射用于调试
     sourcemap: false,
     // 优化CSS
     cssMinify: true,
-    // 优化构建输出
-    reportCompressedSize: false,
   },
   // 开发服务器配置
   server: {
