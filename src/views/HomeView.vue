@@ -299,13 +299,16 @@ const getReviewAvatar = (index) => {
     return avatars[index] || avatars[0]
 }
 
-// 滑动到游戏板块
+// 滑动到游戏板块 - 优化性能
 const scrollToGame = () => {
     const playGameSection = document.querySelector('.play-game')
     if (playGameSection) {
-        playGameSection.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+        // 使用requestAnimationFrame优化滚动性能
+        requestAnimationFrame(() => {
+            playGameSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
         })
     }
 }
@@ -313,13 +316,15 @@ const scrollToGame = () => {
 // 加载游戏
 const loadGame = () => {
     gameLoaded.value = true
-    // 滑动到游戏板块
+    // 滑动到游戏板块 - 优化性能
     setTimeout(() => {
         const playGameSection = document.querySelector('.play-game')
         if (playGameSection) {
-            playGameSection.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
+            requestAnimationFrame(() => {
+                playGameSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                })
             })
         }
     }, 100)

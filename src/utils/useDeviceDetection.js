@@ -5,20 +5,26 @@ export function useDeviceDetection() {
 
     const checkDeviceType = () => {
         isMobile.value = window.matchMedia('(max-width: 767px)').matches
-        console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备')
     }
 
     // 立即检测设备类型
     checkDeviceType()
 
     onMounted(() => {
-        // 监听窗口大小变化
-        window.addEventListener('resize', checkDeviceType)
-    })
-
-    onUnmounted(() => {
-        // 清理事件监听器
-        window.removeEventListener('resize', checkDeviceType)
+        // 使用防抖减少resize事件频率
+        let resizeTimeout
+        const debouncedCheck = () => {
+            clearTimeout(resizeTimeout)
+            resizeTimeout = setTimeout(checkDeviceType, 100)
+        }
+        
+        window.addEventListener('resize', debouncedCheck)
+        
+        // 清理函数
+        onUnmounted(() => {
+            window.removeEventListener('resize', debouncedCheck)
+            clearTimeout(resizeTimeout)
+        })
     })
 
     return {
