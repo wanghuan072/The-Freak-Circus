@@ -894,25 +894,12 @@ const gameLoaded = ref(false)
     right: 0;
     bottom: 0;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(10, 0, 20, 0.7) 100%);
-    z-index: 0;
+    z-index: 1;
 }
 
 .section.hero {
     position: relative;
     overflow: hidden;
-    padding-top: 80px; /* 为头部留出空间 */
-    height: 100vh; /* 设置高度 */
-}
-
-.section.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(10, 0, 20, 0.7) 100%);
-    z-index: 2;
 }
 
 /* LCP图片优化样式 */
@@ -924,7 +911,8 @@ const gameLoaded = ref(false)
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    z-index: 1;
+    z-index: 0;
+    background-attachment: fixed;
 }
 
 .section.play-game {
