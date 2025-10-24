@@ -10,7 +10,10 @@
   <!-- Performance optimizations -->
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
+  <link rel="dns-prefetch" href="//html-classic.itch.zone">
+  <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
 
   <!-- SEO Meta Tags -->
   <meta name="description"
@@ -42,8 +45,20 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://thefreakcircus.org">
 
-  <!-- Preload LCP Image for better performance -->
+  <!-- 关键资源预加载 - 优化LCP -->
   <link rel="preload" as="image" href="/images/home_img_01.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="high">
+  
+  <!-- 关键资源提示 -->
+  <link rel="preconnect" href="https://html-classic.itch.zone">
+  
+  <!-- 防止布局偏移的简单样式 -->
+  <style>
+    #app {
+      min-height: 100vh;
+      background: #000;
+    }
+  </style>
 
   <!-- Language Alternatives -->
   <link rel="alternate" hreflang="en" href="https://thefreakcircus.org">
@@ -57,19 +72,31 @@
   <link rel="alternate" hreflang="pt" href="https://thefreakcircus.org/pt">
   <link rel="alternate" hreflang="x-default" href="https://thefreakcircus.org">
 
-  <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH"></script>
+  <!-- 延迟加载第三方脚本 - 优化关键路径 -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        // 延迟加载Google Analytics
+        const gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.defer = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH';
+        document.head.appendChild(gtagScript);
 
-    gtag('config', 'G-EXJV3Y1SXH');
-  </script> -->
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-EXJV3Y1SXH');
 
-  <!-- Google AdSense -->
-  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705"
-    crossorigin="anonymous"></script> -->
+        // 延迟加载Google AdSense
+        const adsenseScript = document.createElement('script');
+        adsenseScript.async = true;
+        adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705';
+        adsenseScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsenseScript);
+      }, 5000); // 2秒后加载
+    });
+  </script>
 </head>
 
 <body>
@@ -84,7 +111,6 @@
   <!-- <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e33" data-zoneid="5746166"></ins>
   <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script> -->
-
 
   <script type="module" src="/src/main.js"></script>
 </body>

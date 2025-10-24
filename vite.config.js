@@ -36,7 +36,10 @@ export default defineConfig({
     terserOptions: {
       compress: {
         drop_console: true,
-        drop_debugger: true
+        drop_debugger: true,
+        // 移除未使用的代码
+        unused: true,
+        dead_code: true
       }
     },
     // 设置chunk大小警告限制

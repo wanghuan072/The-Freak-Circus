@@ -42,9 +42,9 @@
 
                         <!-- 蒙版层 -->
                         <div class="game-mask" v-if="!gameLoaded" @click="loadGame">
-                            <div class="game-icon">
-                                <img src="/images/game-play.webp" alt="The Freak Circus Icon">
-                            </div>
+                        <div class="game-icon">
+                            <img src="/images/game-play.webp" alt="The Freak Circus Icon" fetchpriority="high">
+                        </div>
                             <div class="play-button" @click.stop="loadGame">
                                 <div class="play-icon">▶</div>
                                 <span>PLAY</span>
@@ -88,7 +88,7 @@
                             <p>{{ $t('HomePage.about.description') }}</p>
                         </div>
                         <div class="about-image">
-                            <img src="/images/about-img.webp" alt="The Freak Circus Game Screenshot">
+                            <img src="/images/about-img.webp" alt="The Freak Circus Game Screenshot" loading="lazy">
                         </div>
                     </div>
                     <div class="features-grid">
@@ -124,7 +124,7 @@
                     <div class="characters-grid">
                         <div class="character-card">
                             <div class="character-image">
-                                <img src="/images/characters_01.webp" alt="Pierrot Character">
+                                <img src="/images/characters_01.webp" alt="Pierrot Character" loading="lazy">
                             </div>
                             <div class="character-info">
                                 <h3>{{ $t('HomePage.characters.pierrotName') }}</h3>
@@ -136,7 +136,7 @@
                         </div>
                         <div class="character-card">
                             <div class="character-image">
-                                <img src="/images/characters_02.webp" alt="Harlequin Character">
+                                <img src="/images/characters_02.webp" alt="Harlequin Character" loading="lazy">
                             </div>
                             <div class="character-info">
                                 <h3>{{ $t('HomePage.characters.harlequinName') }}</h3>
