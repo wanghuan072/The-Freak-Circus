@@ -49,7 +49,8 @@
                                  loading="eager"
                                  width="300" 
                                  height="200"
-                                 decoding="sync">
+                                 decoding="sync"
+                                 style="display: block;">
                         </div>
                             <div class="play-button" @click.stop="loadGame">
                                 <div class="play-icon">▶</div>
@@ -899,6 +900,7 @@ const loadGame = () => {
 }
 
 .section.hero {
+    background-image: url('/images/home_img_01.webp');
     /* 移除background-attachment: fixed以减少强制重排 */
     background-position: center center;
     background-size: cover;
