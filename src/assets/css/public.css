@@ -48,113 +48,13 @@ code, pre {
   font-family: 'Monaco', 'Consolas', monospace;
 }
 
-/* 关键布局样式 - 性能优化 */
-.hero {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background: #000;
-}
-
-.hero-bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-/* 简化关键样式 - 减少CSS复杂度 */
-.hero-title {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 1rem;
-}
-
-.hero-subtitle {
-  font-size: 1.2rem;
-  color: #ccc;
-  margin-bottom: 1rem;
-}
-
-/* 简化按钮样式 */
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn-primary {
-  background: #ff6b6b;
-  color: #fff;
-}
-
-.btn-secondary {
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-}
-
-/* 骨架屏样式 - 优化性能 */
-.hero-skeleton {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #333;
-  z-index: 1;
-  /* 移除动画，减少主线程阻塞 */
-}
-
-/* 简化骨架屏 - 减少DOM复杂度 */
-.skeleton-content {
-  position: relative;
-  z-index: 2;
-  padding: 2rem;
-}
-
-.skeleton-title {
-  width: 60%;
-  height: 3rem;
-  background: rgba(255,255,255,0.1);
-  border-radius: 4px;
-  margin-bottom: 1rem;
-}
-
-.skeleton-subtitle {
-  width: 80%;
-  height: 1.5rem;
-  background: rgba(255,255,255,0.1);
-  border-radius: 4px;
-  margin-bottom: 2rem;
-}
-
-/* 移除动画关键帧，减少性能开销 */
+/* 基础样式保留在public.css中 */
 
 /* 响应式断点 */
 @media (max-width: 768px) {
   .container {
     padding: 0 10px;
     width: 100%;
-  }
-  
-  .hero-title {
-    font-size: 2rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-  
-  .skeleton-buttons {
-    flex-direction: column;
   }
 }
 

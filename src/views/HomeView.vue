@@ -4,11 +4,15 @@
 
         <!-- Hero Section -->
         <section class="section hero">
-            <!-- 简化骨架屏 -->
+            <!-- 骨架屏 -->
             <div class="hero-skeleton" v-if="!heroImageLoaded">
                 <div class="skeleton-content">
                     <div class="skeleton-title"></div>
                     <div class="skeleton-subtitle"></div>
+                    <div class="skeleton-buttons">
+                        <div class="skeleton-btn"></div>
+                        <div class="skeleton-btn"></div>
+                    </div>
                 </div>
             </div>
             
@@ -19,7 +23,7 @@
                  fetchpriority="high"
                  loading="eager"
                  decoding="sync"
-                 @load="handleImageLoad"
+                 @load="heroImageLoaded = true"
                  :style="{ opacity: heroImageLoaded ? 1 : 0 }">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -281,35 +285,25 @@ import { ref, computed, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
-// CSS已通过index.html预加载，无需重复导入
+import '@/assets/css/public.css'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 const { isMobile } = useDeviceDetection()
 
-// 骨架屏状态 - 优化性能
+// 骨架屏状态
 const heroImageLoaded = ref(false)
 
-// 优化图片加载处理
-const handleImageLoad = () => {
-    heroImageLoaded.value = true
-}
-
-// 延迟加载非关键资源 - 减少主线程阻塞
+// 延迟加载非关键资源
 onMounted(() => {
-    // 使用requestIdleCallback优化性能
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-            // 延迟加载广告脚本
-            setTimeout(() => {
-                // const script = document.createElement('script')
-                // script.src = 'https://a.magsrv.com/ad-provider.js'
-                // script.async = true
-                // script.type = 'application/javascript'
-                // document.head.appendChild(script)
-            }, 2000)
-        })
-    }
-    
+    // 延迟加载广告脚本
+    setTimeout(() => {
+        // const script = document.createElement('script')
+        // script.src = 'https://a.magsrv.com/ad-provider.js'
+        // script.async = true
+        // script.type = 'application/javascript'
+        // document.head.appendChild(script)
+    }, 2000) // 2秒后加载广告
+
     // script.onload = () => {
     //     if (window.AdProvider) {
     //         window.AdProvider.push({ "serve": {} })
