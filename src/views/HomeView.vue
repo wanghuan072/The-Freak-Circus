@@ -52,14 +52,15 @@
                              loading="eager"
                              width="1920" 
                              height="1080"
-                             decoding="sync">
+                             decoding="sync"
+                             style="display: block;">
                         <!-- 背景毛玻璃效果 -->
                         <div class="game-background">
                             <div class="background-blur"></div>
                         </div>
 
-                        <!-- 蒙版层 -->
-                        <div class="game-mask" v-if="!gameLoaded" @click="loadGame">
+                        <!-- 蒙版层 - 确保LCP元素立即可见 -->
+                        <div class="game-mask" @click="loadGame">
                         <div class="game-icon">
                             <img src="/images/game-play.webp" 
                                  alt="The Freak Circus Icon" 
@@ -301,8 +302,6 @@ onMounted(() => {
     // }
 })
 
-// 游戏加载状态
-const gameLoaded = ref(false)
 
 // 格式化日期
 const formatDate = (dateString) => {
@@ -349,6 +348,9 @@ const loadGame = () => {
         }
     }, 100)
 }
+
+// 游戏加载状态 - 初始为false，确保LCP元素立即可见
+const gameLoaded = ref(false)
 </script>
 
 <style scoped>
@@ -580,7 +582,7 @@ const loadGame = () => {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
-/* 游戏背景图片样式 */
+/* 游戏背景图片样式 - 优化LCP */
 .game-bg-image {
     position: absolute;
     top: 0;
@@ -589,6 +591,9 @@ const loadGame = () => {
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    /* 确保图片立即可见 */
+    display: block !important;
+    visibility: visible !important;
 }
 
 /* 背景毛玻璃效果 */
