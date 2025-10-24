@@ -44,6 +44,15 @@
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
                     <div class="game-container">
+                        <!-- 背景图片 - 优化LCP -->
+                        <img src="/images/home_img_02.webp" 
+                             alt="The Freak Circus Game Background" 
+                             class="game-bg-image"
+                             fetchpriority="high"
+                             loading="eager"
+                             width="1920" 
+                             height="1080"
+                             decoding="sync">
                         <!-- 背景毛玻璃效果 -->
                         <div class="game-background">
                             <div class="background-blur"></div>
@@ -577,6 +586,17 @@ const loadGame = () => {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
+/* 游戏背景图片样式 */
+.game-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
 /* 背景毛玻璃效果 */
 .game-background {
     position: absolute;
@@ -584,8 +604,8 @@ const loadGame = () => {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/images/home_img_02.webp') center/cover no-repeat;
-    z-index: 1;
+    /* 移除CSS背景图片，改用img标签 */
+    z-index: 2;
 }
 
 .background-blur {
