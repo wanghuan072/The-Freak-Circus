@@ -42,8 +42,22 @@
 
   <!-- 关键资源预加载 - 优化LCP -->
   <link rel="preload" as="image" href="/images/home_img_01.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/home_img_02.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/logo.webp" fetchpriority="high">
   
+  <!-- 预加载关键CSS -->
+  <link rel="preload" href="/src/assets/css/public.css" as="style">
   
+  <!-- 预加载关键字体 -->
+  <link rel="preload" href="data:font/woff2;base64," as="font" type="font/woff2" crossorigin>
+  
+  <!-- DNS预解析 -->
+  <link rel="dns-prefetch" href="//html-classic.itch.zone">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  
+  <!-- 预连接关键域名 -->
+  <link rel="preconnect" href="https://html-classic.itch.zone" crossorigin>
   
   <!-- 防止布局偏移的简单样式 -->
   <style>
@@ -64,6 +78,7 @@
   <link rel="alternate" hreflang="es" href="https://thefreakcircus.org/es">
   <link rel="alternate" hreflang="pt" href="https://thefreakcircus.org/pt">
   <link rel="alternate" hreflang="x-default" href="https://thefreakcircus.org">
+
 
   <!-- 延迟加载第三方脚本 - 优化关键路径 -->
   <script>

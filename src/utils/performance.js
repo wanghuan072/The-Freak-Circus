@@ -48,6 +48,49 @@ export async function batchDOMOperations(fn) {
 }
 
 /**
+ * 图片懒加载优化
+ * @param {string} selector - 图片选择器
+ */
+export function setupLazyLoading(selector = 'img[data-src]') {
+  if (!('IntersectionObserver' in window)) {
+    // 降级处理
+    document.querySelectorAll(selector).forEach(img => {
+      if (img.dataset.src) {
+        img.src = img.dataset.src
+        img.removeAttribute('data-src')
+      }
+    })
+    return
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target
+        if (img.dataset.src) {
+          // 预加载图片
+          const imageLoader = new Image()
+          imageLoader.onload = () => {
+            img.src = img.dataset.src
+            img.classList.add('loaded')
+            img.removeAttribute('data-src')
+          }
+          imageLoader.src = img.dataset.src
+        }
+        observer.unobserve(img)
+      }
+    })
+  }, {
+    rootMargin: '50px',
+    threshold: 0.1
+  })
+
+  document.querySelectorAll(selector).forEach(img => {
+    observer.observe(img)
+  })
+}
+
+/**
  * 预加载关键资源
  * @param {string[]} resources - 资源URL数组
  */

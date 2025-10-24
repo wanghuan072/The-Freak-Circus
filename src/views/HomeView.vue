@@ -40,6 +40,15 @@
 
         <!-- Play Game Section -->
         <section class="section play-game">
+            <!-- LCP优化：在Vue组件中正确放置关键图片 -->
+            <img src="/images/home_img_02.webp" 
+                 alt="The Freak Circus Game Background" 
+                 class="play-game-bg-image"
+                 fetchpriority="high"
+                 loading="eager"
+                 width="1920" 
+                 height="1080"
+                 decoding="sync">
             <div class="container">
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
@@ -895,6 +904,7 @@ const gameLoaded = ref(false)
     bottom: 0;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(10, 0, 20, 0.7) 100%);
     z-index: 1;
+    pointer-events: none; /* 优化性能：避免鼠标事件 */
 }
 
 .section.hero {
@@ -912,15 +922,27 @@ const gameLoaded = ref(false)
     object-fit: cover;
     object-position: center center;
     z-index: 0;
-    background-attachment: fixed;
+    will-change: transform; /* 优化性能：提示浏览器优化 */
+    contain: layout style paint; /* 优化性能：限制重排范围 */
 }
 
 .section.play-game {
-    background-image: url('/images/home_img_02.webp');
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+/* LCP优化：play-game背景图片样式 */
+.play-game-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 0;
+    will-change: transform; /* 优化性能：提示浏览器优化 */
+    contain: layout style paint; /* 优化性能：限制重排范围 */
 }
 
 .section.about {
