@@ -4,15 +4,11 @@
 
         <!-- Hero Section -->
         <section class="section hero">
-            <!-- 骨架屏 -->
+            <!-- 简化骨架屏 -->
             <div class="hero-skeleton" v-if="!heroImageLoaded">
                 <div class="skeleton-content">
                     <div class="skeleton-title"></div>
                     <div class="skeleton-subtitle"></div>
-                    <div class="skeleton-buttons">
-                        <div class="skeleton-btn"></div>
-                        <div class="skeleton-btn"></div>
-                    </div>
                 </div>
             </div>
             
@@ -23,7 +19,7 @@
                  fetchpriority="high"
                  loading="eager"
                  decoding="sync"
-                 @load="heroImageLoaded = true"
+                 @load="handleImageLoad"
                  :style="{ opacity: heroImageLoaded ? 1 : 0 }">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -290,20 +286,30 @@ import { reviews } from '@/data/reviews.js'
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 const { isMobile } = useDeviceDetection()
 
-// 骨架屏状态
+// 骨架屏状态 - 优化性能
 const heroImageLoaded = ref(false)
 
-// 延迟加载非关键资源
-onMounted(() => {
-    // 延迟加载广告脚本
-    setTimeout(() => {
-        // const script = document.createElement('script')
-        // script.src = 'https://a.magsrv.com/ad-provider.js'
-        // script.async = true
-        // script.type = 'application/javascript'
-        // document.head.appendChild(script)
-    }, 2000) // 2秒后加载广告
+// 优化图片加载处理
+const handleImageLoad = () => {
+    heroImageLoaded.value = true
+}
 
+// 延迟加载非关键资源 - 减少主线程阻塞
+onMounted(() => {
+    // 使用requestIdleCallback优化性能
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => {
+            // 延迟加载广告脚本
+            setTimeout(() => {
+                // const script = document.createElement('script')
+                // script.src = 'https://a.magsrv.com/ad-provider.js'
+                // script.async = true
+                // script.type = 'application/javascript'
+                // document.head.appendChild(script)
+            }, 2000)
+        })
+    }
+    
     // script.onload = () => {
     //     if (window.AdProvider) {
     //         window.AdProvider.push({ "serve": {} })

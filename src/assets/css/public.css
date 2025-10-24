@@ -67,7 +67,7 @@ code, pre {
   z-index: -1;
 }
 
-/* 关键文本样式 */
+/* 简化关键样式 - 减少CSS复杂度 */
 .hero-title {
   font-size: 3rem;
   font-weight: bold;
@@ -81,14 +81,13 @@ code, pre {
   margin-bottom: 1rem;
 }
 
-/* 按钮样式 */
+/* 简化按钮样式 */
 .btn {
   display: inline-block;
   padding: 12px 24px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  transition: all 0.3s ease;
 }
 
 .btn-primary {
@@ -102,19 +101,19 @@ code, pre {
   border: 2px solid #fff;
 }
 
-/* 骨架屏样式 */
+/* 骨架屏样式 - 优化性能 */
 .hero-skeleton {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, #333 25%, #444 50%, #333 75%);
-  background-size: 200% 100%;
-  animation: skeleton-loading 1.5s infinite;
+  background: #333;
   z-index: 1;
+  /* 移除动画，减少主线程阻塞 */
 }
 
+/* 简化骨架屏 - 减少DOM复杂度 */
 .skeleton-content {
   position: relative;
   z-index: 2;
@@ -137,22 +136,7 @@ code, pre {
   margin-bottom: 2rem;
 }
 
-.skeleton-buttons {
-  display: flex;
-  gap: 1rem;
-}
-
-.skeleton-btn {
-  width: 120px;
-  height: 2.5rem;
-  background: rgba(255,255,255,0.1);
-  border-radius: 6px;
-}
-
-@keyframes skeleton-loading {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
-}
+/* 移除动画关键帧，减少性能开销 */
 
 /* 响应式断点 */
 @media (max-width: 768px) {
