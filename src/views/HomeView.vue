@@ -19,13 +19,18 @@
                 </div>
             </div>
             
-            <!-- 背景图片 - 简化配置 -->
+            <!-- 背景图片 - LCP优化 -->
             <img src="/images/home_img_01.webp" 
                  alt="The Freak Circus Game Background" 
                  class="hero-bg-image"
                  fetchpriority="high"
                  loading="eager"
-                 decoding="sync">
+                 decoding="sync"
+                 @load="heroImageLoaded = true"
+                 :style="{ 
+                   opacity: heroImageLoaded ? 1 : 0,
+                   transition: 'opacity 0.2s ease-in-out'
+                 }">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">

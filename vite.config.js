@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
   build: {
-    // 基础构建配置 - 避免过度优化
+    // 优化构建配置 - 平衡性能和稳定性
     rollupOptions: {
       output: {
         // 基础代码分割
@@ -35,6 +35,8 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     // 启用CSS代码分割
     cssCodeSplit: true,
+    // 优化资源内联
+    assetsInlineLimit: 1024,
   },
   // 开发服务器配置
   server: {
