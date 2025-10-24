@@ -39,7 +39,7 @@
         </aside>
 
         <!-- Play Game Section -->
-        <section class="section play-game" ref="playGameSectionRef">
+        <section class="section play-game">
             <div class="container">
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
@@ -324,32 +324,27 @@ const getReviewAvatar = (index) => {
     return avatars[index] || avatars[0]
 }
 
-// 滑动到游戏板块 - 优化性能，减少强制重排
-const playGameSectionRef = ref(null)
-
+// 滑动到游戏板块
 const scrollToGame = () => {
-    if (playGameSectionRef.value) {
-        // 使用ref避免DOM查询，减少强制重排
-        requestAnimationFrame(() => {
-            playGameSectionRef.value.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            })
+    const playGameSection = document.querySelector('.play-game')
+    if (playGameSection) {
+        playGameSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
         })
     }
 }
 
-// 加载游戏 - 优化性能，减少强制重排
+// 加载游戏
 const loadGame = () => {
     gameLoaded.value = true
-    // 滑动到游戏板块 - 优化性能
+    // 滑动到游戏板块
     setTimeout(() => {
-        if (playGameSectionRef.value) {
-            requestAnimationFrame(() => {
-                playGameSectionRef.value.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                })
+        const playGameSection = document.querySelector('.play-game')
+        if (playGameSection) {
+            playGameSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
             })
         }
     }, 100)
@@ -363,7 +358,7 @@ const loadGame = () => {
 
 .section {
     position: relative;
-    /* 移除background-attachment: fixed以减少强制重排 */
+    background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -372,9 +367,6 @@ const loadGame = () => {
     align-items: center;
     justify-content: center;
     padding: 80px 0;
-    /* 优化渲染性能 */
-    will-change: auto;
-    contain: layout style paint;
 }
 
 

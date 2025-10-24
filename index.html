@@ -48,6 +48,16 @@
   <!-- 预加载关键CSS -->
   <link rel="preload" href="/src/assets/css/public.css" as="style">
   
+  <!-- 关键LCP图片 - 立即显示，不依赖JavaScript -->
+  <img src="/images/home_img_02.webp" 
+       alt="The Freak Circus Game Background" 
+       style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; object-fit: cover; z-index: -1; opacity: 0;"
+       fetchpriority="high"
+       loading="eager"
+       width="1920" 
+       height="1080"
+       decoding="sync">
+  
   
   <!-- 防止布局偏移的简单样式 -->
   <style>
