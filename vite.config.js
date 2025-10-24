@@ -35,10 +35,12 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     // 启用CSS代码分割
     cssCodeSplit: true,
-    // 优化资源内联
-    assetsInlineLimit: 1024,
+    // 优化资源内联 - 更小的内联限制
+    assetsInlineLimit: 512,
     // 启用源码映射用于调试
     sourcemap: false,
+    // 优化CSS
+    cssMinify: true,
   },
   // 开发服务器配置
   server: {

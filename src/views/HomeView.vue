@@ -26,7 +26,8 @@
                  @load="heroImageLoaded = true"
                  :style="{ 
                    opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.3s ease-in-out'
+                   transition: 'opacity 0.2s ease-in-out',
+                   willChange: 'opacity'
                  }">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -72,7 +73,7 @@
                         </div>
 
                         <!-- 蒙版层 - 确保LCP元素立即可见 -->
-                        <div class="game-mask" @click="loadGame">
+                        <div class="game-mask" @click="loadGame" v-if="!gameLoaded">
                         <div class="game-icon">
                             <img src="/images/game-play.webp" 
                                  alt="The Freak Circus Icon">
@@ -616,8 +617,8 @@ const gameLoaded = ref(false)
     -webkit-backdrop-filter: blur(20px);
 }
 
-/* 蒙版层 */
-.game-mask {
+/* 蒙版层 - 只在游戏容器内生效 */
+.game-container .game-mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -634,7 +635,7 @@ const gameLoaded = ref(false)
     gap: 30px;
 }
 
-.game-mask:hover {
+.game-container .game-mask:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -655,7 +656,7 @@ const gameLoaded = ref(false)
     object-fit: cover;
 }
 
-.game-mask:hover .game-icon {
+.game-container .game-mask:hover .game-icon {
     transform: scale(1.05);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
 }
@@ -1159,7 +1160,7 @@ const gameLoaded = ref(false)
     }
 
 
-    .game-mask {
+    .game-container .game-mask {
         gap: 10px;
     }
 
