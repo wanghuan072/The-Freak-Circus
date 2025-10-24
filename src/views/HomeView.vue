@@ -4,13 +4,27 @@
 
         <!-- Hero Section -->
         <section class="section hero">
+            <!-- 骨架屏 -->
+            <div class="hero-skeleton" v-if="!heroImageLoaded">
+                <div class="skeleton-content">
+                    <div class="skeleton-title"></div>
+                    <div class="skeleton-subtitle"></div>
+                    <div class="skeleton-buttons">
+                        <div class="skeleton-btn"></div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                </div>
+            </div>
+            
             <!-- 背景图片 -->
             <img src="/images/home_img_01.webp" 
                  alt="The Freak Circus Game Background" 
                  class="hero-bg-image"
                  fetchpriority="high"
                  loading="eager"
-                 decoding="sync">
+                 decoding="sync"
+                 @load="heroImageLoaded = true"
+                 :style="{ opacity: heroImageLoaded ? 1 : 0 }">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">
@@ -42,9 +56,9 @@
             <img src="/images/home_img_02.webp" 
                  alt="The Freak Circus Game Background" 
                  class="play-game-bg-image"
-                 fetchpriority="high"
-                 loading="eager"
-                 decoding="sync">
+                 fetchpriority="low"
+                 loading="lazy"
+                 decoding="async">
             <div class="container">
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
@@ -276,13 +290,19 @@ import '@/assets/css/public.css'
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 const { isMobile } = useDeviceDetection()
 
-// 加载广告脚本
+// 骨架屏状态
+const heroImageLoaded = ref(false)
+
+// 延迟加载非关键资源
 onMounted(() => {
-    // const script = document.createElement('script')
-    // script.src = 'https://a.magsrv.com/ad-provider.js'
-    // script.async = true
-    // script.type = 'application/javascript'
-    // document.head.appendChild(script)
+    // 延迟加载广告脚本
+    setTimeout(() => {
+        // const script = document.createElement('script')
+        // script.src = 'https://a.magsrv.com/ad-provider.js'
+        // script.async = true
+        // script.type = 'application/javascript'
+        // document.head.appendChild(script)
+    }, 2000) // 2秒后加载广告
 
     // script.onload = () => {
     //     if (window.AdProvider) {
