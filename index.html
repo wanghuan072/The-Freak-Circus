@@ -49,6 +49,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
+  <!-- 预加载关键字体 - 减少FOIT -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
+  
   <!-- 延迟预加载其他图片 -->
   <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="low">
   <link rel="preload" as="image" href="/images/home_img_02.webp" fetchpriority="low">
@@ -80,36 +84,6 @@
       z-index: -1;
     }
     
-    /* 关键文本样式 - 内联优化SI */
-    .hero-title {
-      font-size: 3rem;
-      font-weight: bold;
-      color: #fff;
-      margin-bottom: 1rem;
-      line-height: 1.2;
-    }
-    
-    .hero-subtitle {
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 1rem;
-    }
-    
-    /* 关键按钮样式 */
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
-    
-    .btn-primary {
-      background: #ff6b6b;
-      color: #fff;
-    }
-    
     /* 骨架屏样式 */
     .hero-skeleton {
       position: absolute;
@@ -136,6 +110,8 @@
   <!-- 关键资源预加载 - 进一步优化LCP -->
   <link rel="modulepreload" href="/src/main.js">
   <link rel="modulepreload" href="/src/views/HomeView.vue">
+  <link rel="modulepreload" href="/src/components/AppHeader.vue">
+  <link rel="modulepreload" href="/src/i18n/index.js">
 
   <!-- Language Alternatives -->
   <link rel="alternate" hreflang="en" href="https://thefreakcircus.org">

@@ -24,7 +24,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 /* 基础样式 */
@@ -54,6 +54,7 @@ code, pre {
   font-weight: bold;
   color: #fff;
   margin-bottom: 1rem;
+  line-height: 1.2;
 }
 
 .hero-subtitle {
@@ -118,6 +119,38 @@ code, pre {
   border-radius: 6px;
 }
 
+/* 关键section样式 */
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* 关键游戏容器样式 */
+.game-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* 关键about样式 */
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
 /* 响应式断点 */
 @media (max-width: 768px) {
   .container {
@@ -135,6 +168,15 @@ code, pre {
   
   .skeleton-content {
     padding: 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .about-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 

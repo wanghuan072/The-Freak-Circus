@@ -2,6 +2,9 @@
     <div class="home-page">
         <AppHeader />
 
+
+        
+
         <!-- Hero Section -->
         <section class="section hero">
             <!-- 骨架屏 -->
@@ -26,8 +29,9 @@
                  @load="heroImageLoaded = true"
                  :style="{ 
                    opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.2s ease-in-out',
-                   willChange: 'opacity'
+                   transition: 'opacity 0.1s ease-in-out',
+                   willChange: 'opacity',
+                   transform: 'translateZ(0)'
                  }">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -53,6 +57,8 @@
         <aside class="ad-section" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5746162"></ins>
         </aside>
+
+        <iframe src="https://mapgenie.io/escape-from-duckov/maps/ground-zero?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
 
         <!-- Play Game Section -->
         <section class="section play-game">
@@ -617,8 +623,8 @@ const gameLoaded = ref(false)
     -webkit-backdrop-filter: blur(20px);
 }
 
-/* 蒙版层 */
-.game-mask {
+/* 蒙版层 - 只在游戏容器内生效 */
+.game-container .game-mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -635,7 +641,7 @@ const gameLoaded = ref(false)
     gap: 30px;
 }
 
-.game-mask:hover {
+.game-container .game-mask:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -656,7 +662,7 @@ const gameLoaded = ref(false)
     object-fit: cover;
 }
 
-.game-mask:hover .game-icon {
+.game-container .game-mask:hover .game-icon {
     transform: scale(1.05);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
 }
@@ -1160,7 +1166,7 @@ const gameLoaded = ref(false)
     }
 
 
-    .game-mask {
+    .game-container .game-mask {
         gap: 10px;
     }
 
