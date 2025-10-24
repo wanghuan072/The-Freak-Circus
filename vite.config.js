@@ -20,41 +20,23 @@ export default defineConfig({
     },
   },
   build: {
-    // 优化构建配置 - 减少未使用JavaScript
+    // 简化的构建配置
     rollupOptions: {
       output: {
-        manualChunks: {
-          // 将Vue相关库分离
-          vue: ['vue', 'vue-router', 'vue-i18n'],
-          // 将工具库分离
-          utils: ['pinia'],
-          // 分离i18n语言文件
-          'i18n-en': ['./src/locales/en.json'],
-          'i18n-zh': ['./src/locales/zh.json'],
-          'i18n-ja': ['./src/locales/ja.json'],
-          'i18n-other': ['./src/locales/ru.json', './src/locales/ko.json', './src/locales/de.json', './src/locales/fr.json', './src/locales/es.json', './src/locales/pt.json']
+        // 基础代码分割 - 只分离第三方库
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {
+            return 'vendor'
+          }
         }
       }
     },
-    // 启用压缩
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-        // 移除未使用的代码
-        unused: true,
-        dead_code: true,
-        // 移除未使用的导入
-        pure_funcs: ['console.log', 'console.info', 'console.debug']
-      }
-    },
-    // 设置chunk大小警告限制
+    // 使用默认压缩
+    minify: 'esbuild',
+    // 设置合理的chunk大小警告限制
     chunkSizeWarningLimit: 1000,
     // 启用CSS代码分割
     cssCodeSplit: true,
-    // 优化资源内联
-    assetsInlineLimit: 4096
   },
   // 开发服务器配置
   server: {
