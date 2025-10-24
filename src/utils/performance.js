@@ -145,3 +145,61 @@ export function optimizeComponent(component) {
 
   return component
 }
+
+/**
+ * 图片懒加载优化
+ * @param {string} selector - 图片选择器
+ */
+export function optimizeImageLoading(selector = 'img[loading="lazy"]') {
+  if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target
+          if (img.dataset.src) {
+            img.src = img.dataset.src
+            img.removeAttribute('data-src')
+            observer.unobserve(img)
+          }
+        }
+      })
+    })
+
+    document.querySelectorAll(selector).forEach(img => {
+      imageObserver.observe(img)
+    })
+  }
+}
+
+/**
+ * 关键资源预加载
+ * @param {string[]} resources - 资源URL数组
+ */
+export function preloadCriticalResources(resources) {
+  resources.forEach(resource => {
+    const link = document.createElement('link')
+    link.rel = 'preload'
+    link.href = resource
+    link.as = resource.endsWith('.css') ? 'style' : 'image'
+    if (resource.endsWith('.webp')) {
+      link.fetchPriority = 'high'
+    }
+    document.head.appendChild(link)
+  })
+}
+
+/**
+ * 优化字体加载
+ * @param {string} fontUrl - 字体URL
+ */
+export function optimizeFontLoading(fontUrl) {
+  const link = document.createElement('link')
+  link.rel = 'preload'
+  link.href = fontUrl
+  link.as = 'style'
+  link.onload = function() {
+    this.onload = null
+    this.rel = 'stylesheet'
+  }
+  document.head.appendChild(link)
+}

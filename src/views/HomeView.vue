@@ -5,34 +5,9 @@
 
         
 
-        <!-- Hero Section -->
+        <!-- Hero Section - 优化LCP和FCP -->
         <section class="section hero">
-            <!-- 骨架屏 -->
-            <div class="hero-skeleton" v-if="!heroImageLoaded">
-                <div class="skeleton-content">
-                    <div class="skeleton-title"></div>
-                    <div class="skeleton-subtitle"></div>
-                    <div class="skeleton-buttons">
-                        <div class="skeleton-btn"></div>
-                        <div class="skeleton-btn"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- 背景图片 - 激进LCP优化 -->
-            <img src="/images/home_img_01.webp" 
-                 alt="The Freak Circus Game Background" 
-                 class="hero-bg-image"
-                 fetchpriority="high"
-                 loading="eager"
-                 decoding="sync"
-                 @load="heroImageLoaded = true"
-                 :style="{ 
-                   opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.1s ease-in-out',
-                   willChange: 'opacity',
-                   transform: 'translateZ(0)'
-                 }">
+            <!-- 关键内容优先渲染 - 优化FCP -->
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">
@@ -51,6 +26,20 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- 背景图片 - 延迟加载优化LCP -->
+            <img src="/images/home_img_01.webp" 
+                 alt="The Freak Circus Game Background" 
+                 class="hero-bg-image"
+                 fetchpriority="high"
+                 loading="eager"
+                 decoding="sync"
+                 @load="heroImageLoaded = true"
+                 :style="{ 
+                   opacity: heroImageLoaded ? 1 : 0,
+                   transition: 'opacity 0.3s ease-in-out',
+                   willChange: 'opacity'
+                 }">
         </section>
 
         <!-- 移动端横幅广告1 -->

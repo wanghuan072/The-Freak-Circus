@@ -5,14 +5,10 @@
   <meta charset="UTF-8">
   <link rel="icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
   <title>The Freak Circus - thefreakcircus.org | Psychological Horror Visual Novel</title>
-
-  <!-- Performance optimizations -->
-  <link rel="dns-prefetch" href="//html-classic.itch.zone">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="preconnect" href="https://html-classic.itch.zone" crossorigin>
-
-  <!-- SEO Meta Tags -->
+  <meta name="title" content="The Freak Circus - thefreakcircus.org | Psychological Horror Visual Novel">
   <meta name="description"
     content="Experience The Freak Circus, a psychological horror visual novel featuring Pierrot and Harlequin. Play online or download for PC, Mac, and Linux.">
   <meta name="keywords"
@@ -20,50 +16,76 @@
   <meta name="author" content="Neko Bueno">
   <meta name="robots" content="index, follow">
 
-  <!-- Open Graph Meta Tags -->
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="The Freak Circus">
+  <meta property="og:url" content="https://thefreakcircus.org/">
   <meta property="og:title" content="The Freak Circus - thefreakcircus.org | Psychological Horror Visual Novel">
   <meta property="og:description"
     content="Experience The Freak Circus, a psychological horror visual novel featuring Pierrot and Harlequin. Play online or download for PC, Mac, and Linux.">
   <meta property="og:image" content="https://thefreakcircus.org/images/game-play.webp">
-  <meta property="og:url" content="https://thefreakcircus.org">
+  <meta property="og:site_name" content="The Freak Circus">
+  <meta property="og:locale" content="en_US">
 
-  <!-- Twitter Card Meta Tags -->
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://thefreakcircus.org/">
   <meta name="twitter:title" content="The Freak Circus - thefreakcircus.org | Psychological Horror Visual Novel">
   <meta name="twitter:description"
     content="Experience The Freak Circus, a psychological horror visual novel featuring Pierrot and Harlequin. Play online or download for PC, Mac, and Linux.">
   <meta name="twitter:image" content="https://thefreakcircus.org/images/game-play.webp">
 
-  <!-- 广告联盟验证 -->
-  <!-- <meta name="6a97888e-site-verification" content="c8584dc5e745cd5851e28defaa599900"> -->
-
   <!-- Canonical URL -->
   <link rel="canonical" href="https://thefreakcircus.org">
 
-  <!-- 关键资源预加载 - 优化LCP -->
-  <link rel="preload" as="image" href="/images/home_img_01.webp" fetchpriority="high">
-  <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="high">
-  
+  <!-- Alternate hreflang -->
+  <link rel="alternate" hreflang="en" href="https://thefreakcircus.org/">
+  <link rel="alternate" hreflang="zh" href="https://thefreakcircus.org/zh/">
+  <link rel="alternate" hreflang="ja" href="https://thefreakcircus.org/ja/">
+  <link rel="alternate" hreflang="ru" href="https://thefreakcircus.org/ru/">
+  <link rel="alternate" hreflang="ko" href="https://thefreakcircus.org/ko/">
+  <link rel="alternate" hreflang="de" href="https://thefreakcircus.org/de/">
+  <link rel="alternate" hreflang="fr" href="https://thefreakcircus.org/fr/">
+  <link rel="alternate" hreflang="es" href="https://thefreakcircus.org/es/">
+  <link rel="alternate" hreflang="pt" href="https://thefreakcircus.org/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://thefreakcircus.org/">
+
+  <!-- 关键资源预加载 - 优化LCP和FCP -->
+  <link rel="preload" href="/images/home_img_01.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="/images/game-play.webp" as="image" fetchpriority="high">
+
   <!-- 预连接关键域名 -->
   <link rel="preconnect" href="https://html-classic.itch.zone" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <!-- 预加载关键字体 - 优化LCP -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
-  
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
   <!-- 关键CSS内联 - 优化SI和LCP -->
   <style>
-    /* 防止布局偏移的关键样式 */
+    /* 基础重置和关键样式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: #fff;
+      background: #000;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* 关键布局样式 - 优化LCP */
     #app {
       min-height: 100vh;
       background: #000;
     }
-    
-    /* 关键布局样式 */
+
     .hero {
       position: relative;
       min-height: 100vh;
@@ -71,7 +93,7 @@
       align-items: center;
       background: #000;
     }
-    
+
     .hero-bg-image {
       position: absolute;
       top: 0;
@@ -81,7 +103,7 @@
       object-fit: cover;
       z-index: -1;
     }
-    
+
     /* 关键文本样式 - 优化SI */
     .hero-title {
       font-size: 3rem;
@@ -90,13 +112,13 @@
       margin-bottom: 1rem;
       line-height: 1.2;
     }
-    
+
     .hero-subtitle {
       font-size: 1.2rem;
       color: #ccc;
       margin-bottom: 1rem;
     }
-    
+
     /* 关键按钮样式 */
     .btn {
       display: inline-block;
@@ -106,12 +128,18 @@
       font-weight: bold;
       transition: all 0.3s ease;
     }
-    
+
     .btn-primary {
       background: #ff6b6b;
       color: #fff;
     }
-    
+
+    .btn-secondary {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+
     /* 关键容器样式 */
     .container {
       width: 100%;
@@ -119,12 +147,12 @@
       margin: 0 auto;
       padding: 0 20px;
     }
-    
+
     /* 关键section样式 - 优化SI */
     .section {
       padding: 60px 0;
     }
-    
+
     .section-title {
       font-size: 2.5rem;
       font-weight: bold;
@@ -132,7 +160,7 @@
       text-align: center;
       margin-bottom: 2rem;
     }
-    
+
     /* 关键游戏容器样式 */
     .game-container {
       position: relative;
@@ -143,77 +171,78 @@
       overflow: hidden;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
-    
+
     /* 关键关于页面样式 */
     .about-wrapper {
       max-width: 800px;
       margin: 0 auto;
       padding: 0 20px;
     }
-  </style>
-  
-  <!-- 延迟加载非关键CSS -->
-  <link rel="preload" href="/src/assets/css/public.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/src/assets/css/public.css"></noscript>
-  
-  <!-- 关键资源预加载 - 进一步优化LCP -->
-  <link rel="modulepreload" href="/src/main.js">
-  <link rel="modulepreload" href="/src/views/HomeView.vue">
-  <link rel="modulepreload" href="/src/components/AppHeader.vue">
-  <link rel="modulepreload" href="/src/i18n/index.js">
 
-  <!-- Language Alternatives -->
-  <link rel="alternate" hreflang="en" href="https://thefreakcircus.org">
-  <link rel="alternate" hreflang="zh" href="https://thefreakcircus.org/zh">
-  <link rel="alternate" hreflang="ja" href="https://thefreakcircus.org/ja">
-  <link rel="alternate" hreflang="ru" href="https://thefreakcircus.org/ru">
-  <link rel="alternate" hreflang="ko" href="https://thefreakcircus.org/ko">
-  <link rel="alternate" hreflang="de" href="https://thefreakcircus.org/de">
-  <link rel="alternate" hreflang="fr" href="https://thefreakcircus.org/fr">
-  <link rel="alternate" hreflang="es" href="https://thefreakcircus.org/es">
-  <link rel="alternate" hreflang="pt" href="https://thefreakcircus.org/pt">
-  <link rel="alternate" hreflang="x-default" href="https://thefreakcircus.org">
+    /* 加载状态样式 */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    /* 响应式优化 */
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 10px;
+      }
+      
+      .hero-title {
+        font-size: 2rem;
+      }
+      
+      .hero-subtitle {
+        font-size: 1rem;
+      }
+      
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
 
   <!-- 延迟加载第三方脚本 - 优化关键路径 -->
   <script>
-    // window.addEventListener('load', function () {
-    //   setTimeout(function () {
-    //     // 延迟加载Google Analytics
-    //     const gtagScript = document.createElement('script');
-    //     gtagScript.async = true;
-    //     gtagScript.defer = true;
-    //     gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH';
-    //     document.head.appendChild(gtagScript);
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        // 延迟加载Google Analytics
+        const gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.defer = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH';
+        document.head.appendChild(gtagScript);
 
-    //     window.dataLayer = window.dataLayer || [];
-    //     function gtag() { dataLayer.push(arguments); }
-    //     gtag('js', new Date());
-    //     gtag('config', 'G-EXJV3Y1SXH');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-EXJV3Y1SXH');
 
-    //     // 延迟加载Google AdSense
-    //     const adsenseScript = document.createElement('script');
-    //     adsenseScript.async = true;
-    //     adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705';
-    //     adsenseScript.crossOrigin = 'anonymous';
-    //     document.head.appendChild(adsenseScript);
-    //   }, 5000); // 2秒后加载
-    // });
+        // 延迟加载Google AdSense
+        const adsenseScript = document.createElement('script');
+        adsenseScript.async = true;
+        adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705';
+        adsenseScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsenseScript);
+      }, 3000);
+    });
   </script>
+
+  <!-- 广告联盟验证 -->
+  <meta name="6a97888e-site-verification" content="c8584dc5e745cd5851e28defaa599900">
 </head>
 
 <body>
-  <div id="app"></div>
-
-  <!-- PC全插广告  -->
-   <!-- <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
-  <ins class="eas6a97888e35" data-zoneid="5746156"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script> -->
-
-  <!-- 移动全插广告1 -->
-  <!-- <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
-  <ins class="eas6a97888e33" data-zoneid="5746166"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script> -->
-
+  <div id="app">
+    <div class="loading">Loading...</div>
+  </div>
   <script type="module" src="/src/main.js"></script>
 </body>
 
