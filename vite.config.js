@@ -20,7 +20,7 @@ export default defineConfig({
     },
   },
   build: {
-    // 优化构建配置
+    // 优化构建配置 - 减少关键路径阻塞
     rollupOptions: {
       output: {
         manualChunks: {
@@ -43,7 +43,9 @@ export default defineConfig({
       }
     },
     // 设置chunk大小警告限制
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 1000,
+    // 启用CSS代码分割
+    cssCodeSplit: true
   },
   // 开发服务器配置
   server: {
