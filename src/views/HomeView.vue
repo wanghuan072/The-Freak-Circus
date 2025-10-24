@@ -39,7 +39,7 @@
         </aside>
 
         <!-- Play Game Section -->
-        <section class="section play-game">
+        <section class="section play-game" ref="playGameSectionRef">
             <div class="container">
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
@@ -324,14 +324,14 @@ const getReviewAvatar = (index) => {
     return avatars[index] || avatars[0]
 }
 
-// 滑动到游戏板块 - 优化性能
+// 滑动到游戏板块 - 优化性能，减少强制重排
+const playGameSectionRef = ref(null)
+
 const scrollToGame = () => {
-    // 使用缓存避免重复查询DOM
-    const playGameSection = document.querySelector('.play-game')
-    if (playGameSection) {
-        // 使用requestAnimationFrame优化滚动性能
+    if (playGameSectionRef.value) {
+        // 使用ref避免DOM查询，减少强制重排
         requestAnimationFrame(() => {
-            playGameSection.scrollIntoView({
+            playGameSectionRef.value.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
             })
@@ -339,15 +339,14 @@ const scrollToGame = () => {
     }
 }
 
-// 加载游戏
+// 加载游戏 - 优化性能，减少强制重排
 const loadGame = () => {
     gameLoaded.value = true
     // 滑动到游戏板块 - 优化性能
     setTimeout(() => {
-        const playGameSection = document.querySelector('.play-game')
-        if (playGameSection) {
+        if (playGameSectionRef.value) {
             requestAnimationFrame(() => {
-                playGameSection.scrollIntoView({
+                playGameSectionRef.value.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 })
@@ -373,6 +372,9 @@ const loadGame = () => {
     align-items: center;
     justify-content: center;
     padding: 80px 0;
+    /* 优化渲染性能 */
+    will-change: auto;
+    contain: layout style paint;
 }
 
 
