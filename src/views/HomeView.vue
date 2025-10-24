@@ -285,7 +285,7 @@ import { ref, computed, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
-import '@/assets/css/public.css'
+// CSS已通过index.html预加载，无需重复导入
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 const { isMobile } = useDeviceDetection()
