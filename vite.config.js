@@ -68,16 +68,6 @@ export default defineConfig({
     // 设置缓存
     headers: {
       'Cache-Control': 'public, max-age=31536000'
-    },
-    // HMR配置 - 修复WebSocket连接问题
-    hmr: {
-      port: 5173,
-      host: 'localhost'
-    },
-    // 监听配置
-    watch: {
-      usePolling: false,
-      interval: 100
     }
   }
 })

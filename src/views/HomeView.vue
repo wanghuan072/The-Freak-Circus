@@ -40,7 +40,7 @@
 
         <!-- Play Game Section -->
         <section class="section play-game">
-            <!-- LCP优化：在Vue组件中正确放置关键图片 -->
+            <!-- LCP优化：背景图片改为img标签 -->
             <img src="/images/home_img_02.webp" 
                  alt="The Freak Circus Game Background" 
                  class="play-game-bg-image"
