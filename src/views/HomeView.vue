@@ -263,17 +263,17 @@ const { isMobile } = useDeviceDetection()
 
 // 加载广告脚本
 onMounted(() => {
-    const script = document.createElement('script')
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.async = true
-    script.type = 'application/javascript'
-    document.head.appendChild(script)
+    // const script = document.createElement('script')
+    // script.src = 'https://a.magsrv.com/ad-provider.js'
+    // script.async = true
+    // script.type = 'application/javascript'
+    // document.head.appendChild(script)
 
-    script.onload = () => {
-        if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} })
-        }
-    }
+    // script.onload = () => {
+    //     if (window.AdProvider) {
+    //         window.AdProvider.push({ "serve": {} })
+    //     }
+    // }
 })
 
 // 游戏加载状态
