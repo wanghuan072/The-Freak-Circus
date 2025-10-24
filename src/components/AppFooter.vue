@@ -6,11 +6,14 @@
                 <div class="footer-section brand-section">
                     <div class="brand-logo">
                         <div class="logo-icon">
-                            <img src="/images/logo.png" alt="The Freak Circus Logo" class="logo-image" />
+                            <img src="/images/logo.webp" alt="The Freak Circus Logo" class="logo-image" />
                         </div>
                         <h3>{{ $t('footer.brandTitle') }}</h3>
                     </div>
                     <p>{{ $t('footer.brandDesc') }}</p>
+                    <div class="footer-warning">
+                        <p><strong>⚠️ {{ $t('footer.warning') }}</strong></p>
+                    </div>
                     <div class="social-links">
                         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-link"
                             aria-label="Follow us on Twitter">
@@ -129,8 +132,28 @@ import '@/assets/css/public.css'
 .brand-section p {
     color: #ccc;
     line-height: 1.6;
-    margin-bottom: 1.5rem;
+    margin-bottom: 10px;
     font-size: 14px;
+}
+
+.footer-warning {
+    background: rgba(255, 107, 107, 0.1);
+    border: 1px solid rgba(255, 107, 107, 0.3);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer-warning p {
+    margin: 0;
+    font-size: 12px;
+    color: #ff6b6b;
+    line-height: 1.4;
+}
+
+.footer-warning strong {
+    color: #ff6b6b;
 }
 
 .social-links {
@@ -216,6 +239,15 @@ import '@/assets/css/public.css'
 
     .brand-section p {
         margin-bottom: 10px;
+    }
+
+    .footer-warning {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .footer-warning p {
+        font-size: 10px;
     }
 
     .footer-section h4 {

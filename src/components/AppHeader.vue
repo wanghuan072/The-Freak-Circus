@@ -4,7 +4,7 @@
             <div class="header-content">
                 <div class="logo">
                     <a href="/">
-                        <img src="/images/logo.png" alt="The Freak Circus Logo" class="logo-image" />
+                        <img src="/images/logo.webp" alt="The Freak Circus Logo" class="logo-image" />
                         <span class="logo-text">The Freak Circus</span>
                     </a>
                 </div>

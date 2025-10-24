@@ -10,12 +10,6 @@
                     <p class="hero-subtitle">{{ $t('HomePage.hero.subtitle') }}</p>
                     <div class="hero-description">
                         <p>{{ $t('HomePage.hero.description') }}</p>
-
-                        <!-- Content Warning -->
-                        <div class="hero-warning">
-                            <p><strong>⚠️ {{ $t('HomePage.hero.warning') }}</strong></p>
-                        </div>
-
                         <!-- Platform Support -->
                         <div class="hero-platforms">
                             <p><strong>{{ $t('HomePage.hero.platforms') }}</strong></p>
@@ -412,28 +406,6 @@ const loadGame = () => {
 }
 
 
-.hero-warning {
-    background: rgba(255, 107, 107, 0.1);
-    border: 1px solid rgba(255, 107, 107, 0.3);
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-warning p {
-    margin: 0;
-    font-size: 14px;
-    color: #ff6b6b;
-    line-height: 1.5;
-}
-
-.hero-warning strong {
-    color: #ff6b6b;
-}
 
 .hero-platforms {
     margin-top: 24px;
@@ -1335,14 +1307,6 @@ const loadGame = () => {
         margin-bottom: 10px;
     }
 
-    .hero-warning {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .hero-warning p {
-        font-size: 12px;
-    }
 
     .hero-platforms {
         margin-top: 20px;
