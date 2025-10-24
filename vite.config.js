@@ -35,14 +35,14 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     // 启用CSS代码分割
     cssCodeSplit: true,
-    // 优化资源内联 - 更小的内联限制
-    assetsInlineLimit: 256,
+    // 优化资源内联 - 恢复性能
+    assetsInlineLimit: 1024,
     // 启用源码映射用于调试
     sourcemap: false,
     // 优化CSS
     cssMinify: true,
-    // 优化构建输出
-    target: 'es2015',
+    // 优化构建输出 - 减少TBT
+    target: 'es2020',
   },
   // 开发服务器配置
   server: {

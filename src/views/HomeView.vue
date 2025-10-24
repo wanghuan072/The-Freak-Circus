@@ -303,16 +303,28 @@ const { isMobile } = useDeviceDetection()
 // 骨架屏状态
 const heroImageLoaded = ref(false)
 
-// 延迟加载非关键资源
+// 延迟加载非关键资源 - 优化TBT
 onMounted(() => {
-    // 延迟加载广告脚本
-    setTimeout(() => {
-        // const script = document.createElement('script')
-        // script.src = 'https://a.magsrv.com/ad-provider.js'
-        // script.async = true
-        // script.type = 'application/javascript'
-        // document.head.appendChild(script)
-    }, 2000) // 2秒后加载广告
+    // 使用requestIdleCallback减少主线程阻塞
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => {
+            setTimeout(() => {
+                // const script = document.createElement('script')
+                // script.src = 'https://a.magsrv.com/ad-provider.js'
+                // script.async = true
+                // script.type = 'application/javascript'
+                // document.head.appendChild(script)
+            }, 3000) // 3秒后加载广告
+        })
+    } else {
+        setTimeout(() => {
+            // const script = document.createElement('script')
+            // script.src = 'https://a.magsrv.com/ad-provider.js'
+            // script.async = true
+            // script.type = 'application/javascript'
+            // document.head.appendChild(script)
+        }, 3000)
+    }
 
     // script.onload = () => {
     //     if (window.AdProvider) {

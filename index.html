@@ -57,7 +57,7 @@
   <link rel="preload" as="image" href="/images/game-play.webp" fetchpriority="low">
   <link rel="preload" as="image" href="/images/home_img_02.webp" fetchpriority="low">
   
-  <!-- 关键CSS内联 - 只保留最关键的样式 -->
+  <!-- 关键CSS内联 - 恢复性能优化 -->
   <style>
     /* 防止布局偏移的关键样式 */
     #app {
@@ -82,6 +82,57 @@
       height: 100%;
       object-fit: cover;
       z-index: -1;
+    }
+    
+    /* 关键文本样式 - 恢复SI优化 */
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+    
+    /* 关键按钮样式 */
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-primary {
+      background: #ff6b6b;
+      color: #fff;
+    }
+    
+    /* 关键容器样式 */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* 关键section样式 */
+    .section {
+      padding: 60px 0;
+    }
+    
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 2rem;
     }
     
     /* 骨架屏样式 */
