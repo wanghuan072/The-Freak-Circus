@@ -4,6 +4,15 @@
 
         <!-- Hero Section -->
         <section class="section hero">
+            <!-- 背景图片 - 优化LCP -->
+            <img src="/images/home_img_01.webp" 
+                 alt="The Freak Circus Game Background" 
+                 class="hero-bg-image"
+                 fetchpriority="high"
+                 loading="eager"
+                 width="1920" 
+                 height="1080"
+                 decoding="sync">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">
@@ -900,13 +909,20 @@ const loadGame = () => {
 }
 
 .section.hero {
-    background-image: url('/images/home_img_01.webp');
-    /* 移除background-attachment: fixed以减少强制重排 */
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* 移除CSS背景图片，改用img标签 */
     /* 使用contain优化渲染 */
     contain: layout style paint;
+}
+
+/* Hero背景图片样式 */
+.hero-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .section.play-game {
