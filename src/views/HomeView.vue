@@ -4,7 +4,7 @@
 
         <!-- Hero Section -->
         <section class="section hero">
-            <!-- 背景图片 - 优化LCP，确保立即可见 -->
+            <!-- 背景图片 -->
             <img src="/images/home_img_01.webp" 
                  alt="The Freak Circus Game Background" 
                  class="hero-bg-image"
@@ -12,8 +12,7 @@
                  loading="eager"
                  width="1920" 
                  height="1080"
-                 decoding="sync"
-                 style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                 decoding="sync">
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">
@@ -45,16 +44,6 @@
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
                     <div class="game-container">
-                        <!-- 背景图片 - 优化LCP -->
-                        <img src="/images/home_img_02.webp" 
-                             alt="The Freak Circus Game Background" 
-                             class="game-bg-image"
-                             fetchpriority="high"
-                             loading="eager"
-                             width="1920" 
-                             height="1080"
-                             decoding="sync"
-                             style="display: block;">
                         <!-- 背景毛玻璃效果 -->
                         <div class="game-background">
                             <div class="background-blur"></div>
@@ -64,13 +53,7 @@
                         <div class="game-mask" @click="loadGame">
                         <div class="game-icon">
                             <img src="/images/game-play.webp" 
-                                 alt="The Freak Circus Icon" 
-                                 fetchpriority="high"
-                                 loading="eager"
-                                 width="300" 
-                                 height="200"
-                                 decoding="sync"
-                                 style="display: block;">
+                                 alt="The Freak Circus Icon">
                         </div>
                             <div class="play-button" @click.stop="loadGame">
                                 <div class="play-icon">▶</div>
@@ -583,19 +566,6 @@ const gameLoaded = ref(false)
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
-/* 游戏背景图片样式 - 优化LCP */
-.game-bg-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-    /* 确保图片立即可见 */
-    display: block !important;
-    visibility: visible !important;
-}
 
 /* 背景毛玻璃效果 */
 .game-background {
@@ -604,7 +574,6 @@ const gameLoaded = ref(false)
     left: 0;
     right: 0;
     bottom: 0;
-    /* 移除CSS背景图片，改用img标签 */
     z-index: 2;
 }
 
@@ -929,16 +898,11 @@ const gameLoaded = ref(false)
 }
 
 .section.hero {
-    background-image: url('/images/home_img_01.webp');
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* 使用contain优化渲染 */
-    contain: layout style paint;
+    position: relative;
+    overflow: hidden;
 }
 
-/* Hero背景图片样式 */
+/* LCP图片优化样式 */
 .hero-bg-image {
     position: absolute;
     top: 0;
@@ -946,11 +910,17 @@ const gameLoaded = ref(false)
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center center;
     z-index: -1;
+    background-attachment: fixed;
 }
 
 .section.play-game {
-    background-image: url('/images/home_img_03.webp');
+    background-image: url('/images/home_img_02.webp');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section.about {
@@ -965,16 +935,6 @@ const gameLoaded = ref(false)
     background-image: url('/images/home_img_02.webp');
 }
 
-/* Ad Section */
-.ad-section {
-    padding: 20px 0;
-    text-align: center;
-}
-
-.ad-section ins {
-    display: block;
-    margin: 0 auto;
-}
 
 .section.cta {
     background-image: url('/images/home_img_06.webp');
