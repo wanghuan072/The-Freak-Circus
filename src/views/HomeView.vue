@@ -26,7 +26,7 @@
                  @load="heroImageLoaded = true"
                  :style="{ 
                    opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.2s ease-in-out',
+                   transition: 'opacity 0.1s ease-in-out',
                    willChange: 'opacity'
                  }">
             <div class="container">
