@@ -57,6 +57,9 @@ export function preloadCriticalResources(resources) {
     link.rel = 'preload'
     link.href = resource
     link.as = resource.endsWith('.css') ? 'style' : 'image'
+    if (resource.endsWith('.webp')) {
+      link.fetchPriority = 'high'
+    }
     document.head.appendChild(link)
   })
 }
@@ -169,23 +172,6 @@ export function optimizeImageLoading(selector = 'img[loading="lazy"]') {
       imageObserver.observe(img)
     })
   }
-}
-
-/**
- * 关键资源预加载
- * @param {string[]} resources - 资源URL数组
- */
-export function preloadCriticalResources(resources) {
-  resources.forEach(resource => {
-    const link = document.createElement('link')
-    link.rel = 'preload'
-    link.href = resource
-    link.as = resource.endsWith('.css') ? 'style' : 'image'
-    if (resource.endsWith('.webp')) {
-      link.fetchPriority = 'high'
-    }
-    document.head.appendChild(link)
-  })
 }
 
 /**
