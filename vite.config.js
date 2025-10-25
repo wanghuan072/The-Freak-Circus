@@ -18,25 +18,13 @@ export default defineConfig({
     },
   },
   build: {
-    // 优化构建配置 - 平衡性能和稳定性
+    // 简化的构建配置
     rollupOptions: {
       output: {
-        // 优化代码分割 - 改善LCP
+        // 基础代码分割 - 只分离第三方库
         manualChunks: (id) => {
           if (id.includes('node_modules')) {
-            // 分离Vue相关库
-            if (id.includes('vue') || id.includes('@vue')) {
-              return 'vue-vendor'
-            }
-            // 分离其他第三方库
             return 'vendor'
-          }
-          // 分离大型组件
-          if (id.includes('HomeView.vue')) {
-            return 'home'
-          }
-          if (id.includes('AppHeader.vue')) {
-            return 'header'
           }
         }
       }
@@ -47,16 +35,6 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     // 启用CSS代码分割
     cssCodeSplit: true,
-    // 优化资源内联 - 平衡性能和包大小
-    assetsInlineLimit: 4096,
-    // 启用源码映射用于调试
-    sourcemap: false,
-    // 优化CSS
-    cssMinify: true,
-    // 优化构建输出
-    target: 'es2015',
-    // 优化构建性能
-    reportCompressedSize: false,
   },
   // 开发服务器配置
   server: {

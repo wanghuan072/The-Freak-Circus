@@ -49,7 +49,7 @@
   <link rel="alternate" hreflang="pt" href="https://thefreakcircus.org/pt/">
   <link rel="alternate" hreflang="x-default" href="https://thefreakcircus.org/">
 
-  <!-- 关键资源预加载 - 优化LCP和FCP -->
+  <!-- 关键资源预加载 -->
   <link rel="preload" href="/images/home_img_01.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/game-play.webp" as="image" fetchpriority="high">
 
@@ -57,159 +57,31 @@
   <link rel="preconnect" href="https://html-classic.itch.zone" crossorigin>
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
 
-  <!-- 关键CSS内联 - 优化SI和LCP -->
+  <!-- 基础样式 -->
   <style>
-    /* 基础重置和关键样式 */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
-
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-      line-height: 1.6;
-      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: #000;
+      color: #fff;
       overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     }
 
-    /* 关键布局样式 - 优化LCP */
-    #app {
-      min-height: 100vh;
-      background: #000;
-    }
-
-    .hero {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      background: #000;
-    }
-
-    .hero-bg-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1;
-    }
-
-    /* 关键文本样式 - 优化SI */
-    .hero-title {
-      font-size: 3rem;
-      font-weight: bold;
-      color: #fff;
-      margin-bottom: 1rem;
-      line-height: 1.2;
-    }
-
-    .hero-subtitle {
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 1rem;
-    }
-
-    /* 关键按钮样式 */
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
-
-    .btn-primary {
-      background: #ff6b6b;
-      color: #fff;
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: #fff;
-      border: 2px solid #fff;
-    }
- 
-    /* 关键容器样式 */
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-
-    /* 关键section样式 - 优化SI */
-    .section {
-      padding: 60px 0;
-    }
-
-    .section-title {
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #fff;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    /* 关键游戏容器样式 */
-    .game-container {
-      position: relative;
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-
-    /* 关键关于页面样式 */
-    .about-wrapper {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-
-    /* 加载状态样式 */
     .loading {
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
       font-size: 18px;
-      color: #fff;
-    }
-
-    /* 响应式优化 */
-    @media (max-width: 768px) {
-      .container {
-        padding: 0 10px;
-      }
-      
-      .hero-title {
-        font-size: 2rem;
-      }
-      
-      .hero-subtitle {
-        font-size: 1rem;
-      }
-      
-      .section-title {
-        font-size: 2rem;
-      }
     }
   </style>
 
-  <!-- 延迟加载第三方脚本 - 优化关键路径 -->
+  <!-- 延迟加载第三方脚本 -->
   <script>
     window.addEventListener('load', function () {
       setTimeout(function () {
@@ -231,7 +103,7 @@
         adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705';
         adsenseScript.crossOrigin = 'anonymous';
         document.head.appendChild(adsenseScript);
-      }, 4000);
+      }, 3000);
     });
   </script>
 
