@@ -90,6 +90,9 @@ router.beforeEach(async (to, from, next) => {
   const detectedLanguage = detectLanguageFromPath(to.path)
 
   try {
+    // 导入loadLocale函数
+    const { loadLocale } = await import('@/i18n')
+
     // 如果语言不是英文，先加载语言文件
     if (detectedLanguage !== 'en') {
       await loadLocale(detectedLanguage)
