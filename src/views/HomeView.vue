@@ -2,9 +2,6 @@
     <div class="home-page">
         <AppHeader />
 
-
-        
-
         <!-- Hero Section -->
         <section class="section hero">
             <!-- 背景图片 -->
@@ -286,16 +283,24 @@ const { isMobile } = useDeviceDetection()
 // 骨架屏状态
 const heroImageLoaded = ref(false)
 
+// 广告联盟
+const adProvider = () => {
+    const script = document.createElement('script')
+    script.src = 'https://a.magsrv.com/ad-provider.js'
+    script.async = true
+    script.type = 'application/javascript'
+    document.head.appendChild(script)
+
+    script.onload = () => {
+        if (window.AdProvider) {
+            window.AdProvider.push({ "serve": {} })
+        }
+    }
+}
+
 // 简化资源加载
 onMounted(() => {
-    // 基础初始化逻辑
-    console.log('HomeView mounted')
-
-    // script.onload = () => {
-    //     if (window.AdProvider) {
-    //         window.AdProvider.push({ "serve": {} })
-    //     }
-    // }
+    adProvider()
 })
 
 
