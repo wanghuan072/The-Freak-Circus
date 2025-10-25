@@ -5,9 +5,16 @@
 
         
 
-        <!-- Hero Section - 优化LCP和FCP -->
+        <!-- Hero Section -->
         <section class="section hero">
-            <!-- 关键内容优先渲染 - 优化FCP -->
+            <!-- 背景图片 -->
+            <img src="/images/home_img_01.webp" 
+                 alt="The Freak Circus Game Background" 
+                 class="hero-bg-image"
+                 fetchpriority="high"
+                 loading="eager"
+                 decoding="sync">
+            <!-- 关键内容优先渲染 -->
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
                 <div class="hero-content">
@@ -26,20 +33,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- 背景图片 - 延迟加载优化LCP -->
-            <img src="/images/home_img_01.webp" 
-                 alt="The Freak Circus Game Background" 
-                 class="hero-bg-image"
-                 fetchpriority="high"
-                 loading="eager"
-                 decoding="sync"
-                 @load="heroImageLoaded = true"
-                 :style="{ 
-                   opacity: heroImageLoaded ? 1 : 0,
-                   transition: 'opacity 0.3s ease-in-out',
-                   willChange: 'opacity'
-                 }">
         </section>
 
         <!-- 移动端横幅广告1 -->
@@ -52,7 +45,6 @@
             <img src="/images/home_img_02.webp" 
                  alt="The Freak Circus Game Background" 
                  class="play-game-bg-image"
-                 fetchpriority="low"
                  loading="lazy"
                  decoding="async">
             <div class="container">
@@ -68,7 +60,9 @@
                         <div class="game-mask" @click="loadGame" v-if="!gameLoaded">
                         <div class="game-icon">
                             <img src="/images/game-play.webp" 
-                                 alt="The Freak Circus Icon">
+                                 alt="The Freak Circus Icon"
+                                 loading="lazy"
+                                 decoding="async">
                         </div>
                             <div class="play-button" @click.stop="loadGame">
                                 <div class="play-icon">▶</div>
@@ -113,7 +107,10 @@
                             <p>{{ $t('HomePage.about.description') }}</p>
                         </div>
                         <div class="about-image">
-                            <img src="/images/about-img.webp" alt="The Freak Circus Game Screenshot" loading="lazy">
+                            <img src="/images/about-img.webp" 
+                                 alt="The Freak Circus Game Screenshot" 
+                                 loading="lazy"
+                                 decoding="async">
                         </div>
                     </div>
                     <div class="features-grid">
