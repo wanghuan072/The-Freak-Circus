@@ -68,7 +68,7 @@
     "pierrotColoring": "피에로 색칠하기",
     "harlequin": "할리퀸",
     "wiki": "위키",
-    "updates": "비주얼 노벨 업데이트",
+    "visualNovelGames": "비주얼 노벨 게임",
     "download": "다운로드",
     "openMenu": "메뉴 열기",
     "closeMenu": "메뉴 닫기"
@@ -94,6 +94,9 @@
     "warning": "콘텐츠 경고: 이 게임은 성인 테마, 심리적 공포, 불쾌한 이미지를 포함하고 있습니다. 18세 이상 권장."
   },
   "HomePage": {
+    "moreGames": {
+      "title": "더 많은 비주얼 노벨"
+    },
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "심리 호러 비주얼 노벨",
@@ -149,12 +152,43 @@
       "question11": "The Freak Circus 2장은 언제 나오나요?",
       "answer11": "개발 팀이 2장을 적극적으로 작업 중이며, 확장된 스토리라인과 캐릭터 엔딩이 포함될 예정입니다. 공식 채널을 통해 업데이트를 확인하세요."
     },
+    "updates": {
+      "title": "최신 업데이트",
+      "viewAll": "모든 업데이트 보기",
+      "update1": {
+        "date": "2025년 10월 27일",
+        "title": "주간 업데이트",
+        "excerpt": "시안 텐트의 코딩을 마쳤습니다. 이 장면을 완성하려면 스프라이트 2개만 더 필요해요..."
+      },
+      "update2": {
+        "date": "2025년 9월 27일",
+        "title": "주간 업데이트",
+        "excerpt": "요즘 SNS에 좀 뜸했네요, 죄송합니다 여러분. 사실 코딩하던 부분을 완성하는 데 몰두하고 있었어요..."
+      },
+      "update3": {
+        "date": "2025년 9월 20일",
+        "title": "주간 업데이트",
+        "excerpt": "지금 세 캐릭터 중 한 명의 작업을 진행 중이에요! 정말 신나요 (약간 과몰입한 것 같기도 하지만요)..."
+      }
+    },
     "cta": {
       "title": "서커스에 입장할 준비가 되셨나요?",
       "subtitle": "지금 The Freak Circus를 다운로드하고 미지의 세계로 여행을 시작하세요",
       "downloadButton": "지금 다운로드",
       "learnButton": "자세히 알아보기"
     }
+  },
+  "GamesListPage": {
+    "header": {
+      "title": "인기 비주얼 노벨 게임",
+      "subtitle": "추천하는 비주얼 노벨 게임을 모았습니다"
+    },
+    "viewDetails": "자세히 보기",
+    "playNow": "지금 플레이 →"
+  },
+  "GameDetailPage": {
+    "allReviews": "모든 리뷰",
+    "noComments": "아직 리뷰가 없습니다. 첫 리뷰를 작성해 보세요!"
   },
   "DownloadPage": {
     "header": {

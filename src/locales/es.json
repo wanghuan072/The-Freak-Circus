@@ -68,7 +68,7 @@
     "pierrotColoring": "Pierrot Para Colorear",
     "harlequin": "Arlequín",
     "wiki": "Wiki",
-    "updates": "Actualizaciones",
+    "visualNovelGames": "Visual Novel Games",
     "download": "Descargar",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
@@ -94,6 +94,9 @@
     "warning": "Advertencia de contenido: Este juego contiene temas maduros, horror psicológico e imágenes perturbadoras. Recomendado para mayores de 18 años."
   },
   "HomePage": {
+    "moreGames": {
+      "title": "Más Visual Novels"
+    },
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "Una Novela Visual de Horror Psicológico",
@@ -150,12 +153,43 @@
       "question11": "¿Cuándo saldrá el capítulo 2 de The Freak Circus?",
       "answer11": "El equipo de desarrollo trabaja activamente en el Capítulo 2, con contenido adicional y finales extendidos planeados. Mantente actualizado mediante los canales oficiales."
     },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "viewAll": "Ver todas las actualizaciones",
+      "update1": {
+        "date": "27 de octubre de 2025",
+        "title": "Actualización Semanal",
+        "excerpt": "Logré terminar de programar la carpa cian, solo faltan 2 sprites para completar esa escena..."
+      },
+      "update2": {
+        "date": "27 de septiembre de 2025",
+        "title": "Actualización Semanal",
+        "excerpt": "Perdón por estar un poco ausente en las redes sociales, chicos. He estado muy concentrado en terminar la parte que empecé a programar..."
+      },
+      "update3": {
+        "date": "20 de septiembre de 2025",
+        "title": "Actualización Semanal",
+        "excerpt": "¡Estoy trabajando en uno de los tres personajes! Y estoy muy emocionado (quizás demasiado concentrado en ello)..."
+      }
+    },
     "cta": {
       "title": "¿Listo para entrar al circo?",
       "subtitle": "Descarga The Freak Circus ahora y comienza tu viaje hacia lo desconocido",
       "downloadButton": "Descargar Ahora",
       "learnButton": "Saber más sobre la descarga del juego"
     }
+  },
+  "GamesListPage": {
+    "header": {
+      "title": "Visual Novel Games Populares",
+      "subtitle": "Recopilamos visual novels recomendadas"
+    },
+    "viewDetails": "Ver detalles",
+    "playNow": "Jugar ahora →"
+  },
+  "GameDetailPage": {
+    "allReviews": "Todas las Reseñas",
+    "noComments": "Aún no hay reseñas. ¡Sé el primero en compartir tus pensamientos!"
   },
   "DownloadPage": {
     "header": {

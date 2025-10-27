@@ -68,7 +68,7 @@
     "pierrotColoring": "Pierrot Ausmalen",
     "harlequin": "Harlequin",
     "wiki": "Wiki",
-    "updates": "Visual Novel Updates",
+    "visualNovelGames": "Visual Novel Spiele",
     "download": "Herunterladen",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen"
@@ -94,6 +94,9 @@
     "warning": "Inhaltswarnung: Dieses Spiel enthält erwachsene Themen, psychologischen Horror und verstörende Bilder. Empfohlen für Personen ab 18 Jahren."
   },
   "HomePage": {
+    "moreGames": {
+      "title": "Weitere Visual Novels"
+    },
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "Ein psychologisches Horror-Visual-Novel",
@@ -150,12 +153,43 @@
       "question11": "Wann kommt Kapitel 2 von The Freak Circus?",
       "answer11": "Das Entwicklungsteam arbeitet aktiv an Kapitel 2, mit neuen Inhalten, darunter erweiterte Handlungsstränge und Charakterenden. Bleiben Sie über offizielle Kanäle auf dem Laufenden, um Ankündigungen und Entwicklungsfortschritte zu erfahren."
     },
+    "updates": {
+      "title": "Neueste Updates",
+      "viewAll": "Alle Updates ansehen",
+      "update1": {
+        "date": "27. Oktober 2025",
+        "title": "Wöchentliches Update",
+        "excerpt": "Ich habe es geschafft, das Programmieren des cyanfarbenen Zelts abzuschließen, nur noch 2 Sprites fehlen..."
+      },
+      "update2": {
+        "date": "27. September 2025",
+        "title": "Wöchentliches Update",
+        "excerpt": "Sorry, dass ich in den sozialen Medien etwas abwesend war, Leute – ich war wirklich darauf konzentriert, den Teil fertigzustellen..."
+      },
+      "update3": {
+        "date": "20. September 2025",
+        "title": "Wöchentliches Update",
+        "excerpt": "Ich arbeite an einem der drei Charaktere! Und ich bin wirklich aufgeregt (vielleicht sogar hyperfokussiert darauf)..."
+      }
+    },
     "cta": {
       "title": "Bereit, den Zirkus zu betreten?",
       "subtitle": "Laden Sie The Freak Circus jetzt herunter und beginnen Sie Ihre Reise ins Unbekannte",
       "downloadButton": "Jetzt herunterladen",
       "learnButton": "Mehr über den Spiel-Download erfahren"
     }
+  },
+  "GamesListPage": {
+    "header": {
+      "title": "Beliebte Visual Novel Spiele",
+      "subtitle": "Wir sammeln empfohlene Visual Novel Spiele"
+    },
+    "viewDetails": "Details anzeigen",
+    "playNow": "Jetzt spielen →"
+  },
+  "GameDetailPage": {
+    "allReviews": "Alle Bewertungen",
+    "noComments": "Noch keine Bewertungen. Seien Sie der Erste, der seine Gedanken teilt!"
   },
   "DownloadPage": {
     "header": {

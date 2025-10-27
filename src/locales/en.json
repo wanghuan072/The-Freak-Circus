@@ -68,7 +68,7 @@
     "pierrotColoring": "Pierrot Coloring",
     "harlequin": "Harlequin",
     "wiki": "Wiki",
-    "updates": "Visual Novel Updates",
+    "visualNovelGames": "Visual Novel Games",
     "download": "Download",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
@@ -94,6 +94,9 @@
     "warning": "Content Warning: This game contains mature themes, psychological horror, and disturbing imagery. Recommended for ages 18+."
   },
   "HomePage": {
+    "moreGames": {
+      "title": "More Visual Novel Games"
+    },
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "A Psychological Horror Visual Novel",
@@ -150,12 +153,43 @@
       "question11": "When will chapter 2 of The Freak Circus come out?",
       "answer11": "The development team is actively working on Chapter 2, with new content including extended storylines and character endings planned. Stay updated through official channels for release announcements and development progress."
     },
+    "updates": {
+      "title": "Latest Updates",
+      "viewAll": "View All Updates",
+      "update1": {
+        "date": "October 27, 2025",
+        "title": "Weekly Update",
+        "excerpt": "I managed to finish coding the cyan tent, only 2 sprites left to complete that scene..."
+      },
+      "update2": {
+        "date": "September 27, 2025",
+        "title": "Weekly Update",
+        "excerpt": "Sorry for being a bit absent on social media, folks. I've been really focused on finishing the part I started coding..."
+      },
+      "update3": {
+        "date": "September 20, 2025",
+        "title": "Weekly Update",
+        "excerpt": "I'm working on one of the three characters! And I'm really excited (maybe hyperfocused on it)..."
+      }
+    },
     "cta": {
       "title": "Ready to Enter the Circus?",
       "subtitle": "Download The Freak Circus now and begin your journey into the unknown",
       "downloadButton": "Download Now",
       "learnButton": "Learn more about downloading the game"
     }
+  },
+  "GamesListPage": {
+    "header": {
+      "title": "Hot Visual Novel Games",
+      "subtitle": "We collect recommended visual novel games"
+    },
+    "viewDetails": "View Details",
+    "playNow": "Play Now →"
+  },
+  "GameDetailPage": {
+    "allReviews": "All Reviews",
+    "noComments": "No reviews yet. Be the first to share your thoughts!"
   },
   "DownloadPage": {
     "header": {

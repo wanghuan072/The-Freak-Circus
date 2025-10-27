@@ -32,6 +32,7 @@ const pageConfigs = [
   { path: '/wiki', component: 'WikiView', name: 'Wiki' },
   { path: '/updates', component: 'UpdatesView', name: 'Updates' },
   { path: '/download', component: 'DownloadView', name: 'Download' },
+  { path: '/games', component: 'GamesListView', name: 'GamesList' },
   { path: '/privacy-policy', component: 'PrivacyPolicyView', name: 'PrivacyPolicy' },
   { path: '/terms-of-service', component: 'TermsOfServiceView', name: 'TermsOfService' },
   { path: '/copyright', component: 'CopyrightView', name: 'Copyright' },
@@ -65,7 +66,20 @@ function generateRoutes() {
 }
 
 // 生成路由配置
-const routes = generateRoutes()
+let routes = generateRoutes()
+
+// 添加游戏详情页路由（动态路由）
+supportedLanguages.forEach(lang => {
+  const isDefaultLang = lang === 'en'
+  const prefix = isDefaultLang ? '' : `/${lang}`
+
+  // 游戏详情页 - 使用动态参数
+  routes.push({
+    path: `${prefix}/games/:id`,
+    name: isDefaultLang ? 'GameDetail' : `GameDetail${lang.charAt(0).toUpperCase() + lang.slice(1)}`,
+    component: () => import('@/views/GameDetailView.vue')
+  })
+})
 
 // 创建路由
 const router = createRouter({
@@ -119,7 +133,7 @@ router.beforeEach(async (to, from, next) => {
 async function setPageSEO(route, language) {
   // 获取页面SEO配置
   const seoKey = getSEOKey(route.path, language)
-  
+
   // 只使用英文SEO数据，避免加载所有语言文件
   const localeData = localeDataMap['en']
   const seoData = localeData?.seo?.[seoKey]
@@ -162,6 +176,7 @@ function getSEOKey(path, language) {
     '/wiki': 'wiki',
     '/updates': 'updates',
     '/download': 'download',
+    '/games': 'games',
     '/about-us': 'about',
     '/contact-us': 'contact',
     '/privacy-policy': 'privacy',

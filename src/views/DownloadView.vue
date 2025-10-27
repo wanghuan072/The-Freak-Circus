@@ -43,7 +43,7 @@
                                 </div>
 
                                 <div class="download-cta">
-                                    <a href="https://garula.itch.io/the-freak-circus/download/eyJpZCI6MzYzMTY4NSwiZXhwaXJlcyI6MTc1ODc2Mjc2OH0%3d.2edGDidshJQAvVyM7AlEIZKX6jo%3d"
+                                    <a href="https://garula.itch.io/the-freak-circus/download/eyJpZCI6MzYzMTY4NSwiZXhwaXJlcyI6MTc2MTUzNjAxM30%3d.qGF8R5k7jk5ldhc%2bUblUO88wtp8%3d"
                                         target="_blank" class="download-button">
                                         {{ $t('DownloadPage.main.downloadButton') }}
                                     </a>
@@ -111,18 +111,18 @@
                                 <h3 class="sidebar-title">{{ $t('DownloadPage.sidebar.quickLinks.title') }}</h3>
                                 <nav class="sidebar-nav">
                                     <a href="/" class="sidebar-link">{{ $t('DownloadPage.sidebar.quickLinks.home')
-                                    }}</a>
+                                        }}</a>
                                     <a href="/wiki" class="sidebar-link">{{ $t('DownloadPage.sidebar.quickLinks.wiki')
-                                    }}</a>
+                                        }}</a>
                                     <a href="/pierrot" class="sidebar-link">{{
                                         $t('DownloadPage.sidebar.quickLinks.pierrot')
-                                    }}</a>
+                                        }}</a>
                                     <a href="/harlequin" class="sidebar-link">{{
                                         $t('DownloadPage.sidebar.quickLinks.harlequin')
-                                    }}</a>
+                                        }}</a>
                                     <a href="/updates" class="sidebar-link">{{
                                         $t('DownloadPage.sidebar.quickLinks.updates')
-                                    }}</a>
+                                        }}</a>
                                 </nav>
                             </div>
 

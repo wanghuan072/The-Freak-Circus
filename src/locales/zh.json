@@ -68,7 +68,7 @@
     "pierrotColoring": "Pierrot 填色页",
     "harlequin": "Harlequin",
     "wiki": "Wiki",
-    "updates": "视觉小说更新",
+    "visualNovelGames": "视觉小说游戏",
     "download": "下载",
     "openMenu": "打开菜单",
     "closeMenu": "关闭菜单"
@@ -94,6 +94,9 @@
     "warning": "内容警告：本游戏包含成人主题、心理恐怖和令人不安的图像。建议18岁以上玩家游玩。"
   },
   "HomePage": {
+    "moreGames": {
+      "title": "更多视觉小说游戏"
+    },
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "心理恐怖视觉小说",
@@ -150,12 +153,43 @@
       "question11": "第二章何时发布？",
       "answer11": "开发团队正在积极制作第二章，包括扩展剧情与角色结局。请通过官方渠道关注发布与开发进度。"
     },
+    "updates": {
+      "title": "最新更新",
+      "viewAll": "查看所有更新",
+      "update1": {
+        "date": "2025年10月27日",
+        "title": "每周更新",
+        "excerpt": "我终于完成了青色帐篷（Cyan Tent）的代码，还差两个立绘就能把那场戏搞定..."
+      },
+      "update2": {
+        "date": "2025年9月27日",
+        "title": "每周更新",
+        "excerpt": "最近在社交媒体上有点消失，抱歉各位。我一直专注在完成手头那部分代码..."
+      },
+      "update3": {
+        "date": "2025年9月20日",
+        "title": "每周更新",
+        "excerpt": "我正在制作三个角色中的其中一个！我真的很兴奋（也许有点太专注了）..."
+      }
+    },
     "cta": {
       "title": "准备好进入马戏团了吗？",
       "subtitle": "立即下载《The Freak Circus》，开始未知的心理冒险",
       "downloadButton": "立即下载",
       "learnButton": "了解更多关于游戏下载"
     }
+  },
+  "GamesListPage": {
+    "header": {
+      "title": "热门视觉小说游戏",
+      "subtitle": "我们收集推荐的视觉小说游戏"
+    },
+    "viewDetails": "查看详情",
+    "playNow": "立即游玩 →"
+  },
+  "GameDetailPage": {
+    "allReviews": "所有评论",
+    "noComments": "暂时没有评论。成为第一个分享你想法的人！"
   },
   "DownloadPage": {
     "header": {

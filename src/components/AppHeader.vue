@@ -30,7 +30,7 @@
                             <a href="/pierrot-coloring" class="nav-link">{{ $t('nav.pierrotColoring') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/updates" class="nav-link">{{ $t('nav.updates') }}</a>
+                            <a href="/games" class="nav-link">{{ $t('nav.visualNovelGames') }}</a>
                         </li>
                         <li class="nav-item">
                             <a href="/download" class="nav-link">{{ $t('nav.download') }}</a>
@@ -89,8 +89,12 @@
                                 $t('nav.wiki') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/updates" class="nav-link" @click="closeMobileMenu">{{
-                                $t('nav.updates') }}</a>
+                            <a href="/games" class="nav-link" @click="closeMobileMenu">{{
+                                $t('nav.visualNovelGames') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/pierrot-coloring" class="nav-link" @click="closeMobileMenu">{{
+                                $t('nav.pierrotColoring') }}</a>
                         </li>
                         <li class="nav-item">
                             <a href="/download" class="nav-link" @click="closeMobileMenu">{{

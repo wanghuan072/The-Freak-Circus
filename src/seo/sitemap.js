@@ -1,4 +1,5 @@
 import { seoConfig } from './config.js'
+import gamesEn from '../data/en/games.js'
 
 // 路由配置（基于现有的路由结构）
 const routes = [
@@ -9,6 +10,7 @@ const routes = [
     { path: '/wiki', name: 'wiki' },
     { path: '/updates', name: 'updates' },
     { path: '/download', name: 'download' },
+    { path: '/games', name: 'games' },
     { path: '/about-us', name: 'about' },
     { path: '/contact-us', name: 'contact' },
     { path: '/privacy-policy', name: 'privacy' },
@@ -35,7 +37,15 @@ function generateUrl(path, lang = 'en') {
 // 生成单个URL的XML（通用函数）
 function generateUrlXml(path, lang = 'en', lastmod = new Date().toISOString().split('T')[0], includeHreflang = false) {
     const url = generateUrl(path, lang)
-    const config = getRouteConfig(path)
+    let config = getRouteConfig(path)
+
+    // 如果是游戏详情页，使用游戏特定的配置
+    if (path.startsWith('/games/')) {
+        config = {
+            priority: seoConfig.priorities.gameDetail || 0.9,
+            changefreq: seoConfig.changefreq.gameDetail || 'monthly'
+        }
+    }
 
     let xml = `  <url>
     <loc>${url}</loc>
@@ -87,6 +97,16 @@ function generateSitemapXml(includeHreflang = false) {
             sitemapXml += `\n${generateUrlXml(route.path, lang, lastmod, includeHreflang)}`
         })
     })
+
+    // 为每个游戏和每种语言生成URL
+    if (gamesEn && gamesEn.default && Array.isArray(gamesEn.default)) {
+        gamesEn.default.forEach(game => {
+            seoConfig.supportedLanguages.forEach(lang => {
+                const gamePath = `/games/${game.addressBar}`
+                sitemapXml += `\n${generateUrlXml(gamePath, lang, game.publishDate || lastmod, includeHreflang)}`
+            })
+        })
+    }
 
     sitemapXml += `\n</urlset>`
     return sitemapXml

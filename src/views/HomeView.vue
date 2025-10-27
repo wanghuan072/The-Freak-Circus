@@ -5,12 +5,8 @@
         <!-- Hero Section -->
         <section class="section hero">
             <!-- 背景图片 -->
-            <img src="/images/home_img_01.webp" 
-                 alt="The Freak Circus Game Background" 
-                 class="hero-bg-image"
-                 fetchpriority="high"
-                 loading="eager"
-                 decoding="sync">
+            <img src="/images/home_img_01.webp" alt="The Freak Circus Game Background" class="hero-bg-image"
+                fetchpriority="high" loading="eager" decoding="sync">
             <!-- 关键内容优先渲染 -->
             <div class="container">
                 <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -39,11 +35,8 @@
         <!-- Play Game Section -->
         <section class="section play-game">
             <!-- LCP优化：背景图片改为img标签 -->
-            <img src="/images/home_img_02.webp" 
-                 alt="The Freak Circus Game Background" 
-                 class="play-game-bg-image"
-                 loading="lazy"
-                 decoding="async">
+            <img src="/images/home_img_02.webp" alt="The Freak Circus Game Background" class="play-game-bg-image"
+                loading="lazy" decoding="async">
             <div class="container">
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
@@ -55,12 +48,10 @@
 
                         <!-- 蒙版层 - 确保LCP元素立即可见 -->
                         <div class="game-mask" @click="loadGame" v-if="!gameLoaded">
-                        <div class="game-icon">
-                            <img src="/images/game-play.webp" 
-                                 alt="The Freak Circus Icon"
-                                 loading="lazy"
-                                 decoding="async">
-                        </div>
+                            <div class="game-icon">
+                                <img src="/images/game-play.webp" alt="The Freak Circus Icon" loading="lazy"
+                                    decoding="async">
+                            </div>
                             <div class="play-button" @click.stop="loadGame">
                                 <div class="play-icon">▶</div>
                                 <span>PLAY</span>
@@ -71,6 +62,23 @@
                         <iframe v-if="gameLoaded" src="https://html-classic.itch.zone/html/14081436/index.html"
                             width="100%" height="600" frameborder="0">
                         </iframe>
+                    </div>
+
+                    <!-- More Games List -->
+                    <div class="more-games-section">
+                        <h3 class="more-games-title">{{ $t('HomePage.moreGames.title') }}</h3>
+                        <div class="more-games-grid">
+                            <a v-for="game in games.slice(0, 3)" :key="game.id" :href="`/games/${game.addressBar}`"
+                                class="more-game-card">
+                                <div class="more-game-image">
+                                    <img :src="game.imageUrl" :alt="game.imageAlt" loading="lazy" />
+                                </div>
+                                <div class="more-game-info">
+                                    <h4 class="more-game-name">{{ game.title }}</h4>
+                                    <p class="more-game-desc">{{ game.description }}</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,10 +112,8 @@
                             <p>{{ $t('HomePage.about.description') }}</p>
                         </div>
                         <div class="about-image">
-                            <img src="/images/about-img.webp" 
-                                 alt="The Freak Circus Game Screenshot" 
-                                 loading="lazy"
-                                 decoding="async">
+                            <img src="/images/about-img.webp" alt="The Freak Circus Game Screenshot" loading="lazy"
+                                decoding="async">
                         </div>
                     </div>
                     <div class="features-grid">
@@ -230,7 +236,40 @@
             </div>
         </section>
 
-
+        <!-- Updates Section -->
+        <section class="section updates">
+            <div class="container">
+                <h2 class="section-title">{{ $t('HomePage.updates.title') }}</h2>
+                <div class="updates-content">
+                    <div class="updates-grid">
+                        <article class="update-card">
+                            <a href="/updates" class="update-link">
+                                <span class="update-date">{{ $t('HomePage.updates.update1.date') }}</span>
+                                <h3 class="update-title">{{ $t('HomePage.updates.update1.title') }}</h3>
+                                <p class="update-excerpt">{{ $t('HomePage.updates.update1.excerpt') }}</p>
+                            </a>
+                        </article>
+                        <article class="update-card">
+                            <a href="/updates" class="update-link">
+                                <span class="update-date">{{ $t('HomePage.updates.update2.date') }}</span>
+                                <h3 class="update-title">{{ $t('HomePage.updates.update2.title') }}</h3>
+                                <p class="update-excerpt">{{ $t('HomePage.updates.update2.excerpt') }}</p>
+                            </a>
+                        </article>
+                        <article class="update-card">
+                            <a href="/updates" class="update-link">
+                                <span class="update-date">{{ $t('HomePage.updates.update3.date') }}</span>
+                                <h3 class="update-title">{{ $t('HomePage.updates.update3.title') }}</h3>
+                                <p class="update-excerpt">{{ $t('HomePage.updates.update3.excerpt') }}</p>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="updates-footer">
+                        <a href="/updates" class="btn btn-secondary">{{ $t('HomePage.updates.viewAll') }}</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- CTA Section -->
         <section class="section cta">
@@ -271,17 +310,39 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
 import '@/assets/css/public.css'
+import { useI18n } from 'vue-i18n'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 const { isMobile } = useDeviceDetection()
+const { locale } = useI18n()
 
 // 骨架屏状态
 const heroImageLoaded = ref(false)
+
+// 游戏数据
+const games = ref([])
+
+// 加载游戏数据
+const loadGames = async () => {
+    try {
+        const gamesData = await import(`@/data/${locale.value}/games.js`)
+        games.value = gamesData.default.slice(0, 3) // 只显示前3个游戏
+    } catch (error) {
+        console.error('Failed to load games data:', error)
+        // 如果加载失败，尝试加载英文版本
+        try {
+            const enGamesData = await import('@/data/en/games.js')
+            games.value = enGamesData.default.slice(0, 3)
+        } catch (enError) {
+            console.error('Failed to load English games data:', enError)
+        }
+    }
+}
 
 // 广告联盟
 const adProvider = () => {
@@ -298,9 +359,15 @@ const adProvider = () => {
     }
 }
 
+// 监听语言变化，重新加载游戏数据
+watch(locale, () => {
+    loadGames()
+}, { immediate: false })
+
 // 简化资源加载
 onMounted(() => {
     adProvider()
+    loadGames()
 })
 
 
@@ -483,6 +550,81 @@ const gameLoaded = ref(false)
     padding: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* More Games Section */
+.more-games-section {
+    margin-top: 2rem;
+}
+
+.more-games-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.more-games-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.more-game-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.more-game-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(139, 92, 246, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.more-game-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.more-game-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.more-game-info {
+    flex: 1;
+}
+
+.more-game-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 0.5rem 0;
+}
+
+.more-game-desc {
+    font-size: 0.85rem;
+    color: #ccc;
+    line-height: 1.4;
+    margin: 0;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 /* About Section 内容样式 */
@@ -832,6 +974,72 @@ const gameLoaded = ref(false)
 }
 
 
+/* Updates Section */
+
+.updates-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.updates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.update-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(139, 92, 246, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.update-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.update-date {
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.update-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.update-excerpt {
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.updates-footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.updates-footer .btn {
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
 /* CTA Section */
 
 .cta-text {
@@ -912,7 +1120,8 @@ const gameLoaded = ref(false)
     bottom: 0;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(10, 0, 20, 0.7) 100%);
     z-index: 1;
-    pointer-events: none; /* 优化性能：避免鼠标事件 */
+    pointer-events: none;
+    /* 优化性能：避免鼠标事件 */
 }
 
 .section.hero {
@@ -930,8 +1139,10 @@ const gameLoaded = ref(false)
     object-fit: cover;
     object-position: center center;
     z-index: 0;
-    will-change: transform; /* 优化性能：提示浏览器优化 */
-    contain: layout style paint; /* 优化性能：限制重排范围 */
+    will-change: transform;
+    /* 优化性能：提示浏览器优化 */
+    contain: layout style paint;
+    /* 优化性能：限制重排范围 */
 }
 
 .section.play-game {
@@ -949,8 +1160,10 @@ const gameLoaded = ref(false)
     object-fit: cover;
     object-position: center center;
     z-index: 0;
-    will-change: transform; /* 优化性能：提示浏览器优化 */
-    contain: layout style paint; /* 优化性能：限制重排范围 */
+    will-change: transform;
+    /* 优化性能：提示浏览器优化 */
+    contain: layout style paint;
+    /* 优化性能：限制重排范围 */
 }
 
 .section.about {
@@ -1089,6 +1302,11 @@ const gameLoaded = ref(false)
         grid-template-columns: 1fr;
         gap: 20px;
     }
+
+    .more-games-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
 }
 
 /* Responsive Design - 768px Mobile */
@@ -1141,6 +1359,24 @@ const gameLoaded = ref(false)
     .play-icon {
         width: 15px;
         height: 15px;
+    }
+
+    .more-games-section {
+        margin-top: 1.5rem;
+    }
+
+    .more-games-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .more-games-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .more-game-card {
+        padding: 0.8rem;
     }
 
     .play-button span {
@@ -1296,6 +1532,23 @@ const gameLoaded = ref(false)
 
     .faq-item {
         padding-bottom: 10px;
+    }
+
+    .updates-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .update-card {
+        padding: 1rem;
+    }
+
+    .update-title {
+        font-size: 1.1rem;
+    }
+
+    .update-excerpt {
+        font-size: 0.9rem;
     }
 
     .faq-list {
