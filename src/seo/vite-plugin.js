@@ -1,18 +1,23 @@
-import { generateSitemap } from './sitemap.js'
 import { generateRobots } from './robots.js'
 import fs from 'fs'
 import path from 'path'
 
-// Vite插件：自动生成SEO文件
+// Vite插件：复制静态SEO文件
 export function seoPlugin() {
     return {
         name: 'seo-plugin',
         configureServer(server) {
-            // 开发环境：动态生成站点地图和robots.txt
+            // 开发环境：复制静态站点地图和robots.txt
             server.middlewares.use('/sitemap.xml', (req, res, next) => {
-                const sitemapContent = generateSitemap()
-                res.setHeader('Content-Type', 'application/xml')
-                res.end(sitemapContent)
+                const publicSitemap = path.resolve(process.cwd(), 'public/sitemap.xml')
+                if (fs.existsSync(publicSitemap)) {
+                    const sitemapContent = fs.readFileSync(publicSitemap, 'utf8')
+                    res.setHeader('Content-Type', 'application/xml')
+                    res.end(sitemapContent)
+                } else {
+                    res.statusCode = 404
+                    res.end('Sitemap not found. Run: npm run generate-sitemap')
+                }
             })
 
             server.middlewares.use('/robots.txt', (req, res, next) => {
@@ -22,11 +27,16 @@ export function seoPlugin() {
             })
         },
         writeBundle() {
-            // 生产环境：生成站点地图
-            const sitemapContent = generateSitemap()
-            const sitemapPath = path.resolve(process.cwd(), 'dist/sitemap.xml')
-            fs.writeFileSync(sitemapPath, sitemapContent, 'utf8')
-            console.log('✅ Generated sitemap.xml')
+            // 生产环境：复制静态站点地图
+            const publicSitemap = path.resolve(process.cwd(), 'public/sitemap.xml')
+            const distSitemap = path.resolve(process.cwd(), 'dist/sitemap.xml')
+
+            if (fs.existsSync(publicSitemap)) {
+                fs.copyFileSync(publicSitemap, distSitemap)
+                console.log('✅ Copied sitemap.xml from public/')
+            } else {
+                console.warn('⚠️  sitemap.xml not found in public/. Run: npm run generate-sitemap')
+            }
 
             // 生成robots.txt
             const robotsContent = generateRobots()
