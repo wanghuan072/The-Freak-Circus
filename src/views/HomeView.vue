@@ -41,8 +41,8 @@
                 <h2 class="section-title">Play The Freak Circus Online</h2>
                 <div class="play-game-content">
                     <div class="game-container">
-                        <!-- 背景毛玻璃效果 -->
-                        <div class="game-background">
+                        <!-- 背景毛玻璃效果 - 只在游戏未加载时显示 -->
+                        <div class="game-background" v-if="!gameLoaded">
                             <div class="background-blur"></div>
                         </div>
 
@@ -68,7 +68,7 @@
                     <div class="more-games-section">
                         <h3 class="more-games-title">{{ $t('HomePage.moreGames.title') }}</h3>
                         <div class="more-games-grid">
-                            <a v-for="game in games.slice(0, 3)" :key="game.id" :href="`/games/${game.addressBar}`"
+                            <a v-for="game in games" :key="game.id" :href="`/games/${game.addressBar}`"
                                 class="more-game-card">
                                 <div class="more-game-image">
                                     <img :src="game.imageUrl" :alt="game.imageAlt" loading="lazy" />
@@ -331,13 +331,13 @@ const games = ref([])
 const loadGames = async () => {
     try {
         const gamesData = await import(`@/data/${locale.value}/games.js`)
-        games.value = gamesData.default.slice(0, 3) // 只显示前3个游戏
+        games.value = gamesData.default
     } catch (error) {
         console.error('Failed to load games data:', error)
         // 如果加载失败，尝试加载英文版本
         try {
             const enGamesData = await import('@/data/en/games.js')
-            games.value = enGamesData.default.slice(0, 3)
+            games.value = enGamesData.default
         } catch (enError) {
             console.error('Failed to load English games data:', enError)
         }
