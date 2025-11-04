@@ -379,7 +379,298 @@ export default [
   
   <p>Reaper's Goodbye offers a poignant exploration of intertwined destinies, showcasing the resilience of the human spirit against the backdrop of inevitable fate. The stories of these lost souls, bound together by misfortune and the looming presence of the reaper, serve as a powerful reminder of the choices that define us, even in the face of our final goodbye. This is an experience that will stay with you long after the midnight train departs, leaving you to ponder the intricate dance between destiny and free will and the value of human connection in the face of overwhelming odds. Learn more about the world by visiting <a href="https://html-classic.itch.zone/html/15345399/index.html">Reaper's Goodbye.</a></p>
   </div>`,
+  },
+
+  {
+    id: "fear-me",
+    title: "Fear Me",
+    iframeUrl: "https://html-classic.itch.zone/html/15418904/index.html",
+    description: "Ever wondered what it's like to catch the eye of Jeff the Killer? In Fear Me, a suspenseful and satirical visual novel, navigate a deadly romance where survival is key. Work at a video store, meet a mysterious stranger, and try to earn his trust… if you can stay alive. 9 endings, gender-neutral MC!",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-05.webp",
+    imageAlt: "Jeff the Killer menacingly stares forward, representing the fear in the visual novel Fear Me.",
+    seo: {
+      title: "Fear Me: A Deadly Romance Visual Novel with Jeff the Killer - Play Now!",
+      description: "Experience Fear Me, a suspenseful romance visual novel starring Jeff the Killer! Can you survive his gaze and earn his trust? Explore 9 endings & a gender-neutral MC.",
+      keywords: "Fear Me, Jeff the Killer, visual novel, romance, horror, creepypasta, dating sim, suspense, survival, gender-neutral"
+    },
+    addressBar: "fear-me",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: 'This game is absolutely amazing! I love the story and the characters. I can\'t wait to see what happens next.'
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <h2>Fear Me</h2>
+    <p>Imagine your mundane life taking a terrifying turn when you find yourself the object of obsession for one of the internet's most infamous figures. <i>Fear Me</i> plunges you into a world of suspense, dark humor, and potentially lethal romance with Jeff the Killer. But this isn't just another dating sim; it's a satirical exploration of the horror genre, packed with clichés and unexpected twists designed to keep you on the edge of your seat, constantly anticipating the next moment of fear.</p>
+  
+    <h3>About</h3>
+    <p><i>Fear Me</i> is a visual novel that blends elements of romance, horror, and satire, offering a unique gaming experience. You play as a gender-neutral character working a seemingly ordinary job at a video store, until a mysterious man, exhibiting an unsettling interest in you, walks through the door. That man is none other than Jeff the Killer. The game features over 34,000 words of captivating narrative, 40 unique CGs, and 9 distinct endings, providing ample replayability and opportunities to explore different outcomes based on your choices. While presented as a dating simulator, it subverts expectations by not romanticizing the character or his actions, offering a self-aware and critical perspective on the horror tropes it employs. It contains dark themes and should be approached with viewer discretion.</p>
+  
+    <h3>Features</h3>
+    <ul>
+      <li><b>A Twisted Romance:</b> Navigate a complex relationship with Jeff the Killer, where trust is as valuable as survival. Each decision matters and will impact the ending you receive.</li>
+      <li><b>Multiple Romantic Paths:</b> Alongside Jeff, discover two other intriguing romance options, one male and one female, each with their own compelling stories.</li>
+      <li><b>Over 34,000 Words:</b> Immerse yourself in a richly detailed narrative filled with suspense, humor, and unexpected twists. Prepare to experience fear and intrigue.</li>
+      <li><b>40 Unique CGs:</b> Enjoy stunning artwork that brings the story to life, enhancing the emotional impact of key moments.</li>
+      <li><b>9 Distinct Endings:</b> Discover a wide range of outcomes based on your choices, encouraging multiple playthroughs to unlock them all.</li>
+      <li><b>Gender-Neutral Main Character:</b> Experience the story from a perspective that resonates with you, regardless of gender identity.</li>
+      <li><b>Satirical Horror:</b> Enjoy a self-aware and humorous take on the horror genre, poking fun at clichés while still delivering a suspenseful experience.</li>
+      <li><b>Viewer Discretion Advised:</b> Be aware that the game contains mature themes and is not intended to glorify violence or harmful behaviors.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">Is this game suitable for all ages?</div>
+        <div class="faq-answer">No, <i>Fear Me</i> contains mature themes and content that may not be suitable for younger audiences. Viewer discretion is advised.</div>
+      </li>
+      <li>
+        <div class="faq-question">Does the game romanticize Jeff the Killer's actions?</div>
+        <div class="faq-answer">No, the game is a satire and does not intend to romanticize the character or his violent tendencies.</div>
+      </li>
+      <li>
+        <div class="faq-question">How many romance options are there?</div>
+        <div class="faq-answer">There are three possible romantic interests: Jeff the Killer, one male character, and one female character.</div>
+      </li>
+      <li>
+        <div class="faq-question">Is the main character customizable?</div>
+        <div class="faq-answer">The main character is gender-neutral, allowing you to project yourself into the story. However, there is no further customization.</div>
+      </li>
+      <li>
+        <div class="faq-question">How long does it take to complete the game?</div>
+        <div class="faq-answer">Playtime varies depending on your reading speed and choices, but on average, it takes several hours to complete a single playthrough. Unlocking all 9 endings will require multiple playthroughs.</div>
+      </li>
+      <li>
+        <div class="faq-question">Where can I play Fear Me?</div>
+        <div class="faq-answer">You can play <i>Fear Me</i> online by following the link provided: <a href="https://html-classic.itch.zone/html/15418904/index.html">Play Fear Me Now!</a></div>
+      </li>
+    </ul>
+  
+    <p><i>Fear Me</i> offers a thrilling blend of suspense, romance, and dark humor, challenging players to navigate a dangerous relationship with a notorious killer. With multiple endings, compelling characters, and a thought-provoking narrative, this visual novel delivers an unforgettable experience that will leave you questioning your own choices and the nature of fear itself.</p>
+  </div>`,
+  },
+
+  {
+    id: "egg-coffee",
+    title: "Egg Coffee",
+    iframeUrl: "https://html-classic.itch.zone/html/15365797/index.html",
+    description: "Dive into the eerie world of 'Egg Coffee'! A solo-developed Halloween game jam project where you must uncover the killer using randomized clues and tarot cards. Enjoy this spooky guessing game and tutorial, a unique blend of suspense and caffeine!",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-06.webp",
+    imageAlt: "Screenshot from Egg Coffee game, showcasing a spooky scene with coffee elements.",
+    seo: {
+      title: "Egg Coffee - Solve the Halloween Mystery! Play Free Online",
+      description: "Unmask the killer in 'Egg Coffee', a thrilling Halloween game jam project. Use tarot cards and your wits to solve the randomized mystery. Play now and enjoy the suspense!",
+      keywords: "egg coffee, halloween game, mystery game, solo development, indie game, tarot cards, guessing game, randomized killer, free online game"
+    },
+    addressBar: "egg-coffee",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: 'This game is absolutely amazing! I love the story and the characters. I can\'t wait to see what happens next. The game is very challenging and I love the suspense. I can\'t wait to see what happens next.'
+      },
+      {
+        id: 2,
+        author: 'John',
+        date: 'Nov 03, 2025',
+        rating: 4,
+        text: 'This game is very challenging and I love the suspense. I can\'t wait to see what happens next.'
+      }
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Egg Coffee</h2><p>Welcome to the unsettling world of 'Egg Coffee', a unique and chilling experience crafted for the SoloDeveleopment 72-hour Jam #9: Halloween! This project blends the comfort of coffee with the suspense of a murder mystery, offering players a thrilling and caffeinated adventure that's perfect for the spooky season. Prepare to use your intuition and deduction skills as you delve into a world where every cup could be your last.</p>
+  
+    <h3>About</h3>
+    <p>'Egg Coffee' is a guessing game that puts you in the role of a detective trying to identify a killer. Each playthrough features a randomized killer, making every game session a fresh and unpredictable challenge. The only clues you have are the cryptic tarot cards scattered throughout the environment. Without elaborate dialogue or explicit instructions, you must rely on your instincts and careful observation to piece together the puzzle and unmask the culprit. The game was built under the constraints of a 72-hour game jam, showcasing the developer's creativity and resourcefulness in creating a compelling and engaging experience within a limited timeframe. 'Egg Coffee' is more than just a game; it's a testament to the power of solo development and the magic of Halloween.</p>
+  
+    <h3>Features</h3>
+    <ul>
+      <li><b>Randomized Killer:</b> Each playthrough features a different killer, ensuring high replayability and a constantly shifting mystery to solve.</li>
+      <li><b>Tarot Card Clues:</b> Rely on the enigmatic tarot cards to guide your investigation and provide subtle hints about the killer's identity.</li>
+      <li><b>Intuitive Gameplay:</b> Designed for ease of access, the game offers a simple yet engaging interface, allowing players to quickly dive into the mystery.</li>
+      <li><b>Spooky Atmosphere:</b> Immerse yourself in a chilling Halloween setting, complete with unsettling visuals and sound effects.</li>
+      <li><b>Short and Sweet:</b> Perfect for a quick gaming session, 'Egg Coffee' delivers a satisfying mystery experience without demanding a significant time commitment.</li>
+      <li><b>Solo-Developed:</b> Created by a single developer within a 72-hour timeframe, showcasing impressive creativity and technical skill.</li>
+      <li><b>Tutorial Included:</b> Get acquainted with the game mechanics through a helpful tutorial that prepares you for the challenges ahead.</li>
+      <li><b>Unique Blend of Genres:</b> Experience a novel combination of coffee culture and murder mystery, creating a truly unforgettable gaming experience.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">How do I play Egg Coffee?</div>
+        <div class="faq-answer">Navigate through the environment, examine the tarot cards for clues, and use your deductions to identify the killer. The killer changes every time you play, so pay close attention!</div>
+      </li>
+      <li>
+        <div class="faq-question">What are tarot cards for?</div>
+        <div class="faq-answer">The tarot cards provide hints about the killer's identity, motives, or methods. Interpret them carefully to uncover the truth.</div>
+      </li>
+      <li>
+        <div class="faq-question">Is there a tutorial?</div>
+        <div class="faq-answer">Yes, the game includes a tutorial to guide you through the basics of gameplay and help you understand the mechanics.</div>
+      </li>
+      <li>
+        <div class="faq-question">How long does a game session last?</div>
+        <div class="faq-answer">A typical game session lasts about 10-15 minutes, making it perfect for a quick and engaging gaming experience.</div>
+      </li>
+      <li>
+        <div class="faq-question">Can I play Egg Coffee on my mobile device?</div>
+        <div class="faq-answer">'Egg Coffee' is designed to be played in a web browser, and functionality on mobile devices may vary. It's best experienced on a desktop or laptop computer.</div>
+      <li>
+        <div class="faq-question">What inspired the creation of 'Egg Coffee'?</div>
+        <div class="faq-answer">'Egg Coffee' was created during a 72-hour game jam with the theme of Halloween. The developer aimed to blend suspense with a unique theme resulting in this coffee-fueled mystery!</div>
+      </li>
+    </ul>
+  
+    <p>In conclusion, 'Egg Coffee' offers a compelling and uniquely crafted experience that showcases the creativity and ingenuity of solo game development. With its randomized killer, cryptic tarot card clues, and spooky Halloween atmosphere, this game provides a thrilling and engaging mystery that's sure to captivate players. Enjoy your cup of suspense and see if you can uncover the truth!</p>
+  </div>`,
+  },
+
+  {
+    id: "florastrum-academia",
+    title: "Florastrum Academia",
+    iframeUrl: "https://html-classic.itch.zone/html/15357785/index.html",
+    description: "Embark on a magical journey at Florastrum Academia! Unravel a Halloween mystery while mastering potion-making. Encounter intriguing classmates and solve enchanting puzzles using unique pieces. Rotate, strategize, and complete the grid! Experience the world of magic today!",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-07.webp",
+    imageAlt: "A vibrant puzzle featuring illustrations of magical elements within Florastrum Academia.",
+    seo: {
+      title: "Florastrum Academia - Solve Magical Puzzles & Brew Potions!",
+      description: "Enter Florastrum Academia, a school of magic, and uncover a Halloween mystery! Solve intricate puzzles with unique mechanics and encounter fascinating characters. Play now!",
+      keywords: "florastrum, academia, magic school game, puzzle, potion making, halloween game, fantasy game"
+    },
+    addressBar: "florastrum-academia",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: 'This game is absolutely amazing! I love the story and the characters. I can\'t wait to see what happens next.'
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <h2>Florastrum Academia</h2>
+    <p>Welcome to Florastrum Academia, where magic isn't just a subject—it's a way of life. As a new student, you're immersed in the enchanting world of spellcasting, potion brewing, and mysterious encounters. This Halloween, your potion-making assignment takes an unexpected turn when you stumble upon a captivating classmate in the depths of the forbidden forest. Prepare for a puzzle-solving adventure unlike any other, blending strategy, magic, and a dash of Halloween spookiness.</p>
+    
+    <h3>About</h3>
+    <p>Florastrum Academia is a unique puzzle game where players utilize magical icons to generate puzzle pieces and strategically place them on a grid. The game's core mechanic revolves around rotating these pieces to perfectly fit the available spaces, challenging players to think creatively and plan their moves carefully. Adding an extra layer of complexity, certain areas of the grid are pre-occupied with illustrations, preventing puzzle piece placement in those zones. Players must leverage their spatial reasoning and problem-solving skills to successfully complete the puzzle and advance the storyline. The Halloween theme and the mysterious classmate add intrigue and narrative depth, making Florastrum Academia a compelling and engaging gaming experience. The game is designed to be accessible to casual puzzle enthusiasts while offering a satisfying challenge for more experienced players. Discover the secrets hidden within the walls of Florastrum Academia and become a master of magical puzzles!</p>
+    
+    <h3>Features</h3>
+    <ul>
+      <li><b>Unique Puzzle Mechanics:</b> Generate distinct puzzle pieces based on magical icons, adding a layer of resource management to the traditional puzzle gameplay.</li>
+      <li><b>Strategic Rotation:</b> Rotate the generated puzzle pieces to optimize their fit within the grid, demanding careful planning and spatial awareness.</li>
+      <li><b>Pre-Occupied Zones:</b> Overcome the challenge of illustrated areas within the grid that cannot accommodate puzzle pieces, requiring strategic adaptation.</li>
+      <li><b>Intriguing Halloween Theme:</b> Immerse yourself in a spooky Halloween atmosphere with thematic visuals and sound effects.</li>
+      <li><b>Mysterious Storyline:</b> Unravel the mystery surrounding a captivating classmate encountered in the forbidden forest, adding narrative depth to the puzzle gameplay.</li>
+      <li><b>Accessible Gameplay:</b> Easy-to-learn controls and clear instructions make the game accessible to players of all skill levels.</li>
+      <li><b>Challenging Puzzles:</b> Gradually increasing puzzle complexity ensures a consistently engaging and rewarding experience.</li>
+    <li><b>Replayable Value:</b> Even after solving the initial puzzle, experiment with different strategies and piece placements for endless replayability.</li>
+    </ul>
+    
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">How do I generate puzzle pieces?</div>
+        <div class="faq-answer">Click on the icons located under the puzzle grid. Each icon generates a unique puzzle piece.</div>
+      </li>
+      <li>
+        <div class="faq-question">How do I rotate a puzzle piece?</div>
+        <div class="faq-answer">Press the 'R' key to rotate the currently selected puzzle piece.</div>
+      </li>
+      <li>
+        <div class="faq-question">Where can I place puzzle pieces?</div>
+        <div class="faq-answer">You can place puzzle pieces on any empty space within the grid, except for the areas with illustrations.</div>
+      </li>
+      <li>
+        <div class="faq-question">What is the goal of the game?</div>
+        <div class="faq-answer">The goal is to fill the entire grid with puzzle pieces, avoiding the pre-occupied zones, and revealing the complete image.</div>
+      </li>
+      <li>
+        <div class="faq-question">Is there a time limit?</div>
+        <div class="faq-answer">No, there is no time limit. Take your time to strategize and solve the puzzle.</div>
+      </li>
+    <li>
+        <div class="faq-question">Can I undo a placement?</div>
+        <div class="faq-answer">Unfortunately, the game does not currently feature an undo function. Plan your placements carefully!</div>
+      </li>
+    </ul>
+    
+    <p>Florastrum Academia offers a captivating blend of puzzle-solving and magical storytelling. With its unique mechanics, intriguing storyline, and accessible gameplay, it's the perfect game for anyone seeking a challenging and rewarding puzzle experience. Dive into the world of magic, unravel the mysteries of the forbidden forest, and become a master puzzle solver at Florastrum Academia. Happy Halloween!</p>
+  </div>`,
+  },
+
+  {
+    id: "allele-origin",
+    title: "Allele: Origin",
+    iframeUrl: "https://html-classic.itch.zone/html/15338459/index.html",
+    description: "In a world ravaged by a plague, humanity's last hope lies in the monstrous beings born from genetic mutations – alleles. Explore their origin and the dark, mature themes that define this desperate struggle for survival.",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-08.webp",
+    imageAlt: "A monstrous figure emerges from a dark, plague-ridden landscape, representing the Allele origin.",
+    seo: {
+      title: "Allele: Origin - Uncover the Dark Secrets of Mutation and Survival",
+      description: "Explore Allele: Origin, a tale of survival in a plague-stricken world where genetic mutations have birthed monsters. Uncover the truth behind their origin.",
+      keywords: "allele, origin, mutation, plague, survival, monster evolution, dark fantasy, genetic alteration"
+    },
+    addressBar: "allele-origin",
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Allele: Origin</h2><p>The year is 2077. A devastating plague, unlike anything humanity has ever faced, has swept across the globe, decimating populations and collapsing civilizations. In a desperate attempt to find a cure, scientists experimented with radical genetic therapies. However, these attempts inadvertently triggered a new evolutionary path, giving rise to monstrous beings known as Alleles. Their very origin is intertwined with mankind's struggle for survival, a twisted reflection of our own desperate measures.</p>
+  
+    <h3>About</h3>
+    <p>Allele: Origin delves into the grim reality of a world teetering on the brink of extinction. The plague serves as a catalyst for unnatural selection, forcing humanity to confront the unforeseen consequences of tampering with the very building blocks of life. These Alleles, born from the genetic chaos, possess abilities far exceeding human capabilities, becoming both a threat and a potential solution. Explore their society, their motivations, and the complex relationship they have with the remnants of humankind. This story explores the ethical implications of scientific advancement, the depths of human desperation, and the blurred lines between monster and savior. Note that this exploration includes mature themes and content warnings as described in the introduction.</p>
+  
+    <h3>Features</h3>
+    <ul>
+      <li><b>Genetic Mutations:</b> Witness the diverse and terrifying mutations that define the Alleles, each with unique abilities and weaknesses.</li>
+      <li><b>Moral Choices:</b> Navigate a complex web of moral dilemmas, where every decision has far-reaching consequences for both humans and Alleles.</li>
+      <li><b>Dark World:</b> Explore a beautifully rendered, yet bleak and decaying world, reflecting the devastation of the plague and the desperation of its survivors.</li>
+      <li><b>Complex Characters:</b> Interact with a cast of compelling characters, each with their own motivations, secrets, and agendas, blurring the lines between hero and villain.</li>
+      <li><b>Unpredictable Storyline:</b> Experience a branching narrative with multiple endings, shaped by your choices and actions, ensuring a unique and replayable experience.</li>
+      <li><b>Resource Management:</b> Scavenge for scarce resources and manage your supplies carefully, as survival depends on making tough choices about what to prioritize.</li>
+      <li><b>Strategic Combat:</b> Engage in challenging combat encounters, utilizing your skills and resources to overcome powerful enemies and adapt to ever-changing threats.</li>
+      <li><b>Hidden Lore:</b> Uncover the hidden lore of the Alleles and the events that led to their creation, revealing the dark secrets behind the plague and the experiments that spawned them.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">What are Alleles?</div>
+        <div class="faq-answer">Alleles are mutated beings born from humanity's desperate attempts to survive a devastating plague. They possess unique genetic traits and abilities.</div>
+      </li>
+      <li>
+        <div class="faq-question">What kind of themes are explored?</div>
+        <div class="faq-answer">Allele: Origin explores mature themes such as genetic manipulation, survival, moral decay, and the consequences of unchecked scientific ambition.</div>
+      </li>
+      <li>
+        <div class="faq-question">Is this a horror game?</div>
+        <div class="faq-answer">While Allele: Origin contains elements of horror, it is primarily a dark fantasy story focused on survival and the exploration of complex themes. Expect morbid elements and violent descriptions.</div>
+      </li>
+      <li>
+        <div class="faq-question">Are my choices important?</div>
+        <div class="faq-answer">Yes, your choices significantly impact the narrative and lead to multiple endings. Careful consideration is advised!</div>
+      </li>
+      <li>
+        <div class="faq-question">What is the significance of the title "Allele: Origin"?</div>
+        <div class="faq-answer">The title refers to the beginning of the Allele lineage, the genetic marker that defines their existence, and explores their rise from mankind’s desperate experiments.</div>
+      </li>
+      <li>
+        <div class="faq-question">Where can I learn more about the world of Allele?</div>
+        <div class="faq-answer">Explore related links, and stay tuned for updates, additional lore, and community discussions!</div>
+      </li>
+    </ul>
+  
+    <p>Allele: Origin offers a grim and compelling exploration of survival in the face of genetic catastrophe. Witness the rise of the Alleles, unravel the secrets of their origin, and make the difficult choices that will determine the fate of humanity. This is not just a story of monsters, but a reflection of our own potential for both creation and destruction. The future hinges on understanding the allele and its twisted origin.</p>
+  </div>`,
   }
+
+
 
 
 

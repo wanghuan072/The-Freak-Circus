@@ -380,7 +380,297 @@ export default [
       
       <p>Adiós del Segador ofrece una conmovedora exploración de destinos entrelazados, mostrando la resiliencia del espíritu humano frente al destino inevitable. Las historias de estas almas perdidas, unidas por la desgracia y la presencia inminente del segador, sirven como un poderoso recordatorio de las elecciones que nos definen, incluso ante nuestro adiós final. Esta es una experiencia que perdurará mucho después de que el tren de medianoche parta, dejándole reflexionando sobre la intrincada danza entre el destino y el libre albedrío y el valor de la conexión humana frente a obstáculos abrumadores. Obtenga más información sobre el mundo visitando <a href="https://html-classic.itch.zone/html/15345399/index.html">Adiós del Segador.</a></p>
       </div>`
+  },
+
+  {
+    id: "fear-me",
+    title: "Fear Me (Témeme)",
+    iframeUrl: "https://html-classic.itch.zone/html/15418904/index.html",
+    description: "Alguna vez te preguntaste cómo sería llamar la atención de Jeff the Killer? En Fear Me, una novela visual de suspenso y sátira, navegas por un romance mortal donde la supervivencia es clave. Trabaja en un videoclub, conoce a un misterioso extraño e intenta ganarte su confianza... si puedes mantenerte con vida. 9 finales, ¡protagonista de género neutro!",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-05.webp",
+    imageAlt: "Jeff the Killer mirando amenazadoramente hacia adelante, representando el miedo en la novela visual Fear Me.",
+    seo: {
+      title: "Fear Me: Una Novela Visual de Romance Mortal con Jeff the Killer - ¡Juega Ahora!",
+      description: "¡Experimenta Fear Me, una novela visual de romance de suspenso protagonizada por Jeff the Killer! ¿Puedes sobrevivir a su mirada y ganarte su confianza? Explora 9 finales y un protagonista de género neutro.",
+      keywords: "Fear Me, Jeff the Killer, novela visual, romance, horror, creepypasta, simulador de citas, suspenso, supervivencia, género neutro"
+    },
+    addressBar: "fear-me",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: '¡Este juego es absolutamente increíble! Me encanta la historia y los personajes. No puedo esperar a ver qué pasa después.'
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <h2>Fear Me (Témeme)</h2>
+        <p>Imagina que tu vida mundana da un giro aterrador cuando te conviertes en el objeto de la obsesión de una de las figuras más infames de internet. <i>Fear Me</i> te sumerge en un mundo de **suspenso**, **humor negro** y un romance potencialmente letal con **Jeff the Killer**. Pero este no es solo otro simulador de citas; es una **exploración satírica** del género de terror, lleno de clichés y giros inesperados diseñados para mantenerte al borde de tu asiento, anticipando constantemente el próximo momento de miedo.</p>
+     
+        <h3>Acerca de</h3>
+        <p><i>Fear Me</i> es una novela visual que combina elementos de romance, horror y sátira, ofreciendo una experiencia de juego única. Juegas como un **personaje de género neutro** que trabaja en un trabajo aparentemente ordinario en un videoclub, hasta que un hombre misterioso, que muestra un interés inquietante en ti, entra por la puerta. Ese hombre no es otro que Jeff the Killer. El juego presenta más de **34,000 palabras** de narrativa cautivadora, **40 CGs únicos** y **9 finales distintos**, lo que proporciona una amplia rejugabilidad y oportunidades para explorar diferentes resultados basados en tus elecciones. Aunque se presenta como un simulador de citas, subvierte las expectativas al no romantizar al personaje ni sus acciones, ofreciendo una perspectiva autoconsciente y crítica de los tropos de terror que emplea. Contiene temas oscuros y debe abordarse con discreción del espectador.</p>
+     
+        <h3>Características</h3>
+        <ul>
+          <li><b>Un Romance Retorcido:</b> Navega por una compleja relación con Jeff the Killer, donde la confianza es tan valiosa como la supervivencia. Cada decisión importa e impactará el final que recibas.</li>
+          <li><b>Múltiples Caminos Románticos:</b> Además de Jeff, descubre otras dos intrigantes opciones de romance, una masculina y otra femenina, cada una con sus propias historias convincentes.</li>
+          <li><b>Más de 34,000 Palabras:</b> Sumérgete en una narrativa ricamente detallada llena de suspenso, humor y giros inesperados. Prepárate para experimentar miedo e intriga.</li>
+          <li><b>40 CGs Únicos:</b> Disfruta de impresionantes ilustraciones que dan vida a la historia, mejorando el impacto emocional de los momentos clave.</li>
+          <li><b>9 Finales Distintos:</b> Descubre una amplia gama de resultados basados en tus elecciones, fomentando múltiples partidas para desbloquearlos todos.</li>
+          <li><b>Personaje Principal de Género Neutro:</b> Experimenta la historia desde una perspectiva que resuena contigo, independientemente de tu identidad de género.</li>
+          <li><b>Horror Satírico:</b> Disfruta de una visión autoconsciente y humorística del género de terror, burlándose de los clichés mientras ofrece una experiencia de suspenso.</li>
+          <li><b>Se Aconseja Discreción del Espectador:</b> Ten en cuenta que el juego contiene temas maduros y no tiene la intención de glorificar la violencia o los comportamientos dañinos.</li>
+        </ul>
+     
+        <h3>Preguntas Frecuentes (FAQ)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">¿Es este juego apto para todas las edades?</div>
+            <div class="faq-answer">No, <i>Fear Me</i> contiene temas y contenido maduros que pueden no ser adecuados para el público más joven. Se recomienda discreción del espectador.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿El juego romantiza las acciones de Jeff the Killer?</div>
+            <div class="faq-answer">No, el juego es una sátira y no tiene la intención de romantizar al personaje o sus tendencias violentas.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Cuántas opciones de romance hay?</div>
+            <div class="faq-answer">Hay tres posibles intereses románticos: Jeff the Killer, un personaje masculino y un personaje femenino.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Se puede personalizar el personaje principal?</div>
+            <div class="faq-answer">El personaje principal es de género neutro, lo que te permite proyectarte en la historia. Sin embargo, no hay más personalización.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Cuánto tiempo se tarda en completar el juego?</div>
+            <div class="faq-answer">El tiempo de juego varía según su velocidad de lectura y sus elecciones, pero en promedio, se necesitan varias horas para completar una sola partida. Desbloquear los 9 finales requerirá múltiples partidas.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Dónde puedo jugar a Fear Me?</div>
+            <div class="faq-answer">Puedes jugar a <i>Fear Me</i> en línea siguiendo el enlace proporcionado: <a href="https://html-classic.itch.zone/html/15418904/index.html">¡Juega a Fear Me ahora!</a></div>
+          </li>
+        </ul>
+     
+        <p><i>Fear Me</i> ofrece una emocionante mezcla de suspenso, romance y humor oscuro, desafiando a los jugadores a navegar por una peligrosa relación con un notorio asesino. Con múltiples finales, personajes convincentes y una narrativa que invita a la reflexión, esta novela visual ofrece una experiencia inolvidable que te dejará cuestionando tus propias elecciones y la naturaleza del miedo mismo.</p>
+        </div>`,
+  },
+
+  {
+    id: "egg-coffee",
+    title: "Egg Coffee (Café de Huevo)",
+    iframeUrl: "https://html-classic.itch.zone/html/15365797/index.html",
+    description: "¡Sumérgete en el espeluznante mundo de 'Egg Coffee'! Un proyecto de 'game jam' de Halloween desarrollado en solitario donde debes descubrir al asesino utilizando pistas aleatorias y cartas de tarot. ¡Disfruta de este espeluznante juego de adivinanzas y tutorial, una mezcla única de suspenso y cafeína!",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-06.webp",
+    imageAlt: "Captura de pantalla del juego Egg Coffee, que muestra una escena espeluznante con elementos de café.",
+    seo: {
+      title: "Egg Coffee - ¡Resuelve el Misterio de Halloween! Juega Gratis Online",
+      description: "Desenmascara al asesino en 'Egg Coffee', un emocionante proyecto de 'game jam' de Halloween. Utiliza cartas de tarot y tu ingenio para resolver el misterio aleatorio. ¡Juega ahora y disfruta del suspenso!",
+      keywords: "egg coffee, café de huevo, juego de halloween, juego de misterio, desarrollo en solitario, juego indie, cartas de tarot, juego de adivinanzas, asesino aleatorio, juego online gratis"
+    },
+    addressBar: "egg-coffee",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: '¡Este juego es absolutamente increíble! Me encanta la historia y los personajes. No puedo esperar a ver qué pasa después. El juego es muy desafiante y me encanta el suspenso. No puedo esperar a ver qué pasa después.'
+      },
+      {
+        id: 2,
+        author: 'John',
+        date: 'Nov 03, 2025',
+        rating: 4,
+        text: 'Este juego es muy desafiante y me encanta el suspenso. No puedo esperar a ver qué pasa después.'
+      }
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Egg Coffee (Café de Huevo)</h2><p>¡Bienvenido al inquietante mundo de 'Egg Coffee', una experiencia única y escalofriante creada para el SoloDeveleopment 72-hour Jam #9: Halloween! Este proyecto combina la comodidad del café con el suspenso de un misterio de asesinato, ofreciendo a los jugadores una aventura emocionante y con cafeína que es perfecta para la temporada espeluznante. Prepárate para usar tu intuición y habilidades de deducción mientras te adentras en un mundo donde cada taza podría ser la última.</p>
+     
+        <h3>Acerca de</h3>
+        <p>'Egg Coffee' es un **juego de adivinanzas** que te pone en el papel de un detective que intenta identificar a un asesino. Cada partida presenta un **asesino aleatorio**, lo que hace que cada sesión de juego sea un desafío fresco e impredecible. Las únicas pistas que tienes son las crípticas **cartas de tarot** dispersas por todo el entorno. Sin diálogos elaborados ni instrucciones explícitas, debes confiar en tus instintos y observación cuidadosa para armar el rompecabezas y desenmascarar al culpable. El juego fue construido bajo las limitaciones de un 'game jam' de 72 horas, mostrando la creatividad y el ingenio del desarrollador para crear una experiencia convincente y atractiva en un marco de tiempo limitado. 'Egg Coffee' es más que un simple juego; es un testimonio del poder del desarrollo en solitario y la magia de Halloween.</p>
+     
+        <h3>Características</h3>
+        <ul>
+          <li><b>Asesino Aleatorio:</b> Cada partida presenta un asesino diferente, lo que garantiza una alta rejugabilidad y un misterio en constante cambio que resolver.</li>
+          <li><b>Pistas de Cartas de Tarot:</b> Confía en las enigmáticas cartas de tarot para guiar tu investigación y proporcionar pistas sutiles sobre la identidad del asesino.</li>
+          <li><b>Jugabilidad Intuitiva:</b> Diseñado para un fácil acceso, el juego ofrece una interfaz simple pero atractiva, que permite a los jugadores sumergirse rápidamente en el misterio.</li>
+          <li><b>Atmósfera Espeluznante:</b> Sumérgete en un escalofriante escenario de Halloween, completo con imágenes y efectos de sonido inquietantes.</li>
+          <li><b>Corto y Dulce:</b> Perfecto para una sesión de juego rápida, 'Egg Coffee' ofrece una experiencia de misterio satisfactoria sin exigir un compromiso de tiempo significativo.</li>
+          <li><b>Desarrollado en Solitario:</b> Creado por un solo desarrollador dentro de un plazo de 72 horas, mostrando una impresionante creatividad y habilidad técnica.</li>
+          <li><b>Tutorial Incluido:</b> Familiarízate con la mecánica del juego a través de un útil tutorial que te prepara para los desafíos que se avecinan.</li>
+          <li><b>Mezcla Única de Géneros:</b> Experimenta una novedosa combinación de cultura cafetera y misterio de asesinato, creando una experiencia de juego verdaderamente inolvidable.</li>
+        </ul>
+     
+        <h3>Preguntas Frecuentes (FAQ)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">¿Cómo se juega a Egg Coffee?</div>
+            <div class="faq-answer">Navega por el entorno, examina las cartas de tarot en busca de pistas y usa tus deducciones para identificar al asesino. El asesino cambia cada vez que juegas, ¡así que presta mucha atención!</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Para qué sirven las cartas de tarot?</div>
+            <div class="faq-answer">Las cartas de tarot proporcionan pistas sobre la identidad, los motivos o los métodos del asesino. Interprétalas cuidadosamente para descubrir la verdad.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Hay un tutorial?</div>
+            <div class="faq-answer">Sí, el juego incluye un tutorial para guiarte a través de los conceptos básicos del juego y ayudarte a comprender la mecánica.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Cuánto dura una sesión de juego?</div>
+            <div class="faq-answer">Una sesión de juego típica dura unos 10-15 minutos, lo que la hace perfecta para una experiencia de juego rápida y atractiva.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Puedo jugar a Egg Coffee en mi dispositivo móvil?</div>
+            <div class="faq-answer">'Egg Coffee' está diseñado para jugarse en un navegador web, y la funcionalidad en dispositivos móviles puede variar. Se experimenta mejor en un ordenador de escritorio o portátil.</div>
+          <li>
+            <div class="faq-question">¿Qué inspiró la creación de 'Egg Coffee'?</div>
+            <div class="faq-answer">'Egg Coffee' fue creado durante un 'game jam' de 72 horas con el tema de Halloween. ¡El desarrollador tenía como objetivo mezclar el suspenso con un tema único, lo que resultó en este misterio impulsado por el café!</div>
+          </li>
+        </ul>
+     
+        <p>En conclusión, 'Egg Coffee' ofrece una experiencia convincente y de elaboración única que muestra la creatividad y el ingenio del desarrollo de juegos en solitario. Con su asesino aleatorio, crípticas pistas de cartas de tarot y espeluznante atmósfera de Halloween, este juego proporciona un misterio emocionante y atractivo que seguramente cautivará a los jugadores. ¡Disfruta de tu taza de suspenso y mira si puedes descubrir la verdad!</p>
+        </div>`,
+  },
+
+  {
+    id: "florastrum-academia",
+    title: "Florastrum Academia",
+    iframeUrl: "https://html-classic.itch.zone/html/15357785/index.html",
+    description: "¡Embárcate en un viaje mágico en Florastrum Academia! Desvela un misterio de Halloween mientras dominas la elaboración de pociones. Encuentra compañeros de clase intrigantes y resuelve encantadores rompecabezas utilizando piezas únicas. ¡Gira, elabora estrategias y completa la cuadrícula! ¡Experimenta el mundo de la magia hoy!",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-07.webp",
+    imageAlt: "Un vibrante rompecabezas con ilustraciones de elementos mágicos dentro de Florastrum Academia.",
+    seo: {
+      title: "Florastrum Academia - ¡Resuelve Rompecabezas Mágicos y Elabora Pociones!",
+      description: "¡Entra en Florastrum Academia, una escuela de magia, y desvela un misterio de Halloween! Resuelve intrincados rompecabezas con mecánicas únicas y encuentra personajes fascinantes. ¡Juega ahora!",
+      keywords: "florastrum, academia, juego de escuela de magia, rompecabezas, elaboración de pociones, juego de halloween, juego de fantasía"
+    },
+    addressBar: "florastrum-academia",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: '¡Este juego es absolutamente increíble! Me encanta la historia y los personajes. No puedo esperar a ver qué pasa después.'
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <h2>Florastrum Academia</h2>
+        <p>Bienvenido a Florastrum Academia, donde la magia no es solo una asignatura, es una forma de vida. Como nuevo estudiante, te sumerges en el encantador mundo de los hechizos, la elaboración de pociones y los encuentros misteriosos. Este Halloween, tu tarea de elaboración de pociones toma un giro inesperado cuando te encuentras con un compañero de clase cautivador en las profundidades del bosque prohibido. Prepárate para una aventura de resolución de rompecabezas como ninguna otra, que combina **estrategia**, **magia** y una pizca de espeluznante ambiente de Halloween.</p>
+        
+        <h3>Acerca de</h3>
+        <p>Florastrum Academia es un juego de rompecabezas único donde los jugadores utilizan **iconos mágicos** para generar piezas de rompecabezas y colocarlas estratégicamente en una cuadrícula. La mecánica central del juego gira en torno a **girar estas piezas** para que encajen perfectamente en los espacios disponibles, desafiando a los jugadores a pensar de forma creativa y planificar sus movimientos con cuidado. Añadiendo una capa extra de complejidad, ciertas áreas de la cuadrícula están **preocupadas con ilustraciones**, lo que impide la colocación de piezas de rompecabezas en esas zonas. Los jugadores deben aprovechar su razonamiento espacial y sus habilidades de resolución de problemas para completar con éxito el rompecabezas y avanzar en la historia. El tema de Halloween y el misterioso compañero de clase añaden intriga y profundidad narrativa, haciendo de Florastrum Academia una experiencia de juego convincente y atractiva. El juego está diseñado para ser accesible a los entusiastas de los rompecabezas casuales, a la vez que ofrece un desafío satisfactorio para los jugadores más experimentados. ¡Descubre los secretos escondidos dentro de los muros de Florastrum Academia y conviértete en un maestro de los rompecabezas mágicos!</p>
+        
+        <h3>Características</h3>
+        <ul>
+          <li><b>Mecánicas de Rompecabezas Únicas:</b> Genera distintas piezas de rompecabezas basadas en iconos mágicos, añadiendo una capa de gestión de recursos a la jugabilidad tradicional de rompecabezas.</li>
+          <li><b>Rotación Estratégica:</b> Gira las piezas de rompecabezas generadas para optimizar su ajuste dentro de la cuadrícula, exigiendo una planificación cuidadosa y conciencia espacial.</li>
+          <li><b>Zonas Preocupadas:</b> Supera el desafío de las áreas ilustradas dentro de la cuadrícula que no pueden acomodar piezas de rompecabezas, lo que requiere adaptación estratégica.</li>
+          <li><b>Intrigante Tema de Halloween:</b> Sumérgete en una atmósfera espeluznante de Halloween con elementos visuales y efectos de sonido temáticos.</li>
+          <li><b>Argumento Misterioso:</b> Desvela el misterio que rodea a un compañero de clase cautivador encontrado en el bosque prohibido, añadiendo profundidad narrativa a la jugabilidad del rompecabezas.</li>
+          <li><b>Jugabilidad Accesible:</b> Controles fáciles de aprender e instrucciones claras hacen que el juego sea accesible para jugadores de todos los niveles.</li>
+          <li><b>Rompecabezas Desafiantes:</b> La complejidad de los rompecabezas aumenta gradualmente, asegurando una experiencia consistentemente atractiva y gratificante.</li>
+          <li><b>Valor Rejugable:</b> Incluso después de resolver el rompecabezas inicial, experimenta con diferentes estrategias y colocaciones de piezas para una rejugabilidad infinita.</li>
+        </ul>
+        
+        <h3>Preguntas Frecuentes (FAQ)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">¿Cómo genero piezas de rompecabezas?</div>
+            <div class="faq-answer">Haz clic en los iconos ubicados debajo de la cuadrícula del rompecabezas. Cada icono genera una pieza de rompecabezas única.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Cómo giro una pieza de rompecabezas?</div>
+            <div class="faq-answer">Presiona la tecla **'R'** para girar la pieza de rompecabezas actualmente seleccionada.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Dónde puedo colocar piezas de rompecabezas?</div>
+            <div class="faq-answer">Puedes colocar piezas de rompecabezas en cualquier espacio vacío dentro de la cuadrícula, excepto en las áreas con ilustraciones.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Cuál es el objetivo del juego?</div>
+            <div class="faq-answer">El objetivo es llenar toda la cuadrícula con piezas de rompecabezas, evitando las zonas preocupadas, y revelar la imagen completa.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Hay un límite de tiempo?</div>
+            <div class="faq-answer">No, no hay límite de tiempo. Tómate tu tiempo para elaborar estrategias y resolver el rompecabezas.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Puedo deshacer una colocación?</div>
+            <div class="faq-answer">Desafortunadamente, el juego actualmente no cuenta con una función de deshacer. ¡Planifica tus colocaciones cuidadosamente!</div>
+          </li>
+        </ul>
+        
+        <p>Florastrum Academia ofrece una cautivadora mezcla de resolución de rompecabezas y narración mágica. Con sus mecánicas únicas, un argumento intrigante y una jugabilidad accesible, es el juego perfecto para cualquiera que busque una experiencia de rompecabezas desafiante y gratificante. Sumérgete en el mundo de la magia, desvela los misterios del bosque prohibido y conviértete en un maestro de la resolución de rompecabezas en Florastrum Academia. ¡Feliz Halloween!</p>
+        </div>`,
+  },
+
+  {
+    id: "allele-origin",
+    title: "Allele: Origin (Alelo: Origen)",
+    iframeUrl: "https://html-classic.itch.zone/html/15338459/index.html",
+    description: "En un mundo devastado por una plaga, la última esperanza de la humanidad reside en los seres monstruosos nacidos de mutaciones genéticas: los alelos. Explora su origen y los temas oscuros y maduros que definen esta desesperada lucha por la supervivencia.",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-08.webp",
+    imageAlt: "Una figura monstruosa emerge de un paisaje oscuro y plagado, que representa el origen del Alelo.",
+    seo: {
+      title: "Allele: Origin - Descubre los Oscuros Secretos de la Mutación y la Supervivencia",
+      description: "Explora Allele: Origin, una historia de supervivencia en un mundo plagado donde las mutaciones genéticas han dado a luz a monstruos. Descubre la verdad detrás de su origen.",
+      keywords: "alelo, origen, mutación, plaga, supervivencia, evolución monstruosa, fantasía oscura, alteración genética"
+    },
+    addressBar: "allele-origin",
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Allele: Origin (Alelo: Origen)</h2><p>Corre el año 2077. Una plaga devastadora, diferente a todo lo que la humanidad haya enfrentado, ha barrido el planeta, diezmando poblaciones y colapsando civilizaciones. En un intento desesperado por encontrar una cura, los científicos experimentaron con terapias genéticas radicales. Sin embargo, estos intentos provocaron inadvertidamente un nuevo camino evolutivo, dando lugar a seres monstruosos conocidos como **Alelos**. Su mismo origen está entrelazado con la lucha de la humanidad por la supervivencia, un reflejo retorcido de nuestras propias medidas desesperadas.</p>
+     
+        <h3>Acerca de</h3>
+        <p>Allele: Origin profundiza en la sombría realidad de un mundo tambaleándose al borde de la extinción. La plaga sirve como catalizador para la selección antinatural, obligando a la humanidad a confrontar las consecuencias imprevistas de manipular los cimientos mismos de la vida. Estos Alelos, nacidos del caos genético, poseen habilidades que superan con creces las capacidades humanas, convirtiéndose tanto en una amenaza como en una posible solución. Explora su sociedad, sus motivaciones y la compleja relación que tienen con los restos de la humanidad. Esta historia explora las **implicaciones éticas** del avance científico, las profundidades de la desesperación humana y las líneas borrosas entre monstruo y salvador. Ten en cuenta que esta exploración incluye **temas maduros** y advertencias de contenido como se describe en la introducción.</p>
+     
+        <h3>Características</h3>
+        <ul>
+          <li><b>Mutaciones Genéticas:</b> Sé testigo de las diversas y aterradoras mutaciones que definen a los Alelos, cada uno con habilidades y debilidades únicas.</li>
+          <li><b>Opciones Morales:</b> Navega por una compleja red de dilemas morales, donde cada decisión tiene consecuencias de gran alcance tanto para los humanos como para los Alelos.</li>
+          <li><b>Mundo Oscuro:</b> Explora un mundo bellamente renderizado, pero sombrío y en descomposición, que refleja la devastación de la plaga y la desesperación de sus supervivientes.</li>
+          <li><b>Personajes Complejos:</b> Interactúa con un elenco de personajes convincentes, cada uno con sus propias motivaciones, secretos y agendas, difuminando las líneas entre héroe y villano.</li>
+          <li><b>Argumento Impredecible:</b> Experimenta una narrativa ramificada con **múltiples finales**, moldeada por tus elecciones y acciones, lo que garantiza una experiencia única y rejugable.</li>
+          <li><b>Gestión de Recursos:</b> Busca recursos escasos y administra tus suministros cuidadosamente, ya que la supervivencia depende de tomar decisiones difíciles sobre qué priorizar.</li>
+          <li><b>Combate Estratégico:</b> Participa en desafiantes encuentros de combate, utilizando tus habilidades y recursos para superar a poderosos enemigos y adaptarte a amenazas en constante cambio.</li>
+          <li><b>Tradición Oculta (Lore):</b> Descubre la tradición oculta de los Alelos y los eventos que llevaron a su creación, revelando los oscuros secretos detrás de la plaga y los experimentos que los engendraron.</li>
+        </ul>
+     
+        <h3>Preguntas Frecuentes (FAQ)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">¿Qué son los Alelos?</div>
+            <div class="faq-answer">Los Alelos son seres mutados nacidos de los desesperados intentos de la humanidad por sobrevivir a una plaga devastadora. Poseen rasgos genéticos y habilidades únicas.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Qué tipo de temas se exploran?</div>
+            <div class="faq-answer">Allele: Origin explora temas maduros como la manipulación genética, la supervivencia, la decadencia moral y las consecuencias de la ambición científica desenfrenada.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Es este un juego de terror?</div>
+            <div class="faq-answer">Si bien Allele: Origin contiene elementos de terror, es principalmente una historia de **fantasía oscura** centrada en la supervivencia y la exploración de temas complejos. Espere elementos mórbidos y descripciones violentas.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Son importantes mis elecciones?</div>
+            <div class="faq-answer">Sí, tus elecciones impactan significativamente la narrativa y conducen a múltiples finales. ¡Se aconseja una consideración cuidadosa!</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Cuál es el significado del título "Allele: Origin"?</div>
+            <div class="faq-answer">El título se refiere al comienzo del linaje Alelo, el marcador genético que define su existencia, y explora su surgimiento a partir de los desesperados experimentos de la humanidad.</div>
+          </li>
+          <li>
+            <div class="faq-question">¿Dónde puedo aprender más sobre el mundo de Allele?</div>
+            <div class="faq-answer">Explora enlaces relacionados y mantente atento a las actualizaciones, la tradición adicional y las discusiones de la comunidad.</div>
+          </li>
+        </ul>
+     
+        <p>Allele: Origin ofrece una sombría y convincente exploración de la supervivencia frente a una catástrofe genética. Sé testigo del surgimiento de los Alelos, desvela los secretos de su origen y toma las decisiones difíciles que determinarán el destino de la humanidad. Esta no es solo una historia de monstruos, sino un reflejo de nuestro propio potencial tanto para la creación como para la destrucción. El futuro depende de la comprensión del alelo y su origen retorcido.</p>
+        </div>`,
   }
+
 
 ]
 

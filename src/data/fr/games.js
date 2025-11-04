@@ -1,29 +1,29 @@
 // Games data for French language
 export default [
-    {
-        id: "trapped-with-jester",
-        title: "Piégé avec le Bouffon",
-        iframeUrl: "https://html-classic.itch.zone/html/15323668/TrappedwithJester-1.0-web/index.html",
-        description: "Réveillez-vous dans un monde enveloppé de mystère ! Dans 'Piégé avec le Bouffon', reconstituez des souvenirs fragmentés tout en naviguant dans une réalité déroutante avec un bouffon toujours énervant. Démêlez des secrets, forgez votre destin et découvrez six fins uniques dans cette aventure entièrement doublée.",
-        publishDate: "2025-10-27",
-        imageUrl: "/images/games/game-01.webp",
-        imageAlt: "Une silhouette sombre, potentiellement le personnage du joueur, semble perturbée tandis qu'un bouffon aux couleurs vives l'observe. L'image suggère le sentiment d'être piégé avec un bouffon.",
-        seo: {
-            title: "Piégé avec le Bouffon - Un Jeu d'Aventure Narratif avec Plusieurs Fins",
-            description: "Plongez dans 'Piégé avec le Bouffon', un jeu narratif entièrement doublé où vous devez découvrir votre identité et échapper aux griffes d'un bouffon bizarre. Avec six fins uniques !",
-            keywords: "piégé avec le bouffon, aventure narrative, fiction interactive, jeu de mystère, plusieurs fins, entièrement doublé, art original, jeu de bouffon"
-        },
-        addressBar: "trapped-with-jester",
-        comments: [
-            {
-                id: 1,
-                author: 'Sarah',
-                date: '27 octobre 2025',
-                rating: 5,
-                text: 'Ce jeu est absolument incroyable ! '
-            },
-        ],
-        detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Piégé avec le Bouffon</h2><p>Lancez-vous dans un voyage psychologique vers l'inconnu dans 'Piégé avec le Bouffon'. Désorienté et amnésique, vous vous retrouvez captif, votre seule compagnie étant un bouffon implacablement bavard. Cette expérience narrative vous plonge dans un tourbillon d'incertitude, vous forçant à confronter votre passé et à choisir votre avenir. Succomberez-vous aux caprices du bouffon ou vous libérerez-vous de cette étrange situation ? Préparez-vous à des rebondissements et à des révélations troublantes en naviguant dans ce paysage surréaliste. Le destin de votre identité fragmentée repose entre vos mains.</p>
+  {
+    id: "trapped-with-jester",
+    title: "Piégé avec le Bouffon",
+    iframeUrl: "https://html-classic.itch.zone/html/15323668/TrappedwithJester-1.0-web/index.html",
+    description: "Réveillez-vous dans un monde enveloppé de mystère ! Dans 'Piégé avec le Bouffon', reconstituez des souvenirs fragmentés tout en naviguant dans une réalité déroutante avec un bouffon toujours énervant. Démêlez des secrets, forgez votre destin et découvrez six fins uniques dans cette aventure entièrement doublée.",
+    publishDate: "2025-10-27",
+    imageUrl: "/images/games/game-01.webp",
+    imageAlt: "Une silhouette sombre, potentiellement le personnage du joueur, semble perturbée tandis qu'un bouffon aux couleurs vives l'observe. L'image suggère le sentiment d'être piégé avec un bouffon.",
+    seo: {
+      title: "Piégé avec le Bouffon - Un Jeu d'Aventure Narratif avec Plusieurs Fins",
+      description: "Plongez dans 'Piégé avec le Bouffon', un jeu narratif entièrement doublé où vous devez découvrir votre identité et échapper aux griffes d'un bouffon bizarre. Avec six fins uniques !",
+      keywords: "piégé avec le bouffon, aventure narrative, fiction interactive, jeu de mystère, plusieurs fins, entièrement doublé, art original, jeu de bouffon"
+    },
+    addressBar: "trapped-with-jester",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: '27 octobre 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! '
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Piégé avec le Bouffon</h2><p>Lancez-vous dans un voyage psychologique vers l'inconnu dans 'Piégé avec le Bouffon'. Désorienté et amnésique, vous vous retrouvez captif, votre seule compagnie étant un bouffon implacablement bavard. Cette expérience narrative vous plonge dans un tourbillon d'incertitude, vous forçant à confronter votre passé et à choisir votre avenir. Succomberez-vous aux caprices du bouffon ou vous libérerez-vous de cette étrange situation ? Préparez-vous à des rebondissements et à des révélations troublantes en naviguant dans ce paysage surréaliste. Le destin de votre identité fragmentée repose entre vos mains.</p>
           
             <h3>À Propos</h3>
             <p>'Piégé avec le Bouffon' est une aventure narrative qui plonge les joueurs dans un monde de mystère et d'intrigue. Mettant fortement l'accent sur l'interaction des personnages et le choix du joueur, le jeu offre une expérience unique et immersive. L'histoire captivante, combinée à l'art original et au doublage complet, crée une atmosphère convaincante qui maintiendra les joueurs accrochés du début à la fin. Explorez les profondeurs de vos souvenirs oubliés, démêlez les secrets de votre environnement et, finalement, décidez de votre propre destin dans ce conte inoubliable de découverte de soi et de la compagnie troublante d'un bouffon de cour. La conception du jeu est axée sur la fourniture de choix significatifs qui ont un impact direct sur le récit, conduisant à des conclusions variées et stimulantes. Chaque partie offre une nouvelle perspective et encourage les multiples explorations du monde et de ses habitants.</p>
@@ -70,32 +70,32 @@ export default [
           
             <p>En conclusion, 'Piégé avec le Bouffon' offre un mélange convaincant de mystère, d'intrigue et de narration axée sur les personnages. Les six fins uniques du jeu, combinées à son doublage immersif et à son art original, offrent une expérience riche et gratifiante pour les joueurs à la recherche d'une aventure stimulante. Les choix que vous faites définissent le chemin à parcourir ; réfléchissez bien à qui vous faites confiance et à la façon dont vous répondez aux questions du bouffon. Osez vous aventurer dans les profondeurs de votre passé oublié et découvrez la vérité derrière votre captivité. </p>
           </div>`
-    },
+  },
 
-    {
-        id: "death-loop",
-        title: "Boucle de Mort",
-        iframeUrl: "https://html-classic.itch.zone/html/15187376/Death Loop browser october/index.html",
-        description: "Piégé dans une boucle temporelle avec 9 étrangers, un meurtrier se cache parmi vous. Démasquez l'assassin ou vous êtes condamné à répéter ce cauchemar éternellement. Pouvez-vous vous libérer de la Boucle de Mort ?",
-        publishDate: "2025-10-27",
-        imageUrl: "/images/games/game-02.webp",
-        imageAlt: "Scène du jeu Boucle de Mort, avec des personnages dans un environnement scolaire mystérieux.",
-        seo: {
-            title: "Boucle de Mort - Démêlez le Mystère et Échappez au Cauchemar !",
-            description: "Découvrez Boucle de Mort, un mélange palpitant de déduction sociale et de roman visuel. Démasquez l'assassin dans la boucle temporelle ou faites face à la répétition éternelle. Jouez maintenant !",
-            keywords: "boucle de mort, jeu de boucle temporelle, jeu de déduction sociale, roman visuel, jeu de mystère, assassin, jeu d'évasion"
-        },
-        addressBar: "death-loop",
-        comments: [
-            {
-                id: 1,
-                author: 'Sarah',
-                date: '27 octobre 2025',
-                rating: 5,
-                text: 'Ce jeu est absolument incroyable ! '
-            },
-        ],
-        detailsHtml: `
+  {
+    id: "death-loop",
+    title: "Boucle de Mort",
+    iframeUrl: "https://html-classic.itch.zone/html/15187376/Death Loop browser october/index.html",
+    description: "Piégé dans une boucle temporelle avec 9 étrangers, un meurtrier se cache parmi vous. Démasquez l'assassin ou vous êtes condamné à répéter ce cauchemar éternellement. Pouvez-vous vous libérer de la Boucle de Mort ?",
+    publishDate: "2025-10-27",
+    imageUrl: "/images/games/game-02.webp",
+    imageAlt: "Scène du jeu Boucle de Mort, avec des personnages dans un environnement scolaire mystérieux.",
+    seo: {
+      title: "Boucle de Mort - Démêlez le Mystère et Échappez au Cauchemar !",
+      description: "Découvrez Boucle de Mort, un mélange palpitant de déduction sociale et de roman visuel. Démasquez l'assassin dans la boucle temporelle ou faites face à la répétition éternelle. Jouez maintenant !",
+      keywords: "boucle de mort, jeu de boucle temporelle, jeu de déduction sociale, roman visuel, jeu de mystère, assassin, jeu d'évasion"
+    },
+    addressBar: "death-loop",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: '27 octobre 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! '
+      },
+    ],
+    detailsHtml: `
             <h2 style="font-size: 1.5em; font-weight: bold;">
           <span style="color: rgb(51, 51, 51);">Boucle de Mort</span>
         </h2>
@@ -233,32 +233,32 @@ export default [
         </p>
         
             `
-    },
+  },
 
-    {
-        id: "dating-killmulator",
-        title: "Simulateur de Rencontres Mortelles",
-        iframeUrl: "https://html-classic.itch.zone/html/15331665/index.html",
-        description: "Plongez dans le Simulateur de Rencontres Mortelles, une parodie de simulateur de rencontres à l'humour noir où trouver l'amour est un jeu mortel. Naviguez dans des relations toxiques et des personnages excentriques dans des chapitres mensuels et des spin-offs. Êtes-vous prêt à 'swiper' à droite... vers le chaos ?",
-        publishDate: "2025-10-27",
-        imageUrl: "/images/games/game-03.webp",
-        imageAlt: "Protagoniste féminine dans Simulateur de Rencontres Mortelles, entourée d'images surréalistes et d'humour noir.",
-        seo: {
-            title: "Simulateur de Rencontres Mortelles - Une Parodie de Simulateur de Rencontres à l'Humour Noir",
-            description: "Découvrez le Simulateur de Rencontres Mortelles, un simulateur de rencontres unique qui parodie les tropes romantiques avec un humour noir et des personnages excentriques. Explorez des chapitres mensuels et naviguez dans des relations toxiques. Téléchargez maintenant !",
-            keywords: "rencontres, simulateur de rencontres mortelles, simulateur de rencontres, parodie, humour noir, romance, relations toxiques, roman visuel, chapitres mensuels, spin-offs"
-        },
-        addressBar: "dating-killmulator",
-        comments: [
-            {
-                id: 1,
-                author: 'Sarah',
-                date: '27 octobre 2025',
-                rating: 5,
-                text: 'Ce jeu est absolument incroyable ! '
-            },
-        ],
-        detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  {
+    id: "dating-killmulator",
+    title: "Simulateur de Rencontres Mortelles",
+    iframeUrl: "https://html-classic.itch.zone/html/15331665/index.html",
+    description: "Plongez dans le Simulateur de Rencontres Mortelles, une parodie de simulateur de rencontres à l'humour noir où trouver l'amour est un jeu mortel. Naviguez dans des relations toxiques et des personnages excentriques dans des chapitres mensuels et des spin-offs. Êtes-vous prêt à 'swiper' à droite... vers le chaos ?",
+    publishDate: "2025-10-27",
+    imageUrl: "/images/games/game-03.webp",
+    imageAlt: "Protagoniste féminine dans Simulateur de Rencontres Mortelles, entourée d'images surréalistes et d'humour noir.",
+    seo: {
+      title: "Simulateur de Rencontres Mortelles - Une Parodie de Simulateur de Rencontres à l'Humour Noir",
+      description: "Découvrez le Simulateur de Rencontres Mortelles, un simulateur de rencontres unique qui parodie les tropes romantiques avec un humour noir et des personnages excentriques. Explorez des chapitres mensuels et naviguez dans des relations toxiques. Téléchargez maintenant !",
+      keywords: "rencontres, simulateur de rencontres mortelles, simulateur de rencontres, parodie, humour noir, romance, relations toxiques, roman visuel, chapitres mensuels, spin-offs"
+    },
+    addressBar: "dating-killmulator",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: '27 octobre 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! '
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
             <h2>Simulateur de Rencontres Mortelles</h2>
             <p>Bienvenue dans le Simulateur de Rencontres Mortelles, une version tordue du genre de simulateur de rencontres où l'amour n'est pas toujours doux, et les roses sont livrées avec des épines – ou pire ! Préparez-vous à entrer dans un monde de rencontres surréalistes, de situations d'humour noir et de personnages qui redéfinissent le sens de 'toxique'. Ce n'est pas votre romance typique ; c'est un voyage satirique à travers le paysage des rencontres modernes, amplifié à un degré absurde et inoubliable. Si vous cherchez un jeu qui défie les conventions et vous fait rire (et peut-être grincer des dents) en cours de route, vous l'avez trouvé.</p>
           
@@ -307,32 +307,32 @@ export default [
           
             <p>Le Simulateur de Rencontres Mortelles offre une alternative rafraîchissante et pleine d'humour noir aux simulateurs de rencontres traditionnels. Avec ses sorties de chapitres mensuels, ses personnages excentriques et son exploration des toxicités modernes, ce jeu est sûr de vous divertir et de remettre en question la nature même de la romance. Êtes-vous prêt à plonger dans le chaos ? Découvrez le frisson du Simulateur de Rencontres Mortelles dès aujourd'hui !</p>
           </div>`
-    },
+  },
 
-    {
-        id: "reapers-goodbye",
-        title: "Adieu du Faucheur",
-        iframeUrl: "https://html-classic.itch.zone/html/15345399/index.html",
-        description: "Dans un terrain vague désolé, cinq âmes perdues convergent vers un stand de nourriture particulier, chacune portant le lourd fardeau du malheur. En attendant le train de minuit, elles partagent des histoires de promesses, de regrets et de vengeance, inconscientes des yeux vigilants qui observent leurs dernières confessions avant l'adieu du faucheur.",
-        publishDate: "2025-10-27",
-        imageUrl: "/images/games/game-04.webp",
-        imageAlt: "Une image stylisée représentant un stand de nourriture faiblement éclairé à la campagne, avec des silhouettes sombres représentant des âmes perdues et un soupçon du faucheur supervisant leurs derniers instants, signifiant un adieu sombre.",
-        seo: {
-            title: "Adieu du Faucheur - Découvrez des Histoires de Destin et de Malheur",
-            description: "Explorez les histoires poignantes de cinq clients en difficulté dans un mystérieux stand de nourriture attendant le train de minuit et leur destin ultime. Vivez l'adieu du faucheur et les rouages du destin.",
-            keywords: "faucheur, adieu, destin, malheur, âmes perdues, train de minuit, vengeance, regret, campagne, stand de nourriture"
-        },
-        addressBar: "reapers-goodbye",
-        comments: [
-            {
-                id: 1,
-                author: 'Sarah',
-                date: '27 octobre 2025',
-                rating: 5,
-                text: 'Ce jeu est absolument incroyable ! '
-            },
-        ],
-        detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Adieu du Faucheur</h2><p>Aventurez-vous dans un royaume où la main cruelle du destin a infligé le malheur à cinq individus, les attirant ensemble sous un ciel étoilé et vaste. Dans un humble stand de nourriture, un sanctuaire pour les âmes perdues, leurs récits entrelacés de rêves brisés, de désirs de vengeance et de regrets persistants se déroulent alors qu'ils attendent un voyage fatidique. C'est là que l'adieu du faucheur devient un tournant dans leur existence, altérant à jamais le cours de leurs destins entrelacés. Préparez-vous à vous immerger dans une collection d'histoires interconnectées, chacune révélant les profondeurs de l'esprit humain alors qu'il affronte l'inévitable.</p>
+  {
+    id: "reapers-goodbye",
+    title: "Adieu du Faucheur",
+    iframeUrl: "https://html-classic.itch.zone/html/15345399/index.html",
+    description: "Dans un terrain vague désolé, cinq âmes perdues convergent vers un stand de nourriture particulier, chacune portant le lourd fardeau du malheur. En attendant le train de minuit, elles partagent des histoires de promesses, de regrets et de vengeance, inconscientes des yeux vigilants qui observent leurs dernières confessions avant l'adieu du faucheur.",
+    publishDate: "2025-10-27",
+    imageUrl: "/images/games/game-04.webp",
+    imageAlt: "Une image stylisée représentant un stand de nourriture faiblement éclairé à la campagne, avec des silhouettes sombres représentant des âmes perdues et un soupçon du faucheur supervisant leurs derniers instants, signifiant un adieu sombre.",
+    seo: {
+      title: "Adieu du Faucheur - Découvrez des Histoires de Destin et de Malheur",
+      description: "Explorez les histoires poignantes de cinq clients en difficulté dans un mystérieux stand de nourriture attendant le train de minuit et leur destin ultime. Vivez l'adieu du faucheur et les rouages du destin.",
+      keywords: "faucheur, adieu, destin, malheur, âmes perdues, train de minuit, vengeance, regret, campagne, stand de nourriture"
+    },
+    addressBar: "reapers-goodbye",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: '27 octobre 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! '
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Adieu du Faucheur</h2><p>Aventurez-vous dans un royaume où la main cruelle du destin a infligé le malheur à cinq individus, les attirant ensemble sous un ciel étoilé et vaste. Dans un humble stand de nourriture, un sanctuaire pour les âmes perdues, leurs récits entrelacés de rêves brisés, de désirs de vengeance et de regrets persistants se déroulent alors qu'ils attendent un voyage fatidique. C'est là que l'adieu du faucheur devient un tournant dans leur existence, altérant à jamais le cours de leurs destins entrelacés. Préparez-vous à vous immerger dans une collection d'histoires interconnectées, chacune révélant les profondeurs de l'esprit humain alors qu'il affronte l'inévitable.</p>
           
           <h3>À Propos</h3>
           <p>Adieu du Faucheur est une exploration narrative de destins entrelacés, se déroulant dans un environnement rural éloigné où le malheur dicte les chemins de ses habitants. Le récit se concentre sur cinq individus, chacun hanté par son passé et accablé par les circonstances, qui se retrouvent dans un stand de nourriture particulier servant des âmes perdues. En attendant l'arrivée du train de minuit, ils échangent des histoires, révélant leurs désirs les plus profonds, leurs regrets et les circonstances qui les ont conduits à ce carrefour fatidique. Le faucheur, un observateur silencieux, surveille leurs confessions, ajoutant un élément de suspense et d'inévitabilité à leurs voyages. Ce n'est pas seulement une histoire de chagrin, mais une réflexion sur la résilience de l'esprit humain et les choix qui définissent nos destins face à une adversité écrasante. Chaque histoire est méticuleusement conçue pour offrir une expérience riche et immersive, explorant les thèmes de la rédemption, de l'acceptation et de l'adieu final.</p>
@@ -379,7 +379,297 @@ export default [
           
           <p>Adieu du Faucheur offre une exploration poignante des destins entrelacés, mettant en valeur la résilience de l'esprit humain face au destin inévitable. Les histoires de ces âmes perdues, unies par le malheur et la présence imminente du faucheur, servent de puissant rappel des choix qui nous définissent, même face à notre adieu final. C'est une expérience qui s'attardera longtemps après le départ du train de minuit, vous laissant méditer sur la danse complexe entre le destin et le libre arbitre et la valeur de la connexion humaine face à des obstacles écrasants. Apprenez-en plus sur le monde en visitant <a href="https://html-classic.itch.zone/html/15345399/index.html">Adieu du Faucheur.</a></p>
           </div>`
-    }
+  },
+
+  {
+    id: "fear-me",
+    title: "Fear Me (Crains-moi)",
+    iframeUrl: "https://html-classic.itch.zone/html/15418904/index.html",
+    description: "Vous êtes-vous déjà demandé ce que ça fait d'attirer l'attention de Jeff the Killer ? Dans Fear Me, un visual novel satirique et plein de suspense, naviguez dans une romance mortelle où la survie est essentielle. Travaillez dans un club vidéo, rencontrez un mystérieux inconnu et essayez de gagner sa confiance... si vous parvenez à rester en vie. 9 fins, MC non genré !",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-05.webp",
+    imageAlt: "Jeff the Killer fixe le spectateur d'un air menaçant, représentant la peur dans le visual novel Fear Me.",
+    seo: {
+      title: "Fear Me: Un Visual Novel de Romance Mortel avec Jeff the Killer - Jouez Maintenant !",
+      description: "Découvrez Fear Me, un visual novel de romance à suspense mettant en vedette Jeff the Killer ! Pouvez-vous survivre à son regard et gagner sa confiance ? Explorez 9 fins et un MC non genré.",
+      keywords: "Fear Me, Jeff the Killer, visual novel, romance, horreur, creepypasta, dating sim, suspense, survie, non genré"
+    },
+    addressBar: "fear-me",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! J\'adore l\'histoire et les personnages. J\'ai hâte de voir ce qui se passera ensuite.'
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <h2>Fear Me (Crains-moi)</h2>
+        <p>Imaginez votre vie banale prendre un tournant terrifiant lorsque vous devenez l'objet de l'obsession de l'une des figures les plus tristement célèbres d'Internet. <i>Fear Me</i> vous plonge dans un monde de **suspense**, d'**humour noir** et de romance potentiellement létale avec **Jeff the Killer**. Mais ce n'est pas seulement un autre simulateur de rencontres ; c'est une **exploration satirique** du genre de l'horreur, remplie de clichés et de rebondissements inattendus conçus pour vous tenir en haleine, anticipant constamment le prochain moment de peur.</p>
+     
+        <h3>À Propos</h3>
+        <p><i>Fear Me</i> est un visual novel qui mêle des éléments de romance, d'horreur et de satire, offrant une expérience de jeu unique. Vous incarnez un **personnage non genré** travaillant à un emploi apparemment ordinaire dans un club vidéo, jusqu'à ce qu'un homme mystérieux, manifestant un intérêt troublant pour vous, franchisse la porte. Cet homme n'est autre que Jeff the Killer. Le jeu propose plus de **34 000 mots** de narration captivante, **40 images CG uniques** et **9 fins distinctes**, offrant une grande rejouabilité et des opportunités d'explorer différents résultats basés sur vos choix. Bien que présenté comme un simulateur de rencontres, il subvertit les attentes en ne romançant pas le personnage ou ses actions, offrant une perspective autocritique et consciente des tropes d'horreur qu'il utilise. Il contient des thèmes sombres et doit être abordé avec la discrétion du spectateur.</p>
+     
+        <h3>Fonctionnalités</h3>
+        <ul>
+          <li><b>Une Romance Tordue :</b> Naviguez dans une relation complexe avec Jeff the Killer, où la confiance est aussi précieuse que la survie. Chaque décision compte et aura un impact sur la fin que vous obtiendrez.</li>
+          <li><b>Plusieurs Chemins Romantiques :</b> Aux côtés de Jeff, découvrez deux autres options de romance intrigantes, une masculine et une féminine, chacune avec ses propres histoires captivantes.</li>
+          <li><b>Plus de 34 000 Mots :</b> Plongez-vous dans une narration richement détaillée remplie de suspense, d'humour et de rebondissements inattendus. Préparez-vous à ressentir la peur et l'intrigue.</li>
+          <li><b>40 Images CG Uniques :</b> Profitez d'œuvres d'art époustouflantes qui donnent vie à l'histoire, améliorant l'impact émotionnel des moments clés.</li>
+          <li><b>9 Fins Distinctes :</b> Découvrez un large éventail de résultats basés sur vos choix, encourageant plusieurs parties pour toutes les débloquer.</li>
+          <li><b>Personnage Principal Non Genré :</b> Vivez l'histoire d'un point de vue qui vous correspond, quelle que soit votre identité de genre.</li>
+          <li><b>Horreur Satirique :</b> Profitez d'une approche autocritique et humoristique du genre de l'horreur, se moquant des clichés tout en offrant une expérience pleine de suspense.</li>
+          <li><b>Discrétion du Spectateur Demandée :</b> Sachez que le jeu contient des thèmes matures et n'est pas destiné à glorifier la violence ou les comportements nuisibles.</li>
+        </ul>
+     
+        <h3>FAQ (Foire Aux Questions)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">Ce jeu est-il adapté à tous les âges ?</div>
+            <div class="faq-answer">Non, <i>Fear Me</i> contient des thèmes et du contenu matures qui peuvent ne pas convenir à un public plus jeune. La discrétion du spectateur est conseillée.</div>
+          </li>
+          <li>
+            <div class="faq-question">Le jeu romantise-t-il les actions de Jeff the Killer ?</div>
+            <div class="faq-answer">Non, le jeu est une satire et n'a pas l'intention de romancer le personnage ou ses tendances violentes.</div>
+          </li>
+          <li>
+            <div class="faq-question">Combien d'options de romance y a-t-il ?</div>
+            <div class="faq-answer">Il y a trois intérêts romantiques possibles : Jeff the Killer, un personnage masculin et un personnage féminin.</div>
+          </li>
+          <li>
+            <div class="faq-question">Le personnage principal est-il personnalisable ?</div>
+            <div class="faq-answer">Le personnage principal est non genré, ce qui vous permet de vous projeter dans l'histoire. Cependant, il n'y a pas d'autre personnalisation.</div>
+          </li>
+          <li>
+            <div class="faq-question">Combien de temps faut-il pour terminer le jeu ?</div>
+            <div class="faq-answer">Le temps de jeu varie en fonction de votre vitesse de lecture et de vos choix, mais en moyenne, il faut plusieurs heures pour terminer une seule partie. Débloquer les 9 fins nécessitera plusieurs parties.</div>
+          </li>
+          <li>
+            <div class="faq-question">Où puis-je jouer à Fear Me ?</div>
+            <div class="faq-answer">Vous pouvez jouer à <i>Fear Me</i> en ligne en suivant le lien fourni : <a href="https://html-classic.itch.zone/html/15418904/index.html">Jouez à Fear Me Maintenant !</a></div>
+          </li>
+        </ul>
+     
+        <p><i>Fear Me</i> offre un mélange palpitant de suspense, de romance et d'humour noir, défiant les joueurs à naviguer dans une relation dangereuse avec un tueur notoire. Avec plusieurs fins, des personnages captivants et un récit stimulant, ce visual novel offre une expérience inoubliable qui vous fera remettre en question vos propres choix et la nature de la peur elle-même.</p>
+        </div>`,
+  },
+
+  {
+    id: "egg-coffee",
+    title: "Egg Coffee (Café à l'Œuf)",
+    iframeUrl: "https://html-classic.itch.zone/html/15365797/index.html",
+    description: "Plongez dans le monde étrange de 'Egg Coffee' ! Un projet de game jam d'Halloween développé en solo où vous devez démasquer le tueur à l'aide d'indices aléatoires et de cartes de tarot. Profitez de ce jeu de devinettes effrayant et de son tutoriel, un mélange unique de suspense et de caféine !",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-06.webp",
+    imageAlt: "Capture d'écran du jeu Egg Coffee, montrant une scène effrayante avec des éléments de café.",
+    seo: {
+      title: "Egg Coffee - Résolvez le Mystère d'Halloween ! Jouez Gratuitement en Ligne",
+      description: "Démasquez le tueur dans 'Egg Coffee', un projet passionnant de game jam d'Halloween. Utilisez des cartes de tarot et votre intelligence pour résoudre le mystère aléatoire. Jouez maintenant et profitez du suspense !",
+      keywords: "egg coffee, café à l'œuf, jeu d'halloween, jeu de mystère, développement solo, jeu indépendant, cartes de tarot, jeu de devinettes, tueur aléatoire, jeu gratuit en ligne"
+    },
+    addressBar: "egg-coffee",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! J\'adore l\'histoire et les personnages. J\'ai hâte de voir ce qui se passera ensuite. Le jeu est très stimulant et j\'adore le suspense. J\'ai hâte de voir ce qui se passera ensuite.'
+      },
+      {
+        id: 2,
+        author: 'John',
+        date: 'Nov 03, 2025',
+        rating: 4,
+        text: 'Ce jeu est très stimulant et j\'adore le suspense. J\'ai hâte de voir ce qui se passera ensuite.'
+      }
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Egg Coffee (Café à l'Œuf)</h2><p>Bienvenue dans le monde troublant de 'Egg Coffee', une expérience unique et glaçante conçue pour le SoloDeveleopment 72-hour Jam #9 : Halloween ! Ce projet mélange le réconfort du café avec le suspense d'un mystère de meurtre, offrant aux joueurs une aventure palpitante et caféinée qui est parfaite pour la saison effrayante. Préparez-vous à utiliser votre intuition et vos compétences de déduction alors que vous vous plongez dans un monde où chaque tasse pourrait être la dernière.</p>
+     
+        <h3>À Propos</h3>
+        <p>'Egg Coffee' est un **jeu de devinettes** qui vous place dans le rôle d'un détective essayant d'identifier un tueur. Chaque partie présente un **tueur aléatoire**, faisant de chaque session de jeu un défi frais et imprévisible. Les seuls indices que vous avez sont les **cartes de tarot** cryptiques dispersées dans l'environnement. Sans dialogue élaboré ni instructions explicites, vous devez vous fier à votre instinct et à une observation attentive pour reconstituer le puzzle et démasquer le coupable. Le jeu a été construit sous les contraintes d'une *game jam* de 72 heures, démontrant la créativité et l'ingéniosité du développeur à créer une expérience convaincante et engageante dans un laps de temps limité. 'Egg Coffee' est plus qu'un simple jeu ; c'est un témoignage du pouvoir du développement en solo et de la magie d'Halloween.</p>
+     
+        <h3>Fonctionnalités</h3>
+        <ul>
+          <li><b>Tueur Aléatoire :</b> Chaque partie présente un tueur différent, garantissant une grande rejouabilité et un mystère en constante évolution à résoudre.</li>
+          <li><b>Indices de Cartes de Tarot :</b> Fiez-vous aux cartes de tarot énigmatiques pour guider votre enquête et fournir des indices subtils sur l'identité du tueur.</li>
+          <li><b>Gameplay Intuitif :</b> Conçu pour la facilité d'accès, le jeu offre une interface simple mais attrayante, permettant aux joueurs de plonger rapidement dans le mystère.</li>
+          <li><b>Atmosphère Effrayante :</b> Immergez-vous dans un décor d'Halloween glaçant, avec des visuels et des effets sonores troublants.</li>
+          <li><b>Court et Agréable :</b> Parfait pour une session de jeu rapide, 'Egg Coffee' offre une expérience de mystère satisfaisante sans exiger un engagement de temps important.</li>
+          <li><b>Développé en Solo :</b> Créé par un seul développeur dans un délai de 72 heures, démontrant une créativité et une compétence technique impressionnantes.</li>
+          <li><b>Tutoriel Inclus :</b> Familiarisez-vous avec les mécanismes du jeu grâce à un tutoriel utile qui vous prépare aux défis à venir.</li>
+          <li><b>Mélange Unique de Genres :</b> Découvrez une combinaison nouvelle de culture du café et de mystère de meurtre, créant une expérience de jeu vraiment inoubliable.</li>
+        </ul>
+     
+        <h3>FAQ (Foire Aux Questions)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">Comment jouer à Egg Coffee ?</div>
+            <div class="faq-answer">Naviguez dans l'environnement, examinez les cartes de tarot pour trouver des indices et utilisez vos déductions pour identifier le tueur. Le tueur change à chaque fois que vous jouez, alors faites très attention !</div>
+          </li>
+          <li>
+            <div class="faq-question">À quoi servent les cartes de tarot ?</div>
+            <div class="faq-answer">Les cartes de tarot fournissent des indices sur l'identité, les motivations ou les méthodes du tueur. Interprétez-les attentivement pour découvrir la vérité.</div>
+          </li>
+          <li>
+            <div class="faq-question">Y a-t-il un tutoriel ?</div>
+            <div class="faq-answer">Oui, le jeu comprend un tutoriel pour vous guider à travers les bases du gameplay et vous aider à comprendre les mécanismes.</div>
+          </li>
+          <li>
+            <div class="faq-question">Combien de temps dure une session de jeu ?</div>
+            <div class="faq-answer">Une session de jeu typique dure environ 10 à 15 minutes, ce qui la rend parfaite pour une expérience de jeu rapide et engageante.</div>
+          </li>
+          <li>
+            <div class="faq-question">Puis-je jouer à Egg Coffee sur mon appareil mobile ?</div>
+            <div class="faq-answer">'Egg Coffee' est conçu pour être joué dans un navigateur web, et la fonctionnalité sur les appareils mobiles peut varier. Il est préférable d'y jouer sur un ordinateur de bureau ou portable.</div>
+          <li>
+            <div class="faq-question">Qu'est-ce qui a inspiré la création de 'Egg Coffee' ?</div>
+            <div class="faq-answer">'Egg Coffee' a été créé lors d'une *game jam* de 72 heures sur le thème d'Halloween. Le développeur visait à mélanger le suspense avec un thème unique, ce qui a donné lieu à ce mystère alimenté par le café !</div>
+          </li>
+        </ul>
+     
+        <p>En conclusion, 'Egg Coffee' offre une expérience convaincante et unique qui met en valeur la créativité et l'ingéniosité du développement de jeux en solo. Avec son tueur aléatoire, ses indices cryptiques de cartes de tarot et son atmosphère effrayante d'Halloween, ce jeu offre un mystère palpitant et engageant qui saura captiver les joueurs. Profitez de votre tasse de suspense et voyez si vous pouvez découvrir la vérité !</p>
+        </div>`,
+  },
+
+  {
+    id: "florastrum-academia",
+    title: "Florastrum Academia",
+    iframeUrl: "https://html-classic.itch.zone/html/15357785/index.html",
+    description: "Embarquez pour un voyage magique à la Florastrum Academia ! Percez un mystère d'Halloween tout en maîtrisant la confection de potions. Rencontrez des camarades de classe intrigants et résolvez des énigmes enchanteresses à l'aide de pièces uniques. Faites pivoter, élaborez des stratégies et complétez la grille ! Découvrez le monde de la magie aujourd'hui !",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-07.webp",
+    imageAlt: "Un puzzle vibrant illustrant des éléments magiques au sein de la Florastrum Academia.",
+    seo: {
+      title: "Florastrum Academia - Résolvez des Énigmes Magiques et Concoctez des Potions !",
+      description: "Entrez dans la Florastrum Academia, une école de magie, et découvrez un mystère d'Halloween ! Résolvez des énigmes complexes avec des mécanismes uniques et rencontrez des personnages fascinants. Jouez maintenant !",
+      keywords: "florastrum, academia, jeu d'école de magie, puzzle, confection de potions, jeu d'halloween, jeu de fantaisie"
+    },
+    addressBar: "florastrum-academia",
+    comments: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'Nov 03, 2025',
+        rating: 5,
+        text: 'Ce jeu est absolument incroyable ! J\'adore l\'histoire et les personnages. J\'ai hâte de voir ce qui se passera ensuite.'
+      },
+    ],
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <h2>Florastrum Academia</h2>
+        <p>Bienvenue à la Florastrum Academia, où la magie n'est pas seulement un sujet, c'est un mode de vie. En tant que nouvel étudiant, vous êtes immergé dans le monde enchanteur des sorts, de la confection de potions et des rencontres mystérieuses. Cet Halloween, votre tâche de confection de potions prend un tournant inattendu lorsque vous tombez sur un camarade de classe captivant dans les profondeurs de la forêt interdite. Préparez-vous à une aventure de résolution d'énigmes pas comme les autres, mélangeant la **stratégie**, la **magie** et une pincée d'ambiance effrayante d'Halloween.</p>
+        
+        <h3>À Propos</h3>
+        <p>Florastrum Academia est un jeu de puzzle unique où les joueurs utilisent des **icônes magiques** pour générer des pièces de puzzle et les placer stratégiquement sur une grille. Le mécanisme de base du jeu tourne autour de la **rotation de ces pièces** pour les faire correspondre parfaitement aux espaces disponibles, mettant les joueurs au défi de penser de manière créative et de planifier leurs mouvements avec soin. Ajoutant une couche de complexité supplémentaire, certaines zones de la grille sont **pré-occupées par des illustrations**, empêchant la mise en place des pièces de puzzle dans ces zones. Les joueurs doivent exploiter leur raisonnement spatial et leurs compétences en résolution de problèmes pour terminer avec succès le puzzle et faire avancer l'histoire. Le thème d'Halloween et le mystérieux camarade de classe ajoutent de l'intrigue et de la profondeur narrative, faisant de Florastrum Academia une expérience de jeu captivante et engageante. Le jeu est conçu pour être accessible aux amateurs de puzzles occasionnels tout en offrant un défi satisfaisant pour les joueurs plus expérimentés. Découvrez les secrets cachés dans les murs de Florastrum Academia et devenez un maître des puzzles magiques !</p>
+        
+        <h3>Fonctionnalités</h3>
+        <ul>
+          <li><b>Mécanismes de Puzzle Uniques :</b> Générez des pièces de puzzle distinctes basées sur des icônes magiques, ajoutant une couche de gestion des ressources au gameplay de puzzle traditionnel.</li>
+          <li><b>Rotation Stratégique :</b> Faites pivoter les pièces de puzzle générées pour optimiser leur ajustement dans la grille, exigeant une planification minutieuse et une conscience spatiale.</li>
+          <li><b>Zones Pré-Occupées :</b> Surmontez le défi des zones illustrées dans la grille qui ne peuvent pas accueillir de pièces de puzzle, nécessitant une adaptation stratégique.</li>
+          <li><b>Thème d'Halloween Intriguant :</b> Plongez-vous dans une atmosphère d'Halloween effrayante avec des visuels et des effets sonores thématiques.</li>
+          <li><b>Scénario Mystérieux :</b> Percez le mystère entourant un camarade de classe captivant rencontré dans la forêt interdite, ajoutant de la profondeur narrative au gameplay du puzzle.</li>
+          <li><b>Gameplay Accessible :</b> Des commandes faciles à apprendre et des instructions claires rendent le jeu accessible aux joueurs de tous niveaux.</li>
+          <li><b>Énigmes Stimulantes :</b> La complexité croissante progressive des énigmes garantit une expérience constamment engageante et gratifiante.</li>
+          <li><b>Valeur de Rejouabilité :</b> Même après avoir résolu le puzzle initial, expérimentez différentes stratégies et placements de pièces pour une rejouabilité infinie.</li>
+        </ul>
+        
+        <h3>FAQ (Foire Aux Questions)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">Comment générer des pièces de puzzle ?</div>
+            <div class="faq-answer">Cliquez sur les icônes situées sous la grille de puzzle. Chaque icône génère une pièce de puzzle unique.</div>
+          </li>
+          <li>
+            <div class="faq-question">Comment faire pivoter une pièce de puzzle ?</div>
+            <div class="faq-answer">Appuyez sur la touche **'R'** pour faire pivoter la pièce de puzzle actuellement sélectionnée.</div>
+          </li>
+          <li>
+            <div class="faq-question">Où puis-je placer des pièces de puzzle ?</div>
+            <div class="faq-answer">Vous pouvez placer des pièces de puzzle sur n'importe quel espace vide de la grille, à l'exception des zones avec des illustrations.</div>
+          </li>
+          <li>
+            <div class="faq-question">Quel est le but du jeu ?</div>
+            <div class="faq-answer">Le but est de remplir toute la grille avec des pièces de puzzle, en évitant les zones pré-occupées, et de révéler l'image complète.</div>
+          </li>
+          <li>
+            <div class="faq-question">Y a-t-il une limite de temps ?</div>
+            <div class="faq-answer">Non, il n'y a pas de limite de temps. Prenez votre temps pour élaborer des stratégies et résoudre l'énigme.</div>
+          </li>
+          <li>
+            <div class="faq-question">Puis-je annuler un placement ?</div>
+            <div class="faq-answer">Malheureusement, le jeu ne dispose pas actuellement d'une fonction d'annulation. Planifiez vos placements avec soin !</div>
+          </li>
+        </ul>
+        
+        <p>Florastrum Academia offre un mélange captivant de résolution d'énigmes et de narration magique. Avec ses mécanismes uniques, son scénario intrigant et son gameplay accessible, c'est le jeu parfait pour tous ceux qui recherchent une expérience de puzzle stimulante et gratifiante. Plongez dans le monde de la magie, percez les mystères de la forêt interdite et devenez un maître de la résolution d'énigmes à la Florastrum Academia. Joyeux Halloween !</p>
+        </div>`,
+  },
+
+  {
+    id: "allele-origin",
+    title: "Allele: Origin (Allèle: Origine)",
+    iframeUrl: "https://html-classic.itch.zone/html/15338459/index.html",
+    description: "Dans un monde ravagé par une peste, le dernier espoir de l'humanité réside dans les êtres monstrueux nés de mutations génétiques – les allèles. Explorez leur origine et les thèmes sombres et matures qui définissent cette lutte désespérée pour la survie.",
+    publishDate: "2025-11-03",
+    imageUrl: "/images/games/game-08.webp",
+    imageAlt: "Une figure monstrueuse émerge d'un paysage sombre et ravagé par la peste, représentant l'origine de l'Allèle.",
+    seo: {
+      title: "Allele: Origin - Découvrez les Sombres Secrets de la Mutation et de la Survie",
+      description: "Explorez Allele: Origin, un récit de survie dans un monde frappé par la peste où les mutations génétiques ont donné naissance à des monstres. Découvrez la vérité derrière leur origine.",
+      keywords: "allèle, origine, mutation, peste, survie, évolution des monstres, dark fantasy, altération génétique"
+    },
+    addressBar: "allele-origin",
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Allele: Origin (Allèle: Origine)</h2><p>Nous sommes en 2077. Une peste dévastatrice, sans précédent dans l'histoire de l'humanité, a balayé le globe, décimant les populations et provoquant l'effondrement des civilisations. Dans une tentative désespérée de trouver un remède, les scientifiques ont expérimenté des thérapies génétiques radicales. Cependant, ces tentatives ont involontairement déclenché une nouvelle voie évolutive, donnant naissance à des êtres monstrueux connus sous le nom d'**Allèles**. Leur origine même est étroitement liée à la lutte de l'humanité pour la survie, un reflet tordu de nos propres mesures désespérées.</p>
+     
+        <h3>À Propos</h3>
+        <p>Allele: Origin explore la sombre réalité d'un monde au bord de l'extinction. La peste sert de catalyseur à une sélection non naturelle, forçant l'humanité à faire face aux conséquences imprévues de la manipulation des blocs de construction de la vie. Ces Allèles, nés du chaos génétique, possèdent des capacités dépassant de loin les capacités humaines, devenant à la fois une menace et une solution potentielle. Explorez leur société, leurs motivations et la relation complexe qu'ils entretiennent avec les vestiges de l'humanité. Cette histoire explore les **implications éthiques** du progrès scientifique, les profondeurs du désespoir humain et les lignes floues entre monstre et sauveur. Notez que cette exploration comprend des **thèmes matures** et des avertissements de contenu tels que décrits dans l'introduction.</p>
+     
+        <h3>Fonctionnalités</h3>
+        <ul>
+          <li><b>Mutations Génétiques :</b> Soyez témoin des diverses et terrifiantes mutations qui définissent les Allèles, chacun avec des capacités et des faiblesses uniques.</li>
+          <li><b>Choix Moraux :</b> Naviguez dans un réseau complexe de dilemmes moraux, où chaque décision a des conséquences importantes pour les humains et les Allèles.</li>
+          <li><b>Monde Sombre :</b> Explorez un monde magnifiquement rendu, mais sombre et en décomposition, reflétant la dévastation de la peste et le désespoir de ses survivants.</li>
+          <li><b>Personnages Complexes :</b> Interagissez avec une distribution de personnages captivants, chacun avec ses propres motivations, secrets et agendas, brouillant les lignes entre héros et méchant.</li>
+          <li><b>Scénario Imprévisible :</b> Vivez un récit ramifié avec de **multiples fins**, façonné par vos choix et actions, assurant une expérience unique et rejouable.</li>
+          <li><b>Gestion des Ressources :</b> Récupérez des ressources rares et gérez vos fournitures avec soin, car la survie dépend de faire des choix difficiles sur ce qu'il faut prioriser.</li>
+          <li><b>Combat Stratégique :</b> Engagez-vous dans des rencontres de combat stimulantes, utilisant vos compétences et vos ressources pour vaincre des ennemis puissants et vous adapter à des menaces en constante évolution.</li>
+          <li><b>Histoire Cachée (Lore) :</b> Découvrez l'histoire cachée des Allèles et des événements qui ont conduit à leur création, révélant les sombres secrets derrière la peste et les expériences qui les ont engendrés.</li>
+        </ul>
+     
+        <h3>FAQ (Foire Aux Questions)</h3>
+        <ul>
+          <li>
+            <div class="faq-question">Que sont les Allèles ?</div>
+            <div class="faq-answer">Les Allèles sont des êtres mutés nés des tentatives désespérées de l'humanité pour survivre à une peste dévastatrice. Ils possèdent des traits génétiques et des capacités uniques.</div>
+          </li>
+          <li>
+            <div class="faq-question">Quel genre de thèmes sont explorés ?</div>
+            <div class="faq-answer">Allele: Origin explore des thèmes matures tels que la manipulation génétique, la survie, la décadence morale et les conséquences d'une ambition scientifique incontrôlée.</div>
+          </li>
+          <li>
+            <div class="faq-question">Est-ce un jeu d'horreur ?</div>
+            <div class="faq-answer">Bien que Allele: Origin contienne des éléments d'horreur, il s'agit principalement d'une histoire de **fantasy sombre** axée sur la survie et l'exploration de thèmes complexes. Attendez-vous à des éléments morbides et des descriptions violentes.</div>
+          </li>
+          <li>
+            <div class="faq-question">Mes choix sont-ils importants ?</div>
+            <div class="faq-answer">Oui, vos choix ont un impact significatif sur le récit et mènent à de multiples fins. Une attention particulière est conseillée !</div>
+          </li>
+          <li>
+            <div class="faq-question">Quelle est la signification du titre "Allele: Origin" ?</div>
+            <div class="faq-answer">Le titre fait référence au début de la lignée des Allèles, au marqueur génétique qui définit leur existence, et explore leur émergence à partir des expériences désespérées de l'humanité.</div>
+          </li>
+          <li>
+            <div class="faq-question">Où puis-je en apprendre davantage sur le monde d'Allèle ?</div>
+            <div class="faq-answer">Explorez les liens connexes et restez à l'écoute pour les mises à jour, les histoires supplémentaires et les discussions communautaires !</div>
+          </li>
+        </ul>
+     
+        <p>Allele: Origin offre une exploration sombre et convaincante de la survie face à une catastrophe génétique. Soyez témoin de l'ascension des Allèles, percez les secrets de leur origine et faites les choix difficiles qui détermineront le destin de l'humanité. Ce n'est pas seulement une histoire de monstres, mais un reflet de notre propre potentiel de création et de destruction. L'avenir dépend de la compréhension de l'allèle et de son origine tordue.</p>
+        </div>`,
+  }
+
 
 ]
 
