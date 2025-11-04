@@ -11,9 +11,9 @@
                         <h3>{{ $t('footer.brandTitle') }}</h3>
                     </div>
                     <p>{{ $t('footer.brandDesc') }}</p>
-                    <div class="footer-warning">
+                    <!-- <div class="footer-warning">
                         <p><strong>⚠️ {{ $t('footer.warning') }}</strong></p>
-                    </div>
+                    </div> -->
                     <div class="social-links">
                         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-link"
                             aria-label="Follow us on Twitter">
