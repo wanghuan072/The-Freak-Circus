@@ -182,13 +182,14 @@ const loadGameData = async () => {
         // 动态加载游戏数据
         const gamesData = await import(`@/data/${locale.value}/games.js`)
         const games = gamesData.default
-        game.value = games.find(g => g.id === gameId.value)
+        // 使用 addressBar 来查找游戏（路由参数实际上是 addressBar 的值）
+        game.value = games.find(g => g.addressBar === gameId.value)
 
         // 如果没有找到，回退到英文
         if (!game.value && locale.value !== 'en') {
             const enGamesData = await import('@/data/en/games.js')
             const enGames = enGamesData.default
-            game.value = enGames.find(g => g.id === gameId.value)
+            game.value = enGames.find(g => g.addressBar === gameId.value)
         }
 
         if (game.value) {

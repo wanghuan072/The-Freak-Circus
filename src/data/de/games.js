@@ -1,7 +1,7 @@
 // Games data for German language
 export default [
   {
-    id: "trapped-with-jester",
+    id: 1,
     title: "Gefangen mit dem Hofnarren",
     iframeUrl: "https://html-classic.itch.zone/html/15323668/TrappedwithJester-1.0-web/index.html",
     description: "Erwachen Sie in einer Welt voller Geheimnisse! In 'Gefangen mit dem Hofnarren' setzen Sie bruchstückhafte Erinnerungen zusammen, während Sie sich mit einem wahnsinnig hartnäckigen Hofnarren in einer verwirrenden Realität zurechtfinden. Entwirren Sie Geheimnisse, schmieden Sie Ihr Schicksal und entdecken Sie sechs einzigartige Enden in diesem vollständig vertonten Abenteuer.",
@@ -14,6 +14,7 @@ export default [
       keywords: "Gefangen mit dem Hofnarren, narratives Abenteuer, interaktive Fiktion, Mystery-Spiel, mehrere Enden, vollständig vertont, Original-Artwork, Hofnarren-Spiel"
     },
     addressBar: "trapped-with-jester",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -73,7 +74,7 @@ export default [
   },
 
   {
-    id: "death-loop",
+    id: 2,
     title: "Todesschleife",
     iframeUrl: "https://html-classic.itch.zone/html/15187376/Death Loop browser october/index.html",
     description: "Gefangen in einer Zeitschleife mit 9 Fremden, versteckt sich ein Mörder unter Ihnen. Entlarven Sie den Mörder oder sind Sie dazu verdammt, diesen Albtraum ewig zu wiederholen. Können Sie sich aus der Todesschleife befreien?",
@@ -86,6 +87,7 @@ export default [
       keywords: "Todesschleife, Zeitschleifen-Spiel, Social Deduction-Spiel, Visual Novel, Mystery-Spiel, Mörder, Escape-Spiel"
     },
     addressBar: "death-loop",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -236,7 +238,7 @@ export default [
   },
 
   {
-    id: "dating-killmulator",
+    id: 3,
     title: "Dating Killmulator",
     iframeUrl: "https://html-classic.itch.zone/html/15331665/index.html",
     description: "Tauchen Sie ein in Dating Killmulator, eine rabenschwarze Dating-Simulator-Parodie, in der die Suche nach der Liebe ein tödliches Spiel ist! Navigieren Sie in monatlichen Kapiteln und Spin-offs durch toxische Beziehungen und unverschämte Charaktere. Sind Sie bereit, nach rechts zu wischen... ins Chaos?",
@@ -249,6 +251,7 @@ export default [
       keywords: "Dating, Killmulator, Dating Simulator, Parodie, schwarzer Humor, Romantik, toxische Beziehungen, Visual Novel, monatliche Kapitel, Spin-offs"
     },
     addressBar: "dating-killmulator",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -310,7 +313,7 @@ export default [
   },
 
   {
-    id: "reapers-goodbye",
+    id: 4,
     title: "Abschied des Sensenmanns",
     iframeUrl: "https://html-classic.itch.zone/html/15345399/index.html",
     description: "In einer trostlosen Landschaft treffen fünf verlorene Seelen an einem eigentümlichen Imbissstand zusammen, jede mit einer schweren Last des Unglücks. Während sie auf den Mitternachtszug warten, teilen sie Geschichten von Versprechen, Bedauern und Rache, ohne die wachsamen Augen zu bemerken, die ihre letzten Beichten vor dem Abschied des Sensenmanns beobachten.",
@@ -323,6 +326,7 @@ export default [
       keywords: "Sensenmann, Abschied, Schicksal, Unglück, verlorene Seelen, Mitternachtszug, Rache, Bedauern, Landschaft, Imbissstand"
     },
     addressBar: "reapers-goodbye",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -381,7 +385,7 @@ export default [
           </div>`
   },
   {
-    id: "fear-me",
+    id: 5,
     title: "Fear Me (Fürchte Mich)",
     iframeUrl: "https://html-classic.itch.zone/html/15418904/index.html",
     description: "Haben Sie sich jemals gefragt, wie es ist, ins Visier von Jeff the Killer zu geraten? In Fear Me, einer spannenden und satirischen visuellen Novelle, navigieren Sie durch eine tödliche Romanze, bei der das Überleben der Schlüssel ist. Arbeiten Sie in einer Videothek, treffen Sie einen mysteriösen Fremden und versuchen Sie, sein Vertrauen zu gewinnen ... wenn Sie am Leben bleiben können. 9 Enden, geschlechtsneutraler Hauptcharakter!",
@@ -394,6 +398,7 @@ export default [
       keywords: "Fear Me, Jeff the Killer, Visual Novel, Romanze, Horror, Creepypasta, Dating-Sim, Spannung, Überleben, geschlechtsneutral"
     },
     addressBar: "fear-me",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -455,7 +460,7 @@ export default [
   },
 
   {
-    id: "egg-coffee",
+    id: 6,
     title: "Egg Coffee (Eierkaffee)",
     iframeUrl: "https://html-classic.itch.zone/html/15365797/index.html",
     description: "Tauchen Sie ein in die unheimliche Welt von 'Egg Coffee'! Ein Solo-entwickeltes Halloween Game Jam Projekt, bei dem Sie den Mörder mithilfe von zufälligen Hinweisen und Tarotkarten aufdecken müssen. Genießen Sie dieses gruselige Ratespiel und Tutorial, eine einzigartige Mischung aus Spannung und Koffein!",
@@ -468,6 +473,7 @@ export default [
       keywords: "egg coffee, Eierkaffee, Halloween-Spiel, Mystery-Spiel, Solo-Entwicklung, Indie-Spiel, Tarotkarten, Ratespiel, zufälliger Mörder, kostenloses Online-Spiel"
     },
     addressBar: "egg-coffee",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -533,7 +539,7 @@ export default [
   },
 
   {
-    id: "florastrum-academia",
+    id: 7,
     title: "Florastrum Academia",
     iframeUrl: "https://html-classic.itch.zone/html/15357785/index.html",
     description: "Begeben Sie sich auf eine magische Reise in die Florastrum Academia! Entwirren Sie ein Halloween-Rätsel, während Sie die Kunst der Trankzubereitung meistern. Treffen Sie faszinierende Klassenkameraden und lösen Sie bezaubernde Rätsel mit einzigartigen Teilen. Drehen, strategisieren und füllen Sie das Gitter aus! Erleben Sie die Welt der Magie noch heute!",
@@ -546,6 +552,7 @@ export default [
       keywords: "florastrum, academia, Magieschule Spiel, Puzzle, Trankzubereitung, Halloween-Spiel, Fantasy-Spiel"
     },
     addressBar: "florastrum-academia",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -607,7 +614,7 @@ export default [
   },
 
   {
-    id: "allele-origin",
+    id: 8,
     title: "Allele: Origin (Allel: Ursprung)",
     iframeUrl: "https://html-classic.itch.zone/html/15338459/index.html",
     description: "In einer von einer Seuche verwüsteten Welt liegt die letzte Hoffnung der Menschheit in den monströsen Wesen, die aus genetischen Mutationen geboren wurden – den Allelen. Erforschen Sie ihren Ursprung und die dunklen, erwachsenen Themen, die diesen verzweifelten Kampf ums Überleben bestimmen.",
@@ -620,6 +627,7 @@ export default [
       keywords: "allel, Ursprung, Mutation, Seuche, Überleben, Monster-Evolution, Dark Fantasy, genetische Veränderung"
     },
     addressBar: "allele-origin",
+    isHome: false,
     detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Allele: Origin (Allel: Ursprung)</h2><p>Wir schreiben das Jahr 2077. Eine verheerende Seuche, wie sie die Menschheit noch nie erlebt hat, hat den Globus heimgesucht, Populationen dezimiert und Zivilisationen zusammenbrechen lassen. In einem verzweifelten Versuch, ein Heilmittel zu finden, experimentierten Wissenschaftler mit radikalen **Gentherapien**. Diese Versuche lösten jedoch unbeabsichtigt einen neuen evolutionären Pfad aus und führten zur Entstehung monströser Wesen, bekannt als **Allele**. Ihr Ursprung ist untrennbar mit dem Überlebenskampf der Menschheit verbunden, eine verdrehte Reflexion unserer eigenen verzweifelten Maßnahmen.</p>
      
         <h3>Über das Spiel</h3>
@@ -667,7 +675,295 @@ export default [
      
         <p>Allele: Origin bietet eine düstere und fesselnde Erkundung des Überlebens angesichts einer genetischen Katastrophe. Werden Sie Zeuge des Aufstiegs der Allele, lüften Sie die Geheimnisse ihres Ursprungs und treffen Sie die schwierigen Entscheidungen, die das Schicksal der Menschheit bestimmen werden. Dies ist nicht nur eine Geschichte von Monstern, sondern eine Reflexion unseres eigenen Potenzials sowohl für Schöpfung als auch für Zerstörung. Die Zukunft hängt davon ab, das Allel und seinen verdrehten Ursprung zu verstehen.</p>
         </div>`,
+  },
+
+  {
+    "id": 9,
+    "title": "Doce Fim",
+    "iframeUrl": "https://html-classic.itch.zone/html/15403970/index.html",
+    "description": "Die Welt geht unter, doch die Verbindung bleibt. In 'Doce Fim' navigieren Sie queere Liebe und Freundschaft durch emotionale Entscheidungen. Schaffen Sie Kunst, bauen Sie Vertrauen auf und trotzen Sie der Einsamkeit in dieser postapokalyptischen Erzählung. Werden Sie Trost in der Verbindung finden?",
+    "tags": [
+      "queere Liebe",
+      "post-apokalyptisch",
+      "narratives Spiel",
+      "emotionale Entscheidungen",
+      "Freundschaft"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-09.webp",
+    "imageAlt": "Ein stilisiertes Charakterporträt aus Doce Fim mit lebendigen Farben, das auf die Themen des Spiels wie queere Liebe und Verbindung hinweist.",
+    "seo": {
+      "title": "Doce Fim: Gestalten Sie queere Liebe am Ende der Welt",
+      "description": "Erkunden Sie Liebe und Freundschaft in 'Doce Fim', einer entscheidungsgesteuerten Erzählung, die während der Apokalypse spielt. Entdecken Sie einzigartige Routen, Vertrauenssysteme und Paranoia-Blasen. Kann Kunst uns alle retten?",
+      "keywords": "Doce Fim, queere Liebe, Freundschaft, Apokalypse, narratives Spiel, entscheidungsgesteuert, Vertrauenssystem, Paranoia-Blasen, Kunst, zweite Chancen"
+    },
+    "addressBar": "doce-fim",
+    "isHome": true,
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+      <h2>Doce Fim</h2>
+      <p>Während die Welt auf ihr vorhergesagtes Ende zurast, versetzt Sie 'Doce Fim' in eine zutiefst persönliche Erzählung, in der die Apokalypse als Kulisse für die Erforschung der Feinheiten menschlicher Verbindung dient. Es geht nicht nur ums Überleben, sondern darum, inmitten des Chaos Sinn, Liebe und Freundschaft zu finden. Dies ist nicht nur ein Spiel; es ist eine Reise der Selbstentdeckung und der dauerhaften Kraft von Kunst und Verbindung angesichts des Vergessens.</p>
+   
+      <h3>Über</h3>
+      <p>'Doce Fim' ist ein entscheidungsgesteuertes narratives Spiel, das sich mit den Themen queere Liebe, platonische Freundschaft und die erlösende Kraft der Kunst auseinandersetzt. Vor der Kulisse einer Welt, die sich angeblich ihrem Ende nähert, konzentriert sich das Spiel auf die inneren Kämpfe des Protagonisten und seine Beziehungen zu anderen. In über einem Jahrzehnt Entwicklungszeit erforscht 'Doce Fim' die Komplexität von Vertrauen, Paranoia und der Suche nach Sinn in einer scheinbar hoffnungslosen Situation. Das Spiel verfügt über einen einzigartigen <b>'Duality Mode'</b>, der die Spieler herausfordert, positive und negative Impulse auszugleichen, was die Beziehungen der Charaktere beeinflusst und die Erzählung formt. Das <b>TRUST-System</b> fügt eine weitere Ebene der Tiefe hinzu, in der Entscheidungen das Vertrauensniveau der Charaktere beeinflussen, einzigartige Dialoge freischalten und zu unterschiedlichen Enden führen. Mit seinem Schwerpunkt auf Zugänglichkeit und Inklusivität bietet 'Doce Fim' allen Spielern eine zum Nachdenken anregende und emotional ansprechende Erfahrung, die die Bedeutung von Verbindung und Widerstandsfähigkeit auch in den dunkelsten Zeiten hervorhebt.</p>
+   
+      <h3>Funktionen</h3>
+      <ul>
+        <li><b>300.000 Wörter Erzählung:</b> Tauchen Sie ein in eine reichhaltige und detaillierte Geschichte, die über 30 Stunden Gameplay bietet, gefüllt mit bedeutungsvollen Entscheidungen und Charakterinteraktionen.</li>
+        <li><b>Mehrere Routen & Enden:</b> Erleben Sie vier einzigartige Routen, einschließlich romantischer und platonischer Optionen, jede mit guten und schlechten Enden, die durch Ihre Entscheidungen bestimmt werden, was den Wiederspielwert erhöht und zur Erkundung anregt. Eine Wahre Route existiert für diejenigen, die tiefer eintauchen.</li>
+        <li><b>Duality Mode:</b> Navigieren Sie durch herausfordernde Situationen, indem Sie die internen positiven und negativen Seiten des Protagonisten nutzen, die jeweils unterschiedliche Perspektiven bieten und Ihre verfügbaren Entscheidungen beeinflussen.</li>
+        <li><b>TRUST System:</b> Bauen Sie Vertrauen mit anderen Charakteren durch Ihre Entscheidungen auf oder brechen Sie es, wodurch einzigartige Bindungsgespräche freigeschaltet werden und potenziell dramatisch unterschiedliche Ergebnisse erzielt werden.</li>
+        <li><b>Paranoia-Blasen:</b> Erleben Sie die Angst und Paranoia des Protagonisten durch visuelle Darstellungen, die die Realität verzerren und der Erzählung eine Schicht psychologischer Tiefe hinzufügen.</li>
+        <li><b>Post-Route-Einsichten:</b> Gewinnen Sie ein tieferes Verständnis der wahren Gedanken und Gefühle anderer Charaktere, indem Sie aktualisierte Paranoia-Blasen freischalten, nachdem Sie ihre Route abgeschlossen haben.</li>
+        <li><b>Zugänglichkeitsoptionen:</b> Passen Sie Ihr Erlebnis mit Audiobeschreibungen, Self-Voicing, anpassbarer Textschriftart und -größe sowie Optionen zum Deaktivieren spezifischer Audioelemente an, um die Inklusivität für alle Spieler zu gewährleisten.</li>
+        <li><b>Teilweise Sprachausgabe:</b> Genießen Sie verbesserte Immersion mit teilweiser Sprachausgabe für die Hauptbesetzung, die die Charaktere und ihre Emotionen zum Leben erweckt.</li>
+      </ul>
+   
+      <h3>FAQ</h3>
+      <ul>
+        <li>
+          <div class="faq-question">Was ist das Kernthema von 'Doce Fim'?</div>
+          <div class="faq-answer">'Doce Fim' erforscht hauptsächlich Themen der queeren Liebe, Freundschaft und der Kraft der Kunst, Sinn und Verbindung in einer Welt zu schaffen, die ihrem Ende entgegenblickt. Es geht darum, Hoffnung und Widerstandsfähigkeit angesichts von Widrigkeiten zu finden.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wie funktioniert der Duality Mode?</div>
+          <div class="faq-answer">Der Duality Mode präsentiert Entscheidungen, die von den positiven und negativen Seiten des Protagonisten beeinflusst werden. Die Wahl von Optionen, die aus Negativität stammen, erhöht das Misstrauen, während Entscheidungen, die auf Positivität basieren, zu Naivität führen können. Das Ausbalancieren dieser Aspekte ist der Schlüssel zur Navigation im Spiel.</div>
+        </li>
+        <li>
+          <div class="faq-question">Welche Bedeutung hat das TRUST System?</div>
+          <div class="faq-answer">Das TRUST System verfolgt Ihre Beziehungen zu anderen Charakteren. Hohes Vertrauen schaltet einzigartige Bindungsgespräche frei und enthüllt tiefere Aspekte ihrer Persönlichkeiten. Geringes Vertrauen kann zu ungünstigen Ergebnissen und potenziell schlechten Enden führen.</div>
+        </li>
+        <li>
+          <div class="faq-question">Was sind Paranoia-Blasen?</div>
+          <div class="faq-answer">Paranoia-Blasen sind visuelle Darstellungen der ängstlichen und paranoiden Gedanken des Protagonisten. Sie verzerren Ihre Wahrnehmung der Realität und fügen dem Gameplay eine Schicht psychologischer Tiefe hinzu. Nach Abschluss einer Route werden diese Blasen aktualisiert, um die wahren Gedanken und Motivationen des beteiligten Charakters aufzuzeigen.</div>
+        </li>
+          
+        <li>
+          <div class="faq-question">Ist 'Doce Fim' für Spieler mit Behinderungen zugänglich?</div>
+          <div class="faq-answer">Ja, 'Doce Fim' bietet eine Reihe von Zugänglichkeitsoptionen, einschließlich Audiobeschreibungen, Self-Voicing, anpassbarer Textschriftart und -größe sowie die Möglichkeit, bestimmte Audioelemente zu deaktivieren, um unterschiedlichen Bedürfnissen gerecht zu werden.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wie viele verschiedene Enden gibt es?</div>
+          <div class="faq-answer">Jede der vier Hauptrouten (eine romantische, zwei platonische und die Wahre Route) bietet ein gutes und ein schlechtes Ende. Das Ergebnis, das Sie erzielen, hängt von den Entscheidungen ab, die Sie während des gesamten Spiels treffen.</div>
+        </li>
+      </ul>
+   
+      <p>'Doce Fim' ist mehr als nur ein Spiel; es ist eine Erkundung dessen, was es bedeutet, angesichts überwältigender Unsicherheit ein Mensch zu sein. Mit seiner fesselnden Erzählung, einzigartigen Gameplay-Mechaniken und seinem Fokus auf Inklusivität bietet es eine zum Nachdenken anregende und emotional ansprechende Erfahrung, die Ihnen lange nach dem Abspann in Erinnerung bleiben wird. Tauchen Sie ein in eine Welt, in der Liebe, Freundschaft und Kunst die ultimativen Formen des Widerstands sind.</p>
+    </div>`
+  },
+  {
+    "id": 10,
+    "title": "Heartstop Tour",
+    "iframeUrl": "https://html-classic.itch.zone/html/14235865/index.html",
+    "description": "Ihren Job nach einem Maskottchen-Missgeschick gekündigt? Jetzt sind Sie in die Launen eines Touristen und das Chaos eines in Bärenanzug gesteckten Süßen verwickelt! Begeben Sie sich auf eine unerwartete 'Heartstop Tour' voller skurriler Begegnungen und vielleicht, nur vielleicht, Liebe an den bizarrsten Orten. Arbeitslos & underdressed, sind Sie bereit für dieses Chaos?",
+    "tags": [
+      "heartstop",
+      "tour",
+      "romance",
+      "comedy",
+      "visual novel"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-10.webp",
+    "imageAlt": "Ein Screenshot von Heartstop Tour, der ein süßes pinkes Bärenmaskottchen und einen überraschten Charakter zeigt.",
+    "seo": {
+      "title": "Heartstop Tour - Ein urkomisches romantisches Abenteuer wartet!",
+      "description": "Quit your job? Meet a clueless tourist and a cute mascot in Heartstop Tour! Dive into a whirlwind of romance, comedy, and unexpected adventures. Play now!",
+      "keywords": "heartstop tour, romantisches Spiel, Komödienspiel, Visual Novel, Maskottchenliebe, süßes Spiel, Indie-Spiel, Dating Sim"
+    },
+    "addressBar": "heartstop-tour",
+    "isHome": true,
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+      <h2>Heartstop Tour</h2>
+      <p>Bereit, das Alltägliche hinter sich zu lassen und kopfüber in ein chaotisches, urkomisches und potenziell romantisches Abenteuer einzutauchen? Heartstop Tour ist nicht nur ein Spiel; es ist ein Wirbelwind unerwarteter Begegnungen, skurriler Charaktere und der brennenden Frage: Können Sie Liebe finden, wenn Sie arbeitslos, underdressed und völlig unvorbereitet sind?</p>
+   
+      <h3>Über</h3>
+      <p>In Heartstop Tour spielen Sie nicht nur einen Charakter; Sie leben einen Rom-Com-Film. Nach einer besonders beleidigenden Bemerkung Ihres Chefs über Ihr geliebtes Kindheitsmaskottchen, Comfort Kuma, kündigen Sie impulsiv. Jetzt, nur bewaffnet mit einem traurigen Sandwich und einem fragwürdigen Anzug, werden Sie von einem lächerlich charmanten (und völlig ahnungslosen) Touristen fälschlicherweise für einen Reiseleiter gehalten. Hier beginnt Ihre <b>Heartstop</b>-Reise wirklich. Aber das ist noch nicht alles! Ein verzweifelter Versuch, etwas Kindheitsfreude zurückzugewinnen, führt Sie zu einer schicksalhaften Begegnung mit dem echten Comfort Kuma, oder vielmehr, dem unglaublich süßen Kerl, der sich im pinken Bärenanzug versteckt. Bereiten Sie sich auf Paradeunfälle, verlegte Kameras, und eine Menge unbeholfener, aber liebenswerter Momente vor. Ihre <b>Tour</b> durch die Liebe wird gleich sehr interessant. Sind Sie bereit für diese Heartstop-Situation?</p>
+   
+      <h3>Funktionen</h3>
+      <ul>
+        <li><b>Urkomische Handlung:</b> Erleben Sie eine Handlung voller witziger Dialoge, absurder Situationen und echter Momente zum lauten Lachen.</li>
+        <li><b>Charmante Charaktere:</b> Treffen Sie eine Besetzung unvergesslicher Charaktere, vom ahnungslosen Touristen bis zum liebenswert unbeholfenen Maskottchen-Darsteller. Jeder Charakter hat eine einzigartige Persönlichkeit und trägt zum Charme des Spiels bei.</li>
+        <li><b>Mehrere Enden:</b> Ihre Entscheidungen sind wichtig! Gestalten Sie die Geschichte und bestimmen Sie Ihr romantisches Schicksal mit mehreren verzweigten Pfaden und Enden.</li>
+        <li><b>Nachvollziehbarer Protagonist:</b> Fühlen Sie mit einem Protagonisten mit, der nur versucht, die Kurven des Lebens zu meistern, was die Reise umso fesselnder macht.</li>
+        <li><b>Atemberaubende Visuals:</b> Tauchen Sie ein in eine lebendige und farbenfrohe Welt, die mit wunderschön gezeichneten Kunstwerken und Animationen zum Leben erweckt wird. Der visuelle Stil ergänzt den unbeschwerten Ton des Spiels.</li>
+        <li><b>Eingängiger Soundtrack:</b> Grooven Sie zu einem Original-Soundtrack, der die Stimmung und Energie jeder Szene perfekt einfängt. Die Musik verstärkt die emotionale Wirkung der Schlüsselmomente.</li>
+        <li><b>Unerwartete Wendungen:</b> Gerade wenn Sie denken, Sie wüssten, was als Nächstes kommt, überrascht Sie Heartstop Tour mit unerwarteten Wendungen.</li>
+        <li><b>Herzerwärmende Romantik:</b> Letztendlich ist Heartstop Tour eine Geschichte darüber, Liebe an den unerwartetsten Orten zu finden. Machen Sie sich bereit zum Schwärmen und glauben Sie an die Kraft der Romantik.</li>
+      </ul>
+   
+      <h3>FAQ</h3>
+      <ul>
+        <li>
+          <div class="faq-question">Ist Heartstop Tour kostenlos spielbar?</div>
+          <div class="faq-answer">Ja! Sie können die Anfangskapitel von Heartstop Tour kostenlos genießen. Zusätzliche Inhalte und Funktionen erfordern möglicherweise einen Kauf.</div>
+        </li>
+        <li>
+          <div class="faq-question">Auf welchen Plattformen ist Heartstop Tour verfügbar?</div>
+          <div class="faq-answer">Heartstop Tour ist derzeit als HTML-basiertes Spiel verfügbar, das über Ihren Webbrowser zugänglich ist.</div>
+        </li>
+        <li>
+          <div class="faq-question">Gibt es mehrere romantische Interessen?</div>
+          <div class="faq-answer">Absolut! Sie werden die Gelegenheit haben, verschiedene romantische Pfade mit verschiedenen Charakteren zu verfolgen, von denen jeder ein einzigartiges und erfüllendes Erlebnis bietet. Ihre <b>Heartstop</b> <b>Tour</b> kann zu mehreren Zielen führen.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wie lange dauert es, Heartstop Tour abzuschließen?</div>
+          <div class="faq-answer">Die Spielzeit variiert je nach Ihren Entscheidungen und Ihrem Spielstil. Im Durchschnitt kann ein einziger Durchlauf mehrere Stunden dauern.</div>
+        </li>
+        <li>
+          <div class="faq-question">Enthält Heartstop Tour Inhalte für Erwachsene?</div>
+          <div class="faq-answer">Heartstop Tour bietet unbeschwerte und komödiantische Themen. Es enthält milde anzügliche Themen, aber keine expliziten Inhalte.</div>
+        </li>
+        <li>
+          <div class="faq-question">Ist eine Fortsetzung für Heartstop Tour geplant?</div>
+          <div class="faq-answer">Obwohl es keine unmittelbaren Pläne für eine Fortsetzung gibt, suchen wir immer nach neuen Ideen und Möglichkeiten zur Erweiterung des Heartstop Tour-Universums. Bleiben Sie dran für Updates!</div>
+        </li>
+      </ul>
+   
+      <p>Heartstop Tour ist mehr als nur ein Spiel; es ist eine Flucht in eine Welt skurriler Charaktere, zum Lachen anregender Momente und herzerwärmender Romantik. Also packen Sie Ihre Taschen (oder Ihr trauriges Sandwich), umarmen Sie das Chaos und begeben Sie sich auf eine <b>Heartstop</b> <b>Tour</b>, die Sie nicht so schnell vergessen werden. Wer weiß, vielleicht finden Sie ja unterwegs die Liebe!</p>
+    </div>`
+  },
+  {
+    "id": 11,
+    "title": "Lookouts",
+    "iframeUrl": "https://html-classic.itch.zone/html/12378527/index.html",
+    "description": "Im Herzen des Wilden Westens finden zwei trans maskuline Gesetzlose unerwarteten Trost und aufkeimende Romantik in der Visual Novel 'Lookouts'. Erforschen Sie Themen wie Hoffnung, Zugehörigkeit und verbotene Liebe, während sie eine Welt voller Gefahr und Vorurteile navigieren. Jetzt spielen!",
+    "tags": [
+      "LGBTQ+ Spiel",
+      "Visual Novel",
+      "Western-Romantik",
+      "Transgender",
+      "Old West"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-11.webp",
+    "imageAlt": "Zwei trans maskuline Gesetzlose blicken auf eine Stadt, die Szene aus der Romantik-Visual Novel Lookouts.",
+    "seo": {
+      "title": "Lookouts - Eine schwule Trans Maskuline Western-Romantik Visual Novel",
+      "description": "Entdecken Sie 'Lookouts,' eine ergreifende Romantik-Visual Novel über zwei schwule trans maskuline Gesetzlose, die im Old West Liebe und Hoffnung finden. Erleben Sie ein 5-6-stündiges narratives Abenteuer.",
+      "keywords": "lookouts, Visual Novel, schwule Romantik, Transgender, trans maskulin, Old West, LGBTQ+, Western-Spiel, Romantik-Spiel, Gesetzlosen-Romantik"
+    },
+    "isHome": true,
+    "addressBar": "lookouts",
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+      <h2>Lookouts</h2>
+      <p>Inmitten der trockenen Landschaften und schwelenden Spannungen des Old West präsentiert 'Lookouts' eine Geschichte von zwei Gesetzlosen, beide trans maskulin, die unerwartet Gemeinsamkeiten finden. Diese Visual Novel taucht in die Komplexität von Identität, Zugehörigkeit und das Streben nach einem besseren Leben vor der Kulisse einer harten und unversöhnlichen Welt ein. Machen Sie sich bereit, in eine Erzählung einzutauchen, die reich an Emotionen, Abenteuer und dem Aufblühen einer unerwarteten Romanze ist. Dieses 5-6-stündige Erlebnis ist ein Muss!</p>
+   
+      <h3>Über</h3>
+      <p>'Lookouts' ist mehr als nur eine Romanze; es ist eine herzliche Erforschung der menschlichen Verfassung. Setzt im Old West an, erzählt es die Geschichte von zwei schwulen trans maskulinen Gesetzlosen, deren Wege sich in der Wüste kreuzen. Weit entfernt von ihren jeweiligen Banden entdecken sie ein gemeinsames Gefühl der Isolation und eine gegenseitige Sehnsucht nach etwas mehr. Durch ihre Umstände und den gemeinsamen Wunsch nach einem anderen Leben werden sie zusammengebracht und wagen sich in eine Stadt, die Gerüchten zufolge Gold birgt, ein Symbol für Hoffnung und Gelegenheit. Die Erzählung schildert einfühlsam ihre Kämpfe, ihre wachsende Verbindung und ihre Widerstandsfähigkeit angesichts von Widrigkeiten. Mit ungefähr 45.000 Wörtern bietet 'Lookouts' den Spielern ein zutiefst fesselndes und emotional ansprechendes Erlebnis.</p>
+   
+      <h3>Funktionen</h3>
+      <ul>
+        <li><b>Fesselnde Erzählung:</b> Tauchen Sie ein in eine reich detaillierte Geschichte mit ungefähr 45.000 Wörtern, die stundenlanges, fesselndes Lesen bietet.</li>
+        <li><b>Authentische Darstellung:</b> Erleben Sie die einzigartigen Herausforderungen und Triumpfe schwuler trans maskuliner Charaktere in einem historischen Setting.</li>
+        <li><b>Bedeutungsvolle Entscheidungen:</b> Gestalten Sie die Erzählung durch Ihre Entscheidungen und beeinflussen Sie die Beziehungen und Schicksale der Charaktere.</li>
+        <li><b>Atemberaubende Visuals:</b> Genießen Sie wunderschön gerenderte Kunstwerke, die den Old West und seine Charaktere zum Leben erwecken.</li>
+        <li><b>Emotionale Tiefe:</b> Verbinden Sie sich auf einer tiefgreifenden Ebene mit den Charakteren, während sie Themen wie Liebe, Verlust und Selbstentdeckung navigieren.</li>
+        <li><b>Original Soundtrack:</b> Verbessern Sie Ihre Immersion mit einem sorgfältig gestalteten Soundtrack, der den emotionalen Ton der Geschichte perfekt ergänzt.</li>
+        <li><b>Erweiterte Inhalte:</b> Entdecken Sie eine stark erweiterte Version der ursprünglichen Gay Western Jam-Kreation, die ein vollständigeres und befriedigenderes Erlebnis bietet.</li>
+        <li><b>Zugängliche Steuerung:</b> Navigieren Sie einfach durch das Spiel mit einfacher Klick- oder Leertastensteuerung.</li>
+      </ul>
+   
+      <h3>FAQ</h3>
+      <ul>
+        <li>
+          <div class="faq-question">Worum geht es in 'Lookouts'?</div>
+          <div class="faq-answer">'Lookouts' ist eine Romantik-Visual Novel, die im Old West spielt und sich auf zwei schwule trans maskuline Gesetzlose konzentriert, die inmitten einer harten und unversöhnlichen Landschaft Liebe und Hoffnung finden.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wie lange dauert es, das Spiel zu spielen?</div>
+          <div class="faq-answer">Das Spiel bietet ungefähr 5-6 Stunden Lesezeit und bietet ein substanzielles und immersives narratives Erlebnis.</div>
+        </li>
+        <li>
+          <div class="faq-question">Was sind die Inhaltshinweise?</div>
+          <div class="faq-answer">Das Spiel enthält Darstellungen von Alkohol, Rauchen, Waffengewalt (mit SFX), Tod durch Schusswaffen, Blut, Verletzungen, milder Transphobie und Diskussionen über Rassismus und Siedlergewalt. Bitte berücksichtigen Sie diese Warnungen vor dem Spielen.</div>
+        </li>
+        <li>
+          <div class="faq-question">Ist 'Lookouts' ein kommerzielles Spiel?</div>
+          <div class="faq-answer">'Lookouts' ist online spielbar; es wurde ursprünglich für den Gay Western Jam entwickelt und seitdem erweitert.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wo kann ich die Original-Jam-Version spielen?</div>
+          <div class="faq-answer">Die Original-Jam-Version ist auf der Spielseite für diejenigen verlinkt, die an der Erfahrung des ursprünglichen Konzepts interessiert sind.</div>
+        </li>
+      </ul>
+   
+      <p>Zusammenfassend bietet 'Lookouts' ein einzigartiges und fesselndes Erlebnis für Spieler, die eine Romantik-Visual Novel mit Tiefe, Herz und authentischer Darstellung suchen. Seine fesselnde Erzählung, die fesselnden Charaktere und die zum Nachdenken anregenden Themen machen es zu einem Muss für Fans des Genres und alle, die sich für Geschichten über Liebe, Hoffnung und Widerstandsfähigkeit im Old West interessieren. Bereiten Sie sich darauf vor, in eine Welt entführt zu werden, in der Gesetzlose Zuflucht beieinander finden und in der das Versprechen eines besseren Lebens hell am Horizont leuchtet. Die Geschichte dieser beiden 'Lookouts' wird Ihnen lange nach dem Abspann in Erinnerung bleiben. </p>
+    </div>`
+  },
+  {
+    "id": 12,
+    "title": "Myosotis",
+    "iframeUrl": "https://html-classic.itch.zone/html/13249930/index.html",
+    "description": "Gefangen zwischen den Welten nach einem tragischen Ende, verfolgen Sie Ethan, Ihren Ex-Freund und Mörder, in Myosotis. Entwirren Sie die Geheimnisse um Ihren Tod und entdecken Sie, dass Sie in Ihrem spektralen Streben nicht allein sind. Suchen Sie nach Antworten, finden Sie Abschluss und vielleicht eine andere Art von Frieden.",
+    "tags": [
+      "Geistergeschichte",
+      "Rache",
+      "Jenseits",
+      "Mystery",
+      "übernatürlich"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-12.webp",
+    "imageAlt": "Ein verblasstes Bild von Myosotis-Blumen, die an die Erinnerung erinnern, relevant für das Myosotis-Spiel.",
+    "seo": {
+      "title": "Myosotis - Eine eindringliche Geschichte von Rache und Erinnerung",
+      "description": "Begeben Sie sich in Myosotis auf eine spektrale Reise, auf der Sie nach Ihrem frühen Tod Gerechtigkeit und Antworten suchen. Enthüllen Sie Geheimnisse und konfrontieren Sie Ihre Vergangenheit als rachsüchtiger Geist.",
+      "keywords": "myosotis, Geistergeschichte, Jenseits, Rache, Spuk, Mystery, übernatürlich, Indie-Spiel, Ethan"
+    },
+    "addressBar": "myosotis",
+    "isHome": true,
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+      <h2>Myosotis</h2>
+      <p>Myosotis, ein ergreifendes narratives Erlebnis, taucht in die Komplexität von Trauer, Rache und dem Jenseits ein. Nehmen Sie die Rolle einer spektralen Figur ein, die nach einem tragisch verkürzten Leben an die irdische Welt gebunden ist. Ihre Mission: Ihren ehemaligen Liebhaber, Ethan, zu verfolgen und die Wahrheit hinter Ihrem frühen Tod aufzudecken. Sie entdecken jedoch bald, dass Sie nicht der einzige Geist sind, der in seinem Gefolge verweilt, was Ihrer ätherischen Existenz Schichten von Intrigen und Geheimnissen hinzufügt.</p>
+      
+      <h3>Über</h3>
+      <p>In Myosotis navigieren Spieler eine Welt voller Kummer und unbeantworteter Fragen. Der Kern des Spiels dreht sich darum, die emotionale Landschaft von Verlust und Verrat zu erkunden und gleichzeitig fragmentierte Erinnerungen zusammenzusetzen, um die Umstände Ihres Todes zu verstehen. Als Geist besitzen Sie die Fähigkeit, auf subtile, aber wirkungsvolle Weise mit der Umgebung zu interagieren, Ethans Handlungen zu beeinflussen und versteckte Hinweise aufzudecken. Die Anwesenheit anderer spektraler Figuren führt eine fesselnde Dynamik ein und wirft Fragen über ihre Verbindung zu Ethan und ihre Motivationen auf. Das Spiel bietet verzweigte Erzählungen, moralische Dilemmata und mehrere Enden, die jedem Spieler ein personalisiertes und fesselndes Erlebnis gewährleisten. Myosotis fordert die Spieler heraus, sich mit der Komplexität menschlicher Beziehungen und den anhaltenden Auswirkungen ungelöster Konflikte auseinanderzusetzen.</p>
+      
+      <h3>Funktionen</h3>
+      <ul>
+        <li><b>Ätherische Erkundung:</b> Durchqueren Sie die Welt als Geist, interagieren Sie mit Objekten und beeinflussen Sie Ereignisse, um verborgene Wahrheiten aufzudecken und die Geschichte voranzutreiben. Erleben Sie die Welt aus einer einzigartigen, jenseitigen Perspektive und beobachten Sie, wie sich Ereignisse von jenseits des Schleiers entfalten.</li>
+        <li><b>Emotionale Erzählung:</b> Nehmen Sie an einer zutiefst bewegenden Geschichte teil, die Themen wie Verlust, Verrat und Rache erforscht. Bereiten Sie sich darauf vor, sich schwierigen Emotionen zu stellen und wirkungsvolle Entscheidungen zu treffen, die den Verlauf der Erzählung prägen werden.</li>
+        <li><b>Charakterinteraktionen:</b> Begegnen Sie anderen spektralen Entitäten und interagieren Sie mit ihnen, jede mit ihren eigenen einzigartigen Geschichten und Motivationen. Schmieden Sie Allianzen, decken Sie Geheimnisse auf und navigieren Sie komplexe Beziehungen im Jenseits.</li>
+        <li><b>Rätsellösen:</b> Lösen Sie komplizierte Rätsel, die kreatives Denken und ein keen eye for detail erfordern. Nutzen Sie Ihre ghostly abilities, um Objekte zu manipulieren und verborgene Pfade aufzudecken.</li>
+        <li><b>Verzweigte Handlungsstränge:</b> Erleben Sie eine nicht-lineare Erzählung mit mehreren verzweigten Pfaden, die personalisierte Durchläufe und diverse Outcomes ermöglichen. Ihre Entscheidungen werden einen signifikanten Impact auf die Story haben und den ultimate Fate aller Involvierten bestimmen.</li>
+        <li><b>Atmosphärischer Soundtrack:</b> Tauchen Sie ein in einen hauntingly beautiful Soundtrack, der den emotional Tone des Games perfectly complements und das Gefühl von Mystery und Suspense amplifies.</li>
+        <li><b>Multiple Endings:</b> Discover a variety of different Endings depending on the Choices you make throughout the Game. Each Ending offers a unique Perspective on the Events that transpired and provides Closure to the Story in different Ways.</li>
+        <li><b>Myosotis Symbolism:</b> Explore the Significance of the Myosotis Flower, a Symbol of Remembrance and Enduring Love, which plays a crucial Role in the Narrative and adds Depth to the Emotional Impact of the Game.</li>
+      </ul>
+      
+      <h3>FAQ</h3>
+      <ul>
+        <li>
+          <div class="faq-question">Was sind Paranoia-Blasen?</div>
+          <div class="faq-answer">Paranoia-Blasen sind visuelle Darstellungen der ängstlichen und paranoiden Gedanken des Protagonisten. Sie verzerren Ihre Wahrnehmung der Realität und fügen dem Gameplay eine Schicht psychologischer Tiefe hinzu. Nach Abschluss einer Route werden diese Blasen aktualisiert, um die wahren Gedanken und Motivationen des beteiligten Charakters aufzuzeigen.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wie funktioniert der Duality Mode?</div>
+          <div class="faq-answer">Der Duality Mode präsentiert Entscheidungen, die von den positiven und negativen Seiten des Protagonisten beeinflusst werden. Die Wahl von Optionen, die aus Negativität stammen, erhöht das Misstrauen, während Entscheidungen, die auf Positivität basieren, zu Naivität führen können. Das Ausbalancieren dieser Aspekte ist der Schlüssel zur Navigation im Spiel.</div>
+        </li>
+        <li>
+          <div class="faq-question">Welche Bedeutung hat das TRUST System?</div>
+          <div class="faq-answer">Das TRUST System verfolgt Ihre Beziehungen zu anderen Charakteren. Hohes Vertrauen schaltet einzigartige Bindungsgespräche frei und enthüllt tiefere Aspekte ihrer Persönlichkeiten. Geringes Vertrauen kann zu ungünstigen Ergebnissen und potenziell schlechten Enden führen.</div>
+        </li>
+        <li>
+          <div class="faq-question">Was sind Paranoia-Blasen?</div>
+          <div class="faq-answer">Paranoia-Blasen sind visuelle Darstellungen der ängstlichen und paranoiden Gedanken des Protagonisten. Sie verzerren Ihre Wahrnehmung der Realität und fügen dem Gameplay eine Schicht psychologischer Tiefe hinzu. Nach Abschluss einer Route werden diese Blasen aktualisiert, um die wahren Gedanken und Motivationen des beteiligten Charakters aufzuzeigen.</div>
+        </li>
+          
+        <li>
+          <div class="faq-question">Ist 'Doce Fim' für Spieler mit Behinderungen zugänglich?</div>
+          <div class="faq-answer">Ja, 'Doce Fim' bietet eine Reihe von Zugänglichkeitsoptionen, einschließlich Audiobeschreibungen, Self-Voicing, anpassbarer Textschriftart und -größe sowie die Möglichkeit, bestimmte Audioelemente zu deaktivieren, um unterschiedlichen Bedürfnissen gerecht zu werden.</div>
+        </li>
+        <li>
+          <div class="faq-question">Wie viele verschiedene Enden gibt es?</div>
+          <div class="faq-answer">Jede der vier Hauptrouten (eine romantische, zwei platonische und die Wahre Route) bietet ein gutes und ein schlechtes Ende. Das Ergebnis, das Sie erzielen, hängt von den Entscheidungen ab, die Sie während des gesamten Spiels treffen.</div>
+        </li>
+      </ul>
+   
+      <p>'Doce Fim' ist mehr als nur ein Spiel; es ist eine Erkundung dessen, was es bedeutet, angesichts überwältigender Unsicherheit ein Mensch zu sein. Mit seiner fesselnden Erzählung, einzigartigen Gameplay-Mechaniken und seinem Fokus auf Inklusivität bietet es eine zum Nachdenken anregende und emotional ansprechende Erfahrung, die Ihnen lange nach dem Abspann in Erinnerung bleiben wird. Tauchen Sie ein in eine Welt, in der Liebe, Freundschaft und Kunst die ultimativen Formen des Widerstands sind.</p>
+    </div>`
   }
+
 
 
 

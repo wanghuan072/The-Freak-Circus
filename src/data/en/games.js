@@ -1,7 +1,7 @@
 // Games data for English language
 export default [
   {
-    id: "trapped-with-jester",
+    id: 1,
     title: "Trapped with Jester",
     iframeUrl: "https://html-classic.itch.zone/html/15323668/TrappedwithJester-1.0-web/index.html",
     description: "Awaken to a world shrouded in mystery! In 'Trapped with Jester,' piece together fractured memories as you navigate a perplexing reality with a maddeningly persistent jester. Unravel secrets, forge your destiny, and discover six unique endings in this fully-voiced adventure.",
@@ -13,6 +13,7 @@ export default [
       description: "Dive into 'Trapped with Jester,' a fully-voiced narrative game where you must uncover your identity and escape the clutches of a bizarre jester. Featuring six unique endings!",
       keywords: "trapped with jester, narrative adventure, interactive fiction, mystery game, multiple endings, fully voiced, original artwork, jester game"
     },
+    isHome: false,
     addressBar: "trapped-with-jester",
     comments: [
       {
@@ -73,7 +74,7 @@ export default [
   },
 
   {
-    id: "death-loop",
+    id: 2,
     title: "Death Loop",
     iframeUrl: "https://html-classic.itch.zone/html/15187376/Death Loop browser october/index.html",
     description: "Trapped in a time loop with 9 strangers, a killer hides among you. Uncover the murderer or be doomed to repeat this nightmare eternally. Can you break free from the Death Loop?",
@@ -86,6 +87,7 @@ export default [
       keywords: "death loop, time loop game, social deduction game, visual novel, mystery game, killer, escape game"
     },
     addressBar: "death-loop",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -236,7 +238,7 @@ export default [
   },
 
   {
-    id: "dating-killmulator",
+    id: 3,
     title: "Dating Killmulator",
     iframeUrl: "https://html-classic.itch.zone/html/15331665/index.html",
     description: "Dive into Dating Killmulator, a darkly humorous dating simulator parody where finding love is a deadly game! Navigate toxic relationships and outrageous characters in monthly chapters and spin-offs. Are you ready to swipe right... into chaos?",
@@ -249,6 +251,7 @@ export default [
       keywords: "dating, killmulator, dating simulator, parody, dark humor, romance, toxic relationships, visual novel, monthly chapters, spin-offs"
     },
     addressBar: "dating-killmulator",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -310,7 +313,7 @@ export default [
   },
 
   {
-    id: "reapers-goodbye",
+    id: 4,
     title: "Reaper's Goodbye",
     iframeUrl: "https://html-classic.itch.zone/html/15345399/index.html",
     description: "In a desolate countryside, five lost souls converge at a peculiar food stall, each carrying a heavy burden of misfortune. As they await the midnight train, they share tales of promise, regret, and revenge, unaware of the watchful eyes observing their final confessions before the reaper's goodbye.",
@@ -323,6 +326,7 @@ export default [
       keywords: "reaper, goodbye, fate, misfortune, lost souls, midnight train, revenge, regret, countryside, food stall"
     },
     addressBar: "reapers-goodbye",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -382,7 +386,7 @@ export default [
   },
 
   {
-    id: "fear-me",
+    id: 5,
     title: "Fear Me",
     iframeUrl: "https://html-classic.itch.zone/html/15418904/index.html",
     description: "Ever wondered what it's like to catch the eye of Jeff the Killer? In Fear Me, a suspenseful and satirical visual novel, navigate a deadly romance where survival is key. Work at a video store, meet a mysterious stranger, and try to earn his trust… if you can stay alive. 9 endings, gender-neutral MC!",
@@ -395,6 +399,7 @@ export default [
       keywords: "Fear Me, Jeff the Killer, visual novel, romance, horror, creepypasta, dating sim, suspense, survival, gender-neutral"
     },
     addressBar: "fear-me",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -456,7 +461,7 @@ export default [
   },
 
   {
-    id: "egg-coffee",
+    id: 6,
     title: "Egg Coffee",
     iframeUrl: "https://html-classic.itch.zone/html/15365797/index.html",
     description: "Dive into the eerie world of 'Egg Coffee'! A solo-developed Halloween game jam project where you must uncover the killer using randomized clues and tarot cards. Enjoy this spooky guessing game and tutorial, a unique blend of suspense and caffeine!",
@@ -469,6 +474,7 @@ export default [
       keywords: "egg coffee, halloween game, mystery game, solo development, indie game, tarot cards, guessing game, randomized killer, free online game"
     },
     addressBar: "egg-coffee",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -534,7 +540,7 @@ export default [
   },
 
   {
-    id: "florastrum-academia",
+    id: 7,
     title: "Florastrum Academia",
     iframeUrl: "https://html-classic.itch.zone/html/15357785/index.html",
     description: "Embark on a magical journey at Florastrum Academia! Unravel a Halloween mystery while mastering potion-making. Encounter intriguing classmates and solve enchanting puzzles using unique pieces. Rotate, strategize, and complete the grid! Experience the world of magic today!",
@@ -547,6 +553,7 @@ export default [
       keywords: "florastrum, academia, magic school game, puzzle, potion making, halloween game, fantasy game"
     },
     addressBar: "florastrum-academia",
+    isHome: false,
     comments: [
       {
         id: 1,
@@ -608,7 +615,7 @@ export default [
   },
 
   {
-    id: "allele-origin",
+    id: 8,
     title: "Allele: Origin",
     iframeUrl: "https://html-classic.itch.zone/html/15338459/index.html",
     description: "In a world ravaged by a plague, humanity's last hope lies in the monstrous beings born from genetic mutations – alleles. Explore their origin and the dark, mature themes that define this desperate struggle for survival.",
@@ -621,6 +628,7 @@ export default [
       keywords: "allele, origin, mutation, plague, survival, monster evolution, dark fantasy, genetic alteration"
     },
     addressBar: "allele-origin",
+    isHome: false,
     detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"><h2>Allele: Origin</h2><p>The year is 2077. A devastating plague, unlike anything humanity has ever faced, has swept across the globe, decimating populations and collapsing civilizations. In a desperate attempt to find a cure, scientists experimented with radical genetic therapies. However, these attempts inadvertently triggered a new evolutionary path, giving rise to monstrous beings known as Alleles. Their very origin is intertwined with mankind's struggle for survival, a twisted reflection of our own desperate measures.</p>
   
     <h3>About</h3>
@@ -668,7 +676,273 @@ export default [
   
     <p>Allele: Origin offers a grim and compelling exploration of survival in the face of genetic catastrophe. Witness the rise of the Alleles, unravel the secrets of their origin, and make the difficult choices that will determine the fate of humanity. This is not just a story of monsters, but a reflection of our own potential for both creation and destruction. The future hinges on understanding the allele and its twisted origin.</p>
   </div>`,
+  },
+
+  {
+    id: 9,
+    title: "Doce Fim",
+    iframeUrl: "https://html-classic.itch.zone/html/15403970/index.html",
+    description: "The world's ending, but connection remains. In 'Doce Fim,' navigate queer love and friendship through emotional choices. Craft art, build trust, and defy loneliness in this post-apocalyptic narrative. Will you find solace in connection?",
+    tags: ["queer love", "post-apocalyptic", "narrative game", "emotional choices", "friendship"],
+    publishDate: "2025-11-05",
+    imageUrl: "/images/games/game-09.webp",
+    imageAlt: "A stylized character portrait from Doce Fim, featuring vibrant colors and hinting at the game's themes of queer love and connection.",
+    seo: {
+      title: "Doce Fim: Shape Queer Love at the End of the World",
+      description: "Explore love and friendship in 'Doce Fim,' a choice-driven narrative set during the apocalypse. Discover unique routes, trust systems, and paranoia bubbles. Can art save us all?",
+      keywords: "Doce Fim, queer love, friendship, apocalypse, narrative game, choice-driven, trust system, paranoia bubbles, art, second chances"
+    },
+    addressBar: "doce-fim",
+    isHome: true,
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <h2>Doce Fim</h2>
+    <p>As the world hurtles towards its predicted end, 'Doce Fim' throws you into a deeply personal narrative where the apocalypse serves as a backdrop for exploring the intricacies of human connection. It's not just about surviving; it's about finding meaning, love, and friendship amidst the chaos. This isn’t just a game; it’s a journey of self-discovery and the enduring power of art and connection in the face of oblivion.</p>
+  
+    <h3>About</h3>
+    <p>'Doce Fim' is a choice-driven narrative game that delves into the themes of queer love, platonic friendship, and the redemptive power of art. Set against the backdrop of a world supposedly nearing its end, the game focuses on the protagonist's internal struggles and their relationships with others. Over a decade in the making, 'Doce Fim' explores the complexities of trust, paranoia, and the search for meaning in a seemingly hopeless situation. The game features a unique 'Duality Mode,' which challenges players to balance positive and negative impulses, influencing character relationships and shaping the narrative. The TRUST system adds another layer of depth, where choices affect character trust levels, unlocking unique dialogues and leading to varied endings. With its emphasis on accessibility and inclusivity, 'Doce Fim' offers a thought-provoking and emotionally resonant experience for all players, highlighting the importance of connection and resilience even in the darkest of times.</p>
+  
+    <h3>Features</h3>
+    <ul>
+      <li><b>300k Words of Narrative:</b> Immerse yourself in a rich and detailed story that offers over 30 hours of gameplay, filled with meaningful choices and character interactions.</li>
+      <li><b>Multiple Routes & Endings:</b> Experience four unique routes, including romantic and platonic options, each with good and bad endings determined by your choices, adding replayability and encouraging exploration. A True Route exists for those who delve deeper.</li>
+      <li><b>Duality Mode:</b> Navigate challenging situations using the protagonist's internal positive and negative sides, each offering different perspectives and influencing your available choices.</li>
+      <li><b>TRUST System:</b> Build or break trust with other characters through your decisions, unlocking unique bonding conversations and potentially leading to dramatically different outcomes.</li>
+      <li><b>Paranoia Bubbles:</b> Experience the protagonist's anxiety and paranoia through visual representations that distort reality, adding a layer of psychological depth to the narrative.</li>
+      <li><b>Post-Route Insights:</b> Gain a deeper understanding of other characters' true thoughts and feelings by unlocking updated Paranoia Bubbles after completing their route.</li>
+      <li><b>Accessibility Options:</b> Customize your experience with audio descriptions, self-voicing, adjustable text font and size, and options to disable specific audio elements, ensuring inclusivity for all players.</li>
+      <li><b>Partial Voice Acting:</b> Enjoy enhanced immersion with partial voice acting for the main cast, bringing the characters and their emotions to life.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">What is the core theme of 'Doce Fim'?</div>
+        <div class="faq-answer">'Doce Fim' primarily explores themes of queer love, friendship, and the power of art to create meaning and connection in a world facing its end. It is about finding hope and resilience in the face of adversity.</div>
+      </li>
+      <li>
+        <div class="faq-question">How does the Duality Mode work?</div>
+        <div class="faq-answer">The Duality Mode presents choices influenced by the protagonist's positive and negative sides. Picking options stemming from negativity will increase distrust, while choices based on positivity might lead to naivety. Balancing these aspects is key to navigating the game.</div>
+      </li>
+      <li>
+        <div class="faq-question">What is the significance of the TRUST system?</div>
+        <div class="faq-answer">The TRUST system tracks your relationships with other characters. High trust unlocks unique bonding conversations, revealing deeper aspects of their personalities. Low trust can lead to unfavorable outcomes and potentially bad endings.</div>
+      </li>
+      <li>
+        <div class="faq-question">What are Paranoia Bubbles?</div>
+        <div class="faq-answer">Paranoia Bubbles are visual representations of the protagonist's anxious and paranoid thoughts. They distort your perception of reality, adding a layer of psychological depth to the gameplay. After completing a route, these bubbles get updated to reveal the true thoughts and motivations of the character involved.</div>
+      </li>
+          <li>
+        <div class="faq-question">Is 'Doce Fim' accessible to players with disabilities?</div>
+        <div class="faq-answer">Yes, 'Doce Fim' offers a range of accessibility options, including audio descriptions, self-voicing, adjustable text font and size, and the ability to disable certain audio elements to cater to different needs.</div>
+      </li>
+      <li>
+        <div class="faq-question">How many different endings are there?</div>
+        <div class="faq-answer">Each of the four main routes (one romantic, two platonic, and the True Route) features a good and a bad ending. The outcome you achieve depends on the choices you make throughout the game.</div>
+      </li>
+    </ul>
+  
+    <p>'Doce Fim' is more than just a game; it's an exploration of what it means to be human in the face of overwhelming uncertainty. With its compelling narrative, unique gameplay mechanics, and focus on inclusivity, it offers a deeply moving and thought-provoking experience that will stay with you long after the credits roll. Dive into a world where love, friendship, and art are the ultimate forms of resistance.</p>
+  </div>`,
+  },
+
+  {
+    id: 10,
+    title: "Heartstop Tour",
+    iframeUrl: "https://html-classic.itch.zone/html/14235865/index.html",
+    description: "Dumped your job after a mascot mishap? Now you're tangled in a tourist's whims and a bear-suited cutie's chaos! Embark on an unexpected heartstop tour filled with quirky encounters and maybe, just maybe, love in the most bizarre places. Unemployed & underdressed, are you ready for this mess?",
+    tags: ["heartstop", "tour", "romance", "comedy", "visual novel"],
+    publishDate: "2025-11-05",
+    imageUrl: "/images/games/game-10.webp",
+    imageAlt: "A screenshot from Heartstop Tour, featuring a cute pink bear mascot and a surprised character.",
+    seo: {
+      title: "Heartstop Tour - A Hilarious Romantic Adventure Awaits!",
+      description: "Quit your job? Meet a clueless tourist and a cute mascot in Heartstop Tour! Dive into a whirlwind of romance, comedy, and unexpected adventures. Play now!",
+      keywords: "heartstop tour, romance game, comedy game, visual novel, mascot love, cute game, indie game, dating sim"
+    },
+    addressBar: "heartstop-tour",
+    isHome: true,
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <h2>Heartstop Tour</h2>
+    <p>Ready to ditch the mundane and dive headfirst into a chaotic, hilarious, and potentially romantic adventure? Heartstop Tour isn't just a game; it's a whirlwind of unexpected encounters, quirky characters, and the burning question: can you find love when you're unemployed, underdressed, and completely unprepared?</p>
+  
+    <h3>About</h3>
+    <p>In Heartstop Tour, you're not just playing a character; you're living a rom-com movie. After a particularly insulting remark from your boss regarding your beloved childhood mascot, Comfort Kuma, you impulsively quit. Now, armed with nothing but a sad sandwich and a questionable suit, you find yourself mistaken for a tour guide by a ridiculously charming (and utterly clueless) tourist. This is where your <b>heartstop</b> journey truly begins. But that's not all! A desperate attempt to recapture some childhood joy leads you to a fateful encounter with the real Comfort Kuma, or rather, the unbelievably cute guy hiding inside the pink bear suit. Prepare for parade accidents, misplaced cameras, and a whole lot of awkward but endearing moments. Your <b>tour</b> through love is about to get very interesting. Are you ready for this heartstop situation?</p>
+  
+    <h3>Features</h3>
+    <ul>
+      <li><b>Hilarious Storyline:</b> Experience a storyline packed with witty dialogue, absurd situations, and genuine laugh-out-loud moments.</li>
+      <li><b>Charming Characters:</b> Meet a cast of memorable characters, from the clueless tourist to the endearingly awkward mascot performer. Every character has a unique personality and adds to the charm of the game.</li>
+      <li><b>Multiple Endings:</b> Your choices matter! Shape the story and determine your romantic destiny with multiple branching paths and endings.</li>
+      <li><b>Relatable Protagonist:</b> Empathize with a protagonist who's just trying to navigate life's curveballs, making the journey all the more engaging.</li>
+      <li><b>Stunning Visuals:</b> Immerse yourself in a vibrant and colorful world brought to life with beautifully drawn artwork and animations. The visual style complements the game's lighthearted tone.</li>
+      <li><b>Catchy Soundtrack:</b> Groove to an original soundtrack that perfectly captures the mood and energy of each scene. The music enhances the emotional impact of key moments.</li>
+      <li><b>Unexpected Twists:</b> Just when you think you know what's coming, Heartstop Tour throws you for a loop with unexpected twists and turns.</li>
+      <li><b>Heartwarming Romance:</b> Ultimately, Heartstop Tour is a story about finding love in the most unexpected of places. Get ready to swoon and believe in the power of romance.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">Is Heartstop Tour free to play?</div>
+        <div class="faq-answer">Yes! You can enjoy the initial chapters of Heartstop Tour for free. Additional content and features may require a purchase.</div>
+      </li>
+      <li>
+        <div class="faq-question">What platforms is Heartstop Tour available on?</div>
+        <div class="faq-answer">Heartstop Tour is currently available as an HTML-based game, accessible through your web browser.</div>
+      </li>
+      <li>
+        <div class="faq-question">Are there multiple romantic interests?</div>
+        <div class="faq-answer">Absolutely! You'll have the opportunity to pursue different romantic paths with various characters, each offering a unique and fulfilling experience. Your <b>heartstop</b> <b>tour</b> can lead to multiple destinations.</div>
+      </li>
+      <li>
+        <div class="faq-question">How long does it take to complete Heartstop Tour?</div>
+        <div class="faq-answer">The playtime varies depending on your choices and playstyle. On average, a single playthrough can take several hours.</div>
+      </li>
+      <li>
+        <div class="faq-question">Does Heartstop Tour contain mature content?</div>
+        <div class="faq-answer">Heartstop Tour features lighthearted and comedic themes. It contains mild suggestive themes but no explicit content.</div>
+      </li>
+       <li>
+        <div class="faq-question">Is there a sequel planned for Heartstop Tour?</div>
+        <div class="faq-answer">While there are no immediate plans for a sequel, we are always exploring new ideas and possibilities for expanding the Heartstop Tour universe. Stay tuned for updates!</div>
+      </li>
+    </ul>
+  
+    <p>Heartstop Tour is more than just a game; it's an escape into a world of quirky characters, laugh-out-loud moments, and heartwarming romance. So, pack your bags (or your sad sandwich), embrace the chaos, and embark on a <b>heartstop</b> <b>tour</b> you won't soon forget. Who knows, you might just find love along the way!</p>
+  </div>`,
+  },
+
+  {
+    id: 11,
+    title: "Lookouts",
+    iframeUrl: "https://html-classic.itch.zone/html/12378527/index.html",
+    description: "In the heart of the Old West, two trans masc outlaws find unexpected solace and burgeoning romance in the visual novel 'Lookouts.' Explore themes of hope, belonging, and forbidden love as they navigate a world filled with danger and prejudice. Play now!",
+    tags: ["LGBTQ+ Game", "Visual Novel", "Western Romance", "Transgender", "Old West"],
+    publishDate: "2025-11-05",
+    imageUrl: "/images/games/game-11.webp",
+    imageAlt: "Two trans masc outlaws gazing at a town, the scene from the romance visual novel Lookouts.",
+    seo: {
+      title: "Lookouts - A Gay Trans Masc Western Romance Visual Novel",
+      description: "Discover 'Lookouts,' a poignant romance visual novel about two gay trans masc outlaws finding love and hope in the Old West. Experience a 5-6 hour narrative adventure.",
+      keywords: "lookouts, visual novel, gay romance, transgender, trans masc, old west, LGBTQ+, western game, romance game, outlaw romance"
+    },
+    isHome: true,
+    addressBar: "lookouts",
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <h2>Lookouts</h2>
+    <p>Amidst the arid landscapes and simmering tensions of the Old West, 'Lookouts' presents a story of two outlaws, both trans masc, who unexpectedly find common ground. This visual novel delves into the complexities of identity, belonging, and the pursuit of a better life against the backdrop of a harsh and unforgiving world. Get ready to immerse yourself in a narrative rich with emotion, adventure, and the blossoming of an unexpected romance. This 5-6 hour experience is a must play!</p>
+  
+    <h3>About</h3>
+    <p>'Lookouts' is more than just a romance; it's a heartfelt exploration of the human condition. Set in the Old West, it tells the story of two gay trans masc outlaws whose paths cross in the desert. Far from their respective gangs, they discover a shared sense of isolation and a mutual yearning for something more. Drawn together by their circumstances and a shared desire for a different life, they venture towards a town rumored to hold gold, a symbol of hope and opportunity. The narrative sensitively portrays their struggles, their growing connection, and their resilience in the face of adversity. With approximately 45,000 words, 'Lookouts' offers a deeply engaging and emotionally resonant experience for players.</p>
+  
+    <h3>Features</h3>
+    <ul>
+      <li><b>Compelling Narrative:</b> Immerse yourself in a richly detailed story with approximately 45,000 words, offering hours of captivating reading.</li>
+      <li><b>Authentic Representation:</b> Experience the unique challenges and triumphs of gay trans masc characters in a historical setting.</li>
+      <li><b>Meaningful Choices:</b> Shape the narrative through your decisions, influencing the characters' relationships and destinies.</li>
+      <li><b>Stunning Visuals:</b> Enjoy beautifully rendered artwork that brings the Old West and its characters to life.</li>
+      <li><b>Emotional Depth:</b> Connect with the characters on a profound level as they navigate themes of love, loss, and self-discovery.</li>
+      <li><b>Original Soundtrack:</b> Enhance your immersion with a carefully crafted soundtrack that complements the story's emotional tone.</li>
+      <li><b>Expanded Content:</b> Explore a much expanded version of the original Gay Western Jam creation, offering a more complete and satisfying experience.</li>
+      <li><b>Accessible Controls:</b> Easily navigate the game with simple click or spacebar controls.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">What is 'Lookouts' about?</div>
+        <div class="faq-answer">'Lookouts' is a romance visual novel set in the Old West, focusing on two gay trans masc outlaws who find love and hope amidst a harsh and unforgiving landscape.</div>
+      </li>
+      <li>
+        <div class="faq-question">How long does it take to play?</div>
+        <div class="faq-answer">The game offers roughly 5-6 hours of reading time, providing a substantial and immersive narrative experience.</div>
+      </li>
+      <li>
+        <div class="faq-question">What are the content warnings?</div>
+        <div class="faq-answer">The game contains depictions of alcohol, smoking, gun violence (with SFX), gun death, blood, injury, mild transphobia, and discussions of racism and settler violence. Please consider these warnings before playing.</div>
+      </li>
+      <li>
+        <div class="faq-question">Is 'Lookouts' a commercial game?</div>
+        <div class="faq-answer">'Lookouts' is available to play online; it was initially developed for the Gay Western Jam and has since been expanded.</div>
+      </li>
+      <li>
+        <div class="faq-question">Where can I play the original jam version?</div>
+        <div class="faq-answer">The original jam version is linked on the game's page for those interested in experiencing the initial concept.</div>
+      </li>
+    </ul>
+  
+    <p>In conclusion, 'Lookouts' offers a unique and compelling experience for players seeking a romance visual novel with depth, heart, and authentic representation. Its engaging narrative, captivating characters, and thought-provoking themes make it a must-play for fans of the genre and anyone interested in exploring stories of love, hope, and resilience in the Old West. Prepare to be transported to a world where outlaws find refuge in each other, and where the promise of a better life shines brightly on the horizon. The story of these two lookouts will stay with you long after the credits roll. </p>
+  </div>`,
+  },
+
+  {
+    id: 12,
+    title: "Myosotis",
+    iframeUrl: "https://html-classic.itch.zone/html/13249930/index.html",
+    description: "Trapped between worlds after a tragic end, haunt Ethan, your ex-boyfriend and murderer, in Myosotis. Unravel the mysteries surrounding your death and discover you're not alone in your spectral pursuit. Seek answers, find closure, and perhaps, a different kind of peace.",
+    tags: ["ghost story", "revenge", "afterlife", "mystery", "supernatural"],
+    publishDate: "2025-11-05",
+    imageUrl: "/images/games/game-12.webp",
+    imageAlt: "A faded image of Myosotis flowers symbolizing remembrance, relevant to the Myosotis game.",
+    seo: {
+      title: "Myosotis - A Haunting Tale of Revenge and Remembrance",
+      description: "Embark on a spectral journey in Myosotis, seeking justice and answers after your untimely death. Uncover secrets and confront your past as a vengeful ghost.",
+      keywords: "myosotis, ghost story, afterlife, revenge, haunting, mystery, supernatural, indie game, Ethan"
+    },
+    addressBar: "myosotis",
+    isHome: true,
+    detailsHtml: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <h2>Myosotis</h2>
+    <p>Myosotis, a poignant narrative experience, delves into the complexities of grief, revenge, and the afterlife. Assume the role of a spectral figure, bound to the earthly realm after a life tragically cut short. Your mission: to haunt your former lover, Ethan, and uncover the truth behind your untimely demise. However, you soon discover that you are not the only spirit lingering in his wake, adding layers of intrigue and mystery to your ethereal existence.</p>
+    
+    <h3>About</h3>
+    <p>In Myosotis, players navigate a world brimming with sorrow and unanswered questions. The game's core revolves around exploring the emotional landscape of loss and betrayal while simultaneously piecing together fragmented memories to understand the circumstances surrounding your death. As a ghost, you possess the ability to interact with the environment in subtle yet impactful ways, influencing Ethan's actions and uncovering hidden clues. The presence of other spectral figures introduces a compelling dynamic, raising questions about their connection to Ethan and their motivations. The game features branching narratives, moral dilemmas, and multiple endings, ensuring a personalized and engaging experience for each player. Myosotis challenges players to confront the complexities of human relationships and the lingering impact of unresolved conflicts.</p>
+    
+    <h3>Features</h3>
+    <ul>
+      <li><b>Ethereal Exploration:</b> Traverse the world as a ghost, interacting with objects and influencing events to uncover hidden truths and progress the story. Experience the world from a unique, otherworldly perspective, witnessing events unfold from beyond the veil.</li>
+      <li><b>Emotional Narrative:</b> Engage with a deeply moving story that explores themes of loss, betrayal, and revenge. Prepare to confront difficult emotions and make impactful choices that will shape the course of the narrative.</li>
+      <li><b>Character Interactions:</b> Encounter and interact with other spectral entities, each with their own unique stories and motivations. Forge alliances, uncover secrets, and navigate complex relationships in the afterlife.</li>
+      <li><b>Puzzle Solving:</b> Solve intricate puzzles that require creative thinking and a keen eye for detail. Utilize your ghostly abilities to manipulate objects and uncover hidden pathways.</li>
+      <li><b>Branching Storylines:</b> Experience a non-linear narrative with multiple branching paths, allowing for personalized playthroughs and diverse outcomes. Your choices will have a significant impact on the story and determine the ultimate fate of all involved.</li>
+      <li><b>Atmospheric Soundtrack:</b> Immerse yourself in a hauntingly beautiful soundtrack that perfectly complements the game's emotional tone and amplifies the sense of mystery and suspense.</li>
+      <li><b>Multiple Endings:</b> Discover a variety of different endings depending on the choices you make throughout the game. Each ending offers a unique perspective on the events that transpired and provides closure to the story in different ways.</li>
+      <li><b>Myosotis Symbolism:</b> Explore the significance of the myosotis flower, a symbol of remembrance and enduring love, which plays a crucial role in the narrative and adds depth to the emotional impact of the game.</li>
+    </ul>
+    
+    <h3>FAQ</h3>
+    <ul>
+      <li>
+        <div class="faq-question">What platforms is Myosotis available on?</div>
+        <div class="faq-answer">Myosotis is currently available as a browser-based game and can be played directly through itch.io.</div>
+      </li>
+      <li>
+        <div class="faq-question">How long does it take to complete Myosotis?</div>
+        <div class="faq-answer">The average playtime for Myosotis is approximately 2-3 hours, depending on your play style and the choices you make.</div>
+      </li>
+      <li>
+        <div class="faq-question">Are there any jump scares in Myosotis?</div>
+        <div class="faq-answer">While Myosotis features a suspenseful and unsettling atmosphere, it primarily focuses on psychological horror rather than relying on jump scares.</div>
+      </li>
+      <li>
+        <div class="faq-question">Is Myosotis suitable for all ages?</div>
+        <div class="faq-answer">Myosotis contains mature themes and may not be suitable for younger audiences. Parental discretion is advised.</div>
+      </li>
+      <li>
+        <div class="faq-question">Will there be any updates or expansions for Myosotis in the future?</div>
+        <div class="faq-answer">The developers are currently focusing on other projects, but they have expressed interest in revisiting Myosotis in the future. Stay tuned for any potential announcements.</div>
+      </li>
+      <li>
+        <div class="faq-question">Does the game feature any voice acting?</div>
+        <div class="faq-answer">No, Myosotis does not include voice acting. The narrative is conveyed through text and environmental storytelling.</div>
+      </li>
+    </ul>
+    
+    <p>Myosotis offers a captivating and emotionally resonant experience, inviting players to confront themes of loss, revenge, and the search for truth in the afterlife. With its intricate narrative, engaging puzzles, and atmospheric presentation, Myosotis is a must-play for fans of narrative-driven indie games seeking a thought-provoking and unforgettable journey.</p>
+  </div>`,
   }
+
+
 
 
 
@@ -686,6 +960,7 @@ export default [
   //     iframeUrl: '',
   //     imageSrc: '',
   //     imageAlt: '',
+  //     isHome: false,
   //     seo: {
   //         title: '',
   //         description: '',

@@ -21,7 +21,7 @@
                     </div>
                     <div class="hero-buttons">
                         <button class="btn btn-primary" @click="scrollToGame">{{ $t('HomePage.hero.playButton')
-                        }}</button>
+                            }}</button>
                         <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                                 <h3>{{ $t('HomePage.characters.pierrotName') }}</h3>
                                 <p>{{ $t('HomePage.characters.pierrotDesc') }}</p>
                                 <a href="/pierrot" class="character-link">{{ $t('HomePage.characters.pierrotLearnMore')
-                                    }}
+                                }}
                                     →</a>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                                 <p>{{ $t('HomePage.characters.harlequinDesc') }}</p>
                                 <a href="/harlequin" class="character-link">{{
                                     $t('HomePage.characters.harlequinLearnMore')
-                                    }} →</a>
+                                }} →</a>
                             </div>
                         </div>
                     </div>
@@ -331,13 +331,15 @@ const games = ref([])
 const loadGames = async () => {
     try {
         const gamesData = await import(`@/data/${locale.value}/games.js`)
-        games.value = gamesData.default
+        // 只显示 isHome 为 true 的游戏
+        games.value = gamesData.default.filter(game => game.isHome === true)
     } catch (error) {
         console.error('Failed to load games data:', error)
         // 如果加载失败，尝试加载英文版本
         try {
             const enGamesData = await import('@/data/en/games.js')
-            games.value = enGamesData.default
+            // 只显示 isHome 为 true 的游戏
+            games.value = enGamesData.default.filter(game => game.isHome === true)
         } catch (enError) {
             console.error('Failed to load English games data:', enError)
         }
