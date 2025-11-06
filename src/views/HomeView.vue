@@ -21,7 +21,7 @@
                     </div>
                     <div class="hero-buttons">
                         <button class="btn btn-primary" @click="scrollToGame">{{ $t('HomePage.hero.playButton')
-                            }}</button>
+                        }}</button>
                         <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                                 <h3>{{ $t('HomePage.characters.pierrotName') }}</h3>
                                 <p>{{ $t('HomePage.characters.pierrotDesc') }}</p>
                                 <a href="/pierrot" class="character-link">{{ $t('HomePage.characters.pierrotLearnMore')
-                                }}
+                                    }}
                                     →</a>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                                 <p>{{ $t('HomePage.characters.harlequinDesc') }}</p>
                                 <a href="/harlequin" class="character-link">{{
                                     $t('HomePage.characters.harlequinLearnMore')
-                                }} →</a>
+                                    }} →</a>
                             </div>
                         </div>
                     </div>
@@ -291,7 +291,9 @@
                         <div class="reviews-grid">
                             <div v-for="review in reviews" :key="review.id" class="review-card">
                                 <div class="review-header">
-                                    <img :src="review.avatar" :alt="review.name" class="review-avatar">
+                                    <div class="review-avatar">
+                                        {{ getInitials(review.name) }}
+                                    </div>
                                     <div class="review-info">
                                         <h4 class="review-name">{{ review.name }}</h4>
                                         <span class="review-date">{{ formatDate(review.date) }}</span>
@@ -383,14 +385,14 @@ const formatDate = (dateString) => {
     })
 }
 
-// 获取评论头像
-const getReviewAvatar = (index) => {
-    const avatars = [
-        'https://i.pravatar.cc/150?img=1',
-        'https://i.pravatar.cc/150?img=2',
-        'https://i.pravatar.cc/150?img=3'
-    ]
-    return avatars[index] || avatars[0]
+// 获取用户名的首字母
+const getInitials = (name) => {
+    if (!name) return ''
+    // 移除特殊字符和空格，只保留字母
+    const cleanName = name.replace(/[^a-zA-Z]/g, '')
+    if (cleanName.length === 0) return name.charAt(0).toUpperCase()
+    // 返回第一个字母的大写
+    return cleanName.charAt(0).toUpperCase()
 }
 
 // 滑动到游戏板块
@@ -1238,8 +1240,15 @@ const gameLoaded = ref(false)
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    object-fit: cover;
+    background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
     border: 2px solid rgba(139, 92, 246, 0.3);
+    flex-shrink: 0;
 }
 
 .review-info {
@@ -1530,6 +1539,7 @@ const gameLoaded = ref(false)
     .review-avatar {
         width: 32px;
         height: 32px;
+        font-size: 14px;
     }
 
     .faq-item {
