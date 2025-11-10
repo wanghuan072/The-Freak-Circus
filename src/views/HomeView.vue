@@ -28,10 +28,6 @@
             </div>
         </section>
 
-        <!-- 移动端横幅广告1 -->
-        <aside class="ad-section" v-if="isMobile">
-            <ins class="eas6a97888e10" data-zoneid="5746162"></ins>
-        </aside>
         <!-- Play Game Section -->
         <section class="section play-game">
             <!-- LCP优化：背景图片改为img标签 -->
@@ -83,24 +79,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- PC端底部粘性横幅广告 -->
-        <ins class="eas6a97888e17" data-zoneid="5746154" v-if="!isMobile"></ins>
-
-        <!-- PC粘性左侧横幅广告1 -->
-        <aside class="ad-section" v-if="!isMobile">
-            <ins class="eas6a97888e17" data-zoneid="5746158"></ins>
-        </aside>
-
-        <!-- PC端粘性右侧横幅广告2 -->
-        <aside class="ad-section" v-if="!isMobile">
-            <ins class="eas6a97888e17" data-zoneid="5746160"></ins>
-        </aside>
-
-        <!-- 原生广告1 -->
-        <div class="container">
-            <ins class="eas6a97888e20" data-zoneid="5746168"></ins>
-        </div>
 
         <!-- About Section -->
         <section class="section about">
@@ -175,11 +153,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- 移动端横幅广告2 -->
-        <aside class="ad-section" v-if="isMobile">
-            <ins class="eas6a97888e10" data-zoneid="5746164"></ins>
-        </aside>
 
         <!-- FAQ Section -->
         <section class="section faq">
@@ -344,21 +317,6 @@ const loadGames = async () => {
             games.value = enGamesData.default.filter(game => game.isHome === true)
         } catch (enError) {
             console.error('Failed to load English games data:', enError)
-        }
-    }
-}
-
-// 广告联盟
-const adProvider = () => {
-    const script = document.createElement('script')
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.async = true
-    script.type = 'application/javascript'
-    document.head.appendChild(script)
-
-    script.onload = () => {
-        if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} })
         }
     }
 }
