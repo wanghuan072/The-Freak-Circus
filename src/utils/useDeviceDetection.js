@@ -11,20 +11,13 @@ export function useDeviceDetection() {
     checkDeviceType()
 
     onMounted(() => {
-        // 使用防抖减少resize事件频率
-        let resizeTimeout
-        const debouncedCheck = () => {
-            clearTimeout(resizeTimeout)
-            resizeTimeout = setTimeout(checkDeviceType, 100)
-        }
-        
-        window.addEventListener('resize', debouncedCheck)
-        
-        // 清理函数
-        onUnmounted(() => {
-            window.removeEventListener('resize', debouncedCheck)
-            clearTimeout(resizeTimeout)
-        })
+        // 监听窗口大小变化
+        window.addEventListener('resize', checkDeviceType)
+    })
+
+    onUnmounted(() => {
+        // 清理事件监听器
+        window.removeEventListener('resize', checkDeviceType)
     })
 
     return {

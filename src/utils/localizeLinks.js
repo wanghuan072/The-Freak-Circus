@@ -1,3 +1,5 @@
+import { supportedLanguages } from '@/i18n'
+
 // 自动本地化所有链接的工具函数
 export function localizeAllLinks() {
     // 获取当前语言 - 优先从localStorage获取，然后从HTML lang属性获取
@@ -7,12 +9,7 @@ export function localizeAllLinks() {
     const links = document.querySelectorAll('a[href^="/"]')
 
     links.forEach(link => {
-        const href = link.getAttribute('href')
-
-        // 跳过已经有语言前缀的链接
-        if (currentLang !== 'en' && href.startsWith(`/${currentLang}`)) {
-            return
-        }
+        let href = link.getAttribute('href')
 
         // 跳过外部链接、锚点链接等
         if (href.startsWith('http') ||
@@ -23,31 +20,29 @@ export function localizeAllLinks() {
             return
         }
 
-        // 为链接添加语言前缀
-        if (currentLang !== 'en') {
-            const localizedHref = `/${currentLang}${href}`
+        // 移除所有已存在的语言前缀
+        let basePath = href
+        for (const lang of supportedLanguages) {
+            if (lang === 'en') continue // 英文是默认语言，不需要前缀
+            if (basePath.startsWith(`/${lang}/`) || basePath === `/${lang}`) {
+                basePath = basePath.replace(`/${lang}`, '') || '/'
+                break // 只应该有一个语言前缀
+            }
+        }
+
+        // 如果当前语言是英文，使用基础路径
+        if (currentLang === 'en') {
+            if (basePath !== href) {
+                link.setAttribute('href', basePath)
+            }
+            return
+        }
+
+        // 为链接添加当前语言前缀
+        const localizedHref = basePath === '/' ? `/${currentLang}` : `/${currentLang}${basePath}`
+        if (localizedHref !== href) {
             link.setAttribute('href', localizedHref)
         }
     })
 }
 
-// 监听语言变化，重新处理链接
-export function watchLanguageChange() {
-    // 使用MutationObserver监听DOM变化
-    const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mutation) => {
-            if (mutation.type === 'childList') {
-                // 当DOM发生变化时，重新处理链接
-                setTimeout(localizeAllLinks, 100)
-            }
-        })
-    })
-
-    // 开始观察
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true
-    })
-
-    return observer
-}

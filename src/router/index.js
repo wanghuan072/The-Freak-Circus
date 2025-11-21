@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useSEO } from '@/seo'
-import i18n from '@/i18n'
+import i18n, { detectLanguageFromPath, loadLocale, supportedLanguages } from '@/i18n'
 
-// 按需加载语言文件 - 减少主包大小
+// 按需加载语言文件 - 用于SEO数据
 const localeDataMap = {}
 
-// 动态加载语言文件
-async function loadLocale(lang) {
+// 动态加载语言文件（用于SEO，与i18n的loadLocale不同）
+async function loadLocaleForSEO(lang) {
   if (!localeDataMap[lang]) {
     try {
       const locale = await import(`@/locales/${lang}.json`)
@@ -40,43 +40,28 @@ const pageConfigs = [
   { path: '/contact-us', component: 'ContactUsView', name: 'ContactUs' }
 ]
 
-// 支持的语言列表
-const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt'] // 添加新语言时只需修改这里
-
-// 动态生成路由
-function generateRoutes() {
-  const routes = []
-
-  // 为每种语言生成路由
-  supportedLanguages.forEach(lang => {
-    pageConfigs.forEach(page => {
-      const isDefaultLang = lang === 'en'
-      const path = isDefaultLang ? page.path : `/${lang}${page.path}`
-      const name = isDefaultLang ? page.name : `${page.name}${lang.charAt(0).toUpperCase() + lang.slice(1)}`
-
-      routes.push({
-        path,
-        name,
-        component: () => import(`@/views/${page.component}.vue`)
-      })
-    })
-  })
-
-  return routes
+// 构建路径的辅助函数
+const buildPath = (lang, basePath) => {
+  if (lang === 'en') return basePath
+  if (basePath === '/') return `/${lang}`
+  return `/${lang}${basePath}`
 }
 
-// 生成路由配置
-let routes = generateRoutes()
+// 生成路由配置 - 使用flatMap简化
+const routes = supportedLanguages.flatMap(lang =>
+  pageConfigs.map(page => ({
+    path: buildPath(lang, page.path),
+    name: lang === 'en' ? page.name : `${page.name}${lang.charAt(0).toUpperCase() + lang.slice(1)}`,
+    component: () => import(`@/views/${page.component}.vue`)
+  }))
+)
 
 // 添加游戏详情页路由（动态路由）
 supportedLanguages.forEach(lang => {
-  const isDefaultLang = lang === 'en'
-  const prefix = isDefaultLang ? '' : `/${lang}`
-
-  // 游戏详情页 - 使用动态参数
+  const prefix = lang === 'en' ? '' : `/${lang}`
   routes.push({
     path: `${prefix}/games/:id`,
-    name: isDefaultLang ? 'GameDetail' : `GameDetail${lang.charAt(0).toUpperCase() + lang.slice(1)}`,
+    name: lang === 'en' ? 'GameDetail' : `GameDetail${lang.charAt(0).toUpperCase() + lang.slice(1)}`,
     component: () => import('@/views/GameDetailView.vue')
   })
 })
@@ -87,30 +72,19 @@ const router = createRouter({
   routes
 })
 
-// 检测URL中的语言
-function detectLanguageFromPath(path) {
-  for (const lang of supportedLanguages) {
-    if (lang === 'en') continue // 英文是默认语言，不需要前缀
-    if (path.startsWith(`/${lang}`)) {
-      return lang
-    }
-  }
-  return 'en' // 默认返回英文
-}
-
 // 路由守卫：根据URL设置语言和SEO
 router.beforeEach(async (to, from, next) => {
   // 从URL路径中检测语言
   const detectedLanguage = detectLanguageFromPath(to.path)
 
   try {
-    // 导入loadLocale函数
-    const { loadLocale } = await import('@/i18n')
-
-    // 如果语言不是英文，先加载语言文件
+    // 加载语言文件到i18n实例
     if (detectedLanguage !== 'en') {
       await loadLocale(detectedLanguage)
     }
+
+    // 加载语言文件到localeDataMap（用于SEO）
+    await loadLocaleForSEO('en') // SEO只使用英文数据
 
     // 设置语言
     i18n.global.locale.value = detectedLanguage

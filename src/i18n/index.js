@@ -3,32 +3,35 @@ import { createI18n } from 'vue-i18n'
 // 只同步加载英文，其他语言懒加载
 import en from '../locales/en.json'
 
+// 导出支持的语言列表（必须在函数定义之前）
+export const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+
+// 从路径检测语言
+const detectLocaleFromPath = () => {
+    if (typeof window === 'undefined') return null
+    const segments = window.location.pathname.split('/').filter(Boolean)
+    const maybeLocale = segments[0]
+    if (supportedLanguages.includes(maybeLocale)) {
+        return maybeLocale
+    }
+    return null
+}
+
 // 获取初始语言
 const getInitialLocale = () => {
-    // 1. 检查URL中的语言
-    const path = window.location.pathname
-    const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+    const fromPath = detectLocaleFromPath()
+    if (fromPath) return fromPath
 
-    for (const lang of supportedLanguages) {
-        if (lang === 'en') continue // 英文是默认语言，不需要前缀
-        if (path.startsWith(`/${lang}`)) {
-            return lang
-        }
-    }
-
-    // 2. 检查localStorage
     const saved = localStorage.getItem('language')
     if (saved && supportedLanguages.includes(saved)) {
         return saved
     }
 
-    // 3. 检查浏览器语言
     const browserLang = navigator.language.split('-')[0]
     if (supportedLanguages.includes(browserLang)) {
         return browserLang
     }
 
-    // 4. 默认英文
     return 'en'
 }
 
@@ -49,7 +52,7 @@ const i18n = createI18n({
 // 动态加载语言文件
 const loadLocale = async (locale) => {
     if (locale === 'en') return en
-    
+
     try {
         const messages = await import(`../locales/${locale}.json`)
         i18n.global.setLocaleMessage(locale, messages.default)
@@ -78,8 +81,15 @@ export const getCurrentLocale = () => {
     return i18n.global.locale.value
 }
 
-// 导出支持的语言列表
-export const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+// 从URL路径中检测语言（供router使用）
+export function detectLanguageFromPath(path) {
+    const segments = path.split('/').filter(Boolean)
+    const candidate = segments[0]
+    if (supportedLanguages.includes(candidate)) {
+        return candidate
+    }
+    return 'en' // 默认返回英文
+}
 
 // 导出loadLocale函数
 export { loadLocale }
