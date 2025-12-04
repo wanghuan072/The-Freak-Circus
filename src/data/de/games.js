@@ -962,7 +962,275 @@ export default [
    
       <p>'Doce Fim' ist mehr als nur ein Spiel; es ist eine Erkundung dessen, was es bedeutet, angesichts überwältigender Unsicherheit ein Mensch zu sein. Mit seiner fesselnden Erzählung, einzigartigen Gameplay-Mechaniken und seinem Fokus auf Inklusivität bietet es eine zum Nachdenken anregende und emotional ansprechende Erfahrung, die Ihnen lange nach dem Abspann in Erinnerung bleiben wird. Tauchen Sie ein in eine Welt, in der Liebe, Freundschaft und Kunst die ultimativen Formen des Widerstands sind.</p>
     </div>`
+  },
+
+  {
+    id: 13,
+    title: "Hide and Seek",
+    iframeUrl: "https://html-classic.itch.zone/html/15440066/Yuria1/index.html",
+    description: "Ein fesselnder psychologischer Thriller, in dem Familiengeheimnisse und widersprüchliche Erzählungen aufeinandertreffen. Vertraue niemandem. Lüfte das Geheimnis hinter dem angeblichen Tod deiner Eltern in dieser packenden Geschichte voller Täuschung und Spannung. Bleiben oder fliehen? Deine Entscheidung bestimmt dein Schicksal.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-13.webp",
+    imageAlt: "Eine angespannte Szene, die das Versteckspiel symbolisiert – versteckte Wahrheiten und ungewisse Entscheidungen.",
+    isHome: false,
+    seo: {
+      title: "Hide and Seek - Familiengeheimnisse & packender Mystery-Thriller",
+      description: "Tauche ein in die düstere Mystery-Welt von Hide and Seek! Navigiere durch widersprüchliche Aussagen und entscheide, wem du vertraust. Wirst du die Wahrheit finden oder der Täuschung erliegen? Jetzt spielen!",
+      keywords: "hide and seek, mystery spiel, thriller spiel, familiengeheimnisse, psychologischer thriller, spannungsspiel, interaktive geschichte"
+    },
+    addressBar: "hide-and-seek",
+    detailsHtml: `
+    <h2>
+    <span>Hide and Seek</span>
+</h2>
+
+<p>
+    <span>
+        Betritt eine Welt voller Unsicherheit und Paranoia in Hide and Seek, einem packenden interaktiven Erlebnis, in dem die Grenze zwischen Wahrheit und Lüge verschwimmt. Deine Eltern sollen angeblich tot sein – so behauptet dein Bruder. Doch ein Anruf deiner Mutter bringt alles ins Wanken, denn sie behauptet, lebendig und wohlauf zu sein. Wem glaubst du? Dies ist mehr als nur ein Spiel; es ist ein Test für Vertrauen, Wahrnehmung und Überlebensinstinkt.
+    </span>
+</p>
+
+<p>
+    <img src="/images/games/game-13-01.webp" 
+    alt="Hide and Seek" width="100%" style="width: 100%;">
+</p>
+
+<h3>
+    <span>Über das Spiel</span>
+</h3>
+
+<p>
+    <span>
+        Hide and Seek stellt dich in den Mittelpunkt einer familiären Krise und zwingt dich, wichtige Entscheidungen auf Grundlage widersprüchlicher Informationen zu treffen. Das Spiel dreht sich um das zentrale Geheimnis über das Schicksal deiner Eltern. Dein Bruder behauptet, sie seien bei einem Autounfall gestorben, doch deine Mutter sagt, sie sei am Leben. Diese Situation erzeugt eine Atmosphäre voller Spannung und Unsicherheit, in der jede Entscheidung Konsequenzen hat. Du musst Hinweise sammeln, die Wahrheit erforschen und letztlich entscheiden, wem du vertrauen kannst. Die immersive Erzählweise hält dich bis zum Schluss in Atem, während du ein Netz aus Lügen und verborgenen Wahrheiten entwirrst.
+    </span>
+</p>
+
+<h3>
+    <span>Features</span>
+</h3>
+
+<ol>
+    <li>
+        <strong>Fesselnde Erzählung:</strong>
+        <span> Erlebe eine spannende Geschichte voller Wendungen, die dich bis zum Ende rätseln lässt. Die widersprüchlichen Aussagen erzeugen ständige Unruhe und Unsicherheit.</span>
+    </li>
+
+    <li>
+        <strong>Bedeutungsvolle Entscheidungen:</strong>
+        <span> Deine Entscheidungen beeinflussen direkt den Verlauf der Geschichte. Jeder Weg deckt neue Geheimnisse auf und prägt dein Schicksal.</span>
+    </li>
+
+    <li>
+        <strong>Immersive Atmosphäre:</strong>
+        <span> Realistische Umgebungen und sorgfältig gestaltete Soundeffekte schaffen ein intensives Spielerlebnis.</span>
+    </li>
+
+    <li>
+        <strong>Mehrere Enden:</strong>
+        <span> Entdecke verschiedene Ausgangsszenarien basierend auf deinen getroffenen Entscheidungen.</span>
+    </li>
+
+    <li>
+        <strong>Psychologische Spannung:</strong>
+        <span> Erlebe konstante Anspannung, während du versuchst, das Rätsel zu lösen und deine Wahrnehmung infrage gestellt wird.</span>
+    </li>
+
+    <li>
+        <strong>Charakterentwicklung:</strong>
+        <span> Erfahre mehr über die Figuren und ihre Beweggründe, während du tiefer in die Geschichte eintauchst.</span>
+    </li>
+
+    <li>
+        <strong>Versteckte Hinweise:</strong>
+        <span> Suche nach Indizien, die dir helfen, die Wahrheit herauszufinden. Details spielen eine große Rolle.</span>
+    </li>
+
+    <li>
+        <strong>Emotionale Wirkung:</strong>
+        <span> Die Themen Vertrauen, Familie und Verrat sorgen für starke emotionale Momente.</span>
+    </li>
+</ol>
+
+<h3>
+    <span>FAQ</span>
+</h3>
+
+<ol>
+    <li>
+        <span>Ist das Spiel gruselig?</span>
+    </li>
+
+    <li>
+        <span>Hide and Seek ist in erster Linie ein psychologischer Thriller – weniger erschreckende Schockmomente, dafür viel Spannung und düstere Themen.</span>
+    </li>
+
+    <li>
+        <span>Wie lange dauert eine Runde?</span>
+    </li>
+
+    <li>
+        <span>Eine durchschnittliche Spielzeit beträgt etwa 1–2 Stunden pro Durchlauf.</span>
+    </li>
+
+    <li>
+        <span>Gibt es mehrere Enden?</span>
+    </li>
+
+    <li>
+        <span>Ja, basierend auf deinen Entscheidungen bietet Hide and Seek mehrere Enden.</span>
+    </li>
+
+    <li>
+        <span>Auf welchen Plattformen kann man spielen?</span>
+    </li>
+
+    <li>
+        <span>Das Spiel ist derzeit auf itch.io verfügbar und kann direkt im Browser gespielt werden.</span>
+    </li>
+
+    <li>
+        <span>Ist das Spiel kostenlos?</span>
+    </li>
+
+    <li>
+        <span>Ja, Hide and Seek ist momentan kostenlos spielbar.</span>
+    </li>
+
+    <li>
+        <span>Was macht ein gutes Hide and Seek-Spiel aus?</span>
+    </li>
+
+    <li>
+        <span>Eine fesselnde Handlung, bedeutsame Entscheidungen und eine dichte Atmosphäre sind entscheidend für ein gelungenes Hide and Seek-Erlebnis.</span>
+    </li>
+</ol>
+
+<p>
+    <span>
+        Hide and Seek bietet ein einzigartiges und verstörendes Erlebnis, das dich alles infrage stellen lässt, was du zu wissen glaubtest. Die interaktive Erzählweise, die Entscheidungen und die immersive Atmosphäre machen es zu einem unvergesslichen Spiel. Wirst du die Wahrheit aufdecken – oder Opfer der Täuschung werden? Spiele jetzt und finde es heraus!
+    </span>
+</p>
+
+    `,
+  },
+
+  {
+    id: 14,
+    title: "Tuna Rice",
+    iframeUrl: "https://html-classic.itch.zone/html/15460871/index.html",
+    description: "Erlebe die herzerwärmende Geschichte von Tuna Rice, einer Visual Novel, in der ein Junge und eine Katze Trost in kleinen Gesten finden. Kein Mayo – nur reine, fluffige Güte und die universelle Sprache von Schnurren und Thunfisch. Entdecke die wahre Bedeutung von Wärme, Geborgenheit und einem vollen Bauch.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-14.webp",
+    imageAlt: "Ein herzerwärmendes Bild aus Tuna Rice, das einen Jungen und eine Katze zeigt, wie sie eine Schüssel Thunfischreis teilen.",
+    isHome: false,
+    seo: {
+      title: "Tuna Rice: Eine herzerwärmende Visual Novel – Kostenlos online spielen!",
+      description: "Tauche ein in Tuna Rice, eine charmante Visual Novel über Freundschaft, Trost und köstlichen Thunfischreis (ohne Mayo!). Erlebe eine bewegende Geschichte über einen Jungen und eine Katze.",
+      keywords: "tuna rice, visual novel, katzenspiel, herzerwärmend, comfort, anime spiel, kostenlos"
+    },
+    addressBar: "tuna-rice",
+    detailsHtml: `
+    <h2>
+    <span>Tuna Rice</span>
+</h2>
+<p>
+    <span>Begib dich auf eine herzerwärmende Reise mit 'Tuna Rice', einer wunderbar leichten Visual Novel, die die einfachen Freuden des Lebens feiert: Wärme, Freundschaft und natürlich eine perfekt zubereitete Schüssel Thunfischreis. Dies ist nicht nur ein Spiel – es ist ein Erlebnis, das dich wohlig und zufrieden zurücklässt. Vergiss komplizierte Handlungen oder schwierige Mechaniken – hier wartet pure, fluffige Gemütlichkeit!</span>
+</p>
+<p>
+    <img src="/images/games/game-14-01.webp" alt="Tuna Rice" width="100%" style="width: 100%;">
+</p>
+<h3>
+    <span>Über das Spiel</span>
+</h3>
+<p>
+    <span>'Tuna Rice' erzählt eine berührende Geschichte über die Verbindung zwischen einem Jungen und einer Katze. Auch wenn der Junge die Miaus nicht versteht, überschreitet ihre Bindung jede Sprachbarriere. Vom liebevollen Moment der Rettung bis zur rührenden Szene, in der die Katze dem Jungen Trost spendet – das Spiel erforscht Themen wie Empathie und gegenseitige Unterstützung. Und natürlich – ohne Mayo! Das Ziel des Spiels ist es, Ruhe, Trost und warme Emotionen zu vermitteln. Es ist kurz, süß und darauf ausgelegt, dir ein Gefühl von Geborgenheit zu schenken.</span>
+</p>
+<h3>
+    <span>Features</span>
+</h3>
+<ol>
+    <li>
+        <strong>Herzerwärmende Handlung:</strong>
+        <span> Eine einfache, aber tiefgreifende Geschichte über Freundschaft und gegenseitigen Trost.</span>
+    </li>
+    <li>
+        <strong>Charmante Visuals:</strong>
+        <span> Niedliche Charakterdesigns und schöne Szenen, die die warme Atmosphäre verstärken.</span>
+    </li>
+    <li>
+        <strong>Beruhigender Soundtrack:</strong>
+        <span> Eine sanfte musikalische Untermalung, die den emotionalen Ton perfekt trifft.</span>
+    </li>
+    <li>
+        <strong>Einzigartige Katzen-Kommunikation:</strong>
+        <span> Beobachte die Katzen, wie sie auf ihre eigene charmante Weise „sprechen“.</span>
+    </li>
+    <li>
+        <strong>Sinnvolle Symbolik:</strong>
+        <span> Der wiederkehrende Thunfischreis symbolisiert Komfort und Geborgenheit.</span>
+    </li>
+    <li>
+        <strong>Kurz und angenehm:</strong>
+        <span> Perfekt für eine entspannte Session von 30–60 Minuten.</span>
+    </li>
+    <li>
+        <strong>Mayo-frei:</strong>
+        <span> Ein klares Versprechen: kein Mayo in diesem Thunfischreis!</span>
+    </li>
+    <li>
+        <strong>Emotionaler Fokus:</strong>
+        <span> Das Spiel setzt auf Gefühle, statt auf komplexe Mechaniken – ein echtes Wohlfühlerlebnis.</span>
+    </li>
+</ol>
+<h3>
+    <span>FAQ</span>
+</h3>
+<ol>
+    <li>
+        <span>Gibt es Mayo im Thunfischreis?</span>
+    </li>
+    <li>
+        <span>Auf keinen Fall! Der Entwickler ist strikt gegen Mayo im Thunfischreis.</span>
+    </li>
+    <li>
+        <span>Wie lange dauert das Spiel?</span>
+    </li>
+    <li>
+        <span>'Tuna Rice' ist eine kurze Visual Novel, die man in 30–60 Minuten beenden kann.</span>
+    </li>
+    <li>
+        <span>Auf welchen Plattformen ist das Spiel verfügbar?</span>
+    </li>
+    <li>
+        <span>Das Spiel läuft online in HTML5-kompatiblen Browsern.</span>
+    </li>
+    <li>
+        <span>Gibt es schlechte Enden?</span>
+    </li>
+    <li>
+        <span>Nein, das Spiel ist komplett wohltuend – keine schlechten Enden.</span>
+    </li>
+    <li>
+        <span>Ist es für alle Altersgruppen geeignet?</span>
+    </li>
+    <li>
+        <span>Ja, 'Tuna Rice' ist familienfreundlich und geeignet für Spieler jeden Alters.</span>
+    </li>
+    <li>
+        <span>Was hat das Spiel inspiriert?</span>
+    </li>
+    <li>
+        <span>Die Idee entstand aus dem Gefühl von Trost, das entsteht, wenn man eine Mahlzeit mit einem geliebten Wesen teilt – besonders einer Katze.</span>
+    </li>
+</ol>
+<p>
+    <span>'Tuna Rice' ist ein kleines, herzerwärmendes Erlebnis, das dazu einlädt, die kleinen Dinge im Leben zu schätzen. Es feiert Freundschaft, Empathie und die Kraft einer warmen Schüssel Thunfischreis (ohne Mayo!). Schnapp dir eine Schüssel, kuschle dich mit deinem flauschigen Freund zusammen und genieße diese charmante Visual Novel.</span>
+</p>
+
+    `,
   }
+
+
 
 
 

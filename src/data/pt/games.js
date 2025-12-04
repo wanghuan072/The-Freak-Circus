@@ -961,7 +961,203 @@ export default [
       
       <p>Myosotis oferece uma experiência cativante e emocionalmente ressonante, convidando os jogadores a confrontar temas de perda, vingança e a busca pela verdade na vida após a morte. Com sua narrativa intrincada, quebra-cabeças envolventes e apresentação atmosférica, Myosotis é um jogo imperdível para os fãs de jogos indie baseados em narrativa que buscam uma jornada instigante e inesquecível.</p>
     </div>`
+  },
+
+  {
+    "id": 13,
+    "title": "Hide and Seek",
+    "iframeUrl": "https://html-classic.itch.zone/html/15440066/Yuria1/index.html",
+    "description": "Um thriller psicológico arrepiante onde segredos familiares e narrativas conflitantes se entrelaçam. Não confie em ninguém. Desvende o mistério por trás da suposta morte de seus pais nesta história envolvente de engano e suspense. Ficar ou fugir? Sua escolha determina seu destino.",
+    "publishDate": "2025-11-07",
+    "imageUrl": "/images/games/game-13.webp",
+    "imageAlt": "Uma cena tensa representando o jogo de esconde-esconde, simbolizando verdades ocultas e escolhas incertas.",
+    "isHome": false,
+    "seo": {
+      "title": "Hide and Seek - Descubra Segredos de Família e Mistérios Emocionantes",
+      "description": "Mergulhe em um mistério sombrio em Hide and Seek! Navegue entre histórias conflitantes e decida em quem confiar. Você descobrirá a verdade ou cairá vítima do engano? Jogue agora!",
+      "keywords": "hide and seek, jogo de mistério, jogo de thriller, segredos de família, thriller psicológico, jogo de suspense, narrativa interativa"
+    },
+    "addressBar": "hide-and-seek",
+    "detailsHtml": `
+      <h2>
+          <span>Hide and Seek</span>
+      </h2>
+  
+      <p>
+          <span>
+              Entre em um mundo de incerteza e paranoia em Hide and Seek, uma experiência interativa envolvente onde a linha entre verdade e mentira é turva. Seus pais estão supostamente mortos, segundo seu irmão. No entanto, uma ligação de sua mãe vira tudo de cabeça para baixo, afirmando que está viva. Em quem você acredita? Isso é mais do que um jogo; é um teste de confiança, percepção e sobrevivência.
+          </span>
+      </p>
+  
+      <p>
+          <img src="/images/games/game-13-01.webp" 
+          alt="Hide and Seek" width="100%" style="width: 100%;">
+      </p>
+  
+      <h3>
+          <span>Sobre</span>
+      </h3>
+  
+      <p>
+          <span>
+              Hide and Seek coloca você no centro de uma crise familiar, forçando-o a tomar decisões críticas com base em informações conflitantes. O jogo gira em torno do mistério central sobre o destino de seus pais. Seu irmão afirma que eles morreram em um acidente de carro, mas sua mãe insiste que está viva. Isso cria uma atmosfera tensa e cheia de suspense, onde cada escolha tem consequências. Você deve investigar a situação, coletar pistas e decidir em quem confiar. A narrativa imersiva manterá você à beira do assento enquanto navega por uma teia de enganos e descobre verdades ocultas.
+          </span>
+      </p>
+  
+      <h3>
+          <span>Recursos</span>
+      </h3>
+  
+      <ol>
+          <li>
+              <strong>Narrativa intrigante:</strong>
+              <span> Experimente uma história envolvente cheia de reviravoltas que o manterá adivinhando até o fim. As narrativas conflitantes criam uma sensação constante de inquietação.</span>
+          </li>
+  
+          <li>
+              <strong>Escolhas significativas:</strong>
+              <span> Suas decisões influenciam diretamente o desfecho da história. Cada escolha leva você a um caminho diferente, revelando novos segredos e moldando seu destino.</span>
+          </li>
+  
+          <li>
+              <strong>Atmosfera imersiva:</strong>
+              <span> Ambientes detalhados e design de som cuidadosamente elaborado criam uma sensação profunda de realismo.</span>
+          </li>
+  
+          <li>
+              <strong>Múltiplos finais:</strong>
+              <span> Descubra diferentes desfechos com base nas suas escolhas ao longo do jogo, incentivando a rejogabilidade.</span>
+          </li>
+  
+          <li>
+              <strong>Suspense psicológico:</strong>
+              <span> Sinta tensão constante enquanto tenta desvendar o mistério. O jogo desafia sua percepção e faz você questionar tudo.</span>
+          </li>
+  
+          <li>
+              <strong>Desenvolvimento de personagens:</strong>
+              <span> Conheça mais sobre os personagens e suas motivações à medida que se aprofunda na trama.</span>
+          </li>
+  
+          <li>
+              <strong>Pistas ocultas:</strong>
+              <span> Procure pistas e evidências importantes para resolver o mistério.</span>
+          </li>
+  
+          <li>
+              <strong>Impacto emocional:</strong>
+              <span> Prepare-se para se envolver emocionalmente com os personagens e seus conflitos.</span>
+          </li>
+      </ol>
+  
+      <h3>
+          <span>FAQ</span>
+      </h3>
+  
+      <ol>
+          <li><span>Este jogo é assustador?</span></li>
+          <li><span>Hide and Seek é um thriller psicológico focado em suspense, não em sustos repentinos, mas contém momentos inquietantes.</span></li>
+  
+          <li><span>Quanto tempo leva para terminar?</span></li>
+          <li><span>Em média, 1 a 2 horas por jogada, dependendo de suas escolhas.</span></li>
+  
+          <li><span>Há vários finais?</span></li>
+          <li><span>Sim, o jogo possui múltiplos finais baseados nas decisões do jogador.</span></li>
+  
+          <li><span>Em quais plataformas está disponível?</span></li>
+          <li><span>No momento, apenas via navegador através do itch.io.</span></li>
+  
+          <li><span>O jogo é gratuito?</span></li>
+          <li><span>Sim, Hide and Seek é gratuito para jogar.</span></li>
+  
+          <li><span>Quais são os elementos essenciais de um bom Hide and Seek?</span></li>
+          <li><span>Uma narrativa envolvente, escolhas significativas e atmosfera imersiva.</span></li>
+      </ol>
+  
+      <p>
+          <span>
+              Hide and Seek oferece uma experiência única e perturbadora que fará você questionar tudo. Suas escolhas moldam o destino — descubra a verdade ou torne-se mais uma vítima do engano. Jogue agora!
+          </span>
+      </p>
+    `
+  },
+
+  {
+    "id": 14,
+    "title": "Tuna Rice",
+    "iframeUrl": "https://html-classic.itch.zone/html/15460871/index.html",
+    "description": "Viva a história acolhedora de Tuna Rice, uma VN onde um garoto e um gato encontram conforto um no outro por meio de gestos simples. Sem maionese aqui! Apenas fofura pura e a linguagem universal de ronronar e atum. Descubra o verdadeiro significado de calor, segurança e barriga cheia.",
+    "publishDate": "2025-11-07",
+    "imageUrl": "/images/games/game-14.webp",
+    "imageAlt": "Uma imagem acolhedora da VN Tuna Rice com um garoto e um gato compartilhando uma tigela de arroz com atum.",
+    "isHome": false,
+    "seo": {
+      "title": "Tuna Rice: Uma Visual Novel Aconchegante - Jogue Online Gratuitamente!",
+      "description": "Mergulhe em Tuna Rice, uma visual novel encantadora sobre amizade, conforto e um delicioso arroz com atum (sem maionese!). Uma história tocante entre um garoto e um gato.",
+      "keywords": "tuna rice, visual novel, jogo de gato, jogo acolhedor, conforto, jogo anime, jogo grátis"
+    },
+    "addressBar": "tuna-rice",
+    "detailsHtml": `
+      <h2>
+          <span>Tuna Rice</span>
+      </h2>
+      <p>
+          <span>Embarque em uma jornada acolhedora com 'Tuna Rice', uma visual novel deliciosamente boba que celebra as alegrias simples da vida: calor, companhia e, claro, uma tigela perfeita de arroz com atum. Este não é apenas um jogo; é uma experiência aconchegante que aquece o coração.</span>
+      </p>
+      <p>
+          <img src="/images/games/game-14-01.webp" alt="Tuna Rice" width="100%" style="width: 100%;">
+      </p>
+      <h3>
+          <span>Sobre</span>
+      </h3>
+      <p>
+          <span>'Tuna Rice' conta uma história comovente sobre a conexão entre um garoto e um gato. Mesmo que o garoto não entenda os miados, o vínculo entre eles vai além das palavras. Do momento em que o garoto resgata o gato e lhe oferece uma tigela quente de arroz com atum, até a cena final onde o gesto é retribuído, o jogo explora empatia e conforto mútuo.</span>
+      </p>
+      <h3>
+          <span>Recursos</span>
+      </h3>
+      <ol>
+          <li><strong>História emocionante:</strong> <span> Uma narrativa simples, mas profunda, sobre amizade e apoio.</span></li>
+          <li><strong>Visuais encantadores:</strong> <span> Designs adoráveis e cenas calorosas.</span></li>
+          <li><strong>Trilha sonora relaxante:</strong> <span> Música suave que reforça o clima aconchegante.</span></li>
+          <li><strong>Comunicação felina única:</strong> <span> Os gatos “falam” de maneiras divertidas e fofas.</span></li>
+          <li><strong>Simbolismo significativo:</strong> <span> O arroz com atum simboliza conforto e segurança.</span></li>
+          <li><strong>Experiência curta e doce:</strong> <span> Jogabilidade perfeita para uma sessão rápida.</span></li>
+          <li><strong>Zona livre de maionese:</strong> <span> Garantia absoluta: nenhum traço de maionese nesta receita.</span></li>
+          <li><strong>Foco na conexão emocional:</strong> <span> Uma experiência que prioriza sentimentos e aconchego.</span></li>
+      </ol>
+  
+      <h3>
+          <span>FAQ</span>
+      </h3>
+  
+      <ol>
+          <li><span>Tem maionese no arroz com atum?</span></li>
+          <li><span>De jeito nenhum! O criador é totalmente contra maionese no arroz com atum.</span></li>
+  
+          <li><span>Quanto tempo dura?</span></li>
+          <li><span>Entre 30 e 60 minutos.</span></li>
+  
+          <li><span>Em quais plataformas está disponível?</span></li>
+          <li><span>Disponível apenas para navegador via HTML5.</span></li>
+  
+          <li><span>Existem finais ruins?</span></li>
+          <li><span>Não! O jogo é totalmente acolhedor.</span></li>
+  
+          <li><span>É adequado para todas as idades?</span></li>
+          <li><span>Sim, totalmente seguro e familiar.</span></li>
+  
+          <li><span>O que inspirou o jogo?</span></li>
+          <li><span>A ideia de encontrar conforto em pequenas ações e no vínculo humano-animal.</span></li>
+      </ol>
+  
+      <p>
+          <span>'Tuna Rice' é um lembrete para apreciar as pequenas coisas da vida — amizade, gentileza e uma tigela quente de arroz com atum (sem maionese!). Uma experiência doce que aquece a alma.</span>
+      </p>
+    `
   }
+
+
 
 
 

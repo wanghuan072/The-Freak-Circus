@@ -961,7 +961,284 @@ export default [
       
       <p>Myosotis offre une expérience captivante et émotionnellement résonante, invitant les joueurs à affronter les thèmes de la perte, de la vengeance et de la recherche de la vérité dans l'au-delà. Avec son récit complexe, ses énigmes engageantes et sa présentation atmosphérique, Myosotis est un jeu incontournable pour les fans de jeux indépendants axés sur la narration à la recherche d'un voyage stimulant et inoubliable.</p>
     </div>`
+  },
+
+  {
+    id: 13,
+    title: "Hide and Seek",
+    iframeUrl: "https://html-classic.itch.zone/html/15440066/Yuria1/index.html",
+    description: "Un thriller psychologique glaçant où les secrets de famille et les récits contradictoires s'entremêlent. Ne faites confiance à personne. Dévoilez la vérité derrière la prétendue disparition de vos parents dans ce récit captivant fait de tromperies et de suspense. Rester ou fuir ? Votre choix déterminera votre destin.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-13.webp",
+    imageAlt: "Une scène tendue représentant le jeu de cache-cache, symbolisant les vérités cachées et les choix incertains.",
+    isHome: false,
+    seo: {
+      title: "Hide and Seek - Découvrez les Secrets de Famille & le Mystère Palpitant",
+      description: "Plongez dans un sombre mystère avec Hide and Seek ! Naviguez entre des témoignages contradictoires et décidez à qui faire confiance. Découvrirez-vous la vérité ou serez-vous victime de tromperie ? Jouez maintenant !",
+      keywords: "hide and seek, jeu mystère, jeu thriller, secrets de famille, thriller psychologique, jeu suspense, récit interactif"
+    },
+    addressBar: "hide-and-seek",
+    detailsHtml: `
+    <h2>
+    <span>Hide and Seek</span>
+</h2>
+
+<p>
+    <span>
+        Entrez dans un monde d’incertitude et de paranoïa avec Hide and Seek, une expérience interactive captivante où la frontière entre vérité et mensonge devient floue. Vos parents seraient morts, selon votre frère. Cependant, un appel de votre mère bouleverse tout, affirmant qu’elle est bien vivante. Qui devez-vous croire ? Ce n’est pas simplement un jeu ; c’est une épreuve de confiance, de perception et de survie.
+    </span>
+</p>
+
+<p>
+    <img src="/images/games/game-13-01.webp" 
+    alt="Hide and Seek" width="100%" style="width: 100%;">
+</p>
+
+<h3>
+    <span>À propos</span>
+</h3>
+
+<p>
+    <span>
+        Hide and Seek vous place au cœur d’une crise familiale, vous obligeant à prendre des décisions cruciales basées sur des informations contradictoires. Le jeu tourne autour du mystère central concernant le sort de vos parents. Votre frère affirme qu’ils sont morts dans un accident de voiture, mais votre mère soutient qu’elle est bien vivante. Cela crée une atmosphère tendue et angoissante où chaque choix compte. Vous devrez enquêter, rassembler des indices et finalement décider à qui accorder votre confiance. Le récit immersif vous tiendra en haleine tandis que vous démêlez les mensonges et mettez à jour des vérités cachées.
+    </span>
+</p>
+
+<h3>
+    <span>Caractéristiques</span>
+</h3>
+
+<ol>
+    <li>
+        <strong>Intrigue fascinante :</strong>
+        <span> Découvrez une histoire pleine de rebondissements qui vous tiendra en suspense jusqu’à la fin. Les récits contradictoires entretiennent un sentiment constant d’incertitude.</span>
+    </li>
+
+    <li>
+        <strong>Choix significatifs :</strong>
+        <span> Vos décisions influencent directement l’issue du récit. Chaque choix vous mène sur une nouvelle voie révélant de nouveaux secrets.</span>
+    </li>
+
+    <li>
+        <strong>Atmosphère immersive :</strong>
+        <span> Des environnements détaillés et un design sonore soigné renforcent le réalisme et l’immersion.</span>
+    </li>
+
+    <li>
+        <strong>Multiples fins :</strong>
+        <span> Découvrez différentes conclusions selon vos choix tout au long du jeu, augmentant la rejouabilité.</span>
+    </li>
+
+    <li>
+        <strong>Suspense psychologique :</strong>
+        <span> Ressentez une tension constante en tentant de démêler la vérité. Le jeu remettra en question vos perceptions.</span>
+    </li>
+
+    <li>
+        <strong>Développement des personnages :</strong>
+        <span> Apprenez-en davantage sur les motivations et secrets des personnages à mesure que vous progressez.</span>
+    </li>
+
+    <li>
+        <strong>Indices cachés :</strong>
+        <span> Cherchez des preuves essentielles à la résolution du mystère. Chaque détail peut compter.</span>
+    </li>
+
+    <li>
+        <strong>Impact émotionnel :</strong>
+        <span> Le jeu explore les thèmes de la famille, de la confiance et de la trahison, créant une forte connexion émotionnelle.</span>
+    </li>
+</ol>
+
+<h3>
+    <span>FAQ</span>
+</h3>
+
+<ol>
+    <li>
+        <span>Le jeu fait-il peur ?</span>
+    </li>
+
+    <li>
+        <span>Hide and Seek est avant tout un thriller psychologique axé sur le suspense plutôt que sur les jumpscares, bien qu'il comporte quelques moments dérangeants.</span>
+    </li>
+
+    <li>
+        <span>Combien de temps dure le jeu ?</span>
+    </li>
+
+    <li>
+        <span>La durée dépend de votre style de jeu. En moyenne, un parcours complet dure 1 à 2 heures.</span>
+    </li>
+
+    <li>
+        <span>Y a-t-il plusieurs fins ?</span>
+    </li>
+
+    <li>
+        <span>Oui, Hide and Seek propose plusieurs fins selon vos choix, encourageant ainsi la rejouabilité.</span>
+    </li>
+
+    <li>
+        <span>Sur quelles plateformes le jeu est-il disponible ?</span>
+    </li>
+
+    <li>
+        <span>Le jeu est actuellement disponible sur itch.io et jouable directement dans un navigateur web.</span>
+    </li>
+
+    <li>
+        <span>Le jeu est-il gratuit ?</span>
+    </li>
+
+    <li>
+        <span>Oui, Hide and Seek est actuellement gratuit.</span>
+    </li>
+
+    <li>
+        <span>Quels sont les éléments clés d’un bon jeu Hide and Seek ?</span>
+    </li>
+
+    <li>
+        <span>Une intrigue captivante, des choix impactants et une atmosphère immersive sont essentiels à une bonne expérience. Le suspense, la profondeur des personnages et les rebondissements jouent un rôle majeur.</span>
+    </li>
+</ol>
+
+<p>
+    <span>
+        Hide and Seek offre une expérience unique et troublante qui vous fera douter de tout ce que vous pensiez savoir. Le récit interactif, les choix significatifs et l’atmosphère immersive en font un jeu inoubliable. Parviendrez-vous à découvrir la vérité ou deviendrez-vous une nouvelle victime de la tromperie ? Jouez maintenant pour le découvrir !
+    </span>
+</p>
+
+    `,
+  },
+
+  {
+    id: 14,
+    title: "Tuna Rice",
+    iframeUrl: "https://html-classic.itch.zone/html/15460871/index.html",
+    description: "Découvrez l’histoire réconfortante de Tuna Rice, un roman visuel où un garçon et un chat trouvent du réconfort l’un auprès de l’autre à travers de simples gestes. Pas de mayo ici ! Juste de la douceur, de la chaleur et le langage universel des ronronnements et du thon. Découvrez la véritable signification de la sécurité, de la tendresse et d’un ventre bien rempli.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-14.webp",
+    imageAlt: "Une image pleine de tendresse du VN Tuna Rice montrant un garçon et un chat partageant un bol de thon et de riz.",
+    isHome: false,
+    seo: {
+      title: "Tuna Rice : Un Roman Visuel Réconfortant - Jouez Gratuitement !",
+      description: "Plongez dans Tuna Rice, un roman visuel attendrissant sur l’amitié, le réconfort et un délicieux bol de riz au thon (sans mayo !). Découvrez cette histoire touchante entre un garçon et un chat.",
+      keywords: "tuna rice, visual novel, jeu chat, jeu réconfortant, confort, jeu anime, jeu gratuit"
+    },
+    addressBar: "tuna-rice",
+    detailsHtml: `
+    <h2>
+    <span>Tuna Rice</span>
+</h2>
+<p>
+    <span>Partez pour un voyage réconfortant avec 'Tuna Rice', un roman visuel délicieusement léger qui célèbre les petites joies de la vie : la chaleur, la compagnie, et bien sûr, un bol parfaitement préparé de riz au thon. Ce n’est pas seulement un jeu ; c’est une expérience qui vous laissera le cœur léger et un sourire aux lèvres. Oubliez les intrigues complexes – préparez-vous pour une bonne dose de douceur pure !</span>
+</p>
+<p>
+    <img src="/images/games/game-14-01.webp" alt="Tuna Rice" width="100%" style="width: 100%;">
+</p>
+<h3>
+    <span>À propos</span>
+</h3>
+<p>
+    <span>'Tuna Rice' raconte une histoire touchante de connexion entre un garçon et un chat. Bien que le garçon ne comprenne pas les miaulements du chat, leur lien dépasse les mots. Du moment où le garçon sauve le chat en lui offrant un bol de riz au thon, jusqu'à la scène émouvante où les rôles s’inversent, le jeu explore l’empathie et le soutien mutuel. L’absence de mayo est un détail crucial, soulignant l’engagement du protagoniste à la perfection culinaire ! Le but principal de 'Tuna Rice' est d’offrir une expérience relaxante et émotionnellement apaisante, axée sur les plaisirs simples de la vie.</span>
+</p>
+<h3>
+    <span>Caractéristiques</span>
+</h3>
+<ol>
+    <li>
+        
+        <strong>Histoire réconfortante :</strong>
+        <span> Une histoire simple mais profonde sur l’amitié et le soutien mutuel entre un garçon et un chat.</span>
+    </li>
+    <li>
+        
+        <strong>Visuels charmants :</strong>
+        <span> Profitez de designs adorables et de scènes visuellement apaisantes.</span>
+    </li>
+    <li>
+        
+        <strong>Bande-son relaxante :</strong>
+        <span> Une musique douce qui accompagne parfaitement l’ambiance émotionnelle du jeu.</span>
+    </li>
+    <li>
+        
+        <strong>Communication féline :</strong>
+        <span> Des interactions mignonnes où les chats "parlent" à leur façon.</span>
+    </li>
+    <li>
+        
+        <strong>Symbolisme significatif :</strong>
+        <span> Le motif récurrent du riz au thon symbolise le réconfort et la sécurité.</span>
+    </li>
+    <li>
+        
+        <strong>Expérience courte et douce :</strong>
+        <span> Un jeu qui se termine en une seule séance, parfait pour un moment de détente.</span>
+    </li>
+    <li>
+        
+        <strong>Sans mayo :</strong>
+        <span> Un bol de riz au thon 100% puriste, garanti sans mayonnaise.</span>
+    </li>
+    <li>
+        
+        <strong>Connexion émotionnelle :</strong>
+        <span> Le jeu mise sur l’émotion plutôt que sur des mécaniques complexes.</span>
+    </li>
+</ol>
+
+<h3>
+    <span>FAQ</span>
+</h3>
+<ol>
+    <li>
+        <span>Y a-t-il de la mayo dans le riz au thon ?</span>
+    </li>
+    <li>
+        <span>Absolument pas ! Le créateur est farouchement opposé à la mayo dans le thon.</span>
+    </li>
+    <li>
+        <span>Combien de temps dure le jeu ?</span>
+    </li>
+    <li>
+        <span>'Tuna Rice' est un roman visuel court, généralement terminé en 30 à 60 minutes.</span>
+    </li>
+    <li>
+        <span>Sur quelles plateformes est-il disponible ?</span>
+    </li>
+    <li>
+        <span>Le jeu est jouable en ligne via n'importe quel navigateur compatible HTML5.</span>
+    </li>
+    <li>
+        <span>Y a-t-il de mauvaises fins ?</span>
+    </li>
+    <li>
+        <span>Non, 'Tuna Rice' est conçu pour être une expérience totalement positive.</span>
+    </li>
+    <li>
+        <span>Le jeu convient-il à tous les âges ?</span>
+    </li>
+    <li>
+        <span>Oui, c’est un jeu doux, adorable, adapté à tous.</span>
+    </li>
+    <li>
+        <span>Qu’est-ce qui a inspiré 'Tuna Rice' ?</span>
+    </li>
+    <li>
+        <span>La simplicité et la chaleur d’un repas partagé, ainsi que le lien unique entre humains et chats.</span>
+    </li>
+</ol>
+
+<p>
+    <span>En conclusion, 'Tuna Rice' n’est pas seulement un jeu ; c’est un rappel d’apprécier les petites choses. Une célébration de l’amitié, de l’empathie et du pouvoir d’un bol de riz au thon (sans mayo, bien sûr !). Alors, prenez un bol, blottissez-vous avec votre ami félin et profitez de ce roman visuel réconfortant. Vous en ressortirez le cœur plus léger.</span>
+</p>
+
+    `,
   }
+
 
 
 

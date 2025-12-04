@@ -962,7 +962,274 @@ export default [
       
       <p>Myosotis ofrece una experiencia cautivadora y emocionalmente resonante, invitando a los jugadores a confrontar temas de pérdida, venganza y la búsqueda de la verdad en el más allá. Con su intrincada narrativa, atractivos puzles y presentación atmosférica, Myosotis es un juego imprescindible para los fanáticos de los juegos indie impulsados por la narrativa que buscan un viaje que invite a la reflexión e inolvidable.</p>
     </div>`
+  },
+
+  {
+    id: 13,
+    title: "Hide and Seek",
+    iframeUrl: "https://html-classic.itch.zone/html/15440066/Yuria1/index.html",
+    description: "Un escalofriante thriller psicológico donde los secretos familiares y las narrativas contradictorias convergen. No confíes en nadie. Descubre el misterio detrás de la supuesta muerte de tus padres en esta intensa historia de engaño y suspenso. ¿Te quedas o huyes? Tu elección determinará tu destino.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-13.webp",
+    imageAlt: "Una escena tensa que representa el juego del escondite, simbolizando verdades ocultas y decisiones inciertas.",
+    isHome: false,
+    seo: {
+      title: "Hide and Seek - Revela Secretos Familiares y Misterios Intensos",
+      description: "Sumérgete en un oscuro misterio en Hide and Seek. Navega entre historias contradictorias y decide en quién confiar. ¿Descubrirás la verdad o caerás víctima del engaño? ¡Juega ahora!",
+      keywords: "hide and seek, juego de misterio, juego de suspenso, secretos familiares, thriller psicológico, juego narrativo interactivo"
+    },
+    addressBar: "hide-and-seek",
+    detailsHtml: `
+    <h2>
+    <span>Hide and Seek</span>
+</h2>
+
+<p>
+    <span>
+        Entra en un mundo de incertidumbre y paranoia en Hide and Seek, una intensa experiencia interactiva donde la línea entre la verdad y la mentira se difumina. Tus padres están presuntamente muertos, según tu hermano. Sin embargo, una llamada de tu madre lo cambia todo, afirmando que está viva. ¿A quién crees? Esto es más que un simple juego; es una prueba de confianza, percepción y supervivencia.
+    </span>
+</p>
+
+<p>
+    <img src="/images/games/game-13-01.webp" 
+    alt="Hide and Seek" width="100%" style="width: 100%;">
+</p>
+
+<h3>
+    <span>Acerca del juego</span>
+</h3>
+
+<p>
+    <span>
+        Hide and Seek te coloca en el centro de una crisis familiar, obligándote a tomar decisiones críticas basadas en información contradictoria. El juego gira en torno al misterio de la verdadera suerte de tus padres. Tu hermano afirma que murieron en un accidente, pero tu madre insiste en que sigue viva. Esto crea una atmósfera tensa y llena de suspenso donde cada elección tiene consecuencias. Debes investigar, reunir pistas y decidir en quién confiar. La narrativa inmersiva te mantendrá al borde del asiento mientras desenredas una red de engaños y descubres verdades ocultas.
+    </span>
+</p>
+
+<h3>
+    <span>Características</span>
+</h3>
+
+<ol>
+    <li>
+        <strong>Narrativa intrigante:</strong>
+        <span> Vive una historia llena de giros inesperados que te mantendrán adivinando hasta el final. Las narrativas contradictorias generan constante incertidumbre.</span>
+    </li>
+
+    <li>
+        <strong>Decisiones significativas:</strong>
+        <span> Tus decisiones afectan directamente el desarrollo de la historia. Cada elección abre nuevos caminos y revela secretos diferentes.</span>
+    </li>
+
+    <li>
+        <strong>Atmósfera inmersiva:</strong>
+        <span> El juego utiliza ambientes detallados y diseño sonoro cuidadosamente elaborado para crear una sensación realista.</span>
+    </li>
+
+    <li>
+        <strong>Múltiples finales:</strong>
+        <span> Descubre diferentes desenlaces según las decisiones que tomes, incentivando la rejugabilidad.</span>
+    </li>
+
+    <li>
+        <strong>Suspenso psicológico:</strong>
+        <span> Experimenta una tensión constante mientras intentas desentrañar la verdad.</span>
+    </li>
+
+    <li>
+        <strong>Desarrollo de personajes:</strong>
+        <span> Aprende más sobre los personajes, sus motivaciones y secretos ocultos.</span>
+    </li>
+
+    <li>
+        <strong>Pistas ocultas:</strong>
+        <span> Busca pistas y evidencia crucial para resolver el misterio. Los pequeños detalles pueden contener la verdad.</span>
+    </li>
+
+    <li>
+        <strong>Impacto emocional:</strong>
+        <span> Sumérgete en temas de familia, confianza y traición que resuenan profundamente.</span>
+    </li>
+</ol>
+
+<h3>
+    <span>FAQ</span>
+</h3>
+
+<ol>
+    <li>
+        <span>¿Es un juego de terror?</span>
+    </li>
+
+    <li>
+        <span>Hide and Seek es principalmente un thriller psicológico, enfocado en el suspenso y el misterio más que en sustos repentinos.</span>
+    </li>
+
+    <li>
+        <span>¿Cuánto dura el juego?</span>
+    </li>
+
+    <li>
+        <span>Aproximadamente 1-2 horas, dependiendo de tus decisiones.</span>
+    </li>
+
+    <li>
+        <span>¿Tiene múltiples finales?</span>
+    </li>
+
+    <li>
+        <span>Sí, las decisiones afectan el desenlace.</span>
+    </li>
+
+    <li>
+        <span>¿En qué plataformas está disponible?</span>
+    </li>
+
+    <li>
+        <span>Se puede jugar directamente en navegador a través de itch.io.</span>
+    </li>
+
+    <li>
+        <span>¿Es gratis?</span>
+    </li>
+
+    <li>
+        <span>Sí, actualmente es gratuito.</span>
+    </li>
+
+    <li>
+        <span>¿Qué hace exitoso a Hide and Seek?</span>
+    </li>
+
+    <li>
+        <span>Una narrativa sólida, decisiones importantes y una atmósfera inmersiva.</span>
+    </li>
+</ol>
+
+<p>
+    <span>
+        Hide and Seek ofrece una experiencia única y perturbadora que desafía tus percepciones. ¿Descubrirás la verdad o serás víctima del engaño? ¡Juega ahora para averiguarlo!
+    </span>
+</p>
+
+    `,
+  },
+
+  {
+    id: 14,
+    title: "Tuna Rice",
+    iframeUrl: "https://html-classic.itch.zone/html/15460871/index.html",
+    description: "Vive una entrañable historia en Tuna Rice, una novela visual donde un niño y un gato encuentran consuelo en los pequeños gestos. Nada de mayonesa aquí: solo calidez, ronroneos y un tazón perfecto de arroz con atún.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-14.webp",
+    imageAlt: "Una imagen conmovedora de Tuna Rice mostrando a un niño y un gato compartiendo un tazón de arroz con atún.",
+    isHome: false,
+    seo: {
+      title: "Tuna Rice: Una Novela Visual Conmovedora - ¡Juega Gratis en Línea!",
+      description: "Descubre Tuna Rice, una encantadora novela visual sobre amistad, consuelo y un delicioso arroz con atún (sin mayonesa). Vive una historia cálida entre un niño y su gato.",
+      keywords: "tuna rice, novela visual, juego de gatos, juego conmovedor, confort, anime, juego gratis"
+    },
+    addressBar: "tuna-rice",
+    detailsHtml: `
+    <h2>
+    <span>Tuna Rice</span>
+</h2>
+<p>
+    <span>Emprende un viaje lleno de calidez con 'Tuna Rice', una novela visual encantadora que celebra lo simple: la compañía, el afecto y un tazón perfecto de arroz con atún. No es solo un juego; es una experiencia acogedora que te deja con el corazón calentito.</span>
+</p>
+<p>
+    <img src="/images/games/game-14-01.webp" alt="Tuna Rice" width="100%" style="width: 100%;">
+</p>
+<h3>
+    <span>Acerca del juego</span>
+</h3>
+<p>
+    <span>'Tuna Rice' cuenta una historia dulce sobre la conexión entre un niño y un gato. Aunque no hablen el mismo idioma, el cariño trasciende palabras. Desde el momento en que el niño rescata al gato con un tazón de arroz con atún, hasta cuando los roles se invierten, el juego explora empatía y apoyo mutuo. Y sí, es importante: ¡sin mayonesa!</span>
+</p>
+<h3>
+    <span>Características</span>
+</h3>
+<ol>
+    <li>
+        <strong>Historia conmovedora:</strong>
+        <span> Una narrativa simple pero profunda sobre amistad y apoyo mutuo.</span>
+    </li>
+    <li>
+        <strong>Visuales adorables:</strong>
+        <span> Diseños encantadores que transmiten calidez.</span>
+    </li>
+    <li>
+        <strong>Banda sonora suave:</strong>
+        <span> Música relajante que refuerza el ambiente emocional.</span>
+    </li>
+    <li>
+        <strong>Comunicación felina única:</strong>
+        <span> Los gatos “hablan” de forma tierna y divertida.</span>
+    </li>
+    <li>
+        <strong>Simbolismo significativo:</strong>
+        <span> El arroz con atún actúa como un símbolo de consuelo y seguridad.</span>
+    </li>
+    <li>
+        <strong>Corto y dulce:</strong>
+        <span> Perfecto para completar en una sola sesión relajante.</span>
+    </li>
+    <li>
+        <strong>Sin mayonesa:</strong>
+        <span> Tranquilo: aquí se respeta el arroz con atún auténtico.</span>
+    </li>
+    <li>
+        <strong>Conexión emocional:</strong>
+        <span> Un juego que prioriza sentimientos sobre mecánicas complejas.</span>
+    </li>
+</ol>
+<h3>
+    <span>FAQ</span>
+</h3>
+<ol>
+    <li>
+        <span>¿Tiene mayonesa?</span>
+    </li>
+    <li>
+        <span>¡Para nada! El creador está absolutamente en contra.</span>
+    </li>
+    <li>
+        <span>¿Cuánto dura?</span>
+    </li>
+    <li>
+        <span>Se puede completar en 30–60 minutos.</span>
+    </li>
+    <li>
+        <span>¿En qué plataformas está disponible?</span>
+    </li>
+    <li>
+        <span>Jugable en navegador vía HTML5.</span>
+    </li>
+    <li>
+        <span>¿Hay finales malos?</span>
+    </li>
+    <li>
+        <span>No, es una experiencia totalmente positiva.</span>
+    </li>
+    <li>
+        <span>¿Es apto para todas las edades?</span>
+    </li>
+    <li>
+        <span>Sí, es un juego familiar y seguro.</span>
+    </li>
+    <li>
+        <span>¿Qué inspiró el juego?</span>
+    </li>
+    <li>
+        <span>La calidez de compartir comida y el vínculo humano–felino.</span>
+    </li>
+</ol>
+<p>
+    <span>En resumen, 'Tuna Rice' es un recordatorio para valorar los pequeños momentos. Es una celebración de la amistad, la empatía y, por supuesto, el poderoso abrazo emocional de un tazón de arroz con atún (sin mayonesa).</span>
+</p>
+
+    `,
   }
+
 
 
 

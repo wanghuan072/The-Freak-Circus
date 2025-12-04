@@ -637,9 +637,30 @@
       "WeeklyUpdate4": {
         "title": "Mise à jour hebdomadaire",
         "date": "27 octobre 2025",
-        "description1": "J’ai réussi à terminer le codage de la tente cyan, il ne me reste que deux sprites à compléter pour finir cette scène. (Et encore une fois, j’ai dû réparer le sprite du Docteur… j’espère vraiment que cela n’arrivera pas avec Jester.) Il reste aussi des détails de code et des transitions qui ne sont pas encore corrigés.",
+        "description1": "J'ai réussi à terminer le codage de la tente cyan, il ne me reste que deux sprites à compléter pour finir cette scène. (Et encore une fois, j'ai dû réparer le sprite du Docteur… j'espère vraiment que cela n'arrivera pas avec Jester.) Il reste aussi des détails de code et des transitions qui ne sont pas encore corrigés.",
         "description2": "Il ne reste maintenant plus que les tentes bleue et violette avant que le codage de la mise à jour soit terminé.",
-        "description3": "La tente cyan a fait planter mon code tellement de fois, c’était épuisant. Et puisque les deux autres tentes sont encore plus complexes, je sais que cela se reproduira. Donc, pour être clair : une fois que j’aurai terminé de coder tous les dialogues de <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, je pourrai enfin commencer à parler de dates !"
+        "description3": "La tente cyan a fait planter mon code tellement de fois, c'était épuisant. Et puisque les deux autres tentes sont encore plus complexes, je sais que cela se reproduira. Donc, pour être clair : une fois que j'aurai terminé de coder tous les dialogues de <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, je pourrai enfin commencer à parler de dates !"
+      },
+      "monthlyUpdateSoClose": {
+        "title": "Monthly update! So close!!",
+        "description1": "Monthly update! I was hoping to release the game before this monthly devlog, but as you can imagine, a lot of things came up plenty of code issues I keep having to revise and fix.",
+        "description2": "I can't give you an exact release date, though I would love to launch the update this month, especially since it's the month of horror! But I can't promise that… even if, as you probably know, it's very close to being done.",
+        "description3": "Only the final act still needs to be coded after that, things will move much faster! So far in this update, there are already over 100 new images, including new sprites and backgrounds, just to give you an idea.",
+        "description4": "Here's a quick roadmap so you can get a sense of what's left. Once I finish coding the remaining 5%, the next steps are:",
+        "roadmapTitle": "Roadmap",
+        "roadmap1": "Finishing the sprites for that last 5%",
+        "roadmap2": "Adding the new sound effects and music",
+        "roadmap3": "Full revision and testing of the update",
+        "roadmap4": "Build tests for browser and Android",
+        "roadmap5": "And then that's it the update will be ready to launch!",
+        "description5": "I'm trying to run more tests this time so there won't be as many errors, since the last release had quite a few that I had to fix later."
+      },
+      "lastDevlog": {
+        "title": "Last devlog before the update (I Hope!)",
+        "description1": "I bring good news! This will be the last devlog before the update. Which means the next notification you get will be the update release!",
+        "description2": "It's planned to come out this month. I don't have an exact date yet, but I'll spend the next few days doing final tests and fixes! As soon as I have a confirmed date, I'll post it on my social media. Everything is already coded and currently being tested so I can finally release this update!",
+        "description3": "Some choices in the game are still causing small issues in certain routes, so that's basically what I'm fixing right now. It's a bit of work because of the number of choices and situations in this update, but as long as nothing crashes, it should be released before the end of the month.",
+        "description4": "Thank you all for your patience and support! The update is almost here!"
       }
     }
   },

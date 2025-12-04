@@ -98,138 +98,138 @@ export default [
       },
     ],
     detailsHtml: `
-    <h2 style="font-size: 1.5em; font-weight: bold;">
-  <span style="color: rgb(51, 51, 51);">Death Loop</span>
+    <h2>
+  <span>Death Loop</span>
 </h2>
-<p style="margin: 1em 0px;">
-  <span style="color: rgb(51, 51, 51);">
+<p>
+  <span>
     Imagine waking up in a strange school, surrounded by strangers, only to be told that one of them is a killer. Now, imagine that every time you die, you're thrown back to the beginning, forced to relive the same terrifying loop. This is Death Loop, a unique and captivating game that blends social deduction with the immersive storytelling of a visual novel. Can you solve the mystery and escape the endless torment, or will you be trapped forever?
   </span>
 </p>
-<h3 style="font-size: 1.17em; font-weight: bold;">
-  <span style="color: rgb(51, 51, 51);">About</span>
+<h3>
+  <span>About</span>
 </h3>
-<p style="margin: 1em 0px;">
-  <span style="color: rgb(51, 51, 51);">
+<p>
+  <span>
     Death Loop throws you into a high-stakes game of survival where trust is a luxury you can't afford. Ten strangers find themselves inexplicably bound together in a bizarre school, informed by a mysterious woman that a killer lurks in their midst. Their only hope of escape lies in identifying and eliminating the killer through a process of voting. However, failure comes with a dire consequence: death, followed by an immediate return to the start of the loop. With each reset, alliances shift, suspicions deepen, and the pressure mounts. The game masterfully combines the tension of social deduction with the narrative depth of a visual novel, creating an experience that is both intellectually stimulating and emotionally gripping. Death Loop is not just about finding the killer; it's about understanding the motivations of everyone involved and making the right choices under immense pressure. The compelling narrative and engaging gameplay make this a truly unforgettable experience.
   </span>
 </p>
-<h3 style="font-size: 1.17em; font-weight: bold;">
-  <span style="color: rgb(51, 51, 51);">Features</span>
+<h3>
+  <span>Features</span>
 </h3>
 <ol>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Intriguing Storyline:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Intriguing Storyline:</strong>
+    <span>
       Immerse yourself in a captivating narrative filled with mystery, suspense, and unexpected twists. Each loop reveals new clues and secrets, keeping you on the edge of your seat.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Social Deduction Gameplay:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Social Deduction Gameplay:</strong>
+    <span>
       Use your wits and intuition to uncover the killer among your fellow students. Analyze their behavior, interrogate their motives, and expose their lies.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Visual Novel Style:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Visual Novel Style:</strong>
+    <span>
       Experience the story through beautifully illustrated scenes and compelling character interactions. Make choices that impact the narrative and determine your fate.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Time Loop Mechanic:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Time Loop Mechanic:</strong>
+    <span>
       Learn from your mistakes and use each reset to gather more information and refine your strategy. The Death Loop offers a unique gameplay experience with high replayability.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Multiple Endings:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Multiple Endings:</strong>
+    <span>
       Your decisions matter. Unravel the mystery and escape the loop, or become another victim of the killer. Experience different outcomes based on your choices.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Character Development:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Character Development:</strong>
+    <span>
       Get to know the diverse cast of characters and uncover their hidden backstories. Form alliances, make enemies, and navigate the complex social dynamics of the school.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Challenging Puzzles:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Challenging Puzzles:</strong>
+    <span>
       Solve intricate puzzles and riddles to unlock new areas and uncover crucial clues that will help you unmask the killer and break the Death Loop.
     </span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <strong style="color: rgb(51, 51, 51);">Atmospheric Setting:</strong>
-    <span style="color: rgb(51, 51, 51);">
+  <li>
+    
+    <strong>Atmospheric Setting:</strong>
+    <span>
       Explore the eerie and unsettling environment of the strange school, filled with secrets and hidden dangers. The game's immersive atmosphere will keep you on the edge of your seat.
     </span>
   </li>
 </ol>
-<h3 style="font-size: 1.17em; font-weight: bold;">
-  <span style="color: rgb(51, 51, 51);">FAQ</span>
+<h3>
+  <span>FAQ</span>
 </h3>
 <ol>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">What is the main objective of Death Loop?</span>
+  <li>
+    
+    <span>What is the main objective of Death Loop?</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">The main objective is to identify and eliminate the killer hidden among the group before they eliminate you, and ultimately escape the time loop.</span>
+  <li>
+    
+    <span>The main objective is to identify and eliminate the killer hidden among the group before they eliminate you, and ultimately escape the time loop.</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">How does the time loop mechanic work?</span>
+  <li>
+    
+    <span>How does the time loop mechanic work?</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">Every time you die, you are sent back to the beginning of the loop, retaining knowledge from previous loops that can help you make better decisions.</span>
+  <li>
+    
+    <span>Every time you die, you are sent back to the beginning of the loop, retaining knowledge from previous loops that can help you make better decisions.</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">What kind of game is Death Loop?</span>
+  <li>
+    
+    <span>What kind of game is Death Loop?</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">Death Loop is a blend of social deduction and visual novel, combining elements of mystery, suspense, and strategic decision-making.</span>
+  <li>
+    
+    <span>Death Loop is a blend of social deduction and visual novel, combining elements of mystery, suspense, and strategic decision-making.</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">Are there different endings to the game?</span>
+  <li>
+    
+    <span>Are there different endings to the game?</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">Yes, your choices throughout the game influence the outcome, leading to multiple different endings depending on your actions and decisions.</span>
+  <li>
+    
+    <span>Yes, your choices throughout the game influence the outcome, leading to multiple different endings depending on your actions and decisions.</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">Is Death Loop a multiplayer game?</span>
+  <li>
+    
+    <span>Is Death Loop a multiplayer game?</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">Based on the current description, Death Loop is single-player game where you interact with AI characters.</span>
+  <li>
+    
+    <span>Based on the current description, Death Loop is single-player game where you interact with AI characters.</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">How long does it take to complete Death Loop?</span>
+  <li>
+    
+    <span>How long does it take to complete Death Loop?</span>
   </li>
-  <li data-list="bullet">
-    <span contenteditable="false"></span>
-    <span style="color: rgb(51, 51, 51);">The playtime varies depending on your puzzle-solving skills and how quickly you can uncover the killer, but expect several hours of engaging gameplay.</span>
+  <li>
+    
+    <span>The playtime varies depending on your puzzle-solving skills and how quickly you can uncover the killer, but expect several hours of engaging gameplay.</span>
   </li>
 </ol>
-<p style="margin: 1em 0px;">
-  <span style="color: rgb(51, 51, 51);">
+<p>
+  <span>
     Death Loop offers a thrilling and unique gaming experience that will keep you hooked from beginning to end. With its captivating storyline, strategic gameplay, and immersive atmosphere, it's a must-play for fans of social deduction, visual novels, and mystery games. Are you ready to enter the loop and face your fate?
   </span>
 </p>
@@ -940,6 +940,280 @@ export default [
     
     <p>Myosotis offers a captivating and emotionally resonant experience, inviting players to confront themes of loss, revenge, and the search for truth in the afterlife. With its intricate narrative, engaging puzzles, and atmospheric presentation, Myosotis is a must-play for fans of narrative-driven indie games seeking a thought-provoking and unforgettable journey.</p>
   </div>`,
+  },
+
+  {
+    id: 13,
+    title: "Hide and Seek",
+    iframeUrl: "https://html-classic.itch.zone/html/15440066/Yuria1/index.html",
+    description: "A chilling psychological thriller where family secrets and conflicting narratives converge. Trust no one. Unravel the mystery behind your parents' alleged demise in this gripping tale of deception and suspense. Stay or run? Your choice determines your fate.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-13.webp",
+    imageAlt: "A tense scene depicting the hide and seek game, symbolizing hidden truths and uncertain choices.",
+    isHome: false,
+    seo: {
+      title: "Hide and Seek - Uncover Family Secrets & Thrilling Mystery",
+      description: "Dive into a dark mystery in Hide and Seek! Navigate conflicting stories and decide who to trust. Will you uncover the truth or fall victim to deception? Play now!",
+      keywords: "hide and seek, mystery game, thriller game, family secrets, psychological thriller, suspense game, interactive narrative"
+    },
+    addressBar: "hide-and-seek",
+    detailsHtml: `
+    <h2>
+    <span>Hide and Seek</span>
+</h2>
+
+<p>
+    <span>
+        Enter a world of uncertainty and paranoia in Hide and Seek, a gripping interactive experience where the line between truth and lies is blurred. Your parents are allegedly dead, according to your brother. However, a call from your mother throws everything into disarray, claiming she's alive and well. Who do you believe? This is more than just a game; it's a test of trust, perception, and survival.
+    </span>
+</p>
+
+<p>
+    <img src="/images/games/game-13-01.webp" 
+    alt="Hide and Seek" width="100%" style="width: 100%;">
+</p>
+
+<h3>
+    <span>About</span>
+</h3>
+
+<p>
+    <span>
+        Hide and Seek places you in the heart of a family crisis, forcing you to make critical decisions based on conflicting information. The game revolves around the central mystery of your parents' fate. Your brother claims they died in a car accident, but your mother insists she's alive. This creates a tense and suspenseful atmosphere where every choice has consequences. You must investigate the situation, gather clues, and ultimately decide whom to trust. The immersive narrative will keep you on the edge of your seat as you navigate a web of deception and uncover hidden truths.
+    </span>
+</p>
+
+<h3>
+    <span>Features</span>
+</h3>
+
+<ol>
+    <li>
+        <strong>Intriguing Narrative:</strong>
+        <span> Experience a compelling story filled with twists and turns that will keep you guessing until the very end. The conflicting narratives create a constant sense of unease and uncertainty.</span>
+    </li>
+
+    <li>
+        <strong>Meaningful Choices:</strong>
+        <span> Your decisions have a direct impact on the outcome of the story. Each choice you make will lead you down a different path, revealing new secrets and ultimately shaping your destiny.</span>
+    </li>
+
+    <li>
+        <strong>Immersive Atmosphere:</strong>
+        <span> The game creates a sense of realism and immersion through its detailed environments and carefully crafted sound design. You will feel like you are truly a part of the story.</span>
+    </li>
+
+    <li>
+        <strong>Multiple Endings:</strong>
+        <span> Discover different outcomes based on the choices you make throughout the game. This adds replay value and encourages you to explore all the possibilities.</span>
+    </li>
+
+    <li>
+        <strong>Psychological Suspense:</strong>
+        <span> Experience a constant sense of tension and unease as you try to unravel the mystery. The game will challenge your perceptions and force you to question everything you thought you knew.</span>
+    </li>
+
+    <li>
+        <strong>Character Development:</strong>
+        <span> Learn more about the characters involved and their motivations. Uncover their secrets and hidden agendas as you delve deeper into the story.</span>
+    </li>
+
+    <li>
+        <strong>Hidden Clues:</strong>
+        <span> Search for clues and evidence that will help you solve the mystery. Pay attention to the details, as they may hold the key to the truth.</span>
+    </li>
+
+    <li>
+        <strong>Emotional Impact:</strong>
+        <span> Prepare to be emotionally invested in the characters and their stories. The game explores themes of family, trust, and betrayal, which will resonate with players on a personal level.</span>
+    </li>
+</ol>
+
+<h3>
+    <span>FAQ</span>
+</h3>
+
+<ol>
+    <li>
+        <span>Is this game scary?</span>
+    </li>
+
+    <li>
+        <span>Hide and Seek is primarily a psychological thriller, focusing on suspense and mystery rather than jump scares. However, it does contain some unsettling themes and moments.</span>
+    </li>
+
+    <li>
+        <span>How long does it take to complete the game?</span>
+    </li>
+
+    <li>
+        <span>The length of the game depends on your play style and the choices you make. On average, it takes about 1-2 hours to complete a single playthrough.</span>
+    </li>
+
+    <li>
+        <span>Are there multiple endings?</span>
+    </li>
+
+    <li>
+        <span>Yes, Hide and Seek features multiple endings depending on the choices you make throughout the game. This encourages replayability to discover all possible outcomes.</span>
+    </li>
+
+    <li>
+        <span>What platforms is the game available on?</span>
+    </li>
+
+    <li>
+        <span>The game is currently available on itch.io via the provided link. It can be played directly in your web browser.</span>
+    </li>
+
+    <li>
+        <span>Is the game free to play?</span>
+    </li>
+
+    <li>
+        <span>Yes, Hide and Seek is currently free to play.</span>
+    </li>
+
+    <li>
+        <span>What are the key elements of a successful Hide and Seek game?</span>
+    </li>
+
+    <li>
+        <span>A gripping narrative, meaningful choices, and an immersive atmosphere are crucial for a successful Hide and Seek experience. The game should keep players engaged and invested in the mystery. The blend of suspense, character depth, and surprising plot twists are the key.</span>
+    </li>
+</ol>
+
+<p>
+    <span>
+        Hide and Seek offers a unique and unsettling experience that will leave you questioning everything you thought you knew. The interactive narrative, meaningful choices, and immersive atmosphere create a truly unforgettable game. Will you uncover the truth, or will you become another victim of deception? Play now and find out!
+    </span>
+</p>
+
+    `,
+  },
+
+  {
+    id: 14,
+    title: "Tuna Rice",
+    iframeUrl: "https://html-classic.itch.zone/html/15460871/index.html",
+    description: "Experience the heartwarming tale of Tuna Rice, a VN where a boy and a cat find comfort in each other through simple gestures. No mayo here! Just pure, fluffy goodness and the universal language of purrs and tuna. Discover the true meaning of warmth, safety, and a full belly.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-14.webp",
+    imageAlt: "A heartwarming image of Tuna Rice VN featuring a boy and a cat sharing a bowl of tuna rice.",
+    isHome: false,
+    seo: {
+      title: "Tuna Rice: A Heartwarming Visual Novel - Play Free Online!",
+      description: "Dive into Tuna Rice, a charming visual novel about friendship, comfort, and delicious tuna rice (no mayo!). Experience a touching story of a boy and a cat finding solace together.",
+      keywords: "tuna rice, visual novel, cat game, heartwarming game, comfort, anime game, free game"
+    },
+    addressBar: "tuna-rice",
+    detailsHtml: `
+    <h2>
+    <span>Tuna Rice</span>
+</h2>
+<p>
+    <span>Embark on a heartwarming journey with 'Tuna Rice,' a delightfully silly visual novel that celebrates the simple joys of life: warmth, companionship, and of course, a perfectly made bowl of tuna rice. This isn't just a game; it's an experience that will leave you feeling cozy and content, reminding you that sometimes, the smallest gestures offer the greatest comfort. Forget complex narratives and intricate mechanics – prepare for a dose of pure, unadulterated fluff!</span>
+</p>
+<p>
+    <img src="/images/games/game-14-01.webp" alt="Tuna Rice" width="100%" style="width: 100%;">
+</p>
+<h3>
+    <span>About</span>
+</h3>
+<p>
+    <span>'Tuna Rice' tells a touching story of connection between a boy and a feline friend. While the boy may not understand the cat's meows, the bond they share transcends language. From the tender moment the boy rescues the cat, offering it a comforting bowl of tuna rice, to the poignant scene where the roles are reversed, the game explores themes of empathy and mutual support. The absence of mayo is a critical detail, underscoring the protagonist's commitment to culinary excellence! The primary goal of 'Tuna Rice' is to deliver a relaxing and emotionally resonant experience, focusing on the simple pleasures that often go unnoticed in our busy lives. It is a short, sweet game that seeks to evoke feelings of comfort, safety, and contentment in the player.</span>
+</p>
+<h3>
+    <span>Features</span>
+</h3>
+<ol>
+    <li>
+        
+        <strong>Heartwarming Storyline:</strong>
+        <span> Experience a simple yet profound story about friendship and mutual support between a boy and a cat.</span>
+    </li>
+    <li>
+        
+        <strong>Charming Visuals:</strong>
+        <span> Enjoy adorable character designs and visually appealing scenes that enhance the overall atmosphere of warmth and comfort.</span>
+    </li>
+    <li>
+        
+        <strong>Soothing Soundtrack:</strong>
+        <span> Immerse yourself in a gentle and relaxing soundtrack that complements the game's emotional tone.</span>
+    </li>
+    <li>
+        
+        <strong>Unique Cat Communication:</strong>
+        <span> Witness the cats "speak" in their own way, adding a layer of whimsy and charm to the interactions.</span>
+    </li>
+    <li>
+        
+        <strong>Meaningful Symbolism:</strong>
+        <span> Explore the deeper themes of comfort and security through the recurring motif of tuna rice.</span>
+    </li>
+    <li>
+        
+        <strong>Short and Sweet Gameplay:</strong>
+        <span> Experience the entire story in a single, satisfying sitting, perfect for a quick dose of relaxation.</span>
+    </li>
+    <li>
+        
+        <strong>Mayo-Free Zone:</strong>
+        <span> Rejoice in the assurance that this tuna rice recipe is strictly mayo-free, catering to true tuna purists.</span>
+    </li>
+    <li>
+        
+        <strong>Emphasis on Emotional Connection:</strong>
+        <span> The game prioritizes emotional resonance over complex gameplay mechanics, creating a truly touching experience.</span>
+    </li>
+</ol>
+<h3>
+    <span>FAQ</span>
+</h3>
+<ol>
+    <li>
+        <span>Is there mayo in the tuna rice?</span>
+    </li>
+    <li>
+        <span>Absolutely not! The creator is firmly against mayo in tuna rice.</span>
+    </li>
+    <li>
+        <span>How long does it take to play?</span>
+    </li>
+    <li>
+        <span>'Tuna Rice' is a short visual novel, designed to be completed in one sitting, typically within 30-60 minutes.</span>
+    </li>
+    <li>
+        <span>What platforms is 'Tuna Rice' available on?</span>
+    </li>
+    <li>
+        <span>Currently, 'Tuna Rice' is available to play online through HTML5 compatible browsers.</span>
+    </li>
+    <li>
+        <span>Are there any bad endings?</span>
+    </li>
+    <li>
+        <span>No, 'Tuna Rice' is designed to be a purely heartwarming experience. There are no bad endings to worry about.</span>
+    </li>
+    <li>
+        <span>Is 'Tuna Rice' suitable for all ages?</span>
+    </li>
+    <li>
+        <span>Yes, 'Tuna Rice' is a wholesome and family-friendly game suitable for players of all ages.</span>
+    </li>
+    <li>
+        <span>What inspired the creation of 'Tuna Rice'?</span>
+    </li>
+    <li>
+        <span>The game was inspired by the simple comfort and connection found in sharing a meal with a loved one, particularly the bond between humans and their feline companions.</span>
+    </li>
+</ol>
+<p>
+    <span>In conclusion, 'Tuna Rice' is more than just a game; it's a reminder to appreciate the little things in life. It's a celebration of friendship, empathy, and the undeniable power of a warm bowl of tuna rice (without mayo, of course!). So, grab a bowl, snuggle up with your furry friend, and immerse yourself in this delightfully heartwarming visual novel. You might just find yourself feeling a little bit warmer and a whole lot more content.</span>
+</p>
+
+    `,
   }
 
 

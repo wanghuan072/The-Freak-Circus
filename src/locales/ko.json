@@ -640,6 +640,27 @@
         "description1": "시안 텐트의 코딩을 마쳤습니다. 이 장면을 완성하려면 스프라이트 2개만 더 필요해요. (그리고 또다시 닥터의 스프라이트를 수정해야 했습니다… 제스터는 그렇게 되지 않길 바래요.) 또한 아직 수정되지 않은 코드 세부 사항과 전환 효과도 있습니다.",
         "description2": "이제 남은 건 파란색과 보라색 텐트뿐입니다. 이 두 개의 코딩이 완료되면 이번 업데이트는 끝이에요.",
         "description3": "시안 텐트는 제 코드를 여러 번 망가뜨려서 정말 힘들었어요. 게다가 다른 두 텐트는 훨씬 더 복잡하기 때문에 또 그런 일이 생길 거라는 걸 알고 있습니다. 그래서 미리 말씀드리면: <a href=\"/\" class=\"content-link\">The Freak Circus 비주얼 노벨</a>의 모든 대사 코딩이 완료되면, 그때 드디어 출시일 이야기를 할 수 있을 것 같습니다!"
+      },
+      "monthlyUpdateSoClose": {
+        "title": "Monthly update! So close!!",
+        "description1": "Monthly update! I was hoping to release the game before this monthly devlog, but as you can imagine, a lot of things came up plenty of code issues I keep having to revise and fix.",
+        "description2": "I can't give you an exact release date, though I would love to launch the update this month, especially since it's the month of horror! But I can't promise that… even if, as you probably know, it's very close to being done.",
+        "description3": "Only the final act still needs to be coded after that, things will move much faster! So far in this update, there are already over 100 new images, including new sprites and backgrounds, just to give you an idea.",
+        "description4": "Here's a quick roadmap so you can get a sense of what's left. Once I finish coding the remaining 5%, the next steps are:",
+        "roadmapTitle": "Roadmap",
+        "roadmap1": "Finishing the sprites for that last 5%",
+        "roadmap2": "Adding the new sound effects and music",
+        "roadmap3": "Full revision and testing of the update",
+        "roadmap4": "Build tests for browser and Android",
+        "roadmap5": "And then that's it the update will be ready to launch!",
+        "description5": "I'm trying to run more tests this time so there won't be as many errors, since the last release had quite a few that I had to fix later."
+      },
+      "lastDevlog": {
+        "title": "Last devlog before the update (I Hope!)",
+        "description1": "I bring good news! This will be the last devlog before the update. Which means the next notification you get will be the update release!",
+        "description2": "It's planned to come out this month. I don't have an exact date yet, but I'll spend the next few days doing final tests and fixes! As soon as I have a confirmed date, I'll post it on my social media. Everything is already coded and currently being tested so I can finally release this update!",
+        "description3": "Some choices in the game are still causing small issues in certain routes, so that's basically what I'm fixing right now. It's a bit of work because of the number of choices and situations in this update, but as long as nothing crashes, it should be released before the end of the month.",
+        "description4": "Thank you all for your patience and support! The update is almost here!"
       }
     }
   },

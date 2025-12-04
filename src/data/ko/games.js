@@ -677,30 +677,29 @@ export default [
           </div>`,
   },
 
-  [
-    {
-      "id": 9,
-      "title": "Doce Fim (도시 핌)",
-      "iframeUrl": "https://html-classic.itch.zone/html/15403970/index.html",
-      "description": "세상은 끝나가지만, 연결은 남습니다. 'Doce Fim'에서는 감정적 선택을 통해 **퀴어 로맨스와 우정**을 탐색합니다. 이 포스트 아포칼립스 내러티브에서 예술을 창작하고, 신뢰를 쌓고, 외로움에 맞서세요. 연결 속에서 위안을 찾을 수 있을까요?",
-      "tags": [
-        "퀴어 로맨스",
-        "포스트 아포칼립스",
-        "내러티브 게임",
-        "감정적 선택",
-        "우정"
-      ],
-      "publishDate": "2025-11-05",
-      "imageUrl": "/images/games/game-09.webp",
-      "imageAlt": "Doce Fim의 스타일화된 캐릭터 초상화로, 생생한 색상과 퀴어 로맨스 및 연결의 테마를 암시합니다.",
-      "seo": {
-        "title": "Doce Fim: 세상의 끝에서 퀴어 로맨스를 형성하세요",
-        "description": "종말을 배경으로 한 선택 기반 내러티브 'Doce Fim'에서 사랑과 우정을 탐색하세요. 독특한 루트, 신뢰 시스템, 편집증 버블을 발견하세요. 예술이 우리 모두를 구할 수 있을까요?",
-        "keywords": "Doce Fim, 퀴어 로맨스, 우정, 종말, 내러티브 게임, 선택 기반, 신뢰 시스템, 편집증 버블, 예술, 두 번째 기회"
-      },
-      "addressBar": "doce-fim",
-      "isHome": true,
-      "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  {
+    "id": 9,
+    "title": "Doce Fim (도시 핌)",
+    "iframeUrl": "https://html-classic.itch.zone/html/15403970/index.html",
+    "description": "세상은 끝나가지만, 연결은 남습니다. 'Doce Fim'에서는 감정적 선택을 통해 **퀴어 로맨스와 우정**을 탐색합니다. 이 포스트 아포칼립스 내러티브에서 예술을 창작하고, 신뢰를 쌓고, 외로움에 맞서세요. 연결 속에서 위안을 찾을 수 있을까요?",
+    "tags": [
+      "퀴어 로맨스",
+      "포스트 아포칼립스",
+      "내러티브 게임",
+      "감정적 선택",
+      "우정"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-09.webp",
+    "imageAlt": "Doce Fim의 스타일화된 캐릭터 초상화로, 생생한 색상과 퀴어 로맨스 및 연결의 테마를 암시합니다.",
+    "seo": {
+      "title": "Doce Fim: 세상의 끝에서 퀴어 로맨스를 형성하세요",
+      "description": "종말을 배경으로 한 선택 기반 내러티브 'Doce Fim'에서 사랑과 우정을 탐색하세요. 독특한 루트, 신뢰 시스템, 편집증 버블을 발견하세요. 예술이 우리 모두를 구할 수 있을까요?",
+      "keywords": "Doce Fim, 퀴어 로맨스, 우정, 종말, 내러티브 게임, 선택 기반, 신뢰 시스템, 편집증 버블, 예술, 두 번째 기회"
+    },
+    "addressBar": "doce-fim",
+    "isHome": true,
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
       <h2>Doce Fim (도시 핌)</h2>
       <p>세계가 예견된 종말을 향해 질주하는 가운데, 'Doce Fim'은 종말을 인간 관계의 복잡성을 탐구하는 배경으로 활용하는 깊이 있는 개인적인 내러티브로 여러분을 던져 넣습니다. 그것은 단순히 생존에 관한 것이 아니라, 혼돈 속에서 **의미, 사랑, 우정**을 찾는 것입니다. 이것은 단순한 게임이 아니라, 자기 발견의 여정이자 망각에 직면하여도 끈질기게 이어지는 **예술과 연결의 힘**을 다룹니다.</p>
    
@@ -749,30 +748,30 @@ export default [
    
       <p>'Doce Fim'은 단순한 게임 그 이상입니다. 이는 압도적인 불확실성에 직면하여 인간이 된다는 것이 무엇을 의미하는지에 대한 탐구입니다. 설득력 있는 내러티브, 독특한 게임 플레이 메커니즘, 그리고 포괄성에 대한 초점을 통해, 크레딧이 올라간 후에도 오랫동안 당신과 함께 할 **깊이 있고 감동적이며 생각을 자극하는 경험**을 제공합니다. 사랑, 우정, 그리고 예술이 저항의 궁극적인 형태인 세계로 뛰어들어 보세요.</p>
     </div>`
+  },
+  {
+    "id": 10,
+    "title": "Heartstop Tour (하트스톱 투어)",
+    "iframeUrl": "https://html-classic.itch.zone/html/14235865/index.html",
+    "description": "마스코트 실수 후 직장을 때려치웠다고요? 이제 당신은 관광객의 변덕과 **곰 옷을 입은 귀여운 사람**의 혼돈에 얽매이게 됩니다! 엉뚱한 만남과 아마도, 가장 기이한 장소에서의 사랑으로 가득 찬 예상치 못한 하트스톱 투어에 착수하세요. 실직 상태이며 옷도 제대로 못 갖춰 입었는데, 이 난장판을 감당할 준비가 되셨나요?",
+    "tags": [
+      "하트스톱",
+      "투어",
+      "로맨스",
+      "코미디",
+      "비주얼 노벨"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-10.webp",
+    "imageAlt": "하트스톱 투어의 스크린샷. 귀여운 핑크색 곰 마스코트와 놀란 캐릭터가 나옵니다.",
+    "seo": {
+      "title": "Heartstop Tour - 유쾌한 로맨틱 어드벤처가 기다립니다!",
+      "description": "직장을 그만두셨나요? 하트스톱 투어에서 어리숙한 관광객과 귀여운 마스코트를 만나보세요! 로맨스, 코미디, 그리고 예상치 못한 모험의 소용돌이에 뛰어드세요. 지금 플레이하세요!",
+      "keywords": "하트스톱 투어, 로맨스 게임, 코미디 게임, 비주얼 노벨, 마스코트 사랑, 귀여운 게임, 인디 게임, 데이팅 시뮬레이션"
     },
-    {
-      "id": 10,
-      "title": "Heartstop Tour (하트스톱 투어)",
-      "iframeUrl": "https://html-classic.itch.zone/html/14235865/index.html",
-      "description": "마스코트 실수 후 직장을 때려치웠다고요? 이제 당신은 관광객의 변덕과 **곰 옷을 입은 귀여운 사람**의 혼돈에 얽매이게 됩니다! 엉뚱한 만남과 아마도, 가장 기이한 장소에서의 사랑으로 가득 찬 예상치 못한 하트스톱 투어에 착수하세요. 실직 상태이며 옷도 제대로 못 갖춰 입었는데, 이 난장판을 감당할 준비가 되셨나요?",
-      "tags": [
-        "하트스톱",
-        "투어",
-        "로맨스",
-        "코미디",
-        "비주얼 노벨"
-      ],
-      "publishDate": "2025-11-05",
-      "imageUrl": "/images/games/game-10.webp",
-      "imageAlt": "하트스톱 투어의 스크린샷. 귀여운 핑크색 곰 마스코트와 놀란 캐릭터가 나옵니다.",
-      "seo": {
-        "title": "Heartstop Tour - 유쾌한 로맨틱 어드벤처가 기다립니다!",
-        "description": "직장을 그만두셨나요? 하트스톱 투어에서 어리숙한 관광객과 귀여운 마스코트를 만나보세요! 로맨스, 코미디, 그리고 예상치 못한 모험의 소용돌이에 뛰어드세요. 지금 플레이하세요!",
-        "keywords": "하트스톱 투어, 로맨스 게임, 코미디 게임, 비주얼 노벨, 마스코트 사랑, 귀여운 게임, 인디 게임, 데이팅 시뮬레이션"
-      },
-      "addressBar": "heartstop-tour",
-      "isHome": true,
-      "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    "addressBar": "heartstop-tour",
+    "isHome": true,
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
       <h2>Heartstop Tour (하트스톱 투어)</h2>
       <p>평범함을 벗어던지고 **혼란스럽고, 유쾌하며, 잠재적으로 로맨틱한 모험**에 뛰어들 준비가 되셨나요? Heartstop Tour는 단순한 게임이 아니라, 예상치 못한 만남, 엉뚱한 캐릭터, 그리고 **실직 상태**이고, **옷도 제대로 못 갖춰 입었고**, 완전히 준비되지 않은 상태에서 사랑을 찾을 수 있을까 하는 불타는 질문의 소용돌이입니다.</p>
    
@@ -821,30 +820,30 @@ export default [
    
       <p>Heartstop Tour는 단순한 게임이 아니라, 엉뚱한 캐릭터, 웃음이 터지는 순간, 그리고 마음을 따뜻하게 하는 로맨스의 세계로의 **탈출**입니다. 그러니 짐(또는 슬픈 샌드위치)을 싸고, 혼돈을 받아들이고, 잊지 못할 **하트스톱** **투어**에 착수하세요. 누가 알겠어요, 도중에 사랑을 찾을지도요!</p>
     </div>`
+  },
+  {
+    "id": 11,
+    "title": "Lookouts (룩아웃)",
+    "iframeUrl": "https://html-classic.itch.zone/html/12378527/index.html",
+    "description": "올드 웨스트의 심장부에서, 두 명의 **트랜스 마스크 무법자**가 비주얼 노벨 'Lookouts'에서 예상치 못한 위안과 싹트는 로맨스를 발견합니다. 위험과 편견으로 가득 찬 세상을 헤쳐나가며 **희망**, **소속감**, 그리고 **금지된 사랑**의 테마를 탐험하세요. 지금 플레이하세요!",
+    "tags": [
+      "LGBTQ+ 게임",
+      "비주얼 노벨",
+      "서부 로맨스",
+      "트랜스젠더",
+      "올드 웨스트"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-11.webp",
+    "imageAlt": "마을을 응시하는 두 명의 트랜스 마스크 무법자. 로맨스 비주얼 노벨 Lookouts의 장면입니다.",
+    "seo": {
+      "title": "Lookouts - 게이 트랜스 마스크 서부 로맨스 비주얼 노벨",
+      "description": "올드 웨스트에서 사랑과 희망을 찾는 두 명의 게이 트랜스 마스크 무법자에 대한 가슴 아픈 로맨스 비주얼 노벨 'Lookouts'를 만나보세요. **5~6시간 분량**의 내러티브 어드벤처를 경험하세요.",
+      "keywords": "룩아웃, 비주얼 노벨, 게이 로맨스, 트랜스젠더, 트랜스 마스크, 올드 웨스트, LGBTQ+, 서부 게임, 로맨스 게임, 무법자 로맨스"
     },
-    {
-      "id": 11,
-      "title": "Lookouts (룩아웃)",
-      "iframeUrl": "https://html-classic.itch.zone/html/12378527/index.html",
-      "description": "올드 웨스트의 심장부에서, 두 명의 **트랜스 마스크 무법자**가 비주얼 노벨 'Lookouts'에서 예상치 못한 위안과 싹트는 로맨스를 발견합니다. 위험과 편견으로 가득 찬 세상을 헤쳐나가며 **희망**, **소속감**, 그리고 **금지된 사랑**의 테마를 탐험하세요. 지금 플레이하세요!",
-      "tags": [
-        "LGBTQ+ 게임",
-        "비주얼 노벨",
-        "서부 로맨스",
-        "트랜스젠더",
-        "올드 웨스트"
-      ],
-      "publishDate": "2025-11-05",
-      "imageUrl": "/images/games/game-11.webp",
-      "imageAlt": "마을을 응시하는 두 명의 트랜스 마스크 무법자. 로맨스 비주얼 노벨 Lookouts의 장면입니다.",
-      "seo": {
-        "title": "Lookouts - 게이 트랜스 마스크 서부 로맨스 비주얼 노벨",
-        "description": "올드 웨스트에서 사랑과 희망을 찾는 두 명의 게이 트랜스 마스크 무법자에 대한 가슴 아픈 로맨스 비주얼 노벨 'Lookouts'를 만나보세요. **5~6시간 분량**의 내러티브 어드벤처를 경험하세요.",
-        "keywords": "룩아웃, 비주얼 노벨, 게이 로맨스, 트랜스젠더, 트랜스 마스크, 올드 웨스트, LGBTQ+, 서부 게임, 로맨스 게임, 무법자 로맨스"
-      },
-      "isHome": true,
-      "addressBar": "lookouts",
-      "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    "isHome": true,
+    "addressBar": "lookouts",
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
       <h2>Lookouts (룩아웃)</h2>
       <p>올드 웨스트의 건조한 풍경과 끓어오르는 긴장 속에서, 'Lookouts'는 둘 다 **트랜스 마스크**인 두 명의 무법자가 예상치 못한 공통점을 찾는 이야기를 제시합니다. 이 비주얼 노벨은 혹독하고 용서 없는 세상을 배경으로 **정체성**, **소속감**, 그리고 더 나은 삶의 추구라는 복잡성을 탐구합니다. 감정, 모험, 그리고 예상치 못한 로맨스의 꽃피움이 풍부한 내러티브에 몰입할 준비를 하세요. 이 **5~6시간 분량의 경험**은 꼭 플레이해야 합니다!</p>
    
@@ -889,30 +888,30 @@ export default [
    
       <p>결론적으로, 'Lookouts'는 깊이, 마음, 그리고 **진정한 표현**을 갖춘 로맨스 비주얼 노벨을 찾는 플레이어에게 독특하고 설득력 있는 경험을 제공합니다. 매력적인 내러티브, 매혹적인 캐릭터, 그리고 생각을 자극하는 테마는 이 장르의 팬과 올드 웨스트에서 사랑, 희망, 그리고 회복력의 이야기를 탐구하는 데 관심이 있는 모든 사람에게 **필수 플레이**입니다. 무법자들이 서로에게 피난처를 찾고, 더 나은 삶의 약속이 지평선에 밝게 빛나는 세계로 이동할 준비를 하세요. 이 두 명의 룩아웃의 이야기는 크레딧이 올라간 후에도 오랫동안 당신과 함께 할 것입니다.</p>
     </div>`
+  },
+  {
+    "id": 12,
+    "title": "Myosotis (미오소티스)",
+    "iframeUrl": "https://html-classic.itch.zone/html/13249930/index.html",
+    "description": "비극적인 끝을 맞은 후 세계 사이에 갇힌 당신은, 당신의 전 남자친구이자 살인자인 **이든**을 'Myosotis'에서 **괴롭힙니다**. 당신의 죽음을 둘러싼 미스터리를 풀고, 당신의 유령 같은 추적이 혼자가 아님을 발견하세요. 답을 찾고, **종결**을 찾고, 어쩌면 **다른 종류의 평화**를 찾을지도 모릅니다.",
+    "tags": [
+      "고스트 스토리",
+      "복수",
+      "사후 세계",
+      "미스터리",
+      "초자연적"
+    ],
+    "publishDate": "2025-11-05",
+    "imageUrl": "/images/games/game-12.webp",
+    "imageAlt": "추모를 상징하는 미오소티스 꽃의 흐릿한 이미지로, 미오소티스 게임과 관련이 있습니다.",
+    "seo": {
+      "title": "Myosotis - 복수와 추억에 관한 잊혀지지 않는 이야기",
+      "description": "Myosotis에서 유령 같은 여정을 시작하여 당신의 때 이른 죽음 후 정의와 답을 찾으세요. 복수심에 찬 유령으로서 비밀을 밝히고 과거와 마주하세요.",
+      "keywords": "미오소티스, 고스트 스토리, 사후 세계, 복수, 잊혀지지 않는, 미스터리, 초자연적, 인디 게임, 이든"
     },
-    {
-      "id": 12,
-      "title": "Myosotis (미오소티스)",
-      "iframeUrl": "https://html-classic.itch.zone/html/13249930/index.html",
-      "description": "비극적인 끝을 맞은 후 세계 사이에 갇힌 당신은, 당신의 전 남자친구이자 살인자인 **이든**을 'Myosotis'에서 **괴롭힙니다**. 당신의 죽음을 둘러싼 미스터리를 풀고, 당신의 유령 같은 추적이 혼자가 아님을 발견하세요. 답을 찾고, **종결**을 찾고, 어쩌면 **다른 종류의 평화**를 찾을지도 모릅니다.",
-      "tags": [
-        "고스트 스토리",
-        "복수",
-        "사후 세계",
-        "미스터리",
-        "초자연적"
-      ],
-      "publishDate": "2025-11-05",
-      "imageUrl": "/images/games/game-12.webp",
-      "imageAlt": "추모를 상징하는 미오소티스 꽃의 흐릿한 이미지로, 미오소티스 게임과 관련이 있습니다.",
-      "seo": {
-        "title": "Myosotis - 복수와 추억에 관한 잊혀지지 않는 이야기",
-        "description": "Myosotis에서 유령 같은 여정을 시작하여 당신의 때 이른 죽음 후 정의와 답을 찾으세요. 복수심에 찬 유령으로서 비밀을 밝히고 과거와 마주하세요.",
-        "keywords": "미오소티스, 고스트 스토리, 사후 세계, 복수, 잊혀지지 않는, 미스터리, 초자연적, 인디 게임, 이든"
-      },
-      "addressBar": "myosotis",
-      "isHome": true,
-      "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    "addressBar": "myosotis",
+    "isHome": true,
+    "detailsHtml": `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
       <h2>Myosotis (미오소티스)</h2>
       <p>미오소티스는 **비탄**, **복수**, 그리고 **사후 세계**의 복잡성을 탐구하는 가슴 아픈 내러티브 경험입니다. 비극적으로 짧게 끝난 삶 이후 현세에 묶인 **유령적 인물**의 역할을 맡으세요. 당신의 임무는 당신의 옛 연인 **이든**을 괴롭히고 당신의 때 이른 죽음 뒤에 숨겨진 **진실**을 밝히는 것입니다. 그러나 당신은 곧 당신만이 그의 주변에 머무는 유령이 아니라는 것을 발견하게 되며, 당신의 **비물질적 존재**에 흥미와 미스터리의 층을 더합니다.</p>
       
@@ -961,8 +960,276 @@ export default [
       
       <p>Myosotis는 상실, 복수, 그리고 사후 세계에서의 진실 찾기라는 테마에 직면하도록 플레이어를 초대하는 매혹적이고 감정적으로 감동적인 경험을 제공합니다. 복잡한 내러티브, 매력적인 퍼즐, 그리고 분위기 있는 표현으로 Myosotis는 **생각할 거리를 던지고 잊을 수 없는 여정**을 추구하는 내러티브 중심 인디 게임 팬들에게 필수 플레이입니다.</p>
     </div>`
-    }
-  ]
+  },
+
+  {
+    id: 13,
+    title: "Hide and Seek",
+    iframeUrl: "https://html-classic.itch.zone/html/15440066/Yuria1/index.html",
+    description: "가족의 비밀과 상충되는 진실이 뒤엉킨 소름 돋는 심리 스릴러. 누구도 믿지 마세요. 부모님의 사망에 얽힌 진실을 파헤치는 기만과 서스펜스의 이야기. 머무를 것인가, 도망칠 것인가? 당신의 선택이 운명을 결정합니다.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-13.webp",
+    imageAlt: "숨겨진 진실과 불확실한 선택을 상징하는 숨바꼭질 장면.",
+    isHome: false,
+    seo: {
+      title: "Hide and Seek - 가족의 비밀과 미스터리를 밝혀라",
+      description: "어둠 속 미스터리로 뛰어드는 Hide and Seek! 서로 다른 주장 속에서 누구를 믿을지 선택하세요. 진실을 밝힐 것인가, 속임수에 빠질 것인가? 지금 플레이!",
+      keywords: "hide and seek, 미스터리 게임, 스릴러 게임, 가족 비밀, 심리 스릴러, 서스펜스 게임, 인터랙티브 내러티브"
+    },
+    addressBar: "hide-and-seek",
+    detailsHtml: `
+      <h2>
+      <span>Hide and Seek</span>
+  </h2>
+  
+  <p>
+      <span>
+          Hide and Seek에서는 진실과 거짓의 경계가 모호해지는 불안과 의심의 세계에 들어가게 됩니다. 부모님이 사망했다는 오빠의 주장. 그러나 어머니에게서 걸려온 전화는 모든 것을 혼란에 빠뜨립니다. 누구를 믿어야 할까요? 이 게임은 단순한 플레이가 아니라, 신뢰와 지각, 생존을 시험하는 경험입니다.
+      </span>
+  </p>
+  
+  <p>
+      <img src="/images/games/game-13-01.webp" 
+      alt="Hide and Seek" width="100%" style="width: 100%;">
+  </p>
+  
+  <h3>
+      <span>About</span>
+  </h3>
+  
+  <p>
+      <span>
+          Hide and Seek는 가족 위기의 중심에 선 플레이어가 상충되는 정보 속에서 중요한 결정을 내려야 하는 게임입니다. 부모님의 사망 여부를 둘러싼 미스터리가 핵심 줄거리입니다. 오빠는 부모님이 교통사고로 사망했다고 말하지만, 어머니는 자신이 살아 있다고 주장합니다. 이러한 대립은 게임 전체에 긴장감과 서스펜스를 불러일으킵니다. 당신은 상황을 조사하고 단서를 수집하며, 누구를 믿을지 결정해야 합니다. 몰입감 있는 내러티브는 진실을 파헤치는 과정에서 플레이어를 끝까지 긴장하게 만들 것입니다.
+      </span>
+  </p>
+  
+  <h3>
+      <span>Features</span>
+  </h3>
+  
+  <ol>
+      <li>
+          <strong>흥미로운 내러티브:</strong>
+          <span> 결말까지 긴장감을 유지하게 만드는 반전과 전개로 가득한 스토리를 경험하세요. 상충되는 주장들은 불안감과 의문을 지속적으로 자아냅니다.</span>
+      </li>
+  
+      <li>
+          <strong>의미 있는 선택:</strong>
+          <span> 당신의 선택은 이야기 전개에 직접적인 영향을 줍니다. 선택에 따라 새로운 비밀이 드러나며, 결말도 달라집니다.</span>
+      </li>
+  
+      <li>
+          <strong>몰입감 있는 분위기:</strong>
+          <span> 섬세한 환경 연출과 사운드 디자인이 현실감 넘치는 분위기를 제공합니다.</span>
+      </li>
+  
+      <li>
+          <strong>다양한 엔딩:</strong>
+          <span> 선택에 따라 여러 엔딩을 경험할 수 있습니다. 높은 리플레이 가치를 제공합니다.</span>
+      </li>
+  
+      <li>
+          <strong>심리적 서스펜스:</strong>
+          <span> 미스터리를 풀어가는 과정에서 지속적인 긴장감을 느낄 수 있습니다. 게임은 당신의 인식을 시험에 들게 합니다.</span>
+      </li>
+  
+      <li>
+          <strong>캐릭터 개발:</strong>
+          <span> 각 캐릭터의 동기와 비밀이 서서히 드러납니다.</span>
+      </li>
+  
+      <li>
+          <strong>숨겨진 단서:</strong>
+          <span> 전체 미스터리를 풀어가는 데 도움이 되는 단서를 탐색하세요.</span>
+      </li>
+  
+      <li>
+          <strong>감정적 몰입:</strong>
+          <span> 가족, 신뢰, 배신이라는 주제를 다루며 강한 감정적 연결을 제공합니다.</span>
+      </li>
+  </ol>
+  
+  <h3>
+      <span>FAQ</span>
+  </h3>
+  
+  <ol>
+      <li>
+          <span>이 게임은 무섭나요?</span>
+      </li>
+  
+      <li>
+          <span>Hide and Seek는 점프 스케어보다는 심리적 긴장과 미스터리에 초점을 둔 스릴러입니다.</span>
+      </li>
+  
+      <li>
+          <span>플레이 시간은 얼마나 되나요?</span>
+      </li>
+  
+      <li>
+          <span>플레이 스타일과 선택에 따라 다르지만, 보통 1~2시간 정도 걸립니다.</span>
+      </li>
+  
+      <li>
+          <span>엔딩이 여러 개인가요?</span>
+      </li>
+  
+      <li>
+          <span>네, 플레이어의 선택에 따라 여러 엔딩이 존재합니다.</span>
+      </li>
+  
+      <li>
+          <span>어디에서 플레이할 수 있나요?</span>
+      </li>
+  
+      <li>
+          <span>현재 itch.io에서 브라우저를 통해 플레이할 수 있습니다.</span>
+      </li>
+  
+      <li>
+          <span>무료인가요?</span>
+      </li>
+  
+      <li>
+          <span>네, Hide and Seek는 무료로 플레이할 수 있습니다.</span>
+      </li>
+  
+      <li>
+          <span>성공적인 Hide and Seek 게임의 핵심 요소는 무엇인가요?</span>
+      </li>
+  
+      <li>
+          <span>강렬한 내러티브, 의미 있는 선택, 몰입감 있는 분위기가 핵심입니다.</span>
+      </li>
+  </ol>
+  
+  <p>
+      <span>
+          Hide and Seek는 당신이 알고 있다고 믿었던 모든 것을 의심하게 만드는 독특하고 소름 돋는 경험을 제공합니다. 진실을 밝힐 것인지, 속임수의 희생양이 될 것인지—지금 직접 확인해 보세요!
+      </span>
+  </p>
+      `,
+  },
+
+  {
+    id: 14,
+    title: "Tuna Rice",
+    iframeUrl: "https://html-classic.itch.zone/html/15460871/index.html",
+    description: "Tuna Rice는 소년과 고양이가 단순한 행동을 통해 서로에게 위로를 전하는 따뜻한 비주얼 노벨입니다. 마요네즈는 없습니다! 순수한 포근함과 참치밥의 따뜻함을 느껴보세요.",
+    publishDate: "2025-11-07",
+    imageUrl: "/images/games/game-14.webp",
+    imageAlt: "소년과 고양이가 참치밥을 나누는 Tuna Rice VN의 따뜻한 장면.",
+    isHome: false,
+    seo: {
+      title: "Tuna Rice: 감동적인 비주얼 노벨 - 무료 플레이!",
+      description: "Tuna Rice는 우정, 위로, 그리고 맛있는 참치밥(마요 없음!)을 다룬 따뜻한 비주얼 노벨입니다. 소년과 고양이의 감동적인 이야기를 지금 경험하세요.",
+      keywords: "tuna rice, 비주얼 노벨, 고양이 게임, 힐링 게임, 감성, 애니메이션 게임, 무료 게임"
+    },
+    addressBar: "tuna-rice",
+    detailsHtml: `
+      <h2>
+      <span>Tuna Rice</span>
+  </h2>
+  <p>
+      <span>'Tuna Rice'는 삶의 단순한 즐거움—따뜻함, 동행, 그리고 완벽한 참치밥을 기념하는 귀엽고 포근한 비주얼 노벨입니다. 이 게임은 복잡한 시스템이 아닌, 순수한 감정과 행복을 전달하는 경험입니다.</span>
+  </p>
+  <p>
+      <img src="/images/games/game-14-01.webp" alt="Tuna Rice" width="100%" style="width: 100%;">
+  </p>
+  <h3>
+      <span>About</span>
+  </h3>
+  <p>
+      <span>'Tuna Rice'는 소년과 고양이 사이의 특별한 유대감을 그려낸 감동적인 이야기입니다. 서로의 언어는 통하지 않아도, 서로를 위로하는 마음은 통합니다. 소년이 고양이에게 따뜻한 참치밥을 주는 장면부터, 고양이가 소년에게 위로를 돌려주는 순간까지—이 게임은 작은 행동이 얼마나 큰 의미가 될 수 있는지를 보여줍니다.</span>
+  </p>
+  <h3>
+      <span>Features</span>
+  </h3>
+  <ol>
+      <li>
+          <strong>감동적인 스토리:</strong>
+          <span> 소년과 고양이의 우정과 상호 위로를 담은 따뜻한 이야기.</span>
+      </li>
+      <li>
+          <strong>귀여운 비주얼:</strong>
+          <span> 포근한 분위기를 돋보이게 하는 아기자기한 그림체.</span>
+      </li>
+      <li>
+          <strong>잔잔한 사운드트랙:</strong>
+          <span> 힐링 분위기를 극대화하는 부드러운 음악.</span>
+      </li>
+      <li>
+          <strong>고양이만의 대화 방식:</strong>
+          <span> 귀엽고 유머러스한 고양이의 표현을 감상하세요.</span>
+      </li>
+      <li>
+          <strong>상징적 메시지:</strong>
+          <span> 참치밥이라는 음식이 따뜻함과 위로의 상징으로 등장합니다.</span>
+      </li>
+      <li>
+          <strong>짧고 여운 있는 플레이:</strong>
+          <span> 30~60분 내로 끝낼 수 있는 부담 없는 힐링 게임.</span>
+      </li>
+      <li>
+          <strong>마요네즈 없음:</strong>
+          <span> 이 참치밥은 철저하게 마요네즈를 넣지 않습니다!</span>
+      </li>
+      <li>
+          <strong>감정 중심 전개:</strong>
+          <span> 복잡한 시스템보다 감정적 몰입에 초점을 맞춘 게임입니다.</span>
+      </li>
+  </ol>
+  <h3>
+      <span>FAQ</span>
+  </h3>
+  <ol>
+      <li>
+          <span>참치밥에 마요네즈가 들어가나요?</span>
+      </li>
+      <li>
+          <span>절대 없습니다! 제작자는 마요 참치에 강한 반대 입장입니다.</span>
+      </li>
+      <li>
+          <span>플레이 시간은 얼마나 되나요?</span>
+      </li>
+      <li>
+          <span>약 30~60분 정도입니다.</span>
+      </li>
+      <li>
+          <span>어디에서 플레이할 수 있나요?</span>
+      </li>
+      <li>
+          <span>HTML5 지원 브라우저에서 온라인 플레이 가능합니다.</span>
+      </li>
+      <li>
+          <span>나쁜 엔딩이 있나요?</span>
+      </li>
+      <li>
+          <span>없습니다. 이 게임은 완전히 힐링 중심입니다.</span>
+      </li>
+      <li>
+          <span>모든 연령이 플레이할 수 있나요?</span>
+      </li>
+      <li>
+          <span>네, 전 연령 대상입니다.</span>
+      </li>
+      <li>
+          <span>'Tuna Rice'는 무엇에 영감을 받았나요?</span>
+      </li>
+      <li>
+          <span>소중한 존재와 음식을 나누는 따뜻한 순간에서 영감을 받았습니다.</span>
+      </li>
+  </ol>
+  <p>
+      <span>'Tuna Rice'는 단순한 게임이 아닙니다. 작은 행복을 소중히 여겨야 한다는 메시지를 전달합니다. 포근한 경험을 원한다면 지금 바로 플레이해보세요!</span>
+  </p>
+  
+      `,
+  },
+
+
+
+
 
 ]
 
