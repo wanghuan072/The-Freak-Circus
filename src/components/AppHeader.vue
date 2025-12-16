@@ -33,6 +33,9 @@
                             <a href="/games" class="nav-link">{{ $t('nav.visualNovelGames') }}</a>
                         </li>
                         <li class="nav-item">
+                            <a href="/blog" class="nav-link">{{ $t('nav.blog') }}</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/download" class="nav-link">{{ $t('nav.download') }}</a>
                         </li>
                     </ul>
@@ -91,6 +94,10 @@
                         <li class="nav-item">
                             <a href="/games" class="nav-link" @click="closeMobileMenu">{{
                                 $t('nav.visualNovelGames') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/blog" class="nav-link" @click="closeMobileMenu">{{
+                                $t('nav.blog') }}</a>
                         </li>
                         <li class="nav-item">
                             <a href="/pierrot-coloring" class="nav-link" @click="closeMobileMenu">{{

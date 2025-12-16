@@ -24,6 +24,31 @@
         <div class="container">
           <div class="updates-list">
             <article class="update-block">
+              <h2 class="update-title">{{ $t('UpdatesPage.updates.day2Update.title') }}</h2>
+              <div class="update-content">
+                <p
+                  v-html="$t('UpdatesPage.updates.day2Update.description1', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.day2Update.description2', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.day2Update.description3', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.day2Update.description4', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.day2Update.description5', {}, { raw: true })"
+                ></p>
+                <img
+                  src="/images/blog/blog02.webp"
+                  alt="The Freak Circus Day 2 update featuring the three tents"
+                />
+              </div>
+            </article>
+
+            <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.lastDevlog.title') }}</h2>
               <div class="update-content">
                 <p

@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import gamesEn from '../src/data/en/games.js'
+import blogEn from '../src/data/blog/en.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -22,6 +23,7 @@ const routes = [
     { path: '/updates', name: 'updates', priority: 0.6, changefreq: 'weekly' },
     { path: '/download', name: 'download', priority: 0.9, changefreq: 'weekly' },
     { path: '/games', name: 'games', priority: 0.8, changefreq: 'weekly' },
+    { path: '/blog', name: 'blog', priority: 0.8, changefreq: 'weekly' },
     { path: '/about-us', name: 'about', priority: 0.5, changefreq: 'yearly' },
     { path: '/contact-us', name: 'contact', priority: 0.5, changefreq: 'yearly' },
     { path: '/privacy-policy', name: 'privacy', priority: 0.3, changefreq: 'yearly' },
@@ -69,6 +71,17 @@ function generateSitemap() {
             seoConfig.supportedLanguages.forEach(lang => {
                 const gamePath = `/games/${game.addressBar}`
                 sitemapXml += `\n${generateUrlXml(gamePath, lang, game.publishDate || lastmod, 0.9, 'monthly')}`
+            })
+        })
+    }
+
+    // 为每个博客和每种语言生成URL
+    const blogs = blogEn?.default || blogEn
+    if (blogs && Array.isArray(blogs)) {
+        blogs.forEach(blog => {
+            seoConfig.supportedLanguages.forEach(lang => {
+                const blogPath = `/blog/${blog.addressBar}`
+                sitemapXml += `\n${generateUrlXml(blogPath, lang, blog.publishDate || lastmod, 0.9, 'monthly')}`
             })
         })
     }

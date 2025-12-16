@@ -30,6 +30,11 @@
       "description": "The Freak Circus ビジュアルノベルの最新ニュースと更新情報をチェック。開発の進行状況や新コンテンツのリリース情報をフォロー。",
       "keywords": "The Freak Circus 更新, 開発ニュース, ビジュアルノベル更新, ゲームニュース, thefreakcircus.org"
     },
+    "blog": {
+      "title": "The Freak Circus ブログ - 最新アップデートとニュース | thefreakcircus.org",
+      "description": "The Freak Circus の最新ブログ記事を最新の状態に保ちましょう。開発アップデート、キャラクターの洞察、舞台裏のコンテンツを読んでください。",
+      "keywords": "The Freak Circus ブログ, ビジュアルノベルブログ, ゲーム開発ブログ, Pierrot, Harlequin, サーカスゲームアップデート, thefreakcircus.org"
+    },
     "about": {
       "title": "The Freak Circus について - ゲーム情報 | thefreakcircus.org",
       "description": "The Freak Circus ビジュアルノベルの開発や、心理ホラー体験を提供するチームについて学ぼう。",
@@ -69,6 +74,7 @@
     "harlequin": "ハーレクイン",
     "wiki": "ウィキ",
     "visualNovelGames": "ビジュアルノベルゲーム",
+    "blog": "ブログ",
     "download": "ダウンロード",
     "openMenu": "メニューを開く",
     "closeMenu": "メニューを閉じる"
@@ -100,7 +106,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "サイコホラー ビジュアルノベル",
-      "description": "現実が歪み、悪夢が生き生きと現れる世界に足を踏み入れよう。The Freak Circus は、真実と虚構の境界を揺るがす没入型サイコホラービジュアルノベルです。",
+      "description": "現実が歪み、悪夢が生き生きと現れる世界に足を踏み入れよう。The Freak Circus は、真実と虚構の境界を揺るがす没入型サイコホラービジュアルノベルです。<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">2日目アップデート</a>では、より暗い物語、ジェスターやドクターなどの新キャラクター、ピエロとハーレクインの間の深い敵意を明らかにするコロンビーナの悲劇的な伝説が登場します。",
       "playButton": "今すぐプレイ",
       "learnButton": "The Freak Circus について詳しく知る",
       "warning": "コンテンツ警告：このゲームには成人向けテーマ、心理的ホラー、衝撃的な描写が含まれます。18歳以上推奨。",
@@ -108,7 +114,7 @@
     },
     "about": {
       "title": "The Freak Circus とは？",
-      "description": "The Freak Circus は、登場キャラクターたちの歪んだ心の旅へと誘うサイコホラービジュアルノベルです。現実とは異なる謎めいたサーカスで、ピエロとハーレクインという二人の不思議な人物に出会い、その物語を通じて現実に対する認識が揺さぶられます。",
+      "description": "The Freak Circus は、登場キャラクターたちの歪んだ心の旅へと誘うサイコホラービジュアルノベルです。現実とは異なる謎めいたサーカスで、ピエロとハーレクインという二人の不思議な人物に出会い、その物語を通じて現実に対する認識が揺さぶられます。<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2日目アップデート</a>では、誘拐、心理操作、ピエロとハーレクインの間の深い敵意を明らかにするコロンビーナの悲劇的な伝説を含む、より暗い物語にプレイヤーを引き込みます。新しいテントの場所を探索し、ジェスター、ドクター、チケットテイカーなどの神秘的なキャラクターに会い、この歪んだ物語に深みを加える隠されたシーンを発見してください。",
       "feature1": "心理ホラー要素",
       "feature1Desc": "深い心理的テーマを体験し、現実を問い続ける",
       "feature2": "豊かなキャラクター描写",
@@ -131,7 +137,7 @@
     "faq": {
       "title": "よくある質問",
       "question1": "The Freak Circus とは何ですか？",
-      "answer1": "The Freak Circus は、ピエロとハーレクインの物語を通じて、現実、認識、人間の心理を探求するサイコホラービジュアルノベルです。",
+      "answer1": "The Freak Circus は、ピエロとハーレクインの物語を通じて、現実、認識、人間の心理を探求するサイコホラービジュアルノベルです。2日目アップデートでは、誘拐、心理操作、二人の主人公の間の深い敵意を明らかにするコロンビーナの悲劇的な伝説を含む、より暗い物語要素が導入されます。プレイヤーは新しいテントの場所を探索し、ジェスター、ドクター、チケットテイカーなどの神秘的なキャラクターに会い、複数のエンディングを持つ隠されたシーンを発見できます。",
       "question2": "全ての年齢に適していますか？",
       "answer2": "いいえ。The Freak Circus には成人向けテーマ、心理ホラー、衝撃的な描写が含まれます。18歳以上推奨。",
       "question3": "対応プラットフォームは？",
@@ -157,9 +163,9 @@
       "title": "最新アップデート",
       "viewAll": "すべてのアップデートを見る",
       "update1": {
-        "date": "2025年10月27日",
-        "title": "週間アップデート",
-        "excerpt": "シアンのテントのコーディングを完了しました。このシーンを仕上げるにはあと2枚のスプライトが必要です..."
+        "date": "2025年1月20日",
+        "title": "2日目アップデート：新キャラクターとより暗い物語",
+        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2日目アップデート</a>では、誘拐、心理操作、コロンビーナの悲劇的な伝説により、ゲームの緊張感が大幅に高まります。新しいテントの場所を探索し、ジェスター、ドクター、チケットテイカーに会い、複数のエンディングを持つ隠されたシーンを発見してください。"
       },
       "update2": {
         "date": "2025年9月27日",
@@ -186,6 +192,36 @@
     },
     "viewDetails": "詳細を見る",
     "playNow": "今すぐプレイ →"
+  },
+  "BlogListPage": {
+    "header": {
+      "title": "The Freak Circus ブログ",
+      "subtitle": "最新アップデート、キャラクターの洞察、開発ニュース"
+    },
+    "loading": "ブログを読み込み中...",
+    "error": "ブログの読み込みエラー：",
+    "viewDetails": "続きを読む",
+    "readMore": "続きを読む →"
+  },
+  "BlogDetailPage": {
+    "breadcrumb": {
+      "home": "ホーム",
+      "blog": "ブログ"
+    },
+    "sidebar": {
+      "aboutThisPost": "この投稿について",
+      "tags": "タグ",
+      "relatedLinks": "関連リンク",
+      "home": "ホーム",
+      "games": "ゲーム",
+      "wiki": "Wiki",
+      "updates": "アップデート"
+    },
+    "notFound": {
+      "title": "ブログが見つかりません",
+      "description": "お探しのブログ記事は存在しないか、削除されました。",
+      "backToBlog": "ブログに戻る"
+    }
   },
   "GameDetailPage": {
     "allReviews": "すべてのレビュー",
@@ -655,6 +691,14 @@
         "roadmap4": "Build tests for browser and Android",
         "roadmap5": "And then that's it the update will be ready to launch!",
         "description5": "I'm trying to run more tests this time so there won't be as many errors, since the last release had quite a few that I had to fix later."
+      },
+      "day2Update": {
+        "title": "2日目アップデート：新キャラクターとより暗い物語",
+        "description1": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2日目アップデート</a>がついに到着しました！この大きなアップデートは、誘拐、心理操作、ピエロとハーレクインの間の深い敵意を明らかにするコロンビーナの悲劇的な伝説を含む、より暗い物語にプレイヤーを引き込み、ゲームの緊張感を大幅に高めます。",
+        "description2": "2日目は、サーカスのテント内の見知らぬ部屋のベッドに鎖でつながれた状態で目を覚ますことから始まります。ピエロは、あなたを他の人から「守る」ためにあなたを薬で眠らせ、誘拐したと主張し、彼の所有欲が強く不安定な性質を示しています。一方、ハーレクインはピエロがいない間に部屋に侵入し、2人のキャラクター間の対比を強調します—ピエロはあなたを隠したいのに対し、ハーレクインは「遊び」、狩りをしたいのです。",
+        "description3": "アップデートでは、3つの新しい神秘的なキャラクターが導入されます：人形を使ってコロンビーナの悲劇的な物語を語る<strong>ジェスター</strong>、ゲームに医療ホラーをもたらすペスト医師の<strong>ドクター</strong>、そして鏡のテントで歪んだ反射を通じて現実を操作する<strong>チケットテイカー</strong>です。",
+        "description4": "プレイヤーは特定のアトラクションテントを探索できるようになり、それぞれがサーカスの暗い秘密の異なる側面を明らかにします。2日目アップデートには、深みと再プレイ性を追加する新しい隠しシーンシステム、選択に基づく複数のエンディング、キャラクタースプライト、表情、背景を含む100以上の新しい画像も含まれています。",
+        "description5": "すべての新しいコンテンツの完全なウォークスルーと詳細なガイドについては、サーカスを旅する2日目に遭遇するすべての主要なイベント、新しい場所、キャラクターの相互作用、隠しシーン、複数のエンディングをカバーする包括的な<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2日目ブログ記事</a>をご覧ください。"
       },
       "lastDevlog": {
         "title": "Last devlog before the update (I Hope!)",

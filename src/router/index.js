@@ -33,6 +33,7 @@ const pageConfigs = [
   { path: '/updates', component: 'UpdatesView', name: 'Updates' },
   { path: '/download', component: 'DownloadView', name: 'Download' },
   { path: '/games', component: 'GamesListView', name: 'GamesList' },
+  { path: '/blog', component: 'BlogListView', name: 'BlogList' },
   { path: '/privacy-policy', component: 'PrivacyPolicyView', name: 'PrivacyPolicy' },
   { path: '/terms-of-service', component: 'TermsOfServiceView', name: 'TermsOfService' },
   { path: '/copyright', component: 'CopyrightView', name: 'Copyright' },
@@ -63,6 +64,16 @@ supportedLanguages.forEach(lang => {
     path: `${prefix}/games/:id`,
     name: lang === 'en' ? 'GameDetail' : `GameDetail${lang.charAt(0).toUpperCase() + lang.slice(1)}`,
     component: () => import('@/views/GameDetailView.vue')
+  })
+})
+
+// 添加博客详情页路由（动态路由）
+supportedLanguages.forEach(lang => {
+  const prefix = lang === 'en' ? '' : `/${lang}`
+  routes.push({
+    path: `${prefix}/blog/:id`,
+    name: lang === 'en' ? 'BlogDetail' : `BlogDetail${lang.charAt(0).toUpperCase() + lang.slice(1)}`,
+    component: () => import('@/views/BlogDetailView.vue')
   })
 })
 
@@ -151,6 +162,7 @@ function getSEOKey(path, language) {
     '/updates': 'updates',
     '/download': 'download',
     '/games': 'games',
+    '/blog': 'blog',
     '/about-us': 'about',
     '/contact-us': 'contact',
     '/privacy-policy': 'privacy',

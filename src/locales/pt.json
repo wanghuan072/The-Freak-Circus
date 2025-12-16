@@ -30,6 +30,11 @@
       "description": "Mantenha-se atualizado com as últimas notícias e atualizações da visual novel The Freak Circus. Acompanhe o progresso do desenvolvimento e novos conteúdos.",
       "keywords": "atualizações The Freak Circus, notícias do desenvolvimento, atualizações de visual novel, notícias de jogo, thefreakcircus.org"
     },
+    "blog": {
+      "title": "Blog The Freak Circus - Últimas atualizações e notícias | thefreakcircus.org",
+      "description": "Mantenha-se atualizado com as últimas postagens do blog de The Freak Circus. Leia sobre atualizações de desenvolvimento, insights de personagens e conteúdo dos bastidores.",
+      "keywords": "Blog The Freak Circus, blog de visual novel, blog de desenvolvimento de jogos, Pierrot, Harlequin, atualizações do jogo de circo, thefreakcircus.org"
+    },
     "about": {
       "title": "Sobre The Freak Circus - Informações do Jogo | thefreakcircus.org",
       "description": "Saiba mais sobre a visual novel The Freak Circus, seu desenvolvimento e a equipe por trás desta experiência de terror psicológico.",
@@ -69,6 +74,7 @@
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "visualNovelGames": "Visual Novel Games",
+    "blog": "Blog",
     "download": "Download",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
@@ -99,7 +105,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "Uma Visual Novel de Terror Psicológico",
-      "description": "Entre em um mundo onde a realidade se dobra e os pesadelos ganham vida. The Freak Circus é uma visual novel de terror psicológico imersiva que desafiará sua percepção da verdade e da ficção.",
+      "description": "Entre em um mundo onde a realidade se dobra e os pesadelos ganham vida. The Freak Circus é uma visual novel de terror psicológico imersiva que desafiará sua percepção da verdade e da ficção. Experimente a <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">atualização do Dia 2</a> com narrativas mais sombrias, novos personagens como o Jester e o Doutor, e a trágica lenda de Columbina que revela a profunda animosidade entre Pierrot e Harlequin.",
       "playButton": "Jogar Agora",
       "learnButton": "Saiba Mais",
       "warning": "Aviso de Conteúdo: Este jogo contém temas maduros, terror psicológico e imagens perturbadoras. Recomendado para maiores de 18 anos.",
@@ -107,7 +113,7 @@
     },
     "about": {
       "title": "O que é The Freak Circus?",
-      "description": "The Freak Circus é uma visual novel de terror psicológico que leva você em uma jornada pela mente distorcida de seus personagens. Situado em um circo misterioso, onde nada é o que parece, você encontrará Pierrot e Harlequin - duas figuras enigmáticas cujas histórias desafiarão tudo que você pensa saber sobre a realidade.",
+      "description": "The Freak Circus é uma visual novel de terror psicológico que leva você em uma jornada pela mente distorcida de seus personagens. Situado em um circo misterioso, onde nada é o que parece, você encontrará Pierrot e Harlequin - duas figuras enigmáticas cujas histórias desafiarão tudo que você pensa saber sobre a realidade. A <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">atualização do Dia 2</a> mergulha os jogadores em uma narrativa mais sombria envolvendo sequestro, manipulação psicológica e a trágica lenda de Columbina que revela a profunda animosidade entre Pierrot e Harlequin. Explore novos locais de tendas, conheça personagens misteriosos como o Jester, o Doutor e o Ticket Taker, e descubra cenas ocultas que adicionam profundidade a esta história distorcida.",
       "feature1": "Elementos de Terror Psicológico",
       "feature1Desc": "Experimente temas psicológicos profundos que farão você questionar a realidade",
       "feature2": "Desenvolvimento Rico de Personagens",
@@ -129,7 +135,7 @@
     "faq": {
       "title": "Perguntas Frequentes",
       "question1": "O que é The Freak Circus?",
-      "answer1": "The Freak Circus é uma visual novel de terror psicológico que explora temas de realidade, percepção e psique humana através das histórias de Pierrot e Harlequin.",
+      "answer1": "The Freak Circus é uma visual novel de terror psicológico que explora temas de realidade, percepção e psique humana através das histórias de Pierrot e Harlequin. A atualização do Dia 2 introduz elementos narrativos mais sombrios, incluindo sequestro, manipulação psicológica e a trágica lenda de Columbina que revela a profunda animosidade entre os dois personagens principais. Os jogadores podem explorar novos locais de tendas, conhecer personagens misteriosos como o Jester, o Doutor e o Ticket Taker, e descobrir cenas ocultas com múltiplos finais.",
       "question2": "O jogo é adequado para todas as idades?",
       "answer2": "Não, The Freak Circus contém temas maduros, terror psicológico e imagens perturbadoras. Recomendado para maiores de 18 anos.",
       "question3": "Em quais plataformas o jogo está disponível?",
@@ -155,9 +161,9 @@
       "title": "Últimas Atualizações",
       "viewAll": "Ver Todas as Atualizações",
       "update1": {
-        "date": "27 de outubro de 2025",
-        "title": "Atualização Semanal",
-        "excerpt": "Terminei de codificar a tenda ciano. Faltam apenas dois sprites para completar essa cena..."
+        "date": "20 de janeiro de 2025",
+        "title": "Atualização do Dia 2: Novos Personagens e História Mais Sombria",
+        "excerpt": "A <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">atualização do Dia 2</a> aumenta significativamente as apostas com sequestro, manipulação psicológica e a trágica lenda de Columbina. Explore novos locais de tendas, conheça o Jester, o Doutor e o Ticket Taker, e descubra cenas ocultas com múltiplos finais."
       },
       "update2": {
         "date": "27 de setembro de 2025",
@@ -184,6 +190,36 @@
     },
     "viewDetails": "Ver detalhes",
     "playNow": "Jogar agora →"
+  },
+  "BlogListPage": {
+    "header": {
+      "title": "Blog The Freak Circus",
+      "subtitle": "Últimas atualizações, insights de personagens e notícias de desenvolvimento"
+    },
+    "loading": "Carregando blogs...",
+    "error": "Erro ao carregar blogs:",
+    "viewDetails": "Ler mais",
+    "readMore": "Ler mais →"
+  },
+  "BlogDetailPage": {
+    "breadcrumb": {
+      "home": "Início",
+      "blog": "Blog"
+    },
+    "sidebar": {
+      "aboutThisPost": "Sobre esta postagem",
+      "tags": "Tags",
+      "relatedLinks": "Links relacionados",
+      "home": "Início",
+      "games": "Jogos",
+      "wiki": "Wiki",
+      "updates": "Atualizações"
+    },
+    "notFound": {
+      "title": "Blog não encontrado",
+      "description": "A postagem do blog que você está procurando não existe ou foi removida.",
+      "backToBlog": "Voltar ao blog"
+    }
   },
   "GameDetailPage": {
     "allReviews": "Todas as Avaliações",
@@ -653,6 +689,14 @@
         "roadmap4": "Build tests for browser and Android",
         "roadmap5": "And then that's it the update will be ready to launch!",
         "description5": "I'm trying to run more tests this time so there won't be as many errors, since the last release had quite a few that I had to fix later."
+      },
+      "day2Update": {
+        "title": "Atualização do Dia 2: Novos Personagens e História Mais Sombria",
+        "description1": "A <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">atualização do Dia 2</a> finalmente chegou! Esta atualização importante aumenta significativamente as apostas do jogo, mergulhando os jogadores em uma narrativa mais sombria envolvendo sequestro, manipulação psicológica e a trágica lenda de Columbina que revela a profunda animosidade entre Pierrot e Harlequin.",
+        "description2": "O Dia 2 começa com você acordando acorrentado a uma cama em um quarto desconhecido dentro da tenda do circo. Pierrot afirma que o drogou e sequestrou para \"protegê-lo\" dos outros, mostrando sua natureza possessiva e instável. Enquanto isso, Harlequin invade o quarto enquanto Pierrot está ausente, destacando o contraste entre os dois personagens - enquanto Pierrot quer escondê-lo, Harlequin quer \"brincar\" e caçar.",
+        "description3": "A atualização introduz três novos personagens misteriosos: o <strong>Jester</strong>, que conta a trágica história de Columbina usando marionetes; o <strong>Doutor</strong>, um médico da peste que traz horror médico ao jogo; e o <strong>Ticket Taker</strong>, que manipula a realidade através de reflexos distorcidos na Tenda dos Espelhos.",
+        "description4": "Os jogadores agora podem explorar tendas de atrações específicas, cada uma revelando diferentes aspectos dos segredos sombrios do circo. A atualização do Dia 2 também apresenta um novo Sistema de Cenas Ocultas que adiciona profundidade e rejogabilidade, múltiplos finais baseados em suas escolhas e mais de 100 novas imagens, incluindo sprites de personagens, expressões e fundos.",
+        "description5": "Para um guia completo e detalhado de todo o novo conteúdo, confira nosso <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">artigo do blog do Dia 2</a> que cobre todos os eventos-chave, novos locais, interações de personagens, cenas ocultas e múltiplos finais que você encontrará durante o segundo dia de sua jornada pelo circo."
       },
       "lastDevlog": {
         "title": "Last devlog before the update (I Hope!)",

@@ -19,7 +19,7 @@
         <div class="hero-content">
           <p class="hero-subtitle">{{ $t('HomePage.hero.subtitle') }}</p>
           <div class="hero-description">
-            <p>{{ $t('HomePage.hero.description') }}</p>
+            <p v-html="$t('HomePage.hero.description')"></p>
             <!-- Platform Support -->
             <div class="hero-platforms">
               <p>
@@ -75,7 +75,7 @@
             <!-- 游戏iframe -->
             <iframe
               v-if="gameLoaded"
-              src="https://html-classic.itch.zone/html/14081436/index.html"
+              src="https://html-classic.itch.zone/html/15794705/index.html"
               width="100%"
               height="600"
               frameborder="0"
@@ -114,7 +114,7 @@
         <div class="about-content">
           <div class="about-wrapper">
             <div class="about-text">
-              <p>{{ $t('HomePage.about.description') }}</p>
+              <p v-html="$t('HomePage.about.description')"></p>
             </div>
             <div class="about-image">
               <img
@@ -250,7 +250,7 @@
               <a href="/updates" class="update-link">
                 <span class="update-date">{{ $t('HomePage.updates.update1.date') }}</span>
                 <h3 class="update-title">{{ $t('HomePage.updates.update1.title') }}</h3>
-                <p class="update-excerpt">{{ $t('HomePage.updates.update1.excerpt') }}</p>
+                <p class="update-excerpt" v-html="$t('HomePage.updates.update1.excerpt')"></p>
               </a>
             </article>
             <article class="update-card">
@@ -508,18 +508,19 @@ const gameLoaded = ref(false)
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  color: #fff;
+}
+
+.hero-description p :deep(a) {
+  color: #c084fc !important;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .hero-link {
-  color: #8b5cf6;
+  color: #c084fc;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.hero-link:hover {
-  color: #c084fc;
-  text-decoration: underline;
 }
 
 .hero-platforms {
@@ -872,6 +873,13 @@ const gameLoaded = ref(false)
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.8;
+  color: #fff;
+}
+
+.about-text p :deep(a) {
+  color: #c084fc !important;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .about-image img {
@@ -962,15 +970,9 @@ const gameLoaded = ref(false)
 }
 
 .content-link {
-  color: #8b5cf6;
+  color: #c084fc;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.content-link:hover {
-  color: #c084fc;
-  text-decoration: underline;
 }
 
 .character-link {
@@ -1046,6 +1048,12 @@ const gameLoaded = ref(false)
   color: #ccc;
   line-height: 1.6;
   margin: 0;
+}
+
+.update-excerpt :deep(a) {
+  color: #c084fc;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .updates-footer {

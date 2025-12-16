@@ -30,6 +30,11 @@
       "description": "获取《The Freak Circus》视觉小说的最新新闻与更新。关注开发进度及新内容发布。",
       "keywords": "The Freak Circus 更新, 开发新闻, 视觉小说更新, 游戏新闻, thefreakcircus.org"
     },
+    "blog": {
+      "title": "The Freak Circus 博客 - 最新更新和新闻 | thefreakcircus.org",
+      "description": "了解 The Freak Circus 的最新博客文章。阅读开发更新、角色洞察和幕后内容。",
+      "keywords": "The Freak Circus 博客, 视觉小说博客, 游戏开发博客, Pierrot, Harlequin, 马戏团游戏更新, thefreakcircus.org"
+    },
     "about": {
       "title": "关于 The Freak Circus - 游戏信息 | thefreakcircus.org",
       "description": "了解《The Freak Circus》视觉小说及其开发团队背后的故事，体验心理恐怖冒险。",
@@ -69,6 +74,7 @@
     "harlequin": "Harlequin",
     "wiki": "Wiki",
     "visualNovelGames": "视觉小说游戏",
+    "blog": "博客",
     "download": "下载",
     "openMenu": "打开菜单",
     "closeMenu": "关闭菜单"
@@ -100,7 +106,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "心理恐怖视觉小说",
-      "description": "踏入一个现实扭曲、噩梦成真的世界。《The Freak Circus》是一款沉浸式心理恐怖视觉小说，将挑战你对现实与虚构的认知。",
+      "description": "踏入一个现实扭曲、噩梦成真的世界。《The Freak Circus》是一款沉浸式心理恐怖视觉小说，将挑战你对现实与虚构的认知。体验<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">第二天更新</a>，包含更黑暗的叙事、新角色如小丑和医生，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。",
       "playButton": "立即游玩",
       "learnButton": "了解更多关于《The Freak Circus》",
       "warning": "内容警告：本游戏包含成人主题、心理恐怖及惊悚画面，建议18岁以上玩家游玩。",
@@ -108,7 +114,7 @@
     },
     "about": {
       "title": "什么是 The Freak Circus？",
-      "description": "《The Freak Circus》是一款心理恐怖视觉小说，带你进入角色扭曲的内心世界。在神秘的马戏团里，一切都不如表面，玩家将遇见 Pierrot 与 Harlequin —— 两位谜一样的人物，他们的故事将挑战你对现实的认知。",
+      "description": "《The Freak Circus》是一款心理恐怖视觉小说，带你进入角色扭曲的内心世界。在神秘的马戏团里，一切都不如表面，玩家将遇见 Pierrot 与 Harlequin —— 两位谜一样的人物，他们的故事将挑战你对现实的认知。<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>将玩家带入更黑暗的叙事，涉及绑架、心理操控，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。探索新的帐篷地点，遇见神秘角色如小丑、医生和售票员，揭开为这个扭曲故事增添深度的隐藏场景。",
       "feature1": "心理恐怖元素",
       "feature1Desc": "体验深度心理主题，让你不断质疑现实",
       "feature2": "丰富的角色塑造",
@@ -131,7 +137,7 @@
     "faq": {
       "title": "常见问题",
       "question1": "什么是 The Freak Circus？",
-      "answer1": "《The Freak Circus》是一款心理恐怖视觉小说，通过 Pierrot 与 Harlequin 的故事探讨现实、认知与人类心理主题。",
+      "answer1": "《The Freak Circus》是一款心理恐怖视觉小说，通过 Pierrot 与 Harlequin 的故事探讨现实、认知与人类心理主题。第二天更新引入了更黑暗的叙事元素，包括绑架、心理操控，以及揭示两位主角之间深仇的 Columbina 悲剧传说。玩家可以探索新的帐篷地点，遇见神秘角色如小丑、医生和售票员，并发现包含多个结局的隐藏场景。",
       "question2": "游戏适合所有年龄吗？",
       "answer2": "不适合，本作包含成人主题、心理恐怖及惊悚画面，建议18岁及以上玩家游玩。",
       "question3": "游戏支持哪些平台？",
@@ -157,9 +163,9 @@
       "title": "最新更新",
       "viewAll": "查看所有更新",
       "update1": {
-        "date": "2025年10月27日",
-        "title": "每周更新",
-        "excerpt": "我终于完成了青色帐篷（Cyan Tent）的代码，还差两个立绘就能把那场戏搞定..."
+        "date": "2025年1月20日",
+        "title": "第二天更新：新角色与更黑暗的故事",
+        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>大幅提升了游戏紧张感，包含绑架、心理操控和 Columbina 悲剧传说。探索新的帐篷地点，遇见小丑、医生和售票员，发现包含多个结局的隐藏场景。"
       },
       "update2": {
         "date": "2025年9月27日",
@@ -186,6 +192,36 @@
     },
     "viewDetails": "查看详情",
     "playNow": "立即游玩 →"
+  },
+  "BlogListPage": {
+    "header": {
+      "title": "The Freak Circus 博客",
+      "subtitle": "最新更新、角色洞察和开发新闻"
+    },
+    "loading": "加载博客中...",
+    "error": "加载博客时出错：",
+    "viewDetails": "阅读更多",
+    "readMore": "阅读更多 →"
+  },
+  "BlogDetailPage": {
+    "breadcrumb": {
+      "home": "首页",
+      "blog": "博客"
+    },
+    "sidebar": {
+      "aboutThisPost": "关于本文",
+      "tags": "标签",
+      "relatedLinks": "相关链接",
+      "home": "首页",
+      "games": "游戏",
+      "wiki": "Wiki",
+      "updates": "更新"
+    },
+    "notFound": {
+      "title": "博客未找到",
+      "description": "您要查找的博客文章不存在或已被删除。",
+      "backToBlog": "返回博客"
+    }
   },
   "GameDetailPage": {
     "allReviews": "所有评论",
@@ -655,6 +691,14 @@
         "roadmap4": "浏览器和 Android 版本的构建测试",
         "roadmap5": "然后就这样——更新就可以发布了！",
         "description5": "这次我试图运行更多测试，这样就不会有那么多错误，因为上次发布有很多问题，我后来不得不修复。"
+      },
+      "day2Update": {
+        "title": "第二天更新：新角色与更黑暗的故事",
+        "description1": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>终于来了！这次重大更新大幅提升了游戏的紧张感，将玩家带入更黑暗的叙事，涉及绑架、心理操控，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。",
+        "description2": "第二天从你在马戏团帐篷内一个陌生房间的床上醒来开始，你被锁链绑在床上。Pierrot 声称他给你下药并绑架你是为了\"保护\"你免受其他人的伤害，显示了他占有欲强且不稳定的本性。与此同时，Harlequin 在 Pierrot 不在时闯入房间，突出了两个角色之间的对比——Pierrot 想把你藏起来，而 Harlequin 想\"玩\"和狩猎。",
+        "description3": "更新引入了三个新的神秘角色：<strong>小丑</strong>，他用木偶讲述 Columbina 的悲剧故事；<strong>医生</strong>，一个带来医疗恐怖主题的瘟疫医生；以及<strong>售票员</strong>，他通过镜面帐篷中扭曲的反射来操控现实。",
+        "description4": "玩家现在可以探索特定的景点帐篷，每个帐篷都揭示了马戏团黑暗秘密的不同方面。第二天更新还包含一个新的隐藏场景系统，增加了深度和可重玩性，基于你的选择有多个结局，以及超过100张新图像，包括角色立绘、表情和背景。",
+        "description5": "要了解所有新内容的完整攻略和详细指南，请查看我们全面的<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天博客文章</a>，其中涵盖了你在马戏团第二天旅程中遇到的所有关键事件、新地点、角色互动、隐藏场景和多个结局。"
       },
       "lastDevlog": {
         "title": "更新前的最后开发日志（我希望！）",

@@ -73,7 +73,7 @@
 
         <!-- Quick Links Section -->
         <div class="footer-section">
-          <h4>{{ $t('footer.quickLinksTitle') }}</h4>
+          <h2>{{ $t('footer.quickLinksTitle') }}</h2>
           <ul>
             <li>
               <a href="/">{{ $t('footer.quickLinksHome') }}</a>
@@ -101,7 +101,7 @@
 
         <!-- Legal Section -->
         <div class="footer-section">
-          <h4>{{ $t('footer.legalTitle') }}</h4>
+          <h2>{{ $t('footer.legalTitle') }}</h2>
           <ul>
             <li>
               <a href="/privacy-policy" rel="nofollow">{{ $t('footer.legalPrivacy') }}</a>

@@ -30,6 +30,11 @@
       "description": "The Freak Circus 비주얼 노벨의 최신 뉴스와 업데이트를 확인하세요. 개발 진행 상황과 새로운 콘텐츠 출시 소식을 따라가세요.",
       "keywords": "The Freak Circus 업데이트, 개발 뉴스, 비주얼 노벨 업데이트, 게임 뉴스, thefreakcircus.org"
     },
+    "blog": {
+      "title": "The Freak Circus 블로그 - 최신 업데이트 및 뉴스 | thefreakcircus.org",
+      "description": "The Freak Circus의 최신 블로그 게시물을 최신 상태로 유지하세요. 개발 업데이트, 캐릭터 인사이트 및 제작 뒷이야기 콘텐츠를 읽어보세요.",
+      "keywords": "The Freak Circus 블로그, 비주얼 노벨 블로그, 게임 개발 블로그, Pierrot, Harlequin, 서커스 게임 업데이트, thefreakcircus.org"
+    },
     "about": {
       "title": "The Freak Circus 소개 - 게임 정보 | thefreakcircus.org",
       "description": "The Freak Circus 비주얼 노벨과 그 개발 과정, 심리 호러 경험 뒤의 팀에 대해 알아보세요.",
@@ -69,6 +74,7 @@
     "harlequin": "할리퀸",
     "wiki": "위키",
     "visualNovelGames": "비주얼 노벨 게임",
+    "blog": "블로그",
     "download": "다운로드",
     "openMenu": "메뉴 열기",
     "closeMenu": "메뉴 닫기"
@@ -100,7 +106,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "심리 호러 비주얼 노벨",
-      "description": "현실이 뒤틀리고 악몽이 살아나는 세계로 들어가 보세요. The Freak Circus는 당신의 현실과 허구에 대한 인식을 시험하는 몰입형 심리 호러 비주얼 노벨입니다.",
+      "description": "현실이 뒤틀리고 악몽이 살아나는 세계로 들어가 보세요. The Freak Circus는 당신의 현실과 허구에 대한 인식을 시험하는 몰입형 심리 호러 비주얼 노벨입니다. 더 어두운 서사, 제스터와 닥터 같은 새로운 캐릭터, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 특징으로 하는 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">2일차 업데이트</a>를 경험해보세요.",
       "playButton": "지금 플레이",
       "learnButton": "자세히 알아보기",
       "warning": "콘텐츠 경고: 이 게임에는 성인 테마, 심리 호러, 충격적인 이미지가 포함되어 있습니다. 18세 이상 권장.",
@@ -108,7 +114,7 @@
     },
     "about": {
       "title": "The Freak Circus란?",
-      "description": "The Freak Circus는 등장인물들의 뒤틀린 마음을 탐험하는 심리 호러 비주얼 노벨입니다. 아무것도 예상대로 보이지 않는 신비로운 서커스를 배경으로 피에로와 할리퀸이라는 두 인물의 이야기를 따라가며 현실에 대한 모든 고정관념을 시험하게 됩니다.",
+      "description": "The Freak Circus는 등장인물들의 뒤틀린 마음을 탐험하는 심리 호러 비주얼 노벨입니다. 아무것도 예상대로 보이지 않는 신비로운 서커스를 배경으로 피에로와 할리퀸이라는 두 인물의 이야기를 따라가며 현실에 대한 모든 고정관념을 시험하게 됩니다. <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>는 납치, 심리적 조작, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사로 플레이어를 몰입시킵니다. 새로운 텐트 위치를 탐험하고, 제스터, 닥터, 티켓 테이커와 같은 신비로운 캐릭터를 만나며, 이 뒤틀린 이야기에 깊이를 더하는 숨겨진 장면을 발견하세요.",
       "feature1": "심리 호러 요소",
       "feature1Desc": "현실을 의심하게 만드는 깊은 심리적 테마 경험",
       "feature2": "풍부한 캐릭터 개발",
@@ -130,7 +136,7 @@
     "faq": {
       "title": "자주 묻는 질문",
       "question1": "The Freak Circus란 무엇인가요?",
-      "answer1": "The Freak Circus는 현실, 인식, 인간 심리를 탐구하는 심리 호러 비주얼 노벨로, 피에로와 할리퀸의 이야기를 중심으로 전개됩니다.",
+      "answer1": "The Freak Circus는 현실, 인식, 인간 심리를 탐구하는 심리 호러 비주얼 노벨로, 피에로와 할리퀸의 이야기를 중심으로 전개됩니다. 2일차 업데이트는 납치, 심리적 조작, 두 주인공 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사 요소를 도입합니다. 플레이어는 새로운 텐트 위치를 탐험하고, 제스터, 닥터, 티켓 테이커와 같은 신비로운 캐릭터를 만나며, 여러 엔딩이 있는 숨겨진 장면을 발견할 수 있습니다.",
       "question2": "모든 연령대에게 적합한가요?",
       "answer2": "아니요, 성인 테마, 심리 호러, 충격적인 이미지가 포함되어 있습니다. 18세 이상 권장.",
       "question3": "게임은 어떤 플랫폼에서 이용 가능한가요?",
@@ -156,9 +162,9 @@
       "title": "최신 업데이트",
       "viewAll": "모든 업데이트 보기",
       "update1": {
-        "date": "2025년 10월 27일",
-        "title": "주간 업데이트",
-        "excerpt": "시안 텐트의 코딩을 마쳤습니다. 이 장면을 완성하려면 스프라이트 2개만 더 필요해요..."
+        "date": "2025년 1월 20일",
+        "title": "2일차 업데이트: 새로운 캐릭터와 더 어두운 이야기",
+        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>는 납치, 심리적 조작, 콜롬비나의 비극적 전설로 게임의 긴장감을 크게 높입니다. 새로운 텐트 위치를 탐험하고, 제스터, 닥터, 티켓 테이커를 만나며, 여러 엔딩이 있는 숨겨진 장면을 발견하세요."
       },
       "update2": {
         "date": "2025년 9월 27일",
@@ -185,6 +191,36 @@
     },
     "viewDetails": "자세히 보기",
     "playNow": "지금 플레이 →"
+  },
+  "BlogListPage": {
+    "header": {
+      "title": "The Freak Circus 블로그",
+      "subtitle": "최신 업데이트, 캐릭터 인사이트 및 개발 뉴스"
+    },
+    "loading": "블로그 로딩 중...",
+    "error": "블로그 로딩 오류:",
+    "viewDetails": "더 읽기",
+    "readMore": "더 읽기 →"
+  },
+  "BlogDetailPage": {
+    "breadcrumb": {
+      "home": "홈",
+      "blog": "블로그"
+    },
+    "sidebar": {
+      "aboutThisPost": "이 게시물에 대해",
+      "tags": "태그",
+      "relatedLinks": "관련 링크",
+      "home": "홈",
+      "games": "게임",
+      "wiki": "Wiki",
+      "updates": "업데이트"
+    },
+    "notFound": {
+      "title": "블로그를 찾을 수 없음",
+      "description": "찾고 있는 블로그 게시물이 존재하지 않거나 삭제되었습니다.",
+      "backToBlog": "블로그로 돌아가기"
+    }
   },
   "GameDetailPage": {
     "allReviews": "모든 리뷰",
@@ -654,6 +690,14 @@
         "roadmap4": "Build tests for browser and Android",
         "roadmap5": "And then that's it the update will be ready to launch!",
         "description5": "I'm trying to run more tests this time so there won't be as many errors, since the last release had quite a few that I had to fix later."
+      },
+      "day2Update": {
+        "title": "2일차 업데이트: 새로운 캐릭터와 더 어두운 이야기",
+        "description1": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>가 마침내 도착했습니다! 이 주요 업데이트는 납치, 심리적 조작, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사로 플레이어를 몰입시켜 게임의 긴장감을 크게 높입니다.",
+        "description2": "2일차는 서커스 텐트 안의 낯선 방에서 침대에 사슬로 묶인 채 깨어나는 것으로 시작됩니다. 피에로는 당신을 다른 사람들로부터 \"보호\"하기 위해 당신을 약물로 잠재우고 납치했다고 주장하며, 그의 소유욕이 강하고 불안정한 성격을 보여줍니다. 한편, 할리퀸은 피에로가 없는 동안 방에 침입하여 두 캐릭터 간의 대조를 강조합니다—피에로는 당신을 숨기고 싶어하지만, 할리퀸은 \"놀고\" 사냥하고 싶어합니다.",
+        "description3": "업데이트는 세 명의 새로운 신비로운 캐릭터를 소개합니다: 인형을 사용하여 콜롬비나의 비극적 이야기를 전하는<strong>제스터</strong>; 게임에 의료 공포를 가져오는 페스트 의사인<strong>닥터</strong>; 그리고 거울 텐트에서 뒤틀린 반사를 통해 현실을 조작하는<strong>티켓 테이커</strong>입니다.",
+        "description4": "플레이어는 이제 특정 어트랙션 텐트를 탐험할 수 있으며, 각 텐트는 서커스의 어두운 비밀의 다른 측면을 드러냅니다. 2일차 업데이트는 또한 깊이와 재플레이 가능성을 추가하는 새로운 숨겨진 장면 시스템, 선택에 기반한 여러 엔딩, 캐릭터 스프라이트, 표정, 배경을 포함한 100개 이상의 새로운 이미지를 특징으로 합니다.",
+        "description5": "모든 새로운 콘텐츠에 대한 완전한 워크스루와 상세한 가이드를 보려면, 서커스를 여행하는 두 번째 날 동안 만나게 될 모든 주요 이벤트, 새로운 위치, 캐릭터 상호작용, 숨겨진 장면, 여러 엔딩을 다루는 포괄적인<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 블로그 게시물</a>을 확인하세요."
       },
       "lastDevlog": {
         "title": "Last devlog before the update (I Hope!)",

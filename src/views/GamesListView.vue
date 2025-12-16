@@ -17,7 +17,7 @@
             <div class="games-content">
                 <div class="container">
                     <div class="games-grid">
-                        <a v-for="game in games" :key="game.id" :href="`/games/${game.addressBar}`" class="game-card">
+                        <a v-for="game in games" :key="game.id" :href="getLocalizedPath(`/games/${game.addressBar}`)" class="game-card">
                             <div class="game-image-wrapper">
                                 <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" />
                                 <div class="game-overlay">
@@ -47,11 +47,31 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 
 const { locale } = useI18n()
+const route = useRoute()
 const games = ref([])
+
+// 获取本地化路径
+const getLocalizedPath = (path) => {
+  // 从当前路由路径中提取语言
+  const pathSegments = route.path.split('/').filter(Boolean)
+  const supportedLangs = ['zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+  const currentLang = pathSegments[0] && supportedLangs.includes(pathSegments[0])
+    ? pathSegments[0]
+    : 'en'
+  
+  // 如果当前语言是英文，直接返回路径
+  if (currentLang === 'en') {
+    return path
+  }
+  
+  // 否则添加语言前缀
+  return `/${currentLang}${path}`
+}
 
 const formatDate = (dateString) => {
     const date = new Date(dateString)
