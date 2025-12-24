@@ -79,15 +79,14 @@ const getLocalizedPath = (path) => {
   // 从当前路由路径中提取语言
   const pathSegments = route.path.split('/').filter(Boolean)
   const supportedLangs = ['zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
-  const currentLang = pathSegments[0] && supportedLangs.includes(pathSegments[0])
-    ? pathSegments[0]
-    : 'en'
-  
+  const currentLang =
+    pathSegments[0] && supportedLangs.includes(pathSegments[0]) ? pathSegments[0] : 'en'
+
   // 如果当前语言是英文，直接返回路径
   if (currentLang === 'en') {
     return path
   }
-  
+
   // 否则添加语言前缀
   return `/${currentLang}${path}`
 }
