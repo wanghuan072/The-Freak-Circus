@@ -15,6 +15,21 @@
       "description": "认识《The Freak Circus》中调皮捣蛋的 Harlequin。探索她复杂的性格以及与 Pierrot 的关系，这款恐怖视觉小说将带来全新体验。",
       "keywords": "Harlequin, The Freak Circus, 角色, 捣蛋鬼, 心理恐怖, 视觉小说, 马戏团, thefreakcircus.org"
     },
+    "jester": {
+      "title": "Jester 角色 - The Freak Circus | thefreakcircus.org",
+      "description": "了解《The Freak Circus》Day 2 更新中的 Jester，讲述者和观察者。了解他在揭示 Columbina 传说和马戏团秘密中的作用。",
+      "keywords": "Jester, The Freak Circus, 角色, Day 2, 讲述者, Columbina 传说, 视觉小说, thefreakcircus.org"
+    },
+    "doctor": {
+      "title": "Doctor 角色 - The Freak Circus | thefreakcircus.org",
+      "description": "认识《The Freak Circus》Day 2 更新中的 Doctor，瘟疫医生。探索他在青色帐篷中的扭曲医学理念和黑暗实验。",
+      "keywords": "Doctor, The Freak Circus, 角色, Day 2, 瘟疫医生, 医疗恐怖, 青色帐篷, 视觉小说, thefreakcircus.org"
+    },
+    "ticketTaker": {
+      "title": "Ticket Taker 角色 - The Freak Circus | thefreakcircus.org",
+      "description": "了解《The Freak Circus》Day 2 更新中的 Ticket Taker，现实操控者。了解他在镜之帐篷中的镜像能力和警告。",
+      "keywords": "Ticket Taker, The Freak Circus, 角色, Day 2, 镜之帐篷, 现实操控, 视觉小说, thefreakcircus.org"
+    },
     "wiki": {
       "title": "The Freak Circus Wiki - 游戏指南与故事 | thefreakcircus.org",
       "description": "《The Freak Circus》完整指南。了解角色、剧情、玩法及神秘马戏团世界。",
@@ -72,6 +87,9 @@
     "pierrot": "Pierrot",
     "pierrotColoring": "Pierrot 填色页",
     "harlequin": "Harlequin",
+    "jester": "Jester",
+    "doctor": "Doctor",
+    "ticketTaker": "Ticket Taker",
     "wiki": "Wiki",
     "visualNovelGames": "视觉小说游戏",
     "blog": "博客",
@@ -106,7 +124,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "心理恐怖视觉小说",
-      "description": "踏入一个现实扭曲、噩梦成真的世界。《The Freak Circus》是一款沉浸式心理恐怖视觉小说，将挑战你对现实与虚构的认知。体验<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">第二天更新</a>，包含更黑暗的叙事、新角色如小丑和医生，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。",
+      "description": "踏入一个现实扭曲、噩梦成真的世界。《The Freak Circus》是一款沉浸式心理恐怖视觉小说，将挑战你对现实与虚构的认知。体验<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">第二天更新</a>，包含更黑暗的叙事、新角色如<a href=\"/jester\" class=\"hero-link\">Jester</a>和<a href=\"/doctor\" class=\"hero-link\">Doctor</a>，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。",
       "playButton": "立即游玩",
       "learnButton": "了解更多关于《The Freak Circus》",
       "warning": "内容警告：本游戏包含成人主题、心理恐怖及惊悚画面，建议18岁以上玩家游玩。",
@@ -114,7 +132,7 @@
     },
     "about": {
       "title": "什么是 The Freak Circus？",
-      "description": "《The Freak Circus》是一款心理恐怖视觉小说，带你进入角色扭曲的内心世界。在神秘的马戏团里，一切都不如表面，玩家将遇见 Pierrot 与 Harlequin —— 两位谜一样的人物，他们的故事将挑战你对现实的认知。<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>将玩家带入更黑暗的叙事，涉及绑架、心理操控，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。探索新的帐篷地点，遇见神秘角色如小丑、医生和售票员，揭开为这个扭曲故事增添深度的隐藏场景。",
+      "description": "《The Freak Circus》是一款心理恐怖视觉小说，带你进入角色扭曲的内心世界。在神秘的马戏团里，一切都不如表面，玩家将遇见 Pierrot 与 Harlequin —— 两位谜一样的人物，他们的故事将挑战你对现实的认知。<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>将玩家带入更黑暗的叙事，涉及绑架、心理操控，以及揭示 Pierrot 与 Harlequin 之间深仇的 Columbina 悲剧传说。探索新的帐篷地点，遇见神秘角色如<a href=\"/jester\" class=\"content-link\">Jester</a>、<a href=\"/doctor\" class=\"content-link\">Doctor</a>和<a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>，揭开为这个扭曲故事增添深度的隐藏场景。",
       "feature1": "心理恐怖元素",
       "feature1Desc": "体验深度心理主题，让你不断质疑现实",
       "feature2": "丰富的角色塑造",
@@ -132,12 +150,21 @@
       "pierrotLearnMore": "了解更多关于 Pierrot",
       "harlequinName": "Harlequin",
       "harlequinDesc": "调皮捣蛋的角色，表面轻松却内心复杂。她与 Pierrot 的关系构成了故事的核心。",
-      "harlequinLearnMore": "了解更多关于 Harlequin"
+      "harlequinLearnMore": "了解更多关于 Harlequin",
+      "jesterName": "Jester",
+      "jesterDesc": "讲述者和观察者，通过木偶表演揭示 Columbina 的悲剧传说，揭露马戏团最黑暗的秘密。",
+      "jesterLearnMore": "了解更多关于 Jester",
+      "doctorName": "Doctor",
+      "doctorDesc": "瘟疫医生，在青色帐篷中进行黑暗实验，测量恐惧反应并探索扭曲的医学理念。",
+      "doctorLearnMore": "了解更多关于 Doctor",
+      "ticketTakerName": "Ticket Taker",
+      "ticketTakerDesc": "现实操控者，控制镜之帐篷，通过扭曲的镜像揭示怪物的真实本质。",
+      "ticketTakerLearnMore": "了解更多关于 Ticket Taker"
     },
     "faq": {
       "title": "常见问题",
       "question1": "什么是 The Freak Circus？",
-      "answer1": "《The Freak Circus》是一款心理恐怖视觉小说，通过 Pierrot 与 Harlequin 的故事探讨现实、认知与人类心理主题。第二天更新引入了更黑暗的叙事元素，包括绑架、心理操控，以及揭示两位主角之间深仇的 Columbina 悲剧传说。玩家可以探索新的帐篷地点，遇见神秘角色如小丑、医生和售票员，并发现包含多个结局的隐藏场景。",
+      "answer1": "《The Freak Circus》是一款心理恐怖视觉小说，通过 Pierrot 与 Harlequin 的故事探讨现实、认知与人类心理主题。第二天更新引入了更黑暗的叙事元素，包括绑架、心理操控，以及揭示两位主角之间深仇的 Columbina 悲剧传说。玩家可以探索新的帐篷地点，遇见神秘角色如<a href=\"/jester\" class=\"content-link\">Jester</a>、<a href=\"/doctor\" class=\"content-link\">Doctor</a>和<a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>，并发现包含多个结局的隐藏场景。",
       "question2": "游戏适合所有年龄吗？",
       "answer2": "不适合，本作包含成人主题、心理恐怖及惊悚画面，建议18岁及以上玩家游玩。",
       "question3": "游戏支持哪些平台？",
@@ -165,7 +192,7 @@
       "update1": {
         "date": "2025年1月20日",
         "title": "第二天更新：新角色与更黑暗的故事",
-        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>大幅提升了游戏紧张感，包含绑架、心理操控和 Columbina 悲剧传说。探索新的帐篷地点，遇见小丑、医生和售票员，发现包含多个结局的隐藏场景。"
+        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天更新</a>大幅提升了游戏紧张感，包含绑架、心理操控和 Columbina 悲剧传说。探索新的帐篷地点，遇见<a href=\"/jester\" class=\"content-link\">Jester</a>、<a href=\"/doctor\" class=\"content-link\">Doctor</a>和<a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>，发现包含多个结局的隐藏场景。"
       },
       "update2": {
         "date": "2025年9月27日",
@@ -461,6 +488,189 @@
       "title": "《The Freak Circus》中Harlequin的角色图库"
     }
   },
+  "JesterPage": {
+    "header": {
+      "name": "Jester",
+      "subtitle": "讲述者与观察者 - 《The Freak Circus》中的Jester",
+      "description": "在马戏团的阴影中，Jester 作为叙述者和秘密守护者。通过他的木偶表演，他揭示了 Columbina 的悲剧传说以及 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之间根深蒂固的仇恨。这个来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 更新的神秘角色在揭示马戏团最黑暗的秘密中扮演着关键角色。"
+    },
+    "about": {
+      "title": "关于《The Freak Circus》中的Jester",
+      "description1": "来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 更新的 Jester 是一个核心人物，既是讲述者也是观察者。在紫色/黑色帐篷的舞台表演中出现，Jester 使用木偶讲述悲剧故事，解释马戏团的历史以及 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之间仇恨的根源。",
+      "description2": "Jester 的表演是 Day 2 中最重要的剧情揭示，揭示了 Columbina 的传说——被称为\"花朵\"的女孩，被 Pierrot（\"沉默的怪物\"）所爱，但被 Harlequin（\"毒药\"）因嫉妒而毒死。这一行为是两个主要角色之间永恒冲突的根源，Jester 暗示历史正在重演，你作为主角，成为了新的\"Columbina\"。",
+      "description3": "Jester 充当某种叙述者，知道马戏团的所有秘密，并作为观察者观看事件的发展。他的角色对于理解 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 更深层的叙事至关重要。有关 Day 2 更新和 Jester 角色的更多信息，请查看我们的 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 攻略指南</a>。"
+    },
+    "traits": {
+      "title": "《The Freak Circus》中Jester的性格特征",
+      "storyteller": {
+        "title": "故事大师",
+        "description": "Jester 是一位技艺精湛的讲述者，使用木偶传达复杂的叙事。他在紫色/黑色帐篷中的表演揭示了关于马戏团历史和 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>、<a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 以及其他角色之间关系的关键信息。在我们的 <a href=\"/wiki\" class=\"content-link\">Wiki 指南</a> 中了解更多关于马戏团历史的信息。"
+      },
+      "observer": {
+        "title": "沉默的观察者",
+        "description": "Jester 作为观察者，知道马戏团的所有秘密。他观看事件的发展，并作为叙述者理解更深层的动态，包括 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之间的关系。"
+      },
+      "knowledge": {
+        "title": "秘密守护者",
+        "description": "Jester 拥有关于马戏团历史、Columbina 传说以及其他角色动机的丰富知识，包括 <a href=\"/doctor\" class=\"content-link\">Doctor</a> 和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>。他利用这些知识通过表演揭示真相。在我们的 <a href=\"/blog\" class=\"content-link\">博客文章</a> 中发现更多秘密。"
+      },
+      "narrator": {
+        "title": "叙事指南",
+        "description": "Jester 作为叙事指南，帮助玩家理解塑造 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 故事的复杂关系和历史背景。他的角色对于理解 Day 2 更新至关重要，详见我们的 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 攻略</a>。"
+      }
+    },
+    "abilities": {
+      "title": "《The Freak Circus》中Jester的特殊能力",
+      "loreRevelation": {
+        "title": "剧情揭示",
+        "description": "Jester 最重要的能力是通过木偶表演揭示关键剧情。他讲述 Columbina 的悲剧故事，解释 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之间根深蒂固的仇恨。"
+      },
+      "puppetPerformance": {
+        "title": "木偶表演",
+        "description": "Jester 使用木偶讲述故事，创造一种戏剧体验，以引人入胜和难忘的方式传达复杂的叙事。他的表演是理解马戏团历史的核心。"
+      },
+      "propheticInsight": {
+        "title": "预言洞察",
+        "description": "Jester 展示了对模式和周期的理解，暗示历史正在重演，主角成为新的 Columbina。他的洞察提供了关于前方危险的重要警告，包括 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 构成的威胁。关注最新的 <a href=\"/updates\" class=\"content-link\">游戏更新</a> 以发现更多关于 Jester 的预言。"
+      }
+    },
+    "relationships": {
+      "title": "《The Freak Circus》中Jester的角色关系",
+      "protagonist": {
+        "title": "与主角的关系",
+        "description": "Jester 作为主角的指南，通过他的表演揭示重要信息。他暗示主角可能是新的 Columbina，被困在 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之间的永恒冲突中。"
+      },
+      "pierrotHarlequin": {
+        "title": "对Pierrot和Harlequin的理解",
+        "description": "Jester 理解 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之间竞争的历史背景。通过他的故事讲述，他揭示了 Columbina 传说如何塑造了他们的关系并继续影响他们的行动。Jester 还了解其他 Day 2 角色，如 <a href=\"/doctor\" class=\"content-link\">Doctor</a> 和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>。在我们的 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 中探索完整故事，或 <a href=\"/download\" class=\"content-link\">下载游戏</a> 亲自体验。"
+      }
+    },
+    "gallery": {
+      "title": "《The Freak Circus》中Jester的角色图库"
+    }
+  },
+  "DoctorPage": {
+    "header": {
+      "name": "Doctor",
+      "subtitle": "瘟疫医生 - 《The Freak Circus》中的Doctor",
+      "description": "在青色帐篷的深处，Doctor 等待着，带着扭曲的医疗仪器和对恐惧的迷恋。这位来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 更新的瘟疫医生为游戏带来了新的医疗恐怖层面，测量你的恐惧反应并进行黑暗实验。"
+    },
+    "about": {
+      "title": "关于《The Freak Circus》中的Doctor",
+      "description1": "来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 更新的 Doctor 在青色帐篷中登场，以瘟疫医生的形象出现，为游戏带来医疗恐怖主题。这个角色增加了另一层心理恐怖，进行测量恐惧反应和肾上腺素水平的检查。",
+      "description2": "Doctor 将你绑在桌子上测量你的恐惧反应，提到\"放血\"有镇静效果——显示了他扭曲的医学理念。他重视服从，发现恐惧令人着迷，暗示了他的黑暗实验。Doctor 暗示你的反应与之前的\"玩偶\"或受害者不同，暗示你可能在马戏团的扭曲游戏中扮演独特角色。",
+      "description3": "Doctor 在 Day 2 中的出现显著提高了风险，为心理惊悚片添加了医疗恐怖元素。他的角色代表了马戏团更黑暗的方面，科学好奇心与扭曲的道德相遇。有关 Doctor 和青色帐篷体验的更多详细信息，请探索我们的 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 攻略指南</a>。"
+    },
+    "traits": {
+      "title": "《The Freak Circus》中Doctor的性格特征",
+      "medicalHorror": {
+        "title": "医疗恐怖专家",
+        "description": "Doctor 体现了医疗恐怖，以瘟疫医生的形象出现，带着扭曲的医疗仪器。他的存在为 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 体验增添了令人毛骨悚然的科学恐怖层面。Doctor 在青色帐篷中运作，这是 Day 2 中引入的三个新地点之一，与 <a href=\"/jester\" class=\"content-link\">Jester</a> 的紫色/黑色帐篷和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a> 的蓝色帐篷并列。"
+      },
+      "obsessionWithFear": {
+        "title": "对恐惧的痴迷",
+        "description": "Doctor 发现恐惧令人着迷，重视测量恐惧反应和肾上腺素水平。他对理解恐惧的痴迷推动了他的黑暗实验，这与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 使用的心理操控不同。在我们的 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">攻略指南</a> 中了解更多关于 Day 2 更新的信息。"
+      },
+      "twistedPhilosophy": {
+        "title": "扭曲的医学理念",
+        "description": "Doctor 相信\"放血\"有镇静效果，展示了他对医学的扭曲方法。他重视服从，将恐惧视为可以研究和操控的东西，代表了与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的情感痴迷不同的恐怖类型。"
+      },
+      "experimentalNature": {
+        "title": "实验性质",
+        "description": "Doctor 进行黑暗实验，暗示他曾与之前的\"玩偶\"或受害者合作。他的实验性质使他在马戏团中成为一个危险人物，与其他 Day 2 角色如 <a href=\"/jester\" class=\"content-link\">Jester</a> 和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a> 一起运作。在我们的 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 中发现更多关于马戏团黑暗实验的信息。"
+      }
+    },
+    "abilities": {
+      "title": "《The Freak Circus》中Doctor的特殊能力",
+      "fearMeasurement": {
+        "title": "恐惧测量",
+        "description": "Doctor 有能力测量恐惧反应和肾上腺素水平，将受试者绑在桌子上进行检查。这种能力使他能够理解和操控恐惧。"
+      },
+      "bloodletting": {
+        "title": "放血技术",
+        "description": "Doctor 实践放血，相信它有镇静效果。这种扭曲的医疗技术代表了他对治疗和控制的黑暗方法。"
+      },
+      "psychologicalAnalysis": {
+        "title": "心理分析",
+        "description": "Doctor 能够识别受试者的独特反应，认识到主角的反应与之前的受害者不同。这种能力表明他可能理解主角在马戏团中的特殊角色，类似于 <a href=\"/jester\" class=\"content-link\">Jester</a> 将主角识别为新的 Columbina。Doctor 的分析为 Day 2 中引入的心理恐怖元素增添了深度。<a href=\"/download\" class=\"content-link\">下载游戏</a> 亲自体验 Doctor 的检查。"
+      }
+    },
+    "relationships": {
+      "title": "《The Freak Circus》中Doctor的角色关系",
+      "protagonist": {
+        "title": "与主角的关系",
+        "description": "Doctor 在青色帐篷中检查主角，测量他们的恐惧反应。他暗示主角的反应与之前的\"玩偶\"不同，暗示他们可能在马戏团的扭曲游戏中扮演独特角色。"
+      },
+      "circusMembers": {
+        "title": "在马戏团中的角色",
+        "description": "Doctor 在青色帐篷中运作，进行他的黑暗实验。他在马戏团中的角色代表了恐怖的科学和实验方面，为马戏团的扭曲本质增添了深度。虽然 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 专注于情感操控，但 Doctor 带来了医疗恐怖。他与 <a href=\"/jester\" class=\"content-link\">Jester</a>（揭示剧情）和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>（通过镜子揭示真相）一起工作。在我们的 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 中探索所有角色，或查看最新的 <a href=\"/updates\" class=\"content-link\">更新</a> 以获取新内容。"
+      }
+    },
+    "gallery": {
+      "title": "《The Freak Circus》中Doctor的角色图库"
+    }
+  },
+  "TicketTakerPage": {
+    "header": {
+      "name": "Ticket Taker",
+      "subtitle": "现实操控者 - 《The Freak Circus》中的Ticket Taker",
+      "description": "在镜之帐篷中，Ticket Taker 通过扭曲的镜像操控现实。这个来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 更新的神秘角色揭示了周围怪物的真实本质，警告你一切都不是表面看起来的那样。"
+    },
+    "about": {
+      "title": "关于《The Freak Circus》中的Ticket Taker",
+      "description1": "来自 <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 更新的 Ticket Taker 在镜之帐篷（也称为蓝色帐篷）中遇到。这个角色通过扭曲的镜像操控现实，显示其他角色的扭曲版本，揭示他们的真实本质。",
+      "description2": "镜之帐篷中的镜子显示令人不安的镜像：<a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 的镜像乞求你永远和他在一起，显示他对你存在的绝望需求。<a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的镜像具有攻击性并嘲笑你的软弱，揭示了他的捕食者本性。Ticket Taker 警告你不要相信你的眼睛——你在镜子中看到的恐怖反映了周围怪物的真实本质。",
+      "description3": "Ticket Taker 的角色作为警告提供者至关重要，帮助玩家理解前方的危险。他通过扭曲镜像揭示真相的能力使他在导航 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的扭曲世界中成为重要指南。有关镜之帐篷和 Ticket Taker 的更多信息，请查看我们的 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 攻略指南</a>。"
+    },
+    "traits": {
+      "title": "《The Freak Circus》中Ticket Taker的性格特征",
+      "realityManipulation": {
+        "title": "现实操控",
+        "description": "Ticket Taker 有能力通过镜子中的扭曲镜像操控现实。这种力量使他能够揭示角色和情况的真实本质，显示 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的隐藏方面。镜之帐篷（蓝色帐篷）是 Day 2 中的三个新地点之一，与 <a href=\"/jester\" class=\"content-link\">Jester</a> 的紫色/黑色帐篷和 <a href=\"/doctor\" class=\"content-link\">Doctor</a> 的青色帐篷并列。"
+      },
+      "mirrorMaster": {
+        "title": "镜像大师",
+        "description": "Ticket Taker 控制镜之帐篷，使用镜像显示扭曲的现实版本。他对镜子的掌握使他在马戏团中成为一个强大的角色，补充了 <a href=\"/jester\" class=\"content-link\">Jester</a> 的叙事角色和 <a href=\"/doctor\" class=\"content-link\">Doctor</a> 的实验性质。在我们的 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">攻略指南</a> 中了解更多关于 Day 2 地点的信息。"
+      },
+      "warningProvider": {
+        "title": "警告提供者",
+        "description": "Ticket Taker 作为关键的警告提供者，告诉玩家不要相信他们的眼睛。他的警告帮助玩家理解马戏团前方的危险，包括来自 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的威胁。这些警告对于导航 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 的扭曲世界至关重要。"
+      },
+      "truthRevealer": {
+        "title": "真相揭示者",
+        "description": "通过扭曲的镜像，Ticket Taker 揭示了周围怪物的真实本质。他的镜像显示了像 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 这样的角色的隐藏方面，提供了与 <a href=\"/jester\" class=\"content-link\">Jester</a> 揭示的剧情互补的关键洞察。在我们的 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 中发现更多角色洞察。"
+      }
+    },
+    "abilities": {
+      "title": "《The Freak Circus》中Ticket Taker的特殊能力",
+      "distortedReflections": {
+        "title": "扭曲镜像",
+        "description": "Ticket Taker 可以在镜子中创建扭曲的镜像，揭示角色的真实本质。<a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 的镜像显示他的绝望需求，而 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的镜像揭示了他的捕食者本性。"
+      },
+      "characterRevelation": {
+        "title": "角色揭示",
+        "description": "通过他的镜像力量，Ticket Taker 揭示了角色个性和动机的隐藏方面。这种能力帮助玩家理解马戏团居民的真实本质，包括 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>、<a href=\"/harlequin\" class=\"content-link\">Harlequin</a>、<a href=\"/jester\" class=\"content-link\">Jester</a> 和 <a href=\"/doctor\" class=\"content-link\">Doctor</a>。镜之帐篷中的揭示对于理解 Day 2 叙事至关重要。<a href=\"/download\" class=\"content-link\">下载游戏</a> 亲自体验这些揭示。"
+      },
+      "illusionControl": {
+        "title": "幻象控制",
+        "description": "Ticket Taker 控制镜之帐篷内的幻象和现实，创造一个真相与欺骗交织的环境。他对幻象的控制使帐篷成为揭示和警告的地方。"
+      }
+    },
+    "relationships": {
+      "title": "《The Freak Circus》中Ticket Taker的角色关系",
+      "protagonist": {
+        "title": "与主角的关系",
+        "description": "Ticket Taker 作为主角的指南和警告提供者。通过他的镜像反射，他揭示了周围危险的真实本质，帮助他们理解马戏团的扭曲现实。"
+      },
+      "circusCharacters": {
+        "title": "对马戏团角色的理解",
+        "description": "Ticket Taker 理解其他马戏团角色的真实本质，使用他的镜像力量揭示他们的隐藏方面。他对 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的镜像显示了他们的绝望需求和捕食者本性。Ticket Taker 的洞察与 <a href=\"/jester\" class=\"content-link\">Jester</a> 提供的叙事和 <a href=\"/doctor\" class=\"content-link\">Doctor</a> 进行的实验互补。这些 Day 2 角色共同提供了马戏团黑暗秘密的完整画面。在我们的 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 中探索更多，或阅读最新的 <a href=\"/blog\" class=\"content-link\">博客文章</a>。"
+      }
+    },
+    "gallery": {
+      "title": "《The Freak Circus》中Ticket Taker的角色图库"
+    }
+  },
   "WikiPage": {
     "header": {
       "title": "The Freak Circus 维基",
@@ -473,7 +683,7 @@
       "title": "游戏概览",
       "description1": "<strong><a href=\"/\" class=\"content-link\">The Freak Circus</a></strong> 是一款黑暗心理视觉小说，带玩家进入充满神秘、痴迷和危险关系的巡回马戏团世界。这款沉浸式体验结合了引人入胜的叙事和成熟主题，让玩家在欲望与操控的阴影中经历难忘旅程。",
       "description2": "在 <a href=\"/\" class=\"content-link\">The Freak Circus</a> 中，玩家扮演一名咖啡馆工作人员，原本平凡的生活因与神秘表演者纠缠而发生改变。游戏通过复杂的人物关系和分支剧情路径，探索痴迷、竞争和人性阴暗面的主题。",
-      "description3": "《The Freak Circus》在视觉小说类型中脱颖而出，其成熟内容、心理深度以及核心角色之间错综复杂的动态关系令人印象深刻。这部黑暗故事提供多个结局和角色路线，让每次游玩都能发现新层次。探索 <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a> 之间复杂的心理惊悚关系。"
+      "description3": "《The Freak Circus》在视觉小说类型中脱颖而出，其成熟内容、心理深度以及核心角色之间错综复杂的动态关系令人印象深刻。这部黑暗故事提供多个结局和角色路线，让每次游玩都能发现新层次。探索 <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a> 之间复杂的心理惊悚关系，并发现 Day 2 的神秘新角色：<a href=\"/jester\" class=\"character-link\">Jester</a>、<a href=\"/doctor\" class=\"character-link\">Doctor</a> 和 <a href=\"/ticket-taker\" class=\"character-link\">Ticket Taker</a>。"
     },
     "gamePremise": {
       "title": "游戏前提",
@@ -485,7 +695,7 @@
       "title": "当前特色",
       "originalArtwork": {
         "title": "原创插画与角色",
-        "description": "《The Freak Circus》拥有精美原创插画和背景，展现两位引人入胜的角色：<a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>。每个角色都经过精心设计，体现其复杂的个性和动机。"
+        "description": "《The Freak Circus》拥有精美原创插画和背景，展现引人入胜的角色：<a href=\"/pierrot\" class=\"character-link\">Pierrot</a> 与 <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>。Day 2 更新引入了三个新角色：<a href=\"/jester\" class=\"character-link\">Jester</a>、<a href=\"/doctor\" class=\"character-link\">Doctor</a> 和 <a href=\"/ticket-taker\" class=\"character-link\">Ticket Taker</a>。每个角色都经过精心设计，体现其复杂的个性和动机。"
       },
       "multipleEndings": {
         "title": "多结局与多语言",
@@ -589,14 +799,14 @@
         "description1": "又一个月度更新，为 <a href=\"/\" class=\"content-link\">《The Freak Circus》视觉小说</a> 做准备，我们距离发布已经非常接近！",
         "description2": "《The Freak Circus》视觉小说第 2 天剧情还有约 15-20% 需要编码，包括完成的立绘。之后，下一阶段主要是音乐和音效部分，会稍微“快一些”。",
         "description3": "我已经对本次更新进行了部分测试，仍有小问题待修复。目前最大的挑战是缺少第 2 天剧情的 20%，因为剧情包含大量过渡动画和立绘，非常复杂耗时。",
-        "description4": "在 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之外，本次更新将正式介绍 Ticket Taker、Jester 和 Doctor，你应该还记得他们在“失踪”坏结局中的出现吧？",
+        "description4": "在 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 之外，本次更新将正式介绍 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>、<a href=\"/jester\" class=\"content-link\">Jester</a> 和 <a href=\"/doctor\" class=\"content-link\">Doctor</a>，你应该还记得他们在“失踪”坏结局中的出现吧？",
         "description5": "我希望本月发布这次更新及商店内容，但最坏情况可能推迟到下个月。先欣赏一些开发中的截图吧！"
       },
       "monthlyUpdate": {
         "title": "月度更新！",
         "description1": "距离上次 <a href=\"/\" class=\"content-link\">《The Freak Circus》视觉小说</a> 发布又过去一个月！来看看下一次更新的进展吧！",
         "description2": "目前第 2 天剧情一半已经编码完成，但新的立绘还没全部完成（而且相信我，有很多新立绘和 CG）。",
-        "description3": "本次更新的游戏内容会更长，你将更深入了解其他三位马戏团角色。",
+        "description3": "本次更新的游戏内容会更长，你将更深入了解其他三位马戏团角色：<a href=\"/jester\" class=\"content-link\">Jester</a>、<a href=\"/doctor\" class=\"content-link\">Doctor</a> 和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>。",
         "description4": "此外，我还会为视觉小说添加“隐藏场景”，玩家可在游玩时解锁，并在菜单中访问。更多游戏机制信息请查看我们的 <a href=\"/wiki\" class=\"content-link\">维基页面</a>。",
         "description5": "如果仔细观察选择，你还会发现一些小秘密哦！"
       },
@@ -608,7 +818,7 @@
         "dia2Description": "我一直在稳步制作第 2 天剧情！部分新立绘和背景已完成，剧情编码也有相当进度。",
         "summaryTitle": "更新快速总结：",
         "summary1": "故事将从三个结局延续：两个被 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 带走的结局，以及一个回家的结局。",
-        "summary2": "你将在第 2 天剧情中遇到三位新角色，每位角色都有自己的帐篷！",
+        "summary2": "你将在第 2 天剧情中遇到三位新角色，每位角色都有自己的帐篷：<a href=\"/jester\" class=\"content-link\">Jester</a>、<a href=\"/doctor\" class=\"content-link\">Doctor</a> 和 <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>！",
         "summary3": "与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> 和 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 的场景会增多，同时了解新角色。",
         "summary4": "部分立绘将在本次更新中动画化！",
         "summary5": "游戏菜单将焕然一新！",
@@ -699,6 +909,15 @@
         "description3": "更新引入了三个新的神秘角色：<strong>小丑</strong>，他用木偶讲述 Columbina 的悲剧故事；<strong>医生</strong>，一个带来医疗恐怖主题的瘟疫医生；以及<strong>售票员</strong>，他通过镜面帐篷中扭曲的反射来操控现实。",
         "description4": "玩家现在可以探索特定的景点帐篷，每个帐篷都揭示了马戏团黑暗秘密的不同方面。第二天更新还包含一个新的隐藏场景系统，增加了深度和可重玩性，基于你的选择有多个结局，以及超过100张新图像，包括角色立绘、表情和背景。",
         "description5": "要了解所有新内容的完整攻略和详细指南，请查看我们全面的<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天博客文章</a>，其中涵盖了你在马戏团第二天旅程中遇到的所有关键事件、新地点、角色互动、隐藏场景和多个结局。"
+      },
+      "newCharacters": {
+        "title": "认识三位新角色：Jester、Doctor 和 Ticket Taker",
+        "description1": "我们很高兴向大家介绍三位神秘的新角色，他们与<a href=\"/pierrot\" class=\"content-link\">Pierrot</a>和<a href=\"/harlequin\" class=\"content-link\">Harlequin</a>一起加入了 The Freak Circus！每个角色都为马戏团带来了独特的黑暗和神秘，扩展了故事的深度和复杂性。",
+        "description2": "<strong><a href=\"/jester\" class=\"content-link\">Jester</a></strong>是马戏团的故事讲述者和观察者。通过迷人的木偶表演，他揭示了Columbina的悲剧传说——这是Pierrot和Harlequin之间敌意的核心故事。Jester的帐篷成为了一个真实与虚构模糊的地方，古老的秘密通过讲故事的艺术被揭示。",
+        "description3": "<strong><a href=\"/doctor\" class=\"content-link\">Doctor</a></strong>是一位瘟疫医生，在青色帐篷中进行令人不安的实验。凭借他令人毛骨悚然的举止和扭曲的医学哲学，他探索恐惧和服从的深度。Doctor的存在为游戏增添了一层医疗恐怖，他测量恐惧反应，并推动\"治愈\"含义的边界。",
+        "description4": "<strong><a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a></strong>守卫着镜之帐篷的入口，这是一个现实变得扭曲、反射揭示马戏团内怪物真实本质的地方。他操纵反射向你展示其他人看不到的东西，通过扭曲的镜子警告你马戏团怪物的真实本质。",
+        "description5": "每个角色都有自己专属的角色页面，你可以在那里了解更多关于他们的背景、性格特征、能力以及与其他角色的关系。探索他们的故事，发现他们如何融入 The Freak Circus 更大的叙事中。",
+        "description6": "这三个新角色现已完全集成到游戏的第二天更新中，为玩家带来了新的地点、互动和故事路径供探索。访问他们的角色页面，深入了解他们神秘的世界！"
       },
       "lastDevlog": {
         "title": "更新前的最后开发日志（我希望！）",

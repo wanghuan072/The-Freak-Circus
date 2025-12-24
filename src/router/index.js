@@ -29,6 +29,9 @@ const pageConfigs = [
   { path: '/pierrot', component: 'PierrotView', name: 'Pierrot' },
   { path: '/pierrot-coloring', component: 'PierrotColoringView', name: 'PierrotColoring' },
   { path: '/harlequin', component: 'HarlequinView', name: 'Harlequin' },
+  { path: '/jester', component: 'JesterView', name: 'Jester' },
+  { path: '/doctor', component: 'DoctorView', name: 'Doctor' },
+  { path: '/ticket-taker', component: 'TicketTakerView', name: 'TicketTaker' },
   { path: '/wiki', component: 'WikiView', name: 'Wiki' },
   { path: '/updates', component: 'UpdatesView', name: 'Updates' },
   { path: '/download', component: 'DownloadView', name: 'Download' },
@@ -95,7 +98,7 @@ router.beforeEach(async (to, from, next) => {
     }
 
     // 加载语言文件到localeDataMap（用于SEO）
-    await loadLocaleForSEO('en') // SEO只使用英文数据
+    await loadLocaleForSEO(detectedLanguage) // 加载当前语言的SEO数据
 
     // 设置语言
     i18n.global.locale.value = detectedLanguage
@@ -105,7 +108,7 @@ router.beforeEach(async (to, from, next) => {
     document.documentElement.lang = detectedLanguage
 
     // 设置页面SEO
-    setPageSEO(to, detectedLanguage)
+    await setPageSEO(to, detectedLanguage)
 
     next()
   } catch (error) {
@@ -114,13 +117,23 @@ router.beforeEach(async (to, from, next) => {
   }
 })
 
-// 设置页面SEO的函数 - 简化版本，只使用英文SEO数据
+// 设置页面SEO的函数 - 根据当前语言使用对应的SEO数据
 async function setPageSEO(route, language) {
   // 获取页面SEO配置
   const seoKey = getSEOKey(route.path, language)
 
-  // 只使用英文SEO数据，避免加载所有语言文件
-  const localeData = localeDataMap['en']
+  // 确保当前语言的数据已加载
+  if (!localeDataMap[language]) {
+    await loadLocaleForSEO(language)
+  }
+
+  // 确保英文数据已加载（作为后备）
+  if (!localeDataMap['en']) {
+    await loadLocaleForSEO('en')
+  }
+
+  // 使用当前语言的SEO数据，如果没有则使用英文数据作为后备
+  const localeData = localeDataMap[language] || localeDataMap['en']
   const seoData = localeData?.seo?.[seoKey]
 
   if (seoData && typeof document !== 'undefined') {
@@ -158,6 +171,9 @@ function getSEOKey(path, language) {
     '/pierrot': 'pierrot',
     '/pierrot-coloring': 'pierrotColoring',
     '/harlequin': 'harlequin',
+    '/jester': 'jester',
+    '/doctor': 'doctor',
+    '/ticket-taker': 'ticketTaker',
     '/wiki': 'wiki',
     '/updates': 'updates',
     '/download': 'download',

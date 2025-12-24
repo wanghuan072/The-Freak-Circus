@@ -15,6 +15,21 @@
       "description": "Meet Harlequin, the mischievous trickster from The Freak Circus. Explore her complex personality and relationship with Pierrot in this horror visual novel.",
       "keywords": "Harlequin, The Freak Circus, character, trickster, psychological horror, visual novel, circus, thefreakcircus.org"
     },
+    "jester": {
+      "title": "Jester Character - The Freak Circus | thefreakcircus.org",
+      "description": "Discover the Jester, the storyteller and observer from The Freak Circus Day 2. Learn about his role in revealing the Columbina legend and the circus secrets.",
+      "keywords": "Jester, The Freak Circus, character, Day 2, storyteller, Columbina legend, visual novel, thefreakcircus.org"
+    },
+    "doctor": {
+      "title": "Doctor Character - The Freak Circus | thefreakcircus.org",
+      "description": "Meet the Doctor, the plague doctor from The Freak Circus Day 2. Explore his twisted medical philosophy and dark experiments in the Cyan Tent.",
+      "keywords": "Doctor, The Freak Circus, character, Day 2, plague doctor, medical horror, Cyan Tent, visual novel, thefreakcircus.org"
+    },
+    "ticketTaker": {
+      "title": "Ticket Taker Character - The Freak Circus | thefreakcircus.org",
+      "description": "Discover the Ticket Taker, the reality manipulator from The Freak Circus Day 2. Learn about his mirror powers and warnings in the Tent of Mirrors.",
+      "keywords": "Ticket Taker, The Freak Circus, character, Day 2, mirror tent, reality manipulation, visual novel, thefreakcircus.org"
+    },
     "wiki": {
       "title": "The Freak Circus Wiki - Game Guide & Story | thefreakcircus.org",
       "description": "Complete guide to The Freak Circus visual novel. Learn about characters, story, gameplay, and the mysterious circus world.",
@@ -72,6 +87,9 @@
     "pierrot": "Pierrot",
     "pierrotColoring": "Pierrot Coloring",
     "harlequin": "Harlequin",
+    "jester": "Jester",
+    "doctor": "Doctor",
+    "ticketTaker": "Ticket Taker",
     "wiki": "Wiki",
     "visualNovelGames": "Visual Novel Games",
     "blog": "Blog",
@@ -106,7 +124,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "A Psychological Horror Visual Novel",
-      "description": "Step into a world where reality bends and nightmares come alive. The Freak Circus is an immersive psychological horror visual novel that will challenge your perception of truth and fiction. Experience the <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">Day 2 update</a> featuring darker narratives, new characters like the Jester and Doctor, and the tragic legend of Columbina that reveals the deep-seated animosity between Pierrot and Harlequin.",
+      "description": "Step into a world where reality bends and nightmares come alive. The Freak Circus is an immersive psychological horror visual novel that will challenge your perception of truth and fiction. Experience the <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">Day 2 update</a> featuring darker narratives, new characters like the <a href=\"/jester\" class=\"hero-link\">Jester</a> and <a href=\"/doctor\" class=\"hero-link\">Doctor</a>, and the tragic legend of Columbina that reveals the deep-seated animosity between Pierrot and Harlequin.",
       "playButton": "Play Now",
       "learnButton": "Learn more about The Freak Circus",
       "warning": "Content Warning: This game contains mature themes, psychological horror, and disturbing imagery. Recommended for ages 18+.",
@@ -114,7 +132,7 @@
     },
     "about": {
       "title": "What is The Freak Circus?",
-      "description": "The Freak Circus is a psychological horror visual novel that takes you on a journey through the twisted minds of its characters. Set in a mysterious circus where nothing is as it seems, you'll encounter Pierrot and Harlequin - two enigmatic figures whose stories will challenge everything you think you know about reality. The <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 update</a> plunges players into a darker narrative involving kidnapping, psychological manipulation, and the tragic legend of Columbina that reveals the deep-seated animosity between Pierrot and Harlequin. Explore new tent locations, meet mysterious characters like the Jester, Doctor, and Ticket Taker, and uncover hidden scenes that add depth to this twisted tale.",
+      "description": "The Freak Circus is a psychological horror visual novel that takes you on a journey through the twisted minds of its characters. Set in a mysterious circus where nothing is as it seems, you'll encounter Pierrot and Harlequin - two enigmatic figures whose stories will challenge everything you think you know about reality. The <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 update</a> plunges players into a darker narrative involving kidnapping, psychological manipulation, and the tragic legend of Columbina that reveals the deep-seated animosity between Pierrot and Harlequin. Explore new tent locations, meet mysterious characters like the <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>, and uncover hidden scenes that add depth to this twisted tale.",
       "feature1": "Psychological Horror Elements",
       "feature1Desc": "Experience deep psychological themes that will keep you questioning reality",
       "feature2": "Rich Character Development",
@@ -132,12 +150,21 @@
       "pierrotLearnMore": "Learn more about Pierrot",
       "harlequinName": "Harlequin",
       "harlequinDesc": "The mischievous trickster whose playful exterior masks a complex personality. Her relationship with Pierrot forms the heart of the story.",
-      "harlequinLearnMore": "Learn more about Harlequin"
+      "harlequinLearnMore": "Learn more about Harlequin",
+      "jesterName": "Jester",
+      "jesterDesc": "The storyteller and observer who reveals the tragic legend of Columbina through puppet performances, unveiling the circus's darkest secrets.",
+      "jesterLearnMore": "Learn more about Jester",
+      "doctorName": "Doctor",
+      "doctorDesc": "The plague doctor who conducts dark experiments in the Cyan Tent, measuring fear responses and exploring twisted medical philosophy.",
+      "doctorLearnMore": "Learn more about Doctor",
+      "ticketTakerName": "Ticket Taker",
+      "ticketTakerDesc": "The reality manipulator who controls the Tent of Mirrors, revealing the true nature of monsters through distorted reflections.",
+      "ticketTakerLearnMore": "Learn more about Ticket Taker"
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "question1": "What is The Freak Circus?",
-      "answer1": "The Freak Circus is a psychological horror visual novel that explores themes of reality, perception, and the human psyche through the stories of Pierrot and Harlequin. The Day 2 update introduces darker narrative elements including kidnapping, psychological manipulation, and the tragic legend of Columbina that reveals the deep-seated animosity between the two main characters. Players can explore new tent locations, meet mysterious characters like the Jester, Doctor, and Ticket Taker, and discover hidden scenes with multiple endings.",
+      "answer1": "The Freak Circus is a psychological horror visual novel that explores themes of reality, perception, and the human psyche through the stories of Pierrot and Harlequin. The Day 2 update introduces darker narrative elements including kidnapping, psychological manipulation, and the tragic legend of Columbina that reveals the deep-seated animosity between the two main characters. Players can explore new tent locations, meet mysterious characters like the <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>, and discover hidden scenes with multiple endings.",
       "question2": "Is the game suitable for all ages?",
       "answer2": "No, The Freak Circus contains mature themes, psychological horror, and disturbing imagery. It is recommended for ages 18 and above.",
       "question3": "What platforms is the game available on?",
@@ -165,7 +192,7 @@
       "update1": {
         "date": "January 20, 2025",
         "title": "Day 2 Update: New Characters and Darker Story",
-        "excerpt": "The <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 update</a> significantly raises the stakes with kidnapping, psychological manipulation, and the tragic legend of Columbina. Explore new tent locations, meet the Jester, Doctor, and Ticket Taker, and discover hidden scenes with multiple endings."
+        "excerpt": "The <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 update</a> significantly raises the stakes with kidnapping, psychological manipulation, and the tragic legend of Columbina. Explore new tent locations, meet the <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>, and discover hidden scenes with multiple endings."
       },
       "update2": {
         "date": "October 27, 2025",
@@ -461,6 +488,189 @@
       "title": "Harlequin from The Freak Circus Character Gallery"
     }
   },
+  "JesterPage": {
+    "header": {
+      "name": "Jester",
+      "subtitle": "The Storyteller & Observer - Jester from The Freak Circus",
+      "description": "In the shadows of the circus, the Jester serves as the narrator and keeper of secrets. Through his puppet performances, he reveals the tragic legend of Columbina and the deep-seated animosity between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. This enigmatic character from <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 update plays a crucial role in unveiling the circus's darkest secrets."
+    },
+    "about": {
+      "title": "About Jester from The Freak Circus",
+      "description1": "The Jester from <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 update is a central figure who acts as both storyteller and observer. Appearing in the Purple/Black Tent during a stage performance, the Jester uses puppets to tell the tragic story that explains the history of the circus and the root of the hatred between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>.",
+      "description2": "The Jester's performance is the most important lore drop in Day 2, revealing the legend of Columbina - the girl known as \"The Flower\" who was loved by Pierrot (\"The Silent Monster\") but poisoned by Harlequin (\"The Poison\") out of jealousy. This act is the root of the eternal conflict between the two main characters, and the Jester implies that history is repeating itself with you, the protagonist, as the new \"Columbina.\"",
+      "description3": "The Jester serves as a narrator of sorts, knowing all the secrets of the circus and serving as an observer who watches the events unfold. His role is crucial in understanding the deeper narrative of <a href=\"/\" class=\"content-link\">The Freak Circus</a>. For more information about the Day 2 update and the Jester's role, check our <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 walkthrough guide</a>."
+    },
+    "traits": {
+      "title": "Jester from The Freak Circus Personality Traits",
+      "storyteller": {
+        "title": "Master Storyteller",
+        "description": "The Jester is a skilled storyteller who uses puppets to convey complex narratives. His performances in the Purple/Black Tent reveal crucial information about the circus's history and the relationships between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, and other characters. Learn more about the circus history in our <a href=\"/wiki\" class=\"content-link\">Wiki guide</a>."
+      },
+      "observer": {
+        "title": "Silent Observer",
+        "description": "The Jester acts as an observer who knows all the secrets of the circus. He watches events unfold and serves as a narrator who understands the deeper dynamics at play, including the relationships between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>."
+      },
+      "knowledge": {
+        "title": "Keeper of Secrets",
+        "description": "The Jester possesses extensive knowledge about the circus's history, the Columbina legend, and the motivations of other characters including <a href=\"/doctor\" class=\"content-link\">the Doctor</a> and <a href=\"/ticket-taker\" class=\"content-link\">the Ticket Taker</a>. He uses this knowledge to reveal truths through his performances. Discover more secrets in our <a href=\"/blog\" class=\"content-link\">blog posts</a>."
+      },
+      "narrator": {
+        "title": "Narrative Guide",
+        "description": "The Jester serves as a narrative guide, helping players understand the complex relationships and historical context that shape the story of <a href=\"/\" class=\"content-link\">The Freak Circus</a>. His role is essential for understanding the Day 2 update, as detailed in our <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 walkthrough</a>."
+      }
+    },
+    "abilities": {
+      "title": "Jester from The Freak Circus Special Abilities",
+      "loreRevelation": {
+        "title": "Lore Revelation",
+        "description": "The Jester's most significant ability is revealing crucial lore through his puppet performances. He tells the tragic story of Columbina, explaining the deep-seated animosity between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>."
+      },
+      "puppetPerformance": {
+        "title": "Puppet Performance",
+        "description": "The Jester uses puppets to tell stories, creating a theatrical experience that conveys complex narratives in an engaging and memorable way. His performances are central to understanding the circus's history."
+      },
+      "propheticInsight": {
+        "title": "Prophetic Insight",
+        "description": "The Jester demonstrates an understanding of patterns and cycles, implying that history is repeating itself with the protagonist as the new Columbina. His insights provide crucial warnings about the dangers ahead, including the threats posed by <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. Stay updated with the latest <a href=\"/updates\" class=\"content-link\">game updates</a> to discover more about the Jester's prophecies."
+      }
+    },
+    "relationships": {
+      "title": "Jester from The Freak Circus Character Relationships",
+      "protagonist": {
+        "title": "Relationship with Protagonist",
+        "description": "The Jester serves as a guide for the protagonist, revealing important information through his performances. He implies that the protagonist may be the new Columbina, caught in the middle of the eternal conflict between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>."
+      },
+      "pierrotHarlequin": {
+        "title": "Understanding of Pierrot & Harlequin",
+        "description": "The Jester understands the historical context of the rivalry between <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. Through his storytelling, he reveals how the Columbina legend shaped their relationship and continues to influence their actions. The Jester also knows about other Day 2 characters like <a href=\"/doctor\" class=\"content-link\">the Doctor</a> and <a href=\"/ticket-taker\" class=\"content-link\">the Ticket Taker</a>. Explore the full story in our <a href=\"/wiki\" class=\"content-link\">Wiki</a> or <a href=\"/download\" class=\"content-link\">download the game</a> to experience it yourself."
+      }
+    },
+    "gallery": {
+      "title": "Jester from The Freak Circus Character Gallery"
+    }
+  },
+  "DoctorPage": {
+    "header": {
+      "name": "Doctor",
+      "subtitle": "The Plague Doctor - Doctor from The Freak Circus",
+      "description": "In the depths of the Cyan Tent, the Doctor awaits with twisted medical instruments and a fascination for fear. This plague doctor from <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 update brings a new layer of medical horror to the game, measuring your fear response and conducting dark experiments."
+    },
+    "about": {
+      "title": "About Doctor from The Freak Circus",
+      "description1": "The Doctor from <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 update is introduced in the Cyan Tent, appearing as a plague doctor who brings a theme of medical horror to the game. This character adds another layer of psychological terror, conducting examinations that measure fear response and adrenaline levels.",
+      "description2": "The Doctor ties you to a table to measure your fear response, mentioning that \"bloodletting\" has calming effects - showing his twisted medical philosophy. He values obedience and finds fear fascinating, hinting at his dark experiments. The Doctor suggests that your reactions are different from previous \"dolls\" or victims, implying you may have a unique role in the circus's twisted games.",
+      "description3": "The Doctor's presence in Day 2 significantly raises the stakes, adding medical horror elements to the psychological thriller. His character represents the darker aspects of the circus, where scientific curiosity meets twisted morality. For more details about the Doctor and the Cyan Tent experience, explore our <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 walkthrough guide</a>."
+    },
+    "traits": {
+      "title": "Doctor from The Freak Circus Personality Traits",
+      "medicalHorror": {
+        "title": "Medical Horror Specialist",
+        "description": "The Doctor embodies medical horror, appearing as a plague doctor with twisted medical instruments. His presence adds a chilling layer of scientific terror to <a href=\"/\" class=\"content-link\">The Freak Circus</a> experience. The Doctor operates in the Cyan Tent, one of three new locations introduced in Day 2, alongside the <a href=\"/jester\" class=\"content-link\">Jester's</a> Purple/Black Tent and the <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker's</a> Blue Tent."
+      },
+      "obsessionWithFear": {
+        "title": "Obsession with Fear",
+        "description": "The Doctor finds fear fascinating and values the measurement of fear responses and adrenaline levels. His obsession with understanding fear drives his dark experiments, which differ from the psychological manipulation used by <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. Learn more about the Day 2 update in our <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">walkthrough guide</a>."
+      },
+      "twistedPhilosophy": {
+        "title": "Twisted Medical Philosophy",
+        "description": "The Doctor believes that \"bloodletting\" has calming effects, demonstrating his twisted approach to medicine. He values obedience and sees fear as something to be studied and manipulated, representing a different kind of horror compared to the emotional obsessions of <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>."
+      },
+      "experimentalNature": {
+        "title": "Experimental Nature",
+        "description": "The Doctor conducts dark experiments, suggesting he has worked with previous \"dolls\" or victims. His experimental nature makes him a dangerous figure in the circus, operating alongside other Day 2 characters like <a href=\"/jester\" class=\"content-link\">the Jester</a> and <a href=\"/ticket-taker\" class=\"content-link\">the Ticket Taker</a>. Discover more about the circus's dark experiments in our <a href=\"/wiki\" class=\"content-link\">Wiki</a>."
+      }
+    },
+    "abilities": {
+      "title": "Doctor from The Freak Circus Special Abilities",
+      "fearMeasurement": {
+        "title": "Fear Measurement",
+        "description": "The Doctor has the ability to measure fear responses and adrenaline levels, tying subjects to a table to conduct his examinations. This ability allows him to understand and manipulate fear."
+      },
+      "bloodletting": {
+        "title": "Bloodletting Techniques",
+        "description": "The Doctor practices bloodletting, believing it has calming effects. This twisted medical technique represents his dark approach to healing and control."
+      },
+      "psychologicalAnalysis": {
+        "title": "Psychological Analysis",
+        "description": "The Doctor can identify unique reactions in subjects, recognizing that the protagonist's responses differ from previous victims. This ability suggests he may understand the protagonist's special role in the circus, similar to how <a href=\"/jester\" class=\"content-link\">the Jester</a> recognizes the protagonist as the new Columbina. The Doctor's analysis adds depth to the psychological horror elements introduced in Day 2. <a href=\"/download\" class=\"content-link\">Download the game</a> to experience the Doctor's examinations firsthand."
+      }
+    },
+    "relationships": {
+      "title": "Doctor from The Freak Circus Character Relationships",
+      "protagonist": {
+        "title": "Relationship with Protagonist",
+        "description": "The Doctor examines the protagonist in the Cyan Tent, measuring their fear response. He hints that the protagonist's reactions are different from previous \"dolls,\" suggesting they may have a unique role in the circus's twisted games."
+      },
+      "circusMembers": {
+        "title": "Role in the Circus",
+        "description": "The Doctor operates in the Cyan Tent, conducting his dark experiments. His role in the circus represents the scientific and experimental side of the horror, adding depth to the circus's twisted nature. While <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> focus on emotional manipulation, the Doctor brings medical horror. He works alongside <a href=\"/jester\" class=\"content-link\">the Jester</a> (who reveals lore) and <a href=\"/ticket-taker\" class=\"content-link\">the Ticket Taker</a> (who reveals truth through mirrors). Explore all characters in our <a href=\"/wiki\" class=\"content-link\">Wiki</a> or check the latest <a href=\"/updates\" class=\"content-link\">updates</a> for new content."
+      }
+    },
+    "gallery": {
+      "title": "Doctor from The Freak Circus Character Gallery"
+    }
+  },
+  "TicketTakerPage": {
+    "header": {
+      "name": "Ticket Taker",
+      "subtitle": "The Reality Manipulator - Ticket Taker from The Freak Circus",
+      "description": "In the Tent of Mirrors, the Ticket Taker manipulates reality through twisted reflections. This enigmatic character from <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 update reveals the true nature of the monsters around you, warning that nothing is as it seems."
+    },
+    "about": {
+      "title": "About Ticket Taker from The Freak Circus",
+      "description1": "The Ticket Taker from <a href=\"/\" class=\"content-link\">The Freak Circus</a> Day 2 update is encountered in the Tent of Mirrors, also known as the Blue Tent. This character manipulates reality through twisted reflections, showing distorted versions of other characters that reveal their true natures.",
+      "description2": "The mirrors in the Tent of Mirrors show disturbing reflections: <a href=\"/pierrot\" class=\"content-link\">Pierrot's</a> reflection begs for you to stay with him forever, showing his desperate need for your presence. <a href=\"/harlequin\" class=\"content-link\">Harlequin's</a> reflection is aggressive and mocks your weakness, revealing his predatory nature. The Ticket Taker warns you not to trust your eyes - the horrors you see in the mirrors reflect the true nature of the monsters around you.",
+      "description3": "The Ticket Taker's role is crucial as a warning provider, helping players understand the dangers that lie ahead. His ability to reveal truth through distorted reflections makes him an important guide in navigating the twisted world of The Freak Circus. For more information about the Tent of Mirrors and the Ticket Taker, check our <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 walkthrough guide</a>."
+    },
+    "traits": {
+      "title": "Ticket Taker from The Freak Circus Personality Traits",
+      "realityManipulation": {
+        "title": "Reality Manipulation",
+        "description": "The Ticket Taker has the ability to manipulate reality through twisted reflections in mirrors. This power allows him to reveal the true nature of characters and situations, showing the hidden aspects of <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. The Tent of Mirrors (Blue Tent) is one of three new locations in Day 2, alongside the <a href=\"/jester\" class=\"content-link\">Jester's</a> Purple/Black Tent and the <a href=\"/doctor\" class=\"content-link\">Doctor's</a> Cyan Tent."
+      },
+      "mirrorMaster": {
+        "title": "Master of Mirrors",
+        "description": "The Ticket Taker controls the Tent of Mirrors, using reflections to show distorted versions of reality. His mastery over mirrors makes him a powerful figure in the circus, complementing the narrative role of <a href=\"/jester\" class=\"content-link\">the Jester</a> and the experimental nature of <a href=\"/doctor\" class=\"content-link\">the Doctor</a>. Learn more about the Day 2 locations in our <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">walkthrough guide</a>."
+      },
+      "warningProvider": {
+        "title": "Warning Provider",
+        "description": "The Ticket Taker serves as a crucial warning provider, telling players not to trust their eyes. His warnings help players understand the dangers that lie ahead in the circus, including the threats from <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. These warnings are essential for navigating the twisted world of <a href=\"/\" class=\"content-link\">The Freak Circus</a>."
+      },
+      "truthRevealer": {
+        "title": "Truth Revealer",
+        "description": "Through distorted reflections, the Ticket Taker reveals the true nature of the monsters around you. His reflections show the hidden aspects of characters like <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, providing crucial insights that complement the lore revealed by <a href=\"/jester\" class=\"content-link\">the Jester</a>. Discover more character insights in our <a href=\"/wiki\" class=\"content-link\">Wiki</a>."
+      }
+    },
+    "abilities": {
+      "title": "Ticket Taker from The Freak Circus Special Abilities",
+      "distortedReflections": {
+        "title": "Distorted Reflections",
+        "description": "The Ticket Taker can create distorted reflections in mirrors that reveal the true nature of characters. <a href=\"/pierrot\" class=\"content-link\">Pierrot's</a> reflection shows his desperate need, while <a href=\"/harlequin\" class=\"content-link\">Harlequin's</a> reflection reveals his predatory nature."
+      },
+      "characterRevelation": {
+        "title": "Character Revelation",
+        "description": "Through his mirror powers, the Ticket Taker reveals hidden aspects of characters' personalities and motivations. This ability helps players understand the true nature of the circus's inhabitants, including <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, <a href=\"/jester\" class=\"content-link\">the Jester</a>, and <a href=\"/doctor\" class=\"content-link\">the Doctor</a>. The revelations in the Tent of Mirrors are crucial for understanding the Day 2 narrative. <a href=\"/download\" class=\"content-link\">Download the game</a> to experience these revelations yourself."
+      },
+      "illusionControl": {
+        "title": "Illusion Control",
+        "description": "The Ticket Taker controls illusions and reality within the Tent of Mirrors, creating an environment where truth and deception are intertwined. His control over illusions makes the tent a place of revelation and warning."
+      }
+    },
+    "relationships": {
+      "title": "Ticket Taker from The Freak Circus Character Relationships",
+      "protagonist": {
+        "title": "Relationship with Protagonist",
+        "description": "The Ticket Taker serves as a guide and warning provider for the protagonist. Through his mirror reflections, he reveals the true nature of the dangers around them, helping them understand the twisted reality of the circus."
+      },
+      "circusCharacters": {
+        "title": "Understanding of Circus Characters",
+        "description": "The Ticket Taker understands the true nature of other circus characters, using his mirror powers to reveal their hidden aspects. His reflections of <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> show their desperate needs and predatory natures. The Ticket Taker's insights complement the narrative provided by <a href=\"/jester\" class=\"content-link\">the Jester</a> and the experiments conducted by <a href=\"/doctor\" class=\"content-link\">the Doctor</a>. Together, these Day 2 characters provide a complete picture of the circus's dark secrets. Explore more in our <a href=\"/wiki\" class=\"content-link\">Wiki</a> or read the latest <a href=\"/blog\" class=\"content-link\">blog posts</a>."
+      }
+    },
+    "gallery": {
+      "title": "Ticket Taker from The Freak Circus Character Gallery"
+    }
+  },
   "WikiPage": {
     "header": {
       "title": "The Freak Circus Wiki",
@@ -473,7 +683,7 @@
       "title": "Game Overview",
       "description1": "<strong><a href=\"/\" class=\"content-link\">The Freak Circus</a></strong> is a dark psychological visual novel that takes players into the twisted world of a traveling circus filled with mystery, obsession, and dangerous relationships. This immersive experience from The Freak Circus combines compelling storytelling with mature themes, creating an unforgettable journey through the shadows of human desire and manipulation.",
       "description2": "In <a href=\"/\" class=\"content-link\">The Freak Circus</a>, players assume the role of a café worker whose ordinary life becomes entangled with the enigmatic performers of a sinister circus. The game explores themes of obsession, rivalry, and the darker aspects of human nature through its complex character relationships and branching narrative paths.",
-      "description3": "The Freak Circus stands out in the visual novel genre for its mature content, psychological depth, and the intricate dynamics between its central characters. This dark tale from The Freak Circus offers multiple endings and character routes, ensuring that each playthrough reveals new layers of the story. Explore the complex relationships between <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a> in this psychological thriller."
+      "description3": "The Freak Circus stands out in the visual novel genre for its mature content, psychological depth, and the intricate dynamics between its central characters. This dark tale from The Freak Circus offers multiple endings and character routes, ensuring that each playthrough reveals new layers of the story. Explore the complex relationships between <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>, and discover the mysterious new characters from Day 2: <a href=\"/jester\" class=\"character-link\">Jester</a>, <a href=\"/doctor\" class=\"character-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"character-link\">Ticket Taker</a> in this psychological thriller."
     },
     "gamePremise": {
       "title": "Game Premise",
@@ -485,7 +695,7 @@
       "title": "Current Features",
       "originalArtwork": {
         "title": "Original Artwork & Characters",
-        "description": "The Freak Circus features beautifully crafted original artwork and backgrounds, showcasing two compelling characters: <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>. Each character in The Freak Circus is meticulously designed to reflect their complex personalities and motivations."
+        "description": "The Freak Circus features beautifully crafted original artwork and backgrounds, showcasing compelling characters: <a href=\"/pierrot\" class=\"character-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"character-link\">Harlequin</a>. The Day 2 update introduces three new characters: <a href=\"/jester\" class=\"character-link\">Jester</a>, <a href=\"/doctor\" class=\"character-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"character-link\">Ticket Taker</a>. Each character in The Freak Circus is meticulously designed to reflect their complex personalities and motivations."
       },
       "multipleEndings": {
         "title": "Multiple Endings & Languages",
@@ -589,14 +799,14 @@
         "description1": "Another monthly update for <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a>, and we're getting really close to releasing this one!",
         "description2": "There's about 15-20% of The Freak Circus visual novel dia 2 left to be coded, and that includes finished sprites. After that, the next stage should be a bit \"faster\" mostly the music and sound effects for The Freak Circus visual novel actualizacion.",
         "description3": "I've done some beta testing with this update and there are still small parts to fix. The biggest challenge right now is that missing 20% of The Freak Circus visual novel dia 2, since it's packed with transitions and sprites, which makes it pretty complex and time-consuming.",
-        "description4": "Alongside <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, this update will properly introduce you to Ticket Taker, Jester, and the Doctor in The Freak Circus visual novel - you probably remember them from the \"Missing\" bad end, right?",
+        "description4": "Alongside <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, this update will properly introduce you to <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>, <a href=\"/jester\" class=\"content-link\">Jester</a>, and <a href=\"/doctor\" class=\"content-link\">the Doctor</a> in The Freak Circus visual novel - you probably remember them from the \"Missing\" bad end, right?",
         "description5": "I'm hoping to release The Freak Circus visual novel actualizacion this month along with the store, but in the worst case it'll be pushed to next month. For now, enjoy a few more screenshots from The Freak Circus visual novel development!"
       },
       "monthlyUpdate": {
         "title": "Monthly Update!",
         "description1": "Another month since <a href=\"/\" class=\"content-link\">The Freak Circus visual novel</a> release! So here's more news about the progress on the next update!",
         "description2": "Right now, half of The Freak Circus visual novel dia 2 is already coded, though not all of the new sprites are finished yet (and trust me, there are a lot of new sprites and CGs for The Freak Circus visual novel actualizacion).",
-        "description3": "This update will be a bit longer in terms of gameplay, since now you'll get to know a bit more about the other three characters from The Freak Circus visual novel circus.",
+        "description3": "This update will be a bit longer in terms of gameplay, since now you'll get to know a bit more about the other three characters from The Freak Circus visual novel circus: <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>.",
         "description4": "On top of that, I'll be adding \"hidden scenes\" to The Freak Circus visual novel - little story segments you can unlock while playing, and you can access it in the menu. For more details about the game mechanics, check our <a href=\"/wiki\" class=\"content-link\">Wiki page</a>.",
         "description5": "I'll also leave a few small secrets for you to spot in The Freak Circus visual novel if you pay attention to your choices!"
       },
@@ -608,7 +818,7 @@
         "dia2Description": "I've been working on The Freak Circus visual novel dia 2 steadily! Some new sprites and backgrounds are already done, and a good portion of The Freak Circus visual novel dia 2 has already been coded.",
         "summaryTitle": "Here's a quick summary of The Freak Circus Visual Novel Actualizacion:",
         "summary1": "The story will continue from all three endings: the two where you're taken by <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, and the one where you return home.",
-        "summary2": "You'll get to meet three new characters in The Freak Circus visual novel dia 2, each in their own tent!",
+        "summary2": "You'll get to meet three new characters in The Freak Circus visual novel dia 2, each in their own tent: <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, and <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>!",
         "summary3": "There will be more scenes with <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> while you get to know the new characters.",
         "summary4": "Some sprites will be animated in The Freak Circus visual novel actualizacion!",
         "summary5": "The game menu will also get a brand-new look for The Freak Circus visual novel!",
@@ -698,6 +908,15 @@
         "description2": "It's planned to come out this month. I don't have an exact date yet, but I'll spend the next few days doing final tests and fixes! As soon as I have a confirmed date, I'll post it on my social media. Everything is already coded and currently being tested so I can finally release this update!",
         "description3": "Some choices in the game are still causing small issues in certain routes, so that's basically what I'm fixing right now. It's a bit of work because of the number of choices and situations in this update, but as long as nothing crashes, it should be released before the end of the month.",
         "description4": "Thank you all for your patience and support! The update is almost here!"
+      },
+      "newCharacters": {
+        "title": "Meet the Three New Characters: Jester, Doctor, and Ticket Taker",
+        "description1": "We're thrilled to introduce three enigmatic new characters that join <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> and <a href=\"/harlequin\" class=\"content-link\">Harlequin</a> in The Freak Circus! Each character brings their own unique darkness and mystery to the circus, expanding the story's depth and complexity.",
+        "description2": "<strong><a href=\"/jester\" class=\"content-link\">The Jester</a></strong> is the storyteller and observer of the circus. Through mesmerizing puppet performances, he reveals the tragic legend of Columbina - the story that lies at the heart of the animosity between Pierrot and Harlequin. The Jester's tent becomes a place where truth and fiction blur, where ancient secrets are unveiled through the art of storytelling.",
+        "description3": "<strong><a href=\"/doctor\" class=\"content-link\">The Doctor</a></strong> is a plague doctor who conducts unsettling experiments in the Cyan Tent. With his chilling demeanor and twisted medical philosophy, he explores the depths of fear and obedience. The Doctor's presence adds a layer of medical horror to the game, as he measures fear responses and pushes the boundaries of what it means to \"heal\".",
+        "description4": "<strong><a href=\"/ticket-taker\" class=\"content-link\">The Ticket Taker</a></strong> guards the entrance to the Tent of Mirrors, a place where reality becomes distorted and reflections reveal the true, monstrous nature of those within the circus. He manipulates reflections to show you what others cannot see, warning you about the true nature of the circus monsters through twisted mirrors.",
+        "description5": "Each of these characters has their own dedicated character page where you can learn more about their backgrounds, personality traits, abilities, and relationships with other characters. Explore their stories and discover how they fit into the larger narrative of The Freak Circus.",
+        "description6": "These three new characters are now fully integrated into the game's Day 2 update, bringing new locations, interactions, and story paths for players to explore. Visit their character pages to dive deeper into their mysterious worlds!"
       },
       "day2Update": {
         "title": "Day 2 Update: New Characters and Darker Story",

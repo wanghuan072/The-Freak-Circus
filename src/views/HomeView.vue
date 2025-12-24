@@ -180,6 +180,42 @@
                 >
               </div>
             </div>
+            <div class="character-card">
+              <div class="character-image">
+                <img src="/images/characters_03.webp" alt="Jester Character" loading="lazy" />
+              </div>
+              <div class="character-info">
+                <h3>{{ $t('HomePage.characters.jesterName') }}</h3>
+                <p>{{ $t('HomePage.characters.jesterDesc') }}</p>
+                <a href="/jester" class="character-link"
+                  >{{ $t('HomePage.characters.jesterLearnMore') }} →</a
+                >
+              </div>
+            </div>
+            <div class="character-card">
+              <div class="character-image">
+                <img src="/images/characters_04.webp" alt="Doctor Character" loading="lazy" />
+              </div>
+              <div class="character-info">
+                <h3>{{ $t('HomePage.characters.doctorName') }}</h3>
+                <p>{{ $t('HomePage.characters.doctorDesc') }}</p>
+                <a href="/doctor" class="character-link"
+                  >{{ $t('HomePage.characters.doctorLearnMore') }} →</a
+                >
+              </div>
+            </div>
+            <div class="character-card">
+              <div class="character-image">
+                <img src="/images/characters_05.webp" alt="Ticket Taker Character" loading="lazy" />
+              </div>
+              <div class="character-info">
+                <h3>{{ $t('HomePage.characters.ticketTakerName') }}</h3>
+                <p>{{ $t('HomePage.characters.ticketTakerDesc') }}</p>
+                <a href="/ticket-taker" class="character-link"
+                  >{{ $t('HomePage.characters.ticketTakerLearnMore') }} →</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -922,16 +958,16 @@ const gameLoaded = ref(false)
 /* Characters Section */
 .characters-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 48px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
 }
 
 .character-card {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   background: rgba(255, 255, 255, 0.05);
-  padding: 32px;
+  padding: 20px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease;
@@ -951,8 +987,9 @@ const gameLoaded = ref(false)
 
 .character-info h3 {
   color: #8b5cf6;
-  margin-bottom: 16px;
-  font-size: 24px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .characters-intro {
@@ -1326,8 +1363,8 @@ const gameLoaded = ref(false)
   }
 
   .characters-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   .features-grid {
@@ -1435,7 +1472,9 @@ const gameLoaded = ref(false)
   }
 
   .character-info p {
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 8px;
   }
 
   .review-comment {

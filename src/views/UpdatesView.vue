@@ -24,6 +24,30 @@
         <div class="container">
           <div class="updates-list">
             <article class="update-block">
+              <h2 class="update-title">{{ $t('UpdatesPage.updates.newCharacters.title') }}</h2>
+              <div class="update-content">
+                <p
+                  v-html="$t('UpdatesPage.updates.newCharacters.description1', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.newCharacters.description2', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.newCharacters.description3', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.newCharacters.description4', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.newCharacters.description5', {}, { raw: true })"
+                ></p>
+                <p
+                  v-html="$t('UpdatesPage.updates.newCharacters.description6', {}, { raw: true })"
+                ></p>
+              </div>
+            </article>
+
+            <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.day2Update.title') }}</h2>
               <div class="update-content">
                 <p

@@ -15,6 +15,21 @@
       "description": "The Freak Circus의 장난꾸러기 할리퀸을 만나보세요. 피에로와의 관계와 그녀의 복잡한 성격을 이 호러 비주얼 노벨에서 탐험할 수 있습니다.",
       "keywords": "할리퀸, The Freak Circus, 캐릭터, 장난꾸러기, 심리 호러, 비주얼 노벨, 서커스, thefreakcircus.org"
     },
+    "jester": {
+      "title": "제스터 캐릭터 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus Day 2 업데이트의 스토리텔러이자 관찰자인 제스터를 발견하세요. 콜롬비나 전설과 서커스의 비밀을 밝히는 그의 역할에 대해 알아보세요.",
+      "keywords": "제스터, The Freak Circus, 캐릭터, Day 2, 스토리텔러, 콜롬비나 전설, 비주얼 노벨, thefreakcircus.org"
+    },
+    "doctor": {
+      "title": "닥터 캐릭터 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus Day 2 업데이트의 페스트 닥터인 닥터를 만나보세요. 시안 텐트에서 그의 뒤틀린 의학 철학과 어두운 실험을 탐험하세요.",
+      "keywords": "닥터, The Freak Circus, 캐릭터, Day 2, 페스트 닥터, 의료 공포, 시안 텐트, 비주얼 노벨, thefreakcircus.org"
+    },
+    "ticketTaker": {
+      "title": "티켓 테이커 캐릭터 - The Freak Circus | thefreakcircus.org",
+      "description": "The Freak Circus Day 2 업데이트의 현실 조작자인 티켓 테이커를 발견하세요. 거울 텐트에서 그의 거울 능력과 경고에 대해 알아보세요.",
+      "keywords": "티켓 테이커, The Freak Circus, 캐릭터, Day 2, 거울 텐트, 현실 조작, 비주얼 노벨, thefreakcircus.org"
+    },
     "wiki": {
       "title": "The Freak Circus 위키 - 게임 가이드 & 스토리 | thefreakcircus.org",
       "description": "The Freak Circus 비주얼 노벨 완전 가이드. 캐릭터, 스토리, 게임 플레이 및 신비로운 서커스 세계를 알아보세요.",
@@ -72,6 +87,9 @@
     "pierrot": "피에로",
     "pierrotColoring": "피에로 색칠하기",
     "harlequin": "할리퀸",
+    "jester": "제스터",
+    "doctor": "닥터",
+    "ticketTaker": "티켓 테이커",
     "wiki": "위키",
     "visualNovelGames": "비주얼 노벨 게임",
     "blog": "블로그",
@@ -106,7 +124,7 @@
     "hero": {
       "title": "The Freak Circus",
       "subtitle": "심리 호러 비주얼 노벨",
-      "description": "현실이 뒤틀리고 악몽이 살아나는 세계로 들어가 보세요. The Freak Circus는 당신의 현실과 허구에 대한 인식을 시험하는 몰입형 심리 호러 비주얼 노벨입니다. 더 어두운 서사, 제스터와 닥터 같은 새로운 캐릭터, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 특징으로 하는 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">2일차 업데이트</a>를 경험해보세요.",
+      "description": "현실이 뒤틀리고 악몽이 살아나는 세계로 들어가 보세요. The Freak Circus는 당신의 현실과 허구에 대한 인식을 시험하는 몰입형 심리 호러 비주얼 노벨입니다. 더 어두운 서사, <a href=\"/jester\" class=\"hero-link\">제스터</a>와 <a href=\"/doctor\" class=\"hero-link\">닥터</a> 같은 새로운 캐릭터, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 특징으로 하는 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"hero-link\">2일차 업데이트</a>를 경험해보세요.",
       "playButton": "지금 플레이",
       "learnButton": "자세히 알아보기",
       "warning": "콘텐츠 경고: 이 게임에는 성인 테마, 심리 호러, 충격적인 이미지가 포함되어 있습니다. 18세 이상 권장.",
@@ -114,7 +132,7 @@
     },
     "about": {
       "title": "The Freak Circus란?",
-      "description": "The Freak Circus는 등장인물들의 뒤틀린 마음을 탐험하는 심리 호러 비주얼 노벨입니다. 아무것도 예상대로 보이지 않는 신비로운 서커스를 배경으로 피에로와 할리퀸이라는 두 인물의 이야기를 따라가며 현실에 대한 모든 고정관념을 시험하게 됩니다. <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>는 납치, 심리적 조작, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사로 플레이어를 몰입시킵니다. 새로운 텐트 위치를 탐험하고, 제스터, 닥터, 티켓 테이커와 같은 신비로운 캐릭터를 만나며, 이 뒤틀린 이야기에 깊이를 더하는 숨겨진 장면을 발견하세요.",
+      "description": "The Freak Circus는 등장인물들의 뒤틀린 마음을 탐험하는 심리 호러 비주얼 노벨입니다. 아무것도 예상대로 보이지 않는 신비로운 서커스를 배경으로 피에로와 할리퀸이라는 두 인물의 이야기를 따라가며 현실에 대한 모든 고정관념을 시험하게 됩니다. <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>는 납치, 심리적 조작, 피에로와 할리퀸 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사로 플레이어를 몰입시킵니다. 새로운 텐트 위치를 탐험하고, <a href=\"/jester\" class=\"content-link\">제스터</a>、<a href=\"/doctor\" class=\"content-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>와 같은 신비로운 캐릭터를 만나며, 이 뒤틀린 이야기에 깊이를 더하는 숨겨진 장면을 발견하세요.",
       "feature1": "심리 호러 요소",
       "feature1Desc": "현실을 의심하게 만드는 깊은 심리적 테마 경험",
       "feature2": "풍부한 캐릭터 개발",
@@ -129,14 +147,24 @@
       "subtitle": "The Freak Circus에 등장하는 신비로운 인물들을 만나보세요",
       "pierrotName": "피에로",
       "pierrotDesc": "그의 웃는 얼굴 뒤에 깊은 감정을 숨긴 우울한 광대. 사랑, 상실, 비밀 유지의 대가를 담은 이야기.",
+      "pierrotLearnMore": "피에로에 대해 자세히 알아보기",
       "harlequinName": "할리퀸",
       "harlequinDesc": "장난스러운 외모 뒤에 복잡한 성격을 가진 장난꾸러기. 피에로와의 관계가 이야기의 핵심을 이룸.",
-      "learnMore": "자세히 알아보기"
+      "harlequinLearnMore": "할리퀸에 대해 자세히 알아보기",
+      "jesterName": "제스터",
+      "jesterDesc": "이야기꾼이자 관찰자. 인형극을 통해 콜롬비나의 비극적 전설을 밝히고 서커스의 가장 어두운 비밀을 드러낸다.",
+      "jesterLearnMore": "제스터에 대해 자세히 알아보기",
+      "doctorName": "닥터",
+      "doctorDesc": "페스트 닥터. 시안 텐트에서 어두운 실험을 수행하며 공포 반응을 측정하고 뒤틀린 의학 철학을 탐구한다.",
+      "doctorLearnMore": "닥터에 대해 자세히 알아보기",
+      "ticketTakerName": "티켓 테이커",
+      "ticketTakerDesc": "현실 조작자. 거울 텐트를 제어하며 뒤틀린 반사를 통해 괴물의 진정한 본성을 밝힌다.",
+      "ticketTakerLearnMore": "티켓 테이커에 대해 자세히 알아보기"
     },
     "faq": {
       "title": "자주 묻는 질문",
       "question1": "The Freak Circus란 무엇인가요?",
-      "answer1": "The Freak Circus는 현실, 인식, 인간 심리를 탐구하는 심리 호러 비주얼 노벨로, 피에로와 할리퀸의 이야기를 중심으로 전개됩니다. 2일차 업데이트는 납치, 심리적 조작, 두 주인공 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사 요소를 도입합니다. 플레이어는 새로운 텐트 위치를 탐험하고, 제스터, 닥터, 티켓 테이커와 같은 신비로운 캐릭터를 만나며, 여러 엔딩이 있는 숨겨진 장면을 발견할 수 있습니다.",
+      "answer1": "The Freak Circus는 현실, 인식, 인간 심리를 탐구하는 심리 호러 비주얼 노벨로, 피에로와 할리퀸의 이야기를 중심으로 전개됩니다. 2일차 업데이트는 납치, 심리적 조작, 두 주인공 사이의 깊은 적대감을 드러내는 콜롬비나의 비극적 전설을 포함한 더 어두운 서사 요소를 도입합니다. 플레이어는 새로운 텐트 위치를 탐험하고, <a href=\"/jester\" class=\"content-link\">제스터</a>、<a href=\"/doctor\" class=\"content-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>와 같은 신비로운 캐릭터를 만나며, 여러 엔딩이 있는 숨겨진 장면을 발견할 수 있습니다.",
       "question2": "모든 연령대에게 적합한가요?",
       "answer2": "아니요, 성인 테마, 심리 호러, 충격적인 이미지가 포함되어 있습니다. 18세 이상 권장.",
       "question3": "게임은 어떤 플랫폼에서 이용 가능한가요?",
@@ -164,7 +192,7 @@
       "update1": {
         "date": "2025년 1월 20일",
         "title": "2일차 업데이트: 새로운 캐릭터와 더 어두운 이야기",
-        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>는 납치, 심리적 조작, 콜롬비나의 비극적 전설로 게임의 긴장감을 크게 높입니다. 새로운 텐트 위치를 탐험하고, 제스터, 닥터, 티켓 테이커를 만나며, 여러 엔딩이 있는 숨겨진 장면을 발견하세요."
+        "excerpt": "<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 업데이트</a>는 납치, 심리적 조작, 콜롬비나의 비극적 전설로 게임의 긴장감을 크게 높입니다. 새로운 텐트 위치를 탐험하고, <a href=\"/jester\" class=\"content-link\">제스터</a>、<a href=\"/doctor\" class=\"content-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>를 만나며, 여러 엔딩이 있는 숨겨진 장면을 발견하세요."
       },
       "update2": {
         "date": "2025년 9월 27일",
@@ -460,6 +488,189 @@
       "title": "The Freak Circus 할리퀸 캐릭터 갤러리"
     }
   },
+  "JesterPage": {
+    "header": {
+      "name": "제스터",
+      "subtitle": "스토리텔러와 관찰자 - 『더 프릭 서커스』의 제스터",
+      "description": "서커스의 그림자 속에서 제스터는 이야기꾼이자 비밀의 수호자로 기능한다. 그의 인형극을 통해 콜롬비나의 비극적 전설과 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 사이의 깊은 적대감을 밝힌다. 이 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a> Day 2 업데이트의 수수께끼 같은 캐릭터는 서커스의 가장 어두운 비밀을 밝히는 데 중요한 역할을 한다."
+    },
+    "about": {
+      "title": "『더 프릭 서커스』의 제스터에 대해",
+      "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스</a> Day 2 업데이트의 제스터는 이야기꾼이자 관찰자로 기능하는 중심 인물이다. 무대 공연 중 보라/검은 텐트에 나타나 제스터는 인형을 사용하여 서커스의 역사와 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 사이의 증오의 근원을 설명하는 비극적 이야기를 전한다.",
+      "description2": "제스터의 공연은 Day 2에서 가장 중요한 전설 공개로, 콜롬비나의 전설을 밝힌다——피에로(\"침묵의 괴물\")가 사랑했지만 할리퀸(\"독\")이 질투로 독살한 \"꽃\"으로 알려진 소녀. 이 행위는 두 주요 캐릭터 간의 영원한 갈등의 근원이며, 제스터는 역사가 반복되고 있음을 암시하며, 당신, 주인공이 새로운 \"콜롬비나\"로.",
+      "description3": "제스터는 일종의 이야기꾼으로 기능하며, 서커스의 모든 비밀을 알고 사건이 전개되는 것을 지켜보는 관찰자로 기능한다. 그의 역할은 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a>의 더 깊은 서사를 이해하는 데 중요하다. Day 2 업데이트와 제스터의 역할에 대한 자세한 내용은 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 공략 가이드</a>를 확인하세요."
+    },
+    "traits": {
+      "title": "『더 프릭 서커스』의 제스터 성격 특성",
+      "storyteller": {
+        "title": "이야기 대가",
+        "description": "제스터는 인형을 사용하여 복잡한 서사를 전달하는 숙련된 이야기꾼이다. 보라/검은 텐트에서의 그의 공연은 서커스의 역사와 <a href=\"/pierrot\" class=\"content-link\">피에로</a>, <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 및 기타 캐릭터 간의 관계에 대한 중요한 정보를 밝힌다. 서커스 역사에 대한 자세한 내용은 <a href=\"/wiki\" class=\"content-link\">위키 가이드</a>에서 알아보세요."
+      },
+      "observer": {
+        "title": "침묵의 관찰자",
+        "description": "제스터는 서커스의 모든 비밀을 아는 관찰자로 기능한다. 그는 사건이 전개되는 것을 지켜보며, <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 간의 관계를 포함하여 더 깊은 역학을 이해하는 이야기꾼으로 기능한다."
+      },
+      "knowledge": {
+        "title": "비밀의 수호자",
+        "description": "제스터는 서커스의 역사, 콜롬비나 전설, <a href=\"/doctor\" class=\"content-link\">닥터</a>와 <a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>를 포함한 기타 캐릭터의 동기에 대한 광범위한 지식을 보유하고 있다. 그는 이 지식을 사용하여 공연을 통해 진실을 밝힌다. 우리의 <a href=\"/blog\" class=\"content-link\">블로그 게시물</a>에서 더 많은 비밀을 발견하세요."
+      },
+      "narrator": {
+        "title": "서사 가이드",
+        "description": "제스터는 서사 가이드로 기능하며, <a href=\"/\" class=\"content-link\">더 프릭 서커스</a>의 이야기를 형성하는 복잡한 관계와 역사적 맥락을 이해하는 데 도움을 준다. 그의 역할은 Day 2 업데이트를 이해하는 데 필수적이며, <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 공략</a>에 자세히 설명되어 있다."
+      }
+    },
+    "abilities": {
+      "title": "『더 프릭 서커스』의 제스터 특수 능력",
+      "loreRevelation": {
+        "title": "전설 공개",
+        "description": "제스터의 가장 중요한 능력은 인형극을 통해 중요한 전설을 밝히는 것이다. 그는 콜롬비나의 비극적 이야기를 전하며, <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 사이의 깊은 적대감을 설명한다."
+      },
+      "puppetPerformance": {
+        "title": "인형극",
+        "description": "제스터는 인형을 사용하여 이야기를 전하며, 복잡한 서사를 매력적이고 기억에 남는 방식으로 전달하는 극적인 경험을 만든다. 그의 공연은 서커스의 역사를 이해하는 데 핵심적이다."
+      },
+      "propheticInsight": {
+        "title": "예언적 통찰",
+        "description": "제스터는 패턴과 주기에 대한 이해를 보여주며, 역사가 반복되고 있음을 암시하며, 주인공이 새로운 콜롬비나로. 그의 통찰은 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>이 가하는 위협을 포함하여 앞으로의 위험에 대한 중요한 경고를 제공한다. 최신 <a href=\"/updates\" class=\"content-link\">게임 업데이트</a>를 팔로우하여 제스터의 예언에 대해 더 많이 발견하세요."
+      }
+    },
+    "relationships": {
+      "title": "『더 프릭 서커스』의 제스터 캐릭터 관계",
+      "protagonist": {
+        "title": "주인공과의 관계",
+        "description": "제스터는 주인공의 가이드로 기능하며, 그의 공연을 통해 중요한 정보를 밝힌다. 그는 주인공이 새로운 콜롬비나일 수 있음을 암시하며, <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 사이의 영원한 갈등의 중간에 갇혀 있다."
+      },
+      "pierrotHarlequin": {
+        "title": "피에로와 할리퀸에 대한 이해",
+        "description": "제스터는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 간의 경쟁 관계의 역사적 맥락을 이해한다. 그의 이야기를 통해 콜롬비나 전설이 어떻게 그들의 관계를 형성했는지, 그리고 계속해서 그들의 행동에 영향을 미치는지를 밝힌다. 제스터는 <a href=\"/doctor\" class=\"content-link\">닥터</a>와 <a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>와 같은 기타 Day 2 캐릭터에 대해서도 알고 있다. <a href=\"/wiki\" class=\"content-link\">위키</a>에서 전체 이야기를 탐색하거나 <a href=\"/download\" class=\"content-link\">게임을 다운로드</a>하여 직접 경험하세요."
+      }
+    },
+    "gallery": {
+      "title": "『더 프릭 서커스』의 제스터 캐릭터 갤러리"
+    }
+  },
+  "DoctorPage": {
+    "header": {
+      "name": "닥터",
+      "subtitle": "페스트 닥터 - 『더 프릭 서커스』의 닥터",
+      "description": "시안 텐트 깊은 곳에서 닥터는 뒤틀린 의료 기구와 공포에 대한 매력을 가지고 기다린다. 이 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a> Day 2 업데이트의 페스트 닥터는 게임에 새로운 의료 공포의 층을 가져오며, 당신의 공포 반응을 측정하고 어두운 실험을 수행한다."
+    },
+    "about": {
+      "title": "『더 프릭 서커스』의 닥터에 대해",
+      "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스</a> Day 2 업데이트의 닥터는 시안 텐트에서 소개되며, 게임에 의료 공포 테마를 가져오는 페스트 닥터로 등장한다. 이 캐릭터는 공포 반응과 아드레날린 수준을 측정하는 검사를 수행하여 심리적 공포의 또 다른 층을 추가한다.",
+      "description2": "닥터는 공포 반응을 측정하기 위해 당신을 테이블에 묶으며, \"사혈\"이 진정 효과가 있다고 언급한다——그의 뒤틀린 의학 철학을 보여준다. 그는 순종을 중시하고 공포를 매력적으로 여기며, 그의 어두운 실험을 암시한다. 닥터는 당신의 반응이 이전의 \"인형\"이나 희생자와 다르다고 제안하며, 당신이 서커스의 뒤틀린 게임에서 독특한 역할을 할 수 있음을 암시한다.",
+      "description3": "Day 2에서 닥터의 존재는 심리 스릴러에 의료 공포 요소를 추가하여 위험을 크게 높인다. 그의 캐릭터는 과학적 호기심이 뒤틀린 도덕과 만나는 서커스의 더 어두운 측면을 나타낸다. 닥터와 시안 텐트 경험에 대한 자세한 내용은 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 공략 가이드</a>를 탐색하세요."
+    },
+    "traits": {
+      "title": "『더 프릭 서커스』의 닥터 성격 특성",
+      "medicalHorror": {
+        "title": "의료 공포 전문가",
+        "description": "닥터는 뒤틀린 의료 기구를 가진 페스트 닥터로 등장하여 의료 공포를 구현한다. 그의 존재는 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a> 경험에 오싹한 과학적 공포의 층을 추가한다. 닥터는 시안 텐트에서 활동하며, Day 2에서 도입된 세 개의 새로운 장소 중 하나로, <a href=\"/jester\" class=\"content-link\">제스터</a>의 보라/검은 텐트와 <a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>의 파란 텐트와 함께."
+      },
+      "obsessionWithFear": {
+        "title": "공포에 대한 집착",
+        "description": "닥터는 공포를 매력적으로 여기며 공포 반응과 아드레날린 수준의 측정을 중시한다. 공포를 이해하려는 그의 집착이 그의 어두운 실험을 추진하며, 이는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>이 사용하는 심리적 조작과 다르다. <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">공략 가이드</a>에서 Day 2 업데이트에 대해 더 알아보세요."
+      },
+      "twistedPhilosophy": {
+        "title": "뒤틀린 의학 철학",
+        "description": "닥터는 \"사혈\"이 진정 효과가 있다고 믿으며, 의학에 대한 그의 뒤틀린 접근을 보여준다. 그는 순종을 중시하고 공포를 연구하고 조작할 수 있는 것으로 본다. 이는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>의 감정적 집착과 다른 종류의 공포를 나타낸다."
+      },
+      "experimentalNature": {
+        "title": "실험적 성격",
+        "description": "닥터는 어두운 실험을 수행하며, 이전의 \"인형\"이나 희생자와 협력했음을 시사한다. 그의 실험적 성격은 <a href=\"/jester\" class=\"content-link\">제스터</a>와 <a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>와 같은 기타 Day 2 캐릭터와 함께 활동하는 서커스의 위험한 인물로 만든다. <a href=\"/wiki\" class=\"content-link\">위키</a>에서 서커스의 어두운 실험에 대해 더 많이 발견하세요."
+      }
+    },
+    "abilities": {
+      "title": "『더 프릭 서커스』의 닥터 특수 능력",
+      "fearMeasurement": {
+        "title": "공포 측정",
+        "description": "닥터는 공포 반응과 아드레날린 수준을 측정하는 능력을 가지고 있으며, 검사를 수행하기 위해 피험자를 테이블에 묶는다. 이 능력은 그가 공포를 이해하고 조작할 수 있게 한다."
+      },
+      "bloodletting": {
+        "title": "사혈 기술",
+        "description": "닥터는 사혈을 실천하며, 그것이 진정 효과가 있다고 믿는다. 이 뒤틀린 의료 기술은 치료와 통제에 대한 그의 어두운 접근을 나타낸다."
+      },
+      "psychologicalAnalysis": {
+        "title": "심리 분석",
+        "description": "닥터는 피험자의 독특한 반응을 식별할 수 있으며, 주인공의 반응이 이전 희생자와 다르다는 것을 인식한다. 이 능력은 <a href=\"/jester\" class=\"content-link\">제스터</a>가 주인공을 새로운 콜롬비나로 인식하는 것과 유사하게, 주인공의 서커스에서의 특별한 역할을 이해할 수 있음을 시사한다. 닥터의 분석은 Day 2에서 도입된 심리 공포 요소에 깊이를 더한다. <a href=\"/download\" class=\"content-link\">게임을 다운로드</a>하여 닥터의 검사를 직접 경험하세요."
+      }
+    },
+    "relationships": {
+      "title": "『더 프릭 서커스』의 닥터 캐릭터 관계",
+      "protagonist": {
+        "title": "주인공과의 관계",
+        "description": "닥터는 시안 텐트에서 주인공을 검사하며, 그들의 공포 반응을 측정한다. 그는 주인공의 반응이 이전의 \"인형\"과 다르다는 것을 암시하며, 그들이 서커스의 뒤틀린 게임에서 독특한 역할을 할 수 있음을 시사한다."
+      },
+      "circusMembers": {
+        "title": "서커스에서의 역할",
+        "description": "닥터는 시안 텐트에서 활동하며, 그의 어두운 실험을 수행한다. 서커스에서의 그의 역할은 공포의 과학적이고 실험적인 측면을 나타내며, 서커스의 뒤틀린 본성에 깊이를 더한다. <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>이 감정적 조작에 집중하는 동안, 닥터는 의료 공포를 가져온다. 그는 <a href=\"/jester\" class=\"content-link\">제스터</a>(전설을 밝힘)와 <a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>(거울을 통해 진실을 밝힘)와 함께 일한다. <a href=\"/wiki\" class=\"content-link\">위키</a>에서 모든 캐릭터를 탐색하거나 최신 <a href=\"/updates\" class=\"content-link\">업데이트</a>를 확인하여 새로운 콘텐츠를 확인하세요."
+      }
+    },
+    "gallery": {
+      "title": "『더 프릭 서커스』의 닥터 캐릭터 갤러리"
+    }
+  },
+  "TicketTakerPage": {
+    "header": {
+      "name": "티켓 테이커",
+      "subtitle": "현실 조작자 - 『더 프릭 서커스』의 티켓 테이커",
+      "description": "거울 텐트에서 티켓 테이커는 뒤틀린 반사를 통해 현실을 조작한다. 이 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a> Day 2 업데이트의 수수께끼 같은 캐릭터는 당신 주변의 괴물의 진정한 본성을 밝히며, 아무것도 보이는 대로가 아니라는 것을 경고한다."
+    },
+    "about": {
+      "title": "『더 프릭 서커스』의 티켓 테이커에 대해",
+      "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스</a> Day 2 업데이트의 티켓 테이커는 거울 텐트(파란 텐트라고도 함)에서 만난다. 이 캐릭터는 뒤틀린 반사를 통해 현실을 조작하며, 그들의 진정한 본성을 밝히는 다른 캐릭터의 뒤틀린 버전을 보여준다.",
+      "description2": "거울 텐트의 거울은 불안한 반사를 보여준다: <a href=\"/pierrot\" class=\"content-link\">피에로</a>의 반사는 당신이 영원히 그와 함께 있기를 간청하며, 당신의 존재에 대한 그의 절박한 필요를 보여준다. <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>의 반사는 공격적이며 당신의 약점을 조롱하며, 그의 포식자 본성을 밝힌다. 티켓 테이커는 당신의 눈을 믿지 말라고 경고한다——거울에서 보는 공포는 당신 주변의 괴물의 진정한 본성을 반영한다.",
+      "description3": "티켓 테이커의 역할은 경고 제공자로서 중요하며, 플레이어가 앞으로의 위험을 이해하는 데 도움을 준다. 뒤틀린 반사를 통해 진실을 밝히는 그의 능력은 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a>의 뒤틀린 세계를 탐색하는 데 중요한 가이드로 만든다. 거울 텐트와 티켓 테이커에 대한 자세한 내용은 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2 공략 가이드</a>를 확인하세요."
+    },
+    "traits": {
+      "title": "『더 프릭 서커스』의 티켓 테이커 성격 특성",
+      "realityManipulation": {
+        "title": "현실 조작",
+        "description": "티켓 테이커는 거울의 뒤틀린 반사를 통해 현실을 조작하는 능력을 가지고 있다. 이 힘은 그가 캐릭터와 상황의 진정한 본성을 밝히게 하며, <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>의 숨겨진 측면을 보여준다. 거울 텐트(파란 텐트)는 Day 2의 세 개의 새로운 장소 중 하나로, <a href=\"/jester\" class=\"content-link\">제스터</a>의 보라/검은 텐트와 <a href=\"/doctor\" class=\"content-link\">닥터</a>의 시안 텐트와 함께."
+      },
+      "mirrorMaster": {
+        "title": "거울의 대가",
+        "description": "티켓 테이커는 거울 텐트를 제어하며, 반사를 사용하여 뒤틀린 현실의 버전을 보여준다. 거울에 대한 그의 숙련은 <a href=\"/jester\" class=\"content-link\">제스터</a>의 서사 역할과 <a href=\"/doctor\" class=\"content-link\">닥터</a>의 실험적 성격을 보완하는 서커스의 강력한 인물로 만든다. <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">공략 가이드</a>에서 Day 2 장소에 대해 더 알아보세요."
+      },
+      "warningProvider": {
+        "title": "경고 제공자",
+        "description": "티켓 테이커는 중요한 경고 제공자로 기능하며, 플레이어에게 눈을 믿지 말라고 말한다. 그의 경고는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>으로부터의 위협을 포함하여 서커스에서 앞으로의 위험을 이해하는 데 도움을 준다. 이러한 경고는 <a href=\"/\" class=\"content-link\">더 프릭 서커스</a>의 뒤틀린 세계를 탐색하는 데 필수적이다."
+      },
+      "truthRevealer": {
+        "title": "진실 공개자",
+        "description": "뒤틀린 반사를 통해 티켓 테이커는 당신 주변의 괴물의 진정한 본성을 밝힌다. 그의 반사는 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>과 같은 캐릭터의 숨겨진 측면을 보여주며, <a href=\"/jester\" class=\"content-link\">제스터</a>가 밝힌 전설을 보완하는 중요한 통찰을 제공한다. <a href=\"/wiki\" class=\"content-link\">위키</a>에서 더 많은 캐릭터 통찰을 발견하세요."
+      }
+    },
+    "abilities": {
+      "title": "『더 프릭 서커스』의 티켓 테이커 특수 능력",
+      "distortedReflections": {
+        "title": "뒤틀린 반사",
+        "description": "티켓 테이커는 거울에 뒤틀린 반사를 만들어 캐릭터의 진정한 본성을 밝힐 수 있다. <a href=\"/pierrot\" class=\"content-link\">피에로</a>의 반사는 그의 절박한 필요를 보여주며, <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>의 반사는 그의 포식자 본성을 밝힌다."
+      },
+      "characterRevelation": {
+        "title": "캐릭터 공개",
+        "description": "거울의 힘을 통해 티켓 테이커는 캐릭터의 성격과 동기의 숨겨진 측면을 밝힌다. 이 능력은 <a href=\"/pierrot\" class=\"content-link\">피에로</a>, <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>, <a href=\"/jester\" class=\"content-link\">제스터</a>, <a href=\"/doctor\" class=\"content-link\">닥터</a>를 포함한 서커스 거주자의 진정한 본성을 이해하는 데 도움을 준다. 거울 텐트에서의 공개는 Day 2 서사를 이해하는 데 중요하다. <a href=\"/download\" class=\"content-link\">게임을 다운로드</a>하여 이러한 공개를 직접 경험하세요."
+      },
+      "illusionControl": {
+        "title": "환상 제어",
+        "description": "티켓 테이커는 거울 텐트 내의 환상과 현실을 제어하며, 진실과 속임수가 얽힌 환경을 만든다. 환상에 대한 그의 제어는 텐트를 공개와 경고의 장소로 만든다."
+      }
+    },
+    "relationships": {
+      "title": "『더 프릭 서커스』의 티켓 테이커 캐릭터 관계",
+      "protagonist": {
+        "title": "주인공과의 관계",
+        "description": "티켓 테이커는 주인공의 가이드와 경고 제공자로 기능한다. 그의 거울 반사를 통해 그는 그들 주변의 위험의 진정한 본성을 밝히며, 서커스의 뒤틀린 현실을 이해하는 데 도움을 준다."
+      },
+      "circusCharacters": {
+        "title": "서커스 캐릭터에 대한 이해",
+        "description": "티켓 테이커는 다른 서커스 캐릭터의 진정한 본성을 이해하며, 거울의 힘을 사용하여 그들의 숨겨진 측면을 밝힌다. 그의 <a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a>의 반사는 그들의 절박한 필요와 포식자 본성을 보여준다. 티켓 테이커의 통찰은 <a href=\"/jester\" class=\"content-link\">제스터</a>가 제공한 서사와 <a href=\"/doctor\" class=\"content-link\">닥터</a>가 수행한 실험을 보완한다. 이러한 Day 2 캐릭터들은 함께 서커스의 어두운 비밀의 완전한 그림을 제공한다. <a href=\"/wiki\" class=\"content-link\">위키</a>에서 더 많이 탐색하거나 최신 <a href=\"/blog\" class=\"content-link\">블로그 게시물</a>을 읽으세요."
+      }
+    },
+    "gallery": {
+      "title": "『더 프릭 서커스』의 티켓 테이커 캐릭터 갤러리"
+    }
+  },
   "WikiPage": {
     "header": {
       "title": "더 프릭 서커스 위키",
@@ -472,7 +683,7 @@
       "title": "게임 개요",
       "description1": "<strong><a href=\"/\" class=\"content-link\">더 프릭 서커스</a></strong>는 미스터리, 집착, 위험한 관계로 가득한 여행 서커스의 뒤틀린 세계로 플레이어를 안내하는 다크 심리 비주얼 노블입니다. <strong>더 프릭 서커스</strong>의 몰입형 경험은 매혹적인 스토리텔링과 성인 테마를 결합하여 인간 욕망과 조작의 그림자를 탐험하는 잊지 못할 여정을 제공합니다.",
       "description2": "<a href=\"/\" class=\"content-link\">더 프릭 서커스</a>에서 플레이어는 평범한 카페 직원 역할을 맡게 되며, 그 평온한 삶은 수수께끼 같은 서커스 공연자들과 얽히면서 변화합니다. 이 게임은 복잡한 캐릭터 관계와 분기형 내러티브를 통해 집착, 경쟁, 인간 본성의 어두운 측면을 탐구합니다.",
-      "description3": "더 프릭 서커스는 성인 콘텐츠, 심리적 깊이, 중심 캐릭터 간 복잡한 역학 관계로 비주얼 노블 장르에서 돋보입니다. 이 다크한 이야기에서 여러 엔딩과 캐릭터 루트를 경험하며, 매 플레이마다 새로운 이야기의 층을 발견할 수 있습니다. <a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a> 사이의 복잡한 관계를 탐험하세요."
+      "description3": "더 프릭 서커스는 성인 콘텐츠, 심리적 깊이, 중심 캐릭터 간 복잡한 역학 관계로 비주얼 노블 장르에서 돋보입니다. 이 다크한 이야기에서 여러 엔딩과 캐릭터 루트를 경험하며, 매 플레이마다 새로운 이야기의 층을 발견할 수 있습니다. <a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a> 사이의 복잡한 관계를 탐험하고, Day 2의 신비로운 새 캐릭터를 발견하세요：<a href=\"/jester\" class=\"character-link\">제스터</a>、<a href=\"/doctor\" class=\"character-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"character-link\">티켓 테이커</a>。"
     },
     "gamePremise": {
       "title": "게임 배경",
@@ -484,7 +695,7 @@
       "title": "주요 기능",
       "originalArtwork": {
         "title": "오리지널 아트워크 & 캐릭터",
-        "description": "더 프릭 서커스는 아름답게 제작된 오리지널 아트워크와 배경을 제공하며, 두 명의 매력적인 캐릭터인 <a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a>을 선보입니다. 각 캐릭터는 그들의 복잡한 성격과 동기를 반영하도록 세심하게 디자인되었습니다."
+        "description": "더 프릭 서커스는 아름답게 제작된 오리지널 아트워크와 배경을 제공하며, 매력적인 캐릭터를 선보입니다：<a href=\"/pierrot\" class=\"character-link\">피에로</a>와 <a href=\"/harlequin\" class=\"character-link\">할리퀸</a>。Day 2 업데이트에서는 세 명의 새 캐릭터가 도입됩니다：<a href=\"/jester\" class=\"character-link\">제스터</a>、<a href=\"/doctor\" class=\"character-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"character-link\">티켓 테이커</a>。각 캐릭터는 그들의 복잡한 성격과 동기를 반영하도록 세심하게 디자인되었습니다."
       },
       "multipleEndings": {
         "title": "다중 엔딩 & 언어 지원",
@@ -588,14 +799,14 @@
         "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스 비주얼 노블</a>의 월간 업데이트입니다. 이제 정말 출시가 가까워졌습니다!",
         "description2": "비주얼 노블 2일차의 약 15-20%가 아직 코딩되지 않았으며, 여기에는 완성된 스프라이트도 포함됩니다. 이후 단계는 주로 음악과 효과음 작업으로 조금 더 빠르게 진행될 예정입니다.",
         "description3": "이번 업데이트로 베타 테스트를 진행했으며 아직 수정해야 할 작은 부분들이 남아 있습니다. 가장 큰 도전은 전환과 스프라이트가 많은 2일차의 20% 미완성 부분입니다.",
-        "description4": "<a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 외에도 티켓 테이커, 광대, 의사 캐릭터가 제대로 소개될 예정입니다.",
+        "description4": "<a href=\"/pierrot\" class=\"content-link\">피에로</a>와 <a href=\"/harlequin\" class=\"content-link\">할리퀸</a> 외에도 <a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>、<a href=\"/jester\" class=\"content-link\">제스터</a>、<a href=\"/doctor\" class=\"content-link\">닥터</a> 캐릭터가 제대로 소개될 예정입니다.",
         "description5": "이번 달 안에 비주얼 노블 업데이트와 스토어를 출시할 계획이지만, 최악의 경우 다음 달로 연기될 수 있습니다. 현재는 개발 스크린샷 몇 장을 즐겨주세요!"
       },
       "monthlyUpdate": {
         "title": "월간 업데이트!",
         "description1": "<a href=\"/\" class=\"content-link\">더 프릭 서커스 비주얼 노블</a> 출시 이후 한 달이 지났습니다! 다음 업데이트 진행 상황 소식입니다.",
         "description2": "현재 비주얼 노블 2일차의 절반이 코딩 완료되었으며, 새 스프라이트는 아직 모두 완성되지 않았습니다.",
-        "description3": "이번 업데이트는 게임플레이 측면에서 조금 더 길어지며, 새로운 캐릭터 3명을 더 자세히 알게 됩니다.",
+        "description3": "이번 업데이트는 게임플레이 측면에서 조금 더 길어지며, 새로운 캐릭터 3명을 더 자세히 알게 됩니다：<a href=\"/jester\" class=\"content-link\">제스터</a>、<a href=\"/doctor\" class=\"content-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>。",
         "description4": "또한 \"숨겨진 장면\" 기능이 추가되어 플레이 중 잠금 해제할 수 있는 작은 스토리 세그먼트를 메뉴에서 볼 수 있습니다. 게임 메커니즘에 대한 자세한 내용은 <a href=\"/wiki\" class=\"content-link\">위키 페이지</a>를 참조하세요.",
         "description5": "선택을 주의 깊게 하면 작은 비밀도 발견할 수 있습니다!"
       },
@@ -607,7 +818,7 @@
         "dia2Description": "2일차 작업을 꾸준히 진행 중입니다! 일부 새 스프라이트와 배경은 완성되었으며, 많은 부분이 이미 코딩되었습니다.",
         "summaryTitle": "비주얼 노블 업데이트 요약:",
         "summary1": "이야기는 피에로에게 잡힌 두 가지 엔딩과 집으로 돌아가는 엔딩 세 가지에서 계속됩니다.",
-        "summary2": "2일차에서 세 명의 새로운 캐릭터를 각자의 텐트에서 만나게 됩니다.",
+        "summary2": "2일차에서 세 명의 새로운 캐릭터를 각자의 텐트에서 만나게 됩니다：<a href=\"/jester\" class=\"content-link\">제스터</a>、<a href=\"/doctor\" class=\"content-link\">닥터</a>、<a href=\"/ticket-taker\" class=\"content-link\">티켓 테이커</a>！",
         "summary3": "새로운 캐릭터를 알아가는 동안 피에로와 할리퀸과의 장면이 더 많이 추가됩니다.",
         "summary4": "일부 스프라이트는 애니메이션 처리됩니다.",
         "summary5": "게임 메뉴 또한 새로운 디자인으로 바뀝니다.",
@@ -698,6 +909,15 @@
         "description3": "업데이트는 세 명의 새로운 신비로운 캐릭터를 소개합니다: 인형을 사용하여 콜롬비나의 비극적 이야기를 전하는<strong>제스터</strong>; 게임에 의료 공포를 가져오는 페스트 의사인<strong>닥터</strong>; 그리고 거울 텐트에서 뒤틀린 반사를 통해 현실을 조작하는<strong>티켓 테이커</strong>입니다.",
         "description4": "플레이어는 이제 특정 어트랙션 텐트를 탐험할 수 있으며, 각 텐트는 서커스의 어두운 비밀의 다른 측면을 드러냅니다. 2일차 업데이트는 또한 깊이와 재플레이 가능성을 추가하는 새로운 숨겨진 장면 시스템, 선택에 기반한 여러 엔딩, 캐릭터 스프라이트, 표정, 배경을 포함한 100개 이상의 새로운 이미지를 특징으로 합니다.",
         "description5": "모든 새로운 콘텐츠에 대한 완전한 워크스루와 상세한 가이드를 보려면, 서커스를 여행하는 두 번째 날 동안 만나게 될 모든 주요 이벤트, 새로운 위치, 캐릭터 상호작용, 숨겨진 장면, 여러 엔딩을 다루는 포괄적인<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">2일차 블로그 게시물</a>을 확인하세요."
+      },
+      "newCharacters": {
+        "title": "세 명의 새로운 캐릭터를 만나보세요: Jester, Doctor, Ticket Taker",
+        "description1": "The Freak Circus에 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>와 <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>과 함께 합류하는 세 명의 신비로운 새 캐릭터를 소개하게 되어 기쁩니다! 각 캐릭터는 서커스에 고유한 어둠과 신비를 가져와 이야기의 깊이와 복잡성을 확장합니다.",
+        "description2": "<strong><a href=\"/jester\" class=\"content-link\">Jester</a></strong>는 서커스의 이야기꾼이자 관찰자입니다. 매혹적인 인형극을 통해 그는 Columbina의 비극적 전설을 밝힙니다 - Pierrot와 Harlequin 사이의 적대감의 핵심에 있는 이야기입니다. Jester의 텐트는 진실과 허구가 흐려지는 곳이 되며, 고대의 비밀이 스토리텔링의 예술을 통해 드러납니다.",
+        "description3": "<strong><a href=\"/doctor\" class=\"content-link\">Doctor</a></strong>는 시안 텐트에서 불안한 실험을 수행하는 페스트 의사입니다. 그의 냉담한 태도와 뒤틀린 의학 철학으로, 그는 공포와 복종의 깊이를 탐구합니다. Doctor의 존재는 게임에 의료 공포의 층을 추가하며, 그는 공포 반응을 측정하고 \"치유\"의 의미의 경계를 밀어붙입니다.",
+        "description4": "<strong><a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a></strong>는 거울의 텐트 입구를 지키며, 현실이 왜곡되고 반사가 서커스 내 사람들의 진정한 괴물적 본성을 드러내는 곳입니다. 그는 반사를 조작하여 다른 사람들이 볼 수 없는 것을 보여주고, 뒤틀린 거울을 통해 서커스 괴물들의 진정한 본성에 대해 경고합니다.",
+        "description5": "각 캐릭터는 자신만의 전용 캐릭터 페이지를 가지고 있으며, 배경, 성격 특성, 능력, 다른 캐릭터와의 관계에 대해 더 자세히 알아볼 수 있습니다. 그들의 이야기를 탐색하고 The Freak Circus의 더 큰 서사에 어떻게 맞는지 발견하세요.",
+        "description6": "이 세 명의 새 캐릭터는 이제 게임의 2일차 업데이트에 완전히 통합되어 플레이어가 탐험할 수 있는 새로운 위치, 상호작용, 스토리 경로를 제공합니다. 그들의 캐릭터 페이지를 방문하여 그들의 신비로운 세계를 더 깊이 탐구하세요!"
       },
       "lastDevlog": {
         "title": "Last devlog before the update (I Hope!)",
