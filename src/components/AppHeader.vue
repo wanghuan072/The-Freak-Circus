@@ -722,7 +722,7 @@ const switchLanguage = async (lang) => {
 }
 
 .mobile-dropdown.open .mobile-dropdown-menu {
-  max-height: 200px;
+  max-height: 330px;
 }
 
 .mobile-dropdown-menu li {
