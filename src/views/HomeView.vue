@@ -4,15 +4,6 @@
 
     <!-- Hero Section -->
     <section class="section hero">
-      <!-- 背景图片 -->
-      <img
-        src="/images/home_img_01.webp"
-        alt="The Freak Circus Game Background"
-        class="hero-bg-image"
-        fetchpriority="high"
-        loading="eager"
-        decoding="sync"
-      />
       <!-- 关键内容优先渲染 -->
       <div class="container">
         <h1 class="hero-title">{{ $t('HomePage.hero.title') }}</h1>
@@ -39,14 +30,6 @@
 
     <!-- Play Game Section -->
     <section class="section play-game">
-      <!-- LCP优化：背景图片改为img标签 -->
-      <img
-        src="/images/home_img_02.webp"
-        alt="The Freak Circus Game Background"
-        class="play-game-bg-image"
-        loading="lazy"
-        decoding="async"
-      />
       <div class="container">
         <h2 class="section-title">Play The Freak Circus Online</h2>
         <div class="play-game-content">
@@ -357,19 +340,13 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
 import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
-
-import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
-const { isMobile } = useDeviceDetection()
 const { locale } = useI18n()
-
-// 骨架屏状态
-const heroImageLoaded = ref(false)
 
 // 游戏数据
 const games = ref([])
@@ -1197,43 +1174,13 @@ const gameLoaded = ref(false)
 .section.hero {
   position: relative;
   overflow: hidden;
-}
-
-/* LCP图片优化样式 */
-.hero-bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
-  z-index: 0;
-  will-change: transform;
-  /* 优化性能：提示浏览器优化 */
-  contain: layout style paint;
-  /* 优化性能：限制重排范围 */
+  background-image: url('/images/home_img_01.webp');
 }
 
 .section.play-game {
   position: relative;
   overflow: hidden;
-}
-
-/* LCP优化：play-game背景图片样式 */
-.play-game-bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
-  z-index: 0;
-  will-change: transform;
-  /* 优化性能：提示浏览器优化 */
-  contain: layout style paint;
-  /* 优化性能：限制重排范围 */
+  background-image: url('/images/home_img_02.webp');
 }
 
 .section.about {

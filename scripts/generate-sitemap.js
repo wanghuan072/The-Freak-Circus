@@ -1,17 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { seoConfig } from '../src/seo/config.js'
 import gamesEn from '../src/data/en/games.js'
 import blogEn from '../src/data/blog/en.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-
-// SEO配置
-const seoConfig = {
-    fullDomain: 'https://thefreakcircus.org',
-    supportedLanguages: ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
-}
 
 // 路由配置
 const routes = [
@@ -36,6 +31,13 @@ const routes = [
 
 // 生成URL
 function generateUrl(path, lang = 'en') {
+    // 统一首页语言URL：英文用 /，其他语言用 /{lang}（不带尾随斜杠）
+    if (path === '/') {
+        return lang === 'en'
+            ? `${seoConfig.fullDomain}/`
+            : `${seoConfig.fullDomain}/${lang}`
+    }
+
     return lang === 'en'
         ? `${seoConfig.fullDomain}${path}`
         : `${seoConfig.fullDomain}/${lang}${path}`

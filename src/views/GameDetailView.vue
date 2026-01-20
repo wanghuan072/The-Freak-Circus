@@ -157,25 +157,6 @@ const toggleFullscreen = () => {
     }
 }
 
-const setSEO = () => {
-    if (game.value && game.value.seo) {
-        document.title = game.value.seo.title
-        updateMetaTag('description', game.value.seo.description)
-        updateMetaTag('keywords', game.value.seo.keywords)
-    }
-}
-
-const updateMetaTag = (name, content) => {
-    if (!content) return
-    let tag = document.querySelector(`meta[name="${name}"]`)
-    if (!tag) {
-        tag = document.createElement('meta')
-        tag.setAttribute('name', name)
-        document.head.appendChild(tag)
-    }
-    tag.setAttribute('content', content)
-}
-
 const loadGameData = async () => {
     try {
         loading.value = true
@@ -190,10 +171,6 @@ const loadGameData = async () => {
             const enGamesData = await import('@/data/en/games.js')
             const enGames = enGamesData.default
             game.value = enGames.find(g => g.addressBar === gameId.value)
-        }
-
-        if (game.value) {
-            setSEO()
         }
     } catch (error) {
         console.error('Failed to load game data:', error)

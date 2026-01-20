@@ -61,12 +61,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRoute } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { supportedLanguages } from '@/i18n'
 
 const { locale } = useI18n()
 const route = useRoute()
@@ -78,7 +79,7 @@ const error = ref(null)
 const getLocalizedPath = (path) => {
   // 从当前路由路径中提取语言
   const pathSegments = route.path.split('/').filter(Boolean)
-  const supportedLangs = ['zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+  const supportedLangs = supportedLanguages.filter((l) => l !== 'en')
   const currentLang =
     pathSegments[0] && supportedLangs.includes(pathSegments[0]) ? pathSegments[0] : 'en'
 

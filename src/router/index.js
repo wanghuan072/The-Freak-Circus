@@ -1,9 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { useSEO } from '@/seo'
 import i18n, { detectLanguageFromPath, loadLocale, supportedLanguages } from '@/i18n'
 
 // 按需加载语言文件 - 用于SEO数据
 const localeDataMap = {}
+
+// 按需加载详情页数据 - 用于SEO（避免进入详情页时SEO先闪默认值）
+const gamesDataMap = {}
+const blogDataMap = {}
+
+function stripLanguagePrefix(path, language) {
+  if (language === 'en') return path
+  // 仅移除开头的 /{lang} 前缀，避免误替换中间路径片段
+  return path.replace(new RegExp(`^/${language}(?=/|$)`), '') || '/'
+}
 
 // 动态加载语言文件（用于SEO，与i18n的loadLocale不同）
 async function loadLocaleForSEO(lang) {
@@ -21,6 +30,38 @@ async function loadLocaleForSEO(lang) {
     }
   }
   return localeDataMap[lang]
+}
+
+async function loadGamesForSEO(lang) {
+  if (!gamesDataMap[lang]) {
+    try {
+      const mod = await import(`@/data/${lang}/games.js`)
+      gamesDataMap[lang] = mod.default
+    } catch (error) {
+      console.warn(`Failed to load games for ${lang}:`, error)
+      if (lang !== 'en') {
+        const enMod = await import('@/data/en/games.js')
+        gamesDataMap[lang] = enMod.default
+      }
+    }
+  }
+  return gamesDataMap[lang]
+}
+
+async function loadBlogsForSEO(lang) {
+  if (!blogDataMap[lang]) {
+    try {
+      const mod = await import(`@/data/blog/${lang}.js`)
+      blogDataMap[lang] = mod.default
+    } catch (error) {
+      console.warn(`Failed to load blogs for ${lang}:`, error)
+      if (lang !== 'en') {
+        const enMod = await import('@/data/blog/en.js')
+        blogDataMap[lang] = enMod.default
+      }
+    }
+  }
+  return blogDataMap[lang]
 }
 
 // 页面配置
@@ -119,6 +160,64 @@ router.beforeEach(async (to, from, next) => {
 
 // 设置页面SEO的函数 - 根据当前语言使用对应的SEO数据
 async function setPageSEO(route, language) {
+  // 先做路径清洗（移除语言前缀）用于判断是否为详情页
+  const cleanPath = stripLanguagePrefix(route.path, language)
+
+  // 详情页：优先用本地数据中的 SEO，避免先套用默认页面 SEO 再被组件覆盖
+  if (cleanPath.startsWith('/games/') && route.params?.id) {
+    const games = await loadGamesForSEO(language)
+    const game = Array.isArray(games) ? games.find((g) => g.addressBar === route.params.id) : null
+    if (game?.seo) {
+      const title = game.seo.title
+      const description = game.seo.description
+      const keywords = game.seo.keywords
+
+      document.title = title
+      updateMetaTag('description', description)
+      updateMetaTag('keywords', keywords)
+
+      updateMetaTag('og:title', title, 'property')
+      updateMetaTag('og:description', description, 'property')
+      updateMetaTag('og:url', `https://thefreakcircus.org${route.path}`, 'property')
+      if (game.imageUrl) {
+        updateMetaTag('og:image', `https://thefreakcircus.org${game.imageUrl}`, 'property')
+      }
+
+      updateMetaTag('twitter:title', title, 'name')
+      updateMetaTag('twitter:description', description, 'name')
+
+      updateCanonicalLink(`https://thefreakcircus.org${route.path}`)
+      return
+    }
+  }
+
+  if (cleanPath.startsWith('/blog/') && route.params?.id) {
+    const blogs = await loadBlogsForSEO(language)
+    const blog = Array.isArray(blogs) ? blogs.find((b) => b.addressBar === route.params.id) : null
+    if (blog?.seo) {
+      const title = blog.seo.title
+      const description = blog.seo.description
+      const keywords = blog.seo.keywords
+
+      document.title = title
+      updateMetaTag('description', description)
+      updateMetaTag('keywords', keywords)
+
+      updateMetaTag('og:title', title, 'property')
+      updateMetaTag('og:description', description, 'property')
+      updateMetaTag('og:url', `https://thefreakcircus.org${route.path}`, 'property')
+      if (blog.imageUrl) {
+        updateMetaTag('og:image', `https://thefreakcircus.org${blog.imageUrl}`, 'property')
+      }
+
+      updateMetaTag('twitter:title', title, 'name')
+      updateMetaTag('twitter:description', description, 'name')
+
+      updateCanonicalLink(`https://thefreakcircus.org${route.path}`)
+      return
+    }
+  }
+
   // 获取页面SEO配置
   const seoKey = getSEOKey(route.path, language)
 
@@ -161,10 +260,7 @@ async function setPageSEO(route, language) {
 // 根据路径获取SEO配置键
 function getSEOKey(path, language) {
   // 移除语言前缀
-  let cleanPath = path
-  if (language !== 'en') {
-    cleanPath = path.replace(`/${language}`, '') || '/'
-  }
+  const cleanPath = stripLanguagePrefix(path, language)
 
   const pathMap = {
     '/': 'home',

@@ -23,4 +23,27 @@ export default defineConfig([
   js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
   skipFormatting,
+
+  // Node.js scripts / build-time files
+  {
+    files: [
+      'vite.config.{js,mjs}',
+      'eslint.config.{js,mjs}',
+      'scripts/**/*.{js,mjs}',
+      'src/seo/vite-plugin.{js,mjs}',
+    ],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
+
+  // Content data files may contain irregular whitespace by design
+  {
+    files: ['src/data/**/*.{js,mjs}'],
+    rules: {
+      'no-irregular-whitespace': 'off',
+    },
+  },
 ])

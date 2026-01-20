@@ -142,47 +142,6 @@ const formatDate = (dateString) => {
   })
 }
 
-const setSEO = () => {
-  if (blog.value && blog.value.seo) {
-    document.title = blog.value.seo.title
-    updateMetaTag('description', blog.value.seo.description)
-    updateMetaTag('keywords', blog.value.seo.keywords)
-    // 更新 Open Graph 标签
-    updateMetaTag('og:title', blog.value.seo.title, 'property')
-    updateMetaTag('og:description', blog.value.seo.description, 'property')
-    updateMetaTag('og:url', `https://thefreakcircus.org${route.path}`, 'property')
-    if (blog.value.imageUrl) {
-      updateMetaTag('og:image', `https://thefreakcircus.org${blog.value.imageUrl}`, 'property')
-    }
-    // 更新 Twitter Card 标签
-    updateMetaTag('twitter:title', blog.value.seo.title, 'name')
-    updateMetaTag('twitter:description', blog.value.seo.description, 'name')
-    // 更新 Canonical URL
-    updateCanonicalLink(`https://thefreakcircus.org${route.path}`)
-  }
-}
-
-const updateMetaTag = (name, content, attribute = 'name') => {
-  if (!content) return
-  let tag = document.querySelector(`meta[${attribute}="${name}"]`)
-  if (!tag) {
-    tag = document.createElement('meta')
-    tag.setAttribute(attribute, name)
-    document.head.appendChild(tag)
-  }
-  tag.setAttribute('content', content)
-}
-
-const updateCanonicalLink = (href) => {
-  let canonical = document.querySelector('link[rel="canonical"]')
-  if (!canonical) {
-    canonical = document.createElement('link')
-    canonical.setAttribute('rel', 'canonical')
-    document.head.appendChild(canonical)
-  }
-  canonical.setAttribute('href', href)
-}
-
 const loadBlogData = async () => {
   try {
     loading.value = true
@@ -197,10 +156,6 @@ const loadBlogData = async () => {
       const enBlogData = await import('@/data/blog/en.js')
       const enBlogs = enBlogData.default
       blog.value = enBlogs.find((b) => b.addressBar === blogId.value)
-    }
-
-    if (blog.value) {
-      setSEO()
     }
   } catch (error) {
     console.error('Failed to load blog data:', error)

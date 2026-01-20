@@ -180,17 +180,12 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useI18n } from 'vue-i18n'
 import { useRouter, useRoute } from 'vue-router'
-import { switchLocale } from '@/i18n'
+import { supportedLanguages } from '@/i18n'
 import '@/assets/css/public.css'
 
-const { locale } = useI18n()
 const router = useRouter()
 const route = useRoute()
-
-// 支持的语言列表
-const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
 
 // 语言显示名称映射
 const languageNames = {

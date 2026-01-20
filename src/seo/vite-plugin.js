@@ -8,7 +8,7 @@ export function seoPlugin() {
         name: 'seo-plugin',
         configureServer(server) {
             // 开发环境：复制静态站点地图和robots.txt
-            server.middlewares.use('/sitemap.xml', (req, res, next) => {
+            server.middlewares.use('/sitemap.xml', (req, res) => {
                 const publicSitemap = path.resolve(process.cwd(), 'public/sitemap.xml')
                 if (fs.existsSync(publicSitemap)) {
                     const sitemapContent = fs.readFileSync(publicSitemap, 'utf8')
@@ -20,7 +20,7 @@ export function seoPlugin() {
                 }
             })
 
-            server.middlewares.use('/robots.txt', (req, res, next) => {
+            server.middlewares.use('/robots.txt', (req, res) => {
                 const robotsContent = generateRobots()
                 res.setHeader('Content-Type', 'text/plain')
                 res.end(robotsContent)
