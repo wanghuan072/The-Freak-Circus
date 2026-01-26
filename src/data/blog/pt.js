@@ -232,7 +232,7 @@ export default [
     description: "Detonado completo para The Freak Circus Dia 1. Aprenda como ativar a rota do Pierrot, conhecer Harlequin e Jester, e sobreviver ao capítulo de abertura. Guia de download incluso.",
     tags: ["The Freak Circus", "Dia 1", "Detonado", "Guia", "Pierrot", "Harlequin", "Jester", "Guia de Personagem", "Jogo Grátis"],
     isHome: true,
-    publishDate: "2026-01-20",
+    publishDate: "2026-01-26",
     imageUrl: "/images/blog/blog03.webp",
     imageAlt: "Guia detonado do Dia 1 de The Freak Circus apresentando Pierrot e encontros com personagens",
     seo: {

@@ -232,7 +232,7 @@ export default [
     description: "Walkthrough complet pour The Freak Circus Jour 1. Apprenez comment déclencher la route de Pierrot, rencontrer Harlequin et Jester, et survivre au chapitre d'ouverture. Guide de téléchargement inclus.",
     tags: ["The Freak Circus", "Jour 1", "Walkthrough", "Guide", "Pierrot", "Harlequin", "Jester", "Guide des Personnages", "Jeu Gratuit"],
     isHome: true,
-    publishDate: "2026-01-20",
+    publishDate: "2026-01-26",
     imageUrl: "/images/blog/blog03.webp",
     imageAlt: "Guide walkthrough de The Freak Circus Jour 1 présentant Pierrot et les rencontres avec les personnages",
     seo: {

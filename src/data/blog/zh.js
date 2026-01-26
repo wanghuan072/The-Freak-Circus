@@ -232,7 +232,7 @@ export default [
     description: "《The Freak Circus》第一天完整攻略。了解如何触发 Pierrot 路线、结识 Harlequin 和 Jester，并在开篇章节中生存。包含下载指南。",
     tags: ["The Freak Circus", "第一天", "攻略", "指南", "Pierrot", "Harlequin", "Jester", "角色指南", "免费游戏"],
     isHome: true,
-    publishDate: "2026-01-20",
+    publishDate: "2026-01-26",
     imageUrl: "/images/blog/blog03.webp",
     imageAlt: "包含 Pierrot 和角色邂逅的《The Freak Circus》第一天攻略指南",
     seo: {

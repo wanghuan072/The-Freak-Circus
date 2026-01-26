@@ -232,7 +232,7 @@ export default [
     description: "The Freak Circus 第1日目の完全攻略。ピエロルートの解放条件、ハーレクインやジェスターとの出会い、序盤の生き残り方を解説。ダウンロードガイド付き。",
     tags: ["The Freak Circus", "第1日目", "攻略", "ガイド", "ピエロ", "ハーレクイン", "ジェスター", "キャラクターガイド", "無料ゲーム"],
     isHome: true,
-    publishDate: "2026-01-20",
+    publishDate: "2026-01-26",
     imageUrl: "/images/blog/blog03.webp",
     imageAlt: "ピエロやキャラクターとの遭遇を含む The Freak Circus 第1日目攻略ガイド",
     seo: {

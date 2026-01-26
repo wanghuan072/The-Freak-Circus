@@ -232,7 +232,7 @@ export default [
     description: "The Freak Circus 1일차 완전 공략. 피에로 루트를 활성화하는 방법, 할리퀸과 제스터와의 만남, 그리고 오프닝 챕터에서 살아남는 법을 배워보세요. 다운로드 가이드 포함.",
     tags: ["The Freak Circus", "1일차", "공략", "가이드", "피에로", "할리퀸", "제스터", "캐릭터 가이드", "무료 게임"],
     isHome: true,
-    publishDate: "2026-01-20",
+    publishDate: "2026-01-26",
     imageUrl: "/images/blog/blog03.webp",
     imageAlt: "피에로와 캐릭터 조우를 포함한 The Freak Circus 1일차 공략 가이드",
     seo: {
