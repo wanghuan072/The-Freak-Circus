@@ -212,47 +212,47 @@
           <div class="faq-list">
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question1') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer1') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer1')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question2') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer2') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer2')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question3') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer3') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer3')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question4') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer4') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer4')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question5') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer5') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer5')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question6') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer6') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer6')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question7') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer7') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer7')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question8') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer8') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer8')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question9') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer9') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer9')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question10') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer10') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer10')"></p>
             </div>
             <div class="faq-item">
               <h3 class="faq-question">{{ $t('HomePage.faq.question11') }}</h3>
-              <p class="faq-answer">{{ $t('HomePage.faq.answer11') }}</p>
+              <p class="faq-answer" v-html="$t('HomePage.faq.answer11')"></p>
             </div>
           </div>
         </div>

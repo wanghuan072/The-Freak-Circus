@@ -224,6 +224,158 @@ export default [
           <p>Pour plus d’informations, consultez notre <a href="/wiki">page Wiki</a> ou explorez les pages des personnages <a href="/pierrot">Pierrot</a> et <a href="/harlequin">Harlequin</a>. Vous pouvez également <a href="/download">télécharger le jeu</a> pour vivre vous-même l’expérience du Jour 2.</p>
         </div>
       `
+  },
+
+  {
+    id: 3,
+    title: "The Freak Circus Jour 1 Walkthrough : Rencontre avec Pierrot & Guide des Personnages",
+    description: "Walkthrough complet pour The Freak Circus Jour 1. Apprenez comment déclencher la route de Pierrot, rencontrer Harlequin et Jester, et survivre au chapitre d'ouverture. Guide de téléchargement inclus.",
+    tags: ["The Freak Circus", "Jour 1", "Walkthrough", "Guide", "Pierrot", "Harlequin", "Jester", "Guide des Personnages", "Jeu Gratuit"],
+    isHome: true,
+    publishDate: "2026-01-20",
+    imageUrl: "/images/blog/blog03.webp",
+    imageAlt: "Guide walkthrough de The Freak Circus Jour 1 présentant Pierrot et les rencontres avec les personnages",
+    seo: {
+      title: "The Freak Circus Jour 1 Walkthrough : Rencontre avec Pierrot & Guide des Personnages | thefreakcircus.org",
+      description: "Walkthrough complet pour The Freak Circus Jour 1. Apprenez comment déclencher la route de Pierrot, rencontrer Harlequin et Jester, et survivre au chapitre d'ouverture. Guide de téléchargement inclus.",
+      keywords: "The Freak Circus Jour 1, guide walkthrough, walkthrough Jour 1, route Pierrot, Harlequin, Jester, jeu gratuit, itch.io, guide visual novel, comment rencontrer Pierrot, The Freak Circus gratuit"
+    },
+    addressBar: "the-freak-circus-day-1-walkthrough-guide",
+    detailsHtml: `
+      <div class="blog-content-wrapper">
+        <h2>The Freak Circus Jour 1 Walkthrough : Rencontre avec Pierrot & Guide des Personnages</h2>
+        
+        <p>Bienvenue dans le monde tordu de <strong>The Freak Circus</strong>, un visual novel d'horreur psychologique gratuit qui met les joueurs au défi de naviguer dans un univers où la réalité se tord et où chaque décision compte. Bien que le Jour 1 puisse sembler trompeusement calme par rapport au chaos qui suit, chaque choix que vous ferez — en particulier la façon dont vous traitez <a href="/pierrot">Pierrot</a> — façonnera votre destin dans cette expérience immersive.</p>
+        
+        <p>Ce walkthrough complet du Jour 1 vous guidera à travers le chapitre d'ouverture, vous aidera à comprendre les personnages clés et s'assurera que vous faites les choix nécessaires pour débloquer l'intrigue principale et les routes des personnages. Pour plus d'informations sur le jeu, visitez notre <a href="/about">page À propos</a> ou explorez notre <a href="/games">collection de jeux</a>.</p>
+        
+        <h2>Introduction : Entrer dans The Freak Circus</h2>
+        
+        <p><strong>The Freak Circus</strong> est un visual novel free-to-play qui combine horreur psychologique et narration centrée sur les personnages. Ce jeu met les joueurs au défi de naviguer dans un monde où la réalité s'efface devant l'étrange. Le Jour 1 sert d'introduction à ce cirque cauchemardesque, posant les bases des événements plus sombres qui se déroulent au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Jour 2</a>. Vous pouvez <a href="/download">télécharger le jeu</a> pour commencer votre voyage dans ce monde distordu.</p>
+        
+        <p>Bien que le Jour 1 paraisse relativement paisible, il est crucial de comprendre que vos interactions avec les personnages, en particulier <a href="/pierrot">Pierrot</a>, détermineront quelles routes deviendront disponibles et comment l'histoire progressera. Les choix que vous faites ici peuvent sembler mineurs, mais ils résonneront tout au long de votre périple.</p>
+        
+        <h2>Rencontre avec les Personnages</h2>
+        
+        <p>Le Jour 1 vous présente le casting principal de <strong>The Freak Circus</strong>, bien que tous les personnages n'apparaissent pas directement dans le chapitre d'ouverture. Comprendre qui sont ces personnages et leurs rôles vous aidera à naviguer plus efficacement dans l'histoire.</p>
+        
+        <h3><a href="/pierrot">Pierrot</a> : Le Clown Mélancolique</h3>
+        
+        <p>Votre première rencontre majeure au Jour 1 est avec <strong><a href="/pierrot">Pierrot</a></strong>, le clown silencieux et mélancolique qui joue un rôle central dans l'histoire. Au Jour 1, vous le rencontrerez dans la rue, où il se fait harceler alors qu'il distribue des prospectus pour le cirque. Apprenez-en plus sur son personnage, son histoire et son rôle sur notre <a href="/pierrot">page dédiée à Pierrot</a>.</p>
+        
+        <p><strong>Détails Clés :</strong></p>
+        <ul>
+          <li>Pierrot est connu pour son silence et sa grande taille — un détail que beaucoup de joueurs recherchent (répondant à des questions comme "quelle est la taille de Pierrot").</li>
+          <li>Son apparence est frappante : un clown au visage blanc avec une expression mélancolique qui laisse deviner la tragédie profonde de son passé, explorée au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Jour 2</a>.</li>
+          <li>Au Jour 1, il est vulnérable et victime de brimades, ce qui crée le premier point de choix majeur du jeu.</li>
+        </ul>
+        
+        <p><strong>Pourquoi c'est important :</strong> La façon dont vous répondez à la situation de Pierrot au Jour 1 impacte directement votre accès à sa route et aux embranchements de l'histoire. C'est l'un des points de décision les plus critiques du jeu. Pour une compréhension plus profonde de la dynamique des personnages, consultez notre <a href="/wiki">page Wiki</a>.</p>
+        
+        <h3><a href="/harlequin">Harlequin</a> & <a href="/jester">Jester</a> : Les Farceurs</h3>
+        
+        <p>Bien que <strong><a href="/harlequin">Harlequin</a></strong> et <strong><a href="/jester">Jester</a></strong> n'aient pas forcément de rencontres directes au Jour 1, leur présence plane sur l'histoire. Harlequin représente la force prédatrice et manipulatrice qui contraste avec la nature protectrice de <a href="/pierrot">Pierrot</a>, tandis que le Jester sert de conteur révélant le lore profond du cirque. Explorez leurs pages de personnages : <a href="/harlequin">Harlequin</a> et <a href="/jester">Jester</a>.</p>
+        
+        <p>Ces personnages deviennent plus proéminents au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Jour 2</a>, mais comprendre leurs rôles tôt vous aidera à apprécier la structure narrative. Pour une vue d'ensemble complète de tous les personnages, visitez notre <a href="/wiki">page Wiki</a>.</p>
+        
+        <h3>Columbina & <a href="/ticket-taker">Ticket Taker</a> : Les Fils Cachés</h3>
+        
+        <p>Bien que <strong>Columbina</strong> et le <a href="/ticket-taker">Ticket Taker</a> n'apparaissent pas directement au Jour 1, ils sont cruciaux pour comprendre l'histoire complète. La légende tragique de Columbina — révélée au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Jour 2</a> — explique l'animosité profonde entre <a href="/pierrot">Pierrot</a> et <a href="/harlequin">Harlequin</a>. Le rôle du <a href="/ticket-taker">Ticket Taker</a> en tant que manipulateur de la réalité devient significatif au fur et à mesure de la progression.</p>
+        
+        <h2>Jour 1 Walkthrough : Guide Étape par Étape</h2>
+        
+        <p>Suivez ce walkthrough étape par étape pour naviguer avec succès dans le Jour 1 et débloquer les routes principales.</p>
+        
+        <h3>Scène 1 : Le Café (Votre lieu de travail)</h3>
+        
+        <p>Le Jour 1 commence sur votre lieu de travail, un café où vous effectuez votre routine quotidienne. Cette scène d'ouverture établit votre vie normale avant que le cirque ne s'immisce.</p>
+        
+        <p><strong>Éléments Clés :</strong></p>
+        <ul>
+          <li>Vous travaillez dans un café, suivant votre routine habituelle.</li>
+          <li>Portez attention aux options de dialogue qui pourraient affecter les attributs de votre personnage.</li>
+          <li>Cette scène installe le contraste entre votre vie ordinaire et les événements extraordinaires à venir.</li>
+        </ul>
+        
+        <p><strong>Conseils :</strong> Bien qu'il n'y ait pas de chemins divergents majeurs dans cette scène, soyez attentif à l'atmosphère. L'horreur psychologique commence à poindre même dans ces moments banals.</p>
+
+        <h3>Scène 2 : La Rue / Le Prospectus (Point de Bascule Critique)</h3>
+        
+        <p>C'est la <strong>scène la plus importante du Jour 1</strong> et la clé pour débloquer l'intrigue principale. En quittant le travail, vous croisez Pierrot dans la rue, harcelé alors qu'il distribue des flyers.</p>
+        
+        <p><strong>La Rencontre :</strong></p>
+        <ul>
+          <li>Vous voyez Pierrot se faire malmener par des passants.</li>
+          <li>Il essaie de distribuer des flyers pour The Freak Circus, mais la situation est manifestement inconfortable et potentiellement dangereuse pour lui.</li>
+          <li>C'est ici que vous devez faire un choix critique.</li>
+        </ul>
+        
+        <img src="/images/blog/blog03-01.webp" alt="Rencontre avec Pierrot dans The Freak Circus Jour 1" class="blog-image">
+
+        <p><strong>⚠️ CHOIX CRITIQUE : L'aider vs L'ignorer</strong></p>
+        
+        <p>C'est la <strong>décision la plus importante du Jour 1</strong>. Elle détermine si vous pouvez accéder à l'histoire principale et à la route de Pierrot :</p>
+        
+        <ul>
+          <li><strong>✅ L'aider (RECOMMANDÉ) :</strong> Choisir d'aider Pierrot est essentiel. Ce choix :
+            <ul>
+              <li>Établit un lien avec Pierrot</li>
+              <li>Débloque la route de Pierrot</li>
+              <li>Vous permet de progresser vers les événements principaux</li>
+              <li>Pose les bases des événements du Jour 2</li>
+            </ul>
+          </li>
+          <li><strong>❌ L'ignorer :</strong> Choisir d'ignorer Pierrot vous bloquera probablement l'accès à l'intrigue principale et aux routes clés des personnages.</li>
+        </ul>
+        
+        <p><strong>Pourquoi ce choix compte :</strong> The Freak Circus repose sur la relation entre le protagoniste et les personnages du cirque. Sans aider Pierrot, vous ne pouvez pas accéder au cœur du récit. Pour plus de stratégies, consultez notre <a href="/wiki">page Wiki</a>.</p>
+        
+        <h3>Scène 3 : Les Séquelles</h3>
+        
+        <p>Après votre rencontre avec Pierrot, la journée se termine par votre retour à la maison. Cependant, l'atmosphère a radicalement changé.</p>
+        
+        <p><strong>Éléments Clés :</strong></p>
+        <ul>
+          <li>Un sentiment d'être observé ou suivi commence à émerger.</li>
+          <li>La tension psychologique devient plus prononcée.</li>
+          <li>L'ambiance générale devient paranoïaque et inquiétante.</li>
+        </ul>
+        
+        <img src="/images/blog/blog03-02.webp" alt="Ambiance inquiétante après la rencontre" class="blog-image">
+
+        <h2>Détails Cachés & Lore</h2>
+        
+        <p>Le Jour 1 contient plusieurs détails subtils et easter eggs qui enrichissent l'histoire pour les joueurs attentifs.</p>
+        
+        <h3>Détails à surveiller en arrière-plan :</h3>
+        <ul>
+          <li><strong>Des yeux dans le décor :</strong> Vous pourriez remarquer des yeux qui vous observent, suggérant la surveillance exercée par le cirque.</li>
+          <li><strong>Design Sonore :</strong> Écoutez les effets sonores subtils qui peuvent trahir la présence d'autres personnages.</li>
+          <li><strong>Prémonitions Visuelles :</strong> Les éléments visuels peuvent contenir des indices sur les relations futures et l'histoire tragique du cirque.</li>
+        </ul>
+        
+        <h2>FAQ : Questions Fréquemment Posées</h2>
+        
+        <h3>Q : Est-ce que The Freak Circus est gratuit ?</h3>
+        <p><strong>R :</strong> Oui ! <strong>The Freak Circus</strong> est entièrement gratuit. Vous pouvez <a href="/download">télécharger le jeu</a> ou y jouer directement dans votre navigateur.</p>
+        
+        <h3>Q : Peut-on avoir une romance avec Pierrot au Jour 1 ?</h3>
+        <p><strong>R :</strong> Le Jour 1 sert de fondation. Bien que la romance ne soit pas pleinement développée dès le premier chapitre, vos choix (comme l'aider) sont indispensables pour ouvrir cette voie qui s'approfondit au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Jour 2</a>.</p>
+        
+        <h3>Q : Y a-t-il des jumpscares au Jour 1 ?</h3>
+        <p><strong>R :</strong> Le Jour 1 mise davantage sur l'horreur psychologique et l'ambiance. L'intensité augmente significativement au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Jour 2</a>.</p>
+        
+        <h2>Conclusion & Prochaines Étapes</h2>
+        
+        <p>Félicitations pour avoir survécu au Jour 1 de <strong>The Freak Circus</strong> ! Bien que ce chapitre puisse sembler calme, vous venez d'entrer dans un monde où chaque choix résonne.</p>
+        
+        <p>Cependant, le Jour 1 n'est que le début. Le véritable cauchemar commence au <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide"><strong>Jour 2</strong></a>, avec des enlèvements, des manipulations psychologiques et la légende tragique de Columbina.</p>
+        
+        <p><strong>Prêt pour la suite du cauchemar ?</strong> Continuez votre voyage avec notre <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Guide Complet du Jour 2 de The Freak Circus</a>, où vous rencontrerez le <a href="/jester">Jester</a>, le <a href="/doctor">Doctor</a>, et le <a href="/ticket-taker">Ticket Taker</a>.</p>
+        
+        <p>N'oubliez pas : dans The Freak Circus, la confiance est un luxe, et chaque décision fera écho dans les ténèbres qui vous attendent.</p>
+      </div>
+    `
   }
 
 ]

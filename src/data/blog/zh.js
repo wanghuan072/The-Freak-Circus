@@ -224,6 +224,182 @@ export default [
         <p>想了解更多内容，请访问我们的 <a href="/wiki">Wiki 页面</a>，或查看 <a href="/pierrot">皮埃罗</a> 与 <a href="/harlequin">丑角</a> 的角色介绍。你也可以 <a href="/download">下载游戏</a>，亲自体验第2天的故事。</p>
       </div>
     `
+  },
+
+  {
+    id: 3,
+    title: "《The Freak Circus》第一天攻略：遇见 Pierrot 与角色指南",
+    description: "《The Freak Circus》第一天完整攻略。了解如何触发 Pierrot 路线、结识 Harlequin 和 Jester，并在开篇章节中生存。包含下载指南。",
+    tags: ["The Freak Circus", "第一天", "攻略", "指南", "Pierrot", "Harlequin", "Jester", "角色指南", "免费游戏"],
+    isHome: true,
+    publishDate: "2026-01-20",
+    imageUrl: "/images/blog/blog03.webp",
+    imageAlt: "包含 Pierrot 和角色邂逅的《The Freak Circus》第一天攻略指南",
+    seo: {
+      title: "《The Freak Circus》第一天攻略：遇见 Pierrot 与角色指南 | thefreakcircus.org",
+      description: "《The Freak Circus》第一天完整攻略。了解如何触发 Pierrot 路线、结识 Harlequin 和 Jester，并在开篇章节中生存。包含下载指南。",
+      keywords: "The Freak Circus 第一天, 攻略指南, 第一天攻略, Pierrot 路线, Harlequin, Jester, 免费游戏, itch.io, 视觉小说指南, 如何遇见 Pierrot, The Freak Circus 免费"
+    },
+    addressBar: "the-freak-circus-day-1-walkthrough-guide",
+    detailsHtml: `
+      <div class="blog-content-wrapper">
+        <h2>《The Freak Circus》第一天攻略：遇见 Pierrot 与角色指南</h2>
+        
+        <p>欢迎来到 <strong>The Freak Circus</strong> 扭曲的世界，这是一款免费的心理恐怖视觉小说，挑战玩家在一个现实扭曲、每一个决定都至关重要的世界中航行。虽然第一天与随后的混乱相比显得异常平静，但你的每一个选择——尤其是你对待 <a href="/pierrot">Pierrot</a> 的方式——都将决定你在这场沉浸式视觉小说体验中的命运。</p>
+        
+        <p>这份详尽的第一天攻略将引导你通过开篇章节，帮助你了解关键角色，并确保你做出必要的选择以解锁主线剧情和角色路线。欲了解更多关于游戏的信息，请访问我们的 <a href="/about">关于页面</a> 或探索我们的 <a href="/games">游戏合集</a>。</p>
+        
+        <h2>简介：进入怪胎马戏团</h2>
+        
+        <p><strong>The Freak Circus</strong> 是一款结合了心理恐怖与角色驱动叙事的免费视觉小说。这款游戏挑战玩家在一个现实扭曲、每一个决定都至关重要的世界中航行。第一天是你进入这个噩梦般马戏团的导言，为 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">第二天</a> 展开的更黑暗事件奠定了基础。你可以 <a href="/download">下载游戏</a>，开始你进入这个扭曲世界的旅程。</p>
+        
+        <p>虽然第一天看起来相对和平，但至关重要的是要明白，你与角色的互动（特别是与 <a href="/pierrot">Pierrot</a> 的互动）将决定哪些路线可用以及故事如何进展。你在这里做出的选择可能看起来微不足道，但它们会贯穿你的整个旅程。</p>
+        
+        <h2>角色介绍</h2>
+        
+        <p>第一天向你介绍了 <strong>The Freak Circus</strong> 的核心角色阵容，尽管并不是所有角色都会在开篇章节中直接出现。了解这些角色及其角色定位将帮助你更有效地引导剧情。</p>
+        
+        <h3><a href="/pierrot">Pierrot</a>：忧郁的丑角</h3>
+        
+        <p>你在第一天的第一次重大邂逅是与 <strong><a href="/pierrot">Pierrot</a></strong>，这位沉默而忧郁的丑角在故事中扮演着核心角色。在第一天，你会在街上遇到他，当时他正因为分发马戏团传单而受到骚扰。在我们的 <a href="/pierrot">Pierrot 角色专属页面</a> 上了解更多关于他的性格、背景故事和在剧中的作用。</p>
+        
+        <p><strong>关键细节：</strong></p>
+        <ul>
+          <li>Pierrot 以沉默和身高著称——这是许多玩家搜索的细节（回答诸如“Pierrot 有多高”之类的问题）。</li>
+          <li>他的外表引人注目：一个白脸丑角，带着忧郁的表情，暗示了他过去更深层的悲剧，这将在 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">第二天</a> 中进行探索。</li>
+          <li>在第一天，他处于弱势并受到欺凌，这创造了游戏中的第一个重大选择点。</li>
+        </ul>
+        
+        <p><strong>为什么这很重要：</strong> 你在第一天如何应对 Pierrot 的处境直接影响你是否能进入他的路线并解锁特定的故事路径。这是整个游戏中最关键的决策点之一。为了深入了解角色动态，请查看我们的 <a href="/wiki">百科页面</a>。</p>
+        
+        <h3><a href="/harlequin">Harlequin</a> & <a href="/jester">Jester</a>：戏弄者</h3>
+        
+        <p>虽然 <strong><a href="/harlequin">Harlequin</a></strong> 和 <strong><a href="/jester">Jester</a></strong> 可能不会在第一天直接露面，但他们的存在笼罩着整个故事。Harlequin 代表了掠夺性的、操纵性的力量，与 <a href="/pierrot">Pierrot</a> 的保护本能形成鲜明对比；而 Jester 则充当讲述者，揭示马戏团更深层的传说。探索他们的角色页面以了解更多：<a href="/harlequin">Harlequin</a> 和 <a href="/jester">Jester</a>。</p>
+        
+        <p>这些角色在 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">第二天</a> 会变得更加突出，但早期了解他们的角色定位将帮助你理解叙事结构和角色动态。欲了解所有角色的全面概述，请访问我们的 <a href="/wiki">百科页面</a>。</p>
+        
+        <h3>Columbina & <a href="/ticket-taker">检票员</a>：隐藏的线索</h3>
+        
+        <p>虽然 <strong>Columbina</strong> 和 <a href="/ticket-taker">检票员</a> 没有在第一天直接出现，但他们对于理解完整故事至关重要。Columbina 的悲剧传说（在 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">第二天</a> 揭晓）解释了 <a href="/pierrot">Pierrot</a> 与 <a href="/harlequin">Harlequin</a> 之间深深扎根的敌意。<a href="/ticket-taker">检票员</a> 作为现实操纵者的角色随着故事的进展而变得重要。</p>
+        
+        <p>第一天播下了这些启示的种子，营造出一种神秘和预兆的氛围，为即将到来的更黑暗事件搭建了舞台。在我们的 <a href="/wiki">百科页面</a> 上发现更多关于 <a href="/ticket-taker">检票员</a> 和其他角色的信息。</p>
+        
+        <h2>第一天流程：分步指南</h2>
+        
+        <p>遵循此分步流程，成功引导第一天并解锁主要故事路线。</p>
+        
+        <h3>场景 1：咖啡馆（你的工作场所）</h3>
+        
+        <p>第一天开始于你的工作地点——一家咖啡馆，你正在那里进行日常工作。这个开场场景在马戏团闯入之前确立了你角色的正常生活。</p>
+        
+        <p><strong>关键要素：</strong></p>
+        <ul>
+          <li>你在一家咖啡馆工作，过着规律的日常生活。</li>
+          <li>留意任何可能影响你角色属性或资源的对话选项或选择（尽管第一天主要集中在确立故事背景）。</li>
+          <li>这个场景为你的普通生活与即将展开的非凡事件之间设定了对比。</li>
+        </ul>
+        
+        <p><strong>提示：</strong> 虽然这个场景中可能没有重大的分支路径，但请注意氛围以及任何关于未来的微妙暗示。游戏的心理恐怖元素甚至在这些看似平常的时刻就已经开始浮现。</p>
+
+        <h3>场景 2：街道 / 传单（关键转折点）</h3>
+        
+        <p>这是 <strong>第一天最重要的场景</strong>，也是解锁主线剧情的关键。下班后，你在街上遇到 Pierrot，他因为分发马戏团传单而受到骚扰。</p>
+        
+        <p><strong>邂逅：</strong></p>
+        <ul>
+          <li>你看到 Pierrot 在街上被其他人欺负或骚扰。</li>
+          <li>他试图分发《The Freak Circus》的传单，但情况显然让他感到不安且具有潜在危险。</li>
+          <li>这是你必须做出关键选择的地方。</li>
+        </ul>
+        
+        <img src="/images/blog/blog03-01.webp" alt="包含 Pierrot 和角色邂逅的《The Freak Circus》第一天攻略指南" class="blog-image">
+
+        <p><strong>⚠️ 关键选择：帮助他 vs. 无视他</strong></p>
+        
+        <p>这是 <strong>第一天最重要的决定</strong>，将决定你是否能进入主线剧情和 Pierrot 路线：</p>
+        
+        <ul>
+          <li><strong>✅ 帮助他（推荐）：</strong> 在 Pierrot 受到骚扰时选择帮助他是解锁主线剧情的关键。这个选择将：
+            <ul>
+              <li>建立与 Pierrot 的联系</li>
+              <li>解锁 Pierrot 路线</li>
+              <li>允许你进入主线故事事件</li>
+              <li>为第二天的事件奠定基础</li>
+            </ul>
+          </li>
+          <li><strong>❌ 无视他：</strong> 选择无视 Pierrot 或走开可能会使你无法进入主线剧情，并阻碍你接触关键角色路线。这条路径可能会导致不同的结局或阻止故事进展。</li>
+        </ul>
+        
+        <p><strong>为什么这个选择很重要：</strong> 《The Freak Circus》从根本上是关于主角与马戏团角色（特别是 <a href="/pierrot">Pierrot</a>）之间的关系。如果不帮助他，你将无法接触驱动游戏前进的核心叙事。这个选择是通往整个故事的大门。欲获取更多提示和策略，请查看我们的 <a href="/wiki">百科页面</a> 或探索其他 <a href="/blog">博客指南</a>。</p>
+        
+        <h3>场景 3：余波</h3>
+        
+        <p>在与 Pierrot 邂逅之后，这一天以你回到家中结束。然而，气氛已经发生了剧变。</p>
+        
+        <p><strong>关键要素：</strong></p>
+        <ul>
+          <li>一种被注视或跟踪的感觉开始出现</li>
+          <li>心理恐怖元素变得更加明显</li>
+          <li>你可能会注意到暗示未来更黑暗事件的微妙细节</li>
+          <li>游戏确立了一种不安和偏执的氛围</li>
+        </ul>
+        
+        <p><strong>被注视的感觉：</strong> 尽管第一天没有表现出明显的危险，但游戏巧妙地营造了一种不安感。你可能会注意到阴影、声音或其他暗示你并不孤单的微妙细节。这种心理张力是《The Freak Circus》恐怖手法的标志。</p>
+        
+        <img src="/images/blog/blog03-02.webp" alt="包含 Pierrot 和角色邂逅的《The Freak Circus》第一天攻略指南" class="blog-image">
+
+        <h2>隐藏细节与传说</h2>
+        
+        <p>第一天包含若干微妙的细节和彩蛋，可以增强故事性并回馈细心的玩家。这些元素增加了页面的深度，并鼓励多次游玩。</p>
+        
+        <h3>值得关注的背景细节：</h3>
+        <ul>
+          <li><strong>背景中的眼睛：</strong> 密切关注背景元素。你可能会注意到注视着你的眼睛，暗示着马戏团对你角色的监视和控制。</li>
+          <li><strong>声音设计：</strong> 游戏的音频设计经过精心制作，旨在营造不安感。聆听那些可能暗示其他角色存在或马戏团影响的微妙音效。</li>
+          <li><strong>视觉铺垫：</strong> 第一天的美术作品和视觉元素可能包含关于未来事件、角色关系以及马戏团悲剧历史的提示。</li>
+          <li><strong>对话潜台词：</strong> 即使是看似无伤大雅的对话也可能包含关于即将到来的更黑暗事件的隐藏含义或铺垫。</li>
+        </ul>
+        
+        <h3>角色互动：</h3>
+        <ul>
+          <li>注意角色对你选择的反应，因为这些反应可能暗示他们的真实本性</li>
+          <li>留意任何关于马戏团历史或其他未在第一天直接露面角色的提及</li>
+          <li>寻找关于 Pierrot 和 Harlequin 之间关系的线索，即使它们非常隐晦</li>
+        </ul>
+        
+        <h2>FAQ：常见问题解答</h2>
+        
+        <h3>Q: 《The Freak Circus》是免费的吗？</h3>
+        <p><strong>A:</strong> 是的！<strong>The Freak Circus</strong> 完全免费。你可以 <a href="/download">下载游戏</a> 或直接在浏览器中游玩。访问我们的 <a href="/download">下载页面</a> 开始你的马戏团之旅。</p>
+        
+        <h3>Q: 第一天可以攻略 Pierrot 吗？</h3>
+        <p><strong>A:</strong> 第一天是与角色（尤其是 <a href="/pierrot">Pierrot</a>）建立关系的基础。虽然你可能无法在第一天就达到完整的恋爱路线，但你的选择（尤其是在他受骚扰时提供帮助）为他的路线奠定了基础。关系发展在 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">第二天</a> 及之后继续，届时会有更深层的互动和恋爱路径。在 Pierrot 的专属页面上了解更多关于他的性格和故事。</p>
+        
+        <h3>Q: 第一天有跳杀（Jumpscares）吗？</h3>
+        <p><strong>A:</strong> 第一天更多侧重于心理恐怖和氛围，而非传统的跳杀。恐怖感源于不安感、被注视的感觉以及开始浮现的心理操纵。然而，游戏确实包含成人主题和令人不安的图像，因此建议 18 岁以上人群游玩。强度在 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">第二天</a> 显著增加，届时会有更黑暗的事件展开。</p>
+        
+        <h3>Q: 如果我在第一天不帮助 Pierrot 会怎样？</h3>
+        <p><strong>A:</strong> 如果你选择无视 <a href="/pierrot">Pierrot</a> 或走开，你可能会无法进入主线剧情，也无法接触关键角色路线。游戏是围绕主角与马戏团角色之间的关系设计的，因此帮助 Pierrot 对故事进展至关重要。我们强烈建议选择帮助他以体验完整叙事。欲获取更多游戏提示，请访问我们的 <a href="/wiki">百科页面</a>。</p>
+        
+        <h3>Q: 完成第一天需要多长时间？</h3>
+        <p><strong>A:</strong> 与后面的章节相比，第一天相对较短，通常需要 15-30 分钟完成，具体取决于你的阅读速度以及探索对话选项的详尽程度。然而，你在第一天做出的选择对整个游戏有着持久的影响。</p>
+        
+        <h3>Q: 我可以重玩第一天以查看不同的结果吗？</h3>
+        <p><strong>A:</strong> 可以！《The Freak Circus》鼓励多次游玩。你可以重玩第一天来探索不同的选择，并查看它们如何影响故事。但是，请记住帮助 <a href="/pierrot">Pierrot</a> 对进入主线剧情至关重要，因此我们建议至少有一次游玩做出了该选择。欲获取更多策略和指南，请查看我们的 <a href="/blog">博客板块</a>。</p>
+        
+        <h2>结论与后续步骤</h2>
+        
+        <p>恭喜你在 <strong>The Freak Circus</strong> 的第一天中幸存下来！虽然开篇章节可能看起来相对平静，但你现在已经进入了一个每一个选择都至关重要、且一切并非表象所见的世界。你与 Pierrot 建立的基础以及你确立的关系将塑造接下来的一切。</p>
+        
+        <p>然而，第一天仅仅是开始。真正的噩梦始于 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide"><strong>第二天</strong></a>，故事将转向黑暗，涉及绑架、心理操纵，以及揭示 <a href="/pierrot">Pierrot</a> 与 <a href="/harlequin">Harlequin</a> 之间深仇大恨的 Columbina 悲剧传说。</p>
+        
+        <p><strong>准备好迎接下一个噩梦了吗？</strong> 继续你的旅程，参阅我们详尽的 <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">《The Freak Circus》第二天：完整流程与故事指南</a>，你将遇到新角色如 <a href="/jester">Jester</a>、<a href="/doctor">医生</a> 和 <a href="/ticket-taker">检票员</a>，探索神秘的帐篷地点，并揭开为这个扭曲故事增添深度的隐藏场景。</p>
+        
+        <p>欲了解更多关于游戏的信息，请查看我们的 <a href="/wiki">百科页面</a> 以获取全面的角色指南和传说，探索 <a href="/pierrot">Pierrot</a>、<a href="/harlequin">Harlequin</a>、<a href="/jester">Jester</a>、<a href="/doctor">医生</a> 和 <a href="/ticket-taker">检票员</a> 的角色页面，浏览我们的 <a href="/games">游戏合集</a>，或阅读更多 <a href="/blog">博客文章</a> 获取提示和策略。你也可以 <a href="/download">下载游戏</a> 亲自体验第一天的内容。</p>
+        
+        <p>请记住：在怪胎马戏团中，信任是奢侈品，你做出的每一个选择都将在等待着的黑暗中回响。</p>
+      </div>
+    `
   }
 
 ]
