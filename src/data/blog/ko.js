@@ -383,6 +383,163 @@ export default [
         <p>기억하세요. The Freak Circus에서 신뢰는 감당하기 어려운 사치이며, 여러분이 내리는 모든 선택은 기다리고 있는 어둠 속에서 울려 퍼질 것입니다.</p>
       </div>
     `
+  },
+
+  {
+    "id": 4,
+    "title": "The Freak Circus 캐릭터 가이드: 프로필, 키, & 로어 정리",
+    "description": "가면 뒤에 숨겨진 정체는 누구일까요? Pierrot, Harlequin, Jester를 포함한 The Freak Circus 전 출연진의 공식 키, 성격 특징, 그리고 어두운 비밀을 확인해 보세요.",
+    "tags": [
+      "Characters",
+      "Pierrot",
+      "Harlequin",
+      "Lore",
+      "Guide"
+    ],
+    "isHome": false,
+    "publishDate": "2026-02-02",
+    "imageUrl": "/images/blog/blog04.webp",
+    "imageAlt": "Pierrot와 Harlequin이 포함된 The Freak Circus 전체 캐릭터 캐스트 일러스트",
+    "seo": {
+      "title": "The Freak Circus 캐릭터: 전체 프로필 및 키 가이드",
+      "description": "The Freak Circus 캐릭터에 대해 심층적으로 알아봅니다. Pierrot의 키, Harlequin과의 라이벌 관계, Jester와 Columbina의 어두운 설정까지 확인하세요.",
+      "keywords": "The Freak Circus 캐릭터, 피에로 키, 할리퀸, 제스터, 콜롬비나, 비주얼 노벨 로어, 캐릭터 프로필"
+    },
+    "addressBar": "the-freak-circus-characters-guide",
+    "detailsHtml": `
+<h2>프릭들을 만나다: 가면 뒤의 진실</h2>
+
+<p>
+  어서 오세요! <strong>The Freak Circus</strong>는 단순히 공포스러운 분위기와 다크 로맨스로만 유명한 것이 아닙니다. 수천 명의 플레이어들의 마음(어쩌면 영혼까지)을 사로잡은 것은 바로 매력적인 캐릭터들입니다.
+  말없이 거대한 체구로 집착을 드러내는 <a href="/pierrot">Pierrot</a>부터 혼돈스러운 매력의 <a href="/harlequin">Harlequin</a>까지, 이 유랑단의 모든 멤버는 저마다의 이야기를 가지고 있습니다.
+</p>
+
+<p>
+  이 가이드에서는 캐릭터 프로필과 서커스 내에서의 역할을 분석하고, 인터넷에서 가장 뜨거운 질문에 대한 답을 드립니다:
+  <em>Pierrot의 키는 정확히 몇인가요?</em>
+</p>
+
+<h3>1. <a href="/pierrot">Pierrot</a> (침묵의 광대)</h3>
+
+<p>
+  의심할 여지 없는 팬들의 최애 캐릭터인 <a href="/pierrot">Pierrot</a>는 "다크 로맨스" 장르의 간판 모델입니다.
+  그는 이 게임을 정의하는 침묵하고, 우울하며, 위험할 정도로 소유욕이 강한 아키타입을 대표합니다.
+</p>
+
+<ul>
+  <li><strong>역할:</strong> 광대 / 전단지 배포원</li>
+  <li><strong>성격:</strong> 침묵, 얀데레, 보호적, 집착적</li>
+  <li>
+    <strong>주요 특징:</strong>
+    그는 주로 몸짓과 강렬한 눈빛으로 소통합니다.
+    주인공(MC)에 대한 그의 헌신은 절대적이며, 거의 숭배에 가깝습니다.
+  </li>
+</ul>
+
+<h4>Pierrot의 키는 얼마인가요?</h4>
+
+<p>
+  게임 설정과 시각적 비교에 따르면,
+  <strong>Pierrot는 The Freak Circus에서 가장 키가 큰 캐릭터</strong>입니다.
+  팬들 사이의 토론마다 정확한 수치는 다르지만, 일반적으로
+  <strong>6'5"에서 6'8"(약 198cm - 203cm)</strong> 사이로 추정됩니다.
+  그의 압도적인 키는 캐릭터 디자인의 핵심 요소로, 주인공을 물리적으로 제압하거나 보호하는 능력을 강조합니다.
+</p>
+
+<img src="/images/blog/blog04-01.webp" alt="Pierrot (침묵의 광대)" />
+
+<h3>2. <a href="/harlequin">Harlequin</a> (제스터의 라이벌)</h3>
+
+<p>
+  <a href="/pierrot">Pierrot</a>가 고요한 그림자라면, <a href="/harlequin">Harlequin</a>은 눈부신 스포트라이트입니다.
+  그는 시끄럽고 화려하며, 숨기지 않는 위험함을 내뿜습니다.
+</p>
+
+<ul>
+  <li><strong>역할:</strong> 곡예사 / 공연자</li>
+  <li><strong>성격:</strong> 요염함, 혼돈, 가학적, 조작적</li>
+  <li>
+    <strong>관계:</strong>
+    그는 <a href="/pierrot">Pierrot</a>에게 깊은 원한을 품고 있습니다.
+    Pierrot가 주인공에게 구애하려는 시도를 자주 방해하며,
+    Harlequin은 보다 빠르고 변덕스러운 로맨스 루트를 제공합니다.
+  </li>
+</ul>
+
+<p>
+  Harlequin은 Pierrot보다 훨씬 작지만, 민첩함과 압도적인 존재감으로 이를 보완합니다.
+</p>
+
+<img src="/images/blog/blog04-02.webp" alt="Harlequin (제스터의 라이벌)" />
+
+<h3>3. <a href="/jester">Jester</a> (단장)</h3>
+
+<p>
+  모든 것을 총괄하는 인물입니다. <a href="/jester">Jester</a>는 이 악몽을 유지시키는 결속 장치와 같습니다.
+  그는 권위적이며 괴물들조차 두려워하는 통제력을 발산합니다.
+</p>
+
+<ul>
+  <li><strong>역할:</strong> 단장 / 리더</li>
+  <li><strong>성격:</strong> 지배적, 계산적, 카리스마</li>
+  <li>
+    <strong>설정:</strong>
+    누가 남고 누가 떠날지를 결정하는 것은 Jester입니다.
+    그의 미소는 좀처럼 눈까지 닿지 않으며, 주인공에 대한 그의 관심은 애정보다는
+    <em>소유</em>에 가깝습니다.
+  </li>
+</ul>
+
+<img src="/images/blog/blog04-03.webp" alt="Jester (단장)" />
+
+<h3>4. 조연 캐스트</h3>
+
+<p>
+  서커스에는 이 어두운 세계관을 풍성하게 만드는 다른 존재들도 가득합니다:
+</p>
+
+<ul>
+  <li>
+    <strong>Columbina:</strong>
+    비극적인 미녀. 자주 우울한 표정을 짓고 있는 그녀의 뒷이야기는 단원에 합류하기 전의 슬픈 삶을 암시합니다.
+    팬들은 그녀가 "망가진 인형" 아키타입을 상징한다고 추측합니다.
+  </li>
+  <li>
+    <strong><a href="/ticket-taker">The Ticket Taker</a>:</strong>
+    지옥의 문지기. 그는 종종 서커스의 최전방 방어선(혹은 공격선) 역할을 합니다.
+    그의 직함에 속지 마세요. 그는 공연자들만큼이나 위험합니다.
+  </li>
+  <li>
+    <strong><a href="/doctor">The Doctor</a>:</strong>
+    단원들을 치료하고, 어쩌면 이름조차 부를 수 없는 실험을 수행하는 신비로운 인물입니다.
+  </li>
+</ul>
+
+<h3>5. 인간들: Carol & 주인공(MC)</h3>
+
+<p>
+  괴물들 사이에서 살아남으려는 인간들도 있습니다.
+  <strong>Carol</strong>은 주인공의 친구이자 직장 동료로, 주인공이 천천히 멀어지고 있는 '일상'을 상징합니다.
+  Carol의 일상적인 고민과 주인공의 생사가 걸린 로맨스 사이의 대조는 현재 상황의 공포를 더욱 부각시킵니다.
+</p>
+
+<h3>결론</h3>
+
+<p>
+  The Freak Circus의 어떤 멤버가 여러분의 마음을 사로잡았나요?
+  <a href="/pierrot">Pierrot</a>의 침묵하는 헌신에 끌리든, <a href="/harlequin">Harlequin</a>의 위험한 게임에 끌리든,
+  한 가지 확실한 것은 이 서커스에 한 번 발을 들이면 결코 나가지 못할 수도 있다는 것입니다.
+</p>
+
+<p>
+  그들을 만날 준비가 되셨나요?
+  저희의
+  <a href="/blog/the-freak-circus-day-1-walkthrough-guide">
+    <strong>Day 1 공략 가이드</strong>
+  </a>를 확인하거나 <a href="/wiki">위키</a>를 방문하여
+  첫 만남에서 살아남는 법을 배워보세요!
+</p>
+    `
   }
 
 ]

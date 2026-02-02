@@ -398,5 +398,184 @@ export default [
         <p>Remember: in The Freak Circus, trust is a luxury you can't afford, and every choice you make will echo through the darkness that awaits.</p>
       </div>
     `
-  }
+  },
+  {
+    id: 4,
+    title: "The Freak Circus Characters Guide: Profiles, Heights, & Lore",
+    description: "Who hides behind the masks? Discover the official heights, personality traits, and dark secrets of Pierrot, Harlequin, Jester, and the entire cast of The Freak Circus.",
+    tags: [
+      "Characters",
+      "Pierrot",
+      "Harlequin",
+      "Lore",
+      "Guide"
+    ],
+    isHome: false,
+    publishDate: "2026-02-02",
+    imageUrl: "/images/blog/blog04.webp",
+    imageAlt: "The Freak Circus full character cast illustration featuring Pierrot and Harlequin",
+    seo: {
+      title: "The Freak Circus Characters: Full Profile & Height Guide",
+      description: "A deep dive into The Freak Circus characters. Learn about Pierrot's height, Harlequin's rivalry, and the dark lore behind Jester and Columbina.",
+      keywords: "The Freak Circus characters, Pierrot height, Harlequin, Jester, Columbina, visual novel lore, character profiles"
+    },
+    addressBar: "the-freak-circus-characters-guide",
+    detailsHtml: `
+    <h2>Meet the Freaks: Behind the Masks</h2>
+
+<p>
+  Step right up! <strong>The Freak Circus</strong> isn't just known for its terrifying atmosphere and dark romance—it's the characters that have stolen the hearts (and perhaps souls) of thousands of players.
+  From the silent, towering obsession of <a href="/pierrot">Pierrot</a> to the chaotic charm of <a href="/harlequin">Harlequin</a>, every member of this troupe has a story to tell.
+</p>
+
+<p>
+  In this guide, we break down the character profiles, their roles in the circus, and answer the most burning question on the internet:
+  <em>Just how tall is Pierrot?</em>
+</p>
+
+<h3>1. <a href="/pierrot">Pierrot</a> (The Silent Clown)</h3>
+
+<p>
+  Undoubtedly the fan-favorite, <a href="/pierrot">Pierrot</a> is the poster boy for the "dark romance" genre.
+  He represents the silent, brooding, and dangerously possessive archetype that defines the game.
+</p>
+
+<ul>
+  <li><strong>Role:</strong> Clown / Flyer Distributor</li>
+  <li><strong>Personality:</strong> Silent, Yandere, Protective, Obsessive</li>
+  <li>
+    <strong>Key Trait:</strong>
+    He communicates mostly through gestures and intense stares.
+    His devotion to the MC is absolute, bordering on worship.
+  </li>
+</ul>
+
+<h4>How tall is Pierrot?</h4>
+
+<p>
+  According to game lore and visual comparisons,
+  <strong>Pierrot is the tallest character in The Freak Circus</strong>.
+  While exact measurements vary in fan discussions, he is widely estimated to stand between
+  <strong>6'5" to 6'8" (approx. 198cm - 203cm)</strong>.
+  His looming height is a crucial part of his character design, emphasizing his ability to physically overpower—or protect—the protagonist.
+</p>
+
+<img src="/images/blog/blog04-01.webp" alt="Pierrot (The Silent Clown)" />
+
+<h3>2. <a href="/harlequin">Harlequin</a> (The Jester's Rival)</h3>
+
+<p>
+  If <a href="/pierrot">Pierrot</a> is the silent shadow, <a href="/harlequin">Harlequin</a> is the blinding spotlight.
+  He is loud, colorful, and unapologetically dangerous.
+</p>
+
+<ul>
+  <li><strong>Role:</strong> Acrobat / Performer</li>
+  <li><strong>Personality:</strong> Flirty, Chaotic, Sadistic, Manipulative</li>
+  <li>
+    <strong>Dynamic:</strong>
+    He holds a deep grudge against <a href="/pierrot">Pierrot</a>.
+    Often interfering with Pierrot's attempts to court the MC,
+    Harlequin offers a more fast-paced and volatile romance route.
+  </li>
+</ul>
+
+<p>
+  Harlequin is significantly shorter than Pierrot but makes up for it with agility and an overwhelming presence.
+</p>
+
+<img src="/images/blog/blog04-02.webp" alt="Harlequin (The Jester's Rival)" />
+
+
+
+<h3>3. <a href="/jester">Jester</a> (The Ringmaster)</h3>
+
+<p>
+  The man in charge. <a href="/jester">Jester</a> is the glue that holds this nightmare together.
+  He is authoritative and exudes an aura of control that even the monsters fear.
+</p>
+
+<ul>
+  <li><strong>Role:</strong> Ringmaster / Leader</li>
+  <li><strong>Personality:</strong> Dominant, Calculating, Charismatic</li>
+  <li>
+    <strong>Lore:</strong>
+    Jester decides who stays and who goes.
+    His smile rarely reaches his eyes, and his interest in the MC is more about
+    <em>possession</em> than affection.
+  </li>
+</ul>
+
+<img src="/images/blog/blog04-03.webp" alt="Jester (The Ringmaster)" />
+
+<h3>4. The Supporting Cast</h3>
+
+<p>
+  The circus is full of other entities that flesh out this dark world:
+</p>
+
+<ul>
+  <li>
+    <strong>Columbina:</strong>
+    The tragic beauty. Often seen with a melancholic expression,
+    her backstory hints at a life of sorrow before joining the troupe.
+    Fans speculate she represents the "broken doll" archetype.
+  </li>
+  <li>
+    <strong><a href="/ticket-taker">The Ticket Taker</a>:</strong>
+    The gatekeeper of hell. He is often the first line of defense (or offense) for the circus.
+    Don't let his job title fool you; he is just as dangerous as the performers.
+  </li>
+  <li>
+    <strong><a href="/doctor">The Doctor</a>:</strong>
+    A mysterious figure responsible for patching up the troupe—and perhaps conducting experiments that shouldn't be named.
+  </li>
+</ul>
+
+<h3>5. The Humans: Carol &amp; The MC</h3>
+
+<p>
+  Amidst the monsters, there are humans trying to survive.
+  <strong>Carol</strong> serves as the MC's friend and coworker, representing the normalcy that the MC is slowly being dragged away from.
+  The contrast between Carol's mundane worries and the MC's life-or-death romance highlights the horror of the situation.
+</p>
+
+<h3>Conclusion</h3>
+
+<p>
+  Which member of The Freak Circus has caught your eye?
+  Whether you are drawn to <a href="/pierrot">Pierrot's</a> silent devotion or <a href="/harlequin">Harlequin's</a> dangerous games,
+  one thing is certain: once you enter this circus, you might never leave.
+</p>
+
+<p>
+  Ready to meet them?
+  Check out our
+  <a href="/blog/the-freak-circus-day-1-walkthrough-guide">
+    <strong>Day 1 Walkthrough</strong>
+  </a>
+  or visit the <a href="/wiki">Wiki</a>
+  to learn how to survive your first encounter!
+</p>
+    `
+  },
+
+
+  // {
+  //   id: 1,
+  //   title: "",
+  //   description: "",
+  //   tags: [],
+  //   isHome: false,
+  //   publishDate: "2026-02-02",
+  //   imageUrl: "/images/about-img.webp",
+  //   imageAlt: "",
+  //   seo: {
+  //     title: "",
+  //     description: "",
+  //     keywords: "T"
+  //   },
+  //   addressBar: "w",
+  //   detailsHtml: ``
+  // },
 ]

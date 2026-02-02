@@ -343,6 +343,164 @@ export default [
         <p><strong>Bereit für den nächsten Albtraum?</strong> Setze deine Reise mit unserem Guide zu <a href="/blog/the-freak-circus-day-2-complete-walkthrough-guide">Tag 2</a> fort oder vertiefe dein Wissen im <a href="/wiki">Wiki</a>.</p>
       </div>
     `
+  },
+
+  {
+    "id": 4,
+    "title": "The Freak Circus Charaktere-Guide: Profile, Größen & Lore",
+    "description": "Wer verbirgt sich hinter den Masken? Entdecke die offiziellen Körpergrößen, Persönlichkeitsmerkmale und dunklen Geheimnisse von Pierrot, Harlequin, Jester und der gesamten Besetzung von The Freak Circus.",
+    "tags": [
+      "Charaktere",
+      "Pierrot",
+      "Harlequin",
+      "Lore",
+      "Guide"
+    ],
+    "isHome": false,
+    "publishDate": "2026-02-02",
+    "imageUrl": "/images/blog/blog04.webp",
+    "imageAlt": "Illustration der gesamten Besetzung von The Freak Circus mit Pierrot und Harlequin",
+    "seo": {
+      "title": "The Freak Circus Charaktere: Full Profile & Height Guide",
+      "description": "Ein tiefer Einblick in die Charaktere von The Freak Circus. Erfahre mehr über Pierrots Größe, Harlequins Rivalität und die dunkle Lore hinter Jester und Columbina.",
+      "keywords": "The Freak Circus charaktere, Pierrot größe, Harlequin, Jester, Columbina, visual novel lore, character profiles"
+    },
+    "addressBar": "the-freak-circus-characters-guide",
+    "detailsHtml": `
+    <h2>Triff die Freaks: Hinter den Masken</h2>
+
+    <p>
+      Treten Sie näher! <strong>The Freak Circus</strong> ist nicht nur für seine schaurige Atmosphäre und düstere Romantik bekannt – es sind die Charaktere, die die Herzen (und vielleicht die Seelen) von tausenden Spielern gestohlen haben.
+      Von der stillen, überragenden Obsession von <a href="/pierrot">Pierrot</a> bis hin zum chaotischen Charme von <a href="/harlequin">Harlequin</a>, jedes Mitglied dieser Truppe hat eine Geschichte zu erzählen.
+    </p>
+
+    <p>
+      In diesem Guide schlüsseln wir die Charakterprofile und ihre Rollen im Zirkus auf und beantworten die brennendste Frage des Internets:
+      <em>Wie groß ist Pierrot eigentlich?</em>
+    </p>
+
+    <h3>1. <a href="/pierrot">Pierrot</a> (Der stille Clown)</h3>
+
+    <p>
+      Zweifellos der Fan-Favorit: <a href="/pierrot">Pierrot</a> ist das Aushängeschild für das Genre der "Dark Romance".
+      Er verkörpert den schweigsamen, grüblerischen und gefährlich besitzergreifenden Archetypen, der das Spiel definiert.
+    </p>
+
+    <ul>
+      <li><strong>Rolle:</strong> Clown / Flyer-Verteiler</li>
+      <li><strong>Persönlichkeit:</strong> Schweigsam, Yandere, Beschützend, Obsessiv</li>
+      <li>
+        <strong>Hauptmerkmal:</strong>
+        Er kommuniziert hauptsächlich durch Gesten und intensive Blicke.
+        Seine Hingabe gegenüber der Hauptfigur (MC) ist absolut und grenzt an Anbetung.
+      </li>
+    </ul>
+
+    <h4>Wie groß ist Pierrot?</h4>
+
+    <p>
+      Basierend auf der Game-Lore und visuellen Vergleichen ist
+      <strong>Pierrot der größte Charakter in The Freak Circus</strong>.
+      Während die exakten Maße in Fan-Diskussionen variieren, wird er weithin auf eine Größe zwischen
+      <strong>198 cm bis 203 cm (ca. 6'5" - 6'8")</strong> geschätzt.
+      Seine drohende Statur ist ein entscheidender Teil seines Designs und unterstreicht seine Fähigkeit, die Protagonistin physisch zu überwältigen – oder zu beschützen.
+    </p>
+
+    <img src="/images/blog/blog04-01.webp" alt="Pierrot (Der stille Clown)" />
+
+    <h3>2. <a href="/harlequin">Harlequin</a> (Der Rivale des Narren)</h3>
+
+    <p>
+      Wenn <a href="/pierrot">Pierrot</a> der stille Schatten ist, dann ist <a href="/harlequin">Harlequin</a> das blendende Rampenlicht.
+      Er ist laut, bunt und unentschuldbar gefährlich.
+    </p>
+
+    <ul>
+      <li><strong>Rolle:</strong> Akrobat / Performer</li>
+      <li><strong>Persönlichkeit:</strong> Flirty, Chaotisch, Sadistisch, Manipulativ</li>
+      <li>
+        <strong>Dynamik:</strong>
+        Er hegt einen tiefen Groll gegen <a href="/pierrot">Pierrot</a>.
+        Harlequin stört oft Pierrots Versuche, um die MC zu werben, und bietet eine schnelllebigere und unberechenbarere Romanze-Route an.
+      </li>
+    </ul>
+
+    <p>
+      Harlequin ist deutlich kleiner als Pierrot, macht dies aber durch Agilität und eine überwältigende Präsenz wett.
+    </p>
+
+    <img src="/images/blog/blog04-02.webp" alt="Harlequin (Der Rivale des Narren)" />
+
+    <h3>3. <a href="/jester">Jester</a> (Der Zirkusdirektor)</h3>
+
+    <p>
+      Der Mann, der das Sagen hat. <a href="/jester">Jester</a> ist der Kleber, der diesen Albtraum zusammenhält.
+      Er ist autoritär und strahlt eine Aura der Kontrolle aus, die selbst die Monster fürchten.
+    </p>
+
+    <ul>
+      <li><strong>Rolle:</strong> Zirkusdirektor / Anführer</li>
+      <li><strong>Persönlichkeit:</strong> Dominant, Kalkulierend, Charismatisch</li>
+      <li>
+        <strong>Lore:</strong>
+        Jester entscheidet, wer bleibt und wer geht.
+        Sein Lächeln erreicht selten seine Augen, und sein Interesse an der MC hat mehr mit
+        <em>Besitz</em> als mit Zuneigung zu tun.
+      </li>
+    </ul>
+
+    <img src="/images/blog/blog04-03.webp" alt="Jester (Der Zirkusdirektor)" />
+
+    <h3>4. Die Nebenbesetzung</h3>
+
+    <p>
+      Der Zirkus ist voll von anderen Wesen, die diese dunkle Welt bereichern:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Columbina:</strong>
+        Die tragische Schönheit. Oft mit einem melancholischen Gesichtsausdruck gesehen,
+        ihre Hintergrundgeschichte deutet auf ein Leben voller Leid hin, bevor sie der Truppe beitrat.
+        Fans spekulieren, dass sie den Archetyp der "zerbrochenen Puppe" repräsentiert.
+      </li>
+      <li>
+        <strong><a href="/ticket-taker">The Ticket Taker</a>:</strong>
+        Der Torwächter der Hölle. Er ist oft die erste Verteidigungslinie (oder Angriffslinie) des Zirkus.
+        Lassen Sie sich nicht von seiner Berufsbezeichnung täuschen; er ist genauso gefährlich wie die Darsteller.
+      </li>
+      <li>
+        <strong><a href="/doctor">The Doctor</a>:</strong>
+        Eine mysteriöse Gestalt, die dafür verantwortlich ist, die Truppe zusammenzuflicken – und vielleicht Experimente durchzuführen, die besser ungenannt bleiben.
+      </li>
+    </ul>
+
+    <h3>5. Die Menschen: Carol &amp; die MC</h3>
+
+    <p>
+      Inmitten der Monster gibt es Menschen, die versuchen zu überleben.
+      <strong>Carol</strong> dient als Freundin und Arbeitskollegin der MC und repräsentiert die Normalität, aus der die MC langsam herausgerissen wird.
+      Der Kontrast zwischen Carols banalen Sorgen und der lebensgefährlichen Romanze der MC verdeutlicht den Horror der Situation.
+    </p>
+
+    <h3>Fazit</h3>
+
+    <p>
+      Welches Mitglied von The Freak Circus hat dein Interesse geweckt?
+      Ob du dich zu <a href="/pierrot">Pierrots</a> stiller Hingabe oder <a href="/harlequin">Harlequins</a> gefährlichen Spielen hingezogen fühlst,
+      eines ist sicher: Wenn du diesen Zirkus erst einmal betreten hast, verlässt du ihn vielleicht nie wieder.
+    </p>
+
+    <p>
+      Bereit, sie zu treffen?
+      Schau dir unseren
+      <a href="/blog/the-freak-circus-day-1-walkthrough-guide">
+        <strong>Tag 1 Walkthrough-Guide</strong>
+      </a>
+      an oder besuche das <a href="/wiki">Wiki</a>
+      um zu erfahren, wie du deine erste Begegnung überlebst!
+    </p>
+    `
   }
 
 ]

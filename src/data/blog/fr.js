@@ -376,6 +376,165 @@ export default [
         <p>N'oubliez pas : dans The Freak Circus, la confiance est un luxe, et chaque décision fera écho dans les ténèbres qui vous attendent.</p>
       </div>
     `
+  },
+
+  {
+    "id": 4,
+    "title": "Guide des Personnages de The Freak Circus : Profils, Tailles et Lore",
+    "description": "Qui se cache derrière les masques ? Découvrez les tailles officielles, les traits de personnalité et les sombres secrets de Pierrot, Arlequin, Jester et toute la troupe de The Freak Circus.",
+    "tags": [
+      "Characters",
+      "Pierrot",
+      "Harlequin",
+      "Lore",
+      "Guide"
+    ],
+    "isHome": false,
+    "publishDate": "2026-02-02",
+    "imageUrl": "/images/blog/blog04.webp",
+    "imageAlt": "Illustration de l'ensemble des personnages de The Freak Circus avec Pierrot et Arlequin",
+    "seo": {
+      "title": "Personnages de The Freak Circus : Profils Complets et Guide des Tailles",
+      "description": "Une plongée au cœur des personnages de The Freak Circus. Apprenez-en plus sur la taille de Pierrot, la rivalité d'Arlequin et le lore sombre derrière Jester et Columbina.",
+      "keywords": "Personnages The Freak Circus, taille Pierrot, Harlequin, Jester, Columbina, lore visual novel, profils personnages"
+    },
+    "addressBar": "the-freak-circus-characters-guide",
+    "detailsHtml": `
+<h2>Rencontrez les Freaks : Derrière les Masques</h2>
+
+<p>
+  Approchez, approchez ! <strong>The Freak Circus</strong> n'est pas seulement connu pour son atmosphère terrifiante et sa romance sombre : ce sont ses personnages qui ont volé le cœur (et peut-être l'âme) de milliers de joueurs.
+  De l'obsession silencieuse et imposante de <a href="/pierrot">Pierrot</a> au charme chaotique d'<a href="/harlequin">Harlequin</a>, chaque membre de cette troupe a une histoire à raconter.
+</p>
+
+<p>
+  Dans ce guide, nous décortiquons les profils des personnages, leurs rôles dans le cirque, et répondons à la question la plus brûlante du net :
+  <em>Quelle est la taille exacte de Pierrot ?</em>
+</p>
+
+<h3>1. <a href="/pierrot">Pierrot</a> (Le Clown Silencieux)</h3>
+
+<p>
+  Indéniablement le favori des fans, <a href="/pierrot">Pierrot</a> est la figure de proue du genre "dark romance".
+  Il représente l'archétype silencieux, ténébreux et dangereusement possessif qui définit le jeu.
+</p>
+
+<ul>
+  <li><strong>Rôle :</strong> Clown / Distributeur de flyers</li>
+  <li><strong>Personnalité :</strong> Silencieux, Yandere, Protecteur, Obsessionnel</li>
+  <li>
+    <strong>Trait clé :</strong>
+    Il communique principalement par gestes et par des regards intenses.
+    Sa dévotion envers la MC (protagoniste) est absolue, frisant l'adoration.
+  </li>
+</ul>
+
+<h4>Quelle est la taille de Pierrot ?</h4>
+
+<p>
+  Selon le lore du jeu et les comparaisons visuelles,
+  <strong>Pierrot est le personnage le plus grand de The Freak Circus</strong>.
+  Bien que les mesures exactes varient dans les discussions des fans, il est largement estimé entre
+  <strong>1m98 et 2m03 (environ 6'5" - 6'8")</strong>.
+  Sa taille imposante est un élément crucial de son design, soulignant sa capacité à dominer physiquement — ou à protéger — la protagoniste.
+</p>
+
+<img src="/images/blog/blog04-01.webp" alt="Pierrot (Le Clown Silencieux)" />
+
+<h3>2. <a href="/harlequin">Harlequin</a> (Le Rival du Bouffon)</h3>
+
+<p>
+  Si <a href="/pierrot">Pierrot</a> est l'ombre silencieuse, <a href="/harlequin">Harlequin</a> est le projecteur aveuglant.
+  Il est bruyant, coloré et impitoyablement dangereux.
+</p>
+
+<ul>
+  <li><strong>Rôle :</strong> Acrobate / Performer</li>
+  <li><strong>Personnalité :</strong> Charmeur, Chaotique, Sadique, Manipulateur</li>
+  <li>
+    <strong>Dynamique :</strong>
+    Il nourrit une profonde rancœur envers <a href="/pierrot">Pierrot</a>.
+    Interférant souvent dans les tentatives de Pierrot pour courtiser la MC,
+    Harlequin propose une route romantique plus mouvementée et volatile.
+  </li>
+</ul>
+
+<p>
+  Harlequin est nettement plus petit que Pierrot, mais il compense par son agilité et une présence écrasante.
+</p>
+
+<img src="/images/blog/blog04-02.webp" alt="Harlequin (Le Rival du Bouffon)" />
+
+<h3>3. <a href="/jester">Jester</a> (Monsieur Loyal)</h3>
+
+<p>
+  L'homme aux commandes. <a href="/jester">Jester</a> est le ciment qui maintient ce cauchemar éveillé.
+  Il est autoritaire et dégage une aura de contrôle que même les monstres redoutent.
+</p>
+
+<ul>
+  <li><strong>Rôle :</strong> Monsieur Loyal / Meneur</li>
+  <li><strong>Personnalité :</strong> Dominant, Calculateurs, Charismatique</li>
+  <li>
+    <strong>Lore :</strong>
+    Jester décide qui reste et qui part.
+    Son sourire atteint rarement ses yeux, et son intérêt pour la MC relève plus de la
+    <em>possession</em> que de l'affection.
+  </li>
+</ul>
+
+<img src="/images/blog/blog04-03.webp" alt="Jester (Monsieur Loyal)" />
+
+<h3>4. Les Personnages Secondaires</h3>
+
+<p>
+  Le cirque regorge d'autres entités qui étoffent ce monde obscur :
+</p>
+
+<ul>
+  <li>
+    <strong>Columbina :</strong>
+    La beauté tragique. Souvent vue avec une expression mélancolique,
+    son passé laisse entrevoir une vie de souffrance avant de rejoindre la troupe.
+    Les fans spéculent qu'elle représente l'archétype de la "poupée brisée".
+  </li>
+  <li>
+    <strong><a href="/ticket-taker">The Ticket Taker</a> :</strong>
+    Le gardien de l'enfer. Il est souvent la première ligne de défense (ou d'attaque) du cirque.
+    Ne vous laissez pas tromper par son titre ; il est tout aussi dangereux que les artistes.
+  </li>
+  <li>
+    <strong><a href="/doctor">The Doctor</a> :</strong>
+    Une figure mystérieuse chargée de soigner la troupe — et peut-être de mener des expériences qu'il vaudrait mieux ne pas nommer.
+  </li>
+</ul>
+
+<h3>5. Les Humains : Carol & la MC</h3>
+
+<p>
+  Au milieu des monstres, des humains tentent de survivre.
+  <strong>Carol</strong> est l'amie et collègue de la MC, représentant la normalité dont la protagoniste est lentement arrachée.
+  Le contraste entre les soucis mondains de Carol et la romance de vie ou de mort de la MC souligne l'horreur de la situation.
+</p>
+
+<h3>Conclusion</h3>
+
+<p>
+  Quel membre de The Freak Circus a attiré votre regard ?
+  Que vous soyez attiré par la dévotion silencieuse de <a href="/pierrot">Pierrot</a> ou les jeux dangereux d'<a href="/harlequin">Harlequin</a>,
+  une chose est sûre : une fois entré dans ce cirque, vous risquez de ne jamais en ressortir.
+</p>
+
+<p>
+  Prêt à les rencontrer ?
+  Consultez notre
+  <a href="/blog/the-freak-circus-day-1-walkthrough-guide">
+    <strong>Guide complet du Jour 1</strong>
+  </a>
+  ou visitez le <a href="/wiki">Wiki</a>
+  pour apprendre à survivre à votre première rencontre !
+</p>
+    `
   }
 
 ]

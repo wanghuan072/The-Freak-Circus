@@ -400,6 +400,165 @@ export default [
         <p>请记住：在怪胎马戏团中，信任是奢侈品，你做出的每一个选择都将在等待着的黑暗中回响。</p>
       </div>
     `
+  },
+
+  {
+    "id": 4,
+    "title": "《怪诞马戏团》角色指南：档案、身高与背景设定",
+    "description": "面具背后隐藏着谁？探索 Pierrot、Harlequin、Jester 以及《怪诞马戏团》全体成员的官方身高、性格特征和黑暗秘密。",
+    "tags": [
+      "Characters",
+      "Pierrot",
+      "Harlequin",
+      "Lore",
+      "Guide"
+    ],
+    "isHome": false,
+    "publishDate": "2026-02-02",
+    "imageUrl": "/images/blog/blog04.webp",
+    "imageAlt": "《怪诞马戏团》全员角色插图，包含 Pierrot 和 Harlequin",
+    "seo": {
+      "title": "《怪诞马戏团》角色详解：完整档案与身高指南",
+      "description": "深度解析《怪诞马戏团》角色。了解 Pierrot 的身高、Harlequin 的宿怨，以及 Jester 和 Columbina 背后的黑暗背景故事。",
+      "keywords": "怪诞马戏团角色, Pierrot身高, Harlequin, Jester, Columbina, 视觉小说背景设定, 角色档案"
+    },
+    "addressBar": "the-freak-circus-characters-guide",
+    "detailsHtml": `
+    <h2>走进怪咖：面具背后的真相</h2>
+
+<p>
+  快快请进！<strong>《怪诞马戏团》（The Freak Circus）</strong>不仅以其恐怖的氛围和黑暗浪漫主义而闻名，更是那些角色偷走了数千名玩家的心（或许还有灵魂）。
+  从沉默寡言、高大且充满执念的 <a href="/pierrot">Pierrot</a>，到混乱而迷人的 <a href="/harlequin">Harlequin</a>，这个马戏团的每位成员都有一个故事要讲。
+</p>
+
+<p>
+  在本指南中，我们将拆解角色档案、他们在马戏团中的职责，并回答互联网上最受关注的问题：
+  <em>Pierrot 到底有多高？</em>
+</p>
+
+<h3>1. <a href="/pierrot">Pierrot</a>（沉默的独角戏小丑）</h3>
+
+<p>
+  作为毫无疑问的人气王，<a href="/pierrot">Pierrot</a> 是“黑暗浪漫”风格的代言人。
+  他代表了那种沉默、忧郁且具有危险占有欲的典型角色，这也定义了这款游戏的基调。
+</p>
+
+<ul>
+  <li><strong>职责：</strong>小丑 / 传单派发员</li>
+  <li><strong>性格：</strong>沉默、病娇（Yandere）、保护欲强、偏执</li>
+  <li>
+    <strong>核心特征：</strong>
+    他主要通过手势和深沉的注视进行交流。
+    他对主角（MC）的奉献是绝对的，近乎于崇拜。
+  </li>
+</ul>
+
+<h4>Pierrot 有多高？</h4>
+
+<p>
+  根据游戏设定和视觉对比，
+  <strong>Pierrot 是《怪诞马戏团》中最高的角色</strong>。
+  虽然粉丝讨论中的具体数值有所不同，但普遍估计他的身高在
+  <strong>198cm 到 203cm 之间（约 6'5" - 6'8"）</strong>。
+  他那给人以压迫感的身高是角色设计的关键部分，强调了他既能从力量上压制，也能保护主角的能力。
+</p>
+
+<img src="/images/blog/blog04-01.webp" alt="Pierrot（沉默的小丑）" />
+
+<h3>2. <a href="/harlequin">Harlequin</a>（小丑的宿敌）</h3>
+
+<p>
+  如果说 <a href="/pierrot">Pierrot</a> 是沉默的影子，那么 <a href="/harlequin">Harlequin</a> 就是耀眼的聚光灯。
+  他吵闹、华丽，且从不掩饰自己的危险性。
+</p>
+
+<ul>
+  <li><strong>职责：</strong>杂技演员 / 表演者</li>
+  <li><strong>性格：</strong>轻浮、混乱、施虐狂、擅长操纵</li>
+  <li>
+    <strong>人物关系：</strong>
+    他对 <a href="/pierrot">Pierrot</a> 怀有极深的怨恨。
+    他经常干扰 Pierrot 追求主角的尝试，
+    Harlequin 提供了一条节奏更快、更动荡不定的感情路线。
+  </li>
+</ul>
+
+<p>
+  Harlequin 的身高明显低于 Pierrot，但他用灵活性和压倒性的存在感弥补了这一点。
+</p>
+
+<img src="/images/blog/blog04-02.webp" alt="Harlequin（小丑的宿敌）" />
+
+<h3>3. <a href="/jester">Jester</a>（马戏团团长）</h3>
+
+<p>
+  掌权者。<a href="/jester">Jester</a> 是将这场噩梦维系在一起的粘合剂。
+  他极具权威，散发着一种连怪物都感到恐惧的掌控感。
+</p>
+
+<ul>
+  <li><strong>职责：</strong>团长 / 领袖</li>
+  <li><strong>性格：</strong>支配欲强、精于算计、充满魅力</li>
+  <li>
+    <strong>设定：</strong>
+    Jester 决定谁留下来，谁必须离开。
+    他的笑意很少直达眼底，他对主角的兴趣更多在于
+    <em>占有</em> 而非情感。
+  </li>
+</ul>
+
+<img src="/images/blog/blog04-03.webp" alt="Jester（团长）" />
+
+<h3>4. 其他配角</h3>
+
+<p>
+  马戏团里还有许多其他成员，共同充实了这个黑暗世界：
+</p>
+
+<ul>
+  <li>
+    <strong>Columbina：</strong>
+    悲剧美人。经常流露出忧郁的表情，
+    她的背景故事暗示了她在加入马戏团之前过着充满痛苦的生活。
+    粉丝们推测她代表了“破碎玩偶”的形象。
+  </li>
+  <li>
+    <strong><a href="/ticket-taker">检票员</a>：</strong>
+    地狱的守门人。他通常是马戏团的第一道防线（或攻击线）。
+    不要被他的头衔所迷惑；他和表演者们一样危险。
+  </li>
+  <li>
+    <strong><a href="/doctor">医生</a>：</strong>
+    一个神秘的人物，负责修补团员——或许还在进行一些不便透露姓名的实验。
+  </li>
+</ul>
+
+<h3>5. 人类角色：Carol 与 主角（MC）</h3>
+
+<p>
+  在怪物堆里，也有人类在挣扎求生。
+  <strong>Carol</strong> 是主角的朋友和同事，代表了主角正慢慢远离的普通生活。
+  Carol 琐碎的日常烦恼与主角生死攸关的恋情之间的强烈对比，更加凸显了处境的恐怖。
+</p>
+
+<h3>结语</h3>
+
+<p>
+  《怪诞马戏团》的哪位成员引起了你的注意？
+  无论你是被 <a href="/pierrot">Pierrot</a> 沉默的奉献所吸引，还是迷恋 <a href="/harlequin">Harlequin</a> 危险的游戏，
+  有一件事是肯定的：一旦你进入了这个马戏团，你可能永远无法离开。
+</p>
+
+<p>
+  准备好见见他们了吗？
+  查看我们的
+  <a href="/blog/the-freak-circus-day-1-walkthrough-guide">
+    <strong>第一日攻略指南</strong>
+  </a>
+  或访问 <a href="/wiki">百科</a>
+  来学习如何在第一次邂逅中幸存下来！
+</p>
+    `
   }
 
 ]
