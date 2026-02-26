@@ -58,7 +58,7 @@
             <!-- 游戏iframe -->
             <iframe
               v-if="gameLoaded"
-              src="https://html-classic.itch.zone/html/15794705/index.html"
+              src="https://freakcircus.fongfiafia.asia/origina/index.html"
               width="100%"
               height="600"
               frameborder="0"
