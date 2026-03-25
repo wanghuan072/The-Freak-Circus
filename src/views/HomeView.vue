@@ -393,7 +393,7 @@ watch(
   { immediate: false }
 )
 
-// 首页广告位：与官方片段一致，脚本未加载时 push 会进入队列
+// 首页广告位：
 const loadAds = () => {
   try {
     ;(window.adsbygoogle = window.adsbygoogle || []).push({})
