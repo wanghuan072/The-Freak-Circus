@@ -97,6 +97,13 @@
               </a>
             </div>
           </div>
+
+          <!-- GAM：div 内注入 script（与静态页结构一致；Vue 模板里直接写 script 不会执行） -->
+          <div
+            ref="gptBannerRoot"
+            id="div-gpt-ad-1774407306825-0"
+            style="min-width: 320px; min-height: 50px"
+          ></div>
         </div>
       </div>
     </section>
@@ -345,13 +352,6 @@
         </div>
       </div>
     </section>
-
-    <!-- GAM：div 内注入 script（与静态页结构一致；Vue 模板里直接写 script 不会执行） -->
-    <div
-      ref="gptBannerRoot"
-      id="div-gpt-ad-1774407306825-0"
-      style="min-width: 320px; min-height: 50px"
-    ></div>
 
     <AppFooter />
   </div>
