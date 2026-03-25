@@ -25,6 +25,17 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
+
+        <aside v-if="!isMobile">
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-5437957765171705"
+            data-ad-slot="3177593257"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </aside>
       </div>
     </section>
 
@@ -347,6 +358,9 @@ import { reviews } from '@/data/reviews.js'
 import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
+
+import { useDeviceDetection } from '@/utils/useDeviceDetection'
+const { isMobile } = useDeviceDetection()
 
 // 游戏数据
 const games = ref([])
