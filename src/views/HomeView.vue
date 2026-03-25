@@ -346,12 +346,15 @@
       </div>
     </section>
 
+    <!-- GAM bottom_banner_01，与 index.html defineSlot 的 div id 一致 -->
+    <div id="div-gpt-ad-1774407306825-0" style="min-width: 320px; min-height: 50px"></div>
+
     <AppFooter />
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue'
+import { ref, onMounted, watch, nextTick } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
@@ -402,10 +405,22 @@ const loadAds = () => {
   }
 }
 
+const GPT_BOTTOM_BANNER_ID = 'div-gpt-ad-1774407306825-0'
+
+const displayGptBottomBanner = () => {
+  window.googletag = window.googletag || { cmd: [] }
+  window.googletag.cmd.push(function () {
+    window.googletag.display(GPT_BOTTOM_BANNER_ID)
+  })
+}
+
 // 简化资源加载
 onMounted(() => {
   loadAds()
   loadGames()
+  nextTick(() => {
+    displayGptBottomBanner()
+  })
 })
 
 // 格式化日期
