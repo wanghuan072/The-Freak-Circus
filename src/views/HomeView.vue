@@ -346,8 +346,12 @@
       </div>
     </section>
 
-    <!-- GAM bottom_banner_01，与 index.html defineSlot 的 div id 一致 -->
-    <div id="div-gpt-ad-1774407306825-0" style="min-width: 320px; min-height: 50px"></div>
+    <!-- GAM：div 内注入 script（与静态页结构一致；Vue 模板里直接写 script 不会执行） -->
+    <div
+      ref="gptBannerRoot"
+      id="div-gpt-ad-1774407306825-0"
+      style="min-width: 320px; min-height: 50px"
+    ></div>
 
     <AppFooter />
   </div>
@@ -405,13 +409,16 @@ const loadAds = () => {
   }
 }
 
-const GPT_BOTTOM_BANNER_ID = 'div-gpt-ad-1774407306825-0'
+const gptBannerRoot = ref(null)
+const GPT_SLOT_DIV_ID = 'div-gpt-ad-1774407306825-0'
 
-const displayGptBottomBanner = () => {
-  window.googletag = window.googletag || { cmd: [] }
-  window.googletag.cmd.push(function () {
-    window.googletag.display(GPT_BOTTOM_BANNER_ID)
-  })
+const mountGptDisplayScriptInsideDiv = () => {
+  const root = gptBannerRoot.value
+  if (!root || root.querySelector('script[data-gpt-inline]')) return
+  const s = document.createElement('script')
+  s.setAttribute('data-gpt-inline', '1')
+  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_SLOT_DIV_ID}'); });`
+  root.appendChild(s)
 }
 
 // 简化资源加载
@@ -419,7 +426,7 @@ onMounted(() => {
   loadAds()
   loadGames()
   nextTick(() => {
-    displayGptBottomBanner()
+    mountGptDisplayScriptInsideDiv()
   })
 })
 
