@@ -393,24 +393,37 @@ watch(
   { immediate: false }
 )
 
-// 广告联盟初始化
-const adProvider = () => {
-  const script = document.createElement('script')
-  script.src = 'https://a.magsrv.com/ad-provider.js'
-  script.async = true
-  script.type = 'application/javascript'
-  document.head.appendChild(script)
-
-  script.onload = () => {
-    if (window.AdProvider) {
-      window.AdProvider.push({ serve: {} })
+// 广告初始化
+const loadAds = () => {
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+    try {
+      const adElements = document.querySelectorAll('.adsbygoogle')
+      console.log(`发现 ${adElements.length} 个广告位`)
+      
+      adElements.forEach((el, index) => {
+        try {
+          // 检查广告是否已经加载
+          if (el.getAttribute('data-adsbygoogle-status') !== 'done' && 
+              !el.querySelector('iframe') &&
+              el.offsetParent !== null) { // 确保元素可见
+            ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+            console.log(`广告位 ${index + 1} 已触发加载`)
+          }
+        } catch (pushError) {
+          console.error(`广告位 ${index + 1} 加载失败:`, pushError)
+        }
+      })
+    } catch (e) {
+      console.error('广告加载失败:', e)
     }
+  } else {
+    console.log('AdSense脚本还未加载完成')
   }
 }
 
 // 简化资源加载
 onMounted(() => {
-  adProvider()
+  loadAds()
   loadGames()
 })
 
