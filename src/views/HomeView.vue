@@ -25,17 +25,6 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
-
-        <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: block"
-            data-ad-client="ca-pub-5437957765171705"
-            data-ad-slot="3177593257"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </aside>
       </div>
     </section>
 
@@ -97,6 +86,17 @@
               </a>
             </div>
           </div>
+
+          <aside v-if="!isMobile">
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-5437957765171705"
+            data-ad-slot="3177593257"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </aside>
         </div>
       </div>
     </section>
