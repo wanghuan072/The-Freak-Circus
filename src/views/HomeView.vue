@@ -88,15 +88,15 @@
           </div>
 
           <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: block"
-            data-ad-client="ca-pub-5437957765171705"
-            data-ad-slot="3177593257"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </aside>
+            <ins
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="3177593257"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </aside>
         </div>
       </div>
     </section>
@@ -212,15 +212,24 @@
             </div>
           </div>
 
-          <!-- GAM：div 内注入 script（与静态页结构一致；Vue 模板里直接写 script 不会执行） -->
+          <!-- GAM：bottom_banner_01，head 内 defineSlot 与此 id 对应 -->
           <div
-            ref="gptBannerRoot"
+            ref="gptBottomBannerRoot"
             id="div-gpt-ad-1774407306825-0"
             style="min-width: 320px; min-height: 50px"
           ></div>
         </div>
       </div>
     </section>
+
+    <!-- GAM：site1_PC_ban1，970×250，FAQ 上方（head 内 defineSlot 与此 id 对应） -->
+    <div class="container home-gpt-faq-ban-wrap">
+      <div
+        ref="gptFaqAboveSite1PcBan1Root"
+        id="div-gpt-ad-1774521932734-0"
+        style="min-width: 970px; min-height: 250px"
+      ></div>
+    </div>
 
     <!-- FAQ Section -->
     <section class="section faq">
@@ -409,15 +418,29 @@ const loadAds = () => {
   }
 }
 
-const gptBannerRoot = ref(null)
-const GPT_SLOT_DIV_ID = 'div-gpt-ad-1774407306825-0'
+// GAM：bottom_banner_01，角色区底部
+const GPT_BOTTOM_BANNER_DIV_ID = 'div-gpt-ad-1774407306825-0'
+const gptBottomBannerRoot = ref(null)
 
-const mountGptDisplayScriptInsideDiv = () => {
-  const root = gptBannerRoot.value
-  if (!root || root.querySelector('script[data-gpt-inline]')) return
+const mountGptBottomBannerDisplay = () => {
+  const root = gptBottomBannerRoot.value
+  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_BOTTOM_BANNER_DIV_ID}"]`)) return
   const s = document.createElement('script')
-  s.setAttribute('data-gpt-inline', '1')
-  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_SLOT_DIV_ID}'); });`
+  s.setAttribute('data-gpt-inline', GPT_BOTTOM_BANNER_DIV_ID)
+  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_BOTTOM_BANNER_DIV_ID}'); });`
+  root.appendChild(s)
+}
+
+// GAM：site1_PC_ban1，970×250，FAQ 上方
+const GPT_FAQ_SITE1_PC_BAN1_DIV_ID = 'div-gpt-ad-1774521932734-0'
+const gptFaqAboveSite1PcBan1Root = ref(null)
+
+const mountGptFaqAboveSite1PcBan1Display = () => {
+  const root = gptFaqAboveSite1PcBan1Root.value
+  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}"]`)) return
+  const s = document.createElement('script')
+  s.setAttribute('data-gpt-inline', GPT_FAQ_SITE1_PC_BAN1_DIV_ID)
+  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}'); });`
   root.appendChild(s)
 }
 
@@ -426,7 +449,8 @@ onMounted(() => {
   loadAds()
   loadGames()
   nextTick(() => {
-    mountGptDisplayScriptInsideDiv()
+    mountGptBottomBannerDisplay()
+    mountGptFaqAboveSite1PcBan1Display()
   })
 })
 
@@ -1219,6 +1243,11 @@ const gameLoaded = ref(false)
 
 .section.characters {
   background-image: url('/images/home_img_05.webp');
+}
+
+.home-gpt-faq-ban-wrap {
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 .section.faq {

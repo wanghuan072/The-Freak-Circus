@@ -107,14 +107,31 @@
   </script>
 
 
-  <!-- GAM横幅banner -->
+  <!-- GAM：多广告位在同一 cmd 队列里 define，再 enableSingleRequest / enableServices -->
   <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
   <script>
     window.googletag = window.googletag || { cmd: [] };
     googletag.cmd.push(function () {
-      googletag.defineSlot('/23342079602/bottom_banner_01', [[320, 50], [970, 90]], 'div-gpt-ad-1774407306825-0').addService(googletag.pubads());
-      googletag.pubads().enableSingleRequest();
-      googletag.pubads().collapseEmptyDivs();
+      var pubads = googletag.pubads();
+
+      // 
+      var bottomBanner = googletag.defineSlot(
+        '/23342079602/bottom_banner_01',
+        [[320, 50], [970, 90]],
+        'div-gpt-ad-1774407306825-0'
+      );
+      if (bottomBanner) bottomBanner.addService(pubads);
+
+      // 
+      var site1PcBan1 = googletag.defineSlot(
+        '/23342079602/site1_PC_ban1',
+        [970, 250],
+        'div-gpt-ad-1774521932734-0'
+      );
+      if (site1PcBan1) site1PcBan1.addService(pubads);
+
+      pubads.enableSingleRequest();
+      pubads.collapseEmptyDivs();
       googletag.enableServices();
     });
   </script>
