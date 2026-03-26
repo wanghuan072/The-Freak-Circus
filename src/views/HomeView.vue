@@ -222,18 +222,17 @@
       </div>
     </section>
 
-    <!-- GAM：site1_PC_ban1，970×250，FAQ 上方（head 内 defineSlot 与此 id 对应） -->
-    <div class="container home-gpt-faq-ban-wrap">
-      <div
-        ref="gptFaqAboveSite1PcBan1Root"
-        id="div-gpt-ad-1774521932734-0"
-        style="min-width: 970px; min-height: 250px"
-      ></div>
-    </div>
-
     <!-- FAQ Section -->
     <section class="section faq">
       <div class="container">
+        <!-- GAM：site1_PC_ban1，970×250（head 内 defineSlot 与此 id 对应） -->
+        <div
+          ref="gptFaqAboveSite1PcBan1Root"
+          id="div-gpt-ad-1774521932734-0"
+          class="home-gpt-faq-ban"
+          style="min-width: 970px; min-height: 250px"
+        ></div>
+
         <h2 class="section-title">{{ $t('HomePage.faq.title') }}</h2>
         <div class="faq-content">
           <div class="faq-list">
@@ -437,7 +436,8 @@ const gptFaqAboveSite1PcBan1Root = ref(null)
 
 const mountGptFaqAboveSite1PcBan1Display = () => {
   const root = gptFaqAboveSite1PcBan1Root.value
-  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}"]`)) return
+  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}"]`))
+    return
   const s = document.createElement('script')
   s.setAttribute('data-gpt-inline', GPT_FAQ_SITE1_PC_BAN1_DIV_ID)
   s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}'); });`
@@ -1245,7 +1245,7 @@ const gameLoaded = ref(false)
   background-image: url('/images/home_img_05.webp');
 }
 
-.home-gpt-faq-ban-wrap {
+.home-gpt-faq-ban {
   overflow-x: auto;
   max-width: 100%;
 }
