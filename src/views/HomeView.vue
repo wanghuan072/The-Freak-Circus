@@ -38,15 +38,6 @@
     <!-- Play Game Section -->
     <section class="section play-game">
       <div class="container">
-        <!-- thefreakcircus_adx_ban01 -->
-        <ins
-          class="adsbygoogle"
-          style="display: inline-block; width: 970px; height: 250px"
-          data-ad-client="ca-pub-9435047454967498"
-          data-ad-slot="thefreakcircus_adx_ban01"
-          data-tag-src="gamtg"
-        ></ins>
-
         <h2 class="section-title">Play The Freak Circus Online</h2>
         <div class="play-game-content">
           <div class="game-container">
@@ -373,6 +364,15 @@
             </div>
           </div>
         </div>
+
+        <!-- thefreakcircus_adx_ban01 -->
+        <ins
+          class="adsbygoogle"
+          style="display: inline-block; width: 970px; height: 250px"
+          data-ad-client="ca-pub-9435047454967498"
+          data-ad-slot="thefreakcircus_adx_ban01"
+          data-tag-src="gamtg"
+        ></ins>
       </div>
     </section>
 
