@@ -24,13 +24,6 @@
             </button>
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
-
-          <!-- GAM：thefreakcircus_ban1，970×250（head 内 defineSlot 与此 id 对应） -->
-          <div
-            ref="gptThefreakcircusBan1Root"
-            id="div-gpt-ad-1774574270862-0"
-            style="min-width: 970px; min-height: 250px"
-          ></div>
         </div>
       </div>
     </section>
@@ -218,13 +211,6 @@
               </div>
             </div>
           </div>
-
-          <!-- GAM：bottom_banner_01，head 内 defineSlot 与此 id 对应 -->
-          <div
-            ref="gptBottomBannerRoot"
-            id="div-gpt-ad-1774407306825-0"
-            style="min-width: 320px; min-height: 50px"
-          ></div>
         </div>
       </div>
     </section>
@@ -232,13 +218,6 @@
     <!-- FAQ Section -->
     <section class="section faq">
       <div class="container">
-        <!-- GAM：site1_PC_ban1，970×250（head 内 defineSlot 与此 id 对应） -->
-        <div
-          ref="gptFaqAboveSite1PcBan1Root"
-          id="div-gpt-ad-1774521932734-0"
-          style="min-width: 970px; min-height: 250px"
-        ></div>
-
         <h2 class="section-title">{{ $t('HomePage.faq.title') }}</h2>
         <div class="faq-content">
           <div class="faq-list">
@@ -381,7 +360,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, nextTick } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
@@ -423,7 +402,7 @@ watch(
   { immediate: false }
 )
 
-// 加载 google ADX 广告（Play Game 顶部 + 侧栏各一，需各 push 一次）
+// 两个 ads 位：Play Game 侧栏（桌面）+ CTA 区底部（direct），各需一次 push
 const loadGoogleAdxAds = () => {
   try {
     ;(window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -433,56 +412,10 @@ const loadGoogleAdxAds = () => {
   }
 }
 
-// GAM：bottom_banner_01，角色区底部
-const GPT_BOTTOM_BANNER_DIV_ID = 'div-gpt-ad-1774407306825-0'
-const gptBottomBannerRoot = ref(null)
-
-const mountGptBottomBannerDisplay = () => {
-  const root = gptBottomBannerRoot.value
-  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_BOTTOM_BANNER_DIV_ID}"]`)) return
-  const s = document.createElement('script')
-  s.setAttribute('data-gpt-inline', GPT_BOTTOM_BANNER_DIV_ID)
-  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_BOTTOM_BANNER_DIV_ID}'); });`
-  root.appendChild(s)
-}
-
-// GAM：site1_PC_ban1，970×250，FAQ 上方
-const GPT_FAQ_SITE1_PC_BAN1_DIV_ID = 'div-gpt-ad-1774521932734-0'
-const gptFaqAboveSite1PcBan1Root = ref(null)
-
-const mountGptFaqAboveSite1PcBan1Display = () => {
-  const root = gptFaqAboveSite1PcBan1Root.value
-  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}"]`))
-    return
-  const s = document.createElement('script')
-  s.setAttribute('data-gpt-inline', GPT_FAQ_SITE1_PC_BAN1_DIV_ID)
-  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_FAQ_SITE1_PC_BAN1_DIV_ID}'); });`
-  root.appendChild(s)
-}
-
-// GAM：thefreakcircus_ban1，970×250，Hero 与 Play Game 之间
-const GPT_THEFREAKCIRCUS_BAN1_DIV_ID = 'div-gpt-ad-1774574270862-0'
-const gptThefreakcircusBan1Root = ref(null)
-
-const mountGptThefreakcircusBan1Display = () => {
-  const root = gptThefreakcircusBan1Root.value
-  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_THEFREAKCIRCUS_BAN1_DIV_ID}"]`))
-    return
-  const s = document.createElement('script')
-  s.setAttribute('data-gpt-inline', GPT_THEFREAKCIRCUS_BAN1_DIV_ID)
-  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_THEFREAKCIRCUS_BAN1_DIV_ID}'); });`
-  root.appendChild(s)
-}
-
 // 简化资源加载
 onMounted(() => {
   loadGoogleAdxAds()
   loadGames()
-  nextTick(() => {
-    mountGptBottomBannerDisplay()
-    mountGptThefreakcircusBan1Display()
-    mountGptFaqAboveSite1PcBan1Display()
-  })
 })
 
 // 格式化日期
