@@ -38,6 +38,15 @@
     <!-- Play Game Section -->
     <section class="section play-game">
       <div class="container">
+        <!-- thefreakcircus_adx_ban01 -->
+        <ins
+          class="adsbygoogle"
+          style="display: inline-block; width: 970px; height: 250px"
+          data-ad-client="ca-pub-9435047454967498"
+          data-ad-slot="thefreakcircus_adx_ban01"
+          data-tag-src="gamtg"
+        ></ins>
+
         <h2 class="section-title">Play The Freak Circus Online</h2>
         <div class="play-game-content">
           <div class="game-container">
@@ -414,9 +423,10 @@ watch(
   { immediate: false }
 )
 
-// 首页广告位：
-const loadAds = () => {
+// 加载 google ADX 广告（Play Game 顶部 + 侧栏各一，需各 push 一次）
+const loadGoogleAdxAds = () => {
   try {
+    ;(window.adsbygoogle = window.adsbygoogle || []).push({})
     ;(window.adsbygoogle = window.adsbygoogle || []).push({})
   } catch (e) {
     console.error('AdSense push failed:', e)
@@ -466,7 +476,7 @@ const mountGptThefreakcircusBan1Display = () => {
 
 // 简化资源加载
 onMounted(() => {
-  loadAds()
+  loadGoogleAdxAds()
   loadGames()
   nextTick(() => {
     mountGptBottomBannerDisplay()
