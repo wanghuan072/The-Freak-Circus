@@ -24,6 +24,13 @@
             </button>
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
+
+          <!-- GAM：thefreakcircus_ban1，970×250（head 内 defineSlot 与此 id 对应） -->
+          <div
+            ref="gptThefreakcircusBan1Root"
+            id="div-gpt-ad-1774574270862-0"
+            style="min-width: 970px; min-height: 250px"
+          ></div>
         </div>
       </div>
     </section>
@@ -229,7 +236,6 @@
         <div
           ref="gptFaqAboveSite1PcBan1Root"
           id="div-gpt-ad-1774521932734-0"
-          class="home-gpt-faq-ban"
           style="min-width: 970px; min-height: 250px"
         ></div>
 
@@ -444,12 +450,27 @@ const mountGptFaqAboveSite1PcBan1Display = () => {
   root.appendChild(s)
 }
 
+// GAM：thefreakcircus_ban1，970×250，Hero 与 Play Game 之间
+const GPT_THEFREAKCIRCUS_BAN1_DIV_ID = 'div-gpt-ad-1774574270862-0'
+const gptThefreakcircusBan1Root = ref(null)
+
+const mountGptThefreakcircusBan1Display = () => {
+  const root = gptThefreakcircusBan1Root.value
+  if (!root || root.querySelector(`script[data-gpt-inline="${GPT_THEFREAKCIRCUS_BAN1_DIV_ID}"]`))
+    return
+  const s = document.createElement('script')
+  s.setAttribute('data-gpt-inline', GPT_THEFREAKCIRCUS_BAN1_DIV_ID)
+  s.textContent = `googletag.cmd.push(function () { googletag.display('${GPT_THEFREAKCIRCUS_BAN1_DIV_ID}'); });`
+  root.appendChild(s)
+}
+
 // 简化资源加载
 onMounted(() => {
   loadAds()
   loadGames()
   nextTick(() => {
     mountGptBottomBannerDisplay()
+    mountGptThefreakcircusBan1Display()
     mountGptFaqAboveSite1PcBan1Display()
   })
 })
@@ -1243,11 +1264,6 @@ const gameLoaded = ref(false)
 
 .section.characters {
   background-image: url('/images/home_img_05.webp');
-}
-
-.home-gpt-faq-ban {
-  overflow-x: auto;
-  max-width: 100%;
 }
 
 .section.faq {
