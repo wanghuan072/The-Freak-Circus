@@ -2,12 +2,59 @@
     <div class="about-page">
         <AppHeader />
 
+        <!-- adx_pc_left_ban04 -->
+        <aside
+            v-if="!isMobile"
+            style="position: fixed; left: 0; top: 50%; transform: translateY(-50%); z-index: 1000"
+        >
+            <ins
+                class="adsbygoogle"
+                style="display: inline-block; width: 300px; height: 600px"
+                data-ad-client="ca-pub-9435047454967498"
+                data-ad-slot="thefreakcircus_adx_R_R_ban5"
+                data-tag-src="gamtg"
+            ></ins>
+        </aside>
+        <!-- adx_pc_right_ban04 -->
+        <aside
+            v-if="!isMobile"
+            style="position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 1000"
+        >
+            <ins
+                class="adsbygoogle"
+                style="display: inline-block; width: 300px; height: 600px"
+                data-ad-client="ca-pub-9435047454967498"
+                data-ad-slot="thefreakcircus_adx_R_R_ban5"
+                data-tag-src="gamtg"
+            ></ins>
+        </aside>
+
         <main class="main-content">
             <div class="container">
                 <div class="page-header">
                     <h1>{{ $t('AboutPage.header.title') }}</h1>
                     <p>{{ $t('AboutPage.header.lastUpdated') }}</p>
                 </div>
+                <!-- adx_pc_ban01 -->
+                <aside v-if="!isMobile">
+                    <ins
+                        class="adsbygoogle"
+                        style="display: inline-block; width: 970px; height: 250px"
+                        data-ad-client="ca-pub-9435047454967498"
+                        data-ad-slot="thefreakcircus_adx_ban01"
+                        data-tag-src="gamtg"
+                    ></ins>
+                </aside>
+                <!-- adx_ph_ban05 -->
+                <aside v-if="isMobile">
+                    <ins
+                        class="adsbygoogle"
+                        style="display: inline-block; width: 300px; height: 250px"
+                        data-ad-client="ca-pub-9435047454967498"
+                        data-ad-slot="thefreakcircus_adx_R_S_ban4"
+                        data-tag-src="gamtg"
+                    ></ins>
+                </aside>
 
                 <div class="about-content">
                     <section>
@@ -71,9 +118,31 @@
 </template>
 
 <script setup>
+import { onMounted, nextTick } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useDeviceDetection } from '@/utils/useDeviceDetection'
+
+const { isMobile } = useDeviceDetection()
+
+const loadGoogleAdxAds = () => {
+    try {
+        const root = document.querySelector('.about-page')
+        const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
+        for (let i = 0; i < n; i++) {
+            ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        }
+    } catch (e) {
+        console.error('AdSense push failed:', e)
+    }
+}
+
+onMounted(() => {
+    nextTick(() => {
+        loadGoogleAdxAds()
+    })
+})
 </script>
 
 <style scoped>

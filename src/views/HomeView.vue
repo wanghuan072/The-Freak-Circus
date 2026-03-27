@@ -139,30 +139,6 @@
               </a>
             </div>
           </div>
-
-          <!-- adx_pc_ban02 -->
-          <aside v-if="!isMobile">
-            <ins
-              class="adsbygoogle"
-              style="display: inline-block; width: 970px; height: 250px"
-              data-ad-client="ca-pub-9435047454967498"
-              data-ad-slot="thefreakcircus_adx_ban2"
-              data-tag-src="gamtg"
-            >
-            </ins>
-          </aside>
-
-          <!-- adx_ph_ban05 -->
-          <aside v-if="isMobile">
-            <ins
-              class="adsbygoogle"
-              style="display: inline-block; width: 300px; height: 250px"
-              data-ad-client="ca-pub-9435047454967498"
-              data-ad-slot="thefreakcircus_adx_R_S_ban4"
-              data-tag-src="gamtg"
-            >
-            </ins>
-          </aside>
         </div>
       </div>
     </section>
@@ -278,30 +254,6 @@
             </div>
           </div>
         </div>
-
-        <!-- adx_pc_ban03 -->
-        <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: inline-block; width: 970px; height: 250px"
-            data-ad-client="ca-pub-9435047454967498"
-            data-ad-slot="thefreakcircus_adx_ban3"
-            data-tag-src="gamtg"
-          >
-          </ins>
-        </aside>
-
-        <!-- adx_ph_ban05 -->
-        <aside v-if="isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: inline-block; width: 300px; height: 250px"
-            data-ad-client="ca-pub-9435047454967498"
-            data-ad-slot="thefreakcircus_adx_R_S_ban4"
-            data-tag-src="gamtg"
-          >
-          </ins>
-        </aside>
       </div>
     </section>
 
