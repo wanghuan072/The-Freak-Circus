@@ -431,7 +431,7 @@
         </div>
 
         <!-- ads -->
-        <aside v-if="!isMobile">
+        <!-- <aside v-if="!isMobile">
           <ins
             class="adsbygoogle"
             style="display: block"
@@ -440,7 +440,7 @@
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-        </aside>
+        </aside> -->
       </div>
     </section>
 
