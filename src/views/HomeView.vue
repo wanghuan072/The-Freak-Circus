@@ -25,14 +25,17 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
-        <!-- /23346398271/ban1 — 与 index.html 中第一个 defineSlot 对应 -->
-        <div
-          ref="gptBannerRoot"
-          id="div-gpt-ad-1774950400782-0"
-          style="min-width: 970px; min-height: 250px"
-        ></div>
       </div>
     </section>
+
+    <!-- /23342079602/thefreakcircus_gam01_banl01 — body 内 div+script 由 mountGptHomeBodyScript 注入（同 GAM 粘贴效果） -->
+    <div class="container">
+      <div
+        ref="gptBannerRoot"
+        id="div-gpt-ad-1774950400782-0"
+        style="min-width: 970px; min-height: 250px"
+      ></div>
+    </div>
 
     <!-- Play Game Section -->
     <section class="section play-game">
@@ -400,14 +403,13 @@ watch(
   { immediate: false }
 )
 
-// GPT广告位
 const gptBannerRoot = ref(null)
-// 挂载GPT广告位脚本
-const mountGptBan1BodyScript = () => {
+
+const mountGptHomeBodyScript = () => {
   const root = gptBannerRoot.value
-  if (!root || root.querySelector('script[data-gam-slot="ban1"]')) return
+  if (!root || root.querySelector('script[data-gam-slot="gam01_banl01"]')) return
   const s = document.createElement('script')
-  s.setAttribute('data-gam-slot', 'ban1')
+  s.setAttribute('data-gam-slot', 'gam01_banl01')
   s.textContent =
     "googletag.cmd.push(function () { googletag.display('div-gpt-ad-1774950400782-0'); });"
   root.appendChild(s)
@@ -416,7 +418,7 @@ const mountGptBan1BodyScript = () => {
 onMounted(() => {
   loadGames()
   nextTick(() => {
-    mountGptBan1BodyScript()
+    mountGptHomeBodyScript()
   })
 })
 
