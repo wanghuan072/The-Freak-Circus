@@ -2,33 +2,6 @@
   <div class="character-detail-page">
     <AppHeader />
 
-    <!-- adx_pc_left_ban04 -->
-    <aside
-      v-if="!isMobile"
-      style="position: fixed; left: 0; top: 50%; transform: translateY(-50%); z-index: 1000"
-    >
-      <ins
-        class="adsbygoogle"
-        style="display: inline-block; width: 300px; height: 600px"
-        data-ad-client="ca-pub-9435047454967498"
-        data-ad-slot="thefreakcircus_adx_R_R_ban5"
-        data-tag-src="gamtg"
-      ></ins>
-    </aside>
-    <!-- adx_pc_right_ban04 -->
-    <aside
-      v-if="!isMobile"
-      style="position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 1000"
-    >
-      <ins
-        class="adsbygoogle"
-        style="display: inline-block; width: 300px; height: 600px"
-        data-ad-client="ca-pub-9435047454967498"
-        data-ad-slot="thefreakcircus_adx_R_R_ban5"
-        data-tag-src="gamtg"
-      ></ins>
-    </aside>
-
     <main class="main-content">
       <!-- Character Header -->
       <div class="character-header">
@@ -49,26 +22,6 @@
               <img src="/images/characters_03.webp" alt="Jester Character" />
             </div>
           </div>
-          <!-- adx_pc_ban01 -->
-          <aside v-if="!isMobile">
-            <ins
-              class="adsbygoogle"
-              style="display: inline-block; width: 970px; height: 250px"
-              data-ad-client="ca-pub-9435047454967498"
-              data-ad-slot="thefreakcircus_adx_ban01"
-              data-tag-src="gamtg"
-            ></ins>
-          </aside>
-          <!-- adx_ph_ban05 -->
-          <aside v-if="isMobile">
-            <ins
-              class="adsbygoogle"
-              style="display: inline-block; width: 300px; height: 250px"
-              data-ad-client="ca-pub-9435047454967498"
-              data-ad-slot="thefreakcircus_adx_R_S_ban4"
-              data-tag-src="gamtg"
-            ></ins>
-          </aside>
         </div>
       </div>
 

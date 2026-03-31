@@ -1,34 +1,6 @@
 <template>
   <div class="blog-list-page">
     <AppHeader />
-
-    <!-- adx_pc_left_ban04 -->
-    <aside
-      v-if="!isMobile"
-      style="position: fixed; left: 0; top: 50%; transform: translateY(-50%); z-index: 1000"
-    >
-      <ins
-        class="adsbygoogle"
-        style="display: inline-block; width: 300px; height: 600px"
-        data-ad-client="ca-pub-9435047454967498"
-        data-ad-slot="thefreakcircus_adx_R_R_ban5"
-        data-tag-src="gamtg"
-      ></ins>
-    </aside>
-    <!-- adx_pc_right_ban04 -->
-    <aside
-      v-if="!isMobile"
-      style="position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 1000"
-    >
-      <ins
-        class="adsbygoogle"
-        style="display: inline-block; width: 300px; height: 600px"
-        data-ad-client="ca-pub-9435047454967498"
-        data-ad-slot="thefreakcircus_adx_R_R_ban5"
-        data-tag-src="gamtg"
-      ></ins>
-    </aside>
-
     <main class="main-content">
       <!-- Blog Header -->
       <div class="blog-header">
@@ -37,25 +9,6 @@
             <h1 class="page-title">{{ $t('BlogListPage.header.title') }}</h1>
             <p class="page-subtitle">{{ $t('BlogListPage.header.subtitle') }}</p>
           </div>
-          <!-- adx_pc_ban01 -->
-          <aside v-if="!isMobile">
-            <ins
-              class="adsbygoogle"
-              style="display: inline-block; width: 970px; height: 250px"
-              data-ad-client="ca-pub-9435047454967498"
-              data-ad-slot="thefreakcircus_adx_ban01"
-              data-tag-src="gamtg"
-            ></ins>
-          </aside>
-          <aside v-if="isMobile">
-            <ins
-              class="adsbygoogle"
-              style="display: inline-block; width: 300px; height: 250px"
-              data-ad-client="ca-pub-9435047454967498"
-              data-ad-slot="thefreakcircus_adx_R_S_ban4"
-              data-tag-src="gamtg"
-            ></ins>
-          </aside>
         </div>
       </div>
 
