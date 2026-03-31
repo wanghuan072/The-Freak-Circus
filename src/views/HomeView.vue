@@ -25,17 +25,14 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
+        <!-- /23342079602/thefreakcircus_gam01_banl01 — body 内 div+script 由 mountGptHomeBodyScript 注入（同 GAM 粘贴效果） -->
+        <div
+          ref="gptBannerRoot"
+          id="div-gpt-ad-1774950400782-0"
+          style="min-width: 970px; min-height: 250px"
+        ></div>
       </div>
     </section>
-
-    <!-- /23342079602/thefreakcircus_gam01_banl01 — body 内 div+script 由 mountGptHomeBodyScript 注入（同 GAM 粘贴效果） -->
-    <div class="container">
-      <div
-        ref="gptBannerRoot"
-        id="div-gpt-ad-1774950400782-0"
-        style="min-width: 970px; min-height: 250px"
-      ></div>
-    </div>
 
     <!-- Play Game Section -->
     <section class="section play-game">
