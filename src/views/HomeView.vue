@@ -25,6 +25,12 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
+        <!-- /23346398271/ban1 — 与 index.html 中第一个 defineSlot 对应 -->
+        <div
+          ref="gptBannerRoot"
+          id="div-gpt-ad-1774496814316-0"
+          style="min-width: 320px; min-height: 50px"
+        ></div>
       </div>
     </section>
 
@@ -394,9 +400,24 @@ watch(
   { immediate: false }
 )
 
-// 简化资源加载（nextTick 确保 v-if 等条件渲染后的广告位已进入 DOM）
+// GPT广告位
+const gptBannerRoot = ref(null)
+// 挂载GPT广告位脚本
+const mountGptBan1BodyScript = () => {
+  const root = gptBannerRoot.value
+  if (!root || root.querySelector('script[data-gam-slot="ban1"]')) return
+  const s = document.createElement('script')
+  s.setAttribute('data-gam-slot', 'ban1')
+  s.textContent =
+    "googletag.cmd.push(function () { googletag.display('div-gpt-ad-1774496814316-0'); });"
+  root.appendChild(s)
+}
+
 onMounted(() => {
   loadGames()
+  nextTick(() => {
+    mountGptBan1BodyScript()
+  })
 })
 
 // 格式化日期
