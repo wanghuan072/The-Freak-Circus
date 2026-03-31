@@ -25,7 +25,7 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
-        <!-- /23342079602/thefreakcircus_gam01_banl01 — body 内 div+script 由 mountGptHomeBodyScript 注入（同 GAM 粘贴效果） -->
+        <!-- /23342079602/thefreakcircus_gam01_banl01 -->
         <div
           ref="gptBannerRoot"
           id="div-gpt-ad-1774950400782-0"
