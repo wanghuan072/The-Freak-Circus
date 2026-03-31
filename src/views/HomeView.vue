@@ -28,8 +28,8 @@
         <!-- /23346398271/ban1 — 与 index.html 中第一个 defineSlot 对应 -->
         <div
           ref="gptBannerRoot"
-          id="div-gpt-ad-1774496814316-0"
-          style="min-width: 320px; min-height: 50px"
+          id="div-gpt-ad-1774950400782-0"
+          style="min-width: 970px; min-height: 250px"
         ></div>
       </div>
     </section>
@@ -409,7 +409,7 @@ const mountGptBan1BodyScript = () => {
   const s = document.createElement('script')
   s.setAttribute('data-gam-slot', 'ban1')
   s.textContent =
-    "googletag.cmd.push(function () { googletag.display('div-gpt-ad-1774496814316-0'); });"
+    "googletag.cmd.push(function () { googletag.display('div-gpt-ad-1774950400782-0'); });"
   root.appendChild(s)
 }
 
