@@ -15,7 +15,7 @@
               <a href="/harlequin" class="nav-link">{{ $t('WikiPage.header.harlequin') }}</a>
             </div>
           </div>
-          <!-- sulvo-横幅 -->
+          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -24,6 +24,7 @@
               class="demand-supply"
             ></div>
           </aside>
+          -->
         </div>
       </div>
 
@@ -41,7 +42,7 @@
                   <p v-html="$t('WikiPage.gameOverview.description3', {}, { raw: true })"></p>
                 </div>
               </section>
-              <!-- sulvo-横幅 -->
+              <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
               <aside>
                 <div
                   data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -50,6 +51,7 @@
                   class="demand-supply"
                 ></div>
               </aside>
+              -->
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.gamePremise.title') }}</h2>
@@ -60,7 +62,7 @@
                 </div>
               </section>
 
-              <!-- sulvo-横幅 -->
+              <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
               <aside>
                 <div
                   data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -69,6 +71,7 @@
                   class="demand-supply"
                 ></div>
               </aside>
+              -->
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.currentFeatures.title') }}</h2>
@@ -168,7 +171,7 @@
                 </div>
               </section>
 
-              <!-- sulvo-横幅 -->
+              <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
               <aside>
                 <div
                   data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -177,6 +180,7 @@
                   class="demand-supply"
                 ></div>
               </aside>
+              -->
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.developmentStatus.title') }}</h2>
@@ -206,7 +210,7 @@
                 </div>
               </section>
 
-              <!-- sulvo-横幅 -->
+              <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
               <aside>
                 <div
                   data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -215,6 +219,7 @@
                   class="demand-supply"
                 ></div>
               </aside>
+              -->
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.howToPlay.title') }}</h2>
@@ -306,7 +311,7 @@
                 </div>
               </div>
 
-              <!-- sulvo-横幅 -->
+              <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
               <aside>
                 <div
                   data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -315,6 +320,7 @@
                   class="demand-supply"
                 ></div>
               </aside>
+              -->
             </aside>
           </div>
         </div>
@@ -365,7 +371,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    loadGoogleAdxAds()
+    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
   })
 })
 </script>

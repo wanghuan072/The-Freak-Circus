@@ -10,7 +10,7 @@
             <p class="page-subtitle">{{ $t('BlogListPage.header.subtitle') }}</p>
           </div>
 
-          <!-- sulvo-横幅 -->
+          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -19,6 +19,7 @@
               class="demand-supply"
             ></div>
           </aside>
+          -->
         </div>
       </div>
 
@@ -180,7 +181,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    loadGoogleAdxAds()
+    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
   })
   loadBlogData()
 })

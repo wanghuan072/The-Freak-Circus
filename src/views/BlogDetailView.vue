@@ -16,7 +16,7 @@
       <!-- Blog Detail Page -->
       <div class="blog-detail" v-if="blog">
         <div class="container">
-          <!-- sulvo-横幅 -->
+          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -25,6 +25,7 @@
               class="demand-supply"
             ></div>
           </aside>
+          -->
 
           <!-- Breadcrumb -->
           <div class="breadcrumb">
@@ -217,7 +218,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    loadGoogleAdxAds()
+    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
   })
   loadBlogData()
 })
