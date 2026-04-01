@@ -22,6 +22,15 @@
               <img src="/images/characters_01.webp" alt="Pierrot Character" />
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
 
@@ -39,6 +48,16 @@
                 <p v-html="$t('PierrotPage.about.description3', {}, { raw: true })"></p>
               </div>
             </div>
+
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
 
             <!-- Personality Traits -->
             <div class="detail-section">
@@ -73,6 +92,16 @@
               </div>
             </div>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <!-- Special Abilities -->
             <div class="detail-section">
               <h2 class="section-title">{{ $t('PierrotPage.abilities.title') }}</h2>
@@ -106,6 +135,16 @@
               </div>
             </div>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <!-- Relationships -->
             <div class="detail-section">
               <h2 class="section-title">{{ $t('PierrotPage.relationships.title') }}</h2>
@@ -129,6 +168,15 @@
               </div>
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
 
@@ -147,6 +195,15 @@
               <img src="/images/pierrot-03.webp" alt="Pierrot Art 3" />
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
     </main>

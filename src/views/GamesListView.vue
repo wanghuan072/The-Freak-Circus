@@ -10,6 +10,15 @@
             <h1 class="page-title">{{ $t('GamesListPage.header.title') }}</h1>
             <p class="page-subtitle">{{ $t('GamesListPage.header.subtitle') }}</p>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
 
@@ -41,9 +50,35 @@
               </div>
             </a>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
     </main>
+
+    <!-- sulvo-PC-左侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_right"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
+    <!-- sulvo-PC-右侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_left"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
 
     <AppFooter />
   </div>

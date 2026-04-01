@@ -16,6 +16,15 @@
               <a href="/harlequin" class="nav-link">{{ $t('UpdatesPage.header.harlequin') }}</a>
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
 
@@ -47,6 +56,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.day2Update.title') }}</h2>
               <div class="update-content">
@@ -72,6 +91,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.lastDevlog.title') }}</h2>
               <div class="update-content">
@@ -89,6 +118,16 @@
                 ></p>
               </div>
             </article>
+
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
 
             <article class="update-block">
               <h2 class="update-title">
@@ -153,6 +192,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate4.date') }}</p>
               <h2 class="update-title">{{ $t('UpdatesPage.updates.WeeklyUpdate4.title') }}</h2>
@@ -216,6 +265,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate1.date') }}</p>
               <h2 class="update-title">{{ $t('UpdatesPage.updates.WeeklyUpdate1.title') }}</h2>
@@ -263,6 +322,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.monthlyUpdate.title') }}</h2>
               <div class="update-content">
@@ -283,6 +352,16 @@
                 ></p>
               </div>
             </article>
+
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.anniversary.title') }}</h2>
@@ -325,6 +404,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.futureUpdates.title') }}</h2>
               <div class="update-content">
@@ -351,6 +440,16 @@
                 ></p>
               </div>
             </article>
+
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.chineseLanguage.title') }}</h2>
@@ -387,6 +486,16 @@
               </div>
             </article>
 
+            <!-- sulvo-横幅 -->
+            <aside>
+              <div
+                data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                data-devices="m:1,t:1,d:1"
+                style="max-width: 100%; min-height: 116px"
+                class="demand-supply"
+              ></div>
+            </aside>
+
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.thankYou.title') }}</h2>
               <div class="update-content">
@@ -404,6 +513,23 @@
         </div>
       </div>
     </main>
+
+    <!-- sulvo-PC-左侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_right"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
+    <!-- sulvo-PC-右侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_left"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
 
     <AppFooter />
   </div>

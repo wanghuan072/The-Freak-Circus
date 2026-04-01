@@ -113,6 +113,23 @@
       </div>
     </main>
 
+    <!-- sulvo-PC-左侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_right"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
+    <!-- sulvo-PC-右侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_left"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
+
     <AppFooter />
   </div>
 </template>

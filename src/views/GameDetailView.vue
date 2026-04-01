@@ -6,6 +6,15 @@
       <!-- Game Not Found -->
       <div v-if="!game && !loading" class="game-not-found">
         <div class="container">
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
           <h1>Game Not Found</h1>
           <p>The game you're looking for doesn't exist or has been removed.</p>
           <a href="/games" class="btn btn-primary">Back to Games</a>
@@ -121,11 +130,37 @@
                   <p>{{ $t('GameDetailPage.noComments') }}</p>
                 </div>
               </div>
+              <!-- sulvo-横幅 -->
+              <aside>
+                <div
+                  data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+                  data-devices="m:1,t:1,d:1"
+                  style="max-width: 100%; min-height: 116px"
+                  class="demand-supply"
+                ></div>
+              </aside>
             </div>
           </div>
         </div>
       </div>
     </main>
+
+    <!-- sulvo-PC-左侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_right"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
+    <!-- sulvo-PC-右侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_left"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
 
     <AppFooter :class="{ hidden: webFullscreen }" />
   </div>

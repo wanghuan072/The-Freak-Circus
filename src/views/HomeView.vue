@@ -26,8 +26,8 @@
           </div>
         </div>
 
-        <!-- sulvo-PC-横幅 -->
-        <aside v-if="isMobile">
+        <!-- sulvo-横幅 -->
+        <aside>
           <div
             data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
             data-devices="m:1,t:1,d:1"
@@ -35,16 +35,6 @@
             class="demand-supply"
           ></div>
         </aside>
-
-        <!-- sulvo-PH-方块-->
-        <!-- <aside v-if="!isMobile">
-          <div
-            data-ad="thefreakcircus.org_fluid_sq_thefreakcircus_square_ban2"
-            data-devices="m:1,t:1,d:1"
-            style="min-height: 296px"
-            class="demand-supply"
-          ></div>
-        </aside> -->
       </div>
     </section>
 
@@ -122,6 +112,16 @@
               </a>
             </div>
           </div>
+
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
     </section>
@@ -162,6 +162,15 @@
               <p>{{ $t('HomePage.about.feature4Desc') }}</p>
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
     </section>
@@ -236,6 +245,15 @@
               </div>
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
       </div>
     </section>
@@ -292,6 +310,15 @@
             </div>
           </div>
         </div>
+        <!-- sulvo-横幅 -->
+        <aside>
+          <div
+            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+            data-devices="m:1,t:1,d:1"
+            style="max-width: 100%; min-height: 116px"
+            class="demand-supply"
+          ></div>
+        </aside>
       </div>
     </section>
 
@@ -327,6 +354,15 @@
             <a href="/updates" class="btn btn-secondary">{{ $t('HomePage.updates.viewAll') }}</a>
           </div>
         </div>
+        <!-- sulvo-横幅 -->
+        <aside>
+          <div
+            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+            data-devices="m:1,t:1,d:1"
+            style="max-width: 100%; min-height: 116px"
+            class="demand-supply"
+          ></div>
+        </aside>
       </div>
     </section>
 
@@ -367,6 +403,15 @@
               </div>
             </div>
           </div>
+          <!-- sulvo-横幅 -->
+          <aside>
+            <div
+              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+              data-devices="m:1,t:1,d:1"
+              style="max-width: 100%; min-height: 116px"
+              class="demand-supply"
+            ></div>
+          </aside>
         </div>
 
         <!-- ads -->
