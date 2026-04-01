@@ -37,11 +37,11 @@
         </aside>
 
         <!-- sulvo-PH-方块-->
-        <aside v-if="isMobile">
+        <aside v-if="!isMobile">
           <div
             data-ad="thefreakcircus.org_fluid_sq_thefreakcircus_square_ban2"
             data-devices="m:1,t:1,d:1"
-            style="max-width: 100%; min-height: 296px"
+            style="min-height: 296px"
             class="demand-supply"
           ></div>
         </aside>
@@ -122,26 +122,6 @@
               </a>
             </div>
           </div>
-
-          <!-- sulvo-PC-横幅 -->
-          <aside v-if="!isMobile">
-            <div
-              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-              data-devices="m:1,t:1,d:1"
-              style="max-width: 100%; min-height: 116px"
-              class="demand-supply"
-            ></div>
-          </aside>
-
-          <!-- sulvo-PH-方块-->
-          <aside v-if="isMobile">
-            <div
-              data-ad="thefreakcircus.org_fluid_sq_thefreakcircus_square_ban2"
-              data-devices="m:1,t:1,d:1"
-              style="max-width: 100%; min-height: 296px"
-              class="demand-supply"
-            ></div>
-          </aside>
         </div>
       </div>
     </section>
