@@ -16,7 +16,7 @@
               <a href="/harlequin" class="nav-link">{{ $t('UpdatesPage.header.harlequin') }}</a>
             </div>
           </div>
-          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+          <!-- sulvo-横幅 -->
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -25,7 +25,6 @@
               class="demand-supply"
             ></div>
           </aside>
-          -->
         </div>
       </div>
 
@@ -57,7 +56,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -66,7 +65,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.day2Update.title') }}</h2>
@@ -93,7 +91,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -102,7 +100,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.lastDevlog.title') }}</h2>
@@ -122,7 +119,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -131,7 +128,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">
@@ -196,7 +192,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -205,7 +201,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate4.date') }}</p>
@@ -270,7 +265,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -279,7 +274,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <p class="update-date">{{ $t('UpdatesPage.updates.WeeklyUpdate1.date') }}</p>
@@ -328,7 +322,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -337,7 +331,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.monthlyUpdate.title') }}</h2>
@@ -360,7 +353,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -369,7 +362,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.anniversary.title') }}</h2>
@@ -412,7 +404,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -421,7 +413,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.futureUpdates.title') }}</h2>
@@ -450,7 +441,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -459,7 +450,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.chineseLanguage.title') }}</h2>
@@ -496,7 +486,7 @@
               </div>
             </article>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -505,7 +495,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.thankYou.title') }}</h2>
@@ -569,7 +558,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
+    loadGoogleAdxAds()
   })
 })
 </script>

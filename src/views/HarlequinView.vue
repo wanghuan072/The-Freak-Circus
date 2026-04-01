@@ -22,7 +22,7 @@
               <img src="/images/characters_02.webp" alt="Harlequin Character" />
             </div>
           </div>
-          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+          <!-- sulvo-横幅 -->
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -31,7 +31,6 @@
               class="demand-supply"
             ></div>
           </aside>
-          -->
         </div>
       </div>
 
@@ -49,7 +48,7 @@
               </div>
             </div>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -58,7 +57,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <!-- Personality Traits -->
             <div class="detail-section">
@@ -97,7 +95,7 @@
               </div>
             </div>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -106,7 +104,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <!-- Special Abilities -->
             <div class="detail-section">
@@ -139,7 +136,7 @@
               </div>
             </div>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -148,7 +145,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <!-- Gift Scenario -->
             <div class="detail-section">
@@ -197,7 +193,7 @@
               </div>
             </div>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -206,7 +202,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <!-- Relationships -->
             <div class="detail-section">
@@ -233,7 +228,7 @@
           </div>
         </div>
 
-        <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+        <!-- sulvo-横幅 -->
         <aside>
           <div
             data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -242,7 +237,6 @@
             class="demand-supply"
           ></div>
         </aside>
-        -->
       </div>
 
       <!-- Character Gallery -->
@@ -260,7 +254,7 @@
               <img src="/images/harlequin-03.webp" alt="Harlequin Art 3" />
             </div>
           </div>
-          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+          <!-- sulvo-横幅 -->
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -269,7 +263,6 @@
               class="demand-supply"
             ></div>
           </aside>
-          -->
         </div>
       </div>
     </main>
@@ -318,7 +311,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
+    loadGoogleAdxAds()
   })
 })
 </script>

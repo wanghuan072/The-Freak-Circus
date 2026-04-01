@@ -22,7 +22,7 @@
               <img src="/images/characters_04.webp" alt="Doctor Character" />
             </div>
           </div>
-          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+          <!-- sulvo-横幅 -->
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -31,7 +31,6 @@
               class="demand-supply"
             ></div>
           </aside>
-          -->
         </div>
       </div>
 
@@ -49,7 +48,7 @@
               </div>
             </div>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -58,7 +57,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <!-- Personality Traits -->
             <div class="detail-section">
@@ -130,7 +128,7 @@
               </div>
             </div>
 
-            <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+            <!-- sulvo-横幅 -->
             <aside>
               <div
                 data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -139,7 +137,6 @@
                 class="demand-supply"
               ></div>
             </aside>
-            -->
 
             <!-- Relationships -->
             <div class="detail-section">
@@ -170,7 +167,7 @@
       <!-- Character Gallery -->
       <div class="character-gallery">
         <div class="container">
-          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+          <!-- sulvo-横幅 -->
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -179,7 +176,6 @@
               class="demand-supply"
             ></div>
           </aside>
-          -->
           <h2 class="section-title">{{ $t('DoctorPage.gallery.title') }}</h2>
           <div class="gallery-grid">
             <div class="gallery-item">
@@ -240,7 +236,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
+    loadGoogleAdxAds()
   })
 })
 </script>

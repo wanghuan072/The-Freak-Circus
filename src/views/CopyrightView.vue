@@ -155,7 +155,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
+    loadGoogleAdxAds()
   })
 })
 </script>

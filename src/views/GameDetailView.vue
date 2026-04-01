@@ -6,7 +6,7 @@
       <!-- Game Not Found -->
       <div v-if="!game && !loading" class="game-not-found">
         <div class="container">
-          <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+          <!-- sulvo-横幅 -->
           <aside>
             <div
               data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -15,7 +15,6 @@
               class="demand-supply"
             ></div>
           </aside>
-          -->
           <h1>Game Not Found</h1>
           <p>The game you're looking for doesn't exist or has been removed.</p>
           <a href="/games" class="btn btn-primary">Back to Games</a>
@@ -131,7 +130,7 @@
                   <p>{{ $t('GameDetailPage.noComments') }}</p>
                 </div>
               </div>
-              <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+              <!-- sulvo-横幅 -->
               <aside>
                 <div
                   data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -140,7 +139,6 @@
                   class="demand-supply"
                 ></div>
               </aside>
-              -->
             </div>
           </div>
         </div>
@@ -267,7 +265,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
+    loadGoogleAdxAds()
   })
   loadGameData()
 })

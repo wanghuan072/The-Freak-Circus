@@ -9,7 +9,7 @@
           <p>{{ $t('PrivacyPolicyPage.header.lastUpdated') }}</p>
         </div>
 
-        <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+        <!-- sulvo-横幅 -->
         <aside>
           <div
             data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -18,7 +18,6 @@
             class="demand-supply"
           ></div>
         </aside>
-        -->
 
         <div class="policy-content">
           <section>
@@ -176,7 +175,7 @@
           </section>
         </div>
 
-        <!-- 测试阶段：Sulvo 横幅已注释（保留左右侧）
+        <!-- sulvo-横幅 -->
         <aside>
           <div
             data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
@@ -185,7 +184,6 @@
             class="demand-supply"
           ></div>
         </aside>
-        -->
       </div>
     </main>
 
@@ -233,7 +231,7 @@ const loadGoogleAdxAds = () => {
 
 onMounted(() => {
   nextTick(() => {
-    // loadGoogleAdxAds() // 测试阶段：仅保留左右侧 Sulvo
+    loadGoogleAdxAds()
   })
 })
 </script>
