@@ -65,7 +65,7 @@
       </div>
     </main>
 
-    <!-- sulvo-PC-左侧 -->
+    <!-- 测试：非首页无广告 — Sulvo 左右侧已注释
     <aside v-if="!isMobile">
       <div
         data-ad="thefreakcircus.org_160x600_sticky_display_right"
@@ -73,7 +73,6 @@
         class="demand-supply"
       ></div>
     </aside>
-    <!-- sulvo-PC-右侧 -->
     <aside v-if="!isMobile">
       <div
         data-ad="thefreakcircus.org_160x600_sticky_display_left"
@@ -81,6 +80,7 @@
         class="demand-supply"
       ></div>
     </aside>
+    -->
 
     <AppFooter />
   </div>
