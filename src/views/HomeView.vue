@@ -25,15 +25,45 @@
             <a href="/wiki" class="btn btn-secondary">{{ $t('HomePage.hero.learnButton') }}</a>
           </div>
         </div>
-        <!-- /23342079602/thefreakcircus_gam01_banl01 -->
-        <div
-          ref="gptBannerRoot"
-          id="div-gpt-ad-1774950400782-0"
-          style="min-width: 970px; min-height: 250px"
-        ></div>
+
+        <!-- sulvo-PC-横幅 -->
+        <aside v-if="!isMobile">
+          <div
+            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
+            data-devices="m:1,t:1,d:1"
+            style="max-width: 100%; min-height: 116px"
+            class="demand-supply"
+          ></div>
+        </aside>
+
+        <!-- sulvo-PH-方块-->
+        <aside v-if="isMobile">
+          <div
+            data-ad="thefreakcircus.org_fluid_sq_thefreakcircus_square_ban2"
+            data-devices="m:1,t:1,d:1"
+            style="min-height: 296px"
+            class="demand-supply"
+          ></div>
+        </aside>
       </div>
     </section>
 
+    <!-- sulvo-PC-左侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_right"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
+    <!-- sulvo-PC-右侧 -->
+    <aside v-if="!isMobile">
+      <div
+        data-ad="thefreakcircus.org_160x600_sticky_display_left"
+        data-devices="m:0,t:1,d:1"
+        class="demand-supply"
+      ></div>
+    </aside>
     <!-- Play Game Section -->
     <section class="section play-game">
       <div class="container">
@@ -400,23 +430,8 @@ watch(
   { immediate: false }
 )
 
-const gptBannerRoot = ref(null)
-
-const mountGptHomeBodyScript = () => {
-  const root = gptBannerRoot.value
-  if (!root || root.querySelector('script[data-gam-slot="gam01_banl01"]')) return
-  const s = document.createElement('script')
-  s.setAttribute('data-gam-slot', 'gam01_banl01')
-  s.textContent =
-    "googletag.cmd.push(function () { googletag.display('div-gpt-ad-1774950400782-0'); });"
-  root.appendChild(s)
-}
-
 onMounted(() => {
   loadGames()
-  nextTick(() => {
-    mountGptHomeBodyScript()
-  })
 })
 
 // 格式化日期
