@@ -26,10 +26,75 @@
           </div>
         </div>
 
+        <!-- PC横幅1 -->
+        <aside v-if="!isMobile">
+          <ins
+            class="adsbygoogle"
+            style="display: inline-block; width: 970px; height: 250px"
+            data-ad-client="ca-pub-9435047454967498"
+            data-ad-slot="thefreakcircus_adx_ban01"
+            data-tag-src="gamtg"
+          >
+          </ins>
+        </aside>
 
+        <!-- PH横幅1 -->
+        <aside v-if="isMobile">
+          <ins
+            class="adsbygoogle"
+            style="display: inline-block; width: 300px; height: 250px"
+            data-ad-client="ca-pub-9435047454967498"
+            data-ad-slot="thefreakcircus_adx_R_S_ban4"
+            data-tag-src="gamtg"
+          >
+          </ins>
+        </aside>
       </div>
     </section>
 
+    <!-- PC侧边1 -->
+    <aside
+      v-if="!isMobile"
+      style="
+        position: fixed;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 20;
+        pointer-events: auto;
+      "
+    >
+      <ins
+        class="adsbygoogle"
+        style="display: inline-block; width: 300px; height: 600px"
+        data-ad-client="ca-pub-9435047454967498"
+        data-ad-slot="thefreakcircus_adx_R_R_ban5"
+        data-tag-src="gamtg"
+      >
+      </ins>
+    </aside>
+
+    <!-- PC侧边2 -->
+    <aside
+      v-if="!isMobile"
+      style="
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 20;
+        pointer-events: auto;
+      "
+    >
+      <ins
+        class="adsbygoogle"
+        style="display: inline-block; width: 300px; height: 600px"
+        data-ad-client="ca-pub-9435047454967498"
+        data-ad-slot="thefreakcircus_adx_R_R_ban5"
+        data-tag-src="gamtg"
+      >
+      </ins>
+    </aside>
 
     <!-- Play Game Section -->
     <section class="section play-game">
@@ -91,7 +156,17 @@
           </div>
         </div>
 
-
+        <!-- PC横幅2 -->
+        <aside v-if="!isMobile">
+          <ins
+            class="adsbygoogle"
+            style="display: inline-block; width: 970px; height: 250px"
+            data-ad-client="ca-pub-9435047454967498"
+            data-ad-slot="thefreakcircus_adx_ban2"
+            data-tag-src="gamtg"
+          >
+          </ins>
+        </aside>
       </div>
     </section>
 
@@ -133,8 +208,28 @@
           </div>
         </div>
 
+        <!-- PC横幅3 -->
+        <aside v-if="!isMobile">
+          <ins
+            class="adsbygoogle"
+            style="display: inline-block; width: 970px; height: 250px"
+            data-ad-client="ca-pub-9435047454967498"
+            data-ad-slot="thefreakcircus_adx_ban3"
+            data-tag-src="gamtg"
+          >
+          </ins>
+        </aside>
       </div>
     </section>
+
+    <!-- 首页广告：PC 横幅 3（About 区块下方） -->
+    <ins
+      class="adsbygoogle"
+      style="display: inline-block; width: 970px; height: 250px"
+      data-ad-client="ca-pub-9435047454967498"
+      data-ad-slot="thefreakcircus_adx_ban3"
+      data-tag-src="gamtg"
+    ></ins>
 
     <!-- Characters Section -->
     <section class="section characters">
@@ -207,7 +302,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -263,7 +357,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -340,20 +433,17 @@
             </div>
           </div>
         </div>
-
-        <!-- ads -->
-        <!-- <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: block"
-            data-ad-client="ca-pub-5437957765171705"
-            data-ad-slot="3177593257"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </aside> -->
       </div>
     </section>
+
+    <!-- 首页广告：PC 侧边 1（页脚上方） -->
+    <ins
+      class="adsbygoogle"
+      style="display: inline-block; width: 300px; height: 600px"
+      data-ad-client="ca-pub-9435047454967498"
+      data-ad-slot="thefreakcircus_adx_R_R_ban5"
+      data-tag-src="gamtg"
+    ></ins>
 
     <AppFooter />
   </div>
@@ -368,6 +458,17 @@ import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 
+const loadGoogleAdxAds = () => {
+  try {
+    const root = document.querySelector('.home-page')
+    const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
+    for (let i = 0; i < n; i++) {
+      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+    }
+  } catch (e) {
+    console.error('AdSense push failed:', e)
+  }
+}
 
 // 游戏数据
 const games = ref([])
@@ -401,6 +502,9 @@ watch(
 )
 
 onMounted(() => {
+  nextTick(() => {
+    loadGoogleAdxAds()
+  })
   loadGames()
 })
 

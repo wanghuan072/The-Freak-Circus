@@ -60,28 +60,10 @@
 </template>
 
 <script setup>
-import { ref, onMounted, nextTick } from 'vue'
+import { ref, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
-
-const loadGoogleAdxAds = () => {
-  try {
-    const root = document.querySelector('.pierrot-coloring-page')
-    const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
-    for (let i = 0; i < n; i++) {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    }
-  } catch (e) {
-    console.error('AdSense push failed:', e)
-  }
-}
-
-onMounted(() => {
-  nextTick(() => {
-    loadGoogleAdxAds()
-  })
-})
 
 // Coloring images data
 const coloringImages = ref([

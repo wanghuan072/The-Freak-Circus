@@ -54,7 +54,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, nextTick } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRoute } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
@@ -114,22 +114,7 @@ watch(
   { immediate: false }
 )
 
-const loadGoogleAdxAds = () => {
-  try {
-    const root = document.querySelector('.games-list-page')
-    const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
-    for (let i = 0; i < n; i++) {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    }
-  } catch (e) {
-    console.error('AdSense push failed:', e)
-  }
-}
-
 onMounted(() => {
-  nextTick(() => {
-    loadGoogleAdxAds()
-  })
   loadGamesData()
 })
 </script>

@@ -7,7 +7,6 @@
         <div class="container">
           <h1>{{ $t('BlogDetailPage.notFound.title') }}</h1>
           <p>{{ $t('BlogDetailPage.notFound.description') }}</p>
-          <!-- adx_pc_ban01 -->
 
           <a href="/blog" class="btn btn-primary">{{ $t('BlogDetailPage.notFound.backToBlog') }}</a>
         </div>
@@ -123,7 +122,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch, nextTick } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import AppHeader from '@/components/AppHeader.vue'
@@ -177,22 +176,7 @@ watch(
   { immediate: false }
 )
 
-const loadGoogleAdxAds = () => {
-  try {
-    const root = document.querySelector('.blog-detail-page')
-    const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
-    for (let i = 0; i < n; i++) {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    }
-  } catch (e) {
-    console.error('AdSense push failed:', e)
-  }
-}
-
 onMounted(() => {
-  nextTick(() => {
-    loadGoogleAdxAds()
-  })
   loadBlogData()
 })
 </script>

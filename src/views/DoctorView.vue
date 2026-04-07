@@ -167,28 +167,11 @@
 </template>
 
 <script setup>
-import { onMounted, nextTick } from 'vue'
+import { onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
 
-const loadGoogleAdxAds = () => {
-  try {
-    const root = document.querySelector('.character-detail-page')
-    const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
-    for (let i = 0; i < n; i++) {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    }
-  } catch (e) {
-    console.error('AdSense push failed:', e)
-  }
-}
-
-onMounted(() => {
-  nextTick(() => {
-    loadGoogleAdxAds()
-  })
-})
 </script>
 
 <style scoped>
