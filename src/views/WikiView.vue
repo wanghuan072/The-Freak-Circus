@@ -15,15 +15,7 @@
               <a href="/harlequin" class="nav-link">{{ $t('WikiPage.header.harlequin') }}</a>
             </div>
           </div>
-          <!-- sulvo-横幅 -->
-          <aside>
-            <div
-              data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-              data-devices="m:1,t:1,d:1"
-              style="max-width: 100%; min-height: 116px"
-              class="demand-supply"
-            ></div>
-          </aside>
+
         </div>
       </div>
 
@@ -41,15 +33,7 @@
                   <p v-html="$t('WikiPage.gameOverview.description3', {}, { raw: true })"></p>
                 </div>
               </section>
-              <!-- sulvo-横幅 -->
-              <aside>
-                <div
-                  data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-                  data-devices="m:1,t:1,d:1"
-                  style="max-width: 100%; min-height: 116px"
-                  class="demand-supply"
-                ></div>
-              </aside>
+
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.gamePremise.title') }}</h2>
@@ -60,15 +44,7 @@
                 </div>
               </section>
 
-              <!-- sulvo-横幅 -->
-              <aside>
-                <div
-                  data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-                  data-devices="m:1,t:1,d:1"
-                  style="max-width: 100%; min-height: 116px"
-                  class="demand-supply"
-                ></div>
-              </aside>
+
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.currentFeatures.title') }}</h2>
@@ -168,15 +144,7 @@
                 </div>
               </section>
 
-              <!-- sulvo-横幅 -->
-              <aside>
-                <div
-                  data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-                  data-devices="m:1,t:1,d:1"
-                  style="max-width: 100%; min-height: 116px"
-                  class="demand-supply"
-                ></div>
-              </aside>
+
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.developmentStatus.title') }}</h2>
@@ -206,15 +174,7 @@
                 </div>
               </section>
 
-              <!-- sulvo-横幅 -->
-              <aside>
-                <div
-                  data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-                  data-devices="m:1,t:1,d:1"
-                  style="max-width: 100%; min-height: 116px"
-                  class="demand-supply"
-                ></div>
-              </aside>
+
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.howToPlay.title') }}</h2>
@@ -306,37 +266,14 @@
                 </div>
               </div>
 
-              <!-- sulvo-横幅 -->
-              <aside>
-                <div
-                  data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-                  data-devices="m:1,t:1,d:1"
-                  style="max-width: 100%; min-height: 116px"
-                  class="demand-supply"
-                ></div>
-              </aside>
+
             </aside>
           </div>
         </div>
       </div>
     </main>
 
-    <!-- sulvo-PC-左侧 -->
-    <aside v-if="!isMobile">
-      <div
-        data-ad="thefreakcircus.org_160x600_sticky_display_right"
-        data-devices="m:0,t:1,d:1"
-        class="demand-supply"
-      ></div>
-    </aside>
-    <!-- sulvo-PC-右侧 -->
-    <aside v-if="!isMobile">
-      <div
-        data-ad="thefreakcircus.org_160x600_sticky_display_left"
-        data-devices="m:0,t:1,d:1"
-        class="demand-supply"
-      ></div>
-    </aside>
+
 
     <AppFooter />
   </div>
@@ -347,9 +284,6 @@ import { onMounted, nextTick } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
-import { useDeviceDetection } from '@/utils/useDeviceDetection'
-
-const { isMobile } = useDeviceDetection()
 
 const loadGoogleAdxAds = () => {
   try {

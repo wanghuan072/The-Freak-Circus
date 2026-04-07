@@ -26,34 +26,11 @@
           </div>
         </div>
 
-        <!-- sulvo-横幅 -->
-        <aside>
-          <div
-            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-            data-devices="m:1,t:1,d:1"
-            style="max-width: 100%; min-height: 116px"
-            class="demand-supply"
-          ></div>
-        </aside>
+
       </div>
     </section>
 
-    <!-- sulvo-PC-左侧 -->
-    <aside v-if="!isMobile">
-      <div
-        data-ad="thefreakcircus.org_160x600_sticky_display_right"
-        data-devices="m:0,t:1,d:1"
-        class="demand-supply"
-      ></div>
-    </aside>
-    <!-- sulvo-PC-右侧 -->
-    <aside v-if="!isMobile">
-      <div
-        data-ad="thefreakcircus.org_160x600_sticky_display_left"
-        data-devices="m:0,t:1,d:1"
-        class="demand-supply"
-      ></div>
-    </aside>
+
     <!-- Play Game Section -->
     <section class="section play-game">
       <div class="container">
@@ -114,15 +91,7 @@
           </div>
         </div>
 
-        <!-- sulvo-横幅 -->
-        <aside>
-          <div
-            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-            data-devices="m:1,t:1,d:1"
-            style="max-width: 100%; min-height: 116px"
-            class="demand-supply"
-          ></div>
-        </aside>
+
       </div>
     </section>
 
@@ -163,15 +132,7 @@
             </div>
           </div>
         </div>
-        <!-- sulvo-横幅 -->
-        <aside>
-          <div
-            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-            data-devices="m:1,t:1,d:1"
-            style="max-width: 100%; min-height: 116px"
-            class="demand-supply"
-          ></div>
-        </aside>
+
       </div>
     </section>
 
@@ -246,15 +207,7 @@
             </div>
           </div>
         </div>
-        <!-- sulvo-横幅 -->
-        <aside>
-          <div
-            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-            data-devices="m:1,t:1,d:1"
-            style="max-width: 100%; min-height: 116px"
-            class="demand-supply"
-          ></div>
-        </aside>
+
       </div>
     </section>
 
@@ -310,15 +263,7 @@
             </div>
           </div>
         </div>
-        <!-- sulvo-横幅 -->
-        <aside>
-          <div
-            data-ad="thefreakcircus.org_fluid_lb+sq_thefreakcircus_ban1"
-            data-devices="m:1,t:1,d:1"
-            style="max-width: 100%; min-height: 116px"
-            class="demand-supply"
-          ></div>
-        </aside>
+
       </div>
     </section>
 
@@ -423,8 +368,6 @@ import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 
-import { useDeviceDetection } from '@/utils/useDeviceDetection'
-const { isMobile } = useDeviceDetection()
 
 // 游戏数据
 const games = ref([])
