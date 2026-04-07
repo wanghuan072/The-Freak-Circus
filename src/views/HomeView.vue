@@ -38,7 +38,7 @@
           </ins>
         </aside>
 
-        <!-- PH横幅1 -->
+        <!-- 手机横幅 1 -->
         <aside v-if="isMobile">
           <ins
             class="adsbygoogle"
@@ -74,7 +74,7 @@
       </ins>
     </aside>
 
-    <!-- PC侧边2 -->
+    <!-- PC 侧边 2（与右侧共用同一 data-ad-slot 时，可能被 Google 限制或统计不准，建议在后台另建竖版广告位并替换下方 slot） -->
     <aside
       v-if="!isMobile"
       style="
@@ -221,15 +221,6 @@
         </aside>
       </div>
     </section>
-
-    <!-- 首页广告：PC 横幅 3（About 区块下方） -->
-    <ins
-      class="adsbygoogle"
-      style="display: inline-block; width: 970px; height: 250px"
-      data-ad-client="ca-pub-9435047454967498"
-      data-ad-slot="thefreakcircus_adx_ban3"
-      data-tag-src="gamtg"
-    ></ins>
 
     <!-- Characters Section -->
     <section class="section characters">
@@ -436,15 +427,6 @@
       </div>
     </section>
 
-    <!-- 首页广告：PC 侧边 1（页脚上方） -->
-    <ins
-      class="adsbygoogle"
-      style="display: inline-block; width: 300px; height: 600px"
-      data-ad-client="ca-pub-9435047454967498"
-      data-ad-slot="thefreakcircus_adx_R_R_ban5"
-      data-tag-src="gamtg"
-    ></ins>
-
     <AppFooter />
   </div>
 </template>
@@ -458,13 +440,17 @@ import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 
+const isMobile = ref(false)
+
 const loadGoogleAdxAds = () => {
   try {
     const root = document.querySelector('.home-page')
-    const n = root ? root.querySelectorAll('ins.adsbygoogle').length : 0
-    for (let i = 0; i < n; i++) {
+    if (!root) return
+    root.querySelectorAll('ins.adsbygoogle').forEach((el) => {
+      if (el.dataset.adPushDone === '1') return
+      el.dataset.adPushDone = '1'
       ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    }
+    })
   } catch (e) {
     console.error('AdSense push failed:', e)
   }
@@ -502,6 +488,7 @@ watch(
 )
 
 onMounted(() => {
+  isMobile.value = window.matchMedia('(max-width: 1023px)').matches
   nextTick(() => {
     loadGoogleAdxAds()
   })
