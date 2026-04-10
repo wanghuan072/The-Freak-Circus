@@ -52,50 +52,6 @@
       </div>
     </section>
 
-    <!-- PC侧边1 -->
-    <aside
-      v-if="!isMobile"
-      style="
-        position: fixed;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 20;
-        pointer-events: auto;
-      "
-    >
-      <ins
-        class="adsbygoogle"
-        style="display: inline-block; width: 300px; height: 600px"
-        data-ad-client="ca-pub-9435047454967498"
-        data-ad-slot="thefreakcircus_adx_R_R_ban5"
-        data-tag-src="gamtg"
-      >
-      </ins>
-    </aside>
-
-    <!-- PC 侧边 2（与右侧共用同一 data-ad-slot 时，可能被 Google 限制或统计不准，建议在后台另建竖版广告位并替换下方 slot） -->
-    <aside
-      v-if="!isMobile"
-      style="
-        position: fixed;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 20;
-        pointer-events: auto;
-      "
-    >
-      <ins
-        class="adsbygoogle"
-        style="display: inline-block; width: 300px; height: 600px"
-        data-ad-client="ca-pub-9435047454967498"
-        data-ad-slot="thefreakcircus_adx_R_R_ban5"
-        data-tag-src="gamtg"
-      >
-      </ins>
-    </aside>
-
     <!-- Play Game Section -->
     <section class="section play-game">
       <div class="container">
