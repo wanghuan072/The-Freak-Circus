@@ -92,7 +92,7 @@
           </div>
         </div>
 
-        <div class="home-ad-slot home-ad-slot--728" ref="ad728Ref"></div>
+        <div v-if="!isMobile" class="home-ad-slot home-ad-slot--728" ref="ad728Ref"></div>
       </div>
     </section>
 
@@ -134,7 +134,7 @@
           </div>
         </div>
 
-        <div class="home-ad-slot home-ad-slot--300" ref="ad300Ref"></div>
+        <div v-if="isMobile" class="home-ad-slot home-ad-slot--300" ref="ad300Ref"></div>
       </div>
     </section>
 
@@ -356,6 +356,7 @@ import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 
+const isMobile = ref(false)
 const ad728Ref = ref(null)
 const ad300Ref = ref(null)
 
@@ -400,34 +401,34 @@ function loadAdsterraOnHome() {
 
   const a728 = ad728Ref.value
   const a300 = ad300Ref.value
-  if (!a728 || !a300 || a728.dataset.hpf) return
-  a728.dataset.hpf = '1'
-  injectAtOptions(
-    a728,
-    {
-      key: '2ff0216456afc12106640e61a9eb5350',
-      format: 'iframe',
-      height: 90,
-      width: 728,
-      params: {},
-    },
-    'https://www.highperformanceformat.com/2ff0216456afc12106640e61a9eb5350/invoke.js'
-  )
-    .then(() => {
-      a300.dataset.hpf = '1'
-      return injectAtOptions(
-        a300,
-        {
-          key: '2fb8ddfe61334f4979c09f4ef50345b7',
-          format: 'iframe',
-          height: 250,
-          width: 300,
-          params: {},
-        },
-        'https://www.highperformanceformat.com/2fb8ddfe61334f4979c09f4ef50345b7/invoke.js'
-      )
-    })
-    .catch(() => {})
+  if (!isMobile.value && a728 && !a728.dataset.hpf) {
+    a728.dataset.hpf = '1'
+    injectAtOptions(
+      a728,
+      {
+        key: '2ff0216456afc12106640e61a9eb5350',
+        format: 'iframe',
+        height: 90,
+        width: 728,
+        params: {},
+      },
+      'https://www.highperformanceformat.com/2ff0216456afc12106640e61a9eb5350/invoke.js'
+    ).catch(() => {})
+  }
+  if (isMobile.value && a300 && !a300.dataset.hpf) {
+    a300.dataset.hpf = '1'
+    injectAtOptions(
+      a300,
+      {
+        key: '2fb8ddfe61334f4979c09f4ef50345b7',
+        format: 'iframe',
+        height: 250,
+        width: 300,
+        params: {},
+      },
+      'https://www.highperformanceformat.com/2fb8ddfe61334f4979c09f4ef50345b7/invoke.js'
+    ).catch(() => {})
+  }
 }
 
 // 游戏数据
@@ -463,6 +464,7 @@ watch(
 
 onMounted(() => {
   loadGames()
+  isMobile.value = window.matchMedia('(max-width: 1023px)').matches
   nextTick(loadAdsterraOnHome)
 })
 
