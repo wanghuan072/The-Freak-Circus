@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        <div class="home-ad-native-wrap">
+        <div class="adsterra-native-wrap">
           <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
         </div>
       </div>
@@ -92,7 +92,8 @@
           </div>
         </div>
 
-        <div v-if="!isMobile" class="home-ad-slot home-ad-slot--728" ref="ad728Ref"></div>
+        <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728Ref"></div>
+        <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300Ref"></div>
       </div>
     </section>
 
@@ -134,7 +135,8 @@
           </div>
         </div>
 
-        <div v-if="isMobile" class="home-ad-slot home-ad-slot--300" ref="ad300Ref"></div>
+        <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+        <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
       </div>
     </section>
 
@@ -321,6 +323,9 @@
             }}</a>
           </div>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
+
           <!-- Reviews Section -->
           <div class="reviews-section">
             <h3 class="reviews-title">What Players Say</h3>
@@ -348,81 +353,22 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
 import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 const { locale } = useI18n()
 
-const isMobile = ref(false)
 const ad728Ref = ref(null)
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
 const ad300Ref = ref(null)
-
-function loadScript(src, parent, attrs = {}) {
-  return new Promise((resolve, reject) => {
-    const el = document.createElement('script')
-    el.src = src
-    Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
-    el.onload = () => resolve()
-    el.onerror = () => reject(new Error(src))
-    parent.appendChild(el)
-  })
-}
-
-function injectAtOptions(parent, opts, invokeSrc) {
-  const cfg = document.createElement('script')
-  cfg.textContent = `atOptions=${JSON.stringify(opts)};`
-  parent.appendChild(cfg)
-  return loadScript(invokeSrc, parent)
-}
-
-function loadAdsterraOnHome() {
-  if (
-    document.getElementById('container-20f454a6b133aad5da418bed2ee46fa4') &&
-    !document.querySelector('script[data-ad-native]')
-  ) {
-    const s = document.createElement('script')
-    s.async = true
-    s.setAttribute('data-cfasync', 'false')
-    s.setAttribute('data-ad-native', '1')
-    s.src =
-      'https://pl29120202.profitablecpmratenetwork.com/20f454a6b133aad5da418bed2ee46fa4/invoke.js'
-    document.body.appendChild(s)
-  }
-
-  const a728 = ad728Ref.value
-  const a300 = ad300Ref.value
-  if (!isMobile.value && a728 && !a728.dataset.hpf) {
-    a728.dataset.hpf = '1'
-    injectAtOptions(
-      a728,
-      {
-        key: '2ff0216456afc12106640e61a9eb5350',
-        format: 'iframe',
-        height: 90,
-        width: 728,
-        params: {},
-      },
-      'https://www.highperformanceformat.com/2ff0216456afc12106640e61a9eb5350/invoke.js'
-    ).catch(() => {})
-  }
-  if (isMobile.value && a300 && !a300.dataset.hpf) {
-    a300.dataset.hpf = '1'
-    injectAtOptions(
-      a300,
-      {
-        key: '2fb8ddfe61334f4979c09f4ef50345b7',
-        format: 'iframe',
-        height: 250,
-        width: 300,
-        params: {},
-      },
-      'https://www.highperformanceformat.com/2fb8ddfe61334f4979c09f4ef50345b7/invoke.js'
-    ).catch(() => {})
-  }
-}
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const { isMobile } = useAdsterraPageAds([ad728Ref, ad728bRef, ad728cRef], [ad300Ref, ad300bRef, ad300cRef])
 
 // 游戏数据
 const games = ref([])
@@ -457,12 +403,6 @@ watch(
 
 onMounted(() => {
   loadGames()
-  isMobile.value = window.matchMedia('(max-width: 1023px)').matches
-  nextTick(loadAdsterraOnHome)
-})
-
-onBeforeUnmount(() => {
-  document.querySelector('script[data-ad-native]')?.remove()
 })
 
 // 格式化日期
@@ -520,29 +460,9 @@ const gameLoaded = ref(false)
   min-height: 100vh;
 }
 
-.home-ad-native-wrap {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 24px;
+.section.hero .adsterra-native-wrap {
   position: relative;
   z-index: 2;
-}
-
-.home-ad-slot {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
-}
-
-.home-ad-slot--728 {
-  overflow-x: auto;
-  min-height: 90px;
-}
-
-.home-ad-slot--300 {
-  min-height: 250px;
 }
 
 .section {

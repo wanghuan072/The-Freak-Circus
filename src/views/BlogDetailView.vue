@@ -26,6 +26,10 @@
             <span class="breadcrumb-current">{{ blog.title }}</span>
           </div>
 
+          <div class="adsterra-native-wrap">
+            <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
+
           <div class="blog-wrapper">
             <!-- Left Side - Main Content -->
             <div class="blog-left">
@@ -57,8 +61,14 @@
                 <img :src="blog.imageUrl" :alt="blog.imageAlt" />
               </div>
 
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
+
               <!-- Blog Content -->
               <div class="blog-html" v-html="blog.detailsHtml"></div>
+
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
             </div>
 
             <!-- Right Side - Sidebar -->
@@ -109,6 +119,9 @@
                   </li>
                 </ul>
               </div>
+
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728dRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300dRef"></div>
             </div>
           </div>
         </div>
@@ -128,12 +141,28 @@ import { useI18n } from 'vue-i18n'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
+
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad728dRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const ad300dRef = ref(null)
+
 const route = useRoute()
 const { locale } = useI18n()
 const blog = ref(null)
 const loading = ref(true)
 
 const blogId = computed(() => route.params.id)
+
+const blogReady = computed(() => !!blog.value)
+const { isMobile } = useAdsterraPageAds(
+  [ad728bRef, ad728cRef, ad728dRef],
+  [ad300bRef, ad300cRef, ad300dRef],
+  { when: blogReady }
+)
 
 const formatDate = (dateString) => {
   if (!dateString) return ''

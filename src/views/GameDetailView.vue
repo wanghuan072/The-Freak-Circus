@@ -16,6 +16,10 @@
       <!-- Game Detail Page -->
       <div class="game-detail" v-if="game">
         <div class="container">
+          <div class="adsterra-native-wrap">
+            <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
+
           <div class="game-wrapper">
             <!-- Left Side -->
             <div class="game-left" :class="{ 'web-fullscreen': webFullscreen }">
@@ -87,8 +91,14 @@
                 </div>
               </div>
 
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
+
               <!-- Game Details HTML -->
               <div class="game-html" v-html="game.detailsHtml"></div>
+
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
             </div>
 
             <!-- Right Side -->
@@ -123,6 +133,8 @@
                 </div>
               </div>
 
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728dRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300dRef"></div>
             </div>
           </div>
         </div>
@@ -141,6 +153,16 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
+
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad728dRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const ad300dRef = ref(null)
+
 const route = useRoute()
 const { locale } = useI18n()
 const game = ref(null)
@@ -148,6 +170,13 @@ const gameLoaded = ref(false)
 const loading = ref(true)
 
 const gameId = computed(() => route.params.id)
+
+const gameReady = computed(() => !!game.value)
+const { isMobile } = useAdsterraPageAds(
+  [ad728bRef, ad728cRef, ad728dRef],
+  [ad300bRef, ad300cRef, ad300dRef],
+  { when: gameReady }
+)
 
 const formatDate = (dateString) => {
   const date = new Date(dateString)

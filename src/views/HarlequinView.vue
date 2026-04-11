@@ -30,6 +30,10 @@
       <div class="character-details">
         <div class="container">
           <div class="details-grid">
+            <div class="adsterra-native-wrap">
+              <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+            </div>
+
             <!-- About Section -->
             <div class="detail-section">
               <h2 class="section-title">{{ $t('HarlequinPage.about.title') }}</h2>
@@ -40,7 +44,8 @@
               </div>
             </div>
 
-
+            <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728aRef"></div>
+            <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300aRef"></div>
 
             <!-- Personality Traits -->
             <div class="detail-section">
@@ -79,8 +84,6 @@
               </div>
             </div>
 
-
-
             <!-- Special Abilities -->
             <div class="detail-section">
               <h2 class="section-title">{{ $t('HarlequinPage.abilities.title') }}</h2>
@@ -111,8 +114,6 @@
                 </div>
               </div>
             </div>
-
-
 
             <!-- Gift Scenario -->
             <div class="detail-section">
@@ -161,7 +162,8 @@
               </div>
             </div>
 
-
+            <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+            <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
 
             <!-- Relationships -->
             <div class="detail-section">
@@ -185,6 +187,9 @@
                 </div>
               </div>
             </div>
+
+            <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+            <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
           </div>
         </div>
 
@@ -218,11 +223,22 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 
+const ad728aRef = ref(null)
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad300aRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const { isMobile } = useAdsterraPageAds(
+  [ad728aRef, ad728bRef, ad728cRef],
+  [ad300aRef, ad300bRef, ad300cRef]
+)
 </script>
 
 <style scoped>

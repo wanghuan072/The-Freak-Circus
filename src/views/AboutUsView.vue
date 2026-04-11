@@ -9,6 +9,9 @@
         </div>
 
         <div class="about-content">
+          <div class="adsterra-native-wrap">
+            <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
           <section>
             <h2>{{ $t('AboutPage.whoWeAre.title') }}</h2>
             <p>{{ $t('AboutPage.whoWeAre.description') }}</p>
@@ -37,6 +40,9 @@
             </ul>
           </section>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
+
           <section>
             <h2>{{ $t('AboutPage.commitment.title') }}</h2>
             <p>{{ $t('AboutPage.commitment.description') }}</p>
@@ -57,6 +63,9 @@
             <p>{{ $t('AboutPage.regularUpdates.description') }}</p>
           </section>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
+
           <section>
             <h2>{{ $t('AboutPage.contactUs.title') }}</h2>
             <p>
@@ -65,6 +74,9 @@
               {{ $t('AboutPage.contactUs.description2') }}
             </p>
           </section>
+
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728dRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300dRef"></div>
 
           <section>
             <h2>{{ $t('AboutPage.joinCommunity.title') }}</h2>
@@ -81,11 +93,22 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad728dRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const ad300dRef = ref(null)
+const { isMobile } = useAdsterraPageAds(
+  [ad728bRef, ad728cRef, ad728dRef],
+  [ad300bRef, ad300cRef, ad300dRef]
+)
 </script>
 
 <style scoped>

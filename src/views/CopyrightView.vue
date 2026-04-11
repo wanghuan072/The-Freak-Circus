@@ -10,6 +10,10 @@
         </div>
 
         <div class="copyright-content">
+          <div class="adsterra-native-wrap">
+            <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
+
           <section>
             <h2>{{ $t('CopyrightPage.copyrightStatement.title') }}</h2>
             <p v-html="$t('CopyrightPage.copyrightStatement.description', {}, { raw: true })"></p>
@@ -36,6 +40,9 @@
               </li>
             </ul>
           </section>
+
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
 
           <section>
             <h2>{{ $t('CopyrightPage.thirdPartyContent.title') }}</h2>
@@ -64,6 +71,9 @@
               <li>{{ $t('CopyrightPage.fairUsePolicy.removalAttribution') }}</li>
             </ul>
           </section>
+
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
 
           <section>
             <h2>{{ $t('CopyrightPage.dmcaCompliance.title') }}</h2>
@@ -102,6 +112,9 @@
             <p>{{ $t('CopyrightPage.contactInformation.email') }}wyong@thefreakcircus.org</p>
           </section>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728dRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300dRef"></div>
+
           <section>
             <h2>{{ $t('CopyrightPage.updatesToCopyrightNotice.title') }}</h2>
             <p>{{ $t('CopyrightPage.updatesToCopyrightNotice.description1') }}</p>
@@ -118,11 +131,22 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad728dRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const ad300dRef = ref(null)
+const { isMobile } = useAdsterraPageAds(
+  [ad728bRef, ad728cRef, ad728dRef],
+  [ad300bRef, ad300cRef, ad300dRef]
+)
 </script>
 
 <style scoped>

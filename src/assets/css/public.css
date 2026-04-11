@@ -177,3 +177,19 @@ code, pre {
   }
 }
 
+/* Adsterra 占位（各页面共用） */
+.adsterra-native-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 1.25rem;
+}
+
+.adsterra-banner-slot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+

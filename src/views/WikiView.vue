@@ -25,6 +25,10 @@
           <div class="content-grid">
             <!-- Main Article -->
             <article class="main-article">
+              <div class="adsterra-native-wrap">
+                <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+              </div>
+
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.gameOverview.title') }}</h2>
                 <div class="content-card">
@@ -34,6 +38,8 @@
                 </div>
               </section>
 
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728aRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300aRef"></div>
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.gamePremise.title') }}</h2>
@@ -44,7 +50,8 @@
                 </div>
               </section>
 
-
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.currentFeatures.title') }}</h2>
@@ -144,7 +151,8 @@
                 </div>
               </section>
 
-
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.developmentStatus.title') }}</h2>
@@ -174,7 +182,8 @@
                 </div>
               </section>
 
-
+              <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728dRef"></div>
+              <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300dRef"></div>
 
               <section class="wiki-section">
                 <h2 class="section-title">{{ $t('WikiPage.howToPlay.title') }}</h2>
@@ -280,11 +289,24 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 
+const ad728aRef = ref(null)
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad728dRef = ref(null)
+const ad300aRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const ad300dRef = ref(null)
+const { isMobile } = useAdsterraPageAds(
+  [ad728aRef, ad728bRef, ad728cRef, ad728dRef],
+  [ad300aRef, ad300bRef, ad300cRef, ad300dRef]
+)
 </script>
 
 <style scoped>

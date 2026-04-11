@@ -26,6 +26,10 @@
       <!-- Gallery Section -->
       <div class="gallery-section">
         <div class="container">
+          <div class="adsterra-native-wrap">
+            <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
+
           <h2 class="section-title">{{ $t('PierrotColoringPage.gallery.title') }}</h2>
           <div class="masonry-grid">
             <div v-for="image in coloringImages" :key="image.id" class="gallery-item">
@@ -36,6 +40,8 @@
             </div>
           </div>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728aRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300aRef"></div>
         </div>
       </div>
 
@@ -49,6 +55,8 @@
             <p v-html="$t('PierrotColoringPage.about.description3', {}, { raw: true })"></p>
           </div>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
         </div>
       </div>
     </main>
@@ -64,6 +72,13 @@ import { ref, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
+
+const ad728aRef = ref(null)
+const ad728bRef = ref(null)
+const ad300aRef = ref(null)
+const ad300bRef = ref(null)
+const { isMobile } = useAdsterraPageAds([ad728aRef, ad728bRef], [ad300aRef, ad300bRef])
 
 // Coloring images data
 const coloringImages = ref([

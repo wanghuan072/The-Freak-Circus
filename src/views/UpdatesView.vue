@@ -24,6 +24,10 @@
       <div class="updates-content">
         <div class="container">
           <div class="updates-list">
+            <div class="adsterra-native-wrap">
+              <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+            </div>
+
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.newCharacters.title') }}</h2>
               <div class="update-content">
@@ -48,7 +52,8 @@
               </div>
             </article>
 
-
+            <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+            <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.day2Update.title') }}</h2>
@@ -95,7 +100,8 @@
               </div>
             </article>
 
-
+            <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728cRef"></div>
+            <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
 
             <article class="update-block">
               <h2 class="update-title">
@@ -406,7 +412,8 @@
               </div>
             </article>
 
-
+            <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728dRef"></div>
+            <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300dRef"></div>
 
             <article class="update-block">
               <h2 class="update-title">{{ $t('UpdatesPage.updates.thankYou.title') }}</h2>
@@ -433,10 +440,22 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 
+const ad728bRef = ref(null)
+const ad728cRef = ref(null)
+const ad728dRef = ref(null)
+const ad300bRef = ref(null)
+const ad300cRef = ref(null)
+const ad300dRef = ref(null)
+const { isMobile } = useAdsterraPageAds(
+  [ad728bRef, ad728cRef, ad728dRef],
+  [ad300bRef, ad300cRef, ad300dRef]
+)
 </script>
 
 <style scoped>

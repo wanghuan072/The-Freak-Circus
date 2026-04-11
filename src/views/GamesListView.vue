@@ -17,6 +17,11 @@
       <!-- Games List Section -->
       <div class="games-content">
         <div class="container">
+          <div class="adsterra-native-wrap">
+            <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728aRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300aRef"></div>
           <div class="games-grid">
             <a
               v-for="game in games"
@@ -43,6 +48,8 @@
             </a>
           </div>
 
+          <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
+          <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
         </div>
       </div>
     </main>
@@ -59,7 +66,15 @@ import { useI18n } from 'vue-i18n'
 import { useRoute } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import '@/assets/css/public.css'
 import { supportedLanguages } from '@/i18n'
+import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
+
+const ad728aRef = ref(null)
+const ad728bRef = ref(null)
+const ad300aRef = ref(null)
+const ad300bRef = ref(null)
+const { isMobile } = useAdsterraPageAds([ad728aRef, ad728bRef], [ad300aRef, ad300bRef])
 const { locale } = useI18n()
 const route = useRoute()
 const games = ref([])
