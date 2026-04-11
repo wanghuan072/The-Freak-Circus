@@ -26,29 +26,9 @@
           </div>
         </div>
 
-        <!-- PC横幅1 -->
-        <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: inline-block; width: 970px; height: 250px"
-            data-ad-client="ca-pub-9435047454967498"
-            data-ad-slot="thefreakcircus_adx_ban01"
-            data-tag-src="gamtg"
-          >
-          </ins>
-        </aside>
-
-        <!-- 手机横幅 1 -->
-        <aside v-if="isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: inline-block; width: 300px; height: 250px"
-            data-ad-client="ca-pub-9435047454967498"
-            data-ad-slot="thefreakcircus_adx_R_S_ban4"
-            data-tag-src="gamtg"
-          >
-          </ins>
-        </aside>
+        <div class="home-ad-native-wrap">
+          <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+        </div>
       </div>
     </section>
 
@@ -112,17 +92,7 @@
           </div>
         </div>
 
-        <!-- PC横幅2 -->
-        <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: inline-block; width: 970px; height: 250px"
-            data-ad-client="ca-pub-9435047454967498"
-            data-ad-slot="thefreakcircus_adx_ban2"
-            data-tag-src="gamtg"
-          >
-          </ins>
-        </aside>
+        <div class="home-ad-slot home-ad-slot--728" ref="ad728Ref"></div>
       </div>
     </section>
 
@@ -164,17 +134,7 @@
           </div>
         </div>
 
-        <!-- PC横幅3 -->
-        <aside v-if="!isMobile">
-          <ins
-            class="adsbygoogle"
-            style="display: inline-block; width: 970px; height: 250px"
-            data-ad-client="ca-pub-9435047454967498"
-            data-ad-slot="thefreakcircus_adx_ban3"
-            data-tag-src="gamtg"
-          >
-          </ins>
-        </aside>
+        <div class="home-ad-slot home-ad-slot--300" ref="ad300Ref"></div>
       </div>
     </section>
 
@@ -388,7 +348,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, nextTick } from 'vue'
+import { ref, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
@@ -396,20 +356,78 @@ import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 
-const isMobile = ref(false)
+const ad728Ref = ref(null)
+const ad300Ref = ref(null)
 
-const loadGoogleAdxAds = () => {
-  try {
-    const root = document.querySelector('.home-page')
-    if (!root) return
-    root.querySelectorAll('ins.adsbygoogle').forEach((el) => {
-      if (el.dataset.adPushDone === '1') return
-      el.dataset.adPushDone = '1'
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    })
-  } catch (e) {
-    console.error('AdSense push failed:', e)
+function loadScript(src, parent, attrs = {}) {
+  return new Promise((resolve, reject) => {
+    const el = document.createElement('script')
+    el.src = src
+    Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
+    el.onload = () => resolve()
+    el.onerror = () => reject(new Error(src))
+    parent.appendChild(el)
+  })
+}
+
+function injectAtOptions(parent, opts, invokeSrc) {
+  const cfg = document.createElement('script')
+  cfg.textContent = `atOptions=${JSON.stringify(opts)};`
+  parent.appendChild(cfg)
+  return loadScript(invokeSrc, parent)
+}
+
+function loadAdsterraOnHome() {
+  if (!document.querySelector('script[data-ad-popunder]')) {
+    const s = document.createElement('script')
+    s.src =
+      'https://pl29120201.profitablecpmratenetwork.com/86/18/4a/86184a7b725dc261734d690d7a202831.js'
+    s.setAttribute('data-ad-popunder', '1')
+    document.body.appendChild(s)
   }
+  if (
+    document.getElementById('container-20f454a6b133aad5da418bed2ee46fa4') &&
+    !document.querySelector('script[data-ad-native]')
+  ) {
+    const s = document.createElement('script')
+    s.async = true
+    s.setAttribute('data-cfasync', 'false')
+    s.setAttribute('data-ad-native', '1')
+    s.src =
+      'https://pl29120202.profitablecpmratenetwork.com/20f454a6b133aad5da418bed2ee46fa4/invoke.js'
+    document.body.appendChild(s)
+  }
+
+  const a728 = ad728Ref.value
+  const a300 = ad300Ref.value
+  if (!a728 || !a300 || a728.dataset.hpf) return
+  a728.dataset.hpf = '1'
+  injectAtOptions(
+    a728,
+    {
+      key: '2ff0216456afc12106640e61a9eb5350',
+      format: 'iframe',
+      height: 90,
+      width: 728,
+      params: {},
+    },
+    'https://www.highperformanceformat.com/2ff0216456afc12106640e61a9eb5350/invoke.js'
+  )
+    .then(() => {
+      a300.dataset.hpf = '1'
+      return injectAtOptions(
+        a300,
+        {
+          key: '2fb8ddfe61334f4979c09f4ef50345b7',
+          format: 'iframe',
+          height: 250,
+          width: 300,
+          params: {},
+        },
+        'https://www.highperformanceformat.com/2fb8ddfe61334f4979c09f4ef50345b7/invoke.js'
+      )
+    })
+    .catch(() => {})
 }
 
 // 游戏数据
@@ -444,11 +462,12 @@ watch(
 )
 
 onMounted(() => {
-  isMobile.value = window.matchMedia('(max-width: 1023px)').matches
-  nextTick(() => {
-    loadGoogleAdxAds()
-  })
   loadGames()
+  nextTick(loadAdsterraOnHome)
+})
+
+onBeforeUnmount(() => {
+  document.querySelector('script[data-ad-native]')?.remove()
 })
 
 // 格式化日期
@@ -506,6 +525,31 @@ const gameLoaded = ref(false)
   min-height: 100vh;
 }
 
+.home-ad-native-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.home-ad-slot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.home-ad-slot--728 {
+  overflow-x: auto;
+  min-height: 90px;
+}
+
+.home-ad-slot--300 {
+  min-height: 250px;
+}
+
 .section {
   position: relative;
   background-attachment: fixed;
@@ -519,8 +563,15 @@ const gameLoaded = ref(false)
   padding: 80px 0;
 }
 
+.section.hero,
+.section.play-game,
+.section.about {
+  overflow: visible;
+}
+
 .section.hero {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   padding: 70px 0 0 0;
 }
 

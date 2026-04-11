@@ -9,8 +9,6 @@
             <h1 class="page-title">{{ $t('BlogListPage.header.title') }}</h1>
             <p class="page-subtitle">{{ $t('BlogListPage.header.subtitle') }}</p>
           </div>
-
-
         </div>
       </div>
 
@@ -56,8 +54,6 @@
         </div>
       </div>
     </main>
-
-
 
     <AppFooter />
   </div>
