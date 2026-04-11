@@ -379,13 +379,6 @@ function injectAtOptions(parent, opts, invokeSrc) {
 }
 
 function loadAdsterraOnHome() {
-  if (!document.querySelector('script[data-ad-popunder]')) {
-    const s = document.createElement('script')
-    s.src =
-      'https://pl29120201.profitablecpmratenetwork.com/86/18/4a/86184a7b725dc261734d690d7a202831.js'
-    s.setAttribute('data-ad-popunder', '1')
-    document.body.appendChild(s)
-  }
   if (
     document.getElementById('container-20f454a6b133aad5da418bed2ee46fa4') &&
     !document.querySelector('script[data-ad-native]')
