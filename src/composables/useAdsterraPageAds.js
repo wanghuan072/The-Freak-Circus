@@ -1,5 +1,16 @@
 import { ref, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
 
+/**
+ * Adsterra Native + HPF 横幅注入。以下为运行时必须保留的常量，勿改为「整块删除」；
+ * 若要关闭前台展示请在各页面的 template / `<script>` 中注释 DOM 与对本函数的调用；
+ * 改联盟户时请只改本节 `const`，并同步各页面注释范本里的说明（若有另行备注）。
+ *
+ * 【文档备份：与下文 const 取值一致，仅便查阅；执行时代码仅用下面未注释的 `const`】
+ * - NATIVE_ID = 'container-20f454a6b133aad5da418bed2ee46fa4'
+ * - NATIVE_SRC = 'https://pl29120202.profitablecpmratenetwork.com/20f454a6b133aad5da418bed2ee46fa4/invoke.js'
+ * - HPF728.key / HPF728_URL（728×90）
+ * - HPF300.key / HPF300_URL（300×250）
+ */
 const NATIVE_ID = 'container-20f454a6b133aad5da418bed2ee46fa4'
 const NATIVE_SRC =
   'https://pl29120202.profitablecpmratenetwork.com/20f454a6b133aad5da418bed2ee46fa4/invoke.js'
@@ -41,7 +52,7 @@ async function injectBannersSequential(slotRefs, opts, invokeUrl) {
     const cfg = document.createElement('script')
     cfg.textContent = `atOptions=${JSON.stringify(opts)};`
     el.appendChild(cfg)
-    await appendScript(invokeUrl, el).catch(() => {})
+    await appendScript(invokeUrl, el).catch(() => { })
   }
 }
 

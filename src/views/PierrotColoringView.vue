@@ -26,8 +26,32 @@
       <!-- Gallery Section -->
       <div class="gallery-section">
         <div class="container">
+          <!-- 联盟广告已停用（仅首页保留）
           <div class="adsterra-native-wrap">
             <div id="container-20f454a6b133aad5da418bed2ee46fa4"></div>
+          </div>
+
+          -->
+
+          <div ref="gAds0" class="adsterra-native-wrap">
+            <ins
+              v-if="!isMobile"
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="3600146881"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <ins
+              v-else
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="1185736536"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
           </div>
 
           <h2 class="section-title">{{ $t('PierrotColoringPage.gallery.title') }}</h2>
@@ -40,8 +64,31 @@
             </div>
           </div>
 
+          <!--
           <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728aRef"></div>
           <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300aRef"></div>
+          -->
+
+          <div ref="gAds1" class="adsterra-banner-slot">
+            <ins
+              v-if="!isMobile"
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="8023891485"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <ins
+              v-else
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="1185736536"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </div>
         </div>
       </div>
 
@@ -55,8 +102,31 @@
             <p v-html="$t('PierrotColoringPage.about.description3', {}, { raw: true })"></p>
           </div>
 
+          <!--
           <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728bRef"></div>
           <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
+          -->
+
+          <div ref="gAds2" class="adsterra-banner-slot">
+            <ins
+              v-if="!isMobile"
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="1818565461"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <ins
+              v-else
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5437957765171705"
+              data-ad-slot="1185736536"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </div>
         </div>
       </div>
     </main>
@@ -68,17 +138,78 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, watch, onMounted, nextTick } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
-import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 
-const ad728aRef = ref(null)
-const ad728bRef = ref(null)
-const ad300aRef = ref(null)
-const ad300bRef = ref(null)
-const { isMobile } = useAdsterraPageAds([ad728aRef, ad728bRef], [ad300aRef, ad300bRef])
+const isMobile = ref(false)
+const gAds0 = ref(null)
+const gAds1 = ref(null)
+const gAds2 = ref(null)
+
+onMounted(() => {
+  const mq = window.matchMedia('(max-width: 1023px)')
+  const apply = () => {
+    isMobile.value = mq.matches
+  }
+  apply()
+  mq.addEventListener('change', apply)
+})
+
+function waitAdsenseLoaded() {
+  if (typeof window === 'undefined') return Promise.resolve()
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+    return Promise.resolve()
+  }
+  return new Promise((resolve) => {
+    let n = 0
+    const id = setInterval(() => {
+      n += 1
+      if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+        clearInterval(id)
+        resolve()
+      } else if (n > 200) {
+        clearInterval(id)
+        resolve()
+      }
+    }, 50)
+  })
+}
+
+async function pushAdsenseInPage() {
+  await waitAdsenseLoaded()
+  await nextTick()
+  await nextTick()
+  const roots = [gAds0, gAds1, gAds2]
+  for (const r of roots) {
+    await nextTick()
+    const wrap = r.value
+    if (!wrap?.querySelector) continue
+    const ins = wrap.querySelector('ins.adsbygoogle')
+    if (!ins) continue
+    try {
+      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+    } catch (_) {}
+    await new Promise((res) => requestAnimationFrame(() => res()))
+  }
+}
+
+watch(isMobile, () => {
+  void pushAdsenseInPage()
+})
+
+onMounted(() => {
+  void pushAdsenseInPage()
+})
+
+// --- 联盟广告 script（已与模板一并注释）：恢复时请取消本节与模板中对应注释块 ---
+// import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
+// const ad728aRef = ref(null)
+// const ad728bRef = ref(null)
+// const ad300aRef = ref(null)
+// const ad300bRef = ref(null)
+// const { isMobile } = useAdsterraPageAds([ad728aRef, ad728bRef], [ad300aRef, ad300bRef])
 
 // Coloring images data
 const coloringImages = ref([
