@@ -85,7 +85,7 @@
             <!-- 游戏iframe -->
             <iframe
               v-if="gameLoaded"
-              src="https://freakcircus.fongfiafia.asia/origina/index.html"
+              src="https://itch.io/embed-upload/16572088"
               width="100%"
               height="600"
               frameborder="0"
