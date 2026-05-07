@@ -79,6 +79,11 @@
       "title": "The Freak Circus Pierrot 可爱填色页 - 免费填色页 | thefreakcircus.org",
       "description": "免费下载 The Freak Circus Pierrot 填色页！可爱的 Kawaii 风格 Pierrot 填色设计，非常适合心理恐怖视觉小说的粉丝。",
       "keywords": "The Freak Circus Pierrot 填色页, 可爱 Pierrot, 填色页, 免费下载, 视觉小说, thefreakcircus.org"
+    },
+    "day3": {
+      "title": "The Freak Circus 第三天 — 第三章流程汇总与路线准备 | thefreakcircus.org",
+      "description": "The Freak Circus Day 3 攻略中心：存档准备、Pierrot 与 Harlequin 路线、第一至三天剧情对照表、乙女与恐怖视觉小说结局、Columbina 设定核对与站内攻略链接。",
+      "keywords": "The Freak Circus Day 3, 第三天攻略, 第三章攻略, Pierrot 路线, Harlequin 路线, 乙女攻略, 心理恐怖视觉小说, Day 1 Day 2 Day 3 对照, 多结局, Columbina, 终幕, 马戏团帐篷, 游戏攻略, thefreakcircus.org"
     }
   },
   "nav": {
@@ -91,6 +96,7 @@
     "doctor": "Doctor",
     "ticketTaker": "Ticket Taker",
     "wiki": "Wiki",
+    "day3": "Day 3",
     "visualNovelGames": "视觉小说游戏",
     "blog": "博客",
     "download": "下载",
@@ -1326,5 +1332,78 @@
       "description1": "本协议不构成您与 <strong>The Freak Circus</strong> 之间的合作、合资、雇佣或代理关系。如任何条款不可执行，将被删除，但不影响其他条款效力。",
       "description2": "未经我们同意，您不得转让权利或义务，但我们可无限制地转让。未执行条款不代表放弃后续执行权。本协议及其包含的条款构成您与 <strong>The Freak Circus</strong> 之间的完整协议，取代之前所有协议。通知可通过电子邮件、邮寄或网站发布。<strong>The Freak Circus</strong> 对不可抗力导致的未履行不承担责任。"
     }
+  },
+  "Day3Page": {
+    "header": {
+      "title": "The Freak Circus 第三天",
+      "subtitle": "攻略汇总、路线准备与第三章关键词——写给正在追 Pierrot、Harlequin 与马戏团结局的玩家。",
+      "backToHome": "首页",
+      "blog": "博客",
+      "wiki": "Wiki",
+      "download": "下载"
+    },
+    "intro": "<p>若你在找 <strong>The Freak Circus 第三天攻略</strong>、<strong>第三章指南</strong> 或 <strong>Day 3 结局</strong>，本页是<strong>站内总览</strong>。第三天是多数玩家在第二天帐篷、Columbina 传说与 <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>、<a href=\"/harlequin\" class=\"content-link\">Harlequin</a> 对立加深之后期待的下一 big 章节。在逐步场景攻略尚未完整上线前，可用本文<strong>规划存档</strong>、了解玩家普遍关注点，并跳转至站内已有 <a href=\"/blog\" class=\"content-link\">攻略文章</a>。</p>",
+    "images": {
+      "heroAlt": "The Freak Circus 马戏团氛围场景 — 第三天页头图",
+      "day2TentsAlt": "The Freak Circus 第二天更新 — 三大帐篷与剧情升级",
+      "pierrotCardAlt": "Pierrot 角色视觉 — 忧郁小丑路线准备",
+      "harlequinCardAlt": "Harlequin 角色视觉 — 恶作剧型恋爱路线准备",
+      "dualCardAlt": "The Freak Circus 游戏画面 — 双线兴趣与中立悬疑存档规划（第三天）"
+    },
+    "compare": {
+      "title": "第一天 vs 第二天 vs 第三天 — 剧情弧一览",
+      "intro": "<p>用这张<strong>对照表</strong>记住每个篇章在训练你什么。关于第三天的行说明为<strong>玩家预期</strong>（正式版更新后标题与节点可能调整）。</p>",
+      "tableHtml": "<div class=\"day3-table-scroll\"><table class=\"day3-table\"><caption>剧情弧对照 — The Freak Circus 进度指南</caption><thead><tr><th scope=\"col\">篇章</th><th scope=\"col\">你在练习的内容</th><th scope=\"col\">本站攻略</th></tr></thead><tbody><tr><th scope=\"row\">第一天</th><td>街头开篇、首次道德分歧、Pierrot 的脆弱、与 Harlequin 的早期摩擦。</td><td><a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">第一天攻略</a></td></tr><tr><th scope=\"row\">第二天</th><td>帐篷路线、Columbina 传说、Jester 叙事、Doctor 与 Ticket Taker 恐怖桥段。</td><td><a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天完整攻略</a></td></tr><tr><th scope=\"row\">第三天（计划）</th><td>更高风险、更严路线锁、Pierrot / Harlequin / 中立悬疑向存档的回报。</td><td><em>本页 — 发售后逐步补全</em></td></tr></tbody></table></div>"
+    },
+    "whatIs": {
+      "title": "《The Freak Circus》里的「第三天」指什么？",
+      "p1": "<p>在玩家攻略用语里，<strong>第三天（Day 3）</strong>通常指<strong>继第一天（街头、Pierrot 脆弱点、首次分歧）与第二天（多帐篷、Columbina、Jester / Doctor / Ticket Taker）之后的下一大型章节</strong>。不少粉丝将其视为更广义的<strong>终幕（Final Act）</strong>节奏：赌注更高、路线锁更紧，并兑现你在第一天是否帮助 Pierrot、第二天如何应对 Harlequin 心理战等选择。</p>",
+      "p2": "<p>本站将第三天定位为<strong>视觉小说进度层</strong>：心理恐怖、执念与路线叙事，而非独立小游戏。正式版更新后，我们会像 <a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">第一天</a>、<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天</a> 一样，在此扩展为含选项节点、flag 与结局条件的<strong>完整第三天攻略</strong>。</p>"
+    },
+    "prepare": {
+      "title": "第三天上线前如何准备存档",
+      "p1": "<p><strong>目标：</strong>带着干净存档进入更新，能快速分歧到 Pierrot 向、Harlequin 向或中立悬疑向，而无需盲推数十小时。</p>",
+      "p2": "<p>下列清单仅使用本站域名链接，均在 thefreakcircus.org 内跳转。</p>",
+      "list": "<li>用你想<strong>固定下来</strong>的选项通关<strong>第一天</strong>。若需路线说明，请读 <a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">第一天攻略</a>，其中 flag 会影响第二天。</li><li>完成<strong>第二天</strong>并收集你在意的结局或帐篷剧情——<a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天完整攻略</a> 涵盖分支、隐藏场景与剧情标记。</li><li>浏览 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 回顾 <a href=\"/jester\" class=\"content-link\">Jester</a>、<a href=\"/doctor\" class=\"content-link\">Doctor</a>、<a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a> 的定位，串联 Columbina 悲剧如何激化 Pierrot 与 Harlequin 的对立。</li><li>多存几个档并按<strong>攻略对象优先级</strong>（Pierrot / Harlequin / 平衡）与<strong>第二天关键结果</strong>命名——高分支视觉小说强烈建议保留备份槽。</li><li>从 <a href=\"/download\" class=\"content-link\">下载页</a> 安装最新构建，避免第三天开放时仍在旧客户端上测试。</li>",
+      "p3": "<p>当本页从「准备模式」切换为「完整攻略」时，我们会在顶部置顶<strong>选项时机</strong>、<strong>易漏场景</strong>与<strong>结局用语表</strong>——若你做成就或实况精确分流，建议收藏本页。</p>",
+      "tipsTitle": "刷档前的快速提示",
+      "tipsIntro": "<p>面向速通与乙女收集玩家、希望<strong>章节间干净跳转</strong>时可参考：</p>",
+      "tipsList": "<li>在第二天帐篷里<strong>每一次不可逆选择前</strong>都复制一份存档。</li><li>用<strong>对象缩写 + flag</strong> 命名（示例：<code>HQ-mirror-Y</code>），第三天分流时一目了然。</li><li>留一个「剧情向」存档读完所有可选文本——编剧喜欢在后续章节回调细节。</li><li>第三天上线后，先玩与你计划的<strong>第三章结局家族</strong>最匹配的存档，再回头清其它结局。</li>"
+    },
+    "expectations": {
+      "title": "玩家对第三天普遍有哪些预期",
+      "p1": "<p>游戏在第二天之后仍在持续迭代，任何功能列表都应视为<strong>玩家预期</strong>而非承诺：独立开发者会更改剧本、QA 也会拉动 timeline。尽管如此，社区普遍期待<strong>与第二天存档挂钩的更明显分歧</strong>、<strong>Pierrot 与 Harlequin 更多回报场景</strong>，以及<strong>已在支线埋下伏笔的角色有更多戏份</strong>。</p>",
+      "card1Title": "路线张力",
+      "card1Body": "<p>更早对 <strong>Pierrot</strong> 表示善意，却可能在 <strong>Harlequin</strong> 操控信任时陷入更难的选择——适合保留「当时若无视他？」对照存档的玩家。</p>",
+      "card2Title": "结局密度",
+      "card2Body": "<p>主线结局线索更清晰，同时在 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天</a> 读遍帐篷互动的玩家可解锁更多细小分支场景。</p>",
+      "card3Title": "基调与直播",
+      "card3Body": "<p>重在心理压迫而非廉价跳吓；录制或直播请遵守平台对成人向恐怖内容的规范。</p>"
+    },
+    "routes": {
+      "title": "玩家最常优化的路线、CP 与结局向",
+      "pierrotTitle": "以 Pierrot 为主的存档",
+      "pierrotBody": "<p>追求忧郁亲密感、执念与罪恶循环。抓住每一处削弱或奖励 Pierrot 脆弱的剧情点——通常会在多章叠加。开新档前复习 <a href=\"/pierrot\" class=\"content-link\">Pierrot 角色页</a>。</p>",
+      "harlequinTitle": "以 Harlequin 为主的存档",
+      "harlequinBody": "<p>追求挑逗、混乱与危险感。Harlequin 在你应战她的试探而非说教时回应更强。对照 <a href=\"/harlequin\" class=\"content-link\">Harlequin 角色页</a> 理解操控伏笔。</p>",
+      "dualTitle": "双线兴趣与「两边都要」通关",
+      "dualBody": "<p>玩家会尝试不完全锁定单一恋爱对象的变体。请对传言保持审慎，但在官方尚未写明解锁条件前，保留两条感情线都尚有余地的存档。</p>"
+    },
+    "faq": {
+      "title": "常见问题（第三天准备）",
+      "q1": "已经有完整的 The Freak Circus 第三天图文攻略了吗？",
+      "a1": "<p>我们先搭建本页，让搜索 <strong>第三天攻略</strong>、<strong>第三章指南</strong>、<strong>Pierrot × Harlequin 结局</strong> 的玩家能落到同一准备页。公开构建发布后，我们会在此补充逐步说明，结构对齐 <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天攻略</a>。</p>",
+      "q2": "站内去哪里看更新说明与长攻略？",
+      "a2": "<p>请使用本站导航：<a href=\"/updates\" class=\"content-link\">更新</a>汇总里程碑；<a href=\"/blog\" class=\"content-link\">博客索引</a>收录长篇流程；<a href=\"/games\" class=\"content-link\">视觉小说游戏</a>可找玩法相近的作品打发等待时间。</p>",
+      "q3": "第三天会延续第二天的坏结局氛围吗？",
+      "a3": "<p>剧情应具连续性。第二天已升级绑架、心理压力与 lore 揭露——第三天会假设你仍记得 Columbina 悲剧与马戏团权力结构。若只记得片段，请回到 <a href=\"/wiki\" class=\"content-link\">Wiki</a> 核对。</p>",
+      "q4": "站内搜索用什么关键词？",
+      "a4": "<p>可尝试组合：<strong>「The Freak Circus 第三天结局」</strong>、<strong>「Harlequin 路线攻略」</strong>、<strong>「Pierrot bad end」</strong>、<strong>「Columbina 传说」</strong>、<strong>「Ticket Taker 镜之帐篷」</strong>——均可导向本站可控文章，减少论坛剧透干扰。</p>"
+    },
+    "moreOnSite": {
+      "title": "留在本站攻略网内",
+      "p1": "<p>推荐阅读顺序：<a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">第一天</a> → <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">第二天</a> → <a href=\"/wiki\" class=\"content-link\">Wiki</a> → 角色页（<a href=\"/pierrot\" class=\"content-link\">Pierrot</a>、<a href=\"/harlequin\" class=\"content-link\">Harlequin</a>、<a href=\"/jester\" class=\"content-link\">Jester</a>）→ <a href=\"/download\" class=\"content-link\">下载</a>。可覆盖多数速通、乙女与恐怖视觉小说玩家在大型补丁前的疑问。</p>"
+    },
+    "disclaimer": "<p><strong>说明：</strong>thefreakcircus.org 为独立粉丝攻略站。发售时间线、场景与结局条件可能随开发变动——每次开新周目前请刷新 <a href=\"/updates\" class=\"content-link\">更新</a>。</p>"
   }
 }

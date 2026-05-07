@@ -38,6 +38,9 @@
               <a href="/wiki" class="nav-link">{{ $t('nav.wiki') }}</a>
             </li>
             <li class="nav-item">
+              <a href="/day-3" class="nav-link">{{ $t('nav.day3') }}</a>
+            </li>
+            <li class="nav-item">
               <a href="/pierrot-coloring" class="nav-link">{{ $t('nav.pierrotColoring') }}</a>
             </li>
             <li class="nav-item">
@@ -129,6 +132,9 @@
             </li>
             <li class="nav-item">
               <a href="/wiki" class="nav-link" @click="closeMobileMenu">{{ $t('nav.wiki') }}</a>
+            </li>
+            <li class="nav-item">
+              <a href="/day-3" class="nav-link" @click="closeMobileMenu">{{ $t('nav.day3') }}</a>
             </li>
             <li class="nav-item">
               <a href="/games" class="nav-link" @click="closeMobileMenu">{{
@@ -336,13 +342,12 @@ const switchLanguage = async (lang) => {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 /* 语言切换器样式 */
 .language-switcher {
   position: relative;
-  margin-left: 20px;
 }
 
 .language-dropdown {

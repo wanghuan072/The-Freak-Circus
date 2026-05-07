@@ -79,6 +79,11 @@
       "title": "The Freak Circus Пьеро для Раскрашивания Кавай - Бесплатные Раскраски | thefreakcircus.org",
       "description": "Скачайте бесплатные раскраски The Freak Circus Пьеро! Милые кавайные дизайны Пьеро для раскрашивания, идеально подходящие для поклонников психологического хоррор-visual novel.",
       "keywords": "The Freak Circus Пьеро для раскрашивания, кавай Пьеро, раскраски, бесплатная загрузка, визуальная новелла, thefreakcircus.org"
+    },
+    "day3": {
+      "title": "The Freak Circus Day 3 — глава 3, хаб прохождения и подготовка маршрутов | thefreakcircus.org",
+      "description": "Хаб The Freak Circus Day 3: подготовка сейвов, маршруты Pierrot и Harlequin, сравнение дней 1–3, эндинги, Columbina, чеклист и внутренние ссылки на гайды.",
+      "keywords": "The Freak Circus Day 3, прохождение дня 3, глава 3 гайд, маршрут Pierrot, маршрут Harlequin, отомэ гайд, психологический хоррор визуальная новелла, сравнение дней, множественные концовки, Columbina, финальный акт, цирк шатры, thefreakcircus.org"
     }
   },
   "nav": {
@@ -91,6 +96,7 @@
     "doctor": "Доктор",
     "ticketTaker": "Билетёр",
     "wiki": "Вики",
+    "day3": "Day 3",
     "visualNovelGames": "Визуальные новеллы",
     "blog": "Блог",
     "download": "Скачать",
@@ -1326,5 +1332,78 @@
       "description1": "Это Соглашение не создаёт партнёрства, совместного предприятия, трудовых или агентских отношений между вами и <strong>The Freak Circus</strong>. Если любое положение не подлежит исполнению, оно будет удалено без влияния на оставшиеся условия.",
       "description2": "Вы не можете передавать свои права или обязанности без нашего согласия, но мы можем передавать свои без ограничений. Невыполнение любого положения не лишает нас права принудительно его применять в будущем. Это Соглашение вместе с включёнными условиями является полным соглашением между вами и <strong>The Freak Circus</strong> и заменяет все предыдущие соглашения. Уведомления могут быть доставлены по электронной почте, почтой или размещены на Сайте. <strong>The Freak Circus</strong> не несёт ответственности за невозможность выполнения обязательств по причинам, находящимся вне нашего контроля."
     }
+  },
+  "Day3Page": {
+    "header": {
+      "title": "The Freak Circus Day 3",
+      "subtitle": "Хаб прохождения, подготовка маршрутов и ключевые слова главы 3 — для игроков за Pierrot, Harlequin и финалы цирка.",
+      "backToHome": "Главная",
+      "blog": "Блог",
+      "wiki": "Вики",
+      "download": "Скачать"
+    },
+    "intro": "<p>Если вы искали <strong>прохождение The Freak Circus Day 3</strong>, <strong>гайд по главе 3</strong> или <strong>концовки дня 3</strong>, эта страница — <strong>внутренняя точка входа</strong>. Day 3 — следующий крупный блок после шатров дня 2, лора Columbina и усиления конфликта между <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> и <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. Пока нет полного пошагового гайда, используйте материал для <strong>подготовки сейвов</strong> и переходите к <a href=\"/blog\" class=\"content-link\">статьям</a> на сайте.</p>",
+    "images": {
+      "heroAlt": "Атмосфера цирка The Freak Circus — шапка гайда Day 3",
+      "day2TentsAlt": "Обновление дня 2 — три шатра и нарастание сюжета",
+      "pierrotCardAlt": "Pierrot — визуал для маршрута меланхоличного клоуна",
+      "harlequinCardAlt": "Harlequin — визуал для романтического трикстер-маршрута",
+      "dualCardAlt": "Кадр геймплея — планирование сейвов для двух линий и нейтральной тайны"
+    },
+    "compare": {
+      "title": "День 1 vs день 2 vs день 3 — дуга сюжета",
+      "intro": "<p><strong>Сравнительная таблица</strong> помогает помнить, чему вы учитесь в каждой части. Строка Day 3 отражает <strong>ожидания игроков</strong> и может меняться.</p>",
+      "tableHtml": "<div class=\"day3-table-scroll\"><table class=\"day3-table\"><caption>Сравнение дуг — гайд по The Freak Circus</caption><thead><tr><th scope=\"col\">Арка</th><th scope=\"col\">На чём тренируетесь</th><th scope=\"col\">Гайд на сайте</th></tr></thead><tbody><tr><th scope=\"row\">День 1</th><td>Улица, первые моральные развилки, уязвимость Pierrot, трение с Harlequin.</td><td><a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">День 1</a></td></tr><tr><th scope=\"row\">День 2</th><td>Шатры, легенда Columbina, Jester, Doctor и Ticket Taker.</td><td><a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">День 2 полный гайд</a></td></tr><tr><th scope=\"row\">День 3 (план)</th><td>Выше ставки, жёстче блокировки маршрутов, ответвления Pierrot/Harlequin/нейтрал.</td><td><em>Эта страница — пошагово после релиза</em></td></tr></tbody></table></div>"
+    },
+    "whatIs": {
+      "title": "Что такое «день 3» в The Freak Circus?",
+      "p1": "<p>В жаргоне гайдов <strong>день 3</strong> обычно означает <strong>следующую крупную главу</strong> после дня 1 (улица, Pierrot, первые форки) и дня 2 (шатры, Columbina, Jester/Doctor/Ticket Taker). Часто это связывают с <strong>финальным актом</strong>: выше ставки, жёстче лок маршрутов, последствия помощи Pierrot и игры с Harlequin.</p>",
+      "p2": "<p>Мы рассматриваем Day 3 как <strong>слой прогрессии VN</strong>: психологический хоррор, одержимость, маршруты. После обновления сборки добавим полный гайд с узлами и флагами, как для <a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">дня 1</a> и <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">дня 2</a>.</p>"
+    },
+    "prepare": {
+      "title": "Как подготовить сейвы перед днём 3",
+      "p1": "<p><strong>Цель:</strong> чистые сейвы для быстрого ухода в маршрут Pierrot, Harlequin или нейтральную тайну.</p>",
+      "p2": "<p>Все ссылки ниже ведут только по домену thefreakcircus.org.</p>",
+      "list": "<li>Пройдите <strong>день 1</strong> с нужными выборами; детали — <a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">гайд дня 1</a>.</li><li>Завершите <strong>день 2</strong> и соберите нужные концовки/шатры — <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">полный гайд дня 2</a>.</li><li>Просмотрите <a href=\"/wiki\" class=\"content-link\">вики</a>: <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a>, связь трагедии Columbina с конфликтом героев.</li><li>Делайте несколько сейвов с метками по <strong>приоритету романса</strong> и <strong>исходам дня 2</strong>.</li><li>Установите последнюю сборку с <a href=\"/download\" class=\"content-link\">страницы загрузки</a>.</li>",
+      "p3": "<p>Когда страница станет полным гайдом, вверху закрепим тайминг выборов, пропускаемые сцены и глоссарий концовок.</p>",
+      "tipsTitle": "Быстрые советы перед фармом",
+      "tipsIntro": "<p>Для спидранов и коллекционеров <strong>чистых переходов между главами</strong>:</p>",
+      "tipsList": "<li>Копируйте сейв <strong>перед</strong> каждым необратимым выбором в шатрах дня 2.</li><li>Именуйте файлы как <strong>цель+флаг</strong> (пример: <code>HQ-mirror-Y</code>).</li><li>Оставьте «лорный» слот с полным чтением опционального текста.</li><li>После выхода дня 3 начните со слота под нужную <strong>семью концовок главы 3</strong>.</li>"
+    },
+    "expectations": {
+      "title": "Чего игроки реалистично ждут от дня 3",
+      "p1": "<p>Игра после дня 2 всё ещё в разработке — любой список это <strong>ожидание</strong>, не обещание. Но сообщество ждёт <strong>ветвления от сейвов дня 2</strong>, <strong>больше сцен с Pierrot и Harlequin</strong>, <strong>больше экранного времени для носителей лора</strong>.</p>",
+      "card1Title": "Напряжение маршрутов",
+      "card1Body": "<p>Раняя симпатия к Pierrot против манипуляций Harlequin — держите парные сейвы «а если игнорировать?».</p>",
+      "card2Title": "Плотность концовок",
+      "card2Body": "<p>Ясные сигналы к основным финалам и дополнительные сцены для тех, кто прошёл все шатры в <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">дне 2</a>.</p>",
+      "card3Title": "Тон и стримы",
+      "card3Body": "<p>Психологическое давление важнее дешёвых скримеров; соблюдайте правила платформы для хоррора 18+.</p>"
+    },
+    "routes": {
+      "title": "Маршруты, пейринги и концовки",
+      "pierrotTitle": "Сейвы под Pierrot",
+      "pierrotBody": "<p>Меланхоличная близость, одержимость, вина. Отмечайте каждый момент наказания/награды за уязвимость Pierrot. Обновите лор на странице <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>.</p>",
+      "harlequinTitle": "Сейвы под Harlequin",
+      "harlequinBody": "<p>Флирт, хаос, опасность. Harlequin откликается на игру по её правилам. Сверяйтесь с <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>.</p>",
+      "dualTitle": "Две линии и «оба» варианта",
+      "dualBody": "<p>Варианты без полного выбора одного интереса. Не верьте слухам слепо, но храните сейвы, где живы обе линии отношений.</p>"
+    },
+    "faq": {
+      "title": "Частые вопросы (подготовка к дню 3)",
+      "q1": "Уже есть полное прохождение дня 3?",
+      "a1": "<p>Мы собираем <strong>хаб подготовки</strong>; после релиза билда добавим пошаговые сцены в стиле <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">статьи дня 2</a>.</p>",
+      "q2": "Где патчноуты и длинные гайды?",
+      "a2": "<p><a href=\"/updates\" class=\"content-link\">Обновления</a>, <a href=\"/blog\" class=\"content-link\">блог</a>, похожие игры — <a href=\"/games\" class=\"content-link\">список VN</a>.</p>",
+      "q3": "День 3 продолжает тёмные темы дня 2?",
+      "a3": "<p>Логична преемственность: похищение, давление, лор Columbina — при необходимости откройте <a href=\"/wiki\" class=\"content-link\">вики</a>.</p>",
+      "q4": "Какие ключевые слова искать на сайте?",
+      "a4": "<p>Например: <strong>«The Freak Circus Day 3 endings»</strong>, <strong>«Harlequin route»</strong>, <strong>«Columbina»</strong>, <strong>«Ticket Taker mirror»</strong>.</p>"
+    },
+    "moreOnSite": {
+      "title": "Маршрут по сайту",
+      "p1": "<p><a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">День 1</a> → <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">День 2</a> → <a href=\"/wiki\" class=\"content-link\">Вики</a> → <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, <a href=\"/jester\" class=\"content-link\">Jester</a> → <a href=\"/download\" class=\"content-link\">Загрузка</a>.</p>"
+    },
+    "disclaimer": "<p><strong>Примечание:</strong> thefreakcircus.org — независимый фан-гайд. Сроки и условия концовок меняются — проверяйте <a href=\"/updates\" class=\"content-link\">обновления</a>.</p>"
   }
 }

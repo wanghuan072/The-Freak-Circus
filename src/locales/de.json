@@ -79,6 +79,11 @@
       "title": "The Freak Circus Pierrot Zum Ausmalen Kawaii - Kostenlose Malvorlagen | thefreakcircus.org",
       "description": "Lade kostenlose The Freak Circus Pierrot Malvorlagen herunter! Niedliche Kawaii-Pierrot-zum-Ausmalen-Designs, perfekt für Fans der psychologischen Horror-Visual-Novel.",
       "keywords": "The Freak Circus Pierrot zum Ausmalen, Kawaii Pierrot, Malvorlagen, kostenloser Download, Visual Novel, thefreakcircus.org"
+    },
+    "day3": {
+      "title": "The Freak Circus Day 3 — Kapitel 3 Walkthrough-Hub & Routen-Vorbereitung | thefreakcircus.org",
+      "description": "The Freak Circus Day 3 Hub: Save-Vorbereitung, Pierrot- & Harlequin-Routen, Day-1–3-Vergleichstabelle, Otome- & Horror-VN-Enden, Columbina-Checkliste und interne Guide-Links.",
+      "keywords": "The Freak Circus Day 3, Day 3 Walkthrough, Kapitel 3 Guide, Pierrot Route, Harlequin Route, Otome Guide, psychologischer Horror Visual Novel, Day Vergleich, Multiple Endings, Columbina, Final Act, Zirkuszelt Guide, thefreakcircus.org"
     }
   },
   "nav": {
@@ -91,6 +96,7 @@
     "doctor": "Doktor",
     "ticketTaker": "Ticket Taker",
     "wiki": "Wiki",
+    "day3": "Day 3",
     "visualNovelGames": "Visual Novel Spiele",
     "blog": "Blog",
     "download": "Herunterladen",
@@ -1326,5 +1332,78 @@
       "description1": "Dieses Abkommen begründet keine Partnerschaft, Joint Venture, Beschäftigung oder Vertretung zwischen Ihnen und <strong>The Freak Circus</strong>. Unwirksame Bestimmungen werden entfernt, ohne die übrigen Bestimmungen zu beeinträchtigen.",
       "description2": "Sie dürfen Rechte oder Pflichten ohne unsere Zustimmung nicht übertragen, wir können unsere Rechte jedoch frei abtreten. Die Nichterfüllung einer Bestimmung bedeutet nicht den Verzicht auf spätere Durchsetzung. Dieses Abkommen bildet zusammen mit den einbezogenen Bedingungen die vollständige Vereinbarung zwischen Ihnen und <strong>The Freak Circus</strong> und ersetzt alle vorherigen Vereinbarungen. Mitteilungen können per E-Mail, Post oder Veröffentlichung auf der Website erfolgen. <strong>The Freak Circus</strong> haftet nicht für Nichterfüllung aufgrund unkontrollierbarer Umstände."
     }
+  },
+  "Day3Page": {
+    "header": {
+      "title": "The Freak Circus Day 3",
+      "subtitle": "Walkthrough-Hub, Routen-Vorbereitung und Kapitel-3-Keywords — für Spieler auf Pierrot-, Harlequin- und Zirkus-Endings.",
+      "backToHome": "Start",
+      "blog": "Blog",
+      "wiki": "Wiki",
+      "download": "Download"
+    },
+    "intro": "<p>Wenn du nach einem <strong>The Freak Circus Day 3 Walkthrough</strong>, <strong>Kapitel-3-Guide</strong> oder <strong>Day-3-Enden</strong> suchst, ist diese Seite dein <strong>Einstieg auf der Domain</strong>. Day 3 ist der nächste große Beat nach Day-2-Zelten, Columbina-Lore und der verschärften Rivalität zwischen <a href=\"/pierrot\" class=\"content-link\">Pierrot</a> und <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>. Bis der vollständige Szenen-Guide fertig ist, nutze die Seite für <strong>Save-Planung</strong> und springe zu unseren <a href=\"/blog\" class=\"content-link\">Walkthrough-Artikeln</a>.</p>",
+    "images": {
+      "heroAlt": "The Freak Circus Zirkusstimmung — Day-3-Guide-Header",
+      "day2TentsAlt": "The Freak Circus Day-2-Update — drei Zelte und eskalierende Story",
+      "pierrotCardAlt": "Pierrot — melancholischer Clown-Routen-Prep",
+      "harlequinCardAlt": "Harlequin — Trickster-Romanzen-Routen-Prep",
+      "dualCardAlt": "Gameplay-Stille — Dual-Interest- und Neutral-Mystery-Saves planen"
+    },
+    "compare": {
+      "title": "Day 1 vs Day 2 vs Day 3 — Story-Bogen auf einen Blick",
+      "intro": "<p>Diese <strong>Vergleichstabelle</strong> fasst zusammen, was du in jedem Bogen trainierst. Die Day-3-Zeile ist <strong>Spielererwartung</strong> und kann sich ändern.</p>",
+      "tableHtml": "<div class=\"day3-table-scroll\"><table class=\"day3-table\"><caption>Story-Bogen-Vergleich — The Freak Circus Progression</caption><thead><tr><th scope=\"col\">Bogen</th><th scope=\"col\">Worauf du dich einstellst</th><th scope=\"col\">Guide auf dieser Site</th></tr></thead><tbody><tr><th scope=\"row\">Day 1</th><td>Straßenaufbau, erste moralische Gabeln, Pierrots Verletzlichkeit, früh Harlequin-Reibung.</td><td><a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">Day-1-Walkthrough</a></td></tr><tr><th scope=\"row\">Day 2</th><td>Zelt-Routen, Columbina-Legende, Jester-Erzählung, Doctor- &amp; Ticket-Taker-Horror.</td><td><a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day-2-Komplettguide</a></td></tr><tr><th scope=\"row\">Day 3 (geplant)</th><td>Höhere Einsätze, strengere Routen-Locks, Payoff für Pierrot/Harlequin/neutrale Mystery-Saves.</td><td><em>Diese Seite — Schritt für Schritt nach Release</em></td></tr></tbody></table></div>"
+    },
+    "whatIs": {
+      "title": "Was ist Day 3 in The Freak Circus?",
+      "p1": "<p>In Community-Kurzform bedeutet <strong>Day 3</strong> meist das <strong>nächste große Kapitel</strong> nach Day 1 (Straße, Pierrots Verletzlichkeit, erste Forks) und Day 2 (Zelte, Columbina, Jester/Doctor/Ticket Taker). Viele ordnen es dem weiteren <strong>Final Act</strong> zu — höhere Einsätze, engere Locks, Konsequenzen aus Hilfe für Pierrot und Harlequins Spielchen.</p>",
+      "p2": "<p>Wir behandeln Day 3 als <strong>VN-Progressions-Layer</strong>: psychologischer Horror, Obsession, Routen — kein Minispiel. Nach dem Build-Update erweitern wir hier wie bei <a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">Day 1</a> und <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2</a> einen vollen Walkthrough mit Knoten, Flags und Endbedingungen.</p>"
+    },
+    "prepare": {
+      "title": "Spielstände vor Day 3 vorbereiten",
+      "p1": "<p><strong>Ziel:</strong> saubere Saves, um schnell in Pierrot-, Harlequin- oder neutrale Mystery-Routen zu springen.</p>",
+      "p2": "<p>Alle Links bleiben auf thefreakcircus.org.</p>",
+      "list": "<li><strong>Day 1</strong> mit gewünschten Locks beenden — Details im <a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">Day-1-Guide</a>.</li><li><strong>Day 2</strong> komplettieren und Enden/Zelte einsammeln — <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day-2-Komplettguide</a>.</li><li><a href=\"/wiki\" class=\"content-link\">Wiki</a> für <a href=\"/jester\" class=\"content-link\">Jester</a>, <a href=\"/doctor\" class=\"content-link\">Doctor</a>, <a href=\"/ticket-taker\" class=\"content-link\">Ticket Taker</a> und Columbinas Tragödie vs. Pierrot/Harlequin.</li><li>Mehrere Saves nach <strong>Romance-Prio</strong> und <strong>Day-2-Ergebnis</strong> labeln.</li><li>Aktuellen Build von der <a href=\"/download\" class=\"content-link\">Download-Seite</a> installieren.</li>",
+      "p3": "<p>Wenn die Seite vollständig wird, pinnen wir Timing, missable Szenen und ein Ending-Glossar oben an.</p>",
+      "tipsTitle": "Schnelle Tipps vor dem Grinden",
+      "tipsIntro": "<p>Für Speedrunner und Sammler mit <strong>sauberen Kapitel-Sprüngen</strong>:</p>",
+      "tipsList": "<li>Vor <strong>jedem</strong> irreversiblen Choice in Day-2-Zelten duplizieren.</li><li>Dateinamen: <strong>Ziel+Flag</strong> (z. B. <code>HQ-mirror-Y</code>).</li><li>Einen „Lore“-Slot mit allen optionalen Texten behalten.</li><li>Nach Day-3-Launch zuerst den Slot spielen, der zur gewünschten <strong>Kapitel-3-Endfamilie</strong> passt.</li>"
+    },
+    "expectations": {
+      "title": "Was Spieler realistisch erwarten",
+      "p1": "<p>Das Spiel entwickelt sich weiter — Featurelisten sind <strong>Erwartung</strong>. Trotzdem hoffen Fans auf <strong>stärkere Verzweigung an Day-2-Saves</strong>, <strong>mehr Payoff für Pierrot und Harlequin</strong> und <strong>mehr Zeit für Lore-Charaktere</strong>.</p>",
+      "card1Title": "Routen-Spannung",
+      "card1Body": "<p>Frühe Empathie für Pierrot vs. Harlequins Manipulation — paart Saves mit „was wäre bei Ignorieren?“.</p>",
+      "card2Title": "Ending-Dichte",
+      "card2Body": "<p>Klare Telegrafie plus Nischenszenen für alle, die in <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2</a> jedes Zelt leeren.</p>",
+      "card3Title": "Ton & Streaming",
+      "card3Body": "<p>Psychologischer Druck statt Billig-Jumpscares; halte dich an Plattform-Regeln für Horror 18+.</p>"
+    },
+    "routes": {
+      "title": "Routen, Ships und Endings",
+      "pierrotTitle": "Pierrot-fokussierte Saves",
+      "pierrotBody": "<p>Melancholische Nähe, Besessenheit, Schuld. Markiere jede Szene, die Pierrots Verletzlichkeit straft oder belohnt. Vorher <a href=\"/pierrot\" class=\"content-link\">Pierrot-Seite</a> lesen.</p>",
+      "harlequinTitle": "Harlequin-fokussierte Saves",
+      "harlequinBody": "<p>Flirt, Chaos, Gefahr. Harlequin reagiert auf ihre Tests statt Moralpredigten. Siehe <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>.</p>",
+      "dualTitle": "Dual-Interest & „beides“",
+      "dualBody": "<p>Variationen ohne klaren Single-LI-Commit. Gerüchte kritisch sehen, Saves behalten, wo beide Tracks plausibel bleiben.</p>"
+    },
+    "faq": {
+      "title": "FAQ (Day-3-Vorbereitung)",
+      "q1": "Gibt es schon einen vollen Day-3-Walkthrough?",
+      "a1": "<p>Wir bauen diesen Hub als Landepunkt; nach öffentlichem Build kommen Szenen-Schritte wie im <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day-2-Artikel</a>.</p>",
+      "q2": "Wo Patchnotes und lange Guides?",
+      "a2": "<p><a href=\"/updates\" class=\"content-link\">Updates</a>, <a href=\"/blog\" class=\"content-link\">Blog-Index</a>, ähnliche Titel unter <a href=\"/games\" class=\"content-link\">Visual Novel Games</a>.</p>",
+      "q3": "Setzt Day 3 Day-2-Darkness fort?",
+      "a3": "<p>Kontinuität ist zu erwarten: Entführung, Druck, Lore — bei Lücken <a href=\"/wiki\" class=\"content-link\">Wiki</a> öffnen.</p>",
+      "q4": "Welche Keywords auf dieser Site suchen?",
+      "a4": "<p>Z. B. <strong>„The Freak Circus Day 3 endings“</strong>, <strong>„Harlequin route guide“</strong>, <strong>„Columbina“</strong>, <strong>„Ticket Taker mirror“</strong>.</p>"
+    },
+    "moreOnSite": {
+      "title": "Empfohlene Lesereihenfolge",
+      "p1": "<p><a href=\"/blog/the-freak-circus-day-1-walkthrough-guide\" class=\"content-link\">Day 1</a> → <a href=\"/blog/the-freak-circus-day-2-complete-walkthrough-guide\" class=\"content-link\">Day 2</a> → <a href=\"/wiki\" class=\"content-link\">Wiki</a> → <a href=\"/pierrot\" class=\"content-link\">Pierrot</a>, <a href=\"/harlequin\" class=\"content-link\">Harlequin</a>, <a href=\"/jester\" class=\"content-link\">Jester</a> → <a href=\"/download\" class=\"content-link\">Download</a>.</p>"
+    },
+    "disclaimer": "<p><strong>Hinweis:</strong> thefreakcircus.org ist ein unabhängiges Fan-Guide-Netzwerk. Zeitpläne und Endbedingungen können sich ändern — vor jedem Run <a href=\"/updates\" class=\"content-link\">Updates</a> prüfen.</p>"
   }
 }

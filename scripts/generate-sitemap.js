@@ -18,6 +18,7 @@ const routes = [
     { path: '/doctor', name: 'doctor', priority: 0.8, changefreq: 'weekly' },
     { path: '/ticket-taker', name: 'ticketTaker', priority: 0.8, changefreq: 'weekly' },
     { path: '/wiki', name: 'wiki', priority: 0.7, changefreq: 'weekly' },
+    { path: '/day-3', name: 'day3', priority: 0.65, changefreq: 'weekly' },
     { path: '/updates', name: 'updates', priority: 0.6, changefreq: 'weekly' },
     { path: '/download', name: 'download', priority: 0.9, changefreq: 'weekly' },
     { path: '/games', name: 'games', priority: 0.8, changefreq: 'weekly' },
