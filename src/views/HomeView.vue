@@ -32,7 +32,7 @@
         </div>
         -->
 
-        <!-- <div ref="gAdsHero" class="adsterra-native-wrap">
+        <div ref="gAdsHero" class="adsterra-native-wrap">
           <ins
             v-if="!isMobile"
             class="adsbygoogle"
@@ -51,7 +51,7 @@
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-        </div> -->
+        </div>
       </div>
     </section>
 
@@ -116,7 +116,7 @@
         </div>
 
         <!-- 首页当前启用：第 1 组横幅（HPF）；另两组见 About / CTA 注释块 -->
-        <!-- <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728Ref"></div>
+        <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728Ref"></div>
         <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300Ref"></div>
         <div ref="gAdsPlay" class="adsterra-banner-slot">
           <ins
@@ -137,7 +137,7 @@
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-        </div> -->
+        </div>
       </div>
     </section>
 
@@ -184,7 +184,7 @@
         <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300bRef"></div>
         -->
 
-        <!-- <div ref="gAdsAbout" class="adsterra-banner-slot">
+        <div ref="gAdsAbout" class="adsterra-banner-slot">
           <ins
             v-if="!isMobile"
             class="adsbygoogle"
@@ -203,7 +203,7 @@
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-        </div> -->
+        </div>
       </div>
     </section>
 
@@ -395,7 +395,7 @@
           <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300cRef"></div>
           -->
 
-          <!-- <div ref="gAdsCta" class="adsterra-banner-slot">
+          <div ref="gAdsCta" class="adsterra-banner-slot">
             <ins
               v-if="!isMobile"
               class="adsbygoogle"
@@ -414,7 +414,7 @@
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
-          </div> -->
+          </div>
 
           <!-- Reviews Section -->
           <div class="reviews-section">
@@ -500,11 +500,11 @@ async function pushAdsenseInHome() {
 }
 
 watch(isMobile, () => {
-  // void pushAdsenseInHome()
+  void pushAdsenseInHome()
 })
 
 onMounted(() => {
-  // void pushAdsenseInHome()
+  void pushAdsenseInHome()
 })
 
 // 第 2、3 组横幅与「全开」示例（与 template 注释块对应；恢复时取消注释并改上一行）：
