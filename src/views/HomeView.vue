@@ -1,6 +1,6 @@
 <template>
   <div class="home-page">
-    <AppHeader />
+    <AppHeader :class="{ hidden: webFullscreen }" />
 
     <!-- Hero Section -->
     <section class="section hero">
@@ -60,38 +60,106 @@
       <div class="container">
         <h2 class="section-title">Play The Freak Circus Online</h2>
         <div class="play-game-content">
-          <div class="game-container">
-            <!-- 背景毛玻璃效果 - 只在游戏未加载时显示 -->
-            <div class="game-background" v-if="!gameLoaded">
-              <div class="background-blur"></div>
-            </div>
-
-            <!-- 蒙版层 - 确保LCP元素立即可见 -->
-            <div class="game-mask" @click="loadGame" v-if="!gameLoaded">
-              <div class="game-icon">
-                <img
-                  src="/images/game-play.webp"
-                  alt="The Freak Circus Icon"
-                  loading="lazy"
-                  decoding="async"
-                />
+          <div
+            ref="gamePlayerPlaceholderRef"
+            class="game-player-placeholder"
+            :style="placeholderStyle"
+          >
+            <div v-if="!gameLoaded" class="game-container">
+              <div class="game-background">
+                <div class="background-blur"></div>
               </div>
-              <div class="play-button" @click.stop="loadGame">
-                <div class="play-icon">▶</div>
-                <span>PLAY</span>
+              <div class="game-mask" @click="loadGame">
+                <div class="game-icon">
+                  <img
+                    src="/images/game-play.webp"
+                    alt="The Freak Circus Icon"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="play-button" @click.stop="loadGame">
+                  <div class="play-icon">▶</div>
+                  <span>PLAY</span>
+                </div>
               </div>
             </div>
-
-            <!-- 游戏iframe -->
-            <iframe
-              v-if="gameLoaded"
-              src="https://itch.io/embed-upload/16572088"
-              width="100%"
-              height="600"
-              frameborder="0"
-            >
-            </iframe>
           </div>
+
+          <Teleport to="body">
+            <div
+              v-if="gameLoaded"
+              ref="gamePlayerWrapperRef"
+              class="game-player-wrapper"
+              :class="{ 'web-fullscreen': webFullscreen }"
+              :style="dockStyle"
+            >
+              <div ref="gameContainerRef" class="game-container with-control-bar">
+                <iframe
+                  id="home-game-iframe"
+                  src="https://itch.io/embed-upload/16572088"
+                  width="100%"
+                  height="600"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div class="game-control-bar">
+                <div class="control-buttons">
+                  <button class="control-btn" @click="toggleWebFullscreen" title="Web Fullscreen">
+                    <svg
+                      class="icon"
+                      viewBox="0 0 1024 1024"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="200"
+                      height="200"
+                    >
+                      <path
+                        d="M547.4 197.4v46l200.3 0.1L546.1 444l32.4 32.6 201.9-200.7v200.9h46V197.5zM471.4 584.4l-32.6-32.6L243.6 747V547.9h-46v278.7h279v-46H275z"
+                        fill="#ffffff"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button class="control-btn" @click="toggleFullscreen" title="Fullscreen">
+                    <svg
+                      class="icon"
+                      viewBox="0 0 1024 1024"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="200"
+                      height="200"
+                    >
+                      <path
+                        d="M95.500388 368.593511c0 11.905658-9.637914 21.543572-21.543573 21.543572-11.877311 0-21.515225-9.637914-21.515225-21.543572V188.704684c0-37.502824 15.307275-71.575684 39.997343-96.265751s58.762928-39.997342 96.265751-39.997343h179.888827c11.905658 0 21.543572 9.637914 21.543572 21.515225 0 11.905658-9.637914 21.543572-21.543572 21.543573H188.704684c-25.625512 0-48.926586 10.488318-65.821282 27.383014s-27.383014 40.19577-27.383014 65.821282v179.888827z m559.906101-273.093123c-11.877311 0-21.515225-9.637914-21.515226-21.543573 0-11.877311 9.637914-21.515225 21.515226-21.515225h179.917174c37.502824 0 71.547337 15.307275 96.237404 39.997343s40.025689 58.762928 40.02569 96.265751v179.888827c0 11.905658-9.637914 21.543572-21.543572 21.543572-11.877311 0-21.515225-9.637914-21.515226-21.543572V188.704684c0-25.625512-10.488318-48.926586-27.411361-65.821282-16.894696-16.894696-40.19577-27.383014-65.792935-27.383014h-179.917174z m273.12147 559.906101c0-11.877311 9.637914-21.515225 21.515226-21.515226 11.905658 0 21.543572 9.637914 21.543572 21.515226v179.917174c0 37.474477-15.335622 71.547337-40.02569 96.237404s-58.734581 39.997342-96.237404 39.997343h-179.917174c-11.877311 0-21.515225-9.637914-21.515226-21.515225s9.637914-21.543572 21.515226-21.543573h179.917174c25.597165 0 48.898239-10.488318 65.792935-27.383014 16.923043-16.894696 27.411361-40.19577 27.411361-65.792935v-179.917174z m-559.934448 273.093123c11.905658 0 21.543572 9.666261 21.543572 21.543573s-9.637914 21.515225-21.543572 21.515225H188.704684c-37.502824 0-71.575684-15.307275-96.265751-39.997343s-39.997342-58.762928-39.997343-96.237404v-179.917174c0-11.877311 9.637914-21.515225 21.515225-21.515226 11.905658 0 21.543572 9.637914 21.543573 21.515226v179.917174c0 25.597165 10.488318 48.898239 27.383014 65.792935s40.19577 27.383014 65.821282 27.383014h179.888827z"
+                        fill="#ffffff"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div v-show="webFullscreen" ref="gAdsFullscreen" class="fullscreen-ad-slot">
+                <ins
+                  v-if="!isMobile"
+                  class="adsbygoogle"
+                  style="display: block"
+                  data-ad-client="ca-pub-5437957765171705"
+                  data-ad-slot="1818565461"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                ></ins>
+                <ins
+                  v-else
+                  class="adsbygoogle"
+                  style="display: block"
+                  data-ad-client="ca-pub-5437957765171705"
+                  data-ad-slot="1185736536"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                ></ins>
+              </div>
+            </div>
+          </Teleport>
 
           <!-- More Games List -->
           <div class="more-games-section">
@@ -443,7 +511,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, nextTick } from 'vue'
+import { ref, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
@@ -460,6 +528,7 @@ const gAdsHero = ref(null)
 const gAdsPlay = ref(null)
 const gAdsAbout = ref(null)
 const gAdsCta = ref(null)
+const gAdsFullscreen = ref(null)
 
 function waitAdsenseLoaded() {
   if (typeof window === 'undefined') return Promise.resolve()
@@ -481,20 +550,26 @@ function waitAdsenseLoaded() {
   })
 }
 
+async function pushAdsenseInSlot(slotRef) {
+  await waitAdsenseLoaded()
+  await nextTick()
+  const wrap = slotRef.value
+  if (!wrap?.querySelector) return
+  const ins = wrap.querySelector('ins.adsbygoogle')
+  if (!ins || ins.dataset.adsenseLoaded) return
+  try {
+    ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+    ins.dataset.adsenseLoaded = '1'
+  } catch (_) {}
+}
+
 async function pushAdsenseInHome() {
   await waitAdsenseLoaded()
   await nextTick()
   await nextTick()
   const roots = [gAdsHero, gAdsPlay, gAdsAbout, gAdsCta]
   for (const r of roots) {
-    await nextTick()
-    const wrap = r.value
-    if (!wrap?.querySelector) continue
-    const ins = wrap.querySelector('ins.adsbygoogle')
-    if (!ins) continue
-    try {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    } catch (_) {}
+    await pushAdsenseInSlot(r)
     await new Promise((res) => requestAnimationFrame(() => res()))
   }
 }
@@ -600,6 +675,114 @@ const loadGame = () => {
 
 // 游戏加载状态 - 初始为false，确保LCP元素立即可见
 const gameLoaded = ref(false)
+const gamePlayerPlaceholderRef = ref(null)
+const gamePlayerWrapperRef = ref(null)
+const gameContainerRef = ref(null)
+const webFullscreen = ref(false)
+const dockStyle = ref({})
+const placeholderStyle = ref({})
+
+let dockRaf = 0
+let playerResizeObserver = null
+
+const updateDockPosition = () => {
+  const placeholder = gamePlayerPlaceholderRef.value
+  const wrapper = gamePlayerWrapperRef.value
+
+  if (!gameLoaded.value || !placeholder) {
+    dockStyle.value = {}
+    return
+  }
+
+  if (webFullscreen.value) {
+    dockStyle.value = {}
+    placeholderStyle.value = { minHeight: `${wrapper?.offsetHeight || placeholder.offsetHeight}px` }
+    return
+  }
+
+  const rect = placeholder.getBoundingClientRect()
+  dockStyle.value = {
+    position: 'fixed',
+    top: `${rect.top}px`,
+    left: `${rect.left}px`,
+    width: `${rect.width}px`,
+    zIndex: '20',
+  }
+
+  if (wrapper) {
+    placeholderStyle.value = { minHeight: `${wrapper.offsetHeight}px` }
+  }
+}
+
+const scheduleDockUpdate = () => {
+  if (dockRaf) cancelAnimationFrame(dockRaf)
+  dockRaf = requestAnimationFrame(() => {
+    dockRaf = 0
+    updateDockPosition()
+  })
+}
+
+const bindPlayerResizeObserver = () => {
+  playerResizeObserver?.disconnect()
+  const wrapper = gamePlayerWrapperRef.value
+  if (!wrapper) return
+  playerResizeObserver = new ResizeObserver(() => scheduleDockUpdate())
+  playerResizeObserver.observe(wrapper)
+}
+
+const toggleWebFullscreen = () => {
+  webFullscreen.value = !webFullscreen.value
+}
+
+watch(gameLoaded, async (val) => {
+  if (!val) return
+  await nextTick()
+  bindPlayerResizeObserver()
+  scheduleDockUpdate()
+})
+
+watch(webFullscreen, async (val) => {
+  document.body.style.overflow = val ? 'hidden' : ''
+  await nextTick()
+  scheduleDockUpdate()
+  if (val) {
+    await pushAdsenseInSlot(gAdsFullscreen)
+  }
+})
+
+watch(isMobile, async () => {
+  if (webFullscreen.value) {
+    await nextTick()
+    await pushAdsenseInSlot(gAdsFullscreen)
+  }
+  scheduleDockUpdate()
+})
+
+const toggleFullscreen = () => {
+  const target = gameContainerRef.value
+  if (!target) return
+
+  if (!document.fullscreenElement) {
+    target.requestFullscreen().catch((err) => {
+      console.error(`Error attempting to enable fullscreen: ${err.message}`)
+    })
+  } else {
+    document.exitFullscreen()
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', scheduleDockUpdate, { passive: true })
+  window.addEventListener('resize', scheduleDockUpdate)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', scheduleDockUpdate)
+  window.removeEventListener('resize', scheduleDockUpdate)
+  playerResizeObserver?.disconnect()
+  if (dockRaf) cancelAnimationFrame(dockRaf)
+  document.body.style.overflow = ''
+})
 </script>
 
 <style scoped>
@@ -913,6 +1096,92 @@ const gameLoaded = ref(false)
 }
 
 /* Play Game Section */
+.hidden {
+  display: none !important;
+}
+
+.game-player-placeholder {
+  width: 100%;
+}
+
+.game-player-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-container:fullscreen {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.game-container:fullscreen iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.game-player-wrapper.web-fullscreen {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  background: #000;
+  z-index: 99999;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.game-player-wrapper.web-fullscreen .game-container {
+  flex: 1;
+  width: 100%;
+  margin: 0;
+  aspect-ratio: unset;
+  height: auto;
+  min-height: 0;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.game-player-wrapper.web-fullscreen .game-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.game-player-wrapper.web-fullscreen .game-control-bar {
+  flex-shrink: 0;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  border-top: 2px solid #333;
+}
+
+.fullscreen-ad-slot {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  overflow: hidden;
+}
+
+.game-player-wrapper.web-fullscreen .fullscreen-ad-slot {
+  margin: 0;
+  padding: 8px 0;
+}
+
 .game-container {
   position: relative;
   width: 100%;
@@ -921,6 +1190,53 @@ const gameLoaded = ref(false)
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.game-container.with-control-bar {
+  border-radius: 20px 20px 0 0;
+  border: 2px solid #333;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.game-control-bar {
+  background: #1a1a1a;
+  border: 2px solid #333;
+  border-top: none;
+  border-radius: 0 0 20px 20px;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.control-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.control-btn {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #333;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+.control-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #555;
+}
+
+.control-btn svg {
+  width: 16px;
+  height: 16px;
 }
 
 /* 背景毛玻璃效果 */
