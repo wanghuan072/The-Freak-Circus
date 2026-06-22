@@ -183,9 +183,10 @@
           </div>
         </div>
 
-        <!-- 首页当前启用：第 1 组横幅（HPF）；另两组见 About / CTA 注释块 -->
+        <!-- 联盟横幅第 1 组：需要时取消注释，并在 script 中恢复 useAdsterraPageAds
         <div v-if="!isMobile" class="adsterra-banner-slot" ref="ad728Ref"></div>
         <div v-if="isMobile" class="adsterra-banner-slot" ref="ad300Ref"></div>
+        -->
         <div ref="gAdsPlay" class="adsterra-banner-slot">
           <ins
             v-if="!isMobile"
@@ -517,13 +518,15 @@ import AppFooter from '@/components/AppFooter.vue'
 import { reviews } from '@/data/reviews.js'
 import '@/assets/css/public.css'
 import { useI18n } from 'vue-i18n'
-import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
+import { useDeviceDetection } from '@/utils/useDeviceDetection'
+// import { useAdsterraPageAds } from '@/composables/useAdsterraPageAds'
 const { locale } = useI18n()
 
-/* Native 已由 Hero 注释关闭；当前仅注入第 1 组横幅 slot。恢复 Native 时请取消注释对应 DOM，必要时传空数组仅用 Native */
-const ad728Ref = ref(null)
-const ad300Ref = ref(null)
-const { isMobile } = useAdsterraPageAds([ad728Ref], [ad300Ref])
+/* 联盟广告已停用：恢复 Native / 横幅时请取消 template 注释块，并改回 useAdsterraPageAds */
+const { isMobile } = useDeviceDetection()
+// const ad728Ref = ref(null)
+// const ad300Ref = ref(null)
+// const { isMobile } = useAdsterraPageAds([ad728Ref], [ad300Ref])
 const gAdsHero = ref(null)
 const gAdsPlay = ref(null)
 const gAdsAbout = ref(null)
