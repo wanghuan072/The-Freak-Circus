@@ -97,7 +97,7 @@
               <div ref="gameContainerRef" class="game-container with-control-bar">
                 <iframe
                   id="home-game-iframe"
-                  src="https://itch.io/embed-upload/16572088"
+                  src="https://freakcircus.brushjjaemu.site/origina/index.html"
                   width="100%"
                   height="600"
                   frameborder="0"
