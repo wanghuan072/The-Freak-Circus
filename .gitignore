@@ -13,6 +13,8 @@ dist
 dist-ssr
 coverage
 *.local
+.next/
+.next-audit/
 
 /cypress/videos/
 /cypress/screenshots/

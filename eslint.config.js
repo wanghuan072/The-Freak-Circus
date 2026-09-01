@@ -1,16 +1,15 @@
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 import js from '@eslint/js'
-import pluginVue from 'eslint-plugin-vue'
-import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
+import nextVitals from 'eslint-config-next/core-web-vitals'
 
 export default defineConfig([
   {
     name: 'app/files-to-lint',
-    files: ['**/*.{js,mjs,jsx,vue}'],
+    files: ['**/*.{js,mjs,jsx,ts,tsx}'],
   },
 
-  globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
+  globalIgnores(['**/.next/**', '**/.next-audit/**', '**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
 
   {
     languageOptions: {
@@ -21,16 +20,13 @@ export default defineConfig([
   },
 
   js.configs.recommended,
-  ...pluginVue.configs['flat/essential'],
-  skipFormatting,
+  ...nextVitals,
 
   // Node.js scripts / build-time files
   {
     files: [
-      'vite.config.{js,mjs}',
       'eslint.config.{js,mjs}',
       'scripts/**/*.{js,mjs}',
-      'src/seo/vite-plugin.{js,mjs}',
     ],
     languageOptions: {
       globals: {
@@ -45,5 +41,11 @@ export default defineConfig([
     rules: {
       'no-irregular-whitespace': 'off',
     },
+  },
+
+  // This third-party-compatible collector is preserved byte-for-byte in public/.
+  {
+    files: ['public/collet-data.js'],
+    rules: { 'no-unused-vars': 'off' },
   },
 ])

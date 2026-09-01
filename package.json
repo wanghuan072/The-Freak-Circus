@@ -7,30 +7,28 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --fix",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
     "format": "prettier --write src/",
-    "generate-sitemap": "node scripts/generate-sitemap.js"
+    "generate-sitemap": "next build"
   },
   "dependencies": {
-    "pinia": "^3.0.3",
-    "vue": "^3.5.18",
-    "vue-i18n": "^9.14.5",
-    "vue-router": "^4.5.1"
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
-    "@vitejs/plugin-vue": "^6.0.1",
-    "@vitejs/plugin-vue-jsx": "^5.0.1",
-    "@vue/eslint-config-prettier": "^10.2.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "eslint": "^9.31.0",
-    "eslint-plugin-vue": "~10.3.0",
+    "eslint-config-next": "^16.3.4",
     "globals": "^16.3.0",
     "prettier": "3.6.2",
-    "vite": "^7.0.6",
-    "vite-plugin-html": "^3.2.2",
-    "vite-plugin-vue-devtools": "^8.0.0"
+    "typescript": "^5.9.3"
   }
 }
