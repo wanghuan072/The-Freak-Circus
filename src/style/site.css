@@ -5211,7 +5211,8 @@ code, pre {
 
 .section.hero {
   height: auto;
-  padding: 40px 0;
+  /* 40px content spacing below the fixed 85px desktop navigation. */
+  padding: 125px 0 40px;
 }
 
 /* Hero Section */
@@ -6163,7 +6164,7 @@ code, pre {
 @media (max-width: 1024px) {
   .section.hero {
     height: auto;
-    padding: 40px 0;
+    padding: 125px 0 40px;
   }
 
   .hero-title {
@@ -6207,7 +6208,8 @@ code, pre {
 /* Responsive Design - 768px Mobile */
 @media (max-width: 768px) {
   .section.hero {
-    padding: 40px 0;
+    /* The compact mobile navigation is 65px high. */
+    padding: 105px 0 40px;
   }
 
   .hero-title {
