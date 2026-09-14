@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import type { ReactNode } from 'react'
 import { ClientRuntime } from '@/components/ClientRuntime'
 import { AdRuntime } from '@/components/ads/AdRuntime'
@@ -19,6 +20,19 @@ export const metadata: Metadata = {
 
 const isProduction = process.env.NODE_ENV === 'production'
 
+const makeThisBetterScript = `
+(function () {
+  var script = document.createElement('script');
+  script.src = 'https://unpkg.com/makethisbetter@1';
+  script.async = true;
+  script.onload = function () {
+    if (window.MakeThisBetter) {
+      window.MakeThisBetter.init({ projectKey: 'mtb_proj__yWdg1_ETuQEuXf7h8XpocsRSgjMkQ_q' });
+    }
+  };
+  document.head.appendChild(script);
+})();`
+
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
@@ -26,6 +40,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         {children}
         <ClientRuntime />
         <AdRuntime />
+        {/* MakeThisBetter 全站反馈工具：SDK 加载完成后才初始化，避免脚本竞态报错。 */}
+        <Script id="make-this-better" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: makeThisBetterScript }} />
         <script dangerouslySetInnerHTML={{ __html: "document.addEventListener('click',function(event){var target=event.target instanceof Element?event.target:null;if(!target)return;var desktop=target.closest('.language-dropdown');var mobile=target.closest('.mobile-language-dropdown');if(desktop){document.querySelector('.language-menu')?.classList.toggle('open');return}if(mobile){document.querySelector('.mobile-language-menu')?.classList.toggle('open')}});" }} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH" />
         <script dangerouslySetInnerHTML={{ __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-EXJV3Y1SXH');" }} />
