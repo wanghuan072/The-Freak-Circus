@@ -52,6 +52,22 @@ export function ClientRuntime() {
     const onHeroPlay = () => document.querySelector('.play-game')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     heroPlayButton?.addEventListener('click', onHeroPlay)
 
+    const homeGameMask = document.querySelector<HTMLElement>('.home-page .game-mask')
+    const loadHomeGame = () => {
+      const gameContainer = homeGameMask?.closest<HTMLElement>('.game-container')
+      if (!gameContainer || gameContainer.querySelector('#home-game-iframe')) return
+      const iframe = document.createElement('iframe')
+      iframe.id = 'home-game-iframe'
+      iframe.src = 'https://itch.io/embed-upload/16572088'
+      iframe.title = 'The Freak Circus game'
+      iframe.width = '100%'
+      iframe.height = '600'
+      iframe.frameBorder = '0'
+      iframe.allowFullscreen = true
+      gameContainer.replaceChildren(iframe)
+    }
+    homeGameMask?.addEventListener('click', loadHomeGame)
+
     const playButtons = [...document.querySelectorAll<HTMLButtonElement>('.play-btn[data-iframe-url]')]
     const onPlay = (event: Event) => {
       const button = event.currentTarget as HTMLButtonElement
@@ -92,6 +108,7 @@ export function ClientRuntime() {
       document.querySelector('.mobile-overlay')?.removeEventListener('click', closeMobileMenu)
       languageLinks.forEach((link) => link.removeEventListener('click', onLanguageClick))
       heroPlayButton?.removeEventListener('click', onHeroPlay)
+      homeGameMask?.removeEventListener('click', loadHomeGame)
       playButtons.forEach((button) => button.removeEventListener('click', onPlay))
       controls[0]?.removeEventListener('click', onWebFullscreen)
       controls[1]?.removeEventListener('click', onFullscreen)
