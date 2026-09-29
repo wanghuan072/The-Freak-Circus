@@ -6241,7 +6241,7 @@ code, pre {
   }
 
   .game-container {
-    aspect-ratio: 2/3;
+    aspect-ratio: 16/9;
   }
 
   .section.play-game .play-game-content {

@@ -20,24 +20,35 @@ export function ClientRuntime() {
     })
 
     const closeMobileMenu = () => {
-      document.querySelector('.mobile-menu-btn')?.classList.remove('active')
-      document.querySelector('.mobile-nav')?.classList.remove('open')
-      document.querySelector('.mobile-overlay')?.classList.remove('open')
+      const mobileButton = document.querySelector('.mobile-menu-btn')
+      const mobileNavigation = document.querySelector('.mobile-nav')
+      const mobileOverlay = document.querySelector('.mobile-overlay')
+      if (mobileButton) mobileButton.classList.remove('active')
+      if (mobileNavigation) mobileNavigation.classList.remove('open')
+      if (mobileOverlay) mobileOverlay.classList.remove('open')
     }
     const mobileMenuButton = document.querySelector<HTMLButtonElement>('.mobile-menu-btn')
     const onMobileMenuClick = () => {
-      const open = !mobileMenuButton?.classList.contains('active')
-      mobileMenuButton?.classList.toggle('active', open)
-      mobileMenuButton?.setAttribute('aria-expanded', String(open))
-      document.querySelector('.mobile-nav')?.classList.toggle('open', open)
-      document.querySelector('.mobile-overlay')?.classList.toggle('open', open)
+      const open = !mobileMenuButton || !mobileMenuButton.classList.contains('active')
+      const mobileNavigation = document.querySelector('.mobile-nav')
+      const mobileOverlay = document.querySelector('.mobile-overlay')
+      if (mobileMenuButton) {
+        mobileMenuButton.classList.toggle('active', open)
+        mobileMenuButton.setAttribute('aria-expanded', String(open))
+      }
+      if (mobileNavigation) mobileNavigation.classList.toggle('open', open)
+      if (mobileOverlay) mobileOverlay.classList.toggle('open', open)
     }
-    mobileMenuButton?.addEventListener('click', onMobileMenuClick)
-    document.querySelector('.mobile-overlay')?.addEventListener('click', closeMobileMenu)
+    if (mobileMenuButton) mobileMenuButton.addEventListener('click', onMobileMenuClick)
+    const mobileOverlay = document.querySelector('.mobile-overlay')
+    if (mobileOverlay) mobileOverlay.addEventListener('click', closeMobileMenu)
 
-    document.querySelector('.mobile-dropdown-title')?.addEventListener('click', () => {
-      document.querySelector('.mobile-dropdown')?.classList.toggle('open')
-    })
+    const mobileDropdownTitle = document.querySelector('.mobile-dropdown-title')
+    const mobileDropdown = document.querySelector('.mobile-dropdown')
+    const onMobileDropdownClick = () => {
+      if (mobileDropdown) mobileDropdown.classList.toggle('open')
+    }
+    if (mobileDropdownTitle) mobileDropdownTitle.addEventListener('click', onMobileDropdownClick)
 
     const languageLinks = [...document.querySelectorAll<HTMLAnchorElement>('[data-language]')]
     const onLanguageClick = (event: Event) => {
@@ -49,12 +60,15 @@ export function ClientRuntime() {
     languageLinks.forEach((link) => link.addEventListener('click', onLanguageClick))
 
     const heroPlayButton = document.querySelector<HTMLButtonElement>('.hero-buttons .btn-primary')
-    const onHeroPlay = () => document.querySelector('.play-game')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    heroPlayButton?.addEventListener('click', onHeroPlay)
+    const onHeroPlay = () => {
+      const playGameSection = document.querySelector('.play-game')
+      if (playGameSection) playGameSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+    if (heroPlayButton) heroPlayButton.addEventListener('click', onHeroPlay)
 
     const homeGameMask = document.querySelector<HTMLElement>('.home-page .game-mask')
     const loadHomeGame = () => {
-      const gameContainer = homeGameMask?.closest<HTMLElement>('.game-container')
+      const gameContainer = homeGameMask ? homeGameMask.parentElement : null
       if (!gameContainer || gameContainer.querySelector('#home-game-iframe')) return
       const iframe = document.createElement('iframe')
       iframe.id = 'home-game-iframe'
@@ -64,9 +78,10 @@ export function ClientRuntime() {
       iframe.height = '600'
       iframe.frameBorder = '0'
       iframe.allowFullscreen = true
-      gameContainer.replaceChildren(iframe)
+      while (gameContainer.firstChild) gameContainer.removeChild(gameContainer.firstChild)
+      gameContainer.appendChild(iframe)
     }
-    homeGameMask?.addEventListener('click', loadHomeGame)
+    if (homeGameMask) homeGameMask.addEventListener('click', loadHomeGame)
 
     const playButtons = [...document.querySelectorAll<HTMLButtonElement>('.play-btn[data-iframe-url]')]
     const onPlay = (event: Event) => {
@@ -81,18 +96,21 @@ export function ClientRuntime() {
       iframe.height = '100%'
       iframe.frameBorder = '0'
       iframe.allowFullscreen = true
-      preview.replaceWith(iframe)
+      if (preview.parentNode) preview.parentNode.replaceChild(iframe, preview)
     }
     playButtons.forEach((button) => button.addEventListener('click', onPlay))
 
     const controls = [...document.querySelectorAll<HTMLButtonElement>('.game-control-bar .control-btn')]
     const onWebFullscreen = () => {
       const gameLeft = document.querySelector('.game-left')
-      const enabled = !gameLeft?.classList.contains('web-fullscreen')
-      gameLeft?.classList.toggle('web-fullscreen', enabled)
-      document.querySelector('.game-right')?.classList.toggle('hidden', enabled)
-      document.querySelector('.app-header')?.classList.toggle('hidden', enabled)
-      document.querySelector('footer')?.classList.toggle('hidden', enabled)
+      const enabled = !gameLeft || !gameLeft.classList.contains('web-fullscreen')
+      const gameRight = document.querySelector('.game-right')
+      const appHeader = document.querySelector('.app-header')
+      const footer = document.querySelector('footer')
+      if (gameLeft) gameLeft.classList.toggle('web-fullscreen', enabled)
+      if (gameRight) gameRight.classList.toggle('hidden', enabled)
+      if (appHeader) appHeader.classList.toggle('hidden', enabled)
+      if (footer) footer.classList.toggle('hidden', enabled)
       document.body.style.overflow = enabled ? 'hidden' : ''
     }
     const onFullscreen = () => {
@@ -100,18 +118,19 @@ export function ClientRuntime() {
       if (iframe && !document.fullscreenElement) void iframe.requestFullscreen()
       else if (document.fullscreenElement) void document.exitFullscreen()
     }
-    controls[0]?.addEventListener('click', onWebFullscreen)
-    controls[1]?.addEventListener('click', onFullscreen)
+    if (controls[0]) controls[0].addEventListener('click', onWebFullscreen)
+    if (controls[1]) controls[1].addEventListener('click', onFullscreen)
 
     return () => {
-      mobileMenuButton?.removeEventListener('click', onMobileMenuClick)
-      document.querySelector('.mobile-overlay')?.removeEventListener('click', closeMobileMenu)
+      if (mobileMenuButton) mobileMenuButton.removeEventListener('click', onMobileMenuClick)
+      if (mobileOverlay) mobileOverlay.removeEventListener('click', closeMobileMenu)
+      if (mobileDropdownTitle) mobileDropdownTitle.removeEventListener('click', onMobileDropdownClick)
       languageLinks.forEach((link) => link.removeEventListener('click', onLanguageClick))
-      heroPlayButton?.removeEventListener('click', onHeroPlay)
-      homeGameMask?.removeEventListener('click', loadHomeGame)
+      if (heroPlayButton) heroPlayButton.removeEventListener('click', onHeroPlay)
+      if (homeGameMask) homeGameMask.removeEventListener('click', loadHomeGame)
       playButtons.forEach((button) => button.removeEventListener('click', onPlay))
-      controls[0]?.removeEventListener('click', onWebFullscreen)
-      controls[1]?.removeEventListener('click', onFullscreen)
+      if (controls[0]) controls[0].removeEventListener('click', onWebFullscreen)
+      if (controls[1]) controls[1].removeEventListener('click', onFullscreen)
     }
   }, [])
 

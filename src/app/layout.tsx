@@ -42,7 +42,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <AdRuntime />
         {/* MakeThisBetter 全站反馈工具：SDK 加载完成后才初始化，避免脚本竞态报错。 */}
         <Script id="make-this-better" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: makeThisBetterScript }} />
-        <script dangerouslySetInnerHTML={{ __html: "document.addEventListener('click',function(event){var target=event.target instanceof Element?event.target:null;if(!target)return;var desktop=target.closest('.language-dropdown');var mobile=target.closest('.mobile-language-dropdown');if(desktop){document.querySelector('.language-menu')?.classList.toggle('open');return}if(mobile){document.querySelector('.mobile-language-menu')?.classList.toggle('open')}});" }} />
+        <script dangerouslySetInnerHTML={{ __html: "document.addEventListener('click',function(event){var target=event.target instanceof Element?event.target:null;if(!target)return;var desktop=target.closest('.language-dropdown');var mobile=target.closest('.mobile-language-dropdown');var menu;if(desktop){menu=document.querySelector('.language-menu');if(menu)menu.classList.toggle('open');return}if(mobile){menu=document.querySelector('.mobile-language-menu');if(menu)menu.classList.toggle('open')}});" }} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH" />
         <script dangerouslySetInnerHTML={{ __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-EXJV3Y1SXH');" }} />
         {isProduction && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705" crossOrigin="anonymous" />}
