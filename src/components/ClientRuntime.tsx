@@ -76,7 +76,7 @@ export function ClientRuntime() {
       if (!gameContainer || gameContainer.querySelector('#home-game-iframe')) return
       const iframe = document.createElement('iframe')
       iframe.id = 'home-game-iframe'
-      iframe.src = 'https://itch.io/embed-upload/16572088'
+      iframe.src = 'https://freakcircus.brushjjaemu.site/origina/index.html'
       iframe.title = 'The Freak Circus game'
       iframe.width = '100%'
       iframe.height = '600'
