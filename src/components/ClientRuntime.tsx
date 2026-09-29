@@ -10,7 +10,11 @@ export function ClientRuntime() {
       ? firstSegment
       : defaultLanguage
     document.documentElement.lang = language
-    window.localStorage.setItem('language', language)
+    try {
+      window.localStorage.setItem('language', language)
+    } catch {
+      // Older Safari private browsing can block localStorage; navigation and game controls still work.
+    }
     const basePath = window.location.pathname.replace(/^\/(zh|ja|ru|ko|de|fr|es|pt)(?=\/|$)/, '') || '/'
     const localize = (href: string) => language === defaultLanguage || !href.startsWith('/') || href === `/${language}` || href.startsWith(`/${language}/`)
       ? href
