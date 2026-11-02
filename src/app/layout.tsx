@@ -9,7 +9,7 @@ import { siteName, siteUrl } from '@/config/site'
 import '@/style/site.css'
 import '@/style/ads/alliance.css'
 
-/* eslint-disable @next/next/no-sync-scripts, @next/next/next-script-for-ga */
+/* eslint-disable @next/next/next-script-for-ga */
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -88,8 +88,10 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <script dangerouslySetInnerHTML={{ __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-EXJV3Y1SXH');" }} />
         {/* AdSense SDK 暂停使用，保留代码以便恢复。 */}
         {/* {isProduction && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705" crossOrigin="anonymous" />} */}
-        <script src="/collet-data.js" />
-        <script dangerouslySetInnerHTML={{ __html: "try{window.localStorage.removeItem('__lsv__')}catch(error){}" }} />
+        {/* 数据收集脚本：已停用，保留代码以便恢复。 */}
+        {/* <script src="/collet-data.js" /> */}
+        {/* 清除本地存储：已停用，保留代码以便恢复。 */}
+        {/* <script dangerouslySetInnerHTML={{ __html: "try{window.localStorage.removeItem('__lsv__')}catch(error){}" }} /> */}
       </body>
     </html>
   )
