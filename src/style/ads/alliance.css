@@ -1,0 +1,21 @@
+/* 联盟广告独立样式，不复用 AdSense 容器。 */
+.alliance-ad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.alliance-ad > iframe {
+  display: block;
+  flex-shrink: 0;
+  max-width: 100%;
+  border: 0;
+}
+
+.alliance-ad--native > div {
+  width: 100%;
+  max-width: 100%;
+}

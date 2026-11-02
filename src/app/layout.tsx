@@ -2,9 +2,12 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import type { ReactNode } from 'react'
 import { ClientRuntime } from '@/components/ClientRuntime'
-import { AdRuntime } from '@/components/ads/AdRuntime'
+// AdSense 暂停使用，保留导入以便恢复。
+// import { AdRuntime } from '@/components/ads/AdRuntime'
+import { AllianceRuntime } from '@/components/ads/AllianceRuntime'
 import { siteName, siteUrl } from '@/config/site'
 import '@/style/site.css'
+import '@/style/ads/alliance.css'
 
 /* eslint-disable @next/next/no-sync-scripts, @next/next/next-script-for-ga */
 
@@ -18,7 +21,8 @@ export const metadata: Metadata = {
   icons: { icon: '/favicon.ico' }
 }
 
-const isProduction = process.env.NODE_ENV === 'production'
+// AdSense 暂停使用，恢复 SDK 时一并恢复此变量。
+// const isProduction = process.env.NODE_ENV === 'production'
 
 const makeThisBetterScript = `
 (function () {
@@ -72,7 +76,9 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       <body>
         {children}
         <ClientRuntime />
-        <AdRuntime />
+        {/* AdSense 暂停使用，保留原初始化组件。 */}
+        {/* <AdRuntime /> */}
+        <AllianceRuntime />
         {/* MakeThisBetter 全站反馈工具：SDK 加载完成后才初始化，避免脚本竞态报错。 */}
         <Script id="make-this-better" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: makeThisBetterScript }} />
         {/* 首页游戏点击兜底：兼容无法启动 React 交互脚本的低版本 Safari。 */}
@@ -80,7 +86,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <script dangerouslySetInnerHTML={{ __html: "document.addEventListener('click',function(event){var target=event.target instanceof Element?event.target:null;if(!target)return;var desktop=target.closest('.language-dropdown');var mobile=target.closest('.mobile-language-dropdown');var menu;if(desktop){menu=document.querySelector('.language-menu');if(menu)menu.classList.toggle('open');return}if(mobile){menu=document.querySelector('.mobile-language-menu');if(menu)menu.classList.toggle('open')}});" }} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXJV3Y1SXH" />
         <script dangerouslySetInnerHTML={{ __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-EXJV3Y1SXH');" }} />
-        {isProduction && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705" crossOrigin="anonymous" />}
+        {/* AdSense SDK 暂停使用，保留代码以便恢复。 */}
+        {/* {isProduction && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5437957765171705" crossOrigin="anonymous" />} */}
         <script src="/collet-data.js" />
         <script dangerouslySetInnerHTML={{ __html: "try{window.localStorage.removeItem('__lsv__')}catch(error){}" }} />
       </body>
